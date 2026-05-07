@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="specific-finding-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem specific-finding-cs</b></p><a name="specific-finding-cs"> </a><a name="hcspecific-finding-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">no-finding<a name="specific-finding-cs-no-finding"> </a></td><td>No Finding</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/specific-finding-cs"/>
+  <version value="1.0.0"/>
+  <name value="SpecificFindingCS"/>
+  <title value="SpecificFindingCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/specific-finding-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="no-finding"/>
+    <display value="No Finding"/>
+  </concept>
+</CodeSystem>

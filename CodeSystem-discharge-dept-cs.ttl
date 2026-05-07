@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/discharge-dept-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "discharge-dept-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem discharge-dept-cs</b></p><a name=\"discharge-dept-cs\"> </a><a name=\"hcdischarge-dept-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/discharge-dept-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"discharge-dept-cs-acute\"> </a></td><td>Acute Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">post-care<a name=\"discharge-dept-cs-post-care\"> </a></td><td>Post Care Bed</td></tr><tr><td style=\"white-space:nowrap\">neurology<a name=\"discharge-dept-cs-neurology\"> </a></td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\">another-department<a name=\"discharge-dept-cs-another-department\"> </a></td><td>Another Department</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/discharge-dept-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/discharge-dept-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "DischargeDeptCS"] ; # 
+  fhir:title [ fhir:v "DischargeDeptCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-07T11:15:53+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "acute" ] ;
+     fhir:display [ fhir:v "Acute Rehabilitation" ]
+  ] [
+     fhir:code [ fhir:v "post-care" ] ;
+     fhir:display [ fhir:v "Post Care Bed" ]
+  ] [
+     fhir:code [ fhir:v "neurology" ] ;
+     fhir:display [ fhir:v "Neurology" ]
+  ] [
+     fhir:code [ fhir:v "another-department" ] ;
+     fhir:display [ fhir:v "Another Department" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

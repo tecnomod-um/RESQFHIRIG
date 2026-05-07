@@ -1,0 +1,104 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "specific-finding-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet specific-finding-vs</b></p><a name=\"specific-finding-vs\"> </a><a name=\"hcspecific-finding-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-mtici-code-cs.html\"><code>http://tecnomod-um.org/CodeSystem/mtici-code-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-mtici-code-cs.html#mtici-code-cs-mTICI\">mTICI</a></td><td>mTICI</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/371863001\">371863001</a></td><td>Perfusion finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/787044009\">787044009</a></td><td>Stenosis of bilateral carotid arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16086006\">16086006</a></td><td>Blood volume (observable entity)</td></tr><tr><td><a href=\"http://snomed.info/id/64586002\">64586002</a></td><td>Stenosis of carotid artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230745008\">230745008</a></td><td>Hydrocephalus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/2929001\">2929001</a></td><td>Occlusion of artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1386000\">1386000</a></td><td>Intracranial hemorrhage (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230690007\">230690007</a></td><td>Cerebrovascular accident (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230706003\">230706003</a></td><td>Hemorrhagic cerebral infarction (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-perfusion-volume-cs.html\"><code>http://tecnomod-um.org/CodeSystem/perfusion-volume-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-perfusion-volume-cs.html#perfusion-volume-cs-perf-volume\">perf-volume</a></td><td>Perfusion Volume</td></tr><tr><td><a href=\"CodeSystem-perfusion-volume-cs.html#perfusion-volume-cs-hypo-volume\">hypo-volume</a></td><td>Hypoperfusion Volume</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-old-infarct-cs.html\"><code>http://tecnomod-um.org/CodeSystem/old-infarct-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-old-infarct-cs.html#old-infarct-cs-old-infarct\">old-infarct</a></td><td>Old Infarct</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-specific-finding-cs.html\"><code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-specific-finding-cs.html#specific-finding-cs-no-finding\">no-finding</a></td><td>No Finding</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
+  "version" : "1.0.0",
+  "name" : "SpecificFindingVS",
+  "title" : "SpecificFinding ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for SpecificFinding, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+      "concept" : [{
+        "code" : "mTICI",
+        "display" : "mTICI"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "371863001",
+        "display" : "Perfusion finding (finding)"
+      },
+      {
+        "code" : "787044009",
+        "display" : "Stenosis of bilateral carotid arteries (disorder)"
+      },
+      {
+        "code" : "16086006",
+        "display" : "Blood volume (observable entity)"
+      },
+      {
+        "code" : "64586002",
+        "display" : "Stenosis of carotid artery (disorder)"
+      },
+      {
+        "code" : "230745008",
+        "display" : "Hydrocephalus (disorder)"
+      },
+      {
+        "code" : "2929001",
+        "display" : "Occlusion of artery (disorder)"
+      },
+      {
+        "code" : "1386000",
+        "display" : "Intracranial hemorrhage (disorder)"
+      },
+      {
+        "code" : "230690007",
+        "display" : "Cerebrovascular accident (disorder)"
+      },
+      {
+        "code" : "230706003",
+        "display" : "Hemorrhagic cerebral infarction (disorder)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
+      "concept" : [{
+        "code" : "perf-volume",
+        "display" : "Perfusion Volume"
+      },
+      {
+        "code" : "hypo-volume",
+        "display" : "Hypoperfusion Volume"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
+      "concept" : [{
+        "code" : "old-infarct",
+        "display" : "Old Infarct"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
+      "concept" : [{
+        "code" : "no-finding",
+        "display" : "No Finding"
+      }]
+    }]
+  }
+}

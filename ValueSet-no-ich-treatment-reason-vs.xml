@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="no-ich-treatment-reason-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet no-ich-treatment-reason-vs</b></p><a name="no-ich-treatment-reason-vs"> </a><a name="hcno-ich-treatment-reason-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-stroke-proc-not-done-reason-cs.html"><code>http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-size-hematoma">size-hematoma</a></td><td>Contraindication in hematoma size</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-location-hematoma">location-hematoma</a></td><td>Contraindication in hematoma location</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-consent">consent</a></td><td>Patient or family did not consent</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-cost">cost</a></td><td>Cost of procedure</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-neurosurgery-unavailable">neurosurgery-unavailable</a></td><td>Neurosurgery facility is not available</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-specialist-unavailable">specialist-unavailable</a></td><td>Specialist Not Available</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-other">other</a></td><td>Other Reason</td></tr><tr><td><a href="CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-not-reported">not-reported</a></td><td>Reason for not treating not reported</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/170969009">170969009</a></td><td>Prognosis bad (finding)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/no-ich-treatment-reason-vs"/>
+  <version value="1.0.0"/>
+  <name value="NoIchTreatmentReasonVS"/>
+  <title value="NoIchTreatmentReason ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for NoIchTreatmentReason, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"/>
+      <concept>
+        <code value="size-hematoma"/>
+        <display value="Contraindication in hematoma size"/>
+      </concept>
+      <concept>
+        <code value="location-hematoma"/>
+        <display value="Contraindication in hematoma location"/>
+      </concept>
+      <concept>
+        <code value="consent"/>
+        <display value="Patient or family did not consent"/>
+      </concept>
+      <concept>
+        <code value="cost"/>
+        <display value="Cost of procedure"/>
+      </concept>
+      <concept>
+        <code value="neurosurgery-unavailable"/>
+        <display value="Neurosurgery facility is not available"/>
+      </concept>
+      <concept>
+        <code value="specialist-unavailable"/>
+        <display value="Specialist Not Available"/>
+      </concept>
+      <concept>
+        <code value="other"/>
+        <display value="Other Reason"/>
+      </concept>
+      <concept>
+        <code value="not-reported"/>
+        <display value="Reason for not treating not reported"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="170969009"/>
+        <display value="Prognosis bad (finding)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

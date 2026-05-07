@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "analitics-codes-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet analitics-codes-vs</b></p><a name=\"analitics-codes-vs\"> </a><a name=\"hcanalitics-codes-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/33747003\">33747003</a></td><td>Glucose measurement, blood (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/372361000119104\">372361000119104</a></td><td>Low density lipoprotein cholesterol by direct assay (observable entity)</td></tr><tr><td><a href=\"http://snomed.info/id/165581004\">165581004</a></td><td>International normalized ratio (observable entity)</td></tr><tr><td><a href=\"http://snomed.info/id/386661006\">386661006</a></td><td>Fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/80394007\">80394007</a></td><td>Hyperglycemia (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-analytics-codes-cs.html\"><code>http://tecnomod-um.org/CodeSystem/analytics-codes-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-analytics-codes-cs.html#analytics-codes-cs-ge10\">ge10</a></td><td>Glucose &gt; 10 mmol/L</td></tr><tr><td><a href=\"CodeSystem-analytics-codes-cs.html#analytics-codes-cs-highest-hyperglycemia-value\">highest-hyperglycemia-value</a></td><td>Highest Hyperglycemia Value</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs",
+  "version" : "1.0.0",
+  "name" : "AnaliticsCodesVS",
+  "title" : "AnaliticsCodes ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for AnaliticsCodes, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "33747003",
+        "display" : "Glucose measurement, blood (procedure)"
+      },
+      {
+        "code" : "372361000119104",
+        "display" : "Low density lipoprotein cholesterol by direct assay (observable entity)"
+      },
+      {
+        "code" : "165581004",
+        "display" : "International normalized ratio (observable entity)"
+      },
+      {
+        "code" : "386661006",
+        "display" : "Fever (finding)"
+      },
+      {
+        "code" : "80394007",
+        "display" : "Hyperglycemia (disorder)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+      "concept" : [{
+        "code" : "ge10",
+        "display" : "Glucose > 10 mmol/L"
+      },
+      {
+        "code" : "highest-hyperglycemia-value",
+        "display" : "Highest Hyperglycemia Value"
+      }]
+    }]
+  }
+}

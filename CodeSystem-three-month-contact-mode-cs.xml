@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="three-month-contact-mode-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem three-month-contact-mode-cs</b></p><a name="three-month-contact-mode-cs"> </a><a name="hcthree-month-contact-mode-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">visit-clinic<a name="three-month-contact-mode-cs-visit-clinic"> </a></td><td>Visit to Clinic</td></tr><tr><td style="white-space:nowrap">mobile-app<a name="three-month-contact-mode-cs-mobile-app"> </a></td><td>Mobile application software</td></tr><tr><td style="white-space:nowrap">no-response<a name="three-month-contact-mode-cs-no-response"> </a></td><td>No Response</td></tr><tr><td style="white-space:nowrap">not-contacted<a name="three-month-contact-mode-cs-not-contacted"> </a></td><td>Not Contacted</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"/>
+  <version value="1.0.0"/>
+  <name value="ThreeMonthContactModeCS"/>
+  <title value="ThreeMonthContactModeCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="visit-clinic"/>
+    <display value="Visit to Clinic"/>
+  </concept>
+  <concept>
+    <code value="mobile-app"/>
+    <display value="Mobile application software"/>
+  </concept>
+  <concept>
+    <code value="no-response"/>
+    <display value="No Response"/>
+  </concept>
+  <concept>
+    <code value="not-contacted"/>
+    <display value="Not Contacted"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "procedure-timing-context-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem procedure-timing-context-cs</b></p><a name=\"procedure-timing-context-cs\"> </a><a name=\"hcprocedure-timing-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">post-acute<a name=\"procedure-timing-context-cs-post-acute\"> </a></td><td>Acute Phase (&lt;24h)</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"procedure-timing-context-cs-unknown\"> </a></td><td>Unknown/Not Applicable</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+  "version" : "1.0.0",
+  "name" : "ProcedureTimingContextCS",
+  "title" : "ProcedureTimingContextCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "post-acute",
+    "display" : "Acute Phase (<24h)"
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown/Not Applicable"
+  }]
+}

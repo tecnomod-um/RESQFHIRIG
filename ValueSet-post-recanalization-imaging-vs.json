@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "post-recanalization-imaging-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet post-recanalization-imaging-vs</b></p><a name=\"post-recanalization-imaging-vs\"> </a><a name=\"hcpost-recanalization-imaging-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/396205005\">396205005</a></td><td>Computed tomography of brain without radiopaque contrast (procedure)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-brain-imaging-type-cs.html\"><code>http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-brain-imaging-type-cs.html#brain-imaging-type-cs-mr\">mr</a></td><td>MR</td></tr><tr><td><a href=\"CodeSystem-brain-imaging-type-cs.html#brain-imaging-type-cs-no\">no</a></td><td>No Imaging</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/post-recanalization-imaging-vs",
+  "version" : "1.0.0",
+  "name" : "PostRecanalizationImagingVS",
+  "title" : "PostRecanalizationImaging ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for PostRecanalizationImaging, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "396205005",
+        "display" : "Computed tomography of brain without radiopaque contrast (procedure)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+      "concept" : [{
+        "code" : "mr",
+        "display" : "MR"
+      },
+      {
+        "code" : "no",
+        "display" : "No Imaging"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stroke-etiology-other-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-etiology-other-vs</b></p><a name=\"stroke-etiology-other-vs\"> </a><a name=\"hcstroke-etiology-other-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/31996006\">31996006</a></td><td>Vasculitis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/122459003\">122459003</a></td><td>Dissection of artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/703218000\">703218000</a></td><td>Cerebral vasoconstriction syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/69116000\">69116000</a></td><td>Moyamoya disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16652001\">16652001</a></td><td>Fabry's disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/414341000\">414341000</a></td><td>Giant cell arteritis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/26843008\">26843008</a></td><td>Antiphospholipid syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/127040003\">127040003</a></td><td>Sickle cell-hemoglobin SS disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1263550001\">1263550001</a></td><td>Infarction of brain due to migraine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/192759008\">192759008</a></td><td>Cerebral venous sinus thrombosis (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-stroke-etiology-other-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-etiology-other-cs.html#stroke-etiology-other-cs-coagulation-disorder\">coagulation-disorder</a></td><td>Coagulation system disorder</td></tr><tr><td><a href=\"CodeSystem-stroke-etiology-other-cs.html#stroke-etiology-other-cs-hematological-disease\">hematological-disease</a></td><td>Hematological disease</td></tr><tr><td><a href=\"CodeSystem-stroke-etiology-other-cs.html#stroke-etiology-other-cs-fibromuscular-dysplasia\">fibromuscular-dysplasia</a></td><td>Fibromuscular dysplasia</td></tr><tr><td><a href=\"CodeSystem-stroke-etiology-other-cs.html#stroke-etiology-other-cs-radiation-induced-vasculopathy\">radiation-induced-vasculopathy</a></td><td>Radiation-induced vasculopathy</td></tr><tr><td><a href=\"CodeSystem-stroke-etiology-other-cs.html#stroke-etiology-other-cs-CADASIL\">CADASIL</a></td><td>CADASIL</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeEtiologyOtherVS",
+  "title" : "StrokeEtiologyOther ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for StrokeEtiologyOther, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "31996006",
+        "display" : "Vasculitis (disorder)"
+      },
+      {
+        "code" : "122459003",
+        "display" : "Dissection of artery (disorder)"
+      },
+      {
+        "code" : "703218000",
+        "display" : "Cerebral vasoconstriction syndrome (disorder)"
+      },
+      {
+        "code" : "69116000",
+        "display" : "Moyamoya disease (disorder)"
+      },
+      {
+        "code" : "16652001",
+        "display" : "Fabry's disease (disorder)"
+      },
+      {
+        "code" : "414341000",
+        "display" : "Giant cell arteritis (disorder)"
+      },
+      {
+        "code" : "26843008",
+        "display" : "Antiphospholipid syndrome (disorder)"
+      },
+      {
+        "code" : "127040003",
+        "display" : "Sickle cell-hemoglobin SS disease (disorder)"
+      },
+      {
+        "code" : "1263550001",
+        "display" : "Infarction of brain due to migraine (disorder)"
+      },
+      {
+        "code" : "192759008",
+        "display" : "Cerebral venous sinus thrombosis (disorder)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs",
+      "concept" : [{
+        "code" : "coagulation-disorder",
+        "display" : "Coagulation system disorder"
+      },
+      {
+        "code" : "hematological-disease",
+        "display" : "Hematological disease"
+      },
+      {
+        "code" : "fibromuscular-dysplasia",
+        "display" : "Fibromuscular dysplasia"
+      },
+      {
+        "code" : "radiation-induced-vasculopathy",
+        "display" : "Radiation-induced vasculopathy"
+      },
+      {
+        "code" : "CADASIL",
+        "display" : "CADASIL"
+      }]
+    }]
+  }
+}

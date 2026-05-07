@@ -1,0 +1,127 @@
+# Three-Month Contact Communication Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Three-Month Contact Communication Profile**
+
+## Resource Profile: Three-Month Contact Communication Profile 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://tecnomod-um.org/StructureDefinition/three-month-communication-profile | *Version*:1.0.0 |
+| Active as of 2026-05-07 | *Computable Name*:ThreeMonthCommunicationProfile |
+
+ 
+Communication profile for three-month follow-up contact, aligned with build_three_m_contact(). 
+
+**Usages:**
+
+* This Profile is not used by any profiles in this Implementation Guide
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/tecnomod.resq.stroke|current/StructureDefinition/three-month-communication-profile)
+
+### Formal Views of Profile Content
+
+ [Description of Profiles, Differentials, Snapshots and how the different presentations work](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](StructureDefinition-three-month-communication-profile.csv), [Excel](StructureDefinition-three-month-communication-profile.xlsx), [Schematron](StructureDefinition-three-month-communication-profile.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "three-month-communication-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/three-month-communication-profile",
+  "version" : "1.0.0",
+  "name" : "ThreeMonthCommunicationProfile",
+  "title" : "Three-Month Contact Communication Profile",
+  "status" : "active",
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Communication profile for three-month follow-up contact, aligned with build_three_m_contact().",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Communication",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Communication",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Communication",
+      "path" : "Communication"
+    },
+    {
+      "id" : "Communication.status",
+      "path" : "Communication.status",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Communication.medium",
+      "path" : "Communication.medium",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs"
+      }
+    },
+    {
+      "id" : "Communication.subject",
+      "path" : "Communication.subject",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Communication.encounter",
+      "path" : "Communication.encounter",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Communication.sent",
+      "path" : "Communication.sent",
+      "mustSupport" : true
+    }]
+  }
+}
+
+```

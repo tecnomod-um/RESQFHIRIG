@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tia-symptom-duration-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tia-symptom-duration-cs</b></p><a name=\"tia-symptom-duration-cs\"> </a><a name=\"hctia-symptom-duration-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">duration-lt-10-minutes<a name=\"tia-symptom-duration-cs-duration-lt-10-minutes\"> </a></td><td>Duration &lt; 10 Minutes</td></tr><tr><td style=\"white-space:nowrap\">duration-between-10-and-60-minutes<a name=\"tia-symptom-duration-cs-duration-between-10-and-60-minutes\"> </a></td><td>Duration Between 10 and 60 Minutes</td></tr><tr><td style=\"white-space:nowrap\">duration-gt-60-minutes<a name=\"tia-symptom-duration-cs-duration-gt-60-minutes\"> </a></td><td>Duration &gt; 60 Minutes</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs",
+  "version" : "1.0.0",
+  "name" : "TiaSymptomDurationCS",
+  "title" : "TiaSymptomDurationCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "duration-lt-10-minutes",
+    "display" : "Duration < 10 Minutes"
+  },
+  {
+    "code" : "duration-between-10-and-60-minutes",
+    "display" : "Duration Between 10 and 60 Minutes"
+  },
+  {
+    "code" : "duration-gt-60-minutes",
+    "display" : "Duration > 60 Minutes"
+  }]
+}

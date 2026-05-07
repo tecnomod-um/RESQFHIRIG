@@ -1,0 +1,554 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-adherence",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationStatementAdherenceCodes",
+    "title" : "MedicationStatement Adherence Codes",
+    "description" : "MedicationStatement Adherence Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1981"],
+    "uses" : {
+    },
+    "ValueSet-adherence-codes-vs.html" : "AdherenceCodes ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AnalyticsCodesCS",
+    "title" : "AnalyticsCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-analitics-codes-vs.html" : "AnaliticsCodes ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AssessmentContextCS",
+    "title" : "AssessmentContextCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs.",
+    "uses" : {
+    },
+    "ValueSet-assessment-context-vs.html" : "AssessmentContext ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "BrainImagingTypeCS",
+    "title" : "BrainImagingTypeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
+    "uses" : {
+    },
+    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
+    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "CarotidEndarterectomyTimingCS",
+    "title" : "CarotidEndarterectomyTimingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs.",
+    "uses" : {
+    },
+    "ValueSet-carotid-endarterectomy-timing-vs.html" : "CarotidEndarterectomyTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DischargeDeptCS",
+    "title" : "DischargeDeptCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-facility-department-vs.html" : "DischargeFacilityDepartment ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/discharge-medication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DischargeMedicationCS",
+    "title" : "DischargeMedicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-medication-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-medication-vs.html" : "DischargeMedication ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/first-contact-place-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FirstContactPlaceCS",
+    "title" : "FirstContactPlaceCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs.",
+    "uses" : {
+    },
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/functional-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FunctionalScoreCS",
+    "title" : "FunctionalScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-functional-score-vs.html" : "FunctionalScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "HemorrhagicStrokeBleedingReasonCS",
+    "title" : "HemorrhagicStrokeBleedingReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-bleeding-reason-vs.html" : "BleedingReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "HemorrhagicTransformationTypeCS",
+    "title" : "HemorrhagicTransformationTypeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs.",
+    "uses" : {
+    },
+    "ValueSet-hemorrhagic-transformation-type-vs.html" : "HemorrhagicTransformationType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "IchTreatmentCS",
+    "title" : "IchTreatmentCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs.",
+    "uses" : {
+    },
+    "ValueSet-ich-treatment-vs.html" : "IchTreatment ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InitialCareIntensityCS",
+    "title" : "InitialCareIntensityCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs.",
+    "uses" : {
+    },
+    "ValueSet-hospitalized-in-vs.html" : "HospitalizedIn ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InsulinHyperglycemiaTimeCS",
+    "title" : "InsulinHyperglycemiaTimeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs.",
+    "uses" : {
+    },
+    "ValueSet-insulin-on-hyperglycemia-timing-vs.html" : "InsulinOnHyperglycemiaTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MedicationCS",
+    "title" : "MedicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
+    "uses" : {
+    },
+    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
+    "ValueSet-medications-vs.html" : "Medications ValueSet",
+    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MrsScoreCS",
+    "title" : "MrsScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mrs-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-mrs-score-vs.html" : "MRsScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MticiCodeCS",
+    "title" : "MticiCodeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-code-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MticiScoreCS",
+    "title" : "MticiScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-mtici-score-vs.html" : "MTiciScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "NotMedicationReasonCS",
+    "title" : "NotMedicationReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
+    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
+    "ValueSet-no-anticoagulant-reversal-reason-vs.html" : "NoAnticoagulantReversalReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "OldInfarctCS",
+    "title" : "OldInfarctCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "PerfusionVolumeCS",
+    "title" : "PerfusionVolumeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/perfusion-volume-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ProcedureTimingContextCS",
+    "title" : "ProcedureTimingContextCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
+    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
+    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RiskFactorCS",
+    "title" : "RiskFactorCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs.",
+    "uses" : {
+    },
+    "ValueSet-risk-factor-vs.html" : "RiskFactor ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SpecificFindingCS",
+    "title" : "SpecificFindingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/specific-finding-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeArrivalModeCS",
+    "title" : "StrokeArrivalModeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs.",
+    "uses" : {
+    },
+    "ValueSet-admission-pathway-vs.html" : "AdmissionPathway ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeCircumstanceCodesCS",
+    "title" : "StrokeCircumstanceCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-circumstance-vs.html" : "StrokeCircumstance ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeDischargeDestinationCS",
+    "title" : "StrokeDischargeDestinationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet",
+    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeEtiologyCS",
+    "title" : "StrokeEtiologyCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-etiology-vs.html" : "StrokeEtiology ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeEtiologyOtherCS",
+    "title" : "StrokeEtiologyOtherCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-etiology-other-vs.html" : "StrokeEtiologyOther ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeMimicsDiagnosisCS",
+    "title" : "StrokeMimicsDiagnosisCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs.",
+    "uses" : {
+    },
+    "ValueSet-mimics-diagnosis-vs.html" : "MimicsDiagnosis ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokePostStrokeComplicationCS",
+    "title" : "StrokePostStrokeComplicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs.",
+    "uses" : {
+    },
+    "ValueSet-post-stroke-complications-vs.html" : "PostStrokeComplications ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeProcNotDoneReasonCS",
+    "title" : "StrokeProcNotDoneReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet",
+    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet",
+    "ValueSet-no-ich-treatment-reason-vs.html" : "NoIchTreatmentReason ValueSet",
+    "ValueSet-no-thrombectomy-reason-vs.html" : "NoThrombectomyReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SwallowProceduresCS",
+    "title" : "SwallowProceduresCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-type-vs.html" : "SwallowingScreeningType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SwallowScreenTimeCS",
+    "title" : "SwallowScreenTimeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/symptoms-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SymptomsCS",
+    "title" : "SymptomsCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/symptoms-cs.",
+    "uses" : {
+    },
+    "ValueSet-tia-clinical-symptoms-vs.html" : "TiaClinicalSymptoms ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TenecteplaseBrandCS",
+    "title" : "TenecteplaseBrandCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs.",
+    "uses" : {
+    },
+    "ValueSet-tecnetplase-brand-vs.html" : "TecnetplaseBrand ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ThreeMonthContactModeCS",
+    "title" : "ThreeMonthContactModeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs.",
+    "uses" : {
+    },
+    "ValueSet-three-month-contact-mode-vs.html" : "ThreeMonthContactMode ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ThrombectomyComplicationsCS",
+    "title" : "ThrombectomyComplicationsCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs.",
+    "uses" : {
+    },
+    "ValueSet-thrombectomy-complications-vs.html" : "ThrombectomyComplications ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TiaSymptomDurationCS",
+    "title" : "TiaSymptomDurationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs.",
+    "uses" : {
+    },
+    "ValueSet-tia-symptom-duration-vs.html" : "TiaSymptomDuration ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/timing-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TimingCS",
+    "title" : "TimingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
+    "uses" : {
+    },
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TimingMetricCodesCS",
+    "title" : "TimingMetricCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-timing-metric-codes-vs.html" : "TimingMetricCodes ValueSet",
+    "ValueSet-vital-signs-vs.html" : "VitalSigns ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "VteProceduresCS",
+    "title" : "VteProceduresCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vte-procedures-cs.",
+    "uses" : {
+    },
+    "ValueSet-vte-procedures-vs.html" : "VteProcedures ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "YesNoNotRequiredCS",
+    "title" : "YesNoNotRequiredCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs.",
+    "uses" : {
+    },
+    "ValueSet-occupational-therapy-vs.html" : "OccupationalTherapy ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-ver-status.html" : "Condition Verification Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerRole",
+    "title" : "Practitioner role",
+    "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1132"],
+    "uses" : {
+    },
+    "ValueSet-screening-performer-vs.html" : "ScreeningPerformer ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
+    "ValueSet-locations-vs.html" : "Locations ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
+  }]
+}

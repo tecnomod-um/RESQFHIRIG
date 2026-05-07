@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "swallow-screen-time-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem swallow-screen-time-cs</b></p><a name=\"swallow-screen-time-cs\"> </a><a name=\"hcswallow-screen-time-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">T4H<a name=\"swallow-screen-time-cs-T4H\"> </a></td><td>Within 4 Hours</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
+  "version" : "1.0.0",
+  "name" : "SwallowScreenTimeCS",
+  "title" : "SwallowScreenTimeCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "T4H",
+    "display" : "Within 4 Hours"
+  }]
+}

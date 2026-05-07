@@ -1,0 +1,64 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "no-anticoagulant-reversal-reason-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-anticoagulant-reversal-reason-vs</b></p><a name=\"no-anticoagulant-reversal-reason-vs\"> </a><a name=\"hcno-anticoagulant-reversal-reason-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-not-medication-reason-cs.html\"><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Consent\">Not-Consent</a></td><td>Patient or family did not consent</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Costofdrug\">Cost of drug</a></td><td>Cost of drug</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Available\">Not-Available</a></td><td>Drug not available</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Licensed\">Not-Licensed</a></td><td>Antidote not licenced for specific indication</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Criteria\">Not-Criteria</a></td><td>Not met criteria for specific agent</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Forgot\">Forgot</a></td><td>Patient did not use anticoagulant before ICH (forgot to take a pill)</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Reported\">Not-Reported</a></td><td>Reason for not giving anticoagulant reversal not reported</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/no-anticoagulant-reversal-reason-vs",
+  "version" : "1.0.0",
+  "name" : "NoAnticoagulantReversalReasonVS",
+  "title" : "NoAnticoagulantReversalReason ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for NoAnticoagulantReversalReason, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+      "concept" : [{
+        "code" : "Not-Consent",
+        "display" : "Patient or family did not consent"
+      },
+      {
+        "code" : "Cost of drug",
+        "display" : "Cost of drug"
+      },
+      {
+        "code" : "Not-Available",
+        "display" : "Drug not available"
+      },
+      {
+        "code" : "Not-Licensed",
+        "display" : "Antidote not licenced for specific indication"
+      },
+      {
+        "code" : "Not-Criteria",
+        "display" : "Not met criteria for specific agent"
+      },
+      {
+        "code" : "Forgot",
+        "display" : "Patient did not use anticoagulant before ICH (forgot to take a pill)"
+      },
+      {
+        "code" : "Not-Reported",
+        "display" : "Reason for not giving anticoagulant reversal not reported"
+      }]
+    }]
+  }
+}

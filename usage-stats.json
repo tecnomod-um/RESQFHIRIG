@@ -1,0 +1,313 @@
+{
+  "package": "tecnomod.resq.stroke",
+  "version": "1.0.0",
+  "fhirVersion": "5.0.0",
+  "jurisdiction": "ES",
+  "extensions": [
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext",
+      "title": "Assessment or medication timing",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
+      "title": "Discharge department or service",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext",
+      "title": "EMS prenotification",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
+      "title": "First hospital for the stroke episode",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+      "title": "Gender represented with SNOMED CT",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
+      "title": "Hemorrhagic stroke bleeding reason",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext",
+      "title": "Hemorrhagic stroke bleeding reason found coded state",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
+      "title": "Initial care intensity",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
+      "title": "Ischemic stroke etiology",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext",
+      "title": "Ischemic stroke etiology known/unknown coded state",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
+      "title": "Observation timing context",
+      "types": [
+        "boolean",
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext",
+      "title": "Post-acute care required",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
+      "title": "Procedure timing context",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
+      "title": "Required post-acute care",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext",
+      "title": "Wake-up stroke",
+      "types": [
+        "boolean"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile",
+        "title": "Three-Month Contact Mode Observation Profile"
+      },
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/tia-clinical-symptoms-observation-profile",
+        "title": "TIA Clinical Symptoms Observation Profile"
+      },
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile",
+        "title": "Timing Metric Observation Profile"
+      },
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile",
+        "title": "Vital Sign Observation Profile"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
+        "title": "Discharge MedicationRequest Profile"
+      }
+    ],
+    "Appointment": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/follow-up-appointment-profile",
+        "title": "Three-Month Follow-up Appointment Profile"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/resq-location-profile",
+        "title": "RESQ Location Profile"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+        "title": "Stroke MedicationAdministration Profile"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+        "title": "Stroke Imaging DiagnosticReport Profile"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
+        "title": "Stroke Risk Factor Condition Profile"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile",
+        "title": "Prior MedicationStatement Profile"
+      }
+    ],
+    "BodyStructure": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile",
+        "title": "RESQ BodyStructure Profile"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/resq-patient-profile",
+        "title": "RESQ Patient Profile"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile",
+        "title": "RESQ PractitionerRole Profile"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile",
+        "title": "Stroke Swallowing Screening Procedure Profile"
+      },
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-treatment-procedure-profile",
+        "title": "Stroke Treatment Procedure Profile"
+      },
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile",
+        "title": "Stroke VTE Prophylaxis Procedure Profile"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+        "title": "Stroke Encounter Profile"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile",
+        "title": "Stroke Registry Organization Profile"
+      }
+    ],
+    "Communication": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/three-month-communication-profile",
+        "title": "Three-Month Contact Communication Profile"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext": [
+      "MedicationAdministration"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext": [
+      "Encounter"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext": [
+      "Encounter"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/first-hospital-ext": [
+      "Encounter"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext": [
+      "Patient"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
+      "Condition"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext": [
+      "Condition"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext": [
+      "Location"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext": [
+      "Condition"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext": [
+      "Condition"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext": [
+      "Observation"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext": [
+      "Procedure"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext": [
+      "Procedure"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext": [
+      "Encounter",
+      "MedicationAdministration",
+      "Observation"
+    ],
+    "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext": [
+      "Condition"
+    ]
+  }
+}

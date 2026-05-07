@@ -1,0 +1,88 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "no-thrombolysis-reason-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet no-thrombolysis-reason-vs</b></p><a name=\"no-thrombolysis-reason-vs\"> </a><a name=\"hcno-thrombolysis-reason-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-done-elsewhere\">done-elsewhere</a></td><td>Done Elsewhere</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-time-window\">time-window</a></td><td>Time window</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-mild-deficit\">mild-deficit</a></td><td>Mild Deficit</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-consent\">consent</a></td><td>Patient or family did not consent</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-only-mt\">only-mt</a></td><td>Only Mechanical Thrombectomy Considered</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-cost\">cost</a></td><td>Cost / No Insurance</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-transfer\">transfer</a></td><td>Transferred to Another Facility</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-unavailable\">unavailable</a></td><td>Not Available</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-other\">other</a></td><td>Other Reason</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-lesion-developed\">lesion-developed</a></td><td>Lesion Developed</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-disability\">disability</a></td><td>Disability</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-previous-bleeding\">previous-bleeding</a></td><td>Previous Bleeding</td></tr><tr><td><a href=\"CodeSystem-stroke-proc-not-done-reason-cs.html#stroke-proc-not-done-reason-cs-anticoagulant-use\">anticoagulant-use</a></td><td>Anticoagulant Use</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/no-thrombolysis-reason-vs",
+  "version" : "1.0.0",
+  "name" : "NoThrombolysisReasonVS",
+  "title" : "NoThrombolysisReason ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for NoThrombolysisReason, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
+      "concept" : [{
+        "code" : "done-elsewhere",
+        "display" : "Done Elsewhere"
+      },
+      {
+        "code" : "time-window",
+        "display" : "Time window"
+      },
+      {
+        "code" : "mild-deficit",
+        "display" : "Mild Deficit"
+      },
+      {
+        "code" : "consent",
+        "display" : "Patient or family did not consent"
+      },
+      {
+        "code" : "only-mt",
+        "display" : "Only Mechanical Thrombectomy Considered"
+      },
+      {
+        "code" : "cost",
+        "display" : "Cost / No Insurance"
+      },
+      {
+        "code" : "transfer",
+        "display" : "Transferred to Another Facility"
+      },
+      {
+        "code" : "unavailable",
+        "display" : "Not Available"
+      },
+      {
+        "code" : "other",
+        "display" : "Other Reason"
+      },
+      {
+        "code" : "lesion-developed",
+        "display" : "Lesion Developed"
+      },
+      {
+        "code" : "disability",
+        "display" : "Disability"
+      },
+      {
+        "code" : "previous-bleeding",
+        "display" : "Previous Bleeding"
+      },
+      {
+        "code" : "anticoagulant-use",
+        "display" : "Anticoagulant Use"
+      }]
+    }]
+  }
+}

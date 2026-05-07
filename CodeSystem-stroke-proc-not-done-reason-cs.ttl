@@ -1,0 +1,132 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "stroke-proc-not-done-reason-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-proc-not-done-reason-cs</b></p><a name=\"stroke-proc-not-done-reason-cs\"> </a><a name=\"hcstroke-proc-not-done-reason-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">done-elsewhere<a name=\"stroke-proc-not-done-reason-cs-done-elsewhere\"> </a></td><td>Performed Elsewhere</td></tr><tr><td style=\"white-space:nowrap\">transfer<a name=\"stroke-proc-not-done-reason-cs-transfer\"> </a></td><td>Transferred to Another Facility</td></tr><tr><td style=\"white-space:nowrap\">time-window<a name=\"stroke-proc-not-done-reason-cs-time-window\"> </a></td><td>Outside Therapeutic Window</td></tr><tr><td style=\"white-space:nowrap\">mild-deficit<a name=\"stroke-proc-not-done-reason-cs-mild-deficit\"> </a></td><td>Mild Deficit</td></tr><tr><td style=\"white-space:nowrap\">disability<a name=\"stroke-proc-not-done-reason-cs-disability\"> </a></td><td>Disability</td></tr><tr><td style=\"white-space:nowrap\">cost<a name=\"stroke-proc-not-done-reason-cs-cost\"> </a></td><td>Cost / No Insurance</td></tr><tr><td style=\"white-space:nowrap\">unavailable<a name=\"stroke-proc-not-done-reason-cs-unavailable\"> </a></td><td>Not Available</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"stroke-proc-not-done-reason-cs-other\"> </a></td><td>Other Reason</td></tr><tr><td style=\"white-space:nowrap\">no-lvo<a name=\"stroke-proc-not-done-reason-cs-no-lvo\"> </a></td><td>No Large Vessel Occlusion (LVO)</td></tr><tr><td style=\"white-space:nowrap\">consent<a name=\"stroke-proc-not-done-reason-cs-consent\"> </a></td><td>Consent Not Obtained</td></tr><tr><td style=\"white-space:nowrap\">technically-not-possible<a name=\"stroke-proc-not-done-reason-cs-technically-not-possible\"> </a></td><td>Technically Not Possible</td></tr><tr><td style=\"white-space:nowrap\">no-angiography<a name=\"stroke-proc-not-done-reason-cs-no-angiography\"> </a></td><td>Angiography Not Performed</td></tr><tr><td style=\"white-space:nowrap\">only-mt<a name=\"stroke-proc-not-done-reason-cs-only-mt\"> </a></td><td>Only Mechanical Thrombectomy Considered</td></tr><tr><td style=\"white-space:nowrap\">contraindication<a name=\"stroke-proc-not-done-reason-cs-contraindication\"> </a></td><td>Contraindication Present</td></tr><tr><td style=\"white-space:nowrap\">patient-refusal<a name=\"stroke-proc-not-done-reason-cs-patient-refusal\"> </a></td><td>Patient/Family Refusal</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"stroke-proc-not-done-reason-cs-unknown\"> </a></td><td>Unknown Reason</td></tr><tr><td style=\"white-space:nowrap\">specialist-unavailable<a name=\"stroke-proc-not-done-reason-cs-specialist-unavailable\"> </a></td><td>Specialist Not Available</td></tr><tr><td style=\"white-space:nowrap\">size-hematoma<a name=\"stroke-proc-not-done-reason-cs-size-hematoma\"> </a></td><td>Size of Hematoma</td></tr><tr><td style=\"white-space:nowrap\">location-hematoma<a name=\"stroke-proc-not-done-reason-cs-location-hematoma\"> </a></td><td>Location of Hematoma</td></tr><tr><td style=\"white-space:nowrap\">neurosurgery-unavailable<a name=\"stroke-proc-not-done-reason-cs-neurosurgery-unavailable\"> </a></td><td>Neurosurgery Not Available</td></tr><tr><td style=\"white-space:nowrap\">not-required<a name=\"stroke-proc-not-done-reason-cs-not-required\"> </a></td><td>Not Required</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"stroke-proc-not-done-reason-cs-not-reported\"> </a></td><td>Reason for not treating not reported</td></tr><tr><td style=\"white-space:nowrap\">transfer-ivt<a name=\"stroke-proc-not-done-reason-cs-transfer-ivt\"> </a></td><td>Transferred elsewhere to perform IVT</td></tr><tr><td style=\"white-space:nowrap\">low-aspect-score<a name=\"stroke-proc-not-done-reason-cs-low-aspect-score\"> </a></td><td>Low ASPECT Score</td></tr><tr><td style=\"white-space:nowrap\">lesion-developed<a name=\"stroke-proc-not-done-reason-cs-lesion-developed\"> </a></td><td>Lesion Developed</td></tr><tr><td style=\"white-space:nowrap\">previous-bleeding<a name=\"stroke-proc-not-done-reason-cs-previous-bleeding\"> </a></td><td>Previous Bleeding</td></tr><tr><td style=\"white-space:nowrap\">anticoagulant-use<a name=\"stroke-proc-not-done-reason-cs-anticoagulant-use\"> </a></td><td>Anticoagulant Use</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "StrokeProcNotDoneReasonCS"] ; # 
+  fhir:title [ fhir:v "StrokeProcNotDoneReasonCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-07T11:15:53+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "27"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "done-elsewhere" ] ;
+     fhir:display [ fhir:v "Performed Elsewhere" ]
+  ] [
+     fhir:code [ fhir:v "transfer" ] ;
+     fhir:display [ fhir:v "Transferred to Another Facility" ]
+  ] [
+     fhir:code [ fhir:v "time-window" ] ;
+     fhir:display [ fhir:v "Outside Therapeutic Window" ]
+  ] [
+     fhir:code [ fhir:v "mild-deficit" ] ;
+     fhir:display [ fhir:v "Mild Deficit" ]
+  ] [
+     fhir:code [ fhir:v "disability" ] ;
+     fhir:display [ fhir:v "Disability" ]
+  ] [
+     fhir:code [ fhir:v "cost" ] ;
+     fhir:display [ fhir:v "Cost / No Insurance" ]
+  ] [
+     fhir:code [ fhir:v "unavailable" ] ;
+     fhir:display [ fhir:v "Not Available" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other Reason" ]
+  ] [
+     fhir:code [ fhir:v "no-lvo" ] ;
+     fhir:display [ fhir:v "No Large Vessel Occlusion (LVO)" ]
+  ] [
+     fhir:code [ fhir:v "consent" ] ;
+     fhir:display [ fhir:v "Consent Not Obtained" ]
+  ] [
+     fhir:code [ fhir:v "technically-not-possible" ] ;
+     fhir:display [ fhir:v "Technically Not Possible" ]
+  ] [
+     fhir:code [ fhir:v "no-angiography" ] ;
+     fhir:display [ fhir:v "Angiography Not Performed" ]
+  ] [
+     fhir:code [ fhir:v "only-mt" ] ;
+     fhir:display [ fhir:v "Only Mechanical Thrombectomy Considered" ]
+  ] [
+     fhir:code [ fhir:v "contraindication" ] ;
+     fhir:display [ fhir:v "Contraindication Present" ]
+  ] [
+     fhir:code [ fhir:v "patient-refusal" ] ;
+     fhir:display [ fhir:v "Patient/Family Refusal" ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown Reason" ]
+  ] [
+     fhir:code [ fhir:v "specialist-unavailable" ] ;
+     fhir:display [ fhir:v "Specialist Not Available" ]
+  ] [
+     fhir:code [ fhir:v "size-hematoma" ] ;
+     fhir:display [ fhir:v "Size of Hematoma" ]
+  ] [
+     fhir:code [ fhir:v "location-hematoma" ] ;
+     fhir:display [ fhir:v "Location of Hematoma" ]
+  ] [
+     fhir:code [ fhir:v "neurosurgery-unavailable" ] ;
+     fhir:display [ fhir:v "Neurosurgery Not Available" ]
+  ] [
+     fhir:code [ fhir:v "not-required" ] ;
+     fhir:display [ fhir:v "Not Required" ]
+  ] [
+     fhir:code [ fhir:v "not-reported" ] ;
+     fhir:display [ fhir:v "Reason for not treating not reported" ]
+  ] [
+     fhir:code [ fhir:v "transfer-ivt" ] ;
+     fhir:display [ fhir:v "Transferred elsewhere to perform IVT" ]
+  ] [
+     fhir:code [ fhir:v "low-aspect-score" ] ;
+     fhir:display [ fhir:v "Low ASPECT Score" ]
+  ] [
+     fhir:code [ fhir:v "lesion-developed" ] ;
+     fhir:display [ fhir:v "Lesion Developed" ]
+  ] [
+     fhir:code [ fhir:v "previous-bleeding" ] ;
+     fhir:display [ fhir:v "Previous Bleeding" ]
+  ] [
+     fhir:code [ fhir:v "anticoagulant-use" ] ;
+     fhir:display [ fhir:v "Anticoagulant Use" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

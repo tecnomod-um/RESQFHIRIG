@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "stroke-arrival-mode-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-arrival-mode-cs</b></p><a name=\"stroke-arrival-mode-cs\"> </a><a name=\"hcstroke-arrival-mode-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ems-gp<a name=\"stroke-arrival-mode-cs-ems-gp\"> </a></td><td>EMS from GP</td></tr><tr><td style=\"white-space:nowrap\">priv-transport<a name=\"stroke-arrival-mode-cs-priv-transport\"> </a></td><td>Private Transportation</td></tr><tr><td style=\"white-space:nowrap\">stroke-center<a name=\"stroke-arrival-mode-cs-stroke-center\"> </a></td><td>Stroke Center</td></tr><tr><td style=\"white-space:nowrap\">another-hosp<a name=\"stroke-arrival-mode-cs-another-hosp\"> </a></td><td>Another Hospital</td></tr><tr><td style=\"white-space:nowrap\">priv-transport-gp<a name=\"stroke-arrival-mode-cs-priv-transport-gp\"> </a></td><td>Private Transportation from GP</td></tr><tr><td style=\"white-space:nowrap\">in-hospital-stroke<a name=\"stroke-arrival-mode-cs-in-hospital-stroke\"> </a></td><td>In-Hospital Stroke</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "StrokeArrivalModeCS"] ; # 
+  fhir:title [ fhir:v "StrokeArrivalModeCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-07T11:15:53+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ems-gp" ] ;
+     fhir:display [ fhir:v "EMS from GP" ]
+  ] [
+     fhir:code [ fhir:v "priv-transport" ] ;
+     fhir:display [ fhir:v "Private Transportation" ]
+  ] [
+     fhir:code [ fhir:v "stroke-center" ] ;
+     fhir:display [ fhir:v "Stroke Center" ]
+  ] [
+     fhir:code [ fhir:v "another-hosp" ] ;
+     fhir:display [ fhir:v "Another Hospital" ]
+  ] [
+     fhir:code [ fhir:v "priv-transport-gp" ] ;
+     fhir:display [ fhir:v "Private Transportation from GP" ]
+  ] [
+     fhir:code [ fhir:v "in-hospital-stroke" ] ;
+     fhir:display [ fhir:v "In-Hospital Stroke" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

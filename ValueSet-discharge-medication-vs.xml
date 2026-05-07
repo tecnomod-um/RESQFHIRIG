@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="discharge-medication-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet discharge-medication-vs</b></p><a name="discharge-medication-vs"> </a><a name="hcdischarge-medication-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-discharge-medication-cs.html"><code>http://tecnomod-um.org/CodeSystem/discharge-medication-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antiplatelet">antiplatelet</a></td><td>Any Antiplatelet</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-anticoagulant">anticoagulant</a></td><td>Any Anticoagulant</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-asa">asa</a></td><td>Aspirin</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-heparin">heparin</a></td><td>Heparin</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-warfarin">warfarin</a></td><td>Warfarin</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-statin">statin</a></td><td>Statin</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antidiabetics">antidiabetics</a></td><td>Antidiabetics</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antihypertensive">antihypertensive</a></td><td>Antihypertensive</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-other-antiplatelet">other-antiplatelet</a></td><td>Other Antiplatelet</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-clopidogrel">clopidogrel</a></td><td>Clopidogrel</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-contraception">contraception</a></td><td>Contraception</td></tr><tr><td><a href="CodeSystem-discharge-medication-cs.html#discharge-medication-cs-other">other</a></td><td>Other</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/discharge-medication-vs"/>
+  <version value="1.0.0"/>
+  <name value="DischargeMedicationVS"/>
+  <title value="DischargeMedication ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for DischargeMedication, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/discharge-medication-cs"/>
+      <concept>
+        <code value="antiplatelet"/>
+        <display value="Any Antiplatelet"/>
+      </concept>
+      <concept>
+        <code value="anticoagulant"/>
+        <display value="Any Anticoagulant"/>
+      </concept>
+      <concept>
+        <code value="asa"/>
+        <display value="Aspirin"/>
+      </concept>
+      <concept>
+        <code value="heparin"/>
+        <display value="Heparin"/>
+      </concept>
+      <concept>
+        <code value="warfarin"/>
+        <display value="Warfarin"/>
+      </concept>
+      <concept>
+        <code value="statin"/>
+        <display value="Statin"/>
+      </concept>
+      <concept>
+        <code value="antidiabetics"/>
+        <display value="Antidiabetics"/>
+      </concept>
+      <concept>
+        <code value="antihypertensive"/>
+        <display value="Antihypertensive"/>
+      </concept>
+      <concept>
+        <code value="other-antiplatelet"/>
+        <display value="Other Antiplatelet"/>
+      </concept>
+      <concept>
+        <code value="clopidogrel"/>
+        <display value="Clopidogrel"/>
+      </concept>
+      <concept>
+        <code value="contraception"/>
+        <display value="Contraception"/>
+      </concept>
+      <concept>
+        <code value="other"/>
+        <display value="Other"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

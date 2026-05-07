@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stroke-circumstance-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-circumstance-vs</b></p><a name=\"stroke-circumstance-vs\"> </a><a name=\"hcstroke-circumstance-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-stroke-circumstance-codes-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-circumstance-codes-cs.html#stroke-circumstance-codes-cs-wake-up\">wake-up</a></td><td>Wake Up Stroke</td></tr><tr><td><a href=\"CodeSystem-stroke-circumstance-codes-cs.html#stroke-circumstance-codes-cs-in-hospital\">in-hospital</a></td><td>In Hospital Stroke</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeCircumstanceVS",
+  "title" : "StrokeCircumstance ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for StrokeCircumstance, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
+      "concept" : [{
+        "code" : "wake-up",
+        "display" : "Wake Up Stroke"
+      },
+      {
+        "code" : "in-hospital",
+        "display" : "In Hospital Stroke"
+      }]
+    }]
+  }
+}

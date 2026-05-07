@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="in-hospital-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet in-hospital-vs</b></p><a name="in-hospital-vs"> </a><a name="hcin-hospital-vs"> </a><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/in-hospital</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>false</td><td>False</td></tr><tr><td>true</td><td>True</td></tr><tr><td>none</td><td>None</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/in-hospital-vs"/>
+  <version value="1.0.0"/>
+  <name value="InHospitalVS"/>
+  <title value="InHospital ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for InHospital, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/in-hospital"/>
+      <concept>
+        <code value="false"/>
+        <display value="False"/>
+      </concept>
+      <concept>
+        <code value="true"/>
+        <display value="True"/>
+      </concept>
+      <concept>
+        <code value="none"/>
+        <display value="None"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

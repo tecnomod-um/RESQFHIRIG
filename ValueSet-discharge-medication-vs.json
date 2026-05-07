@@ -1,0 +1,84 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "discharge-medication-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet discharge-medication-vs</b></p><a name=\"discharge-medication-vs\"> </a><a name=\"hcdischarge-medication-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-discharge-medication-cs.html\"><code>http://tecnomod-um.org/CodeSystem/discharge-medication-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antiplatelet\">antiplatelet</a></td><td>Any Antiplatelet</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-anticoagulant\">anticoagulant</a></td><td>Any Anticoagulant</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-asa\">asa</a></td><td>Aspirin</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-heparin\">heparin</a></td><td>Heparin</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-warfarin\">warfarin</a></td><td>Warfarin</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-statin\">statin</a></td><td>Statin</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antidiabetics\">antidiabetics</a></td><td>Antidiabetics</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-antihypertensive\">antihypertensive</a></td><td>Antihypertensive</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-other-antiplatelet\">other-antiplatelet</a></td><td>Other Antiplatelet</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-clopidogrel\">clopidogrel</a></td><td>Clopidogrel</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-contraception\">contraception</a></td><td>Contraception</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-cs.html#discharge-medication-cs-other\">other</a></td><td>Other</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/discharge-medication-vs",
+  "version" : "1.0.0",
+  "name" : "DischargeMedicationVS",
+  "title" : "DischargeMedication ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for DischargeMedication, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/discharge-medication-cs",
+      "concept" : [{
+        "code" : "antiplatelet",
+        "display" : "Any Antiplatelet"
+      },
+      {
+        "code" : "anticoagulant",
+        "display" : "Any Anticoagulant"
+      },
+      {
+        "code" : "asa",
+        "display" : "Aspirin"
+      },
+      {
+        "code" : "heparin",
+        "display" : "Heparin"
+      },
+      {
+        "code" : "warfarin",
+        "display" : "Warfarin"
+      },
+      {
+        "code" : "statin",
+        "display" : "Statin"
+      },
+      {
+        "code" : "antidiabetics",
+        "display" : "Antidiabetics"
+      },
+      {
+        "code" : "antihypertensive",
+        "display" : "Antihypertensive"
+      },
+      {
+        "code" : "other-antiplatelet",
+        "display" : "Other Antiplatelet"
+      },
+      {
+        "code" : "clopidogrel",
+        "display" : "Clopidogrel"
+      },
+      {
+        "code" : "contraception",
+        "display" : "Contraception"
+      },
+      {
+        "code" : "other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}

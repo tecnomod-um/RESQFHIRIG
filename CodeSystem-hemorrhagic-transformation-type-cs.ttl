@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hemorrhagic-transformation-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hemorrhagic-transformation-type-cs</b></p><a name=\"hemorrhagic-transformation-type-cs\"> </a><a name=\"hchemorrhagic-transformation-type-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">hi-type-1<a name=\"hemorrhagic-transformation-type-cs-hi-type-1\"> </a></td><td>HI type 1</td></tr><tr><td style=\"white-space:nowrap\">hi-type-2<a name=\"hemorrhagic-transformation-type-cs-hi-type-2\"> </a></td><td>HI type 2</td></tr><tr><td style=\"white-space:nowrap\">ph-type-1<a name=\"hemorrhagic-transformation-type-cs-ph-type-1\"> </a></td><td>PH type 1</td></tr><tr><td style=\"white-space:nowrap\">ph-type-2<a name=\"hemorrhagic-transformation-type-cs-ph-type-2\"> </a></td><td>PH type 2</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "HemorrhagicTransformationTypeCS"] ; # 
+  fhir:title [ fhir:v "HemorrhagicTransformationTypeCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-07T11:15:53+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hi-type-1" ] ;
+     fhir:display [ fhir:v "HI type 1" ]
+  ] [
+     fhir:code [ fhir:v "hi-type-2" ] ;
+     fhir:display [ fhir:v "HI type 2" ]
+  ] [
+     fhir:code [ fhir:v "ph-type-1" ] ;
+     fhir:display [ fhir:v "PH type 1" ]
+  ] [
+     fhir:code [ fhir:v "ph-type-2" ] ;
+     fhir:display [ fhir:v "PH type 2" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

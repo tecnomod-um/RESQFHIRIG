@@ -1,0 +1,48 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "adherence-codes-vs",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet adherence-codes-vs</b></p><a name=\"adherence-codes-vs\"> </a><a name=\"hcadherence-codes-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R5/codesystem-medication-statement-adherence.html\"><code>http://hl7.org/fhir/CodeSystem/medication-statement-adherence</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 5.0.0, the version found through the package references\"> version &#x1F4E6;5.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R5/codesystem-medication-statement-adherence.html#medication-statement-adherence-taking\">taking</a></td><td>Taking</td><td>The medication is being taken.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R5/codesystem-medication-statement-adherence.html#medication-statement-adherence-not-taking\">not-taking</a></td><td>Not Taking</td><td>The medication is not being taken.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R5/codesystem-medication-statement-adherence.html#medication-statement-adherence-unknown\">unknown</a></td><td>Unknown</td><td>Whether the medication is being taken or not is not currently known.</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/adherence-codes-vs",
+  "version" : "1.0.0",
+  "name" : "AdherenceCodesVS",
+  "title" : "AdherenceCodes ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T11:15:53+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for AdherenceCodes, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/CodeSystem/medication-statement-adherence",
+      "concept" : [{
+        "code" : "taking",
+        "display" : "Taking"
+      },
+      {
+        "code" : "not-taking",
+        "display" : "Not Taking"
+      },
+      {
+        "code" : "unknown",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}

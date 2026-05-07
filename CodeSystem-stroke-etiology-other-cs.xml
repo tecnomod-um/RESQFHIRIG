@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="stroke-etiology-other-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem stroke-etiology-other-cs</b></p><a name="stroke-etiology-other-cs"> </a><a name="hcstroke-etiology-other-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">coagulation-disorder<a name="stroke-etiology-other-cs-coagulation-disorder"> </a></td><td>Coagulation system disorder</td></tr><tr><td style="white-space:nowrap">hematological-disease<a name="stroke-etiology-other-cs-hematological-disease"> </a></td><td>Hematological disease</td></tr><tr><td style="white-space:nowrap">fibromuscular-dysplasia<a name="stroke-etiology-other-cs-fibromuscular-dysplasia"> </a></td><td>Fibromuscular dysplasia</td></tr><tr><td style="white-space:nowrap">radiation-induced-vasculopathy<a name="stroke-etiology-other-cs-radiation-induced-vasculopathy"> </a></td><td>Radiation-induced vasculopathy</td></tr><tr><td style="white-space:nowrap">CADASIL<a name="stroke-etiology-other-cs-CADASIL"> </a></td><td>CADASIL</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs"/>
+  <version value="1.0.0"/>
+  <name value="StrokeEtiologyOtherCS"/>
+  <title value="StrokeEtiologyOtherCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-07T11:15:53+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="coagulation-disorder"/>
+    <display value="Coagulation system disorder"/>
+  </concept>
+  <concept>
+    <code value="hematological-disease"/>
+    <display value="Hematological disease"/>
+  </concept>
+  <concept>
+    <code value="fibromuscular-dysplasia"/>
+    <display value="Fibromuscular dysplasia"/>
+  </concept>
+  <concept>
+    <code value="radiation-induced-vasculopathy"/>
+    <display value="Radiation-induced vasculopathy"/>
+  </concept>
+  <concept>
+    <code value="CADASIL"/>
+    <display value="CADASIL"/>
+  </concept>
+</CodeSystem>

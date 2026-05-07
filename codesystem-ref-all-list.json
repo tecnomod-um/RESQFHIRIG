@@ -1,0 +1,1390 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/CodeSystem/administration-subpotent-reason",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "AdministrationSubPotentReason",
+    "title" : "Administration SubPotent Reason",
+    "description" : "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication administration process.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2001"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-administration-subpotent-reason.html" : "MedicationAdministration Subpotent Reason"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-admin-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationAdministrationStatusCodes",
+    "title" : "MedicationAdministration Status Codes",
+    "description" : "MedicationAdministration Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.2000"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medication-admin-status.html" : "MedicationAdministration Status Codes"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-dose-aid",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationDoseAid",
+    "title" : "Medication dose aid",
+    "description" : "Medication dose aid",
+    "oids" : ["2.16.840.1.113883.4.642.4.2075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medication-dose-aid.html" : "Medication Dose Aids"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-intended-performer-role",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationIntendedPerformerRole",
+    "title" : "Medication Intended Performer Role",
+    "description" : "Medication Intended Performer Role",
+    "oids" : ["2.16.840.1.113883.4.642.4.2074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medication-intended-performer-role.html" : "Medication Intended Performer Role"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-adherence",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationStatementAdherenceCodes",
+    "title" : "MedicationStatement Adherence Codes",
+    "description" : "MedicationStatement Adherence Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1981"],
+    "uses" : {
+    },
+    "ValueSet-adherence-codes-vs.html" : "AdherenceCodes ValueSet"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationStatementStatusCodes",
+    "title" : "MedicationStatement Status Codes",
+    "description" : "MedicationStatement Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1980"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medication-statement-status.html" : "MedicationStatement Status Codes"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medicationrequest-intent",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationRequestIntentCodes",
+    "title" : "MedicationRequest Intent Codes",
+    "description" : "MedicationRequest Intent Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1378"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medicationrequest-intent.html" : "medicationRequest Intent"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MedicationRequestStatusCodes",
+    "title" : "MedicationRequest Status Codes",
+    "description" : "MedicationRequest Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1377"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medicationrequest-status.html" : "medicationrequest Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
+  },
+  {
+    "url" : "http://hl7.org/fhir/appointmentstatus",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "AppointmentStatus",
+    "title" : "Appointment Status",
+    "description" : "The free/busy status of an appointment.",
+    "oids" : ["2.16.840.1.113883.4.642.4.485",
+    "2.16.840.1.113883.4.642.1.478",
+    "2.16.840.1.113883.4.642.2.284"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-appointmentstatus.html" : "Appointment Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/days-of-week",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DaysOfWeek",
+    "title" : "Days Of Week",
+    "description" : "The days of the week.",
+    "oids" : ["2.16.840.1.113883.4.642.4.513",
+    "2.16.840.1.113883.4.642.2.302",
+    "2.16.840.1.113883.4.642.1.507"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-days-of-week.html" : "Days Of Week"
+  },
+  {
+    "url" : "http://hl7.org/fhir/diagnostic-report-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DiagnosticReportStatus",
+    "title" : "Diagnostic Report Status",
+    "description" : "The status of the diagnostic report.",
+    "oids" : ["2.16.840.1.113883.4.642.2.118",
+    "2.16.840.1.113883.4.642.4.236",
+    "2.16.840.1.113883.4.642.1.231"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-diagnostic-report-status.html" : "Diagnostic Report Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/encounter-diagnosis-use",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EncounterDiagnosisUse",
+    "title" : "Encounter Diagnosis Use",
+    "description" : "Encounter Condition Use",
+    "oids" : ["2.16.840.1.113883.4.642.4.2115"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-diagnosis-use.html" : "Encounter Diagnosis Use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/encounter-location-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EncounterLocationStatus",
+    "title" : "Encounter Location Status",
+    "description" : "The status of the location.",
+    "oids" : ["2.16.840.1.113883.4.642.1.258",
+    "2.16.840.1.113883.4.642.2.147",
+    "2.16.840.1.113883.4.642.4.263"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-location-status.html" : "Encounter Location Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/encounter-reason-use",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EncounterReasonUse",
+    "title" : "Encounter Reason Use",
+    "description" : "Encounter Reason Use",
+    "oids" : ["2.16.840.1.113883.4.642.4.2114"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-reason-use.html" : "Encounter Reason Use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/encounter-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EncounterStatus",
+    "title" : "Encounter Status",
+    "description" : "Current state of the encounter.",
+    "oids" : ["2.16.840.1.113883.4.642.4.247",
+    "2.16.840.1.113883.4.642.1.242"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-status.html" : "Encounter Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/event-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "oids" : ["2.16.840.1.113883.4.642.4.110"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-event-status.html" : "EventStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.1.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/link-type",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "Link Type",
+    "description" : "The type of link between this Patient resource and other Patient/RelatedPerson resource(s).",
+    "oids" : ["2.16.840.1.113883.4.642.1.413",
+    "2.16.840.1.113883.4.642.2.234",
+    "2.16.840.1.113883.4.642.4.424"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-link-type.html" : "Link Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-characteristic",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationCharacteristic",
+    "title" : "Location Characteristic",
+    "description" : "Example Set of Location Characteristics.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1970"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-characteristic.html" : "Location Characteristic"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationMode",
+    "title" : "Location Mode",
+    "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+    "oids" : ["2.16.840.1.113883.4.642.4.331",
+    "2.16.840.1.113883.4.642.1.322",
+    "2.16.840.1.113883.4.642.2.181"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-mode.html" : "Location Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationStatus",
+    "title" : "Location Status",
+    "description" : "Indicates whether the location is still in use.",
+    "oids" : ["2.16.840.1.113883.4.642.4.333",
+    "2.16.840.1.113883.4.642.1.324",
+    "2.16.840.1.113883.4.642.2.182"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-status.html" : "Location Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-referencerange-normalvalue",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeNormalValue",
+    "title" : "ObservationreferenceRangeNormalValue",
+    "description" : "Codes that describe the normal value in the reference range.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2099"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-referencerange-normalvalue.html" : "Observation Reference Range Normal Value Codes"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "Observation Status",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401",
+    "2.16.840.1.113883.4.642.1.388",
+    "2.16.840.1.113883.4.642.2.219"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-status.html" : "Observation Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-triggeredbytype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "TriggeredBytype",
+    "title" : "triggered Bytype",
+    "description" : "Codes providing the triggeredBy type of observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2098"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-triggeredbytype.html" : "triggered Bytype"
+  },
+  {
+    "url" : "http://hl7.org/fhir/participationstatus",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ParticipationStatus",
+    "title" : "Participation Status",
+    "description" : "The Participation status of an appointment.",
+    "oids" : ["2.16.840.1.113883.4.642.4.487",
+    "2.16.840.1.113883.4.642.2.285",
+    "2.16.840.1.113883.4.642.1.480"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-participationstatus.html" : "Participation Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-priority",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestPriority",
+    "title" : "RequestPriority",
+    "description" : "Identifies the level of importance to be assigned to actioning the request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-priority.html" : "RequestPriority"
+  },
+  {
+    "url" : "http://hl7.org/fhir/service-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ServiceMode",
+    "title" : "Service Mode",
+    "description" : "An example set of Service Modes that could be applicable to use to characterize HealthcareServices or PractitionerRoles while searching",
+    "oids" : ["2.16.840.1.113883.4.642.4.2116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-service-mode.html" : "Service Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/week-of-month",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "WeekOfMonth",
+    "title" : "Week Of Month",
+    "description" : "The set of weeks with in a month.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1906"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-week-of-month.html" : "Week Of Month"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AnalyticsCodesCS",
+    "title" : "AnalyticsCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-analitics-codes-vs.html" : "AnaliticsCodes ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "AssessmentContextCS",
+    "title" : "AssessmentContextCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs.",
+    "uses" : {
+    },
+    "ValueSet-assessment-context-vs.html" : "AssessmentContext ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "BrainImagingTypeCS",
+    "title" : "BrainImagingTypeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
+    "uses" : {
+    },
+    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
+    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "CarotidEndarterectomyTimingCS",
+    "title" : "CarotidEndarterectomyTimingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs.",
+    "uses" : {
+    },
+    "ValueSet-carotid-endarterectomy-timing-vs.html" : "CarotidEndarterectomyTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DischargeDeptCS",
+    "title" : "DischargeDeptCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-facility-department-vs.html" : "DischargeFacilityDepartment ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/discharge-medication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DischargeMedicationCS",
+    "title" : "DischargeMedicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-medication-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-medication-vs.html" : "DischargeMedication ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/first-contact-place-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FirstContactPlaceCS",
+    "title" : "FirstContactPlaceCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs.",
+    "uses" : {
+    },
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/functional-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "FunctionalScoreCS",
+    "title" : "FunctionalScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-functional-score-vs.html" : "FunctionalScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "HemorrhagicStrokeBleedingReasonCS",
+    "title" : "HemorrhagicStrokeBleedingReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-bleeding-reason-vs.html" : "BleedingReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "HemorrhagicTransformationTypeCS",
+    "title" : "HemorrhagicTransformationTypeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs.",
+    "uses" : {
+    },
+    "ValueSet-hemorrhagic-transformation-type-vs.html" : "HemorrhagicTransformationType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "IchTreatmentCS",
+    "title" : "IchTreatmentCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs.",
+    "uses" : {
+    },
+    "ValueSet-ich-treatment-vs.html" : "IchTreatment ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InitialCareIntensityCS",
+    "title" : "InitialCareIntensityCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs.",
+    "uses" : {
+    },
+    "ValueSet-hospitalized-in-vs.html" : "HospitalizedIn ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "InsulinHyperglycemiaTimeCS",
+    "title" : "InsulinHyperglycemiaTimeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs.",
+    "uses" : {
+    },
+    "ValueSet-insulin-on-hyperglycemia-timing-vs.html" : "InsulinOnHyperglycemiaTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MedicationCS",
+    "title" : "MedicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
+    "uses" : {
+    },
+    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
+    "ValueSet-medications-vs.html" : "Medications ValueSet",
+    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MrsScoreCS",
+    "title" : "MrsScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mrs-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-mrs-score-vs.html" : "MRsScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MticiCodeCS",
+    "title" : "MticiCodeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-code-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/mtici-score-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "MticiScoreCS",
+    "title" : "MticiScoreCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-score-cs.",
+    "uses" : {
+    },
+    "ValueSet-mtici-score-vs.html" : "MTiciScore ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "NotMedicationReasonCS",
+    "title" : "NotMedicationReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
+    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
+    "ValueSet-no-anticoagulant-reversal-reason-vs.html" : "NoAnticoagulantReversalReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "OldInfarctCS",
+    "title" : "OldInfarctCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "PerfusionVolumeCS",
+    "title" : "PerfusionVolumeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/perfusion-volume-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ProcedureTimingContextCS",
+    "title" : "ProcedureTimingContextCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
+    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
+    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RiskFactorCS",
+    "title" : "RiskFactorCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs.",
+    "uses" : {
+    },
+    "ValueSet-risk-factor-vs.html" : "RiskFactor ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SpecificFindingCS",
+    "title" : "SpecificFindingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/specific-finding-cs.",
+    "uses" : {
+    },
+    "ValueSet-specific-finding-vs.html" : "SpecificFinding ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeArrivalModeCS",
+    "title" : "StrokeArrivalModeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs.",
+    "uses" : {
+    },
+    "ValueSet-admission-pathway-vs.html" : "AdmissionPathway ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeCircumstanceCodesCS",
+    "title" : "StrokeCircumstanceCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-circumstance-vs.html" : "StrokeCircumstance ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeDischargeDestinationCS",
+    "title" : "StrokeDischargeDestinationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
+    "uses" : {
+    },
+    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet",
+    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeEtiologyCS",
+    "title" : "StrokeEtiologyCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-etiology-vs.html" : "StrokeEtiology ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeEtiologyOtherCS",
+    "title" : "StrokeEtiologyOtherCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-etiology-other-vs.html" : "StrokeEtiologyOther ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeMimicsDiagnosisCS",
+    "title" : "StrokeMimicsDiagnosisCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs.",
+    "uses" : {
+    },
+    "ValueSet-mimics-diagnosis-vs.html" : "MimicsDiagnosis ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokePostStrokeComplicationCS",
+    "title" : "StrokePostStrokeComplicationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs.",
+    "uses" : {
+    },
+    "ValueSet-post-stroke-complications-vs.html" : "PostStrokeComplications ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeProcNotDoneReasonCS",
+    "title" : "StrokeProcNotDoneReasonCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
+    "uses" : {
+    },
+    "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet",
+    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet",
+    "ValueSet-no-ich-treatment-reason-vs.html" : "NoIchTreatmentReason ValueSet",
+    "ValueSet-no-thrombectomy-reason-vs.html" : "NoThrombectomyReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SwallowProceduresCS",
+    "title" : "SwallowProceduresCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-type-vs.html" : "SwallowingScreeningType ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SwallowScreenTimeCS",
+    "title" : "SwallowScreenTimeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs.",
+    "uses" : {
+    },
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/symptoms-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SymptomsCS",
+    "title" : "SymptomsCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/symptoms-cs.",
+    "uses" : {
+    },
+    "ValueSet-tia-clinical-symptoms-vs.html" : "TiaClinicalSymptoms ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TenecteplaseBrandCS",
+    "title" : "TenecteplaseBrandCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs.",
+    "uses" : {
+    },
+    "ValueSet-tecnetplase-brand-vs.html" : "TecnetplaseBrand ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ThreeMonthContactModeCS",
+    "title" : "ThreeMonthContactModeCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs.",
+    "uses" : {
+    },
+    "ValueSet-three-month-contact-mode-vs.html" : "ThreeMonthContactMode ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ThrombectomyComplicationsCS",
+    "title" : "ThrombectomyComplicationsCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs.",
+    "uses" : {
+    },
+    "ValueSet-thrombectomy-complications-vs.html" : "ThrombectomyComplications ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TiaSymptomDurationCS",
+    "title" : "TiaSymptomDurationCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs.",
+    "uses" : {
+    },
+    "ValueSet-tia-symptom-duration-vs.html" : "TiaSymptomDuration ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/timing-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TimingCS",
+    "title" : "TimingCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
+    "uses" : {
+    },
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TimingMetricCodesCS",
+    "title" : "TimingMetricCodesCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs.",
+    "uses" : {
+    },
+    "ValueSet-timing-metric-codes-vs.html" : "TimingMetricCodes ValueSet",
+    "ValueSet-vital-signs-vs.html" : "VitalSigns ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "VteProceduresCS",
+    "title" : "VteProceduresCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vte-procedures-cs.",
+    "uses" : {
+    },
+    "ValueSet-vte-procedures-vs.html" : "VteProcedures ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "YesNoNotRequiredCS",
+    "title" : "YesNoNotRequiredCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs.",
+    "uses" : {
+    },
+    "ValueSet-occupational-therapy-vs.html" : "OccupationalTherapy ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+    "version" : "2.1.1",
+    "status" : "active",
+    "name" : "AppointmentCancellationReason",
+    "title" : "Appointment cancellation reason",
+    "description" : "This example value set defines a set of reasons for the cancellation of an appointment.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1382"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-appointment-cancellation-reason.html" : "Appointment Cancellation Reason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/communication-category",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "CommunicationCategory",
+    "title" : "CommunicationCategory",
+    "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1076"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-communication-category.html" : "Communication Category"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "CommunicationNotDoneReason",
+    "title" : "CommunicationNotDoneReason",
+    "description" : "Codes for the reason why a communication did not happen.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1077"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-communication-not-done-reason.html" : "Communication Not Done Reason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/communication-topic",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "CommunicationTopic",
+    "title" : "CommunicationTopic",
+    "description" : "Codes describing the purpose or content of the communication.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1078"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-communication-topic.html" : "Communication Topic"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-category.html" : "Condition Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes",
+    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-ver-status.html" : "Condition Verification Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-data-absent-reason.html" : "Data Absent Reason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/diet",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "Diet",
+    "title" : "Diet",
+    "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1091"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-diet.html" : "Diet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "SpecialArrangements",
+    "title" : "Special arrangements",
+    "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1090"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-special-arrangements.html" : "Special Arrangements"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/encounter-subject-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "EncounterSubjectStatus",
+    "title" : "Encounter subject status",
+    "description" : "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
+    "oids" : ["2.16.840.1.113883.4.642.1.1420"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-subject-status.html" : "Encounter Subject Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/encounter-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "EncounterType",
+    "title" : "Encounter type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1088"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-type.html" : "Encounter Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "SecurityRoleType",
+    "title" : "Security Role Type",
+    "description" : "This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "LocationType",
+    "title" : "Location type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.\r\rThis includes several 'non physical' codes which are still considered a location.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-form.html" : "Location Form"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/med-admin-perform-function",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "MedicationAdministrationPerformerFunctionCodes",
+    "title" : "MedicationAdministration Performer Function Codes",
+    "description" : "MedicationAdministration Performer Function Codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.1112"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-med-admin-perform-function.html" : "MedicationAdministration Performer Function Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/medication-admin-location",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "MedicationAdministrationLocationCodes",
+    "title" : "MedicationAdministration Location Codes",
+    "description" : "MedicationAdministration Location Codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.0"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medication-admin-location.html" : "MedicationAdministration Location Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "MedicationRequest_Administration_Location_Codes",
+    "title" : "Medication request  administration  location  codes",
+    "description" : "MedicationRequest Administration Location Codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.0"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medicationrequest-admin-location.html" : "medicationRequest Administration Location Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "MedicationRequestCourseOfTherapyCodes",
+    "title" : "MedicationRequest Course of Therapy Codes",
+    "description" : "MedicationRequest Course of Therapy Codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.1327"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medicationrequest-course-of-therapy.html" : "medicationRequest Course of Therapy Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "MedicationRequestStatusReasonCodes",
+    "title" : "MedicationRequest Status Reason Codes",
+    "description" : "MedicationRequest Status Reason Codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.1325"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-medicationrequest-status-reason.html" : "medicationRequest Status Reason Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "OrganizationType",
+    "title" : "Organization type",
+    "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1128"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-organization-type.html" : "Organization Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/participant-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ParticipantType",
+    "title" : "Participant type",
+    "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1089"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-participant-type.html" : "Participant Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerRole",
+    "title" : "Practitioner role",
+    "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1132"],
+    "uses" : {
+    },
+    "ValueSet-screening-performer-vs.html" : "ScreeningPerformer ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/reason-medication-given",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ReasonMedicationGivenCodes",
+    "title" : "Reason Medication Given Codes",
+    "description" : "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication process.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1110"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-reason-medication-given-codes.html" : "Reason Medication Given Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/service-category",
+    "version" : "1.1.1",
+    "status" : "active",
+    "name" : "ServiceCategory",
+    "title" : "Service category",
+    "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1144"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-service-category.html" : "Service Category"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/service-type",
+    "version" : "1.1.1",
+    "status" : "active",
+    "name" : "ServiceType",
+    "title" : "Service type",
+    "description" : "This value set defines an example set of codes of service-types.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1145"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-service-type.html" : "Service Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "DiagnosticServiceSectionId",
+    "title" : "diagnosticServiceSectionId",
+    "description" : "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
+    "oids" : ["2.16.840.1.113883.18.29"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-diagnostic-service-sections.html" : "Diagnostic Service Section Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0092",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ReAdmissionIndicator",
+    "title" : "re-admissionIndicator",
+    "description" : "Code system of concepts which are used to specify that a patient is being re admitted to a healthcare facilityin from which they were discharged, and indicates the circumstances around such re-admission.  Used in HL7 Version 2.x messagine in the PV1 segment.",
+    "oids" : ["2.16.840.1.113883.18.36"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "BedStatus",
+    "title" : "bedStatus",
+    "description" : "Code system of concepts which specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.  Used in HL7 Version 2.x messaging in the DLD and PV1 segments.",
+    "oids" : ["2.16.840.1.113883.18.47"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ContactRole2",
+    "title" : "contactRole2",
+    "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+    "oids" : ["2.16.840.1.113883.18.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierType",
+    "title" : "identifierType",
+    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "oids" : ["2.16.840.1.113883.18.108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0276",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "AppointmentReason",
+    "title" : "appointmentReason",
+    "description" : "Code system of concepts used to describe the kind of appointment or the reason why an appointment has been scheduled.  Used in HL7 Version 2.x messaging in the ARQ segment.",
+    "oids" : ["2.16.840.1.113883.18.169"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0936",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ObservationType",
+    "title" : "observationType",
+    "description" : "HL7-defined code system of concepts specifying types of observations to enable systems to distinguish between observations sent along with an order, versus observations sent as the result to an order. Used in HL7 Version 2.x messaging in the OBX segment.",
+    "oids" : ["2.16.840.1.113883.18.439"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0936.html" : "hl7VS-VS-observationType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "version" : "10.0.0",
+    "status" : "active",
+    "name" : "ActCode",
+    "title" : "ActCode",
+    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+    "oids" : ["2.16.840.1.113883.5.4"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-encounter-class.html" : "Encounter class"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ActPriority",
+    "title" : "ActPriority",
+    "description" : "A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.",
+    "oids" : ["2.16.840.1.113883.5.7"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActPriority.html" : "ActPriority"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ActReason",
+    "title" : "ActReason",
+    "description" : "A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type \"has reason\" linking to another Act.\r\n\r\n*Examples:* Example reasons that might qualify for being coded in this field might be: \"routine requirement\", \"infectious disease reporting requirement\", \"on patient request\", \"required by law\".",
+    "oids" : ["2.16.840.1.113883.5.8"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "EncounterSpecialCourtesy",
+    "title" : "EncounterSpecialCourtesy",
+    "description" : "**** MISSING DESCRIPTION ****",
+    "oids" : ["2.16.840.1.113883.5.40"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "MaritalStatus",
+    "title" : "MaritalStatus",
+    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
+    "oids" : ["2.16.840.1.113883.5.1008"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
+    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+    "version" : "6.0.0",
+    "status" : "active",
+    "name" : "ParticipationType",
+    "title" : "ParticipationType",
+    "description" : "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.",
+    "oids" : ["2.16.840.1.113883.5.90"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-encounter-participant-type.html" : "Participant Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
+    "ValueSet-locations-vs.html" : "Locations ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "SubstanceAdminSubstitution",
+    "title" : "Substance Admin Substitution",
+    "description" : "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
+    "oids" : ["2.16.840.1.113883.5.1070"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
+  }]
+}
