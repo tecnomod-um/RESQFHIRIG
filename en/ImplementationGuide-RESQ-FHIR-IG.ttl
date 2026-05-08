@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-08T09:31:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-08T10:13:17+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -3304,6 +3304,66 @@
            fhir:l fhir:index.html
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "extensions.html"^^xsd:anyURI ;
+           fhir:l fhir:extensions.html
+         ] ;
+         fhir:name [
+           fhir:v "extensions.html"^^xsd:anyURI ;
+           fhir:l fhir:extensions.html
+         ] ;
+         fhir:title [ fhir:v "Extensions" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "modeling.html"^^xsd:anyURI ;
+           fhir:l fhir:modeling.html
+         ] ;
+         fhir:name [
+           fhir:v "modeling.html"^^xsd:anyURI ;
+           fhir:l fhir:modeling.html
+         ] ;
+         fhir:title [ fhir:v "Modeling" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "profiles.html"^^xsd:anyURI ;
+           fhir:l fhir:profiles.html
+         ] ;
+         fhir:name [
+           fhir:v "profiles.html"^^xsd:anyURI ;
+           fhir:l fhir:profiles.html
+         ] ;
+         fhir:title [ fhir:v "Profiles" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "resource-map.html"^^xsd:anyURI ;
+           fhir:l fhir:resource-map.html
+         ] ;
+         fhir:name [
+           fhir:v "resource-map.html"^^xsd:anyURI ;
+           fhir:l fhir:resource-map.html
+         ] ;
+         fhir:title [ fhir:v "Resource Map" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "terminology.html"^^xsd:anyURI ;
+           fhir:l fhir:terminology.html
+         ] ;
+         fhir:name [
+           fhir:v "terminology.html"^^xsd:anyURI ;
+           fhir:l fhir:terminology.html
+         ] ;
+         fhir:title [ fhir:v "Terminology" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

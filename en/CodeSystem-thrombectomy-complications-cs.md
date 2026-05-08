@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "ThrombectomyComplicationsCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T09:31:23+00:00",
+  "date" : "2026-05-08T10:13:17+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

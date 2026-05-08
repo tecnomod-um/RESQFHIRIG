@@ -82,11 +82,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
     "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -130,8 +130,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state",
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason"
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason",
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
@@ -143,8 +143,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -322,8 +322,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
   },
   {
@@ -570,9 +570,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
+    "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
@@ -637,9 +637,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
@@ -738,8 +738,8 @@
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"],
     "uses" : {
     },
-    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology",
-    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state"
+    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state",
+    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
@@ -806,8 +806,8 @@
     "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"],
     "uses" : {
     },
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs",

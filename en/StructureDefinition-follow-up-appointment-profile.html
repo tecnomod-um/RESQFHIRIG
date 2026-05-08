@@ -19,7 +19,182 @@
   	<link rel="stylesheet" href="assets/css/prism.css"/>
     <link rel="stylesheet" href="assets/css/project.css"/>
   	<link rel="stylesheet" href="assets/css/cqf.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <style type="text/css">
+  :root {
+    --resq-ink: #172033;
+    --resq-muted: #526070;
+    --resq-line: #d9e2ec;
+    --resq-surface: #f7fafc;
+    --resq-accent: #0f766e;
+    --resq-accent-dark: #115e59;
+    --resq-link: #0b5cad;
+  }
+
+  body {
+    color: var(--resq-ink);
+  }
+
+  a {
+    color: var(--resq-link);
+  }
+
+  .navbar,
+  .navbar-inverse {
+    border-radius: 0;
+  }
+
+  .navbar .dropdown-menu > li > a {
+    min-height: 34px;
+    padding: 8px 18px;
+    white-space: nowrap;
+  }
+
+  .navbar .dropdown-menu > li:empty,
+  .navbar .dropdown-menu > li > a:empty {
+    display: none;
+  }
+
+  #segment-content h1 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  #segment-content h2 {
+    margin-top: 30px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--resq-line);
+  }
+
+  #segment-content table {
+    width: 100%;
+  }
+
+  #segment-content table th {
+    background: var(--resq-surface);
+    color: var(--resq-ink);
+  }
+
+  #segment-content table td,
+  #segment-content table th {
+    vertical-align: top;
+  }
+
+  .resq-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(260px, 0.85fr);
+    gap: 24px;
+    align-items: stretch;
+    margin: 14px 0 28px;
+    padding: 28px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f8fbfd 0%, #edf7f5 100%);
+  }
+
+  .resq-hero h2 {
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .resq-hero p {
+    max-width: 760px;
+    color: var(--resq-muted);
+    font-size: 16px;
+  }
+
+  .resq-kicker {
+    margin: 0 0 8px;
+    color: var(--resq-accent-dark) !important;
+    font-size: 13px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .resq-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .resq-stat {
+    display: flex;
+    min-height: 92px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .resq-stat:hover,
+  .resq-card:hover {
+    border-color: var(--resq-accent);
+    text-decoration: none;
+  }
+
+  .resq-stat strong {
+    color: var(--resq-accent-dark);
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .resq-stat span {
+    margin-top: 8px;
+    color: var(--resq-muted);
+  }
+
+  .resq-card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    margin: 18px 0 28px;
+  }
+
+  .resq-card {
+    display: block;
+    min-height: 130px;
+    padding: 18px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .resq-card strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--resq-ink);
+    font-size: 16px;
+  }
+
+  .resq-card span {
+    color: var(--resq-muted);
+  }
+
+  @media (max-width: 900px) {
+    .resq-hero,
+    .resq-card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .resq-hero {
+      padding: 18px;
+    }
+
+    .resq-stat-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
     <script src="assets/js/direction-management.js" type="text/javascript"> </script>
@@ -44,8 +219,8 @@
 	  <script src="assets/js/prism-cql.js" type="text/javascript"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"2.38"}
-    h3,h4,h5,h6{--heading-prefix:"2.38"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.38"}
+    h3,h4,h5,h6{--heading-prefix:"7.38"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -90,10 +265,39 @@
   <li>
     <a href="index.html">Home</a>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guide
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="resource-map.html">Resource Map</a>
+      </li>
+      <li>
+        <a href="modeling.html">Modeling Decisions</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Resources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="extensions.html">Extensions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l159">​</a>
+  <li><a name="l212">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -385,7 +589,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient participation status<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R5/valueset-participationstatus.html" title="http://hl7.org/fhir/ValueSet/participationstatus" class="binding">ParticipationStatus</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The Participation status of an appointment.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileK'), 'binding', document.getElementById('cbfollow-up-appointment-profileK-binding').checked, document.getElementById('ppfollow-up-appointment-profileK'));
 document.getElementById('cbfollow-up-appointment-profileK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -661,7 +865,7 @@ filterDesc(document.getElementById('follow-up-appointment-profileK'), 'obligatio
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient participation status</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileD'), 'binding', document.getElementById('cbfollow-up-appointment-profileD-binding').checked, document.getElementById('ppfollow-up-appointment-profileD'));
 document.getElementById('cbfollow-up-appointment-profileD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -792,7 +996,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a name="l2156">​</a>Classification when becoming an encounter<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://terminology.hl7.org/ValueSet/EncounterClass" class="binding">http://terminology.hl7.org/ValueSet/EncounterClass</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant." class="binding">preferred</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Classification of the encounter.</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a name="l2209">​</a>Classification when becoming an encounter<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://terminology.hl7.org/ValueSet/EncounterClass" class="binding">http://terminology.hl7.org/ValueSet/EncounterClass</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant." class="binding">preferred</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Classification of the encounter.</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a12." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-follow-up-appointment-profile-definitions.html#Appointment.serviceCategory" title="A broad categorization of the service that is to be performed during this appointment." data-no-external="true">serviceCategory</a><a name="s-Appointment.serviceCategory"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
@@ -1160,7 +1364,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#positiveInt">positiveInt</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Any recurrence IDs that should be excluded from the recurrence<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileS'), 'binding', document.getElementById('cbfollow-up-appointment-profileS-binding').checked, document.getElementById('ppfollow-up-appointment-profileS'));
 document.getElementById('cbfollow-up-appointment-profileS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1245,7 +1449,7 @@ filterDesc(document.getElementById('follow-up-appointment-profileS'), 'obligatio
     <td>
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R5/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td title="Classification of the encounter."><a name="l4379">​</a>
+    <td title="Classification of the encounter."><a name="l4432">​</a>
       <a style="opacity: 1.0" href="http://terminology.hl7.org/ValueSet/EncounterClass">http://terminology.hl7.org/ValueSet/EncounterClass</a>
       <button data-clipboard-text="http://terminology.hl7.org/ValueSet/EncounterClass" title="Click to copy URL" class="btn-copy"></button>
     </td>
@@ -1811,7 +2015,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient participation status<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R5/valueset-participationstatus.html" title="http://hl7.org/fhir/ValueSet/participationstatus" class="binding">ParticipationStatus</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">The Participation status of an appointment.</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileKA'), 'binding', document.getElementById('cbfollow-up-appointment-profileKA-binding').checked, document.getElementById('ppfollow-up-appointment-profileKA'));
 document.getElementById('cbfollow-up-appointment-profileKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2086,7 +2290,7 @@ filterDesc(document.getElementById('follow-up-appointment-profileKA'), 'obligati
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient participation status</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileDA'), 'binding', document.getElementById('cbfollow-up-appointment-profileDA-binding').checked, document.getElementById('ppfollow-up-appointment-profileDA'));
 document.getElementById('cbfollow-up-appointment-profileDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2214,7 +2418,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a name="l6921">​</a>Classification when becoming an encounter<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://terminology.hl7.org/ValueSet/EncounterClass" class="binding">http://terminology.hl7.org/ValueSet/EncounterClass</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant." class="binding">preferred</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Classification of the encounter.</span><br/></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a name="l6974">​</a>Classification when becoming an encounter<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://terminology.hl7.org/ValueSet/EncounterClass" class="binding">http://terminology.hl7.org/ValueSet/EncounterClass</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R5/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant." class="binding">preferred</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Classification of the encounter.</span><br/></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="a12." data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-follow-up-appointment-profile-definitions.html#Appointment.serviceCategory" title="A broad categorization of the service that is to be performed during this appointment." data-no-external="true">serviceCategory</a><a name="sa-Appointment.serviceCategory"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
@@ -2582,7 +2786,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#positiveInt">positiveInt</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Any recurrence IDs that should be excluded from the recurrence<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6ec8345a-4cc6-4ce1-b68f-26fc83cb439d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 6c09b490-ea20-49af-b7b5-204437c9ade9
 document.getElementById('cbfollow-up-appointment-profileSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('follow-up-appointment-profileSA'), 'binding', document.getElementById('cbfollow-up-appointment-profileSA-binding').checked, document.getElementById('ppfollow-up-appointment-profileSA'));
 document.getElementById('cbfollow-up-appointment-profileSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2665,7 +2869,7 @@ filterDesc(document.getElementById('follow-up-appointment-profileSA'), 'obligati
     <td>
       <a style="opacity: 1.0" href="http://hl7.org/fhir/R5/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td title="Classification of the encounter."><a name="l9144">​</a>
+    <td title="Classification of the encounter."><a name="l9197">​</a>
       <a style="opacity: 1.0" href="http://terminology.hl7.org/ValueSet/EncounterClass">http://terminology.hl7.org/ValueSet/EncounterClass</a>
       <button data-clipboard-text="http://terminology.hl7.org/ValueSet/EncounterClass" title="Click to copy URL" class="btn-copy"></button>
     </td>
@@ -3196,7 +3400,7 @@ Summary
           IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://tecnomod-um.org">Tecnomod / Universidad de Murcia</a>.  
           Package RESQ-FHIR-IG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
           Generated 
-  <span title="2026-05-08 09:31:00 +0000">
+  <span title="2026-05-08 10:13:00 +0000">
     2026-05-08
   </span>
 

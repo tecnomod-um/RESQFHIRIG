@@ -33,7 +33,7 @@ Allowed coded values for DischargeMedication, generated from enum_models.py.
   "title" : "DischargeMedication ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T09:31:23+00:00",
+  "date" : "2026-05-08T10:13:17+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

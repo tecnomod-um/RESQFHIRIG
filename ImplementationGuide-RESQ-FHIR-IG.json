@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-08T09:31:23+00:00",
+  "date" : "2026-05-08T10:13:17+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -2184,6 +2184,36 @@
         "sourceUrl" : "index.html",
         "name" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "extensions.html",
+        "name" : "extensions.html",
+        "title" : "Extensions",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "modeling.html",
+        "name" : "modeling.html",
+        "title" : "Modeling",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "profiles.html",
+        "name" : "profiles.html",
+        "title" : "Profiles",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "resource-map.html",
+        "name" : "resource-map.html",
+        "title" : "Resource Map",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "terminology.html",
+        "name" : "terminology.html",
+        "title" : "Terminology",
         "generation" : "markdown"
       }]
     },
