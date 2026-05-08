@@ -1,190 +1,190 @@
-Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-tecnomod.resq.stroke.json	58462	-	0	0	0	0	0	0	23	70	0	0	0	0	0	0	0	2	0	0	205	503	0	0	0	8	0	10
-fsh-generated/resources/CodeSystem-analytics-codes-cs.json	665	4	0	0	2	0	0	0	1	6	0	0	0	0	0	0	0	0	0	0	17	87	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-assessment-context-cs.json	1225	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	16	79	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-brain-imaging-type-cs.json	1057	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	10	65	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-carotid-endarterectomy-timing-cs.json	855	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	8	36	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-discharge-dept-cs.json	786	2	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	10	54	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-discharge-medication-cs.json	1386	1	0	0	0	0	0	0	3	5	0	0	0	0	0	0	0	0	0	0	15	45	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-first-contact-place-cs.json	712	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	7	51	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-functional-score-cs.json	762	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	45	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.json	654	0	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	7	37	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-hemorrhagic-transformation-type-cs.json	840	3	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	8	44	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-ich-treatment-cs.json	547	1	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	6	35	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-initial-care-intensity-cs.json	741	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	34	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-insulin-hyperglycemia-time-cs.json	677	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	6	39	0	0	0	0	0	1
-fsh-generated/resources/CodeSystem-medication-cs.json	1171	3	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	10	48	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-mrs-score-cs.json	1343	1	0	0	1	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	9	40	0	0	0	0	0	4
-fsh-generated/resources/CodeSystem-mtici-code-cs.json	522	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	36	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-mtici-score-cs.json	1502	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	1	0	0	11	32	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-not-medication-reason-cs.json	1292	4	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	10	34	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-old-infarct-cs.json	539	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	9	30	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-perfusion-volume-cs.json	651	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	10	29	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-procedure-timing-context-cs.json	688	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	12	31	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-risk-factor-cs.json	527	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	6	29	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-specific-finding-cs.json	562	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	28	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-arrival-mode-cs.json	1000	2	0	0	2	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	8	20	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-circumstance-codes-cs.json	686	1	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	6	17	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-discharge-destination-cs.json	739	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	7	16	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-etiology-cs.json	660	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	17	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-etiology-other-cs.json	978	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	8	33	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-stroke-mimics-diagnosis-cs.json	609	2	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	7	32	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-post-stroke-complication-cs.json	709	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	23	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-stroke-proc-not-done-reason-cs.json	2844	6	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	18	38	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-swallow-procedures-cs.json	704	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	8	32	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-swallow-screen-time-cs.json	572	3	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	6	27	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-symptoms-cs.json	530	1	0	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	28	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-tenecteplase-brand-cs.json	1301	3	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	9	25	0	0	0	0	0	1
-fsh-generated/resources/CodeSystem-three-month-contact-mode-cs.json	843	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	9	25	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-thrombectomy-complications-cs.json	615	3	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	5	20	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-tia-symptom-duration-cs.json	816	1	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	0	0	0	7	29	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-timing-cs.json	678	3	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	10	35	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-timing-metric-codes-cs.json	2874	4	0	0	0	0	0	0	1	8	0	0	1	0	0	0	0	0	0	0	18	31	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-vte-procedures-cs.json	568	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	9	21	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-yes-no-not-required-cs.json	650	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	27	0	0	0	0	0	0
-fsh-generated/resources/Condition-ExampleStrokeDiagnosis.json	1055	3	0	0	1	0	0	0	0	181	0	0	0	0	0	0	0	0	0	0	7	25	0	0	1	0	0	0
-fsh-generated/resources/Encounter-ExampleStrokeEncounter.json	1117	4	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	6	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleDoorToNeedle.json	667	4	0	0	0	0	0	0	1	594	0	0	0	0	0	0	0	0	0	0	9	8	0	0	0	0	0	0
-fsh-generated/resources/Patient-ExampleRESQPatient.json	564	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	9	3	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-analitics-observation-profile.json	2431	3	0	144	0	0	0	0	0	708	0	0	0	0	0	0	0	1	0	0	202	1921	0	0	0	9	1	6
-fsh-generated/resources/StructureDefinition-assessment-timing-ext.json	1858	3	0	10	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	36	108	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-base-stroke-observation.json	1606	2	0	3	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	182	478	0	0	0	8	0	5
-fsh-generated/resources/StructureDefinition-discharge-department-service-ext.json	1771	1	0	9	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	36	85	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-discharge-medication-request-profile.json	2430	2	0	92	0	0	0	0	0	30	0	0	0	0	0	0	0	1	0	0	183	322	0	0	0	8	1	1
-fsh-generated/resources/StructureDefinition-ems-prenotification-ext.json	1595	2	0	19	1	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	35	91	0	0	0	1	0	2
-fsh-generated/resources/StructureDefinition-fever-observation-profile.json	1832	2	0	80	0	0	0	0	0	28	0	0	0	0	0	0	0	1	0	0	230	384	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-first-hospital-ext.json	1657	1	0	17	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	34	71	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-follow-up-appointment-profile.json	1679	2	0	127	1	0	0	0	0	44	0	0	1	0	0	0	0	1	0	0	218	317	0	0	0	7	0	3
-fsh-generated/resources/StructureDefinition-functional-score-observation-profile.json	2928	3	0	95	0	0	0	0	0	39	0	0	0	0	0	0	0	1	0	0	222	627	0	0	0	23	0	1
-fsh-generated/resources/StructureDefinition-gender-snomed-ext.json	1692	2	0	13	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	34	134	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-glasgow-coma-scale-observation-profile.json	1536	1	0	71	0	0	0	0	0	25	0	0	0	0	0	0	0	2	0	0	201	780	0	0	0	8	0	3
-fsh-generated/resources/StructureDefinition-glucose-ge10-observation-profile.json	1066	1	0	73	0	0	0	0	0	21	0	0	0	0	0	0	0	1	0	0	171	290	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.json	1764	2	0	15	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	36	72	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.json	1869	2	0	14	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	34	70	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-highest-hyperglycemia-value-observation-profile.json	1893	1	0	71	0	0	0	0	0	22	0	0	0	0	0	0	0	1	0	0	188	372	0	0	0	8	1	3
-fsh-generated/resources/StructureDefinition-hospitalized-location-profile.json	1722	2	0	39	0	0	0	0	0	13	0	0	0	0	0	0	0	1	0	0	103	171	0	0	0	4	0	0
-fsh-generated/resources/StructureDefinition-hyperglycemia-observation-profile.json	1201	1	0	29	1	0	0	0	0	82	0	0	0	0	0	0	0	1	0	0	176	291	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-initial-care-intensity-ext.json	1776	2	0	4	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	46	80	0	0	0	1	2	0
-fsh-generated/resources/StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.json	2389	2	0	55	0	0	0	0	0	25	0	0	0	0	0	0	0	1	0	0	129	243	0	0	0	7	0	3
-fsh-generated/resources/StructureDefinition-ischemic-stroke-etiology-ext.json	1661	2	0	6	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	26	70	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-ischemic-stroke-etiology-known-ext.json	1860	2	0	5	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	25	72	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.json	2242	2	0	23	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	99	182	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-nimodipine-medicationAdministration-profile.json	1564	1	0	23	0	0	0	0	0	21	0	0	1	0	0	0	0	0	0	0	113	266	0	0	0	6	0	3
-fsh-generated/resources/StructureDefinition-observation-timing-context-ext.json	2636	3	0	4	0	0	0	0	0	8	0	0	0	0	0	0	0	1	0	0	34	79	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.json	1987	1	0	24	1	0	0	0	0	17	0	0	0	0	0	0	0	1	0	0	123	273	0	0	0	6	0	1
-fsh-generated/resources/StructureDefinition-patient-ventilated-observation-profile.json	1819	2	0	64	0	0	0	0	0	19	0	0	0	0	0	0	0	1	0	0	188	278	0	1	0	9	0	3
-fsh-generated/resources/StructureDefinition-post-acute-care-required-ext.json	1803	2	0	12	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	33	66	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-post-stroke-complication-condition-profile.json	1919	2	0	125	0	0	0	0	0	12	0	0	0	0	0	0	0	1	0	0	106	409	0	0	0	5	0	0
-fsh-generated/resources/StructureDefinition-prior-medication-statement-profile.json	2334	2	0	23	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	82	138	0	0	0	4	1	1
-fsh-generated/resources/StructureDefinition-procedure-timing-context-ext.json	1800	1	0	5	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	26	68	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-required-post-acute-care-ext.json	1908	2	0	3	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	24	64	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-resq-body-structure-profile.json	1732	2	0	24	0	0	0	0	0	13	0	0	0	0	0	0	0	1	0	0	84	144	0	0	0	4	0	0
-fsh-generated/resources/StructureDefinition-resq-location-profile.json	831	1	0	135	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	68	114	0	0	0	4	0	3
-fsh-generated/resources/StructureDefinition-resq-patient-profile.json	1649	2	0	34	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	100	187	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-resq-practitioner-role-profile.json	947	1	0	16	1	0	0	0	0	8	0	0	0	0	0	0	0	1	0	0	54	102	0	0	0	3	1	0
-fsh-generated/resources/StructureDefinition-specific-finding-observation-profile.json	2574	2	0	33	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	152	512	0	0	0	9	0	3
-fsh-generated/resources/StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.json	2854	2	0	33	0	0	0	0	0	18	0	0	1	0	0	0	0	1	0	0	114	179	0	0	0	6	0	1
-fsh-generated/resources/StructureDefinition-stroke-carotid-imaging-procedure-profile.json	2600	2	0	34	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	114	185	0	0	0	6	0	0
-fsh-generated/resources/StructureDefinition-stroke-diagnosis-condition-profile.json	5419	4	0	32	0	0	0	0	0	23	0	0	0	0	0	0	0	1	0	0	149	633	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-stroke-encounter-profile.json	4111	4	0	45	0	0	0	0	0	23	0	0	0	0	0	0	0	1	0	0	163	317	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-stroke-imaging-diagnostic-report-profile.json	2387	2	0	46	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	99	142	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-stroke-imaging-procedure-profile.json	3315	2	0	60	0	0	0	0	0	19	0	0	0	0	0	0	0	1	0	0	126	174	0	0	0	6	0	0
-fsh-generated/resources/StructureDefinition-stroke-mechanical-procedure-profile.json	4261	4	0	58	0	0	0	0	0	75	0	0	0	0	0	0	0	1	0	0	141	191	0	0	0	7	0	1
-fsh-generated/resources/StructureDefinition-stroke-medication-administration-profile.json	5041	3	0	3	1	0	0	0	0	19	0	0	0	0	0	0	0	1	0	0	128	207	0	0	0	7	0	1
-fsh-generated/resources/StructureDefinition-stroke-registry-organization-profile.json	1938	2	0	41	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	87	138	0	0	0	5	0	0
-fsh-generated/resources/StructureDefinition-stroke-risk-factor-condition-profile.json	2014	2	0	31	0	0	0	0	0	13	0	0	1	0	0	0	0	1	0	0	95	384	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-stroke-swallow-procedure-profile.json	3640	3	0	49	0	0	0	0	0	18	0	0	0	0	0	0	0	1	0	0	125	200	0	1	0	6	0	1
-fsh-generated/resources/StructureDefinition-stroke-treatment-procedure-profile.json	3127	3	0	28	0	0	0	0	0	18	0	0	0	0	0	0	0	1	0	0	125	198	0	0	0	7	0	0
-fsh-generated/resources/StructureDefinition-stroke-vte-procedure-profile.json	1683	2	0	26	0	0	0	1	0	15	0	0	0	0	0	0	0	1	0	0	105	179	0	0	0	5	0	1
-fsh-generated/resources/StructureDefinition-three-month-communication-profile.json	1862	2	0	24	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	104	140	0	0	0	5	3	1
-fsh-generated/resources/StructureDefinition-three-month-contact-mode-observation-profile.json	913	1	0	30	0	0	0	0	0	18	0	0	0	0	0	0	0	1	0	0	128	467	0	0	0	7	0	1
-fsh-generated/resources/StructureDefinition-tia-clinical-symptoms-observation-profile.json	1253	1	0	26	0	0	0	0	0	17	0	0	0	0	0	0	0	1	0	0	137	479	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-timing-metric-observation-profile.json	2366	2	0	32	0	0	0	0	0	25	0	0	0	0	0	0	0	1	0	0	157	245	0	0	0	9	0	1
-fsh-generated/resources/StructureDefinition-vital-sign-observation-profile.json	2655	3	0	57	0	0	0	0	0	21	0	0	0	0	0	0	0	2	0	0	150	507	0	0	0	9	0	1
-fsh-generated/resources/StructureDefinition-wakeup-stroke-ext.json	1693	1	0	8	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	26	59	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-adherence-codes-vs.json	776	2	0	0	1	0	0	0	0	51	0	0	0	0	0	0	0	0	0	0	6	47	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-admission-department-vs.json	1033	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	6	22	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-admission-pathway-vs.json	1150	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	9	20	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-analitics-codes-vs.json	1436	1	0	0	0	0	0	0	1	876	0	0	0	0	0	0	0	0	0	0	10	27	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-anticoagulant-reversal-vs.json	1791	2	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0	0	0	10	294	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-assessment-context-vs.json	1454	1	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	9	22	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-atrial-fibrillation-or-flutter-vs.json	873	0	0	0	0	0	0	0	1	263	0	0	0	0	0	0	0	0	0	0	8	291	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-bleeding-reason-vs.json	1815	2	0	0	0	0	0	0	0	224	0	0	0	0	0	0	0	0	0	0	10	261	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-body-sites-vs.json	2738	1	0	0	0	0	0	0	0	214	0	0	0	0	0	0	0	0	0	0	12	41	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-bool-vs.json	584	1	0	0	0	0	0	0	1	659	0	0	0	0	0	0	0	0	0	0	7	333	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-carotid-endarterectomy-timing-vs.json	950	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	7	32	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-carotid-stenosis-level-vs.json	942	1	0	0	0	0	0	0	0	257	0	0	0	0	0	0	0	0	0	0	11	298	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-clinical-status-codes-vs.json	887	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	7	23	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-discharge-destination-vs.json	1368	1	0	0	0	0	0	0	1	257	0	0	0	0	0	0	0	0	0	0	7	281	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-discharge-facility-department-vs.json	963	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	19	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-discharge-facility-type-vs.json	1166	1	0	0	0	0	0	0	0	262	0	0	0	0	0	0	0	0	0	0	7	278	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-discharge-medication-vs.json	1688	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	12	21	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-first-contact-place-vs.json	1011	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	21	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-functional-score-vs.json	1900	1	0	0	0	0	0	0	0	213	0	0	0	0	0	0	0	0	0	0	9	26	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-gcsscore-vs.json	758	1	0	0	0	0	0	0	0	249	0	0	0	0	0	0	0	0	0	0	5	24	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-glasgow-coma-scale-vs.json	2087	1	0	0	0	0	0	0	1	208	0	0	0	0	0	0	0	0	0	0	8	32	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-hemorrhagic-transformation-type-vs.json	961	1	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	20	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-hospitalized-in-vs.json	797	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	6	19	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-ich-treatment-vs.json	1832	1	0	0	0	0	0	0	1	214	0	0	0	0	0	0	0	0	0	0	8	252	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-imaging-type-vs.json	1411	1	0	0	0	0	0	0	0	249	0	0	0	0	0	0	0	0	0	0	10	287	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-in-hospital-vs.json	706	1	0	0	0	0	0	0	0	642	0	0	0	0	0	0	0	0	0	0	6	313	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-inrmode-vs.json	764	1	0	0	0	0	0	0	0	251	0	0	0	0	0	0	0	0	0	0	4	272	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-insulin-on-hyperglycemia-timing-vs.json	767	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	24	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-ivt-application-department-vs.json	922	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	7	20	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-ivt-drug-vs.json	972	1	0	0	0	0	0	0	0	252	0	0	0	0	0	0	0	0	0	0	6	272	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-laterality-vs.json	1829	1	0	0	0	0	0	0	0	467	0	0	0	0	0	0	0	0	0	0	6	232	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-locations-vs.json	1261	1	0	0	1	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	7	21	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-medications-vs.json	3554	2	0	0	0	0	0	0	0	224	0	0	0	0	0	0	0	0	0	0	11	245	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-mimics-diagnosis-vs.json	1253	1	0	0	0	0	0	0	1	252	0	0	0	0	0	0	0	0	0	0	7	291	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-mrs-score-vs.json	1515	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	7	65	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-mtici-score-vs.json	1676	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	6	23	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-nimodipinetiming-vs.json	827	1	0	0	0	0	0	0	0	294	0	0	0	0	0	0	0	0	0	0	6	278	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-no-anticoagulant-reason-vs.json	1542	1	0	0	0	0	0	0	1	259	0	0	0	0	0	0	0	0	0	0	6	276	0	0	0	1	0	1
-fsh-generated/resources/ValueSet-no-anticoagulant-reversal-reason-vs.json	1452	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	7	18	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-no-ich-treatment-reason-vs.json	1674	1	0	0	0	0	0	0	0	258	0	0	0	0	0	0	0	0	0	0	7	273	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-no-thrombectomy-reason-vs.json	2031	2	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	9	19	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-no-thrombolysis-reason-vs.json	1898	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	8	18	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-not-medication-reason-vs.json	2209	1	0	0	0	0	0	0	1	210	0	0	0	0	0	0	0	0	0	0	8	246	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-observation-methods-vs.json	833	1	0	0	0	0	0	0	0	248	0	0	0	0	0	0	0	0	0	0	4	27	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-occupational-therapy-vs.json	972	1	0	0	0	0	0	0	0	506	0	0	0	0	0	0	0	0	0	0	6	280	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-paracetamol-on-fever-timing-vs.json	743	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	5	19	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-paracetamol-on-fever-vs.json	930	1	0	0	0	0	0	0	0	245	0	0	0	0	0	0	0	0	0	0	5	268	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-perforation-procedures-vs.json	1014	1	0	0	0	0	0	0	0	250	0	0	0	0	0	0	0	0	0	0	5	275	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-post-acute-care-vs.json	936	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	6	21	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-post-neurosurgery-imaging-vs.json	955	1	0	0	0	0	0	0	0	253	0	0	0	0	0	0	0	0	0	0	9	266	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-post-recanalization-imaging-vs.json	965	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	8	20	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-post-stroke-complications-vs.json	1628	1	0	0	0	0	0	0	0	246	0	0	0	0	0	0	0	0	0	0	8	20	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-post-stroke-procedures-vs.json	1090	1	0	0	0	0	0	0	0	248	0	0	0	0	0	0	0	0	0	0	6	276	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-procedure-not-done-reason-vs.json	3133	1	0	0	1	0	1	0	1	262	0	0	0	0	0	0	0	0	0	0	12	286	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-procedure-timing-context-vs.json	497	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	23	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-risk-factor-vs.json	2416	1	0	0	0	0	0	0	1	210	0	0	0	0	0	0	0	0	0	0	8	32	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-screening-performer-vs.json	1021	1	0	0	0	0	0	0	0	250	0	0	0	0	0	0	0	0	0	0	6	280	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-sex-vs.json	726	1	0	0	0	0	0	0	0	254	0	0	0	0	0	0	0	0	0	0	5	284	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-specific-finding-vs.json	2493	2	0	0	1	0	0	0	1	223	0	0	0	0	0	0	0	0	0	0	9	28	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-stroke-circumstance-vs.json	726	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	5	18	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-stroke-etiology-other-vs.json	2391	2	0	0	0	0	0	0	0	219	1	0	0	0	0	0	0	0	0	0	9	238	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-stroke-etiology-vs.json	1756	1	0	0	0	0	0	0	1	210	0	0	0	0	0	0	0	0	0	0	7	237	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-stroke-type-vs.json	1275	1	0	0	0	0	0	0	0	208	0	0	0	0	0	0	0	0	0	0	6	19	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-swallowing-screening-done-vs.json	845	1	0	0	0	0	0	0	0	246	0	0	0	0	0	0	0	0	0	0	5	274	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-swallowing-screening-timing-vs.json	1109	1	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	7	22	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-swallowing-screening-type-vs.json	1179	1	0	0	0	0	0	0	0	252	0	0	0	0	0	0	0	0	0	0	6	279	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-tecnetplase-brand-vs.json	1525	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	6	18	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-three-month-contact-mode-vs.json	1319	1	0	0	0	0	0	0	1	249	0	0	0	0	0	0	0	0	0	0	7	20	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-thrombectomy-complications-vs.json	1188	1	0	0	0	0	0	0	0	248	0	0	0	0	0	0	0	0	0	0	6	274	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-tia-clinical-symptoms-vs.json	930	1	0	0	0	0	0	0	0	250	0	0	0	0	0	0	0	0	0	0	5	20	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-tia-symptom-duration-vs.json	902	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	5	14	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-timing-metric-codes-vs.json	3388	2	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	1	0	0	11	35	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-unitof-measurement-vs.json	1022	1	0	0	0	0	0	0	0	308	0	0	0	0	0	0	0	0	0	0	5	345	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-vital-signs-vs.json	1069	1	0	0	1	0	0	0	0	249	0	0	0	0	0	0	0	0	0	0	6	21	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-vte-procedures-vs.json	1818	1	0	0	0	0	0	0	1	217	0	0	0	0	0	0	0	0	0	0	7	227	0	0	0	1	0	0
-/input/includes/list-folder.html	4260	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/fsh-generated/includes/fsh-link-references.md	12578	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/fsh-generated/includes/menu.xml	1101	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/index.md	2168	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/pagecontent/index.md	2168	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
-/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/FHIR-Resources-Diagram.png	27019	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	79008	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	5	0	0	0	0	0	0
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-RESQ-FHIR-IG.json	58438	-	0	0	0	0	0	0	27	77	0	0	0	0	0	0	0	2	0	0	0	274	683	0	0	0	11	0	4
+fsh-generated/resources/CodeSystem-analytics-codes-cs.json	665	6	0	0	2	0	1	0	0	8	0	0	0	0	0	0	0	0	0	0	0	27	180	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-assessment-context-cs.json	1225	2	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	14	107	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-brain-imaging-type-cs.json	1057	2	0	0	0	0	0	0	3	4	0	0	0	0	0	0	0	0	0	0	0	23	82	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-carotid-endarterectomy-timing-cs.json	855	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	26	106	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-discharge-dept-cs.json	786	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	16	74	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-discharge-medication-cs.json	1386	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	17	69	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-first-contact-place-cs.json	712	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	15	82	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-functional-score-cs.json	762	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	16	56	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.json	654	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	12	48	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-hemorrhagic-transformation-type-cs.json	840	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	14	71	0	0	0	0	0	1
+fsh-generated/resources/CodeSystem-ich-treatment-cs.json	547	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	12	69	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-initial-care-intensity-cs.json	741	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	12	48	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-insulin-hyperglycemia-time-cs.json	677	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	14	38	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-medication-cs.json	1171	3	0	0	0	0	0	0	1	81	0	0	0	0	0	0	0	0	0	0	0	15	40	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-mrs-score-cs.json	1343	3	0	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	14	60	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-mtici-code-cs.json	522	3	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	15	48	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-mtici-score-cs.json	1502	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	14	59	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-not-medication-reason-cs.json	1292	1	0	0	0	0	0	0	1	2	0	0	1	0	0	0	0	1	0	0	0	14	63	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-old-infarct-cs.json	539	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	11	53	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-perfusion-volume-cs.json	651	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	14	48	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-procedure-timing-context-cs.json	688	2	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	14	64	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-risk-factor-cs.json	527	3	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	9	66	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-specific-finding-cs.json	562	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	9	47	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-arrival-mode-cs.json	1000	2	0	0	0	0	0	0	3	2	0	0	0	0	0	0	0	0	0	0	0	11	61	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-circumstance-codes-cs.json	686	2	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	10	41	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-discharge-destination-cs.json	739	1	0	0	1	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	13	61	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-etiology-cs.json	660	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	10	59	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-etiology-other-cs.json	978	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	12	52	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-stroke-mimics-diagnosis-cs.json	609	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	9	32	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-post-stroke-complication-cs.json	709	2	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	10	36	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-stroke-proc-not-done-reason-cs.json	2844	2	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	23	62	0	0	0	0	0	1
+fsh-generated/resources/CodeSystem-swallow-procedures-cs.json	704	2	0	0	0	0	0	0	2	4	0	0	0	0	2	0	0	0	0	0	0	10	56	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-swallow-screen-time-cs.json	572	2	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	9	41	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-symptoms-cs.json	530	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	9	35	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-tenecteplase-brand-cs.json	1301	3	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	16	44	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-three-month-contact-mode-cs.json	843	4	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	13	40	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-thrombectomy-complications-cs.json	615	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	9	42	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-tia-symptom-duration-cs.json	816	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	12	51	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-timing-cs.json	678	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	11	39	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-timing-metric-codes-cs.json	2874	4	0	0	1	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	37	44	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-vte-procedures-cs.json	568	2	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	17	30	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-yes-no-not-required-cs.json	650	1	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	12	32	0	0	0	0	0	0
+fsh-generated/resources/Condition-ExampleStrokeDiagnosis.json	1055	9	0	0	0	0	0	0	0	209	0	0	0	0	0	0	0	0	0	0	0	10	23	0	0	0	0	0	0
+fsh-generated/resources/Encounter-ExampleStrokeEncounter.json	1117	7	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	10	12	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleDoorToNeedle.json	667	8	0	0	0	0	0	0	0	267	0	0	0	0	0	0	0	0	0	0	0	20	13	0	0	0	0	0	0
+fsh-generated/resources/Patient-ExampleRESQPatient.json	564	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	9	9	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-analitics-observation-profile.json	2431	4	0	141	0	0	0	1	0	677	0	0	0	0	0	0	0	1	0	0	0	268	1812	0	1	0	9	0	3
+fsh-generated/resources/StructureDefinition-assessment-timing-ext.json	1858	4	0	10	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	48	293	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-base-stroke-observation.json	1606	2	0	4	0	0	0	0	0	21	0	0	0	0	0	0	0	1	0	0	0	247	830	0	0	0	8	0	3
+fsh-generated/resources/StructureDefinition-discharge-department-service-ext.json	1771	2	0	9	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	50	178	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-discharge-medication-request-profile.json	2430	2	0	61	0	0	0	0	0	39	0	0	0	0	0	0	0	1	0	0	0	252	628	0	0	0	7	0	2
+fsh-generated/resources/StructureDefinition-ems-prenotification-ext.json	1595	2	0	15	0	0	0	0	0	6	0	0	1	0	0	0	0	0	0	0	0	44	194	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-fever-observation-profile.json	1832	2	0	75	0	0	0	0	0	27	0	0	0	0	0	0	0	1	0	0	0	264	574	0	0	0	11	1	2
+fsh-generated/resources/StructureDefinition-first-hospital-ext.json	1657	2	0	13	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	44	165	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-follow-up-appointment-profile.json	1679	4	0	61	0	0	0	0	0	48	0	0	0	0	0	0	0	2	0	0	0	262	599	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-functional-score-observation-profile.json	2928	3	0	60	0	0	0	0	0	39	0	0	0	0	0	0	0	1	0	0	0	257	780	0	0	0	13	1	2
+fsh-generated/resources/StructureDefinition-gender-snomed-ext.json	1692	2	0	6	2	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	46	170	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-glasgow-coma-scale-observation-profile.json	1536	2	0	45	0	0	0	0	0	23	0	0	0	0	0	0	0	1	0	0	0	292	792	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-glucose-ge10-observation-profile.json	1066	1	0	58	0	0	0	0	0	19	0	0	0	0	0	0	0	1	0	0	0	176	510	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.json	1764	2	0	12	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	32	168	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.json	1869	2	0	9	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	39	135	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-highest-hyperglycemia-value-observation-profile.json	1893	4	0	31	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	0	183	511	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-hospitalized-location-profile.json	1722	2	0	21	0	0	0	0	0	13	0	0	0	0	0	0	0	1	0	0	0	97	320	0	0	0	4	0	1
+fsh-generated/resources/StructureDefinition-hyperglycemia-observation-profile.json	1201	2	0	33	0	0	0	0	0	19	0	0	1	0	0	0	0	1	0	0	0	209	446	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-initial-care-intensity-ext.json	1776	3	0	4	1	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	32	121	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.json	2389	2	0	54	0	0	0	0	0	144	0	0	0	0	0	0	0	1	0	0	0	144	441	0	0	0	25	0	2
+fsh-generated/resources/StructureDefinition-ischemic-stroke-etiology-ext.json	1661	2	0	6	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	30	131	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-ischemic-stroke-etiology-known-ext.json	1860	2	0	4	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	44	145	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.json	2242	3	0	23	0	0	0	0	0	13	0	0	0	0	0	0	0	1	0	0	0	156	337	0	0	0	5	1	1
+fsh-generated/resources/StructureDefinition-nimodipine-medicationAdministration-profile.json	1564	1	0	24	0	0	0	0	0	21	0	0	0	0	0	0	0	1	0	0	0	132	402	0	0	0	5	0	2
+fsh-generated/resources/StructureDefinition-observation-timing-context-ext.json	2636	3	0	5	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	43	167	0	1	0	2	0	0
+fsh-generated/resources/StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.json	1987	3	0	43	0	0	0	0	0	18	0	0	0	0	0	0	0	1	0	0	0	180	415	0	0	0	7	0	2
+fsh-generated/resources/StructureDefinition-patient-ventilated-observation-profile.json	1819	2	0	108	0	0	0	0	0	24	0	0	0	0	0	0	0	1	0	0	0	162	442	0	0	0	9	0	2
+fsh-generated/resources/StructureDefinition-post-acute-care-required-ext.json	1803	3	0	6	0	0	0	1	0	5	0	0	4	0	0	0	0	0	0	0	0	30	122	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-post-stroke-complication-condition-profile.json	1919	2	0	253	0	0	0	0	0	14	0	0	0	0	0	0	0	1	0	0	0	115	431	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-prior-medication-statement-profile.json	2334	3	0	19	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	104	336	0	0	0	4	0	1
+fsh-generated/resources/StructureDefinition-procedure-timing-context-ext.json	1800	4	0	4	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	31	148	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-required-post-acute-care-ext.json	1908	3	0	3	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	30	120	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-resq-body-structure-profile.json	1732	2	0	21	0	0	0	0	0	12	0	0	1	0	0	0	0	1	0	0	0	149	268	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-resq-location-profile.json	831	1	0	21	0	0	0	0	0	10	0	0	0	0	0	0	0	1	0	0	0	80	231	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-resq-patient-profile.json	1649	2	0	26	1	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	117	300	0	0	0	6	1	1
+fsh-generated/resources/StructureDefinition-resq-practitioner-role-profile.json	947	2	0	13	0	0	0	0	0	8	0	0	0	0	0	0	0	1	0	0	0	66	251	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-specific-finding-observation-profile.json	2574	4	0	27	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	0	181	541	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.json	2854	8	0	30	0	0	0	0	0	17	0	0	0	0	0	0	0	1	0	0	0	134	344	0	0	0	10	0	1
+fsh-generated/resources/StructureDefinition-stroke-carotid-imaging-procedure-profile.json	2600	3	0	30	0	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	0	182	347	0	0	0	6	0	2
+fsh-generated/resources/StructureDefinition-stroke-diagnosis-condition-profile.json	5419	6	0	28	0	0	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	152	515	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-stroke-encounter-profile.json	4111	5	0	36	0	0	0	0	0	30	0	0	0	0	0	0	0	2	0	0	0	188	447	0	0	0	9	0	3
+fsh-generated/resources/StructureDefinition-stroke-imaging-diagnostic-report-profile.json	2387	3	0	32	0	0	0	0	0	19	0	0	1	0	0	0	0	0	0	0	0	127	295	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-stroke-imaging-procedure-profile.json	3315	4	0	46	0	0	0	0	0	22	0	0	0	0	0	0	0	1	0	0	0	196	356	0	0	0	7	0	2
+fsh-generated/resources/StructureDefinition-stroke-mechanical-procedure-profile.json	4261	6	0	54	1	0	0	0	0	21	0	0	0	0	0	0	0	1	0	0	0	155	382	0	1	0	7	0	1
+fsh-generated/resources/StructureDefinition-stroke-medication-administration-profile.json	5041	7	0	3	0	0	0	0	0	24	0	0	0	0	0	0	0	1	0	0	0	144	377	0	0	0	7	1	2
+fsh-generated/resources/StructureDefinition-stroke-registry-organization-profile.json	1938	2	0	26	0	0	0	0	0	17	0	0	0	0	0	0	0	1	0	0	0	104	261	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-stroke-risk-factor-condition-profile.json	2014	2	0	20	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	0	108	371	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-stroke-swallow-procedure-profile.json	3640	3	0	26	0	0	0	0	0	38	0	0	0	0	0	0	0	0	0	0	0	208	345	0	0	0	7	0	2
+fsh-generated/resources/StructureDefinition-stroke-treatment-procedure-profile.json	3127	5	0	24	0	0	0	0	0	92	0	0	0	0	0	0	0	1	0	0	0	185	352	0	0	0	6	0	1
+fsh-generated/resources/StructureDefinition-stroke-vte-procedure-profile.json	1683	2	0	25	0	0	0	0	0	17	0	0	2	0	0	0	0	1	0	0	0	128	327	0	0	0	6	0	2
+fsh-generated/resources/StructureDefinition-three-month-communication-profile.json	1862	1	0	17	0	0	0	0	0	15	0	0	0	0	0	0	0	1	0	0	0	93	258	0	0	0	4	0	1
+fsh-generated/resources/StructureDefinition-three-month-contact-mode-observation-profile.json	913	2	0	24	1	0	0	0	0	20	0	0	0	0	0	0	0	1	0	0	0	151	537	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-tia-clinical-symptoms-observation-profile.json	1253	1	0	23	0	0	0	0	0	20	0	0	1	0	0	0	0	1	0	0	0	219	505	0	0	0	8	0	2
+fsh-generated/resources/StructureDefinition-timing-metric-observation-profile.json	2366	2	0	28	0	0	0	0	0	26	0	0	0	0	0	0	0	1	0	0	0	182	462	0	1	0	10	0	2
+fsh-generated/resources/StructureDefinition-vital-sign-observation-profile.json	2655	3	0	25	0	0	0	0	0	42	0	0	0	0	0	0	0	1	0	0	0	178	596	0	0	0	9	0	2
+fsh-generated/resources/StructureDefinition-wakeup-stroke-ext.json	1693	2	0	3	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	31	112	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-adherence-codes-vs.json	776	2	0	0	0	0	0	0	0	64	0	0	0	0	0	0	0	0	0	0	0	11	87	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-admission-department-vs.json	1033	1	0	0	0	0	0	0	1	6	0	0	0	0	0	0	0	0	0	0	0	9	60	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-admission-pathway-vs.json	1150	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	0	10	64	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-analitics-codes-vs.json	1436	1	0	0	0	0	0	0	0	367	0	0	0	0	0	0	0	0	0	0	0	13	59	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-anticoagulant-reversal-vs.json	1791	1	0	0	0	0	0	0	2	112	0	0	0	0	0	0	0	0	0	0	0	16	182	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-assessment-context-vs.json	1454	1	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	12	41	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-atrial-fibrillation-or-flutter-vs.json	873	1	0	0	0	0	0	0	0	109	0	0	0	0	0	0	0	0	0	0	0	9	163	1	0	0	0	0	0
+fsh-generated/resources/ValueSet-bleeding-reason-vs.json	1815	2	0	0	0	0	0	0	0	70	0	0	0	0	0	0	0	0	0	0	0	13	133	0	0	0	1	0	1
+fsh-generated/resources/ValueSet-body-sites-vs.json	2738	1	0	0	0	0	0	0	0	80	0	0	0	0	0	0	0	0	0	0	0	14	57	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-bool-vs.json	584	1	0	0	0	0	0	0	1	255	0	0	0	0	0	0	0	0	0	0	0	6	159	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-carotid-endarterectomy-timing-vs.json	950	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	8	47	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-carotid-stenosis-level-vs.json	942	1	0	0	0	0	0	0	0	111	0	0	0	0	0	0	0	0	0	0	0	8	163	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-clinical-status-codes-vs.json	887	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	10	37	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-discharge-destination-vs.json	1368	1	0	0	0	0	0	0	2	117	0	0	0	0	0	0	0	0	0	0	0	10	172	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-discharge-facility-department-vs.json	963	1	0	0	1	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	7	54	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-discharge-facility-type-vs.json	1166	1	0	0	0	0	0	0	0	118	0	0	0	0	0	0	0	0	0	0	0	65	178	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-discharge-medication-vs.json	1688	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	23	50	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-first-contact-place-vs.json	1011	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	20	38	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-functional-score-vs.json	1900	3	0	0	0	0	0	0	0	72	0	0	0	0	0	0	0	0	0	0	0	14	68	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-gcsscore-vs.json	758	3	0	0	0	0	0	0	1	109	0	0	0	0	0	0	0	0	0	0	0	8	43	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-glasgow-coma-scale-vs.json	2087	1	0	0	0	0	0	0	0	74	0	0	0	0	0	0	0	0	0	0	0	9	63	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-hemorrhagic-transformation-type-vs.json	961	3	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	7	51	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-hospitalized-in-vs.json	797	1	0	0	0	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	0	7	39	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ich-treatment-vs.json	1832	2	0	0	0	0	0	0	1	83	0	0	0	0	0	0	0	0	0	0	0	12	127	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-imaging-type-vs.json	1411	1	0	0	1	0	0	0	0	111	0	0	0	0	0	0	0	0	0	0	0	11	161	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-in-hospital-vs.json	706	4	0	0	1	0	0	0	0	258	0	0	0	0	0	0	0	0	0	0	0	9	154	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-inrmode-vs.json	764	1	0	0	0	0	0	0	0	116	0	0	0	0	0	0	0	0	0	0	0	8	157	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-insulin-on-hyperglycemia-timing-vs.json	767	3	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	7	32	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-ivt-application-department-vs.json	922	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	9	37	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ivt-drug-vs.json	972	3	0	0	0	0	0	0	1	114	0	0	0	0	0	0	0	0	0	0	0	7	181	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-laterality-vs.json	1829	1	0	0	0	0	0	0	0	192	0	0	0	0	0	0	0	0	0	0	0	9	149	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-locations-vs.json	1261	4	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	10	39	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-medications-vs.json	3554	3	0	0	0	0	0	0	1	72	0	0	0	0	0	0	0	0	0	0	0	13	127	0	0	0	1	0	1
+fsh-generated/resources/ValueSet-mimics-diagnosis-vs.json	1253	1	0	0	0	0	0	0	0	113	0	0	0	0	0	0	0	0	0	0	0	9	153	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-mrs-score-vs.json	1515	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	10	31	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-mtici-score-vs.json	1676	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	8	32	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-nimodipinetiming-vs.json	827	1	0	0	0	0	0	0	0	108	0	0	0	0	0	0	0	0	0	0	0	7	142	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-no-anticoagulant-reason-vs.json	1542	1	0	0	0	0	0	0	0	110	0	0	0	0	0	0	0	0	0	0	0	9	170	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-no-anticoagulant-reversal-reason-vs.json	1452	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	8	33	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-no-ich-treatment-reason-vs.json	1674	1	0	0	0	0	0	0	1	108	0	0	0	0	0	0	0	0	0	0	0	11	164	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-no-thrombectomy-reason-vs.json	2031	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	11	35	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-no-thrombolysis-reason-vs.json	1898	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	10	34	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-not-medication-reason-vs.json	2209	1	0	0	0	0	0	0	1	64	0	0	0	0	0	0	0	0	0	0	0	11	121	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-observation-methods-vs.json	833	1	0	0	0	0	0	0	0	106	0	0	0	0	0	0	0	0	0	0	0	7	36	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-occupational-therapy-vs.json	972	1	0	0	0	0	0	0	0	212	0	0	0	0	0	0	0	1	0	0	0	7	145	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-paracetamol-on-fever-timing-vs.json	743	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	7	29	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-paracetamol-on-fever-vs.json	930	1	0	0	0	0	0	0	1	106	0	0	0	0	0	0	0	0	0	0	0	9	149	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-perforation-procedures-vs.json	1014	1	0	0	0	0	0	0	0	107	0	0	0	0	0	0	0	0	0	0	0	7	141	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-post-acute-care-vs.json	936	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	8	46	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-post-neurosurgery-imaging-vs.json	955	1	0	0	0	0	0	0	0	106	0	0	0	0	0	0	0	0	0	0	0	8	158	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-post-recanalization-imaging-vs.json	965	1	0	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	8	36	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-post-stroke-complications-vs.json	1628	1	0	0	0	0	0	0	1	111	0	0	0	0	0	0	0	0	0	0	0	9	40	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-post-stroke-procedures-vs.json	1090	1	0	0	0	0	0	0	0	104	0	0	0	0	0	0	0	0	0	0	0	7	145	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-procedure-not-done-reason-vs.json	3133	2	0	0	0	0	0	0	1	109	0	0	0	0	0	0	0	0	0	0	0	14	159	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-procedure-timing-context-vs.json	497	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	8	26	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-risk-factor-vs.json	2416	2	0	0	0	0	0	0	0	67	0	0	0	0	0	0	0	0	0	0	0	13	44	0	0	0	0	0	1
+fsh-generated/resources/ValueSet-screening-performer-vs.json	1021	1	0	0	0	0	0	0	0	107	0	0	0	0	0	0	0	0	0	0	0	8	151	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-sex-vs.json	726	1	0	0	0	0	0	0	1	107	0	0	0	0	0	0	0	0	0	0	0	9	145	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-specific-finding-vs.json	2493	1	0	0	0	0	0	0	0	76	0	0	0	0	0	0	0	0	0	0	0	13	57	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-stroke-circumstance-vs.json	726	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	7	38	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-stroke-etiology-other-vs.json	2391	1	0	0	0	0	0	0	1	78	0	0	0	0	0	0	0	0	0	0	0	11	122	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-stroke-etiology-vs.json	1756	1	0	0	0	0	0	0	0	110	0	0	0	0	0	0	0	0	0	0	0	10	118	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-stroke-type-vs.json	1275	1	0	0	0	0	0	0	0	70	0	0	0	0	0	0	0	0	0	0	0	9	35	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-swallowing-screening-done-vs.json	845	2	0	0	0	0	0	0	0	103	0	0	0	0	0	0	0	0	0	0	0	7	142	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-swallowing-screening-timing-vs.json	1109	1	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	8	36	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-swallowing-screening-type-vs.json	1179	1	0	0	0	0	0	0	0	113	0	0	0	0	0	0	0	0	0	0	0	10	144	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-tecnetplase-brand-vs.json	1525	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	9	31	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-three-month-contact-mode-vs.json	1319	1	0	0	0	0	0	0	0	107	0	0	0	0	0	0	0	0	0	0	0	8	35	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-thrombectomy-complications-vs.json	1188	1	0	0	0	0	0	0	1	103	0	0	0	0	0	0	0	0	0	0	0	8	145	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-tia-clinical-symptoms-vs.json	930	1	0	0	0	0	0	0	0	105	0	0	0	0	0	0	0	0	0	0	0	7	50	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-tia-symptom-duration-vs.json	902	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	11	28	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-timing-metric-codes-vs.json	3388	2	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	19	38	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-unitof-measurement-vs.json	1022	1	0	0	0	0	0	0	0	125	0	0	0	0	0	0	0	0	0	0	0	8	155	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-vital-signs-vs.json	1069	1	0	0	0	0	0	0	0	105	0	0	0	0	0	0	0	0	0	0	0	8	51	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-vte-procedures-vs.json	1818	1	0	0	0	0	0	0	0	72	0	0	0	0	0	0	0	0	0	0	0	9	111	0	0	0	0	0	0
+/input/includes/list-folder.html	4260	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	12578	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1101	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	2168	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	2168	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/FHIR-Resources-Diagram.png	27019	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	108963	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	9	0	0	0	0	0	0

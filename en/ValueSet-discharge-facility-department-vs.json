@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "discharge-facility-department-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet discharge-facility-department-vs</b></p><a name=\"discharge-facility-department-vs\"> </a><a name=\"hcdischarge-facility-department-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-discharge-dept-cs.html\"><code>http://tecnomod-um.org/CodeSystem/discharge-dept-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-discharge-dept-cs.html#discharge-dept-cs-acute\">acute</a></td><td>Acute Rehabilitation</td></tr><tr><td><a href=\"CodeSystem-discharge-dept-cs.html#discharge-dept-cs-post-care\">post-care</a></td><td>Post Care Bed</td></tr><tr><td><a href=\"CodeSystem-discharge-dept-cs.html#discharge-dept-cs-neurology\">neurology</a></td><td>Neurology</td></tr><tr><td><a href=\"CodeSystem-discharge-dept-cs.html#discharge-dept-cs-another-department\">another-department</a></td><td>Another Department</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/discharge-facility-department-vs",
+  "version" : "1.0.0",
+  "name" : "DischargeFacilityDepartmentVS",
+  "title" : "DischargeFacilityDepartment ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for DischargeFacilityDepartment, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+      "concept" : [{
+        "code" : "acute",
+        "display" : "Acute Rehabilitation"
+      },
+      {
+        "code" : "post-care",
+        "display" : "Post Care Bed"
+      },
+      {
+        "code" : "neurology",
+        "display" : "Neurology"
+      },
+      {
+        "code" : "another-department",
+        "display" : "Another Department"
+      }]
+    }]
+  }
+}

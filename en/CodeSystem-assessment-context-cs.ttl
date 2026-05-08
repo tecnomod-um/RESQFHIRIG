@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/assessment-context-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "assessment-context-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem assessment-context-cs</b></p><a name=\"assessment-context-cs\"> </a><a name=\"hcassessment-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-stroke<a name=\"assessment-context-cs-pre-stroke\"> </a></td><td>Pre-stroke</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"assessment-context-cs-discharge\"> </a></td><td>Discharge</td></tr><tr><td style=\"white-space:nowrap\">3-month<a name=\"assessment-context-cs-3-month\"> </a></td><td>3 Month Follow-up</td></tr><tr><td style=\"white-space:nowrap\">admission<a name=\"assessment-context-cs-admission\"> </a></td><td>Admission</td></tr><tr><td style=\"white-space:nowrap\">72-hours<a name=\"assessment-context-cs-72-hours\"> </a></td><td>72 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">first-48-hours<a name=\"assessment-context-cs-first-48-hours\"> </a></td><td>First 48 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">post-stroke<a name=\"assessment-context-cs-post-stroke\"> </a></td><td>Post-Stroke</td></tr><tr><td style=\"white-space:nowrap\">last-10-years<a name=\"assessment-context-cs-last-10-years\"> </a></td><td>During Last 10 Years</td></tr><tr><td style=\"white-space:nowrap\">discharge-or-7-days<a name=\"assessment-context-cs-discharge-or-7-days\"> </a></td><td>Discharge or 7 Days After Admission</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/assessment-context-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/assessment-context-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "AssessmentContextCS"] ; # 
+  fhir:title [ fhir:v "AssessmentContextCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "pre-stroke" ] ;
+     fhir:display [ fhir:v "Pre-stroke" ]
+  ] [
+     fhir:code [ fhir:v "discharge" ] ;
+     fhir:display [ fhir:v "Discharge" ]
+  ] [
+     fhir:code [ fhir:v "3-month" ] ;
+     fhir:display [ fhir:v "3 Month Follow-up" ]
+  ] [
+     fhir:code [ fhir:v "admission" ] ;
+     fhir:display [ fhir:v "Admission" ]
+  ] [
+     fhir:code [ fhir:v "72-hours" ] ;
+     fhir:display [ fhir:v "72 Hours After Admission" ]
+  ] [
+     fhir:code [ fhir:v "first-48-hours" ] ;
+     fhir:display [ fhir:v "First 48 Hours After Admission" ]
+  ] [
+     fhir:code [ fhir:v "post-stroke" ] ;
+     fhir:display [ fhir:v "Post-Stroke" ]
+  ] [
+     fhir:code [ fhir:v "last-10-years" ] ;
+     fhir:display [ fhir:v "During Last 10 Years" ]
+  ] [
+     fhir:code [ fhir:v "discharge-or-7-days" ] ;
+     fhir:display [ fhir:v "Discharge or 7 Days After Admission" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

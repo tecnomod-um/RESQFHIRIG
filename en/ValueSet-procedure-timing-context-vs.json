@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "procedure-timing-context-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet procedure-timing-context-vs</b></p><a name=\"procedure-timing-context-vs\"> </a><a name=\"hcprocedure-timing-context-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-procedure-timing-context-cs.html\"><code>http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
+  "version" : "1.0.0",
+  "name" : "ProcedureTimingContextVS",
+  "title" : "Procedure Timing Context ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed values for the Procedure timing context extension.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"
+    }]
+  }
+}

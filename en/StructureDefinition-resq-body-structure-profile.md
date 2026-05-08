@@ -1,0 +1,118 @@
+# RESQ BodyStructure Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+
+## Resource Profile: RESQ BodyStructure Profile 
+
+ 
+BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure(). 
+
+**Usages:**
+
+* Refer to this Profile: [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/resq-body-structure-profile)
+
+### Formal Views of Profile Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-resq-body-structure-profile.csv), [Excel](../StructureDefinition-resq-body-structure-profile.xlsx), [Schematron](../StructureDefinition-resq-body-structure-profile.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "resq-body-structure-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile",
+  "version" : "1.0.0",
+  "name" : "RESQBodyStructureProfile",
+  "title" : "RESQ BodyStructure Profile",
+  "status" : "active",
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure().",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "openehr",
+    "uri" : "http://openehr.org",
+    "name" : "Open EHR Archetype Mapping"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 V2 Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "BodyStructure",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/BodyStructure",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "BodyStructure",
+      "path" : "BodyStructure"
+    },
+    {
+      "id" : "BodyStructure.includedStructure",
+      "path" : "BodyStructure.includedStructure",
+      "mustSupport" : true
+    },
+    {
+      "id" : "BodyStructure.includedStructure.structure",
+      "path" : "BodyStructure.includedStructure.structure",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/body-sites-vs"
+      }
+    },
+    {
+      "id" : "BodyStructure.includedStructure.laterality",
+      "path" : "BodyStructure.includedStructure.laterality",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/laterality-vs"
+      }
+    },
+    {
+      "id" : "BodyStructure.patient",
+      "path" : "BodyStructure.patient",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+      }],
+      "mustSupport" : true
+    }]
+  }
+}
+
+```

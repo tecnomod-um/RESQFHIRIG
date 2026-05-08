@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vte-procedures-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vte-procedures-vs</b></p><a name=\"vte-procedures-vs\"> </a><a name=\"hcvte-procedures-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-vte-procedures-cs.html\"><code>http://tecnomod-um.org/CodeSystem/vte-procedures-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-vte-procedures-cs.html#vte-procedures-cs-vte-proc\">vte-proc</a></td><td>Thromboembolism intervention</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/225420001\">225420001</a></td><td>Application of antithromboembolic stockings (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/443448006\">443448006</a></td><td>Application of intermittent pneumatic compression device (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/442410008\">442410008</a></td><td>Application of venous foot pump (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/787927008\">787927008</a></td><td>Administration of prophylactic coagulation factor Xa inhibitor (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/699041005\">699041005</a></td><td>Administration of prophylactic warfarin (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/392129008\">392129008</a></td><td>Administration of prophylactic low dose heparin (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/443464003\">443464003</a></td><td>Low molecular weight heparin therapy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/421728001\">421728001</a></td><td>Administration of prophylactic anticoagulant (procedure)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs",
+  "version" : "1.0.0",
+  "name" : "VteProceduresVS",
+  "title" : "VteProcedures ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for VteProcedures, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+      "concept" : [{
+        "code" : "vte-proc",
+        "display" : "Thromboembolism intervention"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "225420001",
+        "display" : "Application of antithromboembolic stockings (procedure)"
+      },
+      {
+        "code" : "443448006",
+        "display" : "Application of intermittent pneumatic compression device (procedure)"
+      },
+      {
+        "code" : "442410008",
+        "display" : "Application of venous foot pump (procedure)"
+      },
+      {
+        "code" : "787927008",
+        "display" : "Administration of prophylactic coagulation factor Xa inhibitor (procedure)"
+      },
+      {
+        "code" : "699041005",
+        "display" : "Administration of prophylactic warfarin (procedure)"
+      },
+      {
+        "code" : "392129008",
+        "display" : "Administration of prophylactic low dose heparin (procedure)"
+      },
+      {
+        "code" : "443464003",
+        "display" : "Low molecular weight heparin therapy (procedure)"
+      },
+      {
+        "code" : "421728001",
+        "display" : "Administration of prophylactic anticoagulant (procedure)"
+      }]
+    }]
+  }
+}

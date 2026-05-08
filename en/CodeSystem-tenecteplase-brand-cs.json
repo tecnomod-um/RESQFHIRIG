@@ -1,0 +1,71 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "tenecteplase-brand-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tenecteplase-brand-cs</b></p><a name=\"tenecteplase-brand-cs\"> </a><a name=\"hctenecteplase-brand-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">metalyse<a name=\"tenecteplase-brand-cs-metalyse\"> </a></td><td>Metalyse (Boehringer Ingelheim International)</td></tr><tr><td style=\"white-space:nowrap\">tenectase<a name=\"tenecteplase-brand-cs-tenectase\"> </a></td><td>Tenectase (Gennova Biopharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">tnkase<a name=\"tenecteplase-brand-cs-tnkase\"> </a></td><td>TNKase (Genentech/Roche)</td></tr><tr><td style=\"white-space:nowrap\">supralase<a name=\"tenecteplase-brand-cs-supralase\"> </a></td><td>Supraplase (Cadila Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">velix<a name=\"tenecteplase-brand-cs-velix\"> </a></td><td>Velix (Emcure Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">tenectelex<a name=\"tenecteplase-brand-cs-tenectelex\"> </a></td><td>Tenectelex (Abbott Healthcare)</td></tr><tr><td style=\"white-space:nowrap\">telyse<a name=\"tenecteplase-brand-cs-telyse\"> </a></td><td>Telyse (Cipla)</td></tr><tr><td style=\"white-space:nowrap\">tenepact<a name=\"tenecteplase-brand-cs-tenepact\"> </a></td><td>Tenepact (Glenmark Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"tenecteplase-brand-cs-other\"> </a></td><td>Other Tenecteplase Brand</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs",
+  "version" : "1.0.0",
+  "name" : "TenecteplaseBrandCS",
+  "title" : "TenecteplaseBrandCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "metalyse",
+    "display" : "Metalyse (Boehringer Ingelheim International)"
+  },
+  {
+    "code" : "tenectase",
+    "display" : "Tenectase (Gennova Biopharmaceuticals)"
+  },
+  {
+    "code" : "tnkase",
+    "display" : "TNKase (Genentech/Roche)"
+  },
+  {
+    "code" : "supralase",
+    "display" : "Supraplase (Cadila Pharmaceuticals)"
+  },
+  {
+    "code" : "velix",
+    "display" : "Velix (Emcure Pharmaceuticals)"
+  },
+  {
+    "code" : "tenectelex",
+    "display" : "Tenectelex (Abbott Healthcare)"
+  },
+  {
+    "code" : "telyse",
+    "display" : "Telyse (Cipla)"
+  },
+  {
+    "code" : "tenepact",
+    "display" : "Tenepact (Glenmark Pharmaceuticals)"
+  },
+  {
+    "code" : "other",
+    "display" : "Other Tenecteplase Brand"
+  }]
+}

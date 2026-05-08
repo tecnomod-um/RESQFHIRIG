@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "admission-department-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet admission-department-vs</b></p><a name=\"admission-department-vs\"> </a><a name=\"hcadmission-department-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.0, the version found through the package references\"> version &#x1F4E6;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td>Neurology critical care and stroke unit</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td>Neurosurgery unit</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td>Intensive Care Unit</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td>General internal medicine clinic</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-other\">other</a></td><td>Other Department</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/admission-department-vs",
+  "version" : "1.0.0",
+  "name" : "AdmissionDepartmentVS",
+  "title" : "AdmissionDepartment ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for AdmissionDepartment, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "concept" : [{
+        "code" : "NCCS",
+        "display" : "Neurology critical care and stroke unit"
+      },
+      {
+        "code" : "NS",
+        "display" : "Neurosurgery unit"
+      },
+      {
+        "code" : "ICU",
+        "display" : "Intensive Care Unit"
+      },
+      {
+        "code" : "GIM",
+        "display" : "General internal medicine clinic"
+      },
+      {
+        "code" : "other",
+        "display" : "Other Department"
+      }]
+    }]
+  }
+}

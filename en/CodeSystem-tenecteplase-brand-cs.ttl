@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "tenecteplase-brand-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem tenecteplase-brand-cs</b></p><a name=\"tenecteplase-brand-cs\"> </a><a name=\"hctenecteplase-brand-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">metalyse<a name=\"tenecteplase-brand-cs-metalyse\"> </a></td><td>Metalyse (Boehringer Ingelheim International)</td></tr><tr><td style=\"white-space:nowrap\">tenectase<a name=\"tenecteplase-brand-cs-tenectase\"> </a></td><td>Tenectase (Gennova Biopharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">tnkase<a name=\"tenecteplase-brand-cs-tnkase\"> </a></td><td>TNKase (Genentech/Roche)</td></tr><tr><td style=\"white-space:nowrap\">supralase<a name=\"tenecteplase-brand-cs-supralase\"> </a></td><td>Supraplase (Cadila Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">velix<a name=\"tenecteplase-brand-cs-velix\"> </a></td><td>Velix (Emcure Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">tenectelex<a name=\"tenecteplase-brand-cs-tenectelex\"> </a></td><td>Tenectelex (Abbott Healthcare)</td></tr><tr><td style=\"white-space:nowrap\">telyse<a name=\"tenecteplase-brand-cs-telyse\"> </a></td><td>Telyse (Cipla)</td></tr><tr><td style=\"white-space:nowrap\">tenepact<a name=\"tenecteplase-brand-cs-tenepact\"> </a></td><td>Tenepact (Glenmark Pharmaceuticals)</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"tenecteplase-brand-cs-other\"> </a></td><td>Other Tenecteplase Brand</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "TenecteplaseBrandCS"] ; # 
+  fhir:title [ fhir:v "TenecteplaseBrandCs CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "metalyse" ] ;
+     fhir:display [ fhir:v "Metalyse (Boehringer Ingelheim International)" ]
+  ] [
+     fhir:code [ fhir:v "tenectase" ] ;
+     fhir:display [ fhir:v "Tenectase (Gennova Biopharmaceuticals)" ]
+  ] [
+     fhir:code [ fhir:v "tnkase" ] ;
+     fhir:display [ fhir:v "TNKase (Genentech/Roche)" ]
+  ] [
+     fhir:code [ fhir:v "supralase" ] ;
+     fhir:display [ fhir:v "Supraplase (Cadila Pharmaceuticals)" ]
+  ] [
+     fhir:code [ fhir:v "velix" ] ;
+     fhir:display [ fhir:v "Velix (Emcure Pharmaceuticals)" ]
+  ] [
+     fhir:code [ fhir:v "tenectelex" ] ;
+     fhir:display [ fhir:v "Tenectelex (Abbott Healthcare)" ]
+  ] [
+     fhir:code [ fhir:v "telyse" ] ;
+     fhir:display [ fhir:v "Telyse (Cipla)" ]
+  ] [
+     fhir:code [ fhir:v "tenepact" ] ;
+     fhir:display [ fhir:v "Tenepact (Glenmark Pharmaceuticals)" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other Tenecteplase Brand" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

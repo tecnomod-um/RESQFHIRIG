@@ -1,0 +1,3692 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/ImplementationGuide/RESQ-FHIR-IG> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "RESQ-FHIR-IG"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide RESQ-FHIR-IG</b></p><a name=\"RESQ-FHIR-IG\"> </a><a name=\"hcRESQ-FHIR-IG\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>RESQStrokeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://tecnomod-um.org/ImplementationGuide/RESQ-FHIR-IG</pre></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/ImplementationGuide/RESQ-FHIR-IG"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ImplementationGuide/RESQ-FHIR-IG>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "RESQStrokeIG"] ; # 
+  fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "RESQ-FHIR-IG"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "5.0.0"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment>
+       ] ;
+       fhir:value [
+         a fhir:Markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+       ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r5" ] ;
+     fhir:version [ fhir:v "7.1.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_extensions_r5" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r5" ] ;
+     fhir:version [ fhir:v "5.2.0" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "hl7.fhir.uv.tools.r5#1.1.2"
+       ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/adherence-codes-vs> ;
+         fhir:reference [ fhir:v "ValueSet/adherence-codes-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AdherenceCodes ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdherenceCodes, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/admission-department-vs> ;
+         fhir:reference [ fhir:v "ValueSet/admission-department-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AdmissionDepartment ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdmissionDepartment, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/admission-pathway-vs> ;
+         fhir:reference [ fhir:v "ValueSet/admission-pathway-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AdmissionPathway ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdmissionPathway, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/analitics-codes-vs> ;
+         fhir:reference [ fhir:v "ValueSet/analitics-codes-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AnaliticsCodes ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AnaliticsCodes, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/analitics-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/analitics-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Analytics Observation Profile" ] ;
+       fhir:description [ fhir:v "Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/analytics-codes-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/analytics-codes-cs" ]
+       ] ;
+       fhir:name [ fhir:v "AnalyticsCodesCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs> ;
+         fhir:reference [ fhir:v "ValueSet/anticoagulant-reversal-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AnticoagulantReversal ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AnticoagulantReversal, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/assessment-timing-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/assessment-timing-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Assessment or medication timing" ] ;
+       fhir:description [ fhir:v "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/assessment-context-vs> ;
+         fhir:reference [ fhir:v "ValueSet/assessment-context-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AssessmentContext ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AssessmentContext, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/assessment-context-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/assessment-context-cs" ]
+       ] ;
+       fhir:name [ fhir:v "AssessmentContextCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs> ;
+         fhir:reference [ fhir:v "ValueSet/atrial-fibrillation-or-flutter-vs" ]
+       ] ;
+       fhir:name [ fhir:v "AtrialFibrillationOrFlutter ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for AtrialFibrillationOrFlutter, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/base-stroke-observation> ;
+         fhir:reference [ fhir:v "StructureDefinition/base-stroke-observation" ]
+       ] ;
+       fhir:name [ fhir:v "Base Stroke Observation Profile" ] ;
+       fhir:description [ fhir:v "Base profile for stroke registry observations: subject and encounter required; status is normally final." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/bleeding-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/bleeding-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "BleedingReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for BleedingReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/body-sites-vs> ;
+         fhir:reference [ fhir:v "ValueSet/body-sites-vs" ]
+       ] ;
+       fhir:name [ fhir:v "BodySites ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for BodySites, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/bool-vs> ;
+         fhir:reference [ fhir:v "ValueSet/bool-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Bool ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Bool, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/brain-imaging-type-cs" ]
+       ] ;
+       fhir:name [ fhir:v "BrainImagingTypeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/carotid-endarterectomy-timing-vs> ;
+         fhir:reference [ fhir:v "ValueSet/carotid-endarterectomy-timing-vs" ]
+       ] ;
+       fhir:name [ fhir:v "CarotidEndarterectomyTiming ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for CarotidEndarterectomyTiming, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/carotid-endarterectomy-timing-cs" ]
+       ] ;
+       fhir:name [ fhir:v "CarotidEndarterectomyTimingCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/carotid-stenosis-level-vs> ;
+         fhir:reference [ fhir:v "ValueSet/carotid-stenosis-level-vs" ]
+       ] ;
+       fhir:name [ fhir:v "CarotidStenosisLevel ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for CarotidStenosisLevel, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/clinical-status-codes-vs> ;
+         fhir:reference [ fhir:v "ValueSet/clinical-status-codes-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ClinicalStatusCodes ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ClinicalStatusCodes, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/discharge-department-service-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge department or service" ] ;
+       fhir:description [ fhir:v "Department/service or facility type receiving the patient at discharge." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/discharge-medication-request-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge MedicationRequest Profile" ] ;
+       fhir:description [ fhir:v "MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/discharge-dept-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/discharge-dept-cs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeDeptCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/discharge-destination-vs> ;
+         fhir:reference [ fhir:v "ValueSet/discharge-destination-vs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeDestination ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeDestination, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/discharge-facility-department-vs> ;
+         fhir:reference [ fhir:v "ValueSet/discharge-facility-department-vs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeFacilityDepartment ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityDepartment, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/discharge-facility-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/discharge-facility-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeFacilityType ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityType, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/discharge-medication-vs> ;
+         fhir:reference [ fhir:v "ValueSet/discharge-medication-vs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeMedication ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeMedication, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/discharge-medication-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/discharge-medication-cs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeMedicationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-medication-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/ems-prenotification-ext" ]
+       ] ;
+       fhir:name [ fhir:v "EMS prenotification" ] ;
+       fhir:description [ fhir:v "Indicates whether emergency medical services prenotified the receiving hospital before arrival." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/Observation/ExampleDoorToNeedle> ;
+         fhir:reference [ fhir:v "Observation/ExampleDoorToNeedle" ]
+       ] ;
+       fhir:name [ fhir:v "ExampleDoorToNeedle" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Patient"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/Patient/ExampleRESQPatient> ;
+         fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
+       ] ;
+       fhir:name [ fhir:v "ExampleRESQPatient" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://tecnomod-um.org/StructureDefinition/resq-patient-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/resq-patient-profile>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Condition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/Condition/ExampleStrokeDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/ExampleStrokeDiagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "ExampleStrokeDiagnosis" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/Encounter/ExampleStrokeEncounter> ;
+         fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
+       ] ;
+       fhir:name [ fhir:v "ExampleStrokeEncounter" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/fever-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/fever-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Fever Observation Profile" ] ;
+       fhir:description [ fhir:v "Fever observation profile aligned with build_observation_fever()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/first-hospital-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/first-hospital-ext" ]
+       ] ;
+       fhir:name [ fhir:v "First hospital for the stroke episode" ] ;
+       fhir:description [ fhir:v "Boolean flag indicating whether the Encounter corresponds to the first hospital attended for the index stroke episode." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/first-contact-place-vs> ;
+         fhir:reference [ fhir:v "ValueSet/first-contact-place-vs" ]
+       ] ;
+       fhir:name [ fhir:v "FirstContactPlace ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for FirstContactPlace, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/first-contact-place-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/first-contact-place-cs" ]
+       ] ;
+       fhir:name [ fhir:v "FirstContactPlaceCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/functional-score-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Functional Score Observation Profile" ] ;
+       fhir:description [ fhir:v "Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/functional-score-vs> ;
+         fhir:reference [ fhir:v "ValueSet/functional-score-vs" ]
+       ] ;
+       fhir:name [ fhir:v "FunctionalScore ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for FunctionalScore, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/functional-score-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/functional-score-cs" ]
+       ] ;
+       fhir:name [ fhir:v "FunctionalScoreCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/gcsscore-vs> ;
+         fhir:reference [ fhir:v "ValueSet/gcsscore-vs" ]
+       ] ;
+       fhir:name [ fhir:v "GCSScore ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for GCSScore, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/gender-snomed-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/gender-snomed-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Gender represented with SNOMED CT" ] ;
+       fhir:description [ fhir:v "Sex/gender value as a SNOMED CT CodeableConcept, matching build_Patient()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/glasgow-coma-scale-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/glasgow-coma-scale-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Glasgow Coma Scale Observation Profile" ] ;
+       fhir:description [ fhir:v "GCS score/profile generated from build_observation_glasgow_coma_scale()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs> ;
+         fhir:reference [ fhir:v "ValueSet/glasgow-coma-scale-vs" ]
+       ] ;
+       fhir:name [ fhir:v "GlasgowComaScale ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for GlasgowComaScale, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/glucose-ge10-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/glucose-ge10-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Glucose >= 10 Observation Profile" ] ;
+       fhir:description [ fhir:v "Boolean indicator for glucose >= 10 mmol/L." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Hemorrhagic stroke bleeding reason" ] ;
+       fhir:description [ fhir:v "Reason or underlying cause identified for hemorrhagic stroke." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Hemorrhagic stroke bleeding reason found coded state" ] ;
+       fhir:description [ fhir:v "Coded state used when bleeding reason is not found/undetermined in the source model." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/hemorrhagic-stroke-bleeding-reason-cs" ]
+       ] ;
+       fhir:name [ fhir:v "HemorrhagicStrokeBleedingReasonCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/hemorrhagic-transformation-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "HemorrhagicTransformationType ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for HemorrhagicTransformationType, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/hemorrhagic-transformation-type-cs" ]
+       ] ;
+       fhir:name [ fhir:v "HemorrhagicTransformationTypeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/highest-hyperglycemia-value-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Highest Hyperglycemia Value Observation Profile" ] ;
+       fhir:description [ fhir:v "Highest hyperglycemia value observation profile." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/hospitalized-location-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/hospitalized-location-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Hospitalized Location Profile" ] ;
+       fhir:description [ fhir:v "Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/hospitalized-in-vs> ;
+         fhir:reference [ fhir:v "ValueSet/hospitalized-in-vs" ]
+       ] ;
+       fhir:name [ fhir:v "HospitalizedIn ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for HospitalizedIn, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/hyperglycemia-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/hyperglycemia-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Hyperglycemia Observation Profile" ] ;
+       fhir:description [ fhir:v "Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/ich-treatment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/ich-treatment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "IchTreatment ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for IchTreatment, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/ich-treatment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/ich-treatment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "IchTreatmentCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/imaging-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/imaging-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ImagingType ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ImagingType, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/in-hospital-vs> ;
+         fhir:reference [ fhir:v "ValueSet/in-hospital-vs" ]
+       ] ;
+       fhir:name [ fhir:v "InHospital ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for InHospital, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/initial-care-intensity-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Initial care intensity" ] ;
+       fhir:description [ fhir:v "Initial care intensity for hospitalized location, e.g. ICU/stroke unit, monitored bed, or standard bed." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/initial-care-intensity-cs" ]
+       ] ;
+       fhir:name [ fhir:v "InitialCareIntensityCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/inrmode-vs> ;
+         fhir:reference [ fhir:v "ValueSet/inrmode-vs" ]
+       ] ;
+       fhir:name [ fhir:v "INRmode ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for INRmode, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Insulin on Hyperglycemia MedicationAdministration Profile" ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for insulin administered due to hyperglycemia." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/insulin-hyperglycemia-time-cs" ]
+       ] ;
+       fhir:name [ fhir:v "InsulinHyperglycemiaTimeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs> ;
+         fhir:reference [ fhir:v "ValueSet/insulin-on-hyperglycemia-timing-vs" ]
+       ] ;
+       fhir:name [ fhir:v "InsulinOnHyperglycemiaTiming ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for InsulinOnHyperglycemiaTiming, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/ischemic-stroke-etiology-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Ischemic stroke etiology" ] ;
+       fhir:description [ fhir:v "Etiology of ischemic stroke when known." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/ischemic-stroke-etiology-known-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Ischemic stroke etiology known/unknown coded state" ] ;
+       fhir:description [ fhir:v "Coded state used when the Python builder represents unknown or undetermined ischemic stroke etiology." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/ivt-application-department-vs> ;
+         fhir:reference [ fhir:v "ValueSet/ivt-application-department-vs" ]
+       ] ;
+       fhir:name [ fhir:v "IvtApplicationDepartment ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for IvtApplicationDepartment, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/ivt-drug-vs> ;
+         fhir:reference [ fhir:v "ValueSet/ivt-drug-vs" ]
+       ] ;
+       fhir:name [ fhir:v "IvtDrug ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for IvtDrug, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/laterality-vs> ;
+         fhir:reference [ fhir:v "ValueSet/laterality-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Laterality ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Laterality, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/locations-vs> ;
+         fhir:reference [ fhir:v "ValueSet/locations-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Locations ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Locations, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Mechanical Thrombectomy DiagnosticReport Profile" ] ;
+       fhir:description [ fhir:v "DiagnosticReport profile for thrombectomy outcome, especially mTICI score." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/medication-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/medication-cs" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/medications-vs> ;
+         fhir:reference [ fhir:v "ValueSet/medications-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Medications ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Medications, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs> ;
+         fhir:reference [ fhir:v "ValueSet/mimics-diagnosis-vs" ]
+       ] ;
+       fhir:name [ fhir:v "MimicsDiagnosis ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for MimicsDiagnosis, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/mrs-score-vs> ;
+         fhir:reference [ fhir:v "ValueSet/mrs-score-vs" ]
+       ] ;
+       fhir:name [ fhir:v "MRsScore ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for MRsScore, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/mrs-score-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/mrs-score-cs" ]
+       ] ;
+       fhir:name [ fhir:v "MrsScoreCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mrs-score-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/mtici-code-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/mtici-code-cs" ]
+       ] ;
+       fhir:name [ fhir:v "MticiCodeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-code-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/mtici-score-vs> ;
+         fhir:reference [ fhir:v "ValueSet/mtici-score-vs" ]
+       ] ;
+       fhir:name [ fhir:v "MTiciScore ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for MTiciScore, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/mtici-score-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/mtici-score-cs" ]
+       ] ;
+       fhir:name [ fhir:v "MticiScoreCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-score-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/nimodipine-medicationAdministration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/nimodipine-medicationAdministration-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Nimodipine MedicationAdministration Profile" ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/nimodipinetiming-vs> ;
+         fhir:reference [ fhir:v "ValueSet/nimodipinetiming-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Nimodipinetiming ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Nimodipinetiming, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/no-anticoagulant-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NoAnticoagulantReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/no-anticoagulant-reversal-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reversal-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NoAnticoagulantReversalReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReversalReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/no-ich-treatment-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/no-ich-treatment-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NoIchTreatmentReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoIchTreatmentReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/no-thrombectomy-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/no-thrombectomy-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NoThrombectomyReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoThrombectomyReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/no-thrombolysis-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/no-thrombolysis-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NoThrombolysisReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoThrombolysisReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/not-medication-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/not-medication-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "NotMedicationReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for NotMedicationReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/not-medication-reason-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/not-medication-reason-cs" ]
+       ] ;
+       fhir:name [ fhir:v "NotMedicationReasonCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/observation-timing-context-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Observation timing context" ] ;
+       fhir:description [ fhir:v "Temporal/clinical context of an observation, such as admission, discharge, prestroke or three-month follow-up. Also supports boolean usage because build_observation_blood_volume currently writes a boolean post_acute_care value to this URL." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/observation-methods-vs> ;
+         fhir:reference [ fhir:v "ValueSet/observation-methods-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ObservationMethods ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ObservationMethods, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/occupational-therapy-vs> ;
+         fhir:reference [ fhir:v "ValueSet/occupational-therapy-vs" ]
+       ] ;
+       fhir:name [ fhir:v "OccupationalTherapy ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for OccupationalTherapy, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/old-infarct-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/old-infarct-cs" ]
+       ] ;
+       fhir:name [ fhir:v "OldInfarctCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-medicationAdministration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/paracetamol-on-fever-medicationAdministration-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Paracetamol on Fever MedicationAdministration Profile" ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for paracetamol given because of fever." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/paracetamol-on-fever-vs> ;
+         fhir:reference [ fhir:v "ValueSet/paracetamol-on-fever-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ParacetamolOnFever ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFever, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/paracetamol-on-fever-timing-vs> ;
+         fhir:reference [ fhir:v "ValueSet/paracetamol-on-fever-timing-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ParacetamolOnFeverTiming ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFeverTiming, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/patient-ventilated-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient-ventilated-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Ventilated Observation Profile" ] ;
+       fhir:description [ fhir:v "Ventilation observation profile for post-acute/acute context." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/perforation-procedures-vs> ;
+         fhir:reference [ fhir:v "ValueSet/perforation-procedures-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PerforationProcedures ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PerforationProcedures, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/perfusion-volume-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/perfusion-volume-cs" ]
+       ] ;
+       fhir:name [ fhir:v "PerfusionVolumeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/perfusion-volume-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/post-acute-care-required-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Post-acute care required" ] ;
+       fhir:description [ fhir:v "Boolean indicator used by Procedure builders to mark post-acute-care relevance. Semantically equivalent to required-post-acute-care-ext but kept because both URLs exist in the codebase." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/post-stroke-complication-condition-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/post-stroke-complication-condition-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Post-Stroke Complication Condition Profile" ] ;
+       fhir:description [ fhir:v "Post-stroke complication Condition profile aligned with build_post_stroke_conditions()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/post-acute-care-vs> ;
+         fhir:reference [ fhir:v "ValueSet/post-acute-care-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostAcuteCare ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostAcuteCare, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/post-neurosurgery-imaging-vs> ;
+         fhir:reference [ fhir:v "ValueSet/post-neurosurgery-imaging-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostNeurosurgeryImaging ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostNeurosurgeryImaging, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/post-recanalization-imaging-vs> ;
+         fhir:reference [ fhir:v "ValueSet/post-recanalization-imaging-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostRecanalizationImaging ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostRecanalizationImaging, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/post-stroke-complications-vs> ;
+         fhir:reference [ fhir:v "ValueSet/post-stroke-complications-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostStrokeComplications ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostStrokeComplications, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs> ;
+         fhir:reference [ fhir:v "ValueSet/post-stroke-procedures-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostStrokeProcedures ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostStrokeProcedures, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/prior-medication-statement-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Prior MedicationStatement Profile" ] ;
+       fhir:description [ fhir:v "MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/procedure-timing-context-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Procedure timing context" ] ;
+       fhir:description [ fhir:v "Timing or phase context for procedure execution, such as acute/post-acute or specific screening window." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/procedure-timing-context-vs> ;
+         fhir:reference [ fhir:v "ValueSet/procedure-timing-context-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Procedure Timing Context ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed values for the Procedure timing context extension." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/procedure-not-done-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ProcedureNotDoneReason ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ProcedureNotDoneReason, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/procedure-timing-context-cs" ]
+       ] ;
+       fhir:name [ fhir:v "ProcedureTimingContextCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/required-post-acute-care-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Required post-acute care" ] ;
+       fhir:description [ fhir:v "Boolean indicator that post-acute care is required or applicable to the resource context. Used by Encounter, Observation and MedicationAdministration builders." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-body-structure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ BodyStructure Profile" ] ;
+       fhir:description [ fhir:v "BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/resq-location-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-location-profile" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Location Profile" ] ;
+       fhir:description [ fhir:v "Generic coded location profile aligned with build_location()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/resq-patient-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-patient-profile" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Patient Profile" ] ;
+       fhir:description [ fhir:v "Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-practitioner-role-profile" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ PractitionerRole Profile" ] ;
+       fhir:description [ fhir:v "PractitionerRole profile for recording performer type in swallowing screening and related procedures." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/risk-factor-vs> ;
+         fhir:reference [ fhir:v "ValueSet/risk-factor-vs" ]
+       ] ;
+       fhir:name [ fhir:v "RiskFactor ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for RiskFactor, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/risk-factor-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/risk-factor-cs" ]
+       ] ;
+       fhir:name [ fhir:v "RiskFactorCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/screening-performer-vs> ;
+         fhir:reference [ fhir:v "ValueSet/screening-performer-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ScreeningPerformer ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ScreeningPerformer, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/sex-vs> ;
+         fhir:reference [ fhir:v "ValueSet/sex-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Sex ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for Sex, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/specific-finding-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Specific Finding Observation Profile" ] ;
+       fhir:description [ fhir:v "Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/specific-finding-vs> ;
+         fhir:reference [ fhir:v "ValueSet/specific-finding-vs" ]
+       ] ;
+       fhir:name [ fhir:v "SpecificFinding ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for SpecificFinding, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/specific-finding-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/specific-finding-cs" ]
+       ] ;
+       fhir:name [ fhir:v "SpecificFindingCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/specific-finding-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-carotid-endarterectomy-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Carotid Endarterectomy Procedure Profile" ] ;
+       fhir:description [ fhir:v "Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-carotid-imaging-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Carotid Imaging Procedure Profile" ] ;
+       fhir:description [ fhir:v "Carotid imaging Procedure aligned with build_carotid_imaging_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-diagnosis-condition-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Diagnosis Condition Profile" ] ;
+       fhir:description [ fhir:v "Index stroke diagnosis profile aligned with build_stroke_diagnosis_condition_profile()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-encounter-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Encounter Profile" ] ;
+       fhir:description [ fhir:v "Index stroke encounter profile aligned with build_stroke_encounter_profile()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-imaging-diagnostic-report-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Imaging DiagnosticReport Profile" ] ;
+       fhir:description [ fhir:v "Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-imaging-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-imaging-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Imaging Procedure Profile" ] ;
+       fhir:description [ fhir:v "Brain imaging Procedure aligned with build_imaging_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-medication-administration-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke MedicationAdministration Profile" ] ;
+       fhir:description [ fhir:v "Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-registry-organization-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Registry Organization Profile" ] ;
+       fhir:description [ fhir:v "Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-mechanical-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Reperfusion Procedure Profile" ] ;
+       fhir:description [ fhir:v "Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-risk-factor-condition-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Risk Factor Condition Profile" ] ;
+       fhir:description [ fhir:v "Risk factor Condition profile aligned with build_risk_factor_condition_profile()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-swallow-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Swallowing Screening Procedure Profile" ] ;
+       fhir:description [ fhir:v "Swallowing screening Procedure aligned with build_swallowing_screening_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-treatment-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-treatment-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Treatment Procedure Profile" ] ;
+       fhir:description [ fhir:v "Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/stroke-vte-procedure-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke VTE Prophylaxis Procedure Profile" ] ;
+       fhir:description [ fhir:v "VTE prophylaxis Procedure profile aligned with build_vte_procedure()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-arrival-mode-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeArrivalModeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-circumstance-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-circumstance-vs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeCircumstance ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeCircumstance, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-circumstance-codes-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeCircumstanceCodesCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-discharge-destination-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeDischargeDestinationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-etiology-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-etiology-vs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeEtiology ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeEtiology, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-etiology-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-etiology-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeEtiologyCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-etiology-other-vs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeEtiologyOther ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeEtiologyOther, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-etiology-other-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeEtiologyOtherCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-mimics-diagnosis-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeMimicsDiagnosisCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-post-stroke-complication-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokePostStrokeComplicationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/stroke-proc-not-done-reason-cs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeProcNotDoneReasonCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "StrokeType ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeType, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs> ;
+         fhir:reference [ fhir:v "ValueSet/swallowing-screening-done-vs" ]
+       ] ;
+       fhir:name [ fhir:v "SwallowingScreeningDone ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningDone, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs> ;
+         fhir:reference [ fhir:v "ValueSet/swallowing-screening-timing-vs" ]
+       ] ;
+       fhir:name [ fhir:v "SwallowingScreeningTiming ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningTiming, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/swallowing-screening-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/swallowing-screening-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "SwallowingScreeningType ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningType, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/swallow-procedures-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/swallow-procedures-cs" ]
+       ] ;
+       fhir:name [ fhir:v "SwallowProceduresCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/swallow-screen-time-cs" ]
+       ] ;
+       fhir:name [ fhir:v "SwallowScreenTimeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/symptoms-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/symptoms-cs" ]
+       ] ;
+       fhir:name [ fhir:v "SymptomsCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/symptoms-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/tecnetplase-brand-vs> ;
+         fhir:reference [ fhir:v "ValueSet/tecnetplase-brand-vs" ]
+       ] ;
+       fhir:name [ fhir:v "TecnetplaseBrand ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for TecnetplaseBrand, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/tenecteplase-brand-cs" ]
+       ] ;
+       fhir:name [ fhir:v "TenecteplaseBrandCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/three-month-communication-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/three-month-communication-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Three-Month Contact Communication Profile" ] ;
+       fhir:description [ fhir:v "Communication profile for three-month follow-up contact, aligned with build_three_m_contact()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/three-month-contact-mode-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Three-Month Contact Mode Observation Profile" ] ;
+       fhir:description [ fhir:v "Observation profile for contact mode at three-month follow-up." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/follow-up-appointment-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/follow-up-appointment-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Three-Month Follow-up Appointment Profile" ] ;
+       fhir:description [ fhir:v "Follow-up neurology appointment profile aligned with build_follow_up_appointment()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs> ;
+         fhir:reference [ fhir:v "ValueSet/three-month-contact-mode-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ThreeMonthContactMode ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ThreeMonthContactMode, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/three-month-contact-mode-cs" ]
+       ] ;
+       fhir:name [ fhir:v "ThreeMonthContactModeCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs> ;
+         fhir:reference [ fhir:v "ValueSet/thrombectomy-complications-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ThrombectomyComplications ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ThrombectomyComplications, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/thrombectomy-complications-cs" ]
+       ] ;
+       fhir:name [ fhir:v "ThrombectomyComplicationsCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/tia-clinical-symptoms-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/tia-clinical-symptoms-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "TIA Clinical Symptoms Observation Profile" ] ;
+       fhir:description [ fhir:v "TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/tia-clinical-symptoms-vs> ;
+         fhir:reference [ fhir:v "ValueSet/tia-clinical-symptoms-vs" ]
+       ] ;
+       fhir:name [ fhir:v "TiaClinicalSymptoms ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for TiaClinicalSymptoms, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/tia-symptom-duration-vs> ;
+         fhir:reference [ fhir:v "ValueSet/tia-symptom-duration-vs" ]
+       ] ;
+       fhir:name [ fhir:v "TiaSymptomDuration ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for TiaSymptomDuration, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/tia-symptom-duration-cs" ]
+       ] ;
+       fhir:name [ fhir:v "TiaSymptomDurationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/timing-metric-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Timing Metric Observation Profile" ] ;
+       fhir:description [ fhir:v "Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/timing-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/timing-cs" ]
+       ] ;
+       fhir:name [ fhir:v "TimingCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/timing-metric-codes-vs> ;
+         fhir:reference [ fhir:v "ValueSet/timing-metric-codes-vs" ]
+       ] ;
+       fhir:name [ fhir:v "TimingMetricCodes ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for TimingMetricCodes, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/timing-metric-codes-cs" ]
+       ] ;
+       fhir:name [ fhir:v "TimingMetricCodesCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/unitof-measurement-vs> ;
+         fhir:reference [ fhir:v "ValueSet/unitof-measurement-vs" ]
+       ] ;
+       fhir:name [ fhir:v "UnitofMeasurement ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for UnitofMeasurement, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/vital-sign-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Vital Sign Observation Profile" ] ;
+       fhir:description [ fhir:v "Blood pressure observation aligned with build_observation_vital_signs()." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/vital-signs-vs> ;
+         fhir:reference [ fhir:v "ValueSet/vital-signs-vs" ]
+       ] ;
+       fhir:name [ fhir:v "VitalSigns ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for VitalSigns, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/vte-procedures-vs> ;
+         fhir:reference [ fhir:v "ValueSet/vte-procedures-vs" ]
+       ] ;
+       fhir:name [ fhir:v "VteProcedures ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for VteProcedures, generated from enum_models.py." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/vte-procedures-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/vte-procedures-cs" ]
+       ] ;
+       fhir:name [ fhir:v "VteProceduresCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vte-procedures-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/wakeup-stroke-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Wake-up stroke" ] ;
+       fhir:description [ fhir:v "Boolean flag indicating that the stroke was first noticed after waking; onsetDateTime is then populated using the last-known-well/sleep timestamp in the builder." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/yes-no-not-required-cs" ]
+       ] ;
+       fhir:name [ fhir:v "YesNoNotRequiredCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] ) ;
+     fhir:page [
+       fhir:source [
+         a fhir:Url ;
+         fhir:v "toc.html"^^xsd:anyURI ;
+         fhir:l fhir:toc.html
+       ] ;
+       fhir:name [
+         fhir:v "toc.html"^^xsd:anyURI ;
+         fhir:l fhir:toc.html
+       ] ;
+       fhir:title [ fhir:v "Table of Contents" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:source [
+           a fhir:Url ;
+           fhir:v "index.html"^^xsd:anyURI ;
+           fhir:l fhir:index.html
+         ] ;
+         fhir:name [
+           fhir:v "index.html"^^xsd:anyURI ;
+           fhir:l fhir:index.html
+         ] ;
+         fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "copyrightyear" ]
+       ] ;
+       fhir:value [ fhir:v "2026" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "releaselabel" ]
+       ] ;
+       fhir:value [ fhir:v "ci-build" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-pages" ]
+       ] ;
+       fhir:value [ fhir:v "input/pagecontent" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "autoload-resources" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-resource" ]
+       ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-pages" ]
+       ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-pages" ]
+       ] ;
+       fhir:value [ fhir:v "input/assets" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-pages" ]
+       ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-liquid" ]
+       ] ;
+       fhir:value [ fhir:v "template/liquid" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-liquid" ]
+       ] ;
+       fhir:value [ fhir:v "input/liquid" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-qa" ]
+       ] ;
+       fhir:value [ fhir:v "temp/qa" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-temp" ]
+       ] ;
+       fhir:value [ fhir:v "temp/pages" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-output" ]
+       ] ;
+       fhir:value [ fhir:v "output" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/guide-parameter-code"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/guide-parameter-code>
+         ] ;
+         fhir:code [ fhir:v "path-tx-cache" ]
+       ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-suppressed-warnings" ]
+       ] ;
+       fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "path-history" ]
+       ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org/history.html" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "template-html" ]
+       ] ;
+       fhir:value [ fhir:v "template-page.html" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "template-md" ]
+       ] ;
+       fhir:value [ fhir:v "template-page-md.html" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-contact" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-context" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-copyright" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-jurisdiction" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-license" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-publisher" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-version" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "apply-wg" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "active-tables" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "fmm-definition" ]
+       ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "propagate-status" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "excludelogbinaryformat" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "tabbed-snapshots" ]
+       ] ;
+       fhir:value [ fhir:v "true" ]
+     ] [
+       fhir:code [
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/CodeSystem/ig-parameters>
+         ] ;
+         fhir:code [ fhir:v "i18n-default-lang" ]
+       ] ;
+       fhir:value [ fhir:v "en" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

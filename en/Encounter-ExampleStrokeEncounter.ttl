@@ -1,0 +1,82 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/Encounter/ExampleStrokeEncounter> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleStrokeEncounter"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter ExampleStrokeEncounter</b></p><a name=\"ExampleStrokeEncounter\"> </a><a name=\"hcExampleStrokeEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-stroke-encounter-profile.html\">Stroke Encounter Profile</a></p></div><p><b>First hospital for the stroke episode</b>: true</p><p><b>Required post-acute care</b>: false</p><p><b>EMS prenotification</b>: true</p><p><b>status</b>: Completed</p><p><b>subject</b>: <a href=\"Patient-ExampleRESQPatient.html\">Anonymous Patient (no stated gender), DoB Unknown ( patient-001)</a></p><h3>Admissions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs ems-gp}\">EMS from GP</span></td><td><span title=\"Codes:{http://snomed.info/sct 306689006}\">Discharge to home (procedure)</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://tecnomod-um.org/StructureDefinition/first-hospital-ext"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/first-hospital-ext>
+     ] ;
+     fhir:value [
+       a fhir:Boolean ;
+       fhir:v true
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext>
+     ] ;
+     fhir:value [
+       a fhir:Boolean ;
+       fhir:v false
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext"^^xsd:anyURI ;
+       fhir:l <http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext>
+     ] ;
+     fhir:value [
+       a fhir:Boolean ;
+       fhir:v true
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:subject [
+     fhir:l <http://tecnomod-um.org/Patient/ExampleRESQPatient> ;
+     fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
+  ] ; # 
+  fhir:admission [
+     fhir:admitSource [
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"^^xsd:anyURI ;
+           fhir:l <http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs>
+         ] ;
+         fhir:code [ fhir:v "ems-gp" ] ;
+         fhir:display [ fhir:v "EMS from GP" ]
+       ] )
+     ] ;
+     fhir:dischargeDisposition [
+       fhir:coding ( [
+         a sct:306689006 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "306689006" ] ;
+         fhir:display [ fhir:v "Discharge to home (procedure)" ]
+       ] )
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

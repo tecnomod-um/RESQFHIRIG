@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mtici-code-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mtici-code-cs</b></p><a name=\"mtici-code-cs\"> </a><a name=\"hcmtici-code-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/mtici-code-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">mTICI<a name=\"mtici-code-cs-mTICI\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+  "version" : "1.0.0",
+  "name" : "MticiCodeCS",
+  "title" : "MticiCodeCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-code-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "mTICI",
+    "display" : "mTICI"
+  }]
+}

@@ -1,0 +1,84 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "anticoagulant-reversal-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet anticoagulant-reversal-vs</b></p><a name=\"anticoagulant-reversal-vs\"> </a><a name=\"hcanticoagulant-reversal-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/783678000\">783678000</a></td><td>Andexanet alfa (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/716017002\">716017002</a></td><td>Idarucizumab (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/346447007\">346447007</a></td><td>Fresh frozen plasma (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/7348004\">7348004</a></td><td>Coagulation factor II (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/64520006\">64520006</a></td><td>Protamine sulfate (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/386960009\">386960009</a></td><td>Tranexamic acid (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/59882007\">59882007</a></td><td>Aminocaproic acid (substance)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-medication-cs.html\"><code>http://tecnomod-um.org/CodeSystem/medication-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-medication-cs.html#medication-cs-other\">other</a></td><td>Other Medication</td></tr><tr><td><a href=\"CodeSystem-medication-cs.html#medication-cs-none-medication\">none-medication</a></td><td>No Medication</td></tr><tr><td><a href=\"CodeSystem-medication-cs.html#medication-cs-Vitamin-K\">Vitamin-K</a></td><td>Vitamin K</td></tr><tr><td><a href=\"CodeSystem-medication-cs.html#medication-cs-Ciraparantag\">Ciraparantag</a></td><td>Ciraparantag</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
+  "version" : "1.0.0",
+  "name" : "AnticoagulantReversalVS",
+  "title" : "AnticoagulantReversal ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for AnticoagulantReversal, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "783678000",
+        "display" : "Andexanet alfa (substance)"
+      },
+      {
+        "code" : "716017002",
+        "display" : "Idarucizumab (substance)"
+      },
+      {
+        "code" : "346447007",
+        "display" : "Fresh frozen plasma (substance)"
+      },
+      {
+        "code" : "7348004",
+        "display" : "Coagulation factor II (substance)"
+      },
+      {
+        "code" : "64520006",
+        "display" : "Protamine sulfate (substance)"
+      },
+      {
+        "code" : "386960009",
+        "display" : "Tranexamic acid (substance)"
+      },
+      {
+        "code" : "59882007",
+        "display" : "Aminocaproic acid (substance)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+      "concept" : [{
+        "code" : "other",
+        "display" : "Other Medication"
+      },
+      {
+        "code" : "none-medication",
+        "display" : "No Medication"
+      },
+      {
+        "code" : "Vitamin-K",
+        "display" : "Vitamin K"
+      },
+      {
+        "code" : "Ciraparantag",
+        "display" : "Ciraparantag"
+      }]
+    }]
+  }
+}

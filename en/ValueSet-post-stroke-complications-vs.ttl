@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/ValueSet/post-stroke-complications-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "post-stroke-complications-vs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet post-stroke-complications-vs</b></p><a name=\"post-stroke-complications-vs\"> </a><a name=\"hcpost-stroke-complications-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/233604007\">233604007</a></td><td>Pneumonia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/91302008\">91302008</a></td><td>Sepsis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128053003\">128053003</a></td><td>Deep venous thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/398117008\">398117008</a></td><td>Falling injury (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/59282003\">59282003</a></td><td>Pulmonary embolism (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/161917009\">161917009</a></td><td>Recurrence of problem (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/68566005\">68566005</a></td><td>Urinary tract infectious disease (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-stroke-post-stroke-complication-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-post-stroke-complication-cs.html#stroke-post-stroke-complication-cs-Sores\">Sores</a></td><td>Sores</td></tr><tr><td><a href=\"CodeSystem-stroke-post-stroke-complication-cs.html#stroke-post-stroke-complication-cs-other\">other</a></td><td>Other Post-Stroke Complication</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/ValueSet/post-stroke-complications-vs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ValueSet/post-stroke-complications-vs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "PostStrokeComplicationsVS"] ; # 
+  fhir:title [ fhir:v "PostStrokeComplications ValueSet"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Allowed coded values for PostStrokeComplications, generated from enum_models.py."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "233604007" ] ;
+         fhir:display [ fhir:v "Pneumonia (disorder)" ]
+       ] [
+         fhir:code [ fhir:v "91302008" ] ;
+         fhir:display [ fhir:v "Sepsis (disorder)" ]
+       ] [
+         fhir:code [ fhir:v "128053003" ] ;
+         fhir:display [ fhir:v "Deep venous thrombosis (disorder)" ]
+       ] [
+         fhir:code [ fhir:v "398117008" ] ;
+         fhir:display [ fhir:v "Falling injury (disorder)" ]
+       ] [
+         fhir:code [ fhir:v "59282003" ] ;
+         fhir:display [ fhir:v "Pulmonary embolism (disorder)" ]
+       ] [
+         fhir:code [ fhir:v "161917009" ] ;
+         fhir:display [ fhir:v "Recurrence of problem (finding)" ]
+       ] [
+         fhir:code [ fhir:v "68566005" ] ;
+         fhir:display [ fhir:v "Urinary tract infectious disease (disorder)" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs"^^xsd:anyURI ;
+         fhir:l <http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Sores" ] ;
+         fhir:display [ fhir:v "Sores" ]
+       ] [
+         fhir:code [ fhir:v "other" ] ;
+         fhir:display [ fhir:v "Other Post-Stroke Complication" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

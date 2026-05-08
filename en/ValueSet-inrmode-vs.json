@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "inrmode-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet inrmode-vs</b></p><a name=\"inrmode-vs\"> </a><a name=\"hcinrmode-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/15220000\">15220000</a></td><td>Laboratory test (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/405262001\">405262001</a></td><td>Point of care (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/385660001\">385660001</a></td><td>Not done (qualifier value)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/inrmode-vs",
+  "version" : "1.0.0",
+  "name" : "INRmodeVS",
+  "title" : "INRmode ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for INRmode, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "15220000",
+        "display" : "Laboratory test (procedure)"
+      },
+      {
+        "code" : "405262001",
+        "display" : "Point of care (qualifier value)"
+      },
+      {
+        "code" : "385660001",
+        "display" : "Not done (qualifier value)"
+      }]
+    }]
+  }
+}

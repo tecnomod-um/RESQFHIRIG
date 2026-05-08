@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="brain-imaging-type-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem brain-imaging-type-cs</b></p><a name="brain-imaging-type-cs"> </a><a name="hcbrain-imaging-type-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ct-cta<a name="brain-imaging-type-cs-ct-cta"> </a></td><td>Computed Tomography (CT) and CT Angiography (CTA)</td></tr><tr><td style="white-space:nowrap">ct-cta-perfusion<a name="brain-imaging-type-cs-ct-cta-perfusion"> </a></td><td>CT-CTA and Perfusion</td></tr><tr><td style="white-space:nowrap">mr-dwi-flair<a name="brain-imaging-type-cs-mr-dwi-flair"> </a></td><td>MR</td></tr><tr><td style="white-space:nowrap">mr-dwi-flair-mra<a name="brain-imaging-type-cs-mr-dwi-flair-mra"> </a></td><td>MR MRA</td></tr><tr><td style="white-space:nowrap">mr-dwi-flair-mra-perfusion<a name="brain-imaging-type-cs-mr-dwi-flair-mra-perfusion"> </a></td><td>MR DWI-FLAIR, MRA, and Perfusion</td></tr><tr><td style="white-space:nowrap">mr<a name="brain-imaging-type-cs-mr"> </a></td><td>MR</td></tr><tr><td style="white-space:nowrap">no<a name="brain-imaging-type-cs-no"> </a></td><td>No Imaging</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs"/>
+  <version value="1.0.0"/>
+  <name value="BrainImagingTypeCS"/>
+  <title value="BrainImagingTypeCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="ct-cta"/>
+    <display value="Computed Tomography (CT) and CT Angiography (CTA)"/>
+  </concept>
+  <concept>
+    <code value="ct-cta-perfusion"/>
+    <display value="CT-CTA and Perfusion"/>
+  </concept>
+  <concept>
+    <code value="mr-dwi-flair"/>
+    <display value="MR"/>
+  </concept>
+  <concept>
+    <code value="mr-dwi-flair-mra"/>
+    <display value="MR MRA"/>
+  </concept>
+  <concept>
+    <code value="mr-dwi-flair-mra-perfusion"/>
+    <display value="MR DWI-FLAIR, MRA, and Perfusion"/>
+  </concept>
+  <concept>
+    <code value="mr"/>
+    <display value="MR"/>
+  </concept>
+  <concept>
+    <code value="no"/>
+    <display value="No Imaging"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="carotid-endarterectomy-timing-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem carotid-endarterectomy-timing-cs</b></p><a name="carotid-endarterectomy-timing-cs"> </a><a name="hccarotid-endarterectomy-timing-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">in-24-hours<a name="carotid-endarterectomy-timing-cs-in-24-hours"> </a></td><td>Carotid endarterectomy in 24 hours</td></tr><tr><td style="white-space:nowrap">hours-to-weeks<a name="carotid-endarterectomy-timing-cs-hours-to-weeks"> </a></td><td>Carotid endarterectomy 24 hours to 2 weeks</td></tr><tr><td style="white-space:nowrap">after-weeks<a name="carotid-endarterectomy-timing-cs-after-weeks"> </a></td><td>Carotid endarterectomy after 2 weeks</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs"/>
+  <version value="1.0.0"/>
+  <name value="CarotidEndarterectomyTimingCS"/>
+  <title value="CarotidEndarterectomyTimingCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="in-24-hours"/>
+    <display value="Carotid endarterectomy in 24 hours"/>
+  </concept>
+  <concept>
+    <code value="hours-to-weeks"/>
+    <display value="Carotid endarterectomy 24 hours to 2 weeks"/>
+  </concept>
+  <concept>
+    <code value="after-weeks"/>
+    <display value="Carotid endarterectomy after 2 weeks"/>
+  </concept>
+</CodeSystem>

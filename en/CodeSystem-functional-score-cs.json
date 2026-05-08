@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "functional-score-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem functional-score-cs</b></p><a name=\"functional-score-cs\"> </a><a name=\"hcfunctional-score-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/functional-score-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ICH-score<a name=\"functional-score-cs-ICH-score\"> </a></td><td>Intracerebral Hemorrhage Score</td></tr><tr><td style=\"white-space:nowrap\">hunt-hess<a name=\"functional-score-cs-hunt-hess\"> </a></td><td>Hunt and Hess Score</td></tr><tr><td style=\"white-space:nowrap\">thrive<a name=\"functional-score-cs-thrive\"> </a></td><td>Totaled Health Risks in Vascular Events Score</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/functional-score-cs",
+  "version" : "1.0.0",
+  "name" : "FunctionalScoreCS",
+  "title" : "FunctionalScoreCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "ICH-score",
+    "display" : "Intracerebral Hemorrhage Score"
+  },
+  {
+    "code" : "hunt-hess",
+    "display" : "Hunt and Hess Score"
+  },
+  {
+    "code" : "thrive",
+    "display" : "Totaled Health Risks in Vascular Events Score"
+  }]
+}

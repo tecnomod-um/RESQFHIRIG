@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hospitalized-in-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet hospitalized-in-vs</b></p><a name="hospitalized-in-vs"> </a><a name="hchospitalized-in-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-initial-care-intensity-cs.html"><code>http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-initial-care-intensity-cs.html#initial-care-intensity-cs-icu-stroke">icu-stroke</a></td><td>ICU / Stroke Unit</td></tr><tr><td><a href="CodeSystem-initial-care-intensity-cs.html#initial-care-intensity-cs-monitored">monitored</a></td><td>Monitored Bed</td></tr><tr><td><a href="CodeSystem-initial-care-intensity-cs.html#initial-care-intensity-cs-standard">standard</a></td><td>Standard Bed</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/hospitalized-in-vs"/>
+  <version value="1.0.0"/>
+  <name value="HospitalizedInVS"/>
+  <title value="HospitalizedIn ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for HospitalizedIn, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"/>
+      <concept>
+        <code value="icu-stroke"/>
+        <display value="ICU / Stroke Unit"/>
+      </concept>
+      <concept>
+        <code value="monitored"/>
+        <display value="Monitored Bed"/>
+      </concept>
+      <concept>
+        <code value="standard"/>
+        <display value="Standard Bed"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

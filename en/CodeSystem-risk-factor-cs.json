@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "risk-factor-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem risk-factor-cs</b></p><a name=\"risk-factor-cs\"> </a><a name=\"hcrisk-factor-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/risk-factor-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"risk-factor-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+  "version" : "1.0.0",
+  "name" : "RiskFactorCS",
+  "title" : "RiskFactorCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

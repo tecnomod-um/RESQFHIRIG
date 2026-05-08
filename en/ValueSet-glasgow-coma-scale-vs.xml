@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="glasgow-coma-scale-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet glasgow-coma-scale-vs</b></p><a name="glasgow-coma-scale-vs"> </a><a name="hcglasgow-coma-scale-vs"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/26394007">26394007</a></td><td>Glasgow coma scale, 3 (finding)</td></tr><tr><td><a href="http://snomed.info/id/112110007">112110007</a></td><td>Glasgow coma scale, 4 (finding)</td></tr><tr><td><a href="http://snomed.info/id/74957005">74957005</a></td><td>Glasgow coma scale, 5 (finding)</td></tr><tr><td><a href="http://snomed.info/id/80072008">80072008</a></td><td>Glasgow coma scale, 6 (finding)</td></tr><tr><td><a href="http://snomed.info/id/18136007">18136007</a></td><td>Glasgow coma scale, 7 (finding)</td></tr><tr><td><a href="http://snomed.info/id/32856008">32856008</a></td><td>Glasgow coma scale, 8 (finding)</td></tr><tr><td><a href="http://snomed.info/id/5999000">5999000</a></td><td>Glasgow coma scale, 9 (finding)</td></tr><tr><td><a href="http://snomed.info/id/1184008">1184008</a></td><td>Glasgow coma scale, 10 (finding)</td></tr><tr><td><a href="http://snomed.info/id/61102007">61102007</a></td><td>Glasgow coma scale, 11 (finding)</td></tr><tr><td><a href="http://snomed.info/id/91234001">91234001</a></td><td>Glasgow coma scale, 12 (finding)</td></tr><tr><td><a href="http://snomed.info/id/54185009">54185009</a></td><td>Glasgow coma scale, 13 (finding)</td></tr><tr><td><a href="http://snomed.info/id/26734006">26734006</a></td><td>Glasgow coma scale, 14 (finding)</td></tr><tr><td><a href="http://snomed.info/id/70040003">70040003</a></td><td>Glasgow coma scale, 15 (finding)</td></tr><tr><td><a href="http://snomed.info/id/248241002">248241002</a></td><td>Glasgow coma scale (observable entity)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs"/>
+  <version value="1.0.0"/>
+  <name value="GlasgowComaScaleVS"/>
+  <title value="GlasgowComaScale ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for GlasgowComaScale, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="26394007"/>
+        <display value="Glasgow coma scale, 3 (finding)"/>
+      </concept>
+      <concept>
+        <code value="112110007"/>
+        <display value="Glasgow coma scale, 4 (finding)"/>
+      </concept>
+      <concept>
+        <code value="74957005"/>
+        <display value="Glasgow coma scale, 5 (finding)"/>
+      </concept>
+      <concept>
+        <code value="80072008"/>
+        <display value="Glasgow coma scale, 6 (finding)"/>
+      </concept>
+      <concept>
+        <code value="18136007"/>
+        <display value="Glasgow coma scale, 7 (finding)"/>
+      </concept>
+      <concept>
+        <code value="32856008"/>
+        <display value="Glasgow coma scale, 8 (finding)"/>
+      </concept>
+      <concept>
+        <code value="5999000"/>
+        <display value="Glasgow coma scale, 9 (finding)"/>
+      </concept>
+      <concept>
+        <code value="1184008"/>
+        <display value="Glasgow coma scale, 10 (finding)"/>
+      </concept>
+      <concept>
+        <code value="61102007"/>
+        <display value="Glasgow coma scale, 11 (finding)"/>
+      </concept>
+      <concept>
+        <code value="91234001"/>
+        <display value="Glasgow coma scale, 12 (finding)"/>
+      </concept>
+      <concept>
+        <code value="54185009"/>
+        <display value="Glasgow coma scale, 13 (finding)"/>
+      </concept>
+      <concept>
+        <code value="26734006"/>
+        <display value="Glasgow coma scale, 14 (finding)"/>
+      </concept>
+      <concept>
+        <code value="70040003"/>
+        <display value="Glasgow coma scale, 15 (finding)"/>
+      </concept>
+      <concept>
+        <code value="248241002"/>
+        <display value="Glasgow coma scale (observable entity)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

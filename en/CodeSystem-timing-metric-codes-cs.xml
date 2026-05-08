@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="timing-metric-codes-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem timing-metric-codes-cs</b></p><a name="timing-metric-codes-cs"> </a><a name="hctiming-metric-codes-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sys-bp-lt-140<a name="timing-metric-codes-cs-sys-bp-lt-140"> </a></td><td>Systolic Blood Pressure &lt; 140 mmHg</td></tr><tr><td style="white-space:nowrap">D2G<a name="timing-metric-codes-cs-D2G"> </a></td><td>Door to Groin</td></tr><tr><td style="white-space:nowrap">D2G&lt;=90<a name="timing-metric-codes-cs-D2G.60.6190"> </a></td><td>Door to Groin &lt;= 90 Minutes</td></tr><tr><td style="white-space:nowrap">D2G&lt;=120<a name="timing-metric-codes-cs-D2G.60.61120"> </a></td><td>Door to Groin &lt;= 120 Minutes</td></tr><tr><td style="white-space:nowrap">D2D<a name="timing-metric-codes-cs-D2D"> </a></td><td>Door to Door</td></tr><tr><td style="white-space:nowrap">D2N<a name="timing-metric-codes-cs-D2N"> </a></td><td>Door to Needle</td></tr><tr><td style="white-space:nowrap">D2N&lt;=45<a name="timing-metric-codes-cs-D2N.60.6145"> </a></td><td>Door to Needle &lt;= 45 Minutes</td></tr><tr><td style="white-space:nowrap">D2N&lt;=60<a name="timing-metric-codes-cs-D2N.60.6160"> </a></td><td>Door to Needle &lt;= 60 Minutes</td></tr><tr><td style="white-space:nowrap">D2ICH-Evac<a name="timing-metric-codes-cs-D2ICH-Evac"> </a></td><td>Door to ICH Evacuation</td></tr><tr><td style="white-space:nowrap">D2I<a name="timing-metric-codes-cs-D2I"> </a></td><td>Door to Imaging</td></tr><tr><td style="white-space:nowrap">D2IV-Antihypertensive<a name="timing-metric-codes-cs-D2IV-Antihypertensive"> </a></td><td>Door to IV Antihypertensive</td></tr><tr><td style="white-space:nowrap">D2SysBP&lt;140<a name="timing-metric-codes-cs-D2SysBP.60140"> </a></td><td>Door to Systolic Blood Pressure &lt; 140 mmHg</td></tr><tr><td style="white-space:nowrap">D2R<a name="timing-metric-codes-cs-D2R"> </a></td><td>Door to Reperfusion</td></tr><tr><td style="white-space:nowrap">O2D<a name="timing-metric-codes-cs-O2D"> </a></td><td>Onset to Door</td></tr><tr><td style="white-space:nowrap">highest-sys-bp-after-24-hours<a name="timing-metric-codes-cs-highest-sys-bp-after-24-hours"> </a></td><td>Highest Systolic Blood Pressure After 24 Hours</td></tr><tr><td style="white-space:nowrap">G2R<a name="timing-metric-codes-cs-G2R"> </a></td><td>Groin to Reperfusion</td></tr><tr><td style="white-space:nowrap">temperature-checks-day-1<a name="timing-metric-codes-cs-temperature-checks-day-1"> </a></td><td>Temperature Checks Day 1</td></tr><tr><td style="white-space:nowrap">temperature-checks-day-2<a name="timing-metric-codes-cs-temperature-checks-day-2"> </a></td><td>Temperature Checks Day 2</td></tr><tr><td style="white-space:nowrap">temperature-checks-day-3<a name="timing-metric-codes-cs-temperature-checks-day-3"> </a></td><td>Temperature Checks Day 3</td></tr><tr><td style="white-space:nowrap">hyperglycemia-day-1<a name="timing-metric-codes-cs-hyperglycemia-day-1"> </a></td><td>Hyperglycemia Checks Day 1</td></tr><tr><td style="white-space:nowrap">hyperglycemia-day-2<a name="timing-metric-codes-cs-hyperglycemia-day-2"> </a></td><td>Hyperglycemia Checks Day 2</td></tr><tr><td style="white-space:nowrap">hyperglycemia-day-3<a name="timing-metric-codes-cs-hyperglycemia-day-3"> </a></td><td>Hyperglycemia Checks Day 3</td></tr><tr><td style="white-space:nowrap">discharge-to-3-month-contact<a name="timing-metric-codes-cs-discharge-to-3-month-contact"> </a></td><td>Discharge to 3 Month Contact</td></tr><tr><td style="white-space:nowrap">discharge-or-7-days<a name="timing-metric-codes-cs-discharge-or-7-days"> </a></td><td>At Discharge or at 7 Days</td></tr><tr><td style="white-space:nowrap">D2AnticoagulantReversal<a name="timing-metric-codes-cs-D2AnticoagulantReversal"> </a></td><td>Door to Anticoagulant Reversal</td></tr><tr><td style="white-space:nowrap">IV-Antihypertensive-to-SysBP&lt;140<a name="timing-metric-codes-cs-IV-Antihypertensive-to-SysBP.60140"> </a></td><td>IV Antihypertensive to Systolic Blood Pressure &lt; 140 mmHg</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"/>
+  <version value="1.0.0"/>
+  <name value="TimingMetricCodesCS"/>
+  <title value="TimingMetricCodesCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="26"/>
+  <concept>
+    <code value="sys-bp-lt-140"/>
+    <display value="Systolic Blood Pressure &lt; 140 mmHg"/>
+  </concept>
+  <concept>
+    <code value="D2G"/>
+    <display value="Door to Groin"/>
+  </concept>
+  <concept>
+    <code value="D2G&lt;=90"/>
+    <display value="Door to Groin &lt;= 90 Minutes"/>
+  </concept>
+  <concept>
+    <code value="D2G&lt;=120"/>
+    <display value="Door to Groin &lt;= 120 Minutes"/>
+  </concept>
+  <concept>
+    <code value="D2D"/>
+    <display value="Door to Door"/>
+  </concept>
+  <concept>
+    <code value="D2N"/>
+    <display value="Door to Needle"/>
+  </concept>
+  <concept>
+    <code value="D2N&lt;=45"/>
+    <display value="Door to Needle &lt;= 45 Minutes"/>
+  </concept>
+  <concept>
+    <code value="D2N&lt;=60"/>
+    <display value="Door to Needle &lt;= 60 Minutes"/>
+  </concept>
+  <concept>
+    <code value="D2ICH-Evac"/>
+    <display value="Door to ICH Evacuation"/>
+  </concept>
+  <concept>
+    <code value="D2I"/>
+    <display value="Door to Imaging"/>
+  </concept>
+  <concept>
+    <code value="D2IV-Antihypertensive"/>
+    <display value="Door to IV Antihypertensive"/>
+  </concept>
+  <concept>
+    <code value="D2SysBP&lt;140"/>
+    <display value="Door to Systolic Blood Pressure &lt; 140 mmHg"/>
+  </concept>
+  <concept>
+    <code value="D2R"/>
+    <display value="Door to Reperfusion"/>
+  </concept>
+  <concept>
+    <code value="O2D"/>
+    <display value="Onset to Door"/>
+  </concept>
+  <concept>
+    <code value="highest-sys-bp-after-24-hours"/>
+    <display value="Highest Systolic Blood Pressure After 24 Hours"/>
+  </concept>
+  <concept>
+    <code value="G2R"/>
+    <display value="Groin to Reperfusion"/>
+  </concept>
+  <concept>
+    <code value="temperature-checks-day-1"/>
+    <display value="Temperature Checks Day 1"/>
+  </concept>
+  <concept>
+    <code value="temperature-checks-day-2"/>
+    <display value="Temperature Checks Day 2"/>
+  </concept>
+  <concept>
+    <code value="temperature-checks-day-3"/>
+    <display value="Temperature Checks Day 3"/>
+  </concept>
+  <concept>
+    <code value="hyperglycemia-day-1"/>
+    <display value="Hyperglycemia Checks Day 1"/>
+  </concept>
+  <concept>
+    <code value="hyperglycemia-day-2"/>
+    <display value="Hyperglycemia Checks Day 2"/>
+  </concept>
+  <concept>
+    <code value="hyperglycemia-day-3"/>
+    <display value="Hyperglycemia Checks Day 3"/>
+  </concept>
+  <concept>
+    <code value="discharge-to-3-month-contact"/>
+    <display value="Discharge to 3 Month Contact"/>
+  </concept>
+  <concept>
+    <code value="discharge-or-7-days"/>
+    <display value="At Discharge or at 7 Days"/>
+  </concept>
+  <concept>
+    <code value="D2AnticoagulantReversal"/>
+    <display value="Door to Anticoagulant Reversal"/>
+  </concept>
+  <concept>
+    <code value="IV-Antihypertensive-to-SysBP&lt;140"/>
+    <display value="IV Antihypertensive to Systolic Blood Pressure &lt; 140 mmHg"/>
+  </concept>
+</CodeSystem>

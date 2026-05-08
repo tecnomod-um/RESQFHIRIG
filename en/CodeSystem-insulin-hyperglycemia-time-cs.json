@@ -1,0 +1,43 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "insulin-hyperglycemia-time-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem insulin-hyperglycemia-time-cs</b></p><a name=\"insulin-hyperglycemia-time-cs\"> </a><a name=\"hcinsulin-hyperglycemia-time-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">T1H<a name=\"insulin-hyperglycemia-time-cs-T1H\"> </a></td><td>Within 1 Hour</td></tr><tr><td style=\"white-space:nowrap\">after-1h<a name=\"insulin-hyperglycemia-time-cs-after-1h\"> </a></td><td>After 1 Hour</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs",
+  "version" : "1.0.0",
+  "name" : "InsulinHyperglycemiaTimeCS",
+  "title" : "InsulinHyperglycemiaTimeCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "T1H",
+    "display" : "Within 1 Hour"
+  },
+  {
+    "code" : "after-1h",
+    "display" : "After 1 Hour"
+  }]
+}

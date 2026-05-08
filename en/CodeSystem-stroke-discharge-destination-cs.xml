@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="stroke-discharge-destination-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem stroke-discharge-destination-cs</b></p><a name="stroke-discharge-destination-cs"> </a><a name="hcstroke-discharge-destination-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">dead<a name="stroke-discharge-destination-cs-dead"> </a></td><td>Patient Deceased</td></tr><tr><td style="white-space:nowrap">comprehensive-stroke-center<a name="stroke-discharge-destination-cs-comprehensive-stroke-center"> </a></td><td>Discharged to comprehensive stroke center</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs"/>
+  <version value="1.0.0"/>
+  <name value="StrokeDischargeDestinationCS"/>
+  <title value="StrokeDischargeDestinationCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="dead"/>
+    <display value="Patient Deceased"/>
+  </concept>
+  <concept>
+    <code value="comprehensive-stroke-center"/>
+    <display value="Discharged to comprehensive stroke center"/>
+  </concept>
+</CodeSystem>

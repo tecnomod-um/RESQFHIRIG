@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "stroke-arrival-mode-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-arrival-mode-cs</b></p><a name=\"stroke-arrival-mode-cs\"> </a><a name=\"hcstroke-arrival-mode-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ems-gp<a name=\"stroke-arrival-mode-cs-ems-gp\"> </a></td><td>EMS from GP</td></tr><tr><td style=\"white-space:nowrap\">priv-transport<a name=\"stroke-arrival-mode-cs-priv-transport\"> </a></td><td>Private Transportation</td></tr><tr><td style=\"white-space:nowrap\">stroke-center<a name=\"stroke-arrival-mode-cs-stroke-center\"> </a></td><td>Stroke Center</td></tr><tr><td style=\"white-space:nowrap\">another-hosp<a name=\"stroke-arrival-mode-cs-another-hosp\"> </a></td><td>Another Hospital</td></tr><tr><td style=\"white-space:nowrap\">priv-transport-gp<a name=\"stroke-arrival-mode-cs-priv-transport-gp\"> </a></td><td>Private Transportation from GP</td></tr><tr><td style=\"white-space:nowrap\">in-hospital-stroke<a name=\"stroke-arrival-mode-cs-in-hospital-stroke\"> </a></td><td>In-Hospital Stroke</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+  "version" : "1.0.0",
+  "name" : "StrokeArrivalModeCS",
+  "title" : "StrokeArrivalModeCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "ems-gp",
+    "display" : "EMS from GP"
+  },
+  {
+    "code" : "priv-transport",
+    "display" : "Private Transportation"
+  },
+  {
+    "code" : "stroke-center",
+    "display" : "Stroke Center"
+  },
+  {
+    "code" : "another-hosp",
+    "display" : "Another Hospital"
+  },
+  {
+    "code" : "priv-transport-gp",
+    "display" : "Private Transportation from GP"
+  },
+  {
+    "code" : "in-hospital-stroke",
+    "display" : "In-Hospital Stroke"
+  }]
+}

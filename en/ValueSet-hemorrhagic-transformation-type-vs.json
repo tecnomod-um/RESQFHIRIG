@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hemorrhagic-transformation-type-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hemorrhagic-transformation-type-vs</b></p><a name=\"hemorrhagic-transformation-type-vs\"> </a><a name=\"hchemorrhagic-transformation-type-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-hemorrhagic-transformation-type-cs.html\"><code>http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-hemorrhagic-transformation-type-cs.html#hemorrhagic-transformation-type-cs-hi-type-1\">hi-type-1</a></td><td>HI type 1</td></tr><tr><td><a href=\"CodeSystem-hemorrhagic-transformation-type-cs.html#hemorrhagic-transformation-type-cs-hi-type-2\">hi-type-2</a></td><td>HI type 2</td></tr><tr><td><a href=\"CodeSystem-hemorrhagic-transformation-type-cs.html#hemorrhagic-transformation-type-cs-ph-type-1\">ph-type-1</a></td><td>PH type 1</td></tr><tr><td><a href=\"CodeSystem-hemorrhagic-transformation-type-cs.html#hemorrhagic-transformation-type-cs-ph-type-2\">ph-type-2</a></td><td>PH type 2</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs",
+  "version" : "1.0.0",
+  "name" : "HemorrhagicTransformationTypeVS",
+  "title" : "HemorrhagicTransformationType ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for HemorrhagicTransformationType, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+      "concept" : [{
+        "code" : "hi-type-1",
+        "display" : "HI type 1"
+      },
+      {
+        "code" : "hi-type-2",
+        "display" : "HI type 2"
+      },
+      {
+        "code" : "ph-type-1",
+        "display" : "PH type 1"
+      },
+      {
+        "code" : "ph-type-2",
+        "display" : "PH type 2"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="functional-score-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet functional-score-vs</b></p><a name="functional-score-vs"> </a><a name="hcfunctional-score-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/1255866005">1255866005</a></td><td>Modified Rankin Scale score (observable entity)</td></tr><tr><td><a href="http://snomed.info/id/450743008">450743008</a></td><td>National Institutes of Health stroke scale score (observable entity)</td></tr><tr><td><a href="http://snomed.info/id/1290002002">1290002002</a></td><td>Alberta Stroke Program Early CT score (assessment scale)</td></tr><tr><td><a href="http://snomed.info/id/774086001">774086001</a></td><td>Age, Blood pressure, Clinical features, Duration, Diabetes 2 score (observable entity)</td></tr><tr><td><a href="http://snomed.info/id/713678009">713678009</a></td><td>Congestive heart failure, hypertension, age 2, diabetes mellitus, stroke 2, vascular disease, age, sex category stroke risk score (observable entity)</td></tr><tr><td><a href="http://snomed.info/id/445518008">445518008</a></td><td>Age at onset of clinical finding (observable entity)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-functional-score-cs.html"><code>http://tecnomod-um.org/CodeSystem/functional-score-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-functional-score-cs.html#functional-score-cs-ICH-score">ICH-score</a></td><td>Intracerebral Hemorrhage Score</td></tr><tr><td><a href="CodeSystem-functional-score-cs.html#functional-score-cs-hunt-hess">hunt-hess</a></td><td>Hunt and Hess Score</td></tr><tr><td><a href="CodeSystem-functional-score-cs.html#functional-score-cs-thrive">thrive</a></td><td>Totaled Health Risks in Vascular Events Score</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/functional-score-vs"/>
+  <version value="1.0.0"/>
+  <name value="FunctionalScoreVS"/>
+  <title value="FunctionalScore ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for FunctionalScore, generated from enum_models.py."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="1255866005"/>
+        <display value="Modified Rankin Scale score (observable entity)"/>
+      </concept>
+      <concept>
+        <code value="450743008"/>
+        <display value="National Institutes of Health stroke scale score (observable entity)"/>
+      </concept>
+      <concept>
+        <code value="1290002002"/>
+        <display value="Alberta Stroke Program Early CT score (assessment scale)"/>
+      </concept>
+      <concept>
+        <code value="774086001"/>
+        <display value="Age, Blood pressure, Clinical features, Duration, Diabetes 2 score (observable entity)"/>
+      </concept>
+      <concept>
+        <code value="713678009"/>
+        <display value="Congestive heart failure, hypertension, age 2, diabetes mellitus, stroke 2, vascular disease, age, sex category stroke risk score (observable entity)"/>
+      </concept>
+      <concept>
+        <code value="445518008"/>
+        <display value="Age at onset of clinical finding (observable entity)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/functional-score-cs"/>
+      <concept>
+        <code value="ICH-score"/>
+        <display value="Intracerebral Hemorrhage Score"/>
+      </concept>
+      <concept>
+        <code value="hunt-hess"/>
+        <display value="Hunt and Hess Score"/>
+      </concept>
+      <concept>
+        <code value="thrive"/>
+        <display value="Totaled Health Risks in Vascular Events Score"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

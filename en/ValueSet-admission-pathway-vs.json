@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "admission-pathway-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet admission-pathway-vs</b></p><a name=\"admission-pathway-vs\"> </a><a name=\"hcadmission-pathway-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-stroke-arrival-mode-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-ems-gp\">ems-gp</a></td><td>EMS from GP</td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport\">priv-transport</a></td><td>Private Transportation</td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-stroke-center\">stroke-center</a></td><td>Stroke Center</td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-another-hosp\">another-hosp</a></td><td>Another Hospital</td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport-gp\">priv-transport-gp</a></td><td>Private Transportation from GP</td></tr><tr><td><a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-in-hospital-stroke\">in-hospital-stroke</a></td><td>In-Hospital Stroke</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/admission-pathway-vs",
+  "version" : "1.0.0",
+  "name" : "AdmissionPathwayVS",
+  "title" : "AdmissionPathway ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for AdmissionPathway, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+      "concept" : [{
+        "code" : "ems-gp",
+        "display" : "EMS from GP"
+      },
+      {
+        "code" : "priv-transport",
+        "display" : "Private Transportation"
+      },
+      {
+        "code" : "stroke-center",
+        "display" : "Stroke Center"
+      },
+      {
+        "code" : "another-hosp",
+        "display" : "Another Hospital"
+      },
+      {
+        "code" : "priv-transport-gp",
+        "display" : "Private Transportation from GP"
+      },
+      {
+        "code" : "in-hospital-stroke",
+        "display" : "In-Hospital Stroke"
+      }]
+    }]
+  }
+}

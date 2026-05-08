@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="not-medication-reason-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem not-medication-reason-cs</b></p><a name="not-medication-reason-cs"> </a><a name="hcnot-medication-reason-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Not-Consent<a name="not-medication-reason-cs-Not-Consent"> </a></td><td>Patient or family did not consent</td></tr><tr><td style="white-space:nowrap">Cost of drug<a name="not-medication-reason-cs-Costofdrug"> </a></td><td>Cost of drug</td></tr><tr><td style="white-space:nowrap">Not-Available<a name="not-medication-reason-cs-Not-Available"> </a></td><td>Drug not available</td></tr><tr><td style="white-space:nowrap">Not-Licensed<a name="not-medication-reason-cs-Not-Licensed"> </a></td><td>Antidote not licenced for specific indication</td></tr><tr><td style="white-space:nowrap">Not-Criteria<a name="not-medication-reason-cs-Not-Criteria"> </a></td><td>Not met criteria for specific agent</td></tr><tr><td style="white-space:nowrap">Forgot<a name="not-medication-reason-cs-Forgot"> </a></td><td>Patient did not use anticoagulant before ICH (forgot to take a pill)</td></tr><tr><td style="white-space:nowrap">Not-Reported<a name="not-medication-reason-cs-Not-Reported"> </a></td><td>Reason for not giving anticoagulant reversal not reported</td></tr><tr><td style="white-space:nowrap">not-required<a name="not-medication-reason-cs-not-required"> </a></td><td>Not Required</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"/>
+  <version value="1.0.0"/>
+  <name value="NotMedicationReasonCS"/>
+  <title value="NotMedicationReasonCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:03:17+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="Not-Consent"/>
+    <display value="Patient or family did not consent"/>
+  </concept>
+  <concept>
+    <code value="Cost of drug"/>
+    <display value="Cost of drug"/>
+  </concept>
+  <concept>
+    <code value="Not-Available"/>
+    <display value="Drug not available"/>
+  </concept>
+  <concept>
+    <code value="Not-Licensed"/>
+    <display value="Antidote not licenced for specific indication"/>
+  </concept>
+  <concept>
+    <code value="Not-Criteria"/>
+    <display value="Not met criteria for specific agent"/>
+  </concept>
+  <concept>
+    <code value="Forgot"/>
+    <display value="Patient did not use anticoagulant before ICH (forgot to take a pill)"/>
+  </concept>
+  <concept>
+    <code value="Not-Reported"/>
+    <display value="Reason for not giving anticoagulant reversal not reported"/>
+  </concept>
+  <concept>
+    <code value="not-required"/>
+    <display value="Not Required"/>
+  </concept>
+</CodeSystem>

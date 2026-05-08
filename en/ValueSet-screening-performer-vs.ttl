@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/ValueSet/screening-performer-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "screening-performer-vs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet screening-performer-vs</b></p><a name=\"screening-performer-vs\"> </a><a name=\"hcscreening-performer-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-practitioner-role.html\"><code>http://terminology.hl7.org/CodeSystem/practitioner-role</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 1.0.1, the version found through the package references\"> version ?1.0.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-practitioner-role.html#practitioner-role-nurse\">nurse</a></td><td>Nurse</td><td>A practitioner with nursing experience that may be qualified/registered</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-practitioner-role.html#practitioner-role-physician\">physician</a></td><td>Physician</td><td/></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/223366009\">223366009</a></td><td>Healthcare professional (occupation)</td></tr><tr><td><a href=\"http://snomed.info/id/159026005\">159026005</a></td><td>Speech and language therapist</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://tecnomod-um.org/ValueSet/screening-performer-vs"^^xsd:anyURI ;
+     fhir:l <http://tecnomod-um.org/ValueSet/screening-performer-vs>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "ScreeningPerformerVS"] ; # 
+  fhir:title [ fhir:v "ScreeningPerformer ValueSet"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Allowed coded values for ScreeningPerformer, generated from enum_models.py."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/practitioner-role"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/practitioner-role>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "nurse" ] ;
+         fhir:display [ fhir:v "Nurse" ]
+       ] [
+         fhir:code [ fhir:v "physician" ] ;
+         fhir:display [ fhir:v "Physician" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "223366009" ] ;
+         fhir:display [ fhir:v "Healthcare professional (occupation)" ]
+       ] [
+         fhir:code [ fhir:v "159026005" ] ;
+         fhir:display [ fhir:v "Speech and language therapist" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

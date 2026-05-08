@@ -1,0 +1,96 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "not-medication-reason-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet not-medication-reason-vs</b></p><a name=\"not-medication-reason-vs\"> </a><a name=\"hcnot-medication-reason-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/609328004\">609328004</a></td><td>Allergy disposition (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/36456004\">36456004</a></td><td>Mental state finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/443390004\">443390004</a></td><td>Declined (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/129839007\">129839007</a></td><td>At increased risk for falls (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/131148009\">131148009</a></td><td>Bleeding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401207004\">401207004</a></td><td>Medication side effects present (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/397943006\">397943006</a></td><td>Planned (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/300936002\">300936002</a></td><td>Terminal illness (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-not-medication-reason-cs.html\"><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Consent\">Not-Consent</a></td><td>Patient or family did not consent</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Costofdrug\">Cost of drug</a></td><td>Cost of drug</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Available\">Not-Available</a></td><td>Medication not available</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Licensed\">Not-Licensed</a></td><td>Medication not licensed</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Criteria\">Not-Criteria</a></td><td>Patient does not meet criteria for medication</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Forgot\">Forgot</a></td><td>Patient forgot to take medication</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs",
+  "version" : "1.0.0",
+  "name" : "NotMedicationReasonVS",
+  "title" : "NotMedicationReason ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:03:17+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for NotMedicationReason, generated from enum_models.py.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "609328004",
+        "display" : "Allergy disposition (finding)"
+      },
+      {
+        "code" : "36456004",
+        "display" : "Mental state finding (finding)"
+      },
+      {
+        "code" : "443390004",
+        "display" : "Declined (qualifier value)"
+      },
+      {
+        "code" : "129839007",
+        "display" : "At increased risk for falls (finding)"
+      },
+      {
+        "code" : "131148009",
+        "display" : "Bleeding (finding)"
+      },
+      {
+        "code" : "401207004",
+        "display" : "Medication side effects present (finding)"
+      },
+      {
+        "code" : "397943006",
+        "display" : "Planned (qualifier value)"
+      },
+      {
+        "code" : "300936002",
+        "display" : "Terminal illness (finding)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+      "concept" : [{
+        "code" : "Not-Consent",
+        "display" : "Patient or family did not consent"
+      },
+      {
+        "code" : "Cost of drug",
+        "display" : "Cost of drug"
+      },
+      {
+        "code" : "Not-Available",
+        "display" : "Medication not available"
+      },
+      {
+        "code" : "Not-Licensed",
+        "display" : "Medication not licensed"
+      },
+      {
+        "code" : "Not-Criteria",
+        "display" : "Patient does not meet criteria for medication"
+      },
+      {
+        "code" : "Forgot",
+        "display" : "Patient forgot to take medication"
+      }]
+    }]
+  }
+}
