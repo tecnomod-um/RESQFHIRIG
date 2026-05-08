@@ -3,7 +3,7 @@
 ## Resource Profile: RESQ PractitionerRole Profile 
 
  
-PractitionerRole profile for recording performer type in swallowing screening and related procedures. 
+PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-resq-practitioner
   "name" : "RESQPractitionerRoleProfile",
   "title" : "RESQ PractitionerRole Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-practitioner
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "PractitionerRole profile for recording performer type in swallowing screening and related procedures.",
+  "description" : "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-practitioner
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Captures performer role categories when the source registry records a role rather than an individually identified practitioner.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -88,6 +90,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-practitioner
     {
       "id" : "PractitionerRole.code",
       "path" : "PractitionerRole.code",
+      "short" : "Performer role category",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {

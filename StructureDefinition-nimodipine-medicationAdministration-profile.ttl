@@ -21,8 +21,9 @@
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "NimodipineMedicationAdministrationProfile"] ; # 
   fhir:title [ fhir:v "Nimodipine MedicationAdministration Profile"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:31:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -31,7 +32,7 @@
        fhir:value [ fhir:v "http://tecnomod-um.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway."] ; # 
+  fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -719,7 +720,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.partOf" ] ;
        fhir:path [ fhir:v "MedicationAdministration.partOf" ] ;
-       fhir:short [ fhir:v "Part of referenced event" ] ;
+       fhir:short [ fhir:v "Procedure this administration supports" ] ;
        fhir:definition [ fhir:v "A larger event of which this particular event is a component or step." ] ;
        fhir:comment [ fhir:v "MedicationDispense will be used to indicate waste." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -772,7 +773,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.status" ] ;
        fhir:path [ fhir:v "MedicationAdministration.status" ] ;
-       fhir:short [ fhir:v "in-progress | not-done | on-hold | completed | entered-in-error | stopped | unknown" ] ;
+       fhir:short [ fhir:v "Medication administration status" ] ;
        fhir:definition [ fhir:v "Will generally be set to show that the administration has been completed.  For some long running administrations such as infusions, it is possible for an administration to be started but not completed or it may be paused while some other process is under way." ] ;
        fhir:comment [ fhir:v "This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
@@ -836,7 +837,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.statusReason" ] ;
        fhir:path [ fhir:v "MedicationAdministration.statusReason" ] ;
-       fhir:short [ fhir:v "Reason administration not performed" ] ;
+       fhir:short [ fhir:v "Reason medication was not given or status rationale" ] ;
        fhir:definition [ fhir:v "A code indicating why the administration was not performed." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -937,7 +938,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.medication" ] ;
        fhir:path [ fhir:v "MedicationAdministration.medication" ] ;
-       fhir:short [ fhir:v "What was administered" ] ;
+       fhir:short [ fhir:v "Administered medication" ] ;
        fhir:definition [ fhir:v "Identifies the medication that was administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications." ] ;
        fhir:comment [ fhir:v "If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
@@ -1163,8 +1164,8 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.subject" ] ;
        fhir:path [ fhir:v "MedicationAdministration.subject" ] ;
-       fhir:short [ fhir:v "Who received medication" ] ;
-       fhir:definition [ fhir:v "The person or animal or group receiving the medication." ] ;
+       fhir:short [ fhir:v "RES-Q registry patient" ] ;
+       fhir:definition [ fhir:v "Patient who experienced the index stroke episode represented in this registry dataset." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1211,8 +1212,8 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.encounter" ] ;
        fhir:path [ fhir:v "MedicationAdministration.encounter" ] ;
-       fhir:short [ fhir:v "Encounter administered as part of" ] ;
-       fhir:definition [ fhir:v "The visit, admission, or other contact between patient and health care provider during which the medication administration was performed." ] ;
+       fhir:short [ fhir:v "Index stroke encounter" ] ;
+       fhir:definition [ fhir:v "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1301,7 +1302,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.occurence[x]" ] ;
        fhir:path [ fhir:v "MedicationAdministration.occurence[x]" ] ;
-       fhir:short [ fhir:v "Specific date/time or interval of time during which the administration took place (or did not take place)" ] ;
+       fhir:short [ fhir:v "Administration date/time" ] ;
        fhir:definition [ fhir:v "A specific date/time or interval of time during which the administration took place (or did not take place). For many administrations, such as swallowing a tablet the use of dateTime is more appropriate." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -1745,7 +1746,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.reason" ] ;
        fhir:path [ fhir:v "MedicationAdministration.reason" ] ;
-       fhir:short [ fhir:v "Concept, condition or observation that supports why the medication was administered" ] ;
+       fhir:short [ fhir:v "Reason or clinical trigger for administration" ] ;
        fhir:definition [ fhir:v "A code, Condition or observation that supports why the medication was administered." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1937,7 +1938,7 @@
      ] [
        fhir:id [ fhir:v "MedicationAdministration.dosage" ] ;
        fhir:path [ fhir:v "MedicationAdministration.dosage" ] ;
-       fhir:short [ fhir:v "Details of how medication was taken" ] ;
+       fhir:short [ fhir:v "Dose details" ] ;
        fhir:definition [ fhir:v "Describes the medication dosage information details e.g. dose, rate, site, route, etc." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;

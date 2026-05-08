@@ -173,7 +173,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL.</p>
+<p>Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL.</p>
 </td>
          </tr>
          <tr>
@@ -184,7 +184,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Base profile for stroke registry observations: subject and encounter required; status is normally final.</p>
+<p>Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context.</p>
 </td>
          </tr>
          <tr>
@@ -195,7 +195,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile().</p>
+<p>MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter.</p>
 </td>
          </tr>
          <tr>
@@ -206,7 +206,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Fever observation profile aligned with build_observation_fever().</p>
+<p>Observation profile for fever presence or temperature values during the stroke pathway.</p>
 </td>
          </tr>
          <tr>
@@ -217,7 +217,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.</p>
+<p>Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.</p>
 </td>
          </tr>
          <tr>
@@ -228,7 +228,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>GCS score/profile generated from build_observation_glasgow_coma_scale().</p>
+<p>Specialized functional score profile for Glasgow Coma Scale values captured by the registry.</p>
 </td>
          </tr>
          <tr>
@@ -239,7 +239,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Boolean indicator for glucose &gt;= 10 mmol/L.</p>
+<p>Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L.</p>
 </td>
          </tr>
          <tr>
@@ -250,7 +250,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Highest hyperglycemia value observation profile.</p>
+<p>Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval.</p>
 </td>
          </tr>
          <tr>
@@ -261,7 +261,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity.</p>
+<p>Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model.</p>
 </td>
          </tr>
          <tr>
@@ -272,7 +272,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks().</p>
+<p>Observation profile for hyperglycemia monitoring, checks and measured values.</p>
 </td>
          </tr>
          <tr>
@@ -283,7 +283,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>MedicationAdministration profile for insulin administered due to hyperglycemia.</p>
+<p>MedicationAdministration profile for insulin administered in response to hyperglycemia.</p>
 </td>
          </tr>
          <tr>
@@ -294,7 +294,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>DiagnosticReport profile for thrombectomy outcome, especially mTICI score.</p>
+<p>DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results.</p>
 </td>
          </tr>
          <tr>
@@ -305,7 +305,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway.</p>
+<p>MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.</p>
 </td>
          </tr>
          <tr>
@@ -316,7 +316,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>MedicationAdministration profile for paracetamol given because of fever.</p>
+<p>MedicationAdministration profile for paracetamol administered because of fever.</p>
 </td>
          </tr>
          <tr>
@@ -327,7 +327,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Ventilation observation profile for post-acute/acute context.</p>
+<p>Observation profile for recording whether the patient was ventilated in acute or post-acute care.</p>
 </td>
          </tr>
          <tr>
@@ -338,7 +338,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Post-stroke complication Condition profile aligned with build_post_stroke_conditions().</p>
+<p>Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking.</p>
 </td>
          </tr>
          <tr>
@@ -349,7 +349,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile().</p>
+<p>MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry.</p>
 </td>
          </tr>
          <tr>
@@ -360,7 +360,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure().</p>
+<p>BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings.</p>
 </td>
          </tr>
          <tr>
@@ -371,7 +371,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Generic coded location profile aligned with build_location().</p>
+<p>Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site.</p>
 </td>
          </tr>
          <tr>
@@ -382,7 +382,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension.</p>
+<p>Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension.</p>
 </td>
          </tr>
          <tr>
@@ -393,7 +393,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>PractitionerRole profile for recording performer type in swallowing screening and related procedures.</p>
+<p>PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities.</p>
 </td>
          </tr>
          <tr>
@@ -404,7 +404,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter.</p>
+<p>Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.</p>
 </td>
          </tr>
          <tr>
@@ -415,7 +415,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure().</p>
+<p>Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway.</p>
 </td>
          </tr>
          <tr>
@@ -426,7 +426,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Carotid imaging Procedure aligned with build_carotid_imaging_procedure().</p>
+<p>Procedure profile for carotid imaging used in post-stroke assessment.</p>
 </td>
          </tr>
          <tr>
@@ -437,7 +437,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Index stroke diagnosis profile aligned with build_stroke_diagnosis_condition_profile().</p>
+<p>Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status.</p>
 </td>
          </tr>
          <tr>
@@ -448,7 +448,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Index stroke encounter profile aligned with build_stroke_encounter_profile().</p>
+<p>Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability.</p>
 </td>
          </tr>
          <tr>
@@ -459,7 +459,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report().</p>
+<p>DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway.</p>
 </td>
          </tr>
          <tr>
@@ -470,7 +470,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Brain imaging Procedure aligned with build_imaging_procedure().</p>
+<p>Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context.</p>
 </td>
          </tr>
          <tr>
@@ -492,7 +492,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name.</p>
+<p>Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier.</p>
 </td>
          </tr>
          <tr>
@@ -503,7 +503,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure().</p>
+<p>Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context.</p>
 </td>
          </tr>
          <tr>
@@ -514,7 +514,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Risk factor Condition profile aligned with build_risk_factor_condition_profile().</p>
+<p>Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry.</p>
 </td>
          </tr>
          <tr>
@@ -525,7 +525,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Swallowing screening Procedure aligned with build_swallowing_screening_procedure().</p>
+<p>Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context.</p>
 </td>
          </tr>
          <tr>
@@ -536,7 +536,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.</p>
+<p>Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.</p>
 </td>
          </tr>
          <tr>
@@ -547,7 +547,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>VTE prophylaxis Procedure profile aligned with build_vte_procedure().</p>
+<p>Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway.</p>
 </td>
          </tr>
          <tr>
@@ -558,7 +558,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation().</p>
+<p>Observation profile for TIA clinical symptoms and their recorded values.</p>
 </td>
          </tr>
          <tr>
@@ -569,7 +569,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Communication profile for three-month follow-up contact, aligned with build_three_m_contact().</p>
+<p>Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.</p>
 </td>
          </tr>
          <tr>
@@ -580,7 +580,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Observation profile for contact mode at three-month follow-up.</p>
+<p>Observation profile for the modality used to obtain three-month follow-up information.</p>
 </td>
          </tr>
          <tr>
@@ -591,7 +591,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Follow-up neurology appointment profile aligned with build_follow_up_appointment().</p>
+<p>Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.</p>
 </td>
          </tr>
          <tr>
@@ -602,7 +602,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators.</p>
+<p>Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures.</p>
 </td>
          </tr>
          <tr>
@@ -613,7 +613,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </a>
             </td>
             <td>
-<p>Blood pressure observation aligned with build_observation_vital_signs().</p>
+<p>Observation profile for vital signs in the acute stroke pathway, especially blood pressure components.</p>
 </td>
          </tr>
       </tbody>
@@ -2161,7 +2161,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://tecnomod-um.org">Tecnomod / Universidad de Murcia</a>.  
           Package RESQ-FHIR-IG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
           Generated 
-  <span title="2026-05-08 09:03:00 +0000">
+  <span title="2026-05-08 09:31:00 +0000">
     2026-05-08
   </span>
 

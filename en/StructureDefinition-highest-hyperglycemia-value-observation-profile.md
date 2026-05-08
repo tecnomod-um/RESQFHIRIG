@@ -3,7 +3,7 @@
 ## Resource Profile: Highest Hyperglycemia Value Observation Profile 
 
  
-Highest hyperglycemia value observation profile. 
+Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
   "version" : "1.0.0",
   "name" : "HighestHyperglycemiaValueObservationProfile",
   "title" : "Highest Hyperglycemia Value Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Highest hyperglycemia value observation profile.",
+  "description" : "Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Highest glucose value",
       "min" : 1,
       "type" : [{
         "code" : "Quantity"

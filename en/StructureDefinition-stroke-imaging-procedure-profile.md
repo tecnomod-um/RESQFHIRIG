@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Imaging Procedure Profile 
 
  
-Brain imaging Procedure aligned with build_imaging_procedure(). 
+Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
   "version" : "1.0.0",
   "name" : "StrokeImagingProcedureProfile",
   "title" : "Stroke Imaging Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Brain imaging Procedure aligned with build_imaging_procedure().",
+  "description" : "Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Represents acute or follow-up neuroimaging procedures used to diagnose, treat or monitor stroke.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -107,6 +109,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.status",
       "path" : "Procedure.status",
+      "short" : "Imaging procedure status",
       "mustSupport" : true
     },
     {
@@ -123,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Brain imaging type",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -132,6 +136,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -141,6 +147,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -151,6 +159,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.occurrence[x]",
       "path" : "Procedure.occurrence[x]",
+      "short" : "Imaging date/time",
       "type" : [{
         "code" : "dateTime"
       }],
@@ -159,6 +168,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-pr
     {
       "id" : "Procedure.report",
       "path" : "Procedure.report",
+      "short" : "Imaging diagnostic report",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile"]

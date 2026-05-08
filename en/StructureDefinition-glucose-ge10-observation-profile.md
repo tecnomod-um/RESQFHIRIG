@@ -3,7 +3,7 @@
 ## Resource Profile: Glucose >= 10 Observation Profile 
 
  
-Boolean indicator for glucose >= 10 mmol/L. 
+Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-glucose-ge10-obse
   "version" : "1.0.0",
   "name" : "GlucoseGE10ObservationProfile",
   "title" : "Glucose >= 10 Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-glucose-ge10-obse
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Boolean indicator for glucose >= 10 mmol/L.",
+  "description" : "Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -101,6 +102,7 @@ Other representations of profile: [CSV](../StructureDefinition-glucose-ge10-obse
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Glucose >= 10 mmol/L indicator",
       "min" : 1,
       "type" : [{
         "code" : "boolean"

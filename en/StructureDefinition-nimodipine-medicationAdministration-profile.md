@@ -3,7 +3,7 @@
 ## Resource Profile: Nimodipine MedicationAdministration Profile 
 
  
-MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway. 
+MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-nimodipine-medica
   "version" : "1.0.0",
   "name" : "NimodipineMedicationAdministrationProfile",
   "title" : "Nimodipine MedicationAdministration Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-nimodipine-medica
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway.",
+  "description" : "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

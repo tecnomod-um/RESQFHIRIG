@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Carotid Endarterectomy Procedure Profile 
 
  
-Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure(). 
+Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
   "version" : "1.0.0",
   "name" : "StrokeCarotidEndarterectomyProcedureProfile",
   "title" : "Stroke Carotid Endarterectomy Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure().",
+  "description" : "Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -113,6 +114,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Carotid endarterectomy procedure",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -123,6 +125,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -132,6 +136,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -142,6 +148,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
     {
       "id" : "Procedure.occurrence[x]",
       "path" : "Procedure.occurrence[x]",
+      "short" : "Timing range for procedure",
       "type" : [{
         "code" : "Range"
       }],

@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-08T09:03:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-08T09:31:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -170,7 +170,7 @@
          fhir:reference [ fhir:v "StructureDefinition/analitics-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Analytics Observation Profile" ] ;
-       fhir:description [ fhir:v "Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL." ] ;
+       fhir:description [ fhir:v "Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -296,7 +296,7 @@
          fhir:reference [ fhir:v "StructureDefinition/base-stroke-observation" ]
        ] ;
        fhir:name [ fhir:v "Base Stroke Observation Profile" ] ;
-       fhir:description [ fhir:v "Base profile for stroke registry observations: subject and encounter required; status is normally final." ] ;
+       fhir:description [ fhir:v "Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -476,7 +476,7 @@
          fhir:reference [ fhir:v "StructureDefinition/discharge-medication-request-profile" ]
        ] ;
        fhir:name [ fhir:v "Discharge MedicationRequest Profile" ] ;
-       fhir:description [ fhir:v "MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile()." ] ;
+       fhir:description [ fhir:v "MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -704,7 +704,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fever-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Fever Observation Profile" ] ;
-       fhir:description [ fhir:v "Fever observation profile aligned with build_observation_fever()." ] ;
+       fhir:description [ fhir:v "Observation profile for fever presence or temperature values during the stroke pathway." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -776,7 +776,7 @@
          fhir:reference [ fhir:v "StructureDefinition/functional-score-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Functional Score Observation Profile" ] ;
-       fhir:description [ fhir:v "Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE." ] ;
+       fhir:description [ fhir:v "Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -866,7 +866,7 @@
          fhir:reference [ fhir:v "StructureDefinition/glasgow-coma-scale-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Glasgow Coma Scale Observation Profile" ] ;
-       fhir:description [ fhir:v "GCS score/profile generated from build_observation_glasgow_coma_scale()." ] ;
+       fhir:description [ fhir:v "Specialized functional score profile for Glasgow Coma Scale values captured by the registry." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -902,7 +902,7 @@
          fhir:reference [ fhir:v "StructureDefinition/glucose-ge10-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Glucose >= 10 Observation Profile" ] ;
-       fhir:description [ fhir:v "Boolean indicator for glucose >= 10 mmol/L." ] ;
+       fhir:description [ fhir:v "Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1010,7 +1010,7 @@
          fhir:reference [ fhir:v "StructureDefinition/highest-hyperglycemia-value-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Highest Hyperglycemia Value Observation Profile" ] ;
-       fhir:description [ fhir:v "Highest hyperglycemia value observation profile." ] ;
+       fhir:description [ fhir:v "Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1028,7 +1028,7 @@
          fhir:reference [ fhir:v "StructureDefinition/hospitalized-location-profile" ]
        ] ;
        fhir:name [ fhir:v "Hospitalized Location Profile" ] ;
-       fhir:description [ fhir:v "Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity." ] ;
+       fhir:description [ fhir:v "Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1064,7 +1064,7 @@
          fhir:reference [ fhir:v "StructureDefinition/hyperglycemia-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Hyperglycemia Observation Profile" ] ;
-       fhir:description [ fhir:v "Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks()." ] ;
+       fhir:description [ fhir:v "Observation profile for hyperglycemia monitoring, checks and measured values." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1208,7 +1208,7 @@
          fhir:reference [ fhir:v "StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile" ]
        ] ;
        fhir:name [ fhir:v "Insulin on Hyperglycemia MedicationAdministration Profile" ] ;
-       fhir:description [ fhir:v "MedicationAdministration profile for insulin administered due to hyperglycemia." ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for insulin administered in response to hyperglycemia." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1370,7 +1370,7 @@
          fhir:reference [ fhir:v "StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile" ]
        ] ;
        fhir:name [ fhir:v "Mechanical Thrombectomy DiagnosticReport Profile" ] ;
-       fhir:description [ fhir:v "DiagnosticReport profile for thrombectomy outcome, especially mTICI score." ] ;
+       fhir:description [ fhir:v "DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1532,7 +1532,7 @@
          fhir:reference [ fhir:v "StructureDefinition/nimodipine-medicationAdministration-profile" ]
        ] ;
        fhir:name [ fhir:v "Nimodipine MedicationAdministration Profile" ] ;
-       fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway." ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1766,7 +1766,7 @@
          fhir:reference [ fhir:v "StructureDefinition/paracetamol-on-fever-medicationAdministration-profile" ]
        ] ;
        fhir:name [ fhir:v "Paracetamol on Fever MedicationAdministration Profile" ] ;
-       fhir:description [ fhir:v "MedicationAdministration profile for paracetamol given because of fever." ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for paracetamol administered because of fever." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1820,7 +1820,7 @@
          fhir:reference [ fhir:v "StructureDefinition/patient-ventilated-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Patient Ventilated Observation Profile" ] ;
-       fhir:description [ fhir:v "Ventilation observation profile for post-acute/acute context." ] ;
+       fhir:description [ fhir:v "Observation profile for recording whether the patient was ventilated in acute or post-acute care." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1892,7 +1892,7 @@
          fhir:reference [ fhir:v "StructureDefinition/post-stroke-complication-condition-profile" ]
        ] ;
        fhir:name [ fhir:v "Post-Stroke Complication Condition Profile" ] ;
-       fhir:description [ fhir:v "Post-stroke complication Condition profile aligned with build_post_stroke_conditions()." ] ;
+       fhir:description [ fhir:v "Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2000,7 +2000,7 @@
          fhir:reference [ fhir:v "StructureDefinition/prior-medication-statement-profile" ]
        ] ;
        fhir:name [ fhir:v "Prior MedicationStatement Profile" ] ;
-       fhir:description [ fhir:v "MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile()." ] ;
+       fhir:description [ fhir:v "MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2108,7 +2108,7 @@
          fhir:reference [ fhir:v "StructureDefinition/resq-body-structure-profile" ]
        ] ;
        fhir:name [ fhir:v "RESQ BodyStructure Profile" ] ;
-       fhir:description [ fhir:v "BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure()." ] ;
+       fhir:description [ fhir:v "BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2126,7 +2126,7 @@
          fhir:reference [ fhir:v "StructureDefinition/resq-location-profile" ]
        ] ;
        fhir:name [ fhir:v "RESQ Location Profile" ] ;
-       fhir:description [ fhir:v "Generic coded location profile aligned with build_location()." ] ;
+       fhir:description [ fhir:v "Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2144,7 +2144,7 @@
          fhir:reference [ fhir:v "StructureDefinition/resq-patient-profile" ]
        ] ;
        fhir:name [ fhir:v "RESQ Patient Profile" ] ;
-       fhir:description [ fhir:v "Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension." ] ;
+       fhir:description [ fhir:v "Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2162,7 +2162,7 @@
          fhir:reference [ fhir:v "StructureDefinition/resq-practitioner-role-profile" ]
        ] ;
        fhir:name [ fhir:v "RESQ PractitionerRole Profile" ] ;
-       fhir:description [ fhir:v "PractitionerRole profile for recording performer type in swallowing screening and related procedures." ] ;
+       fhir:description [ fhir:v "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2252,7 +2252,7 @@
          fhir:reference [ fhir:v "StructureDefinition/specific-finding-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Specific Finding Observation Profile" ] ;
-       fhir:description [ fhir:v "Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter." ] ;
+       fhir:description [ fhir:v "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2306,7 +2306,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-carotid-endarterectomy-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Carotid Endarterectomy Procedure Profile" ] ;
-       fhir:description [ fhir:v "Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2324,7 +2324,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-carotid-imaging-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Carotid Imaging Procedure Profile" ] ;
-       fhir:description [ fhir:v "Carotid imaging Procedure aligned with build_carotid_imaging_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for carotid imaging used in post-stroke assessment." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2342,7 +2342,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-diagnosis-condition-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Diagnosis Condition Profile" ] ;
-       fhir:description [ fhir:v "Index stroke diagnosis profile aligned with build_stroke_diagnosis_condition_profile()." ] ;
+       fhir:description [ fhir:v "Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2360,7 +2360,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-encounter-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Encounter Profile" ] ;
-       fhir:description [ fhir:v "Index stroke encounter profile aligned with build_stroke_encounter_profile()." ] ;
+       fhir:description [ fhir:v "Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2378,7 +2378,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-imaging-diagnostic-report-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Imaging DiagnosticReport Profile" ] ;
-       fhir:description [ fhir:v "Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report()." ] ;
+       fhir:description [ fhir:v "DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2396,7 +2396,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-imaging-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Imaging Procedure Profile" ] ;
-       fhir:description [ fhir:v "Brain imaging Procedure aligned with build_imaging_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2432,7 +2432,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-registry-organization-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Registry Organization Profile" ] ;
-       fhir:description [ fhir:v "Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name." ] ;
+       fhir:description [ fhir:v "Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2450,7 +2450,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-mechanical-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Reperfusion Procedure Profile" ] ;
-       fhir:description [ fhir:v "Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2468,7 +2468,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-risk-factor-condition-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Risk Factor Condition Profile" ] ;
-       fhir:description [ fhir:v "Risk factor Condition profile aligned with build_risk_factor_condition_profile()." ] ;
+       fhir:description [ fhir:v "Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2486,7 +2486,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-swallow-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Swallowing Screening Procedure Profile" ] ;
-       fhir:description [ fhir:v "Swallowing screening Procedure aligned with build_swallowing_screening_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2504,7 +2504,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-treatment-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke Treatment Procedure Profile" ] ;
-       fhir:description [ fhir:v "Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders." ] ;
+       fhir:description [ fhir:v "Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2522,7 +2522,7 @@
          fhir:reference [ fhir:v "StructureDefinition/stroke-vte-procedure-profile" ]
        ] ;
        fhir:name [ fhir:v "Stroke VTE Prophylaxis Procedure Profile" ] ;
-       fhir:description [ fhir:v "VTE prophylaxis Procedure profile aligned with build_vte_procedure()." ] ;
+       fhir:description [ fhir:v "Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2900,7 +2900,7 @@
          fhir:reference [ fhir:v "StructureDefinition/three-month-communication-profile" ]
        ] ;
        fhir:name [ fhir:v "Three-Month Contact Communication Profile" ] ;
-       fhir:description [ fhir:v "Communication profile for three-month follow-up contact, aligned with build_three_m_contact()." ] ;
+       fhir:description [ fhir:v "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2918,7 +2918,7 @@
          fhir:reference [ fhir:v "StructureDefinition/three-month-contact-mode-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Three-Month Contact Mode Observation Profile" ] ;
-       fhir:description [ fhir:v "Observation profile for contact mode at three-month follow-up." ] ;
+       fhir:description [ fhir:v "Observation profile for the modality used to obtain three-month follow-up information." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2936,7 +2936,7 @@
          fhir:reference [ fhir:v "StructureDefinition/follow-up-appointment-profile" ]
        ] ;
        fhir:name [ fhir:v "Three-Month Follow-up Appointment Profile" ] ;
-       fhir:description [ fhir:v "Follow-up neurology appointment profile aligned with build_follow_up_appointment()." ] ;
+       fhir:description [ fhir:v "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3026,7 +3026,7 @@
          fhir:reference [ fhir:v "StructureDefinition/tia-clinical-symptoms-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "TIA Clinical Symptoms Observation Profile" ] ;
-       fhir:description [ fhir:v "TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation()." ] ;
+       fhir:description [ fhir:v "Observation profile for TIA clinical symptoms and their recorded values." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3098,7 +3098,7 @@
          fhir:reference [ fhir:v "StructureDefinition/timing-metric-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Timing Metric Observation Profile" ] ;
-       fhir:description [ fhir:v "Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators." ] ;
+       fhir:description [ fhir:v "Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3188,7 +3188,7 @@
          fhir:reference [ fhir:v "StructureDefinition/vital-sign-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Vital Sign Observation Profile" ] ;
-       fhir:description [ fhir:v "Blood pressure observation aligned with build_observation_vital_signs()." ] ;
+       fhir:description [ fhir:v "Observation profile for vital signs in the acute stroke pathway, especially blood pressure components." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
   "version" : "1.0.0",
   "name" : "StrokeMedicationAdministrationProfile",
   "title" : "Stroke MedicationAdministration Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Records medication administrations that are part of the acute or post-acute stroke treatment pathway.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -119,6 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.partOf",
       "path" : "MedicationAdministration.partOf",
+      "short" : "Procedure this administration supports",
       "type" : [{
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy",
@@ -132,11 +135,13 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.status",
       "path" : "MedicationAdministration.status",
+      "short" : "Medication administration status",
       "mustSupport" : true
     },
     {
       "id" : "MedicationAdministration.statusReason",
       "path" : "MedicationAdministration.statusReason",
+      "short" : "Reason medication was not given or status rationale",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -146,6 +151,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.medication",
       "path" : "MedicationAdministration.medication",
+      "short" : "Administered medication",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -155,6 +161,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.subject",
       "path" : "MedicationAdministration.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -164,6 +172,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.encounter",
       "path" : "MedicationAdministration.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -174,6 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.occurence[x]",
       "path" : "MedicationAdministration.occurence[x]",
+      "short" : "Administration date/time",
       "type" : [{
         "code" : "dateTime"
       }],
@@ -182,6 +193,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.reason",
       "path" : "MedicationAdministration.reason",
+      "short" : "Reason or clinical trigger for administration",
       "type" : [{
         "code" : "CodeableReference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Condition",
@@ -192,6 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
     {
       "id" : "MedicationAdministration.dosage",
       "path" : "MedicationAdministration.dosage",
+      "short" : "Dose details",
       "mustSupport" : true
     },
     {

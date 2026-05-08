@@ -3,7 +3,7 @@
 ## Resource Profile: RESQ Location Profile 
 
  
-Generic coded location profile aligned with build_location(). 
+Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-resq-location-pro
   "name" : "RESQLocationProfile",
   "title" : "RESQ Location Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-location-pro
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Generic coded location profile aligned with build_location().",
+  "description" : "Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-location-pro
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Provides a coded location/service container for stroke pathway data elements that are exchanged as Location resources.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -78,6 +80,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-location-pro
     {
       "id" : "Location.type",
       "path" : "Location.type",
+      "short" : "Registry location or service type",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {

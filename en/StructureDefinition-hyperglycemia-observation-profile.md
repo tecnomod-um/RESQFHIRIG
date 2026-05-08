@@ -3,7 +3,7 @@
 ## Resource Profile: Hyperglycemia Observation Profile 
 
  
-Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks(). 
+Observation profile for hyperglycemia monitoring, checks and measured values. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-hyperglycemia-obs
   "version" : "1.0.0",
   "name" : "HyperglycemiaObservationProfile",
   "title" : "Hyperglycemia Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-hyperglycemia-obs
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks().",
+  "description" : "Observation profile for hyperglycemia monitoring, checks and measured values.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -101,6 +102,7 @@ Other representations of profile: [CSV](../StructureDefinition-hyperglycemia-obs
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Hyperglycemia indicator or measured value",
       "type" : [{
         "code" : "Quantity"
       },

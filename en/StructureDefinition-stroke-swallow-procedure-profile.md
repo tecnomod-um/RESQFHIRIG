@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Swallowing Screening Procedure Profile 
 
  
-Swallowing screening Procedure aligned with build_swallowing_screening_procedure(). 
+Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
   "version" : "1.0.0",
   "name" : "StrokeSwallowProcedureProfile",
   "title" : "Stroke Swallowing Screening Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Swallowing screening Procedure aligned with build_swallowing_screening_procedure().",
+  "description" : "Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
     {
       "id" : "Procedure.statusReason",
       "path" : "Procedure.statusReason",
+      "short" : "Reason screening was not done",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -134,6 +136,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Swallowing screening type",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -143,6 +146,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -152,6 +157,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -162,6 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
     {
       "id" : "Procedure.performer",
       "path" : "Procedure.performer",
+      "short" : "Screening performer",
       "mustSupport" : true
     },
     {

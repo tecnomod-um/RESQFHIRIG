@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Encounter Profile 
 
  
-Index stroke encounter profile aligned with build_stroke_encounter_profile(). 
+Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability. 
 
 **Usages:**
 
@@ -33,7 +33,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Index stroke encounter profile aligned with build_stroke_encounter_profile().",
+  "description" : "Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -50,6 +51,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Acts as the central clinical context for diagnosis, observations, procedures, medication administrations and follow-up resources created for one stroke episode.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -98,6 +100,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "id" : "Encounter.extension:firstHospital",
       "path" : "Encounter.extension",
       "sliceName" : "firstHospital",
+      "short" : "Whether this was the first hospital attended",
       "min" : 1,
       "max" : "1",
       "type" : [{
@@ -110,6 +113,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "id" : "Encounter.extension:requiredPostAcuteCare",
       "path" : "Encounter.extension",
       "sliceName" : "requiredPostAcuteCare",
+      "short" : "Whether post-acute care was required or applicable",
       "min" : 1,
       "max" : "1",
       "type" : [{
@@ -122,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "id" : "Encounter.extension:emsPrenotification",
       "path" : "Encounter.extension",
       "sliceName" : "emsPrenotification",
+      "short" : "Whether EMS prenotified the receiving hospital",
       "min" : 1,
       "max" : "1",
       "type" : [{
@@ -134,6 +139,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
       "id" : "Encounter.extension:dischargeDepartmentService",
       "path" : "Encounter.extension",
       "sliceName" : "dischargeDepartmentService",
+      "short" : "Discharge department, service or facility type",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -145,17 +151,20 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
     {
       "id" : "Encounter.status",
       "path" : "Encounter.status",
+      "short" : "Completed stroke episode encounter",
       "patternCode" : "completed",
       "mustSupport" : true
     },
     {
       "id" : "Encounter.class",
       "path" : "Encounter.class",
+      "short" : "Encounter class or care setting",
       "mustSupport" : true
     },
     {
       "id" : "Encounter.subject",
       "path" : "Encounter.subject",
+      "short" : "Patient with the index stroke episode",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -166,11 +175,13 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
     {
       "id" : "Encounter.admission",
       "path" : "Encounter.admission",
+      "short" : "Admission and discharge pathway details",
       "mustSupport" : true
     },
     {
       "id" : "Encounter.admission.admitSource",
       "path" : "Encounter.admission.admitSource",
+      "short" : "Pathway or source before hospital admission",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -180,6 +191,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
     {
       "id" : "Encounter.admission.dischargeDisposition",
       "path" : "Encounter.admission.dischargeDisposition",
+      "short" : "Destination or disposition after discharge",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -189,6 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-encounter-
     {
       "id" : "Encounter.location",
       "path" : "Encounter.location",
+      "short" : "Locations used during the stroke pathway",
       "mustSupport" : true
     }]
   }

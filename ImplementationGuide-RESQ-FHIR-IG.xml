@@ -11,7 +11,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-05-08T09:03:17+00:00"/>
+  <date value="2026-05-08T09:31:23+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -99,7 +99,7 @@
         <reference value="StructureDefinition/analitics-observation-profile"/>
       </reference>
       <name value="Analytics Observation Profile"/>
-      <description value="Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL."/>
+      <description value="Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -176,7 +176,7 @@
         <reference value="StructureDefinition/base-stroke-observation"/>
       </reference>
       <name value="Base Stroke Observation Profile"/>
-      <description value="Base profile for stroke registry observations: subject and encounter required; status is normally final."/>
+      <description value="Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -286,7 +286,7 @@
         <reference value="StructureDefinition/discharge-medication-request-profile"/>
       </reference>
       <name value="Discharge MedicationRequest Profile"/>
-      <description value="MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile()."/>
+      <description value="MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -418,7 +418,7 @@
         <reference value="StructureDefinition/fever-observation-profile"/>
       </reference>
       <name value="Fever Observation Profile"/>
-      <description value="Fever observation profile aligned with build_observation_fever()."/>
+      <description value="Observation profile for fever presence or temperature values during the stroke pathway."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -462,7 +462,7 @@
         <reference value="StructureDefinition/functional-score-observation-profile"/>
       </reference>
       <name value="Functional Score Observation Profile"/>
-      <description value="Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE."/>
+      <description value="Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -517,7 +517,7 @@
         <reference value="StructureDefinition/glasgow-coma-scale-observation-profile"/>
       </reference>
       <name value="Glasgow Coma Scale Observation Profile"/>
-      <description value="GCS score/profile generated from build_observation_glasgow_coma_scale()."/>
+      <description value="Specialized functional score profile for Glasgow Coma Scale values captured by the registry."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -539,7 +539,7 @@
         <reference value="StructureDefinition/glucose-ge10-observation-profile"/>
       </reference>
       <name value="Glucose &gt;= 10 Observation Profile"/>
-      <description value="Boolean indicator for glucose &gt;= 10 mmol/L."/>
+      <description value="Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -605,7 +605,7 @@
         <reference value="StructureDefinition/highest-hyperglycemia-value-observation-profile"/>
       </reference>
       <name value="Highest Hyperglycemia Value Observation Profile"/>
-      <description value="Highest hyperglycemia value observation profile."/>
+      <description value="Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -616,7 +616,7 @@
         <reference value="StructureDefinition/hospitalized-location-profile"/>
       </reference>
       <name value="Hospitalized Location Profile"/>
-      <description value="Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity."/>
+      <description value="Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -638,7 +638,7 @@
         <reference value="StructureDefinition/hyperglycemia-observation-profile"/>
       </reference>
       <name value="Hyperglycemia Observation Profile"/>
-      <description value="Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks()."/>
+      <description value="Observation profile for hyperglycemia monitoring, checks and measured values."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -726,7 +726,7 @@
         <reference value="StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile"/>
       </reference>
       <name value="Insulin on Hyperglycemia MedicationAdministration Profile"/>
-      <description value="MedicationAdministration profile for insulin administered due to hyperglycemia."/>
+      <description value="MedicationAdministration profile for insulin administered in response to hyperglycemia."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -825,7 +825,7 @@
         <reference value="StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"/>
       </reference>
       <name value="Mechanical Thrombectomy DiagnosticReport Profile"/>
-      <description value="DiagnosticReport profile for thrombectomy outcome, especially mTICI score."/>
+      <description value="DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -924,7 +924,7 @@
         <reference value="StructureDefinition/nimodipine-medicationAdministration-profile"/>
       </reference>
       <name value="Nimodipine MedicationAdministration Profile"/>
-      <description value="MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway."/>
+      <description value="MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1067,7 +1067,7 @@
         <reference value="StructureDefinition/paracetamol-on-fever-medicationAdministration-profile"/>
       </reference>
       <name value="Paracetamol on Fever MedicationAdministration Profile"/>
-      <description value="MedicationAdministration profile for paracetamol given because of fever."/>
+      <description value="MedicationAdministration profile for paracetamol administered because of fever."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1100,7 +1100,7 @@
         <reference value="StructureDefinition/patient-ventilated-observation-profile"/>
       </reference>
       <name value="Patient Ventilated Observation Profile"/>
-      <description value="Ventilation observation profile for post-acute/acute context."/>
+      <description value="Observation profile for recording whether the patient was ventilated in acute or post-acute care."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1144,7 +1144,7 @@
         <reference value="StructureDefinition/post-stroke-complication-condition-profile"/>
       </reference>
       <name value="Post-Stroke Complication Condition Profile"/>
-      <description value="Post-stroke complication Condition profile aligned with build_post_stroke_conditions()."/>
+      <description value="Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1210,7 +1210,7 @@
         <reference value="StructureDefinition/prior-medication-statement-profile"/>
       </reference>
       <name value="Prior MedicationStatement Profile"/>
-      <description value="MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile()."/>
+      <description value="MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1276,7 +1276,7 @@
         <reference value="StructureDefinition/resq-body-structure-profile"/>
       </reference>
       <name value="RESQ BodyStructure Profile"/>
-      <description value="BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure()."/>
+      <description value="BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1287,7 +1287,7 @@
         <reference value="StructureDefinition/resq-location-profile"/>
       </reference>
       <name value="RESQ Location Profile"/>
-      <description value="Generic coded location profile aligned with build_location()."/>
+      <description value="Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1298,7 +1298,7 @@
         <reference value="StructureDefinition/resq-patient-profile"/>
       </reference>
       <name value="RESQ Patient Profile"/>
-      <description value="Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension."/>
+      <description value="Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1309,7 +1309,7 @@
         <reference value="StructureDefinition/resq-practitioner-role-profile"/>
       </reference>
       <name value="RESQ PractitionerRole Profile"/>
-      <description value="PractitionerRole profile for recording performer type in swallowing screening and related procedures."/>
+      <description value="PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1364,7 +1364,7 @@
         <reference value="StructureDefinition/specific-finding-observation-profile"/>
       </reference>
       <name value="Specific Finding Observation Profile"/>
-      <description value="Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter."/>
+      <description value="Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1397,7 +1397,7 @@
         <reference value="StructureDefinition/stroke-carotid-endarterectomy-procedure-profile"/>
       </reference>
       <name value="Stroke Carotid Endarterectomy Procedure Profile"/>
-      <description value="Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure()."/>
+      <description value="Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1408,7 +1408,7 @@
         <reference value="StructureDefinition/stroke-carotid-imaging-procedure-profile"/>
       </reference>
       <name value="Stroke Carotid Imaging Procedure Profile"/>
-      <description value="Carotid imaging Procedure aligned with build_carotid_imaging_procedure()."/>
+      <description value="Procedure profile for carotid imaging used in post-stroke assessment."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1419,7 +1419,7 @@
         <reference value="StructureDefinition/stroke-diagnosis-condition-profile"/>
       </reference>
       <name value="Stroke Diagnosis Condition Profile"/>
-      <description value="Index stroke diagnosis profile aligned with build_stroke_diagnosis_condition_profile()."/>
+      <description value="Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1430,7 +1430,7 @@
         <reference value="StructureDefinition/stroke-encounter-profile"/>
       </reference>
       <name value="Stroke Encounter Profile"/>
-      <description value="Index stroke encounter profile aligned with build_stroke_encounter_profile()."/>
+      <description value="Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1441,7 +1441,7 @@
         <reference value="StructureDefinition/stroke-imaging-diagnostic-report-profile"/>
       </reference>
       <name value="Stroke Imaging DiagnosticReport Profile"/>
-      <description value="Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report()."/>
+      <description value="DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1452,7 +1452,7 @@
         <reference value="StructureDefinition/stroke-imaging-procedure-profile"/>
       </reference>
       <name value="Stroke Imaging Procedure Profile"/>
-      <description value="Brain imaging Procedure aligned with build_imaging_procedure()."/>
+      <description value="Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1474,7 +1474,7 @@
         <reference value="StructureDefinition/stroke-registry-organization-profile"/>
       </reference>
       <name value="Stroke Registry Organization Profile"/>
-      <description value="Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name."/>
+      <description value="Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1485,7 +1485,7 @@
         <reference value="StructureDefinition/stroke-mechanical-procedure-profile"/>
       </reference>
       <name value="Stroke Reperfusion Procedure Profile"/>
-      <description value="Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure()."/>
+      <description value="Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1496,7 +1496,7 @@
         <reference value="StructureDefinition/stroke-risk-factor-condition-profile"/>
       </reference>
       <name value="Stroke Risk Factor Condition Profile"/>
-      <description value="Risk factor Condition profile aligned with build_risk_factor_condition_profile()."/>
+      <description value="Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1507,7 +1507,7 @@
         <reference value="StructureDefinition/stroke-swallow-procedure-profile"/>
       </reference>
       <name value="Stroke Swallowing Screening Procedure Profile"/>
-      <description value="Swallowing screening Procedure aligned with build_swallowing_screening_procedure()."/>
+      <description value="Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1518,7 +1518,7 @@
         <reference value="StructureDefinition/stroke-treatment-procedure-profile"/>
       </reference>
       <name value="Stroke Treatment Procedure Profile"/>
-      <description value="Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders."/>
+      <description value="Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1529,7 +1529,7 @@
         <reference value="StructureDefinition/stroke-vte-procedure-profile"/>
       </reference>
       <name value="Stroke VTE Prophylaxis Procedure Profile"/>
-      <description value="VTE prophylaxis Procedure profile aligned with build_vte_procedure()."/>
+      <description value="Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1760,7 +1760,7 @@
         <reference value="StructureDefinition/three-month-communication-profile"/>
       </reference>
       <name value="Three-Month Contact Communication Profile"/>
-      <description value="Communication profile for three-month follow-up contact, aligned with build_three_m_contact()."/>
+      <description value="Communication profile for recording contact with the patient or caregiver at approximately three months after stroke."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1771,7 +1771,7 @@
         <reference value="StructureDefinition/three-month-contact-mode-observation-profile"/>
       </reference>
       <name value="Three-Month Contact Mode Observation Profile"/>
-      <description value="Observation profile for contact mode at three-month follow-up."/>
+      <description value="Observation profile for the modality used to obtain three-month follow-up information."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1782,7 +1782,7 @@
         <reference value="StructureDefinition/follow-up-appointment-profile"/>
       </reference>
       <name value="Three-Month Follow-up Appointment Profile"/>
-      <description value="Follow-up neurology appointment profile aligned with build_follow_up_appointment()."/>
+      <description value="Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1837,7 +1837,7 @@
         <reference value="StructureDefinition/tia-clinical-symptoms-observation-profile"/>
       </reference>
       <name value="TIA Clinical Symptoms Observation Profile"/>
-      <description value="TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation()."/>
+      <description value="Observation profile for TIA clinical symptoms and their recorded values."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1881,7 +1881,7 @@
         <reference value="StructureDefinition/timing-metric-observation-profile"/>
       </reference>
       <name value="Timing Metric Observation Profile"/>
-      <description value="Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators."/>
+      <description value="Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1936,7 +1936,7 @@
         <reference value="StructureDefinition/vital-sign-observation-profile"/>
       </reference>
       <name value="Vital Sign Observation Profile"/>
-      <description value="Blood pressure observation aligned with build_observation_vital_signs()."/>
+      <description value="Observation profile for vital signs in the acute stroke pathway, especially blood pressure components."/>
       <isExample value="false"/>
     </resource>
     <resource>

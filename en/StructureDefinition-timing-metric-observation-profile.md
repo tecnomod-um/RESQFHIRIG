@@ -3,7 +3,7 @@
 ## Resource Profile: Timing Metric Observation Profile 
 
  
-Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators. 
+Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
   "version" : "1.0.0",
   "name" : "TimingMetricObservationProfile",
   "title" : "Timing Metric Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators.",
+  "description" : "Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -93,6 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
     {
       "id" : "Observation.partOf",
       "path" : "Observation.partOf",
+      "short" : "Procedure or administration measured by this timing metric",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Procedure",
@@ -103,6 +105,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Timing or process metric",
       "binding" : {
         "strength" : "required",
         "valueSet" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs"
@@ -119,6 +122,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
         "ordered" : false,
         "rules" : "open"
       },
+      "short" : "Metric duration/value or yes/no indicator",
       "min" : 1,
       "type" : [{
         "code" : "Quantity"
@@ -141,6 +145,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
     {
       "id" : "Observation.value[x]:valueQuantity.system",
       "path" : "Observation.value[x].system",
+      "fixedUri" : "http://unitsofmeasure.org",
       "mustSupport" : true
     },
     {

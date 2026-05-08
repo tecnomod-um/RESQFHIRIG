@@ -3,7 +3,7 @@
 ## Resource Profile: TIA Clinical Symptoms Observation Profile 
 
  
-TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation(). 
+Observation profile for TIA clinical symptoms and their recorded values. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-tia-clinical-symp
   "version" : "1.0.0",
   "name" : "TIAClinicalSymptomsObservationProfile",
   "title" : "TIA Clinical Symptoms Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-tia-clinical-symp
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation().",
+  "description" : "Observation profile for TIA clinical symptoms and their recorded values.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -101,6 +102,7 @@ Other representations of profile: [CSV](../StructureDefinition-tia-clinical-symp
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "TIA symptom value, duration or indicator",
       "type" : [{
         "code" : "Quantity"
       },

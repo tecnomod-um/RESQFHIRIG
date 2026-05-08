@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Registry Organization Profile 
 
  
-Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name. 
+Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
   "name" : "StrokeRegistryOrganizationProfile",
   "title" : "Stroke Registry Organization Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name.",
+  "description" : "Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Identifies the care organization or hospital associated with registry encounters and submitted data.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -95,6 +97,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
         }],
         "rules" : "open"
       },
+      "short" : "Organization identifiers",
       "min" : 1,
       "mustSupport" : true
     },
@@ -102,6 +105,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
       "id" : "Organization.identifier:registry",
       "path" : "Organization.identifier",
       "sliceName" : "registry",
+      "short" : "RES-Q registry organization identifier",
       "min" : 1,
       "max" : "1",
       "mustSupport" : true
@@ -122,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
     {
       "id" : "Organization.active",
       "path" : "Organization.active",
+      "short" : "Organization currently active in the registry context",
       "min" : 1,
       "patternBoolean" : true,
       "mustSupport" : true
@@ -129,6 +134,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
     {
       "id" : "Organization.name",
       "path" : "Organization.name",
+      "short" : "Canonical hospital or registry organization name",
       "min" : 1,
       "mustSupport" : true
     }]

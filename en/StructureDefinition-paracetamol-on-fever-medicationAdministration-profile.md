@@ -3,7 +3,7 @@
 ## Resource Profile: Paracetamol on Fever MedicationAdministration Profile 
 
  
-MedicationAdministration profile for paracetamol given because of fever. 
+MedicationAdministration profile for paracetamol administered because of fever. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-paracetamol-on-fe
   "version" : "1.0.0",
   "name" : "ParacetamolOnFeverMedicationAdministrationProfile",
   "title" : "Paracetamol on Fever MedicationAdministration Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-paracetamol-on-fe
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationAdministration profile for paracetamol given because of fever.",
+  "description" : "MedicationAdministration profile for paracetamol administered because of fever.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

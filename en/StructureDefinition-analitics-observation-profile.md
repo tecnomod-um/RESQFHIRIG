@@ -3,7 +3,7 @@
 ## Resource Profile: Analytics Observation Profile 
 
  
-Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL. 
+Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-analitics-observa
   "version" : "1.0.0",
   "name" : "AnaliticsObservationProfile",
   "title" : "Analytics Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-analitics-observa
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL.",
+  "description" : "Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -122,6 +123,7 @@ Other representations of profile: [CSV](../StructureDefinition-analitics-observa
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Laboratory or analytics concept",
       "binding" : {
         "strength" : "extensible",
         "valueSet" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs"
@@ -130,6 +132,7 @@ Other representations of profile: [CSV](../StructureDefinition-analitics-observa
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Laboratory value or coded/boolean result",
       "type" : [{
         "code" : "Quantity"
       },
@@ -144,6 +147,7 @@ Other representations of profile: [CSV](../StructureDefinition-analitics-observa
     {
       "id" : "Observation.method",
       "path" : "Observation.method",
+      "short" : "Measurement or assessment method",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",

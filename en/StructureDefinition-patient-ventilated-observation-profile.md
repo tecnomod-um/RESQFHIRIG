@@ -3,7 +3,7 @@
 ## Resource Profile: Patient Ventilated Observation Profile 
 
  
-Ventilation observation profile for post-acute/acute context. 
+Observation profile for recording whether the patient was ventilated in acute or post-acute care. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-patient-ventilate
   "version" : "1.0.0",
   "name" : "PatientVentilatedObservationProfile",
   "title" : "Patient Ventilated Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-patient-ventilate
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Ventilation observation profile for post-acute/acute context.",
+  "description" : "Observation profile for recording whether the patient was ventilated in acute or post-acute care.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,9 +126,12 @@ Other representations of profile: [CSV](../StructureDefinition-patient-ventilate
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Patient ventilated indicator",
+      "min" : 1,
       "type" : [{
         "code" : "boolean"
-      }]
+      }],
+      "mustSupport" : true
     }]
   }
 }

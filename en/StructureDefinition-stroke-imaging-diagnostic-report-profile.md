@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Imaging DiagnosticReport Profile 
 
  
-Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report(). 
+DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
   "version" : "1.0.0",
   "name" : "StrokeImagingDiagnosticReportProfile",
   "title" : "Stroke Imaging DiagnosticReport Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report().",
+  "description" : "DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Aggregates imaging observations and coded conclusions so imaging evidence can be referenced from procedures and clinical findings.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -83,12 +85,14 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
     {
       "id" : "DiagnosticReport.status",
       "path" : "DiagnosticReport.status",
+      "short" : "Final diagnostic report",
       "patternCode" : "final",
       "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
+      "short" : "Report type",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -98,6 +102,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
     {
       "id" : "DiagnosticReport.subject",
       "path" : "DiagnosticReport.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -108,6 +114,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
     {
       "id" : "DiagnosticReport.encounter",
       "path" : "DiagnosticReport.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -118,11 +126,13 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-imaging-di
     {
       "id" : "DiagnosticReport.result",
       "path" : "DiagnosticReport.result",
+      "short" : "Imaging result observations",
       "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.conclusionCode",
       "path" : "DiagnosticReport.conclusionCode",
+      "short" : "Coded imaging conclusion",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",

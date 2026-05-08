@@ -3,7 +3,7 @@
 ## Resource Profile: Base Stroke Observation Profile 
 
  
-Base profile for stroke registry observations: subject and encounter required; status is normally final. 
+Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
   "name" : "BaseStrokeObservation",
   "title" : "Base Stroke Observation Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Base profile for stroke registry observations: subject and encounter required; status is normally final.",
+  "description" : "Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Provides a common observation scaffold for stroke scores, process metrics, laboratory values, imaging findings and follow-up measurements.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -93,17 +95,21 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
     {
       "id" : "Observation.status",
       "path" : "Observation.status",
+      "short" : "Final registry observation",
       "patternCode" : "final",
       "mustSupport" : true
     },
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Registry observation concept",
       "mustSupport" : true
     },
     {
       "id" : "Observation.subject",
       "path" : "Observation.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -114,6 +120,8 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
     {
       "id" : "Observation.encounter",
       "path" : "Observation.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",

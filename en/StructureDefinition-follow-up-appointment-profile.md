@@ -3,7 +3,7 @@
 ## Resource Profile: Three-Month Follow-up Appointment Profile 
 
  
-Follow-up neurology appointment profile aligned with build_follow_up_appointment(). 
+Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
   "name" : "FollowUpAppointmentProfile",
   "title" : "Three-Month Follow-up Appointment Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Follow-up neurology appointment profile aligned with build_follow_up_appointment().",
+  "description" : "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Documents whether a structured three-month follow-up appointment is part of the stroke pathway.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -88,11 +90,13 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
     {
       "id" : "Appointment.status",
       "path" : "Appointment.status",
+      "short" : "Appointment status",
       "mustSupport" : true
     },
     {
       "id" : "Appointment.specialty",
       "path" : "Appointment.specialty",
+      "short" : "Follow-up specialty or service",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -103,11 +107,13 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
     {
       "id" : "Appointment.participant",
       "path" : "Appointment.participant",
+      "short" : "Appointment participants",
       "mustSupport" : true
     },
     {
       "id" : "Appointment.participant.actor",
       "path" : "Appointment.participant.actor",
+      "short" : "Patient participant",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -118,6 +124,7 @@ Other representations of profile: [CSV](../StructureDefinition-follow-up-appoint
     {
       "id" : "Appointment.participant.status",
       "path" : "Appointment.participant.status",
+      "short" : "Patient participation status",
       "mustSupport" : true
     }]
   }

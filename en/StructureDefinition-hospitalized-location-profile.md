@@ -3,7 +3,7 @@
 ## Resource Profile: Hospitalized Location Profile 
 
  
-Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity. 
+Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-hospitalized-loca
   "name" : "HospitalizedLocationProfile",
   "title" : "Hospitalized Location Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-hospitalized-loca
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity.",
+  "description" : "Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-hospitalized-loca
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Represents the inpatient department or unit type where the patient was hospitalized, including initial care intensity.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -92,6 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-hospitalized-loca
       "id" : "Location.extension:initialCareIntensity",
       "path" : "Location.extension",
       "sliceName" : "initialCareIntensity",
+      "short" : "Initial intensity of hospitalized care",
       "min" : 1,
       "max" : "1",
       "type" : [{
@@ -103,6 +106,7 @@ Other representations of profile: [CSV](../StructureDefinition-hospitalized-loca
     {
       "id" : "Location.type",
       "path" : "Location.type",
+      "short" : "Admission department or hospitalized location type",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {

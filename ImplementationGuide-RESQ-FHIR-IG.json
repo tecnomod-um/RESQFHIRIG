@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -108,7 +108,7 @@
         "reference" : "StructureDefinition/analitics-observation-profile"
       },
       "name" : "Analytics Observation Profile",
-      "description" : "Laboratory/analytics observations for glucose, cholesterol, INR and related laboratory findings. The id preserves the original spelling used in the Python profile URL.",
+      "description" : "Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL.",
       "isExample" : false
     },
     {
@@ -192,7 +192,7 @@
         "reference" : "StructureDefinition/base-stroke-observation"
       },
       "name" : "Base Stroke Observation Profile",
-      "description" : "Base profile for stroke registry observations: subject and encounter required; status is normally final.",
+      "description" : "Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context.",
       "isExample" : false
     },
     {
@@ -312,7 +312,7 @@
         "reference" : "StructureDefinition/discharge-medication-request-profile"
       },
       "name" : "Discharge MedicationRequest Profile",
-      "description" : "MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile().",
+      "description" : "MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter.",
       "isExample" : false
     },
     {
@@ -456,7 +456,7 @@
         "reference" : "StructureDefinition/fever-observation-profile"
       },
       "name" : "Fever Observation Profile",
-      "description" : "Fever observation profile aligned with build_observation_fever().",
+      "description" : "Observation profile for fever presence or temperature values during the stroke pathway.",
       "isExample" : false
     },
     {
@@ -504,7 +504,7 @@
         "reference" : "StructureDefinition/functional-score-observation-profile"
       },
       "name" : "Functional Score Observation Profile",
-      "description" : "Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.",
+      "description" : "Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.",
       "isExample" : false
     },
     {
@@ -564,7 +564,7 @@
         "reference" : "StructureDefinition/glasgow-coma-scale-observation-profile"
       },
       "name" : "Glasgow Coma Scale Observation Profile",
-      "description" : "GCS score/profile generated from build_observation_glasgow_coma_scale().",
+      "description" : "Specialized functional score profile for Glasgow Coma Scale values captured by the registry.",
       "isExample" : false
     },
     {
@@ -588,7 +588,7 @@
         "reference" : "StructureDefinition/glucose-ge10-observation-profile"
       },
       "name" : "Glucose >= 10 Observation Profile",
-      "description" : "Boolean indicator for glucose >= 10 mmol/L.",
+      "description" : "Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L.",
       "isExample" : false
     },
     {
@@ -660,7 +660,7 @@
         "reference" : "StructureDefinition/highest-hyperglycemia-value-observation-profile"
       },
       "name" : "Highest Hyperglycemia Value Observation Profile",
-      "description" : "Highest hyperglycemia value observation profile.",
+      "description" : "Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval.",
       "isExample" : false
     },
     {
@@ -672,7 +672,7 @@
         "reference" : "StructureDefinition/hospitalized-location-profile"
       },
       "name" : "Hospitalized Location Profile",
-      "description" : "Hospitalized location profile aligned with build_hospitalized_location(): Location.type stores admission department and extension stores care intensity.",
+      "description" : "Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model.",
       "isExample" : false
     },
     {
@@ -696,7 +696,7 @@
         "reference" : "StructureDefinition/hyperglycemia-observation-profile"
       },
       "name" : "Hyperglycemia Observation Profile",
-      "description" : "Hyperglycemia monitoring/check observations aligned with build_observation_hyperglycemia_measurement_checks().",
+      "description" : "Observation profile for hyperglycemia monitoring, checks and measured values.",
       "isExample" : false
     },
     {
@@ -792,7 +792,7 @@
         "reference" : "StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile"
       },
       "name" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-      "description" : "MedicationAdministration profile for insulin administered due to hyperglycemia.",
+      "description" : "MedicationAdministration profile for insulin administered in response to hyperglycemia.",
       "isExample" : false
     },
     {
@@ -900,7 +900,7 @@
         "reference" : "StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"
       },
       "name" : "Mechanical Thrombectomy DiagnosticReport Profile",
-      "description" : "DiagnosticReport profile for thrombectomy outcome, especially mTICI score.",
+      "description" : "DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results.",
       "isExample" : false
     },
     {
@@ -1008,7 +1008,7 @@
         "reference" : "StructureDefinition/nimodipine-medicationAdministration-profile"
       },
       "name" : "Nimodipine MedicationAdministration Profile",
-      "description" : "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway.",
+      "description" : "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.",
       "isExample" : false
     },
     {
@@ -1164,7 +1164,7 @@
         "reference" : "StructureDefinition/paracetamol-on-fever-medicationAdministration-profile"
       },
       "name" : "Paracetamol on Fever MedicationAdministration Profile",
-      "description" : "MedicationAdministration profile for paracetamol given because of fever.",
+      "description" : "MedicationAdministration profile for paracetamol administered because of fever.",
       "isExample" : false
     },
     {
@@ -1200,7 +1200,7 @@
         "reference" : "StructureDefinition/patient-ventilated-observation-profile"
       },
       "name" : "Patient Ventilated Observation Profile",
-      "description" : "Ventilation observation profile for post-acute/acute context.",
+      "description" : "Observation profile for recording whether the patient was ventilated in acute or post-acute care.",
       "isExample" : false
     },
     {
@@ -1248,7 +1248,7 @@
         "reference" : "StructureDefinition/post-stroke-complication-condition-profile"
       },
       "name" : "Post-Stroke Complication Condition Profile",
-      "description" : "Post-stroke complication Condition profile aligned with build_post_stroke_conditions().",
+      "description" : "Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking.",
       "isExample" : false
     },
     {
@@ -1320,7 +1320,7 @@
         "reference" : "StructureDefinition/prior-medication-statement-profile"
       },
       "name" : "Prior MedicationStatement Profile",
-      "description" : "MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile().",
+      "description" : "MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry.",
       "isExample" : false
     },
     {
@@ -1392,7 +1392,7 @@
         "reference" : "StructureDefinition/resq-body-structure-profile"
       },
       "name" : "RESQ BodyStructure Profile",
-      "description" : "BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure().",
+      "description" : "BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings.",
       "isExample" : false
     },
     {
@@ -1404,7 +1404,7 @@
         "reference" : "StructureDefinition/resq-location-profile"
       },
       "name" : "RESQ Location Profile",
-      "description" : "Generic coded location profile aligned with build_location().",
+      "description" : "Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site.",
       "isExample" : false
     },
     {
@@ -1416,7 +1416,7 @@
         "reference" : "StructureDefinition/resq-patient-profile"
       },
       "name" : "RESQ Patient Profile",
-      "description" : "Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension.",
+      "description" : "Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension.",
       "isExample" : false
     },
     {
@@ -1428,7 +1428,7 @@
         "reference" : "StructureDefinition/resq-practitioner-role-profile"
       },
       "name" : "RESQ PractitionerRole Profile",
-      "description" : "PractitionerRole profile for recording performer type in swallowing screening and related procedures.",
+      "description" : "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities.",
       "isExample" : false
     },
     {
@@ -1488,7 +1488,7 @@
         "reference" : "StructureDefinition/specific-finding-observation-profile"
       },
       "name" : "Specific Finding Observation Profile",
-      "description" : "Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter.",
+      "description" : "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.",
       "isExample" : false
     },
     {
@@ -1524,7 +1524,7 @@
         "reference" : "StructureDefinition/stroke-carotid-endarterectomy-procedure-profile"
       },
       "name" : "Stroke Carotid Endarterectomy Procedure Profile",
-      "description" : "Carotid endarterectomy Procedure aligned with build_endarterectomy_procedure().",
+      "description" : "Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway.",
       "isExample" : false
     },
     {
@@ -1536,7 +1536,7 @@
         "reference" : "StructureDefinition/stroke-carotid-imaging-procedure-profile"
       },
       "name" : "Stroke Carotid Imaging Procedure Profile",
-      "description" : "Carotid imaging Procedure aligned with build_carotid_imaging_procedure().",
+      "description" : "Procedure profile for carotid imaging used in post-stroke assessment.",
       "isExample" : false
     },
     {
@@ -1548,7 +1548,7 @@
         "reference" : "StructureDefinition/stroke-diagnosis-condition-profile"
       },
       "name" : "Stroke Diagnosis Condition Profile",
-      "description" : "Index stroke diagnosis profile aligned with build_stroke_diagnosis_condition_profile().",
+      "description" : "Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status.",
       "isExample" : false
     },
     {
@@ -1560,7 +1560,7 @@
         "reference" : "StructureDefinition/stroke-encounter-profile"
       },
       "name" : "Stroke Encounter Profile",
-      "description" : "Index stroke encounter profile aligned with build_stroke_encounter_profile().",
+      "description" : "Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability.",
       "isExample" : false
     },
     {
@@ -1572,7 +1572,7 @@
         "reference" : "StructureDefinition/stroke-imaging-diagnostic-report-profile"
       },
       "name" : "Stroke Imaging DiagnosticReport Profile",
-      "description" : "Imaging DiagnosticReport profile aligned with build_imaging_diagnostic_report(), build_carotid_arteries_imaging_diagnostic_report(), build_ct_mr_after_ivt_diagnostic_report() and build_follow_up_ct_mr_diagnostic_report().",
+      "description" : "DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway.",
       "isExample" : false
     },
     {
@@ -1584,7 +1584,7 @@
         "reference" : "StructureDefinition/stroke-imaging-procedure-profile"
       },
       "name" : "Stroke Imaging Procedure Profile",
-      "description" : "Brain imaging Procedure aligned with build_imaging_procedure().",
+      "description" : "Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context.",
       "isExample" : false
     },
     {
@@ -1608,7 +1608,7 @@
         "reference" : "StructureDefinition/stroke-registry-organization-profile"
       },
       "name" : "Stroke Registry Organization Profile",
-      "description" : "Organization profile aligned with build_organization(): active=true, registry identifier and canonical hospital name.",
+      "description" : "Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier.",
       "isExample" : false
     },
     {
@@ -1620,7 +1620,7 @@
         "reference" : "StructureDefinition/stroke-mechanical-procedure-profile"
       },
       "name" : "Stroke Reperfusion Procedure Profile",
-      "description" : "Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure().",
+      "description" : "Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context.",
       "isExample" : false
     },
     {
@@ -1632,7 +1632,7 @@
         "reference" : "StructureDefinition/stroke-risk-factor-condition-profile"
       },
       "name" : "Stroke Risk Factor Condition Profile",
-      "description" : "Risk factor Condition profile aligned with build_risk_factor_condition_profile().",
+      "description" : "Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry.",
       "isExample" : false
     },
     {
@@ -1644,7 +1644,7 @@
         "reference" : "StructureDefinition/stroke-swallow-procedure-profile"
       },
       "name" : "Stroke Swallowing Screening Procedure Profile",
-      "description" : "Swallowing screening Procedure aligned with build_swallowing_screening_procedure().",
+      "description" : "Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context.",
       "isExample" : false
     },
     {
@@ -1656,7 +1656,7 @@
         "reference" : "StructureDefinition/stroke-treatment-procedure-profile"
       },
       "name" : "Stroke Treatment Procedure Profile",
-      "description" : "Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.",
+      "description" : "Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.",
       "isExample" : false
     },
     {
@@ -1668,7 +1668,7 @@
         "reference" : "StructureDefinition/stroke-vte-procedure-profile"
       },
       "name" : "Stroke VTE Prophylaxis Procedure Profile",
-      "description" : "VTE prophylaxis Procedure profile aligned with build_vte_procedure().",
+      "description" : "Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway.",
       "isExample" : false
     },
     {
@@ -1920,7 +1920,7 @@
         "reference" : "StructureDefinition/three-month-communication-profile"
       },
       "name" : "Three-Month Contact Communication Profile",
-      "description" : "Communication profile for three-month follow-up contact, aligned with build_three_m_contact().",
+      "description" : "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.",
       "isExample" : false
     },
     {
@@ -1932,7 +1932,7 @@
         "reference" : "StructureDefinition/three-month-contact-mode-observation-profile"
       },
       "name" : "Three-Month Contact Mode Observation Profile",
-      "description" : "Observation profile for contact mode at three-month follow-up.",
+      "description" : "Observation profile for the modality used to obtain three-month follow-up information.",
       "isExample" : false
     },
     {
@@ -1944,7 +1944,7 @@
         "reference" : "StructureDefinition/follow-up-appointment-profile"
       },
       "name" : "Three-Month Follow-up Appointment Profile",
-      "description" : "Follow-up neurology appointment profile aligned with build_follow_up_appointment().",
+      "description" : "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.",
       "isExample" : false
     },
     {
@@ -2004,7 +2004,7 @@
         "reference" : "StructureDefinition/tia-clinical-symptoms-observation-profile"
       },
       "name" : "TIA Clinical Symptoms Observation Profile",
-      "description" : "TIA symptoms observation profile aligned with build_tia_clinical_symptomps_observation().",
+      "description" : "Observation profile for TIA clinical symptoms and their recorded values.",
       "isExample" : false
     },
     {
@@ -2052,7 +2052,7 @@
         "reference" : "StructureDefinition/timing-metric-observation-profile"
       },
       "name" : "Timing Metric Observation Profile",
-      "description" : "Timing/process metric profile for door-to-needle, door-to-groin, onset-to-door and related indicators.",
+      "description" : "Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures.",
       "isExample" : false
     },
     {
@@ -2112,7 +2112,7 @@
         "reference" : "StructureDefinition/vital-sign-observation-profile"
       },
       "name" : "Vital Sign Observation Profile",
-      "description" : "Blood pressure observation aligned with build_observation_vital_signs().",
+      "description" : "Observation profile for vital signs in the acute stroke pathway, especially blood pressure components.",
       "isExample" : false
     },
     {

@@ -3,7 +3,7 @@
 ## Resource Profile: Three-Month Contact Communication Profile 
 
  
-Communication profile for three-month follow-up contact, aligned with build_three_m_contact(). 
+Communication profile for recording contact with the patient or caregiver at approximately three months after stroke. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
   "name" : "ThreeMonthCommunicationProfile",
   "title" : "Three-Month Contact Communication Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Communication profile for three-month follow-up contact, aligned with build_three_m_contact().",
+  "description" : "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Captures follow-up contact status and contact modality for registry outcomes collected outside the acute encounter.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -78,11 +80,13 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
     {
       "id" : "Communication.status",
       "path" : "Communication.status",
+      "short" : "Communication status",
       "mustSupport" : true
     },
     {
       "id" : "Communication.medium",
       "path" : "Communication.medium",
+      "short" : "Follow-up contact mode",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -92,6 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
     {
       "id" : "Communication.subject",
       "path" : "Communication.subject",
+      "short" : "Patient contacted at follow-up",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -101,6 +106,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
     {
       "id" : "Communication.encounter",
       "path" : "Communication.encounter",
+      "short" : "Index stroke encounter associated with the contact",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
@@ -110,6 +116,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-commu
     {
       "id" : "Communication.sent",
       "path" : "Communication.sent",
+      "short" : "Date/time contact was sent or performed",
       "mustSupport" : true
     }]
   }

@@ -3,7 +3,7 @@
 ## Resource Profile: Prior MedicationStatement Profile 
 
  
-MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile(). 
+MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
   "version" : "1.0.0",
   "name" : "PriorMedicationStatementProfile",
   "title" : "Prior MedicationStatement Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationStatement profile for medication taken before stroke onset, aligned with build_before_onset_medicationStatement_profile().",
+  "description" : "MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Represents relevant pre-stroke medications and adherence as patient-reported or recorded medication use.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -83,12 +85,14 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
     {
       "id" : "MedicationStatement.status",
       "path" : "MedicationStatement.status",
+      "short" : "Recorded prior medication use",
       "patternCode" : "recorded",
       "mustSupport" : true
     },
     {
       "id" : "MedicationStatement.medication",
       "path" : "MedicationStatement.medication",
+      "short" : "Medication used before stroke onset",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -98,6 +102,8 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
     {
       "id" : "MedicationStatement.subject",
       "path" : "MedicationStatement.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -107,6 +113,8 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
     {
       "id" : "MedicationStatement.encounter",
       "path" : "MedicationStatement.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -117,6 +125,7 @@ Other representations of profile: [CSV](../StructureDefinition-prior-medication-
     {
       "id" : "MedicationStatement.adherence",
       "path" : "MedicationStatement.adherence",
+      "short" : "Medication adherence details",
       "min" : 1,
       "mustSupport" : true
     },

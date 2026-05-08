@@ -3,7 +3,7 @@
 ## Resource Profile: Functional Score Observation Profile 
 
  
-Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
+Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
   "version" : "1.0.0",
   "name" : "FunctionalScoreObservationProfile",
   "title" : "Functional Score Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Functional score profile for mRS, NIHSS, ASPECTS, GCS-like score categories, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.",
+  "description" : "Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -126,6 +127,7 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Functional or severity score instrument",
       "binding" : {
         "strength" : "extensible",
         "valueSet" : "http://tecnomod-um.org/ValueSet/functional-score-vs"
@@ -142,6 +144,7 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
         "ordered" : false,
         "rules" : "open"
       },
+      "short" : "Recorded score value",
       "type" : [{
         "code" : "Quantity"
       },

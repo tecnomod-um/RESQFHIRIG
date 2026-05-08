@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Reperfusion Procedure Profile 
 
  
-Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure(). 
+Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
   "version" : "1.0.0",
   "name" : "StrokeMechanicalProcedureProfile",
   "title" : "Stroke Reperfusion Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Thrombolysis and mechanical thrombectomy Procedure profile aligned with build_thrombolysis_procedure() and build_thrombectomy_procedure().",
+  "description" : "Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Captures key acute reperfusion procedures and non-performance reasons for quality metrics.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -124,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.statusReason",
       "path" : "Procedure.statusReason",
+      "short" : "Reason procedure was not done or status rationale",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -133,6 +136,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Reperfusion procedure",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -143,6 +147,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -152,6 +158,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -162,6 +170,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.occurrence[x]",
       "path" : "Procedure.occurrence[x]",
+      "short" : "Procedure date/time or interval",
       "type" : [{
         "code" : "dateTime"
       },
@@ -173,11 +182,13 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.location",
       "path" : "Procedure.location",
+      "short" : "Location where procedure occurred",
       "mustSupport" : true
     },
     {
       "id" : "Procedure.reason",
       "path" : "Procedure.reason",
+      "short" : "Index stroke diagnosis prompting reperfusion",
       "type" : [{
         "code" : "CodeableReference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
@@ -187,6 +198,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-mechanical
     {
       "id" : "Procedure.complication",
       "path" : "Procedure.complication",
+      "short" : "Procedure complication",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",

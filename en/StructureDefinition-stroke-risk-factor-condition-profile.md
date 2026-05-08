@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Risk Factor Condition Profile 
 
  
-Risk factor Condition profile aligned with build_risk_factor_condition_profile(). 
+Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
   "name" : "StrokeRiskFactorConditionProfile",
   "title" : "Stroke Risk Factor Condition Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Risk factor Condition profile aligned with build_risk_factor_condition_profile().",
+  "description" : "Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Represents comorbidities and clinical risk factors used in stroke quality measurement and outcome analysis.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -88,6 +90,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
     {
       "id" : "Condition.clinicalStatus",
       "path" : "Condition.clinicalStatus",
+      "short" : "Clinical status of the risk factor",
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
@@ -97,11 +100,13 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
     {
       "id" : "Condition.verificationStatus",
       "path" : "Condition.verificationStatus",
+      "short" : "Verification status when available",
       "mustSupport" : true
     },
     {
       "id" : "Condition.code",
       "path" : "Condition.code",
+      "short" : "Stroke risk factor",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -112,6 +117,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
     {
       "id" : "Condition.subject",
       "path" : "Condition.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -121,6 +128,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-risk-facto
     {
       "id" : "Condition.encounter",
       "path" : "Condition.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",

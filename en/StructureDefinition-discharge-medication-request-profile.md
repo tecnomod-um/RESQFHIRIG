@@ -3,7 +3,7 @@
 ## Resource Profile: Discharge MedicationRequest Profile 
 
  
-MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile(). 
+MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
   "version" : "1.0.0",
   "name" : "DischargeMedicationRequestProfile",
   "title" : "Discharge MedicationRequest Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationRequest profile for medications prescribed at discharge, aligned with build_on_discharge_medicationRequest_profile().",
+  "description" : "MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Captures discharge medication orders needed for quality reporting and secondary prevention analysis.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -88,18 +90,21 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
     {
       "id" : "MedicationRequest.status",
       "path" : "MedicationRequest.status",
+      "short" : "Active discharge medication request",
       "patternCode" : "active",
       "mustSupport" : true
     },
     {
       "id" : "MedicationRequest.intent",
       "path" : "MedicationRequest.intent",
+      "short" : "Medication order intent",
       "patternCode" : "order",
       "mustSupport" : true
     },
     {
       "id" : "MedicationRequest.category",
       "path" : "MedicationRequest.category",
+      "short" : "Community/discharge medication category",
       "min" : 1,
       "patternCodeableConcept" : {
         "coding" : [{
@@ -112,6 +117,7 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
     {
       "id" : "MedicationRequest.medication",
       "path" : "MedicationRequest.medication",
+      "short" : "Medication requested at discharge",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -121,6 +127,8 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
     {
       "id" : "MedicationRequest.subject",
       "path" : "MedicationRequest.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -130,6 +138,8 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-medicat
     {
       "id" : "MedicationRequest.encounter",
       "path" : "MedicationRequest.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",

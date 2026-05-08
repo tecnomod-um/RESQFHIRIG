@@ -3,7 +3,7 @@
 ## Resource Profile: Three-Month Contact Mode Observation Profile 
 
  
-Observation profile for contact mode at three-month follow-up. 
+Observation profile for the modality used to obtain three-month follow-up information. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-conta
   "version" : "1.0.0",
   "name" : "ThreeMonthContactModeObservationProfile",
   "title" : "Three-Month Contact Mode Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-conta
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Observation profile for contact mode at three-month follow-up.",
+  "description" : "Observation profile for the modality used to obtain three-month follow-up information.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -93,6 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-three-month-conta
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Three-month contact mode",
       "binding" : {
         "strength" : "required",
         "valueSet" : "http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs"

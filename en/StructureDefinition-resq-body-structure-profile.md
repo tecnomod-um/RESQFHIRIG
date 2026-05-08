@@ -3,7 +3,7 @@
 ## Resource Profile: RESQ BodyStructure Profile 
 
  
-BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure(). 
+BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings. 
 
 **Usages:**
 
@@ -32,7 +32,8 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
   "name" : "RESQBodyStructureProfile",
   "title" : "RESQ BodyStructure Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "BodyStructure profile for occluded arteries or anatomical structures, aligned with build_bodyStructure().",
+  "description" : "BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Allows observations and reports to reference a normalized anatomical site instead of repeating less structured body-site information.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -83,11 +85,13 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
     {
       "id" : "BodyStructure.includedStructure",
       "path" : "BodyStructure.includedStructure",
+      "short" : "Anatomical structure relevant to the stroke episode",
       "mustSupport" : true
     },
     {
       "id" : "BodyStructure.includedStructure.structure",
       "path" : "BodyStructure.includedStructure.structure",
+      "short" : "Coded artery or anatomical site",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -97,6 +101,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
     {
       "id" : "BodyStructure.includedStructure.laterality",
       "path" : "BodyStructure.includedStructure.laterality",
+      "short" : "Left/right/bilateral laterality where applicable",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -106,6 +111,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-body-structu
     {
       "id" : "BodyStructure.patient",
       "path" : "BodyStructure.patient",
+      "short" : "Patient whose anatomical structure is described",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]

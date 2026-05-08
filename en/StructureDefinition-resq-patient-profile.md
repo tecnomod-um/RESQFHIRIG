@@ -3,7 +3,7 @@
 ## Resource Profile: RESQ Patient Profile 
 
  
-Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension. 
+Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension. 
 
 **Usages:**
 
@@ -33,7 +33,8 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
   "name" : "RESQPatientProfile",
   "title" : "RESQ Patient Profile",
   "status" : "active",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Patient profile aligned with build_Patient(): identifier is required and sex/gender is captured with a SNOMED CT extension. Age is represented as an Observation in the ETL, not as a Patient extension.",
+  "description" : "Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -50,6 +51,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Provides a minimal, privacy-preserving patient anchor for all RES-Q stroke resources while retaining a coded sex/gender data element required for registry analytics.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "w5",
@@ -107,6 +109,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
       "id" : "Patient.extension:genderSnomed",
       "path" : "Patient.extension",
       "sliceName" : "genderSnomed",
+      "short" : "SNOMED CT sex/gender concept",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -118,12 +121,16 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
     {
       "id" : "Patient.identifier",
       "path" : "Patient.identifier",
+      "short" : "Stable registry patient identifier",
+      "definition" : "Identifier used to link all resources belonging to the same registry subject. Implementers SHOULD avoid directly identifying national or local identifiers unless they are permitted for the exchange context.",
       "min" : 1,
       "mustSupport" : true
     },
     {
       "id" : "Patient.gender",
       "path" : "Patient.gender",
+      "short" : "Not used by this registry profile",
+      "definition" : "The source model records sex/gender as a coded SNOMED CT concept. Patient.gender is prohibited to prevent divergent representations.",
       "max" : "0"
     }]
   }

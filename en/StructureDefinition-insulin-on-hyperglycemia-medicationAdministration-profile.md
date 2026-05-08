@@ -3,7 +3,7 @@
 ## Resource Profile: Insulin on Hyperglycemia MedicationAdministration Profile 
 
  
-MedicationAdministration profile for insulin administered due to hyperglycemia. 
+MedicationAdministration profile for insulin administered in response to hyperglycemia. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-insulin-on-hyperg
   "version" : "1.0.0",
   "name" : "InsulinOnHyperglycemiaMedicationAdministrationProfile",
   "title" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-insulin-on-hyperg
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationAdministration profile for insulin administered due to hyperglycemia.",
+  "description" : "MedicationAdministration profile for insulin administered in response to hyperglycemia.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

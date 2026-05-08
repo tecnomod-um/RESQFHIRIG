@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Treatment Procedure Profile 
 
  
-Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders. 
+Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
   "version" : "1.0.0",
   "name" : "StrokeTreatmentProcedureProfile",
   "title" : "Stroke Treatment Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Generic treatment/rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.",
+  "description" : "Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -121,12 +122,15 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Treatment, rehabilitation or neurosurgical procedure",
       "min" : 1,
       "mustSupport" : true
     },
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -136,6 +140,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -146,6 +152,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
     {
       "id" : "Procedure.occurrence[x]",
       "path" : "Procedure.occurrence[x]",
+      "short" : "Procedure date/time, interval or timing range",
       "type" : [{
         "code" : "dateTime"
       },
@@ -160,6 +167,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
     {
       "id" : "Procedure.reason",
       "path" : "Procedure.reason",
+      "short" : "Clinical reason for treatment",
       "mustSupport" : true
     }]
   }

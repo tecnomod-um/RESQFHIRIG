@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke VTE Prophylaxis Procedure Profile 
 
  
-VTE prophylaxis Procedure profile aligned with build_vte_procedure(). 
+Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-vte-proced
   "version" : "1.0.0",
   "name" : "StrokeVTEProcedureProfile",
   "title" : "Stroke VTE Prophylaxis Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-vte-proced
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "VTE prophylaxis Procedure profile aligned with build_vte_procedure().",
+  "description" : "Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -88,6 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-vte-proced
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "VTE prophylaxis procedure",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -98,6 +100,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-vte-proced
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -107,6 +111,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-vte-proced
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",

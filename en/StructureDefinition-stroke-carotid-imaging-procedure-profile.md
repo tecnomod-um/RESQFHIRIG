@@ -3,7 +3,7 @@
 ## Resource Profile: Stroke Carotid Imaging Procedure Profile 
 
  
-Carotid imaging Procedure aligned with build_carotid_imaging_procedure(). 
+Procedure profile for carotid imaging used in post-stroke assessment. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
   "version" : "1.0.0",
   "name" : "StrokeCarotidImagingProcedureProfile",
   "title" : "Stroke Carotid Imaging Procedure Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Carotid imaging Procedure aligned with build_carotid_imaging_procedure().",
+  "description" : "Procedure profile for carotid imaging used in post-stroke assessment.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -113,6 +114,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
     {
       "id" : "Procedure.code",
       "path" : "Procedure.code",
+      "short" : "Carotid imaging type",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
@@ -123,6 +125,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
     {
       "id" : "Procedure.subject",
       "path" : "Procedure.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
@@ -132,6 +136,8 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
     {
       "id" : "Procedure.encounter",
       "path" : "Procedure.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -142,6 +148,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-im
     {
       "id" : "Procedure.report",
       "path" : "Procedure.report",
+      "short" : "Carotid imaging report",
       "mustSupport" : true
     }]
   }

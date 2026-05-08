@@ -3,7 +3,7 @@
 ## Resource Profile: Fever Observation Profile 
 
  
-Fever observation profile aligned with build_observation_fever(). 
+Observation profile for fever presence or temperature values during the stroke pathway. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-fever-observation
   "version" : "1.0.0",
   "name" : "FeverObservationProfile",
   "title" : "Fever Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-fever-observation
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Fever observation profile aligned with build_observation_fever().",
+  "description" : "Observation profile for fever presence or temperature values during the stroke pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-fever-observation
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Fever indicator or temperature measurement",
       "type" : [{
         "code" : "Quantity"
       },

@@ -18,8 +18,9 @@
   <version value="1.0.0"/>
   <name value="NimodipineMedicationAdministrationProfile"/>
   <title value="Nimodipine MedicationAdministration Profile"/>
-  <status value="draft"/>
-  <date value="2026-05-08T09:03:17+00:00"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-08T09:31:23+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -28,7 +29,7 @@
       <value value="http://tecnomod-um.org"/>
     </telecom>
   </contact>
-  <description value="MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway."/>
+  <description value="MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -564,7 +565,7 @@
     </element>
     <element id="MedicationAdministration.partOf">
       <path value="MedicationAdministration.partOf"/>
-      <short value="Part of referenced event"/>
+      <short value="Procedure this administration supports"/>
       <definition value="A larger event of which this particular event is a component or step."/>
       <comment value="MedicationDispense will be used to indicate waste."/>
       <min value="0"/>
@@ -602,7 +603,7 @@
     </element>
     <element id="MedicationAdministration.status">
       <path value="MedicationAdministration.status"/>
-      <short value="in-progress | not-done | on-hold | completed | entered-in-error | stopped | unknown"/>
+      <short value="Medication administration status"/>
       <definition value="Will generally be set to show that the administration has been completed.  For some long running administrations such as infusions, it is possible for an administration to be started but not completed or it may be paused while some other process is under way."/>
       <comment value="This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
       <min value="1"/>
@@ -653,7 +654,7 @@
     </element>
     <element id="MedicationAdministration.statusReason">
       <path value="MedicationAdministration.statusReason"/>
-      <short value="Reason administration not performed"/>
+      <short value="Reason medication was not given or status rationale"/>
       <definition value="A code indicating why the administration was not performed."/>
       <min value="0"/>
       <max value="*"/>
@@ -731,7 +732,7 @@
     </element>
     <element id="MedicationAdministration.medication">
       <path value="MedicationAdministration.medication"/>
-      <short value="What was administered"/>
+      <short value="Administered medication"/>
       <definition value="Identifies the medication that was administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications."/>
       <comment value="If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource."/>
       <min value="1"/>
@@ -913,8 +914,8 @@
     </element>
     <element id="MedicationAdministration.subject">
       <path value="MedicationAdministration.subject"/>
-      <short value="Who received medication"/>
-      <definition value="The person or animal or group receiving the medication."/>
+      <short value="RES-Q registry patient"/>
+      <definition value="Patient who experienced the index stroke episode represented in this registry dataset."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -955,8 +956,8 @@
     </element>
     <element id="MedicationAdministration.encounter">
       <path value="MedicationAdministration.encounter"/>
-      <short value="Encounter administered as part of"/>
-      <definition value="The visit, admission, or other contact between patient and health care provider during which the medication administration was performed."/>
+      <short value="Index stroke encounter"/>
+      <definition value="Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1031,7 +1032,7 @@
     </element>
     <element id="MedicationAdministration.occurence[x]">
       <path value="MedicationAdministration.occurence[x]"/>
-      <short value="Specific date/time or interval of time during which the administration took place (or did not take place)"/>
+      <short value="Administration date/time"/>
       <definition value="A specific date/time or interval of time during which the administration took place (or did not take place). For many administrations, such as swallowing a tablet the use of dateTime is more appropriate."/>
       <min value="1"/>
       <max value="1"/>
@@ -1387,7 +1388,7 @@
     </element>
     <element id="MedicationAdministration.reason">
       <path value="MedicationAdministration.reason"/>
-      <short value="Concept, condition or observation that supports why the medication was administered"/>
+      <short value="Reason or clinical trigger for administration"/>
       <definition value="A code, Condition or observation that supports why the medication was administered."/>
       <min value="0"/>
       <max value="*"/>
@@ -1540,7 +1541,7 @@
     </element>
     <element id="MedicationAdministration.dosage">
       <path value="MedicationAdministration.dosage"/>
-      <short value="Details of how medication was taken"/>
+      <short value="Dose details"/>
       <definition value="Describes the medication dosage information details e.g. dose, rate, site, route, etc."/>
       <min value="0"/>
       <max value="1"/>

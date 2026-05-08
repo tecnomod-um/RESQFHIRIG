@@ -3,7 +3,7 @@
 ## Resource Profile: Vital Sign Observation Profile 
 
  
-Blood pressure observation aligned with build_observation_vital_signs(). 
+Observation profile for vital signs in the acute stroke pathway, especially blood pressure components. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-vital-sign-observ
   "version" : "1.0.0",
   "name" : "VitalSignObservationProfile",
   "title" : "Vital Sign Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-vital-sign-observ
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Blood pressure observation aligned with build_observation_vital_signs().",
+  "description" : "Observation profile for vital signs in the acute stroke pathway, especially blood pressure components.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -117,6 +118,7 @@ Other representations of profile: [CSV](../StructureDefinition-vital-sign-observ
     {
       "id" : "Observation.category",
       "path" : "Observation.category",
+      "short" : "Vital signs category",
       "min" : 1,
       "patternCodeableConcept" : {
         "coding" : [{
@@ -137,6 +139,7 @@ Other representations of profile: [CSV](../StructureDefinition-vital-sign-observ
     {
       "id" : "Observation.component",
       "path" : "Observation.component",
+      "short" : "Vital-sign component such as systolic or diastolic blood pressure",
       "min" : 1,
       "mustSupport" : true
     },

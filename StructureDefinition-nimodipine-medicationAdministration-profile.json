@@ -9,8 +9,9 @@
   "version" : "1.0.0",
   "name" : "NimodipineMedicationAdministrationProfile",
   "title" : "Nimodipine MedicationAdministration Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -19,7 +20,7 @@
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "MedicationAdministration profile for nimodipine in subarachnoid hemorrhage pathway.",
+  "description" : "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -575,7 +576,7 @@
     {
       "id" : "MedicationAdministration.partOf",
       "path" : "MedicationAdministration.partOf",
-      "short" : "Part of referenced event",
+      "short" : "Procedure this administration supports",
       "definition" : "A larger event of which this particular event is a component or step.",
       "comment" : "MedicationDispense will be used to indicate waste.",
       "min" : 0,
@@ -615,7 +616,7 @@
     {
       "id" : "MedicationAdministration.status",
       "path" : "MedicationAdministration.status",
-      "short" : "in-progress | not-done | on-hold | completed | entered-in-error | stopped | unknown",
+      "short" : "Medication administration status",
       "definition" : "Will generally be set to show that the administration has been completed.  For some long running administrations such as infusions, it is possible for an administration to be started but not completed or it may be paused while some other process is under way.",
       "comment" : "This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.",
       "min" : 1,
@@ -668,7 +669,7 @@
     {
       "id" : "MedicationAdministration.statusReason",
       "path" : "MedicationAdministration.statusReason",
-      "short" : "Reason administration not performed",
+      "short" : "Reason medication was not given or status rationale",
       "definition" : "A code indicating why the administration was not performed.",
       "min" : 0,
       "max" : "*",
@@ -749,7 +750,7 @@
     {
       "id" : "MedicationAdministration.medication",
       "path" : "MedicationAdministration.medication",
-      "short" : "What was administered",
+      "short" : "Administered medication",
       "definition" : "Identifies the medication that was administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications.",
       "comment" : "If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource.",
       "min" : 1,
@@ -937,8 +938,8 @@
     {
       "id" : "MedicationAdministration.subject",
       "path" : "MedicationAdministration.subject",
-      "short" : "Who received medication",
-      "definition" : "The person or animal or group receiving the medication.",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -980,8 +981,8 @@
     {
       "id" : "MedicationAdministration.encounter",
       "path" : "MedicationAdministration.encounter",
-      "short" : "Encounter administered as part of",
-      "definition" : "The visit, admission, or other contact between patient and health care provider during which the medication administration was performed.",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -1058,7 +1059,7 @@
     {
       "id" : "MedicationAdministration.occurence[x]",
       "path" : "MedicationAdministration.occurence[x]",
-      "short" : "Specific date/time or interval of time during which the administration took place (or did not take place)",
+      "short" : "Administration date/time",
       "definition" : "A specific date/time or interval of time during which the administration took place (or did not take place). For many administrations, such as swallowing a tablet the use of dateTime is more appropriate.",
       "min" : 1,
       "max" : "1",
@@ -1427,7 +1428,7 @@
     {
       "id" : "MedicationAdministration.reason",
       "path" : "MedicationAdministration.reason",
-      "short" : "Concept, condition or observation that supports why the medication was administered",
+      "short" : "Reason or clinical trigger for administration",
       "definition" : "A code, Condition or observation that supports why the medication was administered.",
       "min" : 0,
       "max" : "*",
@@ -1585,7 +1586,7 @@
     {
       "id" : "MedicationAdministration.dosage",
       "path" : "MedicationAdministration.dosage",
-      "short" : "Details of how medication was taken",
+      "short" : "Dose details",
       "definition" : "Describes the medication dosage information details e.g. dose, rate, site, route, etc.",
       "min" : 0,
       "max" : "1",

@@ -3,7 +3,7 @@
 ## Resource Profile: Specific Finding Observation Profile 
 
  
-Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter. 
+Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
   "version" : "1.0.0",
   "name" : "SpecificFindingObservationProfile",
   "title" : "Specific Finding Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Generic profile for specific imaging/procedure/clinical findings including mTICI, bleeding volume, carotid stenosis, occlusion and AF/flutter.",
+  "description" : "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -122,6 +123,7 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "short" : "Specific stroke finding",
       "binding" : {
         "strength" : "extensible",
         "valueSet" : "http://tecnomod-um.org/ValueSet/specific-finding-vs"
@@ -130,6 +132,7 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "short" : "Finding value",
       "type" : [{
         "code" : "Quantity"
       },
@@ -147,6 +150,7 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
     {
       "id" : "Observation.bodyStructure",
       "path" : "Observation.bodyStructure",
+      "short" : "Anatomical structure associated with the finding",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile"]

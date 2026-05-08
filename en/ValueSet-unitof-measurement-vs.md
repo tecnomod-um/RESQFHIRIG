@@ -15,8 +15,6 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -35,7 +33,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "UnitofMeasurement ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T09:03:17+00:00",
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -54,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://ucum.org/ucum",
+      "system" : "http://unitsofmeasure.org",
       "concept" : [{
         "code" : "min",
         "display" : "minute"

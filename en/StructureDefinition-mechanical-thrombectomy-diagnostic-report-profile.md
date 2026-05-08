@@ -3,7 +3,7 @@
 ## Resource Profile: Mechanical Thrombectomy DiagnosticReport Profile 
 
  
-DiagnosticReport profile for thrombectomy outcome, especially mTICI score. 
+DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
   "version" : "1.0.0",
   "name" : "MechanicalThrombectomyDiagnosticReportProfile",
   "title" : "Mechanical Thrombectomy DiagnosticReport Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "DiagnosticReport profile for thrombectomy outcome, especially mTICI score.",
+  "description" : "DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -49,6 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Collects procedure outcome observations after mechanical thrombectomy.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -83,12 +85,14 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
     {
       "id" : "DiagnosticReport.status",
       "path" : "DiagnosticReport.status",
+      "short" : "Final diagnostic report",
       "patternCode" : "final",
       "mustSupport" : true
     },
     {
       "id" : "DiagnosticReport.code",
       "path" : "DiagnosticReport.code",
+      "short" : "Report type",
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
@@ -98,6 +102,8 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
     {
       "id" : "DiagnosticReport.subject",
       "path" : "DiagnosticReport.subject",
+      "short" : "RES-Q registry patient",
+      "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -108,6 +114,8 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
     {
       "id" : "DiagnosticReport.encounter",
       "path" : "DiagnosticReport.encounter",
+      "short" : "Index stroke encounter",
+      "definition" : "Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
@@ -118,6 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-mechanical-thromb
     {
       "id" : "DiagnosticReport.result",
       "path" : "DiagnosticReport.result",
+      "short" : "Thrombectomy outcome observation such as mTICI",
       "min" : 1,
       "type" : [{
         "code" : "Reference",

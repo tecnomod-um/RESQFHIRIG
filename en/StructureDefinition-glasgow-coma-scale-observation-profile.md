@@ -3,7 +3,7 @@
 ## Resource Profile: Glasgow Coma Scale Observation Profile 
 
  
-GCS score/profile generated from build_observation_glasgow_coma_scale(). 
+Specialized functional score profile for Glasgow Coma Scale values captured by the registry. 
 
 **Usages:**
 
@@ -31,8 +31,9 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
   "version" : "1.0.0",
   "name" : "GlasgowComaScaleObservationProfile",
   "title" : "Glasgow Coma Scale Observation Profile",
-  "status" : "draft",
-  "date" : "2026-05-08T09:03:17+00:00",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-08T09:31:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "GCS score/profile generated from build_observation_glasgow_coma_scale().",
+  "description" : "Specialized functional score profile for Glasgow Coma Scale values captured by the registry.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
