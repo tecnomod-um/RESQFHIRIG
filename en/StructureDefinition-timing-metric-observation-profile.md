@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-11T15:54:34+00:00",
+  "date" : "2026-05-11T15:54:44+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
