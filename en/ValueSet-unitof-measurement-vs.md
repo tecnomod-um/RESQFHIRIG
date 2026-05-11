@@ -3,7 +3,7 @@
 ## ValueSet: UnitofMeasurement ValueSet 
 
  
-Allowed coded values for UnitofMeasurement, generated from enum_models.py. 
+Allowed coded values for UnitofMeasurement 
 
  **References** 
 
@@ -14,6 +14,8 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -33,7 +35,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "UnitofMeasurement ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +44,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for UnitofMeasurement, generated from enum_models.py.",
+  "description" : "Allowed coded values for UnitofMeasurement",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -52,7 +54,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://unitsofmeasure.org",
+      "system" : "https://ucum.org/ucum",
       "concept" : [{
         "code" : "min",
         "display" : "minute"

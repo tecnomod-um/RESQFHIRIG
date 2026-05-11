@@ -3,7 +3,7 @@
 ## ValueSet: Bool ValueSet 
 
  
-Allowed coded values for Bool, generated from enum_models.py. 
+Allowed coded values for Bool 
 
  **References** 
 
@@ -35,7 +35,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "Bool ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -44,7 +44,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for Bool, generated from enum_models.py.",
+  "description" : "Allowed coded values for Bool",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

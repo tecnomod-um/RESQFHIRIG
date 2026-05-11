@@ -3,7 +3,7 @@
 ## ValueSet: NoAnticoagulantReason ValueSet 
 
  
-Allowed coded values for NoAnticoagulantReason, generated from enum_models.py. 
+Allowed coded values for NoAnticoagulantReason 
 
  **References** 
 
@@ -33,7 +33,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "NoAnticoagulantReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +42,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for NoAnticoagulantReason, generated from enum_models.py.",
+  "description" : "Allowed coded values for NoAnticoagulantReason",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

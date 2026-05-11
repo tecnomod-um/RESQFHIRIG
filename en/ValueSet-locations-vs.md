@@ -3,11 +3,10 @@
 ## ValueSet: Locations ValueSet 
 
  
-Allowed coded values for Locations, generated from enum_models.py. 
+Allowed coded values for Locations 
 
  **References** 
 
-* [Three-Month Follow-up Appointment Profile](StructureDefinition-follow-up-appointment-profile.md)
 * [RESQ Location Profile](StructureDefinition-resq-location-profile.md)
 
 ### Logical Definition (CLD)
@@ -34,7 +33,7 @@ Allowed coded values for Locations, generated from enum_models.py.
   "title" : "Locations ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -43,7 +42,7 @@ Allowed coded values for Locations, generated from enum_models.py.
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for Locations, generated from enum_models.py.",
+  "description" : "Allowed coded values for Locations",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

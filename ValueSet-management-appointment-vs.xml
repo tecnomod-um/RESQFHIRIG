@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="management-appointment-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet management-appointment-vs</b></p><a name="management-appointment-vs"> </a><a name="hcmanagement-appointment-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-management-appointment-cs.html"><code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-management-appointment-cs.html#management-appointment-cs-scheduled">scheduled</a></td><td>Scheduled</td></tr><tr><td><a href="CodeSystem-management-appointment-cs.html#management-appointment-cs-not-recommended">not-recommended</a></td><td>Not Recommended</td></tr><tr><td><a href="CodeSystem-management-appointment-cs.html#management-appointment-cs-not-scheduled">not-scheduled</a></td><td>Not Scheduled</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/management-appointment-vs"/>
+  <version value="1.0.0"/>
+  <name value="ManagementAppointmentVS"/>
+  <title value="ManagementAppointment ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-11T15:54:34+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for ManagementAppointment"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/management-appointment-cs"/>
+      <concept>
+        <code value="scheduled"/>
+        <display value="Scheduled"/>
+      </concept>
+      <concept>
+        <code value="not-recommended"/>
+        <display value="Not Recommended"/>
+      </concept>
+      <concept>
+        <code value="not-scheduled"/>
+        <display value="Not Scheduled"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -187,6 +187,9 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-medication
       "short" : "Administration date/time",
       "type" : [{
         "code" : "dateTime"
+      },
+      {
+        "code" : "Period"
       }],
       "mustSupport" : true
     },

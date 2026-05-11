@@ -7,7 +7,7 @@ Base profile for RES-Q stroke observations. It requires final status, patient, e
 
 **Usages:**
 
-* Derived from this Profile: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md), [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md)... Show 8 more, [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md), [Hyperglycemia Observation Profile](StructureDefinition-hyperglycemia-observation-profile.md), [Patient Ventilated Observation Profile](StructureDefinition-patient-ventilated-observation-profile.md), [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md), [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md), [TIA Clinical Symptoms Observation Profile](StructureDefinition-tia-clinical-symptoms-observation-profile.md), [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
+* Derived from this Profile: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md)... Show 9 more, [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md), [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md), [Hyperglycemia Observation Profile](StructureDefinition-hyperglycemia-observation-profile.md), [Patient Ventilated Observation Profile](StructureDefinition-patient-ventilated-observation-profile.md), [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md), [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md), [TIA Clinical Symptoms Observation Profile](StructureDefinition-tia-clinical-symptoms-observation-profile.md), [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/base-stroke-observation)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-base-stroke-obser
   "title" : "Base Stroke Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

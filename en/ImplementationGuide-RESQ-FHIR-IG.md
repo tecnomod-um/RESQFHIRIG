@@ -14,7 +14,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -63,7 +63,7 @@
         "reference" : "ValueSet/adherence-codes-vs"
       },
       "name" : "AdherenceCodes ValueSet",
-      "description" : "Allowed coded values for AdherenceCodes, generated from enum_models.py.",
+      "description" : "Allowed coded values for AdherenceCodes",
       "isExample" : false
     },
     {
@@ -75,7 +75,7 @@
         "reference" : "ValueSet/admission-department-vs"
       },
       "name" : "AdmissionDepartment ValueSet",
-      "description" : "Allowed coded values for AdmissionDepartment, generated from enum_models.py.",
+      "description" : "Allowed coded values for AdmissionDepartment",
       "isExample" : false
     },
     {
@@ -87,7 +87,7 @@
         "reference" : "ValueSet/admission-pathway-vs"
       },
       "name" : "AdmissionPathway ValueSet",
-      "description" : "Allowed coded values for AdmissionPathway, generated from enum_models.py.",
+      "description" : "Allowed coded values for AdmissionPathway",
       "isExample" : false
     },
     {
@@ -99,7 +99,7 @@
         "reference" : "ValueSet/analitics-codes-vs"
       },
       "name" : "AnaliticsCodes ValueSet",
-      "description" : "Allowed coded values for AnaliticsCodes, generated from enum_models.py.",
+      "description" : "Allowed coded values for AnaliticsCodes",
       "isExample" : false
     },
     {
@@ -135,7 +135,19 @@
         "reference" : "ValueSet/anticoagulant-reversal-vs"
       },
       "name" : "AnticoagulantReversal ValueSet",
-      "description" : "Allowed coded values for AnticoagulantReversal, generated from enum_models.py.",
+      "description" : "Allowed coded values for AnticoagulantReversal",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/appointment-management-observation-profile"
+      },
+      "name" : "Appointment Management Observation Profile",
+      "description" : "Observation profile for recording whether a three-month follow-up appointment was scheduled or attended.",
       "isExample" : false
     },
     {
@@ -159,7 +171,7 @@
         "reference" : "ValueSet/assessment-context-vs"
       },
       "name" : "AssessmentContext ValueSet",
-      "description" : "Allowed coded values for AssessmentContext, generated from enum_models.py.",
+      "description" : "Allowed coded values for AssessmentContext",
       "isExample" : false
     },
     {
@@ -183,7 +195,7 @@
         "reference" : "ValueSet/atrial-fibrillation-or-flutter-vs"
       },
       "name" : "AtrialFibrillationOrFlutter ValueSet",
-      "description" : "Allowed coded values for AtrialFibrillationOrFlutter, generated from enum_models.py.",
+      "description" : "Allowed coded values for AtrialFibrillationOrFlutter",
       "isExample" : false
     },
     {
@@ -207,7 +219,7 @@
         "reference" : "ValueSet/bleeding-reason-vs"
       },
       "name" : "BleedingReason ValueSet",
-      "description" : "Allowed coded values for BleedingReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for BleedingReason",
       "isExample" : false
     },
     {
@@ -219,7 +231,7 @@
         "reference" : "ValueSet/body-sites-vs"
       },
       "name" : "BodySites ValueSet",
-      "description" : "Allowed coded values for BodySites, generated from enum_models.py.",
+      "description" : "Allowed coded values for BodySites",
       "isExample" : false
     },
     {
@@ -231,7 +243,7 @@
         "reference" : "ValueSet/bool-vs"
       },
       "name" : "Bool ValueSet",
-      "description" : "Allowed coded values for Bool, generated from enum_models.py.",
+      "description" : "Allowed coded values for Bool",
       "isExample" : false
     },
     {
@@ -255,7 +267,7 @@
         "reference" : "ValueSet/carotid-endarterectomy-timing-vs"
       },
       "name" : "CarotidEndarterectomyTiming ValueSet",
-      "description" : "Allowed coded values for CarotidEndarterectomyTiming, generated from enum_models.py.",
+      "description" : "Allowed coded values for CarotidEndarterectomyTiming",
       "isExample" : false
     },
     {
@@ -279,7 +291,7 @@
         "reference" : "ValueSet/carotid-stenosis-level-vs"
       },
       "name" : "CarotidStenosisLevel ValueSet",
-      "description" : "Allowed coded values for CarotidStenosisLevel, generated from enum_models.py.",
+      "description" : "Allowed coded values for CarotidStenosisLevel",
       "isExample" : false
     },
     {
@@ -291,7 +303,7 @@
         "reference" : "ValueSet/clinical-status-codes-vs"
       },
       "name" : "ClinicalStatusCodes ValueSet",
-      "description" : "Allowed coded values for ClinicalStatusCodes, generated from enum_models.py.",
+      "description" : "Allowed coded values for ClinicalStatusCodes",
       "isExample" : false
     },
     {
@@ -339,7 +351,7 @@
         "reference" : "ValueSet/discharge-destination-vs"
       },
       "name" : "DischargeDestination ValueSet",
-      "description" : "Allowed coded values for DischargeDestination, generated from enum_models.py.",
+      "description" : "Allowed coded values for DischargeDestination",
       "isExample" : false
     },
     {
@@ -351,7 +363,7 @@
         "reference" : "ValueSet/discharge-facility-department-vs"
       },
       "name" : "DischargeFacilityDepartment ValueSet",
-      "description" : "Allowed coded values for DischargeFacilityDepartment, generated from enum_models.py.",
+      "description" : "Allowed coded values for DischargeFacilityDepartment",
       "isExample" : false
     },
     {
@@ -363,7 +375,7 @@
         "reference" : "ValueSet/discharge-facility-type-vs"
       },
       "name" : "DischargeFacilityType ValueSet",
-      "description" : "Allowed coded values for DischargeFacilityType, generated from enum_models.py.",
+      "description" : "Allowed coded values for DischargeFacilityType",
       "isExample" : false
     },
     {
@@ -375,7 +387,7 @@
         "reference" : "ValueSet/discharge-medication-vs"
       },
       "name" : "DischargeMedication ValueSet",
-      "description" : "Allowed coded values for DischargeMedication, generated from enum_models.py.",
+      "description" : "Allowed coded values for DischargeMedication",
       "isExample" : false
     },
     {
@@ -483,7 +495,7 @@
         "reference" : "ValueSet/first-contact-place-vs"
       },
       "name" : "FirstContactPlace ValueSet",
-      "description" : "Allowed coded values for FirstContactPlace, generated from enum_models.py.",
+      "description" : "Allowed coded values for FirstContactPlace",
       "isExample" : false
     },
     {
@@ -519,7 +531,7 @@
         "reference" : "ValueSet/functional-score-vs"
       },
       "name" : "FunctionalScore ValueSet",
-      "description" : "Allowed coded values for FunctionalScore, generated from enum_models.py.",
+      "description" : "Allowed coded values for FunctionalScore",
       "isExample" : false
     },
     {
@@ -543,7 +555,7 @@
         "reference" : "ValueSet/gcsscore-vs"
       },
       "name" : "GCSScore ValueSet",
-      "description" : "Allowed coded values for GCSScore, generated from enum_models.py.",
+      "description" : "Allowed coded values for GCSScore",
       "isExample" : false
     },
     {
@@ -579,7 +591,7 @@
         "reference" : "ValueSet/glasgow-coma-scale-vs"
       },
       "name" : "GlasgowComaScale ValueSet",
-      "description" : "Allowed coded values for GlasgowComaScale, generated from enum_models.py.",
+      "description" : "Allowed coded values for GlasgowComaScale",
       "isExample" : false
     },
     {
@@ -639,7 +651,7 @@
         "reference" : "ValueSet/hemorrhagic-transformation-type-vs"
       },
       "name" : "HemorrhagicTransformationType ValueSet",
-      "description" : "Allowed coded values for HemorrhagicTransformationType, generated from enum_models.py.",
+      "description" : "Allowed coded values for HemorrhagicTransformationType",
       "isExample" : false
     },
     {
@@ -687,7 +699,7 @@
         "reference" : "ValueSet/hospitalized-in-vs"
       },
       "name" : "HospitalizedIn ValueSet",
-      "description" : "Allowed coded values for HospitalizedIn, generated from enum_models.py.",
+      "description" : "Allowed coded values for HospitalizedIn",
       "isExample" : false
     },
     {
@@ -711,7 +723,7 @@
         "reference" : "ValueSet/ich-treatment-vs"
       },
       "name" : "IchTreatment ValueSet",
-      "description" : "Allowed coded values for IchTreatment, generated from enum_models.py.",
+      "description" : "Allowed coded values for IchTreatment",
       "isExample" : false
     },
     {
@@ -735,7 +747,7 @@
         "reference" : "ValueSet/imaging-type-vs"
       },
       "name" : "ImagingType ValueSet",
-      "description" : "Allowed coded values for ImagingType, generated from enum_models.py.",
+      "description" : "Allowed coded values for ImagingType",
       "isExample" : false
     },
     {
@@ -747,7 +759,7 @@
         "reference" : "ValueSet/in-hospital-vs"
       },
       "name" : "InHospital ValueSet",
-      "description" : "Allowed coded values for InHospital, generated from enum_models.py.",
+      "description" : "Allowed coded values for InHospital",
       "isExample" : false
     },
     {
@@ -783,7 +795,7 @@
         "reference" : "ValueSet/inrmode-vs"
       },
       "name" : "INRmode ValueSet",
-      "description" : "Allowed coded values for INRmode, generated from enum_models.py.",
+      "description" : "Allowed coded values for INRmode",
       "isExample" : false
     },
     {
@@ -819,7 +831,7 @@
         "reference" : "ValueSet/insulin-on-hyperglycemia-timing-vs"
       },
       "name" : "InsulinOnHyperglycemiaTiming ValueSet",
-      "description" : "Allowed coded values for InsulinOnHyperglycemiaTiming, generated from enum_models.py.",
+      "description" : "Allowed coded values for InsulinOnHyperglycemiaTiming",
       "isExample" : false
     },
     {
@@ -855,7 +867,7 @@
         "reference" : "ValueSet/ivt-application-department-vs"
       },
       "name" : "IvtApplicationDepartment ValueSet",
-      "description" : "Allowed coded values for IvtApplicationDepartment, generated from enum_models.py.",
+      "description" : "Allowed coded values for IvtApplicationDepartment",
       "isExample" : false
     },
     {
@@ -867,7 +879,7 @@
         "reference" : "ValueSet/ivt-drug-vs"
       },
       "name" : "IvtDrug ValueSet",
-      "description" : "Allowed coded values for IvtDrug, generated from enum_models.py.",
+      "description" : "Allowed coded values for IvtDrug",
       "isExample" : false
     },
     {
@@ -879,7 +891,7 @@
         "reference" : "ValueSet/laterality-vs"
       },
       "name" : "Laterality ValueSet",
-      "description" : "Allowed coded values for Laterality, generated from enum_models.py.",
+      "description" : "Allowed coded values for Laterality",
       "isExample" : false
     },
     {
@@ -891,7 +903,31 @@
         "reference" : "ValueSet/locations-vs"
       },
       "name" : "Locations ValueSet",
-      "description" : "Allowed coded values for Locations, generated from enum_models.py.",
+      "description" : "Allowed coded values for Locations",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/management-appointment-vs"
+      },
+      "name" : "ManagementAppointment ValueSet",
+      "description" : "Allowed coded values for ManagementAppointment",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/management-appointment-cs"
+      },
+      "name" : "ManagementAppointmentCs CodeSystem",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs.",
       "isExample" : false
     },
     {
@@ -927,7 +963,7 @@
         "reference" : "ValueSet/medications-vs"
       },
       "name" : "Medications ValueSet",
-      "description" : "Allowed coded values for Medications, generated from enum_models.py.",
+      "description" : "Allowed coded values for Medications",
       "isExample" : false
     },
     {
@@ -939,7 +975,7 @@
         "reference" : "ValueSet/mimics-diagnosis-vs"
       },
       "name" : "MimicsDiagnosis ValueSet",
-      "description" : "Allowed coded values for MimicsDiagnosis, generated from enum_models.py.",
+      "description" : "Allowed coded values for MimicsDiagnosis",
       "isExample" : false
     },
     {
@@ -951,7 +987,7 @@
         "reference" : "ValueSet/mrs-score-vs"
       },
       "name" : "MRsScore ValueSet",
-      "description" : "Allowed coded values for MRsScore, generated from enum_models.py.",
+      "description" : "Allowed coded values for MRsScore",
       "isExample" : false
     },
     {
@@ -987,7 +1023,7 @@
         "reference" : "ValueSet/mtici-score-vs"
       },
       "name" : "MTiciScore ValueSet",
-      "description" : "Allowed coded values for MTiciScore, generated from enum_models.py.",
+      "description" : "Allowed coded values for MTiciScore",
       "isExample" : false
     },
     {
@@ -1023,7 +1059,7 @@
         "reference" : "ValueSet/nimodipinetiming-vs"
       },
       "name" : "Nimodipinetiming ValueSet",
-      "description" : "Allowed coded values for Nimodipinetiming, generated from enum_models.py.",
+      "description" : "Allowed coded values for Nimodipinetiming",
       "isExample" : false
     },
     {
@@ -1035,7 +1071,7 @@
         "reference" : "ValueSet/no-anticoagulant-reason-vs"
       },
       "name" : "NoAnticoagulantReason ValueSet",
-      "description" : "Allowed coded values for NoAnticoagulantReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NoAnticoagulantReason",
       "isExample" : false
     },
     {
@@ -1047,7 +1083,7 @@
         "reference" : "ValueSet/no-anticoagulant-reversal-reason-vs"
       },
       "name" : "NoAnticoagulantReversalReason ValueSet",
-      "description" : "Allowed coded values for NoAnticoagulantReversalReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NoAnticoagulantReversalReason",
       "isExample" : false
     },
     {
@@ -1059,7 +1095,7 @@
         "reference" : "ValueSet/no-ich-treatment-reason-vs"
       },
       "name" : "NoIchTreatmentReason ValueSet",
-      "description" : "Allowed coded values for NoIchTreatmentReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NoIchTreatmentReason",
       "isExample" : false
     },
     {
@@ -1071,7 +1107,7 @@
         "reference" : "ValueSet/no-thrombectomy-reason-vs"
       },
       "name" : "NoThrombectomyReason ValueSet",
-      "description" : "Allowed coded values for NoThrombectomyReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NoThrombectomyReason",
       "isExample" : false
     },
     {
@@ -1083,7 +1119,7 @@
         "reference" : "ValueSet/no-thrombolysis-reason-vs"
       },
       "name" : "NoThrombolysisReason ValueSet",
-      "description" : "Allowed coded values for NoThrombolysisReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NoThrombolysisReason",
       "isExample" : false
     },
     {
@@ -1095,7 +1131,7 @@
         "reference" : "ValueSet/not-medication-reason-vs"
       },
       "name" : "NotMedicationReason ValueSet",
-      "description" : "Allowed coded values for NotMedicationReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for NotMedicationReason",
       "isExample" : false
     },
     {
@@ -1131,7 +1167,7 @@
         "reference" : "ValueSet/observation-methods-vs"
       },
       "name" : "ObservationMethods ValueSet",
-      "description" : "Allowed coded values for ObservationMethods, generated from enum_models.py.",
+      "description" : "Allowed coded values for ObservationMethods",
       "isExample" : false
     },
     {
@@ -1143,7 +1179,7 @@
         "reference" : "ValueSet/occupational-therapy-vs"
       },
       "name" : "OccupationalTherapy ValueSet",
-      "description" : "Allowed coded values for OccupationalTherapy, generated from enum_models.py.",
+      "description" : "Allowed coded values for OccupationalTherapy",
       "isExample" : false
     },
     {
@@ -1179,7 +1215,7 @@
         "reference" : "ValueSet/paracetamol-on-fever-vs"
       },
       "name" : "ParacetamolOnFever ValueSet",
-      "description" : "Allowed coded values for ParacetamolOnFever, generated from enum_models.py.",
+      "description" : "Allowed coded values for ParacetamolOnFever",
       "isExample" : false
     },
     {
@@ -1191,7 +1227,7 @@
         "reference" : "ValueSet/paracetamol-on-fever-timing-vs"
       },
       "name" : "ParacetamolOnFeverTiming ValueSet",
-      "description" : "Allowed coded values for ParacetamolOnFeverTiming, generated from enum_models.py.",
+      "description" : "Allowed coded values for ParacetamolOnFeverTiming",
       "isExample" : false
     },
     {
@@ -1215,7 +1251,7 @@
         "reference" : "ValueSet/perforation-procedures-vs"
       },
       "name" : "PerforationProcedures ValueSet",
-      "description" : "Allowed coded values for PerforationProcedures, generated from enum_models.py.",
+      "description" : "Allowed coded values for PerforationProcedures",
       "isExample" : false
     },
     {
@@ -1263,7 +1299,7 @@
         "reference" : "ValueSet/post-acute-care-vs"
       },
       "name" : "PostAcuteCare ValueSet",
-      "description" : "Allowed coded values for PostAcuteCare, generated from enum_models.py.",
+      "description" : "Allowed coded values for PostAcuteCare",
       "isExample" : false
     },
     {
@@ -1275,7 +1311,7 @@
         "reference" : "ValueSet/post-neurosurgery-imaging-vs"
       },
       "name" : "PostNeurosurgeryImaging ValueSet",
-      "description" : "Allowed coded values for PostNeurosurgeryImaging, generated from enum_models.py.",
+      "description" : "Allowed coded values for PostNeurosurgeryImaging",
       "isExample" : false
     },
     {
@@ -1287,7 +1323,7 @@
         "reference" : "ValueSet/post-recanalization-imaging-vs"
       },
       "name" : "PostRecanalizationImaging ValueSet",
-      "description" : "Allowed coded values for PostRecanalizationImaging, generated from enum_models.py.",
+      "description" : "Allowed coded values for PostRecanalizationImaging",
       "isExample" : false
     },
     {
@@ -1299,7 +1335,7 @@
         "reference" : "ValueSet/post-stroke-complications-vs"
       },
       "name" : "PostStrokeComplications ValueSet",
-      "description" : "Allowed coded values for PostStrokeComplications, generated from enum_models.py.",
+      "description" : "Allowed coded values for PostStrokeComplications",
       "isExample" : false
     },
     {
@@ -1311,7 +1347,7 @@
         "reference" : "ValueSet/post-stroke-procedures-vs"
       },
       "name" : "PostStrokeProcedures ValueSet",
-      "description" : "Allowed coded values for PostStrokeProcedures, generated from enum_models.py.",
+      "description" : "Allowed coded values for PostStrokeProcedures",
       "isExample" : false
     },
     {
@@ -1359,7 +1395,7 @@
         "reference" : "ValueSet/procedure-not-done-reason-vs"
       },
       "name" : "ProcedureNotDoneReason ValueSet",
-      "description" : "Allowed coded values for ProcedureNotDoneReason, generated from enum_models.py.",
+      "description" : "Allowed coded values for ProcedureNotDoneReason",
       "isExample" : false
     },
     {
@@ -1443,7 +1479,7 @@
         "reference" : "ValueSet/risk-factor-vs"
       },
       "name" : "RiskFactor ValueSet",
-      "description" : "Allowed coded values for RiskFactor, generated from enum_models.py.",
+      "description" : "Allowed coded values for RiskFactor",
       "isExample" : false
     },
     {
@@ -1467,7 +1503,7 @@
         "reference" : "ValueSet/screening-performer-vs"
       },
       "name" : "ScreeningPerformer ValueSet",
-      "description" : "Allowed coded values for ScreeningPerformer, generated from enum_models.py.",
+      "description" : "Allowed coded values for ScreeningPerformer",
       "isExample" : false
     },
     {
@@ -1479,7 +1515,7 @@
         "reference" : "ValueSet/sex-vs"
       },
       "name" : "Sex ValueSet",
-      "description" : "Allowed coded values for Sex, generated from enum_models.py.",
+      "description" : "Allowed coded values for Sex",
       "isExample" : false
     },
     {
@@ -1503,7 +1539,7 @@
         "reference" : "ValueSet/specific-finding-vs"
       },
       "name" : "SpecificFinding ValueSet",
-      "description" : "Allowed coded values for SpecificFinding, generated from enum_models.py.",
+      "description" : "Allowed coded values for SpecificFinding",
       "isExample" : false
     },
     {
@@ -1695,7 +1731,7 @@
         "reference" : "ValueSet/stroke-circumstance-vs"
       },
       "name" : "StrokeCircumstance ValueSet",
-      "description" : "Allowed coded values for StrokeCircumstance, generated from enum_models.py.",
+      "description" : "Allowed coded values for StrokeCircumstance",
       "isExample" : false
     },
     {
@@ -1731,7 +1767,7 @@
         "reference" : "ValueSet/stroke-etiology-vs"
       },
       "name" : "StrokeEtiology ValueSet",
-      "description" : "Allowed coded values for StrokeEtiology, generated from enum_models.py.",
+      "description" : "Allowed coded values for StrokeEtiology",
       "isExample" : false
     },
     {
@@ -1755,7 +1791,7 @@
         "reference" : "ValueSet/stroke-etiology-other-vs"
       },
       "name" : "StrokeEtiologyOther ValueSet",
-      "description" : "Allowed coded values for StrokeEtiologyOther, generated from enum_models.py.",
+      "description" : "Allowed coded values for StrokeEtiologyOther",
       "isExample" : false
     },
     {
@@ -1815,7 +1851,7 @@
         "reference" : "ValueSet/stroke-type-vs"
       },
       "name" : "StrokeType ValueSet",
-      "description" : "Allowed coded values for StrokeType, generated from enum_models.py.",
+      "description" : "Allowed coded values for StrokeType",
       "isExample" : false
     },
     {
@@ -1827,7 +1863,7 @@
         "reference" : "ValueSet/swallowing-screening-done-vs"
       },
       "name" : "SwallowingScreeningDone ValueSet",
-      "description" : "Allowed coded values for SwallowingScreeningDone, generated from enum_models.py.",
+      "description" : "Allowed coded values for SwallowingScreeningDone",
       "isExample" : false
     },
     {
@@ -1839,7 +1875,7 @@
         "reference" : "ValueSet/swallowing-screening-timing-vs"
       },
       "name" : "SwallowingScreeningTiming ValueSet",
-      "description" : "Allowed coded values for SwallowingScreeningTiming, generated from enum_models.py.",
+      "description" : "Allowed coded values for SwallowingScreeningTiming",
       "isExample" : false
     },
     {
@@ -1851,7 +1887,7 @@
         "reference" : "ValueSet/swallowing-screening-type-vs"
       },
       "name" : "SwallowingScreeningType ValueSet",
-      "description" : "Allowed coded values for SwallowingScreeningType, generated from enum_models.py.",
+      "description" : "Allowed coded values for SwallowingScreeningType",
       "isExample" : false
     },
     {
@@ -1899,7 +1935,7 @@
         "reference" : "ValueSet/tecnetplase-brand-vs"
       },
       "name" : "TecnetplaseBrand ValueSet",
-      "description" : "Allowed coded values for TecnetplaseBrand, generated from enum_models.py.",
+      "description" : "Allowed coded values for TecnetplaseBrand",
       "isExample" : false
     },
     {
@@ -1941,25 +1977,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/follow-up-appointment-profile"
-      },
-      "name" : "Three-Month Follow-up Appointment Profile",
-      "description" : "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
         "reference" : "ValueSet/three-month-contact-mode-vs"
       },
       "name" : "ThreeMonthContactMode ValueSet",
-      "description" : "Allowed coded values for ThreeMonthContactMode, generated from enum_models.py.",
+      "description" : "Allowed coded values for ThreeMonthContactMode",
       "isExample" : false
     },
     {
@@ -1983,7 +2007,7 @@
         "reference" : "ValueSet/thrombectomy-complications-vs"
       },
       "name" : "ThrombectomyComplications ValueSet",
-      "description" : "Allowed coded values for ThrombectomyComplications, generated from enum_models.py.",
+      "description" : "Allowed coded values for ThrombectomyComplications",
       "isExample" : false
     },
     {
@@ -2019,7 +2043,7 @@
         "reference" : "ValueSet/tia-clinical-symptoms-vs"
       },
       "name" : "TiaClinicalSymptoms ValueSet",
-      "description" : "Allowed coded values for TiaClinicalSymptoms, generated from enum_models.py.",
+      "description" : "Allowed coded values for TiaClinicalSymptoms",
       "isExample" : false
     },
     {
@@ -2031,7 +2055,7 @@
         "reference" : "ValueSet/tia-symptom-duration-vs"
       },
       "name" : "TiaSymptomDuration ValueSet",
-      "description" : "Allowed coded values for TiaSymptomDuration, generated from enum_models.py.",
+      "description" : "Allowed coded values for TiaSymptomDuration",
       "isExample" : false
     },
     {
@@ -2079,7 +2103,7 @@
         "reference" : "ValueSet/timing-metric-codes-vs"
       },
       "name" : "TimingMetricCodes ValueSet",
-      "description" : "Allowed coded values for TimingMetricCodes, generated from enum_models.py.",
+      "description" : "Allowed coded values for TimingMetricCodes",
       "isExample" : false
     },
     {
@@ -2103,7 +2127,7 @@
         "reference" : "ValueSet/unitof-measurement-vs"
       },
       "name" : "UnitofMeasurement ValueSet",
-      "description" : "Allowed coded values for UnitofMeasurement, generated from enum_models.py.",
+      "description" : "Allowed coded values for UnitofMeasurement",
       "isExample" : false
     },
     {
@@ -2127,7 +2151,7 @@
         "reference" : "ValueSet/vital-signs-vs"
       },
       "name" : "VitalSigns ValueSet",
-      "description" : "Allowed coded values for VitalSigns, generated from enum_models.py.",
+      "description" : "Allowed coded values for VitalSigns",
       "isExample" : false
     },
     {
@@ -2139,7 +2163,7 @@
         "reference" : "ValueSet/vte-procedures-vs"
       },
       "name" : "VteProcedures ValueSet",
-      "description" : "Allowed coded values for VteProcedures, generated from enum_models.py.",
+      "description" : "Allowed coded values for VteProcedures",
       "isExample" : false
     },
     {

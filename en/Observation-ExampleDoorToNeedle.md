@@ -12,7 +12,7 @@ Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-o
 
 **encounter**: [Encounter: extension = true,false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
 
-**value**: 38 minute (Details: UCUM codemin = 'min')
+**value**: 38 minute (Details: ucum codemin = 'min')
 
 
 
@@ -42,7 +42,7 @@ Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-o
   "valueQuantity" : {
     "value" : 38,
     "unit" : "minute",
-    "system" : "http://unitsofmeasure.org",
+    "system" : "https://ucum.org/ucum",
     "code" : "min"
   }
 }

@@ -3,10 +3,11 @@
 ## ValueSet: ThreeMonthContactMode ValueSet 
 
  
-Allowed coded values for ThreeMonthContactMode, generated from enum_models.py. 
+Allowed coded values for ThreeMonthContactMode 
 
  **References** 
 
+* [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md)
 * [Three-Month Contact Communication Profile](StructureDefinition-three-month-communication-profile.md)
 * [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md)
 
@@ -34,7 +35,7 @@ Allowed coded values for ThreeMonthContactMode, generated from enum_models.py.
   "title" : "ThreeMonthContactMode ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -43,7 +44,7 @@ Allowed coded values for ThreeMonthContactMode, generated from enum_models.py.
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for ThreeMonthContactMode, generated from enum_models.py.",
+  "description" : "Allowed coded values for ThreeMonthContactMode",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

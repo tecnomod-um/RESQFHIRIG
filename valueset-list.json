@@ -5,7 +5,7 @@
     "status" : "active",
     "name" : "AdherenceCodesVS",
     "title" : "AdherenceCodes ValueSet",
-    "description" : "Allowed coded values for AdherenceCodes, generated from enum_models.py.",
+    "description" : "Allowed coded values for AdherenceCodes",
     "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-adherence"]
   },
   {
@@ -14,7 +14,7 @@
     "status" : "active",
     "name" : "AdmissionDepartmentVS",
     "title" : "AdmissionDepartment ValueSet",
-    "description" : "Allowed coded values for AdmissionDepartment, generated from enum_models.py.",
+    "description" : "Allowed coded values for AdmissionDepartment",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"]
   },
   {
@@ -23,7 +23,7 @@
     "status" : "active",
     "name" : "AdmissionPathwayVS",
     "title" : "AdmissionPathway ValueSet",
-    "description" : "Allowed coded values for AdmissionPathway, generated from enum_models.py.",
+    "description" : "Allowed coded values for AdmissionPathway",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"]
   },
   {
@@ -32,7 +32,7 @@
     "status" : "active",
     "name" : "AnaliticsCodesVS",
     "title" : "AnaliticsCodes ValueSet",
-    "description" : "Allowed coded values for AnaliticsCodes, generated from enum_models.py.",
+    "description" : "Allowed coded values for AnaliticsCodes",
     "systems" : ["http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
     "http://snomed.info/sct"]
   },
@@ -42,7 +42,7 @@
     "status" : "active",
     "name" : "AnticoagulantReversalVS",
     "title" : "AnticoagulantReversal ValueSet",
-    "description" : "Allowed coded values for AnticoagulantReversal, generated from enum_models.py.",
+    "description" : "Allowed coded values for AnticoagulantReversal",
     "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
@@ -52,7 +52,7 @@
     "status" : "active",
     "name" : "AssessmentContextVS",
     "title" : "AssessmentContext ValueSet",
-    "description" : "Allowed coded values for AssessmentContext, generated from enum_models.py.",
+    "description" : "Allowed coded values for AssessmentContext",
     "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs"]
   },
   {
@@ -61,7 +61,7 @@
     "status" : "active",
     "name" : "AtrialFibrillationOrFlutterVS",
     "title" : "AtrialFibrillationOrFlutter ValueSet",
-    "description" : "Allowed coded values for AtrialFibrillationOrFlutter, generated from enum_models.py.",
+    "description" : "Allowed coded values for AtrialFibrillationOrFlutter",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -70,7 +70,7 @@
     "status" : "active",
     "name" : "BleedingReasonVS",
     "title" : "BleedingReason ValueSet",
-    "description" : "Allowed coded values for BleedingReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for BleedingReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -80,7 +80,7 @@
     "status" : "active",
     "name" : "BodySitesVS",
     "title" : "BodySites ValueSet",
-    "description" : "Allowed coded values for BodySites, generated from enum_models.py.",
+    "description" : "Allowed coded values for BodySites",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -89,7 +89,7 @@
     "status" : "active",
     "name" : "BoolVS",
     "title" : "Bool ValueSet",
-    "description" : "Allowed coded values for Bool, generated from enum_models.py.",
+    "description" : "Allowed coded values for Bool",
     "systems" : ["http://hl7.org/fhir/bool"]
   },
   {
@@ -98,7 +98,7 @@
     "status" : "active",
     "name" : "CarotidEndarterectomyTimingVS",
     "title" : "CarotidEndarterectomyTiming ValueSet",
-    "description" : "Allowed coded values for CarotidEndarterectomyTiming, generated from enum_models.py.",
+    "description" : "Allowed coded values for CarotidEndarterectomyTiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs"]
   },
   {
@@ -107,7 +107,7 @@
     "status" : "active",
     "name" : "CarotidStenosisLevelVS",
     "title" : "CarotidStenosisLevel ValueSet",
-    "description" : "Allowed coded values for CarotidStenosisLevel, generated from enum_models.py.",
+    "description" : "Allowed coded values for CarotidStenosisLevel",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -116,7 +116,7 @@
     "status" : "active",
     "name" : "ClinicalStatusCodesVS",
     "title" : "ClinicalStatusCodes ValueSet",
-    "description" : "Allowed coded values for ClinicalStatusCodes, generated from enum_models.py.",
+    "description" : "Allowed coded values for ClinicalStatusCodes",
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"]
   },
   {
@@ -125,7 +125,7 @@
     "status" : "active",
     "name" : "DischargeDestinationVS",
     "title" : "DischargeDestination ValueSet",
-    "description" : "Allowed coded values for DischargeDestination, generated from enum_models.py.",
+    "description" : "Allowed coded values for DischargeDestination",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
     "http://snomed.info/sct"]
   },
@@ -135,7 +135,7 @@
     "status" : "active",
     "name" : "DischargeFacilityDepartmentVS",
     "title" : "DischargeFacilityDepartment ValueSet",
-    "description" : "Allowed coded values for DischargeFacilityDepartment, generated from enum_models.py.",
+    "description" : "Allowed coded values for DischargeFacilityDepartment",
     "systems" : ["http://tecnomod-um.org/CodeSystem/discharge-dept-cs"]
   },
   {
@@ -144,7 +144,7 @@
     "status" : "active",
     "name" : "DischargeFacilityTypeVS",
     "title" : "DischargeFacilityType ValueSet",
-    "description" : "Allowed coded values for DischargeFacilityType, generated from enum_models.py.",
+    "description" : "Allowed coded values for DischargeFacilityType",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
     "http://snomed.info/sct"]
   },
@@ -154,7 +154,7 @@
     "status" : "active",
     "name" : "DischargeMedicationVS",
     "title" : "DischargeMedication ValueSet",
-    "description" : "Allowed coded values for DischargeMedication, generated from enum_models.py.",
+    "description" : "Allowed coded values for DischargeMedication",
     "systems" : ["http://tecnomod-um.org/CodeSystem/discharge-medication-cs"]
   },
   {
@@ -163,7 +163,7 @@
     "status" : "active",
     "name" : "FirstContactPlaceVS",
     "title" : "FirstContactPlace ValueSet",
-    "description" : "Allowed coded values for FirstContactPlace, generated from enum_models.py.",
+    "description" : "Allowed coded values for FirstContactPlace",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
     "http://tecnomod-um.org/CodeSystem/first-contact-place-cs"]
   },
@@ -173,7 +173,7 @@
     "status" : "active",
     "name" : "FunctionalScoreVS",
     "title" : "FunctionalScore ValueSet",
-    "description" : "Allowed coded values for FunctionalScore, generated from enum_models.py.",
+    "description" : "Allowed coded values for FunctionalScore",
     "systems" : ["http://tecnomod-um.org/CodeSystem/functional-score-cs",
     "http://snomed.info/sct"]
   },
@@ -183,7 +183,7 @@
     "status" : "active",
     "name" : "GCSScoreVS",
     "title" : "GCSScore ValueSet",
-    "description" : "Allowed coded values for GCSScore, generated from enum_models.py.",
+    "description" : "Allowed coded values for GCSScore",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -192,7 +192,7 @@
     "status" : "active",
     "name" : "GlasgowComaScaleVS",
     "title" : "GlasgowComaScale ValueSet",
-    "description" : "Allowed coded values for GlasgowComaScale, generated from enum_models.py.",
+    "description" : "Allowed coded values for GlasgowComaScale",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -201,7 +201,7 @@
     "status" : "active",
     "name" : "HemorrhagicTransformationTypeVS",
     "title" : "HemorrhagicTransformationType ValueSet",
-    "description" : "Allowed coded values for HemorrhagicTransformationType, generated from enum_models.py.",
+    "description" : "Allowed coded values for HemorrhagicTransformationType",
     "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs"]
   },
   {
@@ -210,7 +210,7 @@
     "status" : "active",
     "name" : "HospitalizedInVS",
     "title" : "HospitalizedIn ValueSet",
-    "description" : "Allowed coded values for HospitalizedIn, generated from enum_models.py.",
+    "description" : "Allowed coded values for HospitalizedIn",
     "systems" : ["http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"]
   },
   {
@@ -219,7 +219,7 @@
     "status" : "active",
     "name" : "IchTreatmentVS",
     "title" : "IchTreatment ValueSet",
-    "description" : "Allowed coded values for IchTreatment, generated from enum_models.py.",
+    "description" : "Allowed coded values for IchTreatment",
     "systems" : ["http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
     "http://snomed.info/sct"]
   },
@@ -229,7 +229,7 @@
     "status" : "active",
     "name" : "ImagingTypeVS",
     "title" : "ImagingType ValueSet",
-    "description" : "Allowed coded values for ImagingType, generated from enum_models.py.",
+    "description" : "Allowed coded values for ImagingType",
     "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
@@ -239,7 +239,7 @@
     "status" : "active",
     "name" : "InHospitalVS",
     "title" : "InHospital ValueSet",
-    "description" : "Allowed coded values for InHospital, generated from enum_models.py.",
+    "description" : "Allowed coded values for InHospital",
     "systems" : ["http://hl7.org/fhir/in-hospital"]
   },
   {
@@ -248,7 +248,7 @@
     "status" : "active",
     "name" : "INRmodeVS",
     "title" : "INRmode ValueSet",
-    "description" : "Allowed coded values for INRmode, generated from enum_models.py.",
+    "description" : "Allowed coded values for INRmode",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -257,7 +257,7 @@
     "status" : "active",
     "name" : "InsulinOnHyperglycemiaTimingVS",
     "title" : "InsulinOnHyperglycemiaTiming ValueSet",
-    "description" : "Allowed coded values for InsulinOnHyperglycemiaTiming, generated from enum_models.py.",
+    "description" : "Allowed coded values for InsulinOnHyperglycemiaTiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs"]
   },
   {
@@ -266,7 +266,7 @@
     "status" : "active",
     "name" : "IvtApplicationDepartmentVS",
     "title" : "IvtApplicationDepartment ValueSet",
-    "description" : "Allowed coded values for IvtApplicationDepartment, generated from enum_models.py.",
+    "description" : "Allowed coded values for IvtApplicationDepartment",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"]
   },
   {
@@ -275,7 +275,7 @@
     "status" : "active",
     "name" : "IvtDrugVS",
     "title" : "IvtDrug ValueSet",
-    "description" : "Allowed coded values for IvtDrug, generated from enum_models.py.",
+    "description" : "Allowed coded values for IvtDrug",
     "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
@@ -285,7 +285,7 @@
     "status" : "active",
     "name" : "LateralityVS",
     "title" : "Laterality ValueSet",
-    "description" : "Allowed coded values for Laterality, generated from enum_models.py.",
+    "description" : "Allowed coded values for Laterality",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -294,8 +294,17 @@
     "status" : "active",
     "name" : "LocationsVS",
     "title" : "Locations ValueSet",
-    "description" : "Allowed coded values for Locations, generated from enum_models.py.",
+    "description" : "Allowed coded values for Locations",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"]
+  },
+  {
+    "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ManagementAppointmentVS",
+    "title" : "ManagementAppointment ValueSet",
+    "description" : "Allowed coded values for ManagementAppointment",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/management-appointment-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/medications-vs",
@@ -303,7 +312,7 @@
     "status" : "active",
     "name" : "MedicationsVS",
     "title" : "Medications ValueSet",
-    "description" : "Allowed coded values for Medications, generated from enum_models.py.",
+    "description" : "Allowed coded values for Medications",
     "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
@@ -313,7 +322,7 @@
     "status" : "active",
     "name" : "MimicsDiagnosisVS",
     "title" : "MimicsDiagnosis ValueSet",
-    "description" : "Allowed coded values for MimicsDiagnosis, generated from enum_models.py.",
+    "description" : "Allowed coded values for MimicsDiagnosis",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
     "http://snomed.info/sct"]
   },
@@ -323,7 +332,7 @@
     "status" : "active",
     "name" : "MRsScoreVS",
     "title" : "MRsScore ValueSet",
-    "description" : "Allowed coded values for MRsScore, generated from enum_models.py.",
+    "description" : "Allowed coded values for MRsScore",
     "systems" : ["http://tecnomod-um.org/CodeSystem/mrs-score-cs"]
   },
   {
@@ -332,7 +341,7 @@
     "status" : "active",
     "name" : "MTiciScoreVS",
     "title" : "MTiciScore ValueSet",
-    "description" : "Allowed coded values for MTiciScore, generated from enum_models.py.",
+    "description" : "Allowed coded values for MTiciScore",
     "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"]
   },
   {
@@ -341,7 +350,7 @@
     "status" : "active",
     "name" : "NimodipinetimingVS",
     "title" : "Nimodipinetiming ValueSet",
-    "description" : "Allowed coded values for Nimodipinetiming, generated from enum_models.py.",
+    "description" : "Allowed coded values for Nimodipinetiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs",
     "http://snomed.info/sct"]
   },
@@ -351,7 +360,7 @@
     "status" : "active",
     "name" : "NoAnticoagulantReasonVS",
     "title" : "NoAnticoagulantReason ValueSet",
-    "description" : "Allowed coded values for NoAnticoagulantReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NoAnticoagulantReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -361,7 +370,7 @@
     "status" : "active",
     "name" : "NoAnticoagulantReversalReasonVS",
     "title" : "NoAnticoagulantReversalReason ValueSet",
-    "description" : "Allowed coded values for NoAnticoagulantReversalReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NoAnticoagulantReversalReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"]
   },
   {
@@ -370,7 +379,7 @@
     "status" : "active",
     "name" : "NoIchTreatmentReasonVS",
     "title" : "NoIchTreatmentReason ValueSet",
-    "description" : "Allowed coded values for NoIchTreatmentReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NoIchTreatmentReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -380,7 +389,7 @@
     "status" : "active",
     "name" : "NoThrombectomyReasonVS",
     "title" : "NoThrombectomyReason ValueSet",
-    "description" : "Allowed coded values for NoThrombectomyReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NoThrombectomyReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"]
   },
   {
@@ -389,7 +398,7 @@
     "status" : "active",
     "name" : "NoThrombolysisReasonVS",
     "title" : "NoThrombolysisReason ValueSet",
-    "description" : "Allowed coded values for NoThrombolysisReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NoThrombolysisReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"]
   },
   {
@@ -398,7 +407,7 @@
     "status" : "active",
     "name" : "NotMedicationReasonVS",
     "title" : "NotMedicationReason ValueSet",
-    "description" : "Allowed coded values for NotMedicationReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for NotMedicationReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -408,7 +417,7 @@
     "status" : "active",
     "name" : "ObservationMethodsVS",
     "title" : "ObservationMethods ValueSet",
-    "description" : "Allowed coded values for ObservationMethods, generated from enum_models.py.",
+    "description" : "Allowed coded values for ObservationMethods",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -417,7 +426,7 @@
     "status" : "active",
     "name" : "OccupationalTherapyVS",
     "title" : "OccupationalTherapy ValueSet",
-    "description" : "Allowed coded values for OccupationalTherapy, generated from enum_models.py.",
+    "description" : "Allowed coded values for OccupationalTherapy",
     "systems" : ["http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs",
     "http://snomed.info/sct"]
   },
@@ -427,7 +436,7 @@
     "status" : "active",
     "name" : "ParacetamolOnFeverTimingVS",
     "title" : "ParacetamolOnFeverTiming ValueSet",
-    "description" : "Allowed coded values for ParacetamolOnFeverTiming, generated from enum_models.py.",
+    "description" : "Allowed coded values for ParacetamolOnFeverTiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs"]
   },
   {
@@ -436,7 +445,7 @@
     "status" : "active",
     "name" : "ParacetamolOnFeverVS",
     "title" : "ParacetamolOnFever ValueSet",
-    "description" : "Allowed coded values for ParacetamolOnFever, generated from enum_models.py.",
+    "description" : "Allowed coded values for ParacetamolOnFever",
     "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -446,7 +455,7 @@
     "status" : "active",
     "name" : "PerforationProceduresVS",
     "title" : "PerforationProcedures ValueSet",
-    "description" : "Allowed coded values for PerforationProcedures, generated from enum_models.py.",
+    "description" : "Allowed coded values for PerforationProcedures",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -455,7 +464,7 @@
     "status" : "active",
     "name" : "PostAcuteCareVS",
     "title" : "PostAcuteCare ValueSet",
-    "description" : "Allowed coded values for PostAcuteCare, generated from enum_models.py.",
+    "description" : "Allowed coded values for PostAcuteCare",
     "systems" : ["http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
     "http://snomed.info/sct"]
   },
@@ -465,7 +474,7 @@
     "status" : "active",
     "name" : "PostNeurosurgeryImagingVS",
     "title" : "PostNeurosurgeryImaging ValueSet",
-    "description" : "Allowed coded values for PostNeurosurgeryImaging, generated from enum_models.py.",
+    "description" : "Allowed coded values for PostNeurosurgeryImaging",
     "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
@@ -475,7 +484,7 @@
     "status" : "active",
     "name" : "PostRecanalizationImagingVS",
     "title" : "PostRecanalizationImaging ValueSet",
-    "description" : "Allowed coded values for PostRecanalizationImaging, generated from enum_models.py.",
+    "description" : "Allowed coded values for PostRecanalizationImaging",
     "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
@@ -485,7 +494,7 @@
     "status" : "active",
     "name" : "PostStrokeComplicationsVS",
     "title" : "PostStrokeComplications ValueSet",
-    "description" : "Allowed coded values for PostStrokeComplications, generated from enum_models.py.",
+    "description" : "Allowed coded values for PostStrokeComplications",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs",
     "http://snomed.info/sct"]
   },
@@ -495,7 +504,7 @@
     "status" : "active",
     "name" : "PostStrokeProceduresVS",
     "title" : "PostStrokeProcedures ValueSet",
-    "description" : "Allowed coded values for PostStrokeProcedures, generated from enum_models.py.",
+    "description" : "Allowed coded values for PostStrokeProcedures",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -504,7 +513,7 @@
     "status" : "active",
     "name" : "ProcedureNotDoneReasonVS",
     "title" : "ProcedureNotDoneReason ValueSet",
-    "description" : "Allowed coded values for ProcedureNotDoneReason, generated from enum_models.py.",
+    "description" : "Allowed coded values for ProcedureNotDoneReason",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
     "http://snomed.info/sct"]
   },
@@ -523,7 +532,7 @@
     "status" : "active",
     "name" : "RiskFactorVS",
     "title" : "RiskFactor ValueSet",
-    "description" : "Allowed coded values for RiskFactor, generated from enum_models.py.",
+    "description" : "Allowed coded values for RiskFactor",
     "systems" : ["http://tecnomod-um.org/CodeSystem/risk-factor-cs",
     "http://snomed.info/sct"]
   },
@@ -533,7 +542,7 @@
     "status" : "active",
     "name" : "ScreeningPerformerVS",
     "title" : "ScreeningPerformer ValueSet",
-    "description" : "Allowed coded values for ScreeningPerformer, generated from enum_models.py.",
+    "description" : "Allowed coded values for ScreeningPerformer",
     "systems" : ["http://terminology.hl7.org/CodeSystem/practitioner-role",
     "http://snomed.info/sct"]
   },
@@ -543,7 +552,7 @@
     "status" : "active",
     "name" : "SexVS",
     "title" : "Sex ValueSet",
-    "description" : "Allowed coded values for Sex, generated from enum_models.py.",
+    "description" : "Allowed coded values for Sex",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -552,7 +561,7 @@
     "status" : "active",
     "name" : "SpecificFindingVS",
     "title" : "SpecificFinding ValueSet",
-    "description" : "Allowed coded values for SpecificFinding, generated from enum_models.py.",
+    "description" : "Allowed coded values for SpecificFinding",
     "systems" : ["http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
     "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
     "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
@@ -565,7 +574,7 @@
     "status" : "active",
     "name" : "StrokeCircumstanceVS",
     "title" : "StrokeCircumstance ValueSet",
-    "description" : "Allowed coded values for StrokeCircumstance, generated from enum_models.py.",
+    "description" : "Allowed coded values for StrokeCircumstance",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs"]
   },
   {
@@ -574,7 +583,7 @@
     "status" : "active",
     "name" : "StrokeEtiologyOtherVS",
     "title" : "StrokeEtiologyOther ValueSet",
-    "description" : "Allowed coded values for StrokeEtiologyOther, generated from enum_models.py.",
+    "description" : "Allowed coded values for StrokeEtiologyOther",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs",
     "http://snomed.info/sct"]
   },
@@ -584,7 +593,7 @@
     "status" : "active",
     "name" : "StrokeEtiologyVS",
     "title" : "StrokeEtiology ValueSet",
-    "description" : "Allowed coded values for StrokeEtiology, generated from enum_models.py.",
+    "description" : "Allowed coded values for StrokeEtiology",
     "systems" : ["http://snomed.info/sct",
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"]
   },
@@ -594,7 +603,7 @@
     "status" : "active",
     "name" : "StrokeTypeVS",
     "title" : "StrokeType ValueSet",
-    "description" : "Allowed coded values for StrokeType, generated from enum_models.py.",
+    "description" : "Allowed coded values for StrokeType",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -603,7 +612,7 @@
     "status" : "active",
     "name" : "SwallowingScreeningDoneVS",
     "title" : "SwallowingScreeningDone ValueSet",
-    "description" : "Allowed coded values for SwallowingScreeningDone, generated from enum_models.py.",
+    "description" : "Allowed coded values for SwallowingScreeningDone",
     "systems" : ["http://snomed.info/sct"]
   },
   {
@@ -612,7 +621,7 @@
     "status" : "active",
     "name" : "SwallowingScreeningTimingVS",
     "title" : "SwallowingScreeningTiming ValueSet",
-    "description" : "Allowed coded values for SwallowingScreeningTiming, generated from enum_models.py.",
+    "description" : "Allowed coded values for SwallowingScreeningTiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
     "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
     "http://snomed.info/sct"]
@@ -623,7 +632,7 @@
     "status" : "active",
     "name" : "SwallowingScreeningTypeVS",
     "title" : "SwallowingScreeningType ValueSet",
-    "description" : "Allowed coded values for SwallowingScreeningType, generated from enum_models.py.",
+    "description" : "Allowed coded values for SwallowingScreeningType",
     "systems" : ["http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
     "http://snomed.info/sct"]
   },
@@ -633,7 +642,7 @@
     "status" : "active",
     "name" : "TecnetplaseBrandVS",
     "title" : "TecnetplaseBrand ValueSet",
-    "description" : "Allowed coded values for TecnetplaseBrand, generated from enum_models.py.",
+    "description" : "Allowed coded values for TecnetplaseBrand",
     "systems" : ["http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs"]
   },
   {
@@ -642,7 +651,7 @@
     "status" : "active",
     "name" : "ThreeMonthContactModeVS",
     "title" : "ThreeMonthContactMode ValueSet",
-    "description" : "Allowed coded values for ThreeMonthContactMode, generated from enum_models.py.",
+    "description" : "Allowed coded values for ThreeMonthContactMode",
     "systems" : ["http://snomed.info/sct",
     "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"]
   },
@@ -652,7 +661,7 @@
     "status" : "active",
     "name" : "ThrombectomyComplicationsVS",
     "title" : "ThrombectomyComplications ValueSet",
-    "description" : "Allowed coded values for ThrombectomyComplications, generated from enum_models.py.",
+    "description" : "Allowed coded values for ThrombectomyComplications",
     "systems" : ["http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs",
     "http://snomed.info/sct"]
   },
@@ -662,7 +671,7 @@
     "status" : "active",
     "name" : "TiaClinicalSymptomsVS",
     "title" : "TiaClinicalSymptoms ValueSet",
-    "description" : "Allowed coded values for TiaClinicalSymptoms, generated from enum_models.py.",
+    "description" : "Allowed coded values for TiaClinicalSymptoms",
     "systems" : ["http://tecnomod-um.org/CodeSystem/symptoms-cs",
     "http://snomed.info/sct"]
   },
@@ -672,7 +681,7 @@
     "status" : "active",
     "name" : "TiaSymptomDurationVS",
     "title" : "TiaSymptomDuration ValueSet",
-    "description" : "Allowed coded values for TiaSymptomDuration, generated from enum_models.py.",
+    "description" : "Allowed coded values for TiaSymptomDuration",
     "systems" : ["http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs"]
   },
   {
@@ -681,7 +690,7 @@
     "status" : "active",
     "name" : "TimingMetricCodesVS",
     "title" : "TimingMetricCodes ValueSet",
-    "description" : "Allowed coded values for TimingMetricCodes, generated from enum_models.py.",
+    "description" : "Allowed coded values for TimingMetricCodes",
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"]
   },
   {
@@ -690,8 +699,8 @@
     "status" : "active",
     "name" : "UnitofMeasurementVS",
     "title" : "UnitofMeasurement ValueSet",
-    "description" : "Allowed coded values for UnitofMeasurement, generated from enum_models.py.",
-    "systems" : ["http://unitsofmeasure.org"]
+    "description" : "Allowed coded values for UnitofMeasurement",
+    "systems" : ["https://ucum.org/ucum"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/vital-signs-vs",
@@ -699,9 +708,8 @@
     "status" : "active",
     "name" : "VitalSignsVS",
     "title" : "VitalSigns ValueSet",
-    "description" : "Allowed coded values for VitalSigns, generated from enum_models.py.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
-    "http://snomed.info/sct"]
+    "description" : "Allowed coded values for VitalSigns",
+    "systems" : ["http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs",
@@ -709,7 +717,7 @@
     "status" : "active",
     "name" : "VteProceduresVS",
     "title" : "VteProcedures ValueSet",
-    "description" : "Allowed coded values for VteProcedures, generated from enum_models.py.",
+    "description" : "Allowed coded values for VteProcedures",
     "systems" : ["http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
     "http://snomed.info/sct"]
   }]

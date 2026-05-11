@@ -23,7 +23,7 @@
   fhir:title [ fhir:v "Paracetamol on Fever MedicationAdministration Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-08T10:13:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-11T15:54:34+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -1439,6 +1439,11 @@
          fhir:code [
            fhir:v "dateTime"^^xsd:anyURI ;
            fhir:l fhir:dateTime
+         ]
+       ] [
+         fhir:code [
+           fhir:v "Period"^^xsd:anyURI ;
+           fhir:l fhir:Period
          ]
        ] ) ;
        fhir:constraint ( [

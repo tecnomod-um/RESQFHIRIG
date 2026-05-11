@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-08T10:13:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-11T15:54:34+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -98,7 +98,7 @@
          fhir:reference [ fhir:v "ValueSet/adherence-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "AdherenceCodes ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AdherenceCodes, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdherenceCodes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -116,7 +116,7 @@
          fhir:reference [ fhir:v "ValueSet/admission-department-vs" ]
        ] ;
        fhir:name [ fhir:v "AdmissionDepartment ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AdmissionDepartment, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdmissionDepartment" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -134,7 +134,7 @@
          fhir:reference [ fhir:v "ValueSet/admission-pathway-vs" ]
        ] ;
        fhir:name [ fhir:v "AdmissionPathway ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AdmissionPathway, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AdmissionPathway" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -152,7 +152,7 @@
          fhir:reference [ fhir:v "ValueSet/analitics-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "AnaliticsCodes ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AnaliticsCodes, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AnaliticsCodes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -206,7 +206,25 @@
          fhir:reference [ fhir:v "ValueSet/anticoagulant-reversal-vs" ]
        ] ;
        fhir:name [ fhir:v "AnticoagulantReversal ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AnticoagulantReversal, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AnticoagulantReversal" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/appointment-management-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/appointment-management-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Appointment Management Observation Profile" ] ;
+       fhir:description [ fhir:v "Observation profile for recording whether a three-month follow-up appointment was scheduled or attended." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -242,7 +260,7 @@
          fhir:reference [ fhir:v "ValueSet/assessment-context-vs" ]
        ] ;
        fhir:name [ fhir:v "AssessmentContext ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AssessmentContext, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AssessmentContext" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -278,7 +296,7 @@
          fhir:reference [ fhir:v "ValueSet/atrial-fibrillation-or-flutter-vs" ]
        ] ;
        fhir:name [ fhir:v "AtrialFibrillationOrFlutter ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for AtrialFibrillationOrFlutter, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for AtrialFibrillationOrFlutter" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -314,7 +332,7 @@
          fhir:reference [ fhir:v "ValueSet/bleeding-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "BleedingReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for BleedingReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for BleedingReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -332,7 +350,7 @@
          fhir:reference [ fhir:v "ValueSet/body-sites-vs" ]
        ] ;
        fhir:name [ fhir:v "BodySites ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for BodySites, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for BodySites" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -350,7 +368,7 @@
          fhir:reference [ fhir:v "ValueSet/bool-vs" ]
        ] ;
        fhir:name [ fhir:v "Bool ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Bool, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Bool" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -386,7 +404,7 @@
          fhir:reference [ fhir:v "ValueSet/carotid-endarterectomy-timing-vs" ]
        ] ;
        fhir:name [ fhir:v "CarotidEndarterectomyTiming ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for CarotidEndarterectomyTiming, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for CarotidEndarterectomyTiming" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -422,7 +440,7 @@
          fhir:reference [ fhir:v "ValueSet/carotid-stenosis-level-vs" ]
        ] ;
        fhir:name [ fhir:v "CarotidStenosisLevel ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for CarotidStenosisLevel, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for CarotidStenosisLevel" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -440,7 +458,7 @@
          fhir:reference [ fhir:v "ValueSet/clinical-status-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "ClinicalStatusCodes ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ClinicalStatusCodes, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ClinicalStatusCodes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -512,7 +530,7 @@
          fhir:reference [ fhir:v "ValueSet/discharge-destination-vs" ]
        ] ;
        fhir:name [ fhir:v "DischargeDestination ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for DischargeDestination, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeDestination" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -530,7 +548,7 @@
          fhir:reference [ fhir:v "ValueSet/discharge-facility-department-vs" ]
        ] ;
        fhir:name [ fhir:v "DischargeFacilityDepartment ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityDepartment, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityDepartment" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -548,7 +566,7 @@
          fhir:reference [ fhir:v "ValueSet/discharge-facility-type-vs" ]
        ] ;
        fhir:name [ fhir:v "DischargeFacilityType ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityType, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeFacilityType" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -566,7 +584,7 @@
          fhir:reference [ fhir:v "ValueSet/discharge-medication-vs" ]
        ] ;
        fhir:name [ fhir:v "DischargeMedication ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for DischargeMedication, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for DischargeMedication" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -740,7 +758,7 @@
          fhir:reference [ fhir:v "ValueSet/first-contact-place-vs" ]
        ] ;
        fhir:name [ fhir:v "FirstContactPlace ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for FirstContactPlace, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for FirstContactPlace" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -794,7 +812,7 @@
          fhir:reference [ fhir:v "ValueSet/functional-score-vs" ]
        ] ;
        fhir:name [ fhir:v "FunctionalScore ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for FunctionalScore, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for FunctionalScore" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -830,7 +848,7 @@
          fhir:reference [ fhir:v "ValueSet/gcsscore-vs" ]
        ] ;
        fhir:name [ fhir:v "GCSScore ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for GCSScore, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for GCSScore" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -884,7 +902,7 @@
          fhir:reference [ fhir:v "ValueSet/glasgow-coma-scale-vs" ]
        ] ;
        fhir:name [ fhir:v "GlasgowComaScale ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for GlasgowComaScale, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for GlasgowComaScale" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -974,7 +992,7 @@
          fhir:reference [ fhir:v "ValueSet/hemorrhagic-transformation-type-vs" ]
        ] ;
        fhir:name [ fhir:v "HemorrhagicTransformationType ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for HemorrhagicTransformationType, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for HemorrhagicTransformationType" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1046,7 +1064,7 @@
          fhir:reference [ fhir:v "ValueSet/hospitalized-in-vs" ]
        ] ;
        fhir:name [ fhir:v "HospitalizedIn ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for HospitalizedIn, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for HospitalizedIn" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1082,7 +1100,7 @@
          fhir:reference [ fhir:v "ValueSet/ich-treatment-vs" ]
        ] ;
        fhir:name [ fhir:v "IchTreatment ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for IchTreatment, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for IchTreatment" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1118,7 +1136,7 @@
          fhir:reference [ fhir:v "ValueSet/imaging-type-vs" ]
        ] ;
        fhir:name [ fhir:v "ImagingType ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ImagingType, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ImagingType" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1136,7 +1154,7 @@
          fhir:reference [ fhir:v "ValueSet/in-hospital-vs" ]
        ] ;
        fhir:name [ fhir:v "InHospital ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for InHospital, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for InHospital" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1190,7 +1208,7 @@
          fhir:reference [ fhir:v "ValueSet/inrmode-vs" ]
        ] ;
        fhir:name [ fhir:v "INRmode ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for INRmode, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for INRmode" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1244,7 +1262,7 @@
          fhir:reference [ fhir:v "ValueSet/insulin-on-hyperglycemia-timing-vs" ]
        ] ;
        fhir:name [ fhir:v "InsulinOnHyperglycemiaTiming ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for InsulinOnHyperglycemiaTiming, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for InsulinOnHyperglycemiaTiming" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1298,7 +1316,7 @@
          fhir:reference [ fhir:v "ValueSet/ivt-application-department-vs" ]
        ] ;
        fhir:name [ fhir:v "IvtApplicationDepartment ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for IvtApplicationDepartment, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for IvtApplicationDepartment" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1316,7 +1334,7 @@
          fhir:reference [ fhir:v "ValueSet/ivt-drug-vs" ]
        ] ;
        fhir:name [ fhir:v "IvtDrug ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for IvtDrug, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for IvtDrug" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1334,7 +1352,7 @@
          fhir:reference [ fhir:v "ValueSet/laterality-vs" ]
        ] ;
        fhir:name [ fhir:v "Laterality ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Laterality, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Laterality" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1352,7 +1370,43 @@
          fhir:reference [ fhir:v "ValueSet/locations-vs" ]
        ] ;
        fhir:name [ fhir:v "Locations ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Locations, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Locations" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/management-appointment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/management-appointment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ManagementAppointment ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for ManagementAppointment" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/management-appointment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/management-appointment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "ManagementAppointmentCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1406,7 +1460,7 @@
          fhir:reference [ fhir:v "ValueSet/medications-vs" ]
        ] ;
        fhir:name [ fhir:v "Medications ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Medications, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Medications" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1424,7 +1478,7 @@
          fhir:reference [ fhir:v "ValueSet/mimics-diagnosis-vs" ]
        ] ;
        fhir:name [ fhir:v "MimicsDiagnosis ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for MimicsDiagnosis, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for MimicsDiagnosis" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1442,7 +1496,7 @@
          fhir:reference [ fhir:v "ValueSet/mrs-score-vs" ]
        ] ;
        fhir:name [ fhir:v "MRsScore ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for MRsScore, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for MRsScore" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1496,7 +1550,7 @@
          fhir:reference [ fhir:v "ValueSet/mtici-score-vs" ]
        ] ;
        fhir:name [ fhir:v "MTiciScore ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for MTiciScore, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for MTiciScore" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1550,7 +1604,7 @@
          fhir:reference [ fhir:v "ValueSet/nimodipinetiming-vs" ]
        ] ;
        fhir:name [ fhir:v "Nimodipinetiming ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Nimodipinetiming, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Nimodipinetiming" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1568,7 +1622,7 @@
          fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NoAnticoagulantReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1586,7 +1640,7 @@
          fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reversal-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NoAnticoagulantReversalReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReversalReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReversalReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1604,7 +1658,7 @@
          fhir:reference [ fhir:v "ValueSet/no-ich-treatment-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NoIchTreatmentReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoIchTreatmentReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoIchTreatmentReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1622,7 +1676,7 @@
          fhir:reference [ fhir:v "ValueSet/no-thrombectomy-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NoThrombectomyReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoThrombectomyReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoThrombectomyReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1640,7 +1694,7 @@
          fhir:reference [ fhir:v "ValueSet/no-thrombolysis-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NoThrombolysisReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoThrombolysisReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NoThrombolysisReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1658,7 +1712,7 @@
          fhir:reference [ fhir:v "ValueSet/not-medication-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "NotMedicationReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NotMedicationReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for NotMedicationReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1712,7 +1766,7 @@
          fhir:reference [ fhir:v "ValueSet/observation-methods-vs" ]
        ] ;
        fhir:name [ fhir:v "ObservationMethods ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ObservationMethods, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ObservationMethods" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1730,7 +1784,7 @@
          fhir:reference [ fhir:v "ValueSet/occupational-therapy-vs" ]
        ] ;
        fhir:name [ fhir:v "OccupationalTherapy ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for OccupationalTherapy, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for OccupationalTherapy" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1784,7 +1838,7 @@
          fhir:reference [ fhir:v "ValueSet/paracetamol-on-fever-vs" ]
        ] ;
        fhir:name [ fhir:v "ParacetamolOnFever ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFever, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFever" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1802,7 +1856,7 @@
          fhir:reference [ fhir:v "ValueSet/paracetamol-on-fever-timing-vs" ]
        ] ;
        fhir:name [ fhir:v "ParacetamolOnFeverTiming ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFeverTiming, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ParacetamolOnFeverTiming" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1838,7 +1892,7 @@
          fhir:reference [ fhir:v "ValueSet/perforation-procedures-vs" ]
        ] ;
        fhir:name [ fhir:v "PerforationProcedures ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PerforationProcedures, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PerforationProcedures" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1910,7 +1964,7 @@
          fhir:reference [ fhir:v "ValueSet/post-acute-care-vs" ]
        ] ;
        fhir:name [ fhir:v "PostAcuteCare ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PostAcuteCare, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostAcuteCare" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1928,7 +1982,7 @@
          fhir:reference [ fhir:v "ValueSet/post-neurosurgery-imaging-vs" ]
        ] ;
        fhir:name [ fhir:v "PostNeurosurgeryImaging ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PostNeurosurgeryImaging, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostNeurosurgeryImaging" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1946,7 +2000,7 @@
          fhir:reference [ fhir:v "ValueSet/post-recanalization-imaging-vs" ]
        ] ;
        fhir:name [ fhir:v "PostRecanalizationImaging ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PostRecanalizationImaging, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostRecanalizationImaging" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1964,7 +2018,7 @@
          fhir:reference [ fhir:v "ValueSet/post-stroke-complications-vs" ]
        ] ;
        fhir:name [ fhir:v "PostStrokeComplications ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PostStrokeComplications, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostStrokeComplications" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1982,7 +2036,7 @@
          fhir:reference [ fhir:v "ValueSet/post-stroke-procedures-vs" ]
        ] ;
        fhir:name [ fhir:v "PostStrokeProcedures ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for PostStrokeProcedures, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostStrokeProcedures" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2054,7 +2108,7 @@
          fhir:reference [ fhir:v "ValueSet/procedure-not-done-reason-vs" ]
        ] ;
        fhir:name [ fhir:v "ProcedureNotDoneReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ProcedureNotDoneReason, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ProcedureNotDoneReason" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2180,7 +2234,7 @@
          fhir:reference [ fhir:v "ValueSet/risk-factor-vs" ]
        ] ;
        fhir:name [ fhir:v "RiskFactor ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for RiskFactor, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for RiskFactor" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2216,7 +2270,7 @@
          fhir:reference [ fhir:v "ValueSet/screening-performer-vs" ]
        ] ;
        fhir:name [ fhir:v "ScreeningPerformer ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ScreeningPerformer, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ScreeningPerformer" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2234,7 +2288,7 @@
          fhir:reference [ fhir:v "ValueSet/sex-vs" ]
        ] ;
        fhir:name [ fhir:v "Sex ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for Sex, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for Sex" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2270,7 +2324,7 @@
          fhir:reference [ fhir:v "ValueSet/specific-finding-vs" ]
        ] ;
        fhir:name [ fhir:v "SpecificFinding ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for SpecificFinding, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for SpecificFinding" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2558,7 +2612,7 @@
          fhir:reference [ fhir:v "ValueSet/stroke-circumstance-vs" ]
        ] ;
        fhir:name [ fhir:v "StrokeCircumstance ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for StrokeCircumstance, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeCircumstance" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2612,7 +2666,7 @@
          fhir:reference [ fhir:v "ValueSet/stroke-etiology-vs" ]
        ] ;
        fhir:name [ fhir:v "StrokeEtiology ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for StrokeEtiology, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeEtiology" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2648,7 +2702,7 @@
          fhir:reference [ fhir:v "ValueSet/stroke-etiology-other-vs" ]
        ] ;
        fhir:name [ fhir:v "StrokeEtiologyOther ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for StrokeEtiologyOther, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeEtiologyOther" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2738,7 +2792,7 @@
          fhir:reference [ fhir:v "ValueSet/stroke-type-vs" ]
        ] ;
        fhir:name [ fhir:v "StrokeType ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for StrokeType, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for StrokeType" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2756,7 +2810,7 @@
          fhir:reference [ fhir:v "ValueSet/swallowing-screening-done-vs" ]
        ] ;
        fhir:name [ fhir:v "SwallowingScreeningDone ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningDone, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningDone" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2774,7 +2828,7 @@
          fhir:reference [ fhir:v "ValueSet/swallowing-screening-timing-vs" ]
        ] ;
        fhir:name [ fhir:v "SwallowingScreeningTiming ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningTiming, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningTiming" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2792,7 +2846,7 @@
          fhir:reference [ fhir:v "ValueSet/swallowing-screening-type-vs" ]
        ] ;
        fhir:name [ fhir:v "SwallowingScreeningType ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningType, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningType" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2864,7 +2918,7 @@
          fhir:reference [ fhir:v "ValueSet/tecnetplase-brand-vs" ]
        ] ;
        fhir:name [ fhir:v "TecnetplaseBrand ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for TecnetplaseBrand, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for TecnetplaseBrand" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2928,24 +2982,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/follow-up-appointment-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/follow-up-appointment-profile" ]
-       ] ;
-       fhir:name [ fhir:v "Three-Month Follow-up Appointment Profile" ] ;
-       fhir:description [ fhir:v "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -2954,7 +2990,7 @@
          fhir:reference [ fhir:v "ValueSet/three-month-contact-mode-vs" ]
        ] ;
        fhir:name [ fhir:v "ThreeMonthContactMode ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ThreeMonthContactMode, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ThreeMonthContactMode" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2990,7 +3026,7 @@
          fhir:reference [ fhir:v "ValueSet/thrombectomy-complications-vs" ]
        ] ;
        fhir:name [ fhir:v "ThrombectomyComplications ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ThrombectomyComplications, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for ThrombectomyComplications" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3044,7 +3080,7 @@
          fhir:reference [ fhir:v "ValueSet/tia-clinical-symptoms-vs" ]
        ] ;
        fhir:name [ fhir:v "TiaClinicalSymptoms ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for TiaClinicalSymptoms, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for TiaClinicalSymptoms" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3062,7 +3098,7 @@
          fhir:reference [ fhir:v "ValueSet/tia-symptom-duration-vs" ]
        ] ;
        fhir:name [ fhir:v "TiaSymptomDuration ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for TiaSymptomDuration, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for TiaSymptomDuration" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3134,7 +3170,7 @@
          fhir:reference [ fhir:v "ValueSet/timing-metric-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "TimingMetricCodes ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for TimingMetricCodes, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for TimingMetricCodes" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3170,7 +3206,7 @@
          fhir:reference [ fhir:v "ValueSet/unitof-measurement-vs" ]
        ] ;
        fhir:name [ fhir:v "UnitofMeasurement ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for UnitofMeasurement, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for UnitofMeasurement" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3206,7 +3242,7 @@
          fhir:reference [ fhir:v "ValueSet/vital-signs-vs" ]
        ] ;
        fhir:name [ fhir:v "VitalSigns ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for VitalSigns, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for VitalSigns" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3224,7 +3260,7 @@
          fhir:reference [ fhir:v "ValueSet/vte-procedures-vs" ]
        ] ;
        fhir:name [ fhir:v "VteProcedures ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for VteProcedures, generated from enum_models.py." ] ;
+       fhir:description [ fhir:v "Allowed coded values for VteProcedures" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

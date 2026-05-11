@@ -90,6 +90,13 @@
   "name" : "InsulinHyperglycemiaTimeCS"
 },
 {
+  "id" : "management-appointment-cs",
+  "type" : "CodeSystem",
+  "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
+  "version" : "1.0.0",
+  "name" : "ManagementAppointmentCS"
+},
+{
   "id" : "medication-cs",
   "type" : "CodeSystem",
   "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
@@ -307,6 +314,13 @@
   "name" : "AnaliticsObservationProfile"
 },
 {
+  "id" : "appointment-management-observation-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/appointment-management-observation-profile",
+  "version" : "1.0.0",
+  "name" : "AppointmentManagementObservationProfile"
+},
+{
   "id" : "assessment-timing-ext",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext",
@@ -354,13 +368,6 @@
   "url" : "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
   "version" : "1.0.0",
   "name" : "FirstHospitalExt"
-},
-{
-  "id" : "follow-up-appointment-profile",
-  "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/follow-up-appointment-profile",
-  "version" : "1.0.0",
-  "name" : "FollowUpAppointmentProfile"
 },
 {
   "id" : "functional-score-observation-profile",
@@ -914,6 +921,13 @@
   "url" : "http://tecnomod-um.org/ValueSet/locations-vs",
   "version" : "1.0.0",
   "name" : "LocationsVS"
+},
+{
+  "id" : "management-appointment-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",
+  "version" : "1.0.0",
+  "name" : "ManagementAppointmentVS"
 },
 {
   "id" : "medications-vs",

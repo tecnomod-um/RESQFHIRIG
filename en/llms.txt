@@ -27,6 +27,7 @@
 * [IchTreatmentCs CodeSystem](CodeSystem-ich-treatment-cs.md)
 * [InitialCareIntensityCs CodeSystem](CodeSystem-initial-care-intensity-cs.md)
 * [InsulinHyperglycemiaTimeCs CodeSystem](CodeSystem-insulin-hyperglycemia-time-cs.md)
+* [ManagementAppointmentCs CodeSystem](CodeSystem-management-appointment-cs.md)
 * [MedicationCs CodeSystem](CodeSystem-medication-cs.md)
 * [MrsScoreCs CodeSystem](CodeSystem-mrs-score-cs.md)
 * [MticiCodeCs CodeSystem](CodeSystem-mtici-code-cs.md)
@@ -91,6 +92,7 @@
 * [IvtDrug ValueSet](ValueSet-ivt-drug-vs.md)
 * [Laterality ValueSet](ValueSet-laterality-vs.md)
 * [Locations ValueSet](ValueSet-locations-vs.md)
+* [ManagementAppointment ValueSet](ValueSet-management-appointment-vs.md)
 * [Medications ValueSet](ValueSet-medications-vs.md)
 * [MimicsDiagnosis ValueSet](ValueSet-mimics-diagnosis-vs.md)
 * [MRsScore ValueSet](ValueSet-mrs-score-vs.md)
@@ -138,10 +140,10 @@
 ### Resource Profiles
 
 * [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md)
+* [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md)
 * [Base Stroke Observation Profile](StructureDefinition-base-stroke-observation.md)
 * [Discharge MedicationRequest Profile](StructureDefinition-discharge-medication-request-profile.md)
 * [Fever Observation Profile](StructureDefinition-fever-observation-profile.md)
-* [Three-Month Follow-up Appointment Profile](StructureDefinition-follow-up-appointment-profile.md)
 * [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md)
 * [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md)
 * [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md)

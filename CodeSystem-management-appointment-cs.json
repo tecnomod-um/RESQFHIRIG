@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "management-appointment-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
+  "version" : "1.0.0",
+  "name" : "ManagementAppointmentCS",
+  "title" : "ManagementAppointmentCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-11T15:54:34+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "scheduled",
+    "display" : "Scheduled"
+  },
+  {
+    "code" : "not-recommended",
+    "display" : "Not Recommended"
+  },
+  {
+    "code" : "not-scheduled",
+    "display" : "Not Scheduled"
+  }]
+}

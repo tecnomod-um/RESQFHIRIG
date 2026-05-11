@@ -108,34 +108,6 @@
     "http://hl7.org/fhir/R5/valueset-administrative-gender.html" : "AdministrativeGender"
   },
   {
-    "url" : "http://hl7.org/fhir/appointmentstatus",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "AppointmentStatus",
-    "title" : "Appointment Status",
-    "description" : "The free/busy status of an appointment.",
-    "oids" : ["2.16.840.1.113883.4.642.4.485",
-    "2.16.840.1.113883.4.642.1.478",
-    "2.16.840.1.113883.4.642.2.284"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-appointmentstatus.html" : "Appointment Status"
-  },
-  {
-    "url" : "http://hl7.org/fhir/days-of-week",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "DaysOfWeek",
-    "title" : "Days Of Week",
-    "description" : "The days of the week.",
-    "oids" : ["2.16.840.1.113883.4.642.4.513",
-    "2.16.840.1.113883.4.642.2.302",
-    "2.16.840.1.113883.4.642.1.507"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-days-of-week.html" : "Days Of Week"
-  },
-  {
     "url" : "http://hl7.org/fhir/diagnostic-report-status",
     "version" : "5.0.0",
     "status" : "active",
@@ -317,20 +289,6 @@
     "http://hl7.org/fhir/R5/valueset-observation-triggeredbytype.html" : "triggered Bytype"
   },
   {
-    "url" : "http://hl7.org/fhir/participationstatus",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "ParticipationStatus",
-    "title" : "Participation Status",
-    "description" : "The Participation status of an appointment.",
-    "oids" : ["2.16.840.1.113883.4.642.4.487",
-    "2.16.840.1.113883.4.642.2.285",
-    "2.16.840.1.113883.4.642.1.480"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-participationstatus.html" : "Participation Status"
-  },
-  {
     "url" : "http://hl7.org/fhir/quantity-comparator",
     "version" : "5.0.0",
     "status" : "active",
@@ -367,18 +325,6 @@
     "http://hl7.org/fhir/R5/valueset-service-mode.html" : "Service Mode"
   },
   {
-    "url" : "http://hl7.org/fhir/week-of-month",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "WeekOfMonth",
-    "title" : "Week Of Month",
-    "description" : "The set of weeks with in a month.",
-    "oids" : ["2.16.840.1.113883.4.642.4.1906"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-week-of-month.html" : "Week Of Month"
-  },
-  {
     "url" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
     "version" : "1.0.0",
     "status" : "active",
@@ -409,8 +355,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
     "uses" : {
     },
-    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
     "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
+    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
     "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
   },
   {
@@ -524,6 +470,17 @@
     "ValueSet-insulin-on-hyperglycemia-timing-vs.html" : "InsulinOnHyperglycemiaTiming ValueSet"
   },
   {
+    "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ManagementAppointmentCS",
+    "title" : "ManagementAppointmentCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs.",
+    "uses" : {
+    },
+    "ValueSet-management-appointment-vs.html" : "ManagementAppointment ValueSet"
+  },
+  {
     "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
     "version" : "1.0.0",
     "status" : "active",
@@ -578,10 +535,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
     "uses" : {
     },
-    "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
     "ValueSet-no-anticoagulant-reversal-reason-vs.html" : "NoAnticoagulantReversalReason ValueSet",
-    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
-    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet"
+    "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
@@ -614,8 +571,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
     "uses" : {
     },
-    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
     "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
     "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
   },
   {
@@ -727,10 +684,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
     "uses" : {
     },
+    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet",
     "ValueSet-no-thrombectomy-reason-vs.html" : "NoThrombectomyReason ValueSet",
     "ValueSet-no-ich-treatment-reason-vs.html" : "NoIchTreatmentReason ValueSet",
-    "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet",
-    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet"
+    "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
@@ -818,8 +775,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
     "uses" : {
     },
-    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
-    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet",
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
@@ -830,7 +787,6 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs.",
     "uses" : {
     },
-    "ValueSet-vital-signs-vs.html" : "VitalSigns ValueSet",
     "ValueSet-timing-metric-codes-vs.html" : "TimingMetricCodes ValueSet"
   },
   {
@@ -854,18 +810,6 @@
     "uses" : {
     },
     "ValueSet-occupational-therapy-vs.html" : "OccupationalTherapy ValueSet"
-  },
-  {
-    "url" : "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
-    "version" : "2.1.1",
-    "status" : "active",
-    "name" : "AppointmentCancellationReason",
-    "title" : "Appointment cancellation reason",
-    "description" : "This example value set defines a set of reasons for the cancellation of an appointment.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1382"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-appointment-cancellation-reason.html" : "Appointment Cancellation Reason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/communication-category",
@@ -1156,18 +1100,6 @@
     "http://hl7.org/fhir/R5/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
   },
   {
-    "url" : "http://terminology.hl7.org/CodeSystem/service-category",
-    "version" : "1.1.1",
-    "status" : "active",
-    "name" : "ServiceCategory",
-    "title" : "Service category",
-    "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1144"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-service-category.html" : "Service Category"
-  },
-  {
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",
     "version" : "1.1.1",
     "status" : "active",
@@ -1238,18 +1170,6 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
-  },
-  {
-    "url" : "http://terminology.hl7.org/CodeSystem/v2-0276",
-    "version" : "3.0.0",
-    "status" : "active",
-    "name" : "AppointmentReason",
-    "title" : "appointmentReason",
-    "description" : "Code system of concepts used to describe the kind of appointment or the reason why an appointment has been scheduled.  Used in HL7 Version 2.x messaging in the ARQ segment.",
-    "oids" : ["2.16.840.1.113883.18.169"],
-    "uses" : {
-    },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0936",
@@ -1370,10 +1290,10 @@
     "oids" : ["2.16.840.1.113883.5.111"],
     "uses" : {
     },
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet"
+    "ValueSet-locations-vs.html" : "Locations ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
@@ -1386,17 +1306,5 @@
     "uses" : {
     },
     "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
-  },
-  {
-    "url" : "http://unitsofmeasure.org",
-    "version" : "2.2",
-    "status" : "active",
-    "name" : "UCUM",
-    "title" : null,
-    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
-    "uses" : {
-    },
-    "ValueSet-unitof-measurement-vs.html" : "UnitofMeasurement ValueSet",
-    "http://hl7.org/fhir/R5/valueset-appointment-recurrrence-type.html" : "Appointment Recurrence Type"
   }]
 }

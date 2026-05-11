@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
   "title" : "Glasgow Coma Scale Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-08T10:13:17+00:00",
+  "date" : "2026-05-11T15:54:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -110,12 +110,8 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
       }]
     },
     {
-      "id" : "Observation.value[x]:valueCodeableConcept",
-      "path" : "Observation.value[x]",
-      "sliceName" : "valueCodeableConcept",
-      "type" : [{
-        "code" : "CodeableConcept"
-      }],
+      "id" : "Observation.interpretation",
+      "path" : "Observation.interpretation",
       "binding" : {
         "strength" : "extensible",
         "valueSet" : "http://tecnomod-um.org/ValueSet/gcsscore-vs"
