@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-procedure-timing-
   "name" : "ProcedureTimingContextExt",
   "title" : "Procedure timing context",
   "status" : "draft",
-  "date" : "2026-05-12T07:59:38+00:00",
+  "date" : "2026-05-12T09:41:56+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](../StructureDefinition-procedure-timing-
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs"
+        "valueSet" : "http://tecnomod-um.org/ValueSet/assessment-context-vs"
       }
     }]
   }

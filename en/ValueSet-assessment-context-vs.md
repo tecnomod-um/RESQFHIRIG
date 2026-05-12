@@ -8,6 +8,7 @@ Allowed coded values for AssessmentContext
  **References** 
 
 * [Observation timing context](StructureDefinition-observation-timing-context-ext.md)
+* [Procedure timing context](StructureDefinition-procedure-timing-context-ext.md)
 
 ### Logical Definition (CLD)
 
@@ -33,7 +34,7 @@ Allowed coded values for AssessmentContext
   "title" : "AssessmentContext ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T07:59:38+00:00",
+  "date" : "2026-05-12T09:41:56+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -88,6 +89,21 @@ Allowed coded values for AssessmentContext
       {
         "code" : "discharge-or-7-days",
         "display" : "Discharge or 7 Days After Admission"
+      },
+      {
+        "code" : "unknown",
+        "display" : "Unknown/Not Applicable"
+      },
+      {
+        "code" : "acute",
+        "display" : "Acute Phase (<24h)"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "281381003",
+        "display" : "More than 24 hours after admission (qualifier value)"
       }]
     }]
   }

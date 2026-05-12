@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-registry-o
   "title" : "Stroke Registry Organization Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T07:59:38+00:00",
+  "date" : "2026-05-12T09:41:56+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

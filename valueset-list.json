@@ -53,7 +53,8 @@
     "name" : "AssessmentContextVS",
     "title" : "AssessmentContext ValueSet",
     "description" : "Allowed coded values for AssessmentContext",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+    "http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",

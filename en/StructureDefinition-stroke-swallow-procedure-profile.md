@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
   "title" : "Stroke Swallowing Screening Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T07:59:38+00:00",
+  "date" : "2026-05-12T09:41:56+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -79,7 +79,21 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
   "differential" : {
     "element" : [{
       "id" : "Procedure",
-      "path" : "Procedure"
+      "path" : "Procedure",
+      "constraint" : [{
+        "key" : "stroke-swallow-completed-requires-post-acute-care",
+        "severity" : "error",
+        "human" : "If the swallowing screening procedure is completed, post-acute care required extension SHALL be present.",
+        "expression" : "status != 'completed' or extension.where(url = 'http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext').exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
+      },
+      {
+        "key" : "stroke-swallow-not-done-requires-status-reason",
+        "severity" : "error",
+        "human" : "If the swallowing screening procedure was not done, statusReason SHALL be present.",
+        "expression" : "status != 'not-done' or statusReason.exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
+      }]
     },
     {
       "id" : "Procedure.extension",
@@ -91,8 +105,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
         }],
         "ordered" : false,
         "rules" : "open"
-      },
-      "min" : 1
+      }
     },
     {
       "id" : "Procedure.extension:procedureTimingContext",
@@ -110,7 +123,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-swallow-pr
       "id" : "Procedure.extension:postAcuteCareRequired",
       "path" : "Procedure.extension",
       "sliceName" : "postAcuteCareRequired",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "Extension",

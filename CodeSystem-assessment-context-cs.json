@@ -3,7 +3,7 @@
   "id" : "assessment-context-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem assessment-context-cs</b></p><a name=\"assessment-context-cs\"> </a><a name=\"hcassessment-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-stroke<a name=\"assessment-context-cs-pre-stroke\"> </a></td><td>Pre-stroke</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"assessment-context-cs-discharge\"> </a></td><td>Discharge</td></tr><tr><td style=\"white-space:nowrap\">3-month<a name=\"assessment-context-cs-3-month\"> </a></td><td>3 Month Follow-up</td></tr><tr><td style=\"white-space:nowrap\">admission<a name=\"assessment-context-cs-admission\"> </a></td><td>Admission</td></tr><tr><td style=\"white-space:nowrap\">72-hours<a name=\"assessment-context-cs-72-hours\"> </a></td><td>72 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">first-48-hours<a name=\"assessment-context-cs-first-48-hours\"> </a></td><td>First 48 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">post-stroke<a name=\"assessment-context-cs-post-stroke\"> </a></td><td>Post-Stroke</td></tr><tr><td style=\"white-space:nowrap\">last-10-years<a name=\"assessment-context-cs-last-10-years\"> </a></td><td>During Last 10 Years</td></tr><tr><td style=\"white-space:nowrap\">discharge-or-7-days<a name=\"assessment-context-cs-discharge-or-7-days\"> </a></td><td>Discharge or 7 Days After Admission</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem assessment-context-cs</b></p><a name=\"assessment-context-cs\"> </a><a name=\"hcassessment-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-stroke<a name=\"assessment-context-cs-pre-stroke\"> </a></td><td>Pre-stroke</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"assessment-context-cs-discharge\"> </a></td><td>Discharge</td></tr><tr><td style=\"white-space:nowrap\">3-month<a name=\"assessment-context-cs-3-month\"> </a></td><td>3 Month Follow-up</td></tr><tr><td style=\"white-space:nowrap\">admission<a name=\"assessment-context-cs-admission\"> </a></td><td>Admission</td></tr><tr><td style=\"white-space:nowrap\">72-hours<a name=\"assessment-context-cs-72-hours\"> </a></td><td>72 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">first-48-hours<a name=\"assessment-context-cs-first-48-hours\"> </a></td><td>First 48 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">post-stroke<a name=\"assessment-context-cs-post-stroke\"> </a></td><td>Post-Stroke</td></tr><tr><td style=\"white-space:nowrap\">last-10-years<a name=\"assessment-context-cs-last-10-years\"> </a></td><td>During Last 10 Years</td></tr><tr><td style=\"white-space:nowrap\">discharge-or-7-days<a name=\"assessment-context-cs-discharge-or-7-days\"> </a></td><td>Discharge or 7 Days After Admission</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"assessment-context-cs-unknown\"> </a></td><td>Unknown/Not Applicable</td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"assessment-context-cs-acute\"> </a></td><td>Acute Phase (&lt;24h)</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
   "version" : "1.0.0",
@@ -11,7 +11,7 @@
   "title" : "AssessmentContextCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T07:59:38+00:00",
+  "date" : "2026-05-12T09:41:56+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -30,7 +30,7 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 9,
+  "count" : 11,
   "concept" : [{
     "code" : "pre-stroke",
     "display" : "Pre-stroke"
@@ -66,5 +66,13 @@
   {
     "code" : "discharge-or-7-days",
     "display" : "Discharge or 7 Days After Admission"
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown/Not Applicable"
+  },
+  {
+    "code" : "acute",
+    "display" : "Acute Phase (<24h)"
   }]
 }
