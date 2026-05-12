@@ -90,6 +90,13 @@
   "name" : "InsulinHyperglycemiaTimeCS"
 },
 {
+  "id" : "location-cs",
+  "type" : "CodeSystem",
+  "url" : "http://tecnomod-um.org/CodeSystem/location-cs",
+  "version" : "1.0.0",
+  "name" : "LocationCS"
+},
+{
   "id" : "management-appointment-cs",
   "type" : "CodeSystem",
   "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",

@@ -295,7 +295,8 @@
     "name" : "LocationsVS",
     "title" : "Locations ValueSet",
     "description" : "Allowed coded values for Locations",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"]
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "http://tecnomod-um.org/CodeSystem/location-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",

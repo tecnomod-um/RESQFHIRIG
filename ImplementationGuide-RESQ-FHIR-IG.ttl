@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-11T15:54:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-12T07:59:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -1353,6 +1353,24 @@
        ] ;
        fhir:name [ fhir:v "Laterality ValueSet" ] ;
        fhir:description [ fhir:v "Allowed coded values for Laterality" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/location-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/location-cs" ]
+       ] ;
+       fhir:name [ fhir:v "LocationCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

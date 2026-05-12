@@ -11,7 +11,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-05-11T15:54:44+00:00"/>
+  <date value="2026-05-12T07:59:38+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -815,6 +815,17 @@
       </reference>
       <name value="Laterality ValueSet"/>
       <description value="Allowed coded values for Laterality"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/location-cs"/>
+      </reference>
+      <name value="LocationCs CodeSystem"/>
+      <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs."/>
       <isExample value="false"/>
     </resource>
     <resource>
