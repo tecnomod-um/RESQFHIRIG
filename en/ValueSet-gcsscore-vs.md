@@ -7,7 +7,7 @@ Allowed coded values for GCSScore
 
  **References** 
 
-* [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md)
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 ### Logical Definition (CLD)
 
@@ -33,7 +33,7 @@ Allowed coded values for GCSScore
   "title" : "GCSScore ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

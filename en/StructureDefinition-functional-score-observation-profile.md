@@ -7,7 +7,7 @@ Observation profile for functional or severity scores such as mRS, NIHSS, ASPECT
 
 **Usages:**
 
-* Derived from this Profile: [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md)
+* Derived from this Profile: [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md) and [Glasgow Coma Score Observation Profile](StructureDefinition-glasgow-coma-score-observation-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/functional-score-observation-profile)
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
   "title" : "Functional Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -136,14 +136,6 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "type",
-          "path" : "$this"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
       "short" : "Recorded score value",
       "type" : [{
         "code" : "Quantity"
@@ -155,20 +147,6 @@ Other representations of profile: [CSV](../StructureDefinition-functional-score-
         "code" : "integer"
       }],
       "mustSupport" : true
-    },
-    {
-      "id" : "Observation.value[x]:valueCodeableConcept",
-      "path" : "Observation.value[x]",
-      "sliceName" : "valueCodeableConcept",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "CodeableConcept"
-      }],
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/mrs-score-vs"
-      }
     }]
   }
 }

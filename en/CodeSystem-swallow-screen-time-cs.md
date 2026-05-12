@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "SwallowScreenTimeCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

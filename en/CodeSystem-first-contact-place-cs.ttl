@@ -12,7 +12,7 @@
   fhir:language [ fhir:v "en"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name=\"first-contact-place-cs\"> </a><a name=\"hcfirst-contact-place-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HRAD<a name=\"first-contact-place-cs-HRAD\"> </a></td><td>radiology unit</td></tr><tr><td style=\"white-space:nowrap\">ER<a name=\"first-contact-place-cs-ER\"> </a></td><td>Emergency room</td></tr><tr><td style=\"white-space:nowrap\">OF<a name=\"first-contact-place-cs-OF\"> </a></td><td>Outpatient facility</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name=\"first-contact-place-cs\"> </a><a name=\"hcfirst-contact-place-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HRAD<a name=\"first-contact-place-cs-HRAD\"> </a></td><td>radiology unit</td></tr><tr><td style=\"white-space:nowrap\">ER<a name=\"first-contact-place-cs-ER\"> </a></td><td>Emergency room</td></tr><tr><td style=\"white-space:nowrap\">OF<a name=\"first-contact-place-cs-OF\"> </a></td><td>Outpatient facility</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"first-contact-place-cs-other\"> </a></td><td>Other department</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/first-contact-place-cs"^^xsd:anyURI ;
@@ -23,7 +23,7 @@
   fhir:title [ fhir:v "FirstContactPlaceCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-12T09:41:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-12T11:55:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -45,7 +45,7 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "HRAD" ] ;
      fhir:display [ fhir:v "radiology unit" ]
@@ -55,6 +55,9 @@
   ] [
      fhir:code [ fhir:v "OF" ] ;
      fhir:display [ fhir:v "Outpatient facility" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other department" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

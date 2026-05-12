@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-12T09:41:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-12T11:55:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -884,7 +884,25 @@
          fhir:reference [ fhir:v "StructureDefinition/glasgow-coma-scale-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Glasgow Coma Scale Observation Profile" ] ;
-       fhir:description [ fhir:v "Specialized functional score profile for Glasgow Coma Scale values captured by the registry." ] ;
+       fhir:description [ fhir:v "Specialized functional score profile for Glasgow Coma Scale component values captured by the registry." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/glasgow-coma-score-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/glasgow-coma-score-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Glasgow Coma Score Observation Profile" ] ;
+       fhir:description [ fhir:v "Specialized functional score profile for Glasgow Coma Score values captured by the registry." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

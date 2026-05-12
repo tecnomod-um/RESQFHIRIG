@@ -355,8 +355,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
     "uses" : {
     },
-    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
     "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
     "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet"
   },
   {
@@ -500,9 +500,9 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
     "uses" : {
     },
-    "ValueSet-medications-vs.html" : "Medications ValueSet",
+    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet",
     "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
-    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet"
+    "ValueSet-medications-vs.html" : "Medications ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
@@ -546,10 +546,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
     "uses" : {
     },
-    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
     "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
     "ValueSet-no-anticoagulant-reversal-reason-vs.html" : "NoAnticoagulantReversalReason ValueSet",
-    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet"
+    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
@@ -880,8 +880,8 @@
     "oids" : ["2.16.840.1.113883.4.642.1.1074"],
     "uses" : {
     },
-    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet",
-    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes",
+    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
@@ -1264,8 +1264,8 @@
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
-    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
+    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes",
+    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -1301,10 +1301,9 @@
     "oids" : ["2.16.840.1.113883.5.111"],
     "uses" : {
     },
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet",
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
+    "ValueSet-locations-vs.html" : "Locations ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",

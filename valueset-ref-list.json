@@ -82,11 +82,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
     "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
     "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile"
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -109,8 +109,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context",
-    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context"
+    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context",
+    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",
@@ -145,8 +145,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -185,8 +185,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
     "uses" : {
     },
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
@@ -242,8 +242,7 @@
     "name" : "FirstContactPlaceVS",
     "title" : "FirstContactPlace ValueSet",
     "description" : "Allowed coded values for FirstContactPlace",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/first-contact-place-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/first-contact-place-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/functional-score-vs",
@@ -265,10 +264,7 @@
     "name" : "GCSScoreVS",
     "title" : "GCSScore ValueSet",
     "description" : "Allowed coded values for GCSScore",
-    "systems" : ["http://snomed.info/sct"],
-    "uses" : {
-    },
-    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile"
+    "systems" : ["http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs",
@@ -277,10 +273,7 @@
     "name" : "GlasgowComaScaleVS",
     "title" : "GlasgowComaScale ValueSet",
     "description" : "Allowed coded values for GlasgowComaScale",
-    "systems" : ["http://snomed.info/sct"],
-    "uses" : {
-    },
-    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile"
+    "systems" : ["http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs",
@@ -324,9 +317,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/in-hospital-vs",
@@ -422,8 +415,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
@@ -442,10 +435,7 @@
     "name" : "MRsScoreVS",
     "title" : "MRsScore ValueSet",
     "description" : "Allowed coded values for MRsScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mrs-score-cs"],
-    "uses" : {
-    },
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mrs-score-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mtici-score-vs",
@@ -582,8 +572,8 @@
     "uses" : {
     },
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
@@ -649,8 +639,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
@@ -746,8 +736,8 @@
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"],
     "uses" : {
     },
-    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state",
-    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology"
+    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology",
+    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
@@ -815,8 +805,8 @@
     "uses" : {
     },
     "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs",

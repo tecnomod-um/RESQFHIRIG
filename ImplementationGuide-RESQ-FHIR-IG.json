@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -576,7 +576,19 @@
         "reference" : "StructureDefinition/glasgow-coma-scale-observation-profile"
       },
       "name" : "Glasgow Coma Scale Observation Profile",
-      "description" : "Specialized functional score profile for Glasgow Coma Scale values captured by the registry.",
+      "description" : "Specialized functional score profile for Glasgow Coma Scale component values captured by the registry.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/glasgow-coma-score-observation-profile"
+      },
+      "name" : "Glasgow Coma Score Observation Profile",
+      "description" : "Specialized functional score profile for Glasgow Coma Score values captured by the registry.",
       "isExample" : false
     },
     {

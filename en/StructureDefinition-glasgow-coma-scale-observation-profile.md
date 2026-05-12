@@ -3,7 +3,7 @@
 ## Resource Profile: Glasgow Coma Scale Observation Profile 
 
  
-Specialized functional score profile for Glasgow Coma Scale values captured by the registry. 
+Specialized functional score profile for Glasgow Coma Scale component values captured by the registry. 
 
 **Usages:**
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
   "title" : "Glasgow Coma Scale Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Specialized functional score profile for Glasgow Coma Scale values captured by the registry.",
+  "description" : "Specialized functional score profile for Glasgow Coma Scale component values captured by the registry.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -94,25 +94,30 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs"
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "386557006",
+          "display" : "Glasgow coma scale finding (finding)"
+        }]
       }
     },
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "min" : 1,
       "type" : [{
-        "code" : "integer"
+        "code" : "CodeableConcept"
       }]
     },
     {
-      "id" : "Observation.interpretation",
-      "path" : "Observation.interpretation",
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/gcsscore-vs"
-      }
+      "id" : "Observation.derivedFrom",
+      "path" : "Observation.derivedFrom",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation"]
+      }],
+      "mustSupport" : true
     }]
   }
 }

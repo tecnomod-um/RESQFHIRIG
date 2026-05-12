@@ -11,7 +11,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-05-12T09:41:56+00:00"/>
+  <date value="2026-05-12T11:55:23+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -528,7 +528,18 @@
         <reference value="StructureDefinition/glasgow-coma-scale-observation-profile"/>
       </reference>
       <name value="Glasgow Coma Scale Observation Profile"/>
-      <description value="Specialized functional score profile for Glasgow Coma Scale values captured by the registry."/>
+      <description value="Specialized functional score profile for Glasgow Coma Scale component values captured by the registry."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/glasgow-coma-score-observation-profile"/>
+      </reference>
+      <name value="Glasgow Coma Score Observation Profile"/>
+      <description value="Specialized functional score profile for Glasgow Coma Score values captured by the registry."/>
       <isExample value="false"/>
     </resource>
     <resource>

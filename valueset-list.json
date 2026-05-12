@@ -165,8 +165,7 @@
     "name" : "FirstContactPlaceVS",
     "title" : "FirstContactPlace ValueSet",
     "description" : "Allowed coded values for FirstContactPlace",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/first-contact-place-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/first-contact-place-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/functional-score-vs",

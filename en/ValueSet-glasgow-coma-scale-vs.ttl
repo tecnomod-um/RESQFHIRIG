@@ -12,7 +12,7 @@
   fhir:language [ fhir:v "en"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet glasgow-coma-scale-vs</b></p><a name=\"glasgow-coma-scale-vs\"> </a><a name=\"hcglasgow-coma-scale-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/26394007\">26394007</a></td><td>Glasgow coma scale, 3 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/112110007\">112110007</a></td><td>Glasgow coma scale, 4 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/74957005\">74957005</a></td><td>Glasgow coma scale, 5 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/80072008\">80072008</a></td><td>Glasgow coma scale, 6 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/18136007\">18136007</a></td><td>Glasgow coma scale, 7 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/32856008\">32856008</a></td><td>Glasgow coma scale, 8 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/5999000\">5999000</a></td><td>Glasgow coma scale, 9 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/1184008\">1184008</a></td><td>Glasgow coma scale, 10 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/61102007\">61102007</a></td><td>Glasgow coma scale, 11 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/91234001\">91234001</a></td><td>Glasgow coma scale, 12 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/54185009\">54185009</a></td><td>Glasgow coma scale, 13 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/26734006\">26734006</a></td><td>Glasgow coma scale, 14 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/70040003\">70040003</a></td><td>Glasgow coma scale, 15 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248241002\">248241002</a></td><td>Glasgow coma scale (observable entity)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet glasgow-coma-scale-vs</b></p><a name=\"glasgow-coma-scale-vs\"> </a><a name=\"hcglasgow-coma-scale-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/26394007\">26394007</a></td><td>Glasgow coma scale, 3 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/112110007\">112110007</a></td><td>Glasgow coma scale, 4 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/74957005\">74957005</a></td><td>Glasgow coma scale, 5 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/80072008\">80072008</a></td><td>Glasgow coma scale, 6 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/18136007\">18136007</a></td><td>Glasgow coma scale, 7 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/32856008\">32856008</a></td><td>Glasgow coma scale, 8 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/5999000\">5999000</a></td><td>Glasgow coma scale, 9 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/1184008\">1184008</a></td><td>Glasgow coma scale, 10 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/61102007\">61102007</a></td><td>Glasgow coma scale, 11 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/91234001\">91234001</a></td><td>Glasgow coma scale, 12 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/54185009\">54185009</a></td><td>Glasgow coma scale, 13 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/26734006\">26734006</a></td><td>Glasgow coma scale, 14 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/70040003\">70040003</a></td><td>Glasgow coma scale, 15 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/386557006\">386557006</a></td><td>Glasgow coma scale finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248241002\">248241002</a></td><td>Glasgow coma score (observable entity)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs"^^xsd:anyURI ;
@@ -23,7 +23,7 @@
   fhir:title [ fhir:v "GlasgowComaScale ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-12T09:41:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-12T11:55:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -89,8 +89,11 @@
          fhir:code [ fhir:v "70040003" ] ;
          fhir:display [ fhir:v "Glasgow coma scale, 15 (finding)" ]
        ] [
+         fhir:code [ fhir:v "386557006" ] ;
+         fhir:display [ fhir:v "Glasgow coma scale finding (finding)" ]
+       ] [
          fhir:code [ fhir:v "248241002" ] ;
-         fhir:display [ fhir:v "Glasgow coma scale (observable entity)" ]
+         fhir:display [ fhir:v "Glasgow coma score (observable entity)" ]
        ] )
      ] )
   ] . # 

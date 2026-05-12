@@ -33,7 +33,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "FirstContactPlace ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T09:41:56+00:00",
+  "date" : "2026-05-12T11:55:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -64,11 +64,8 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       {
         "code" : "OF",
         "display" : "Outpatient facility"
-      }]
-    },
-    {
-      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "concept" : [{
+      },
+      {
         "code" : "other",
         "display" : "Other Department"
       }]
