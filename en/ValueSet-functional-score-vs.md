@@ -33,7 +33,7 @@ Allowed coded values for FunctionalScore
   "title" : "FunctionalScore ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T11:55:23+00:00",
+  "date" : "2026-05-13T14:14:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -76,6 +76,14 @@ Allowed coded values for FunctionalScore
       {
         "code" : "445518008",
         "display" : "Age at onset of clinical finding (observable entity)"
+      },
+      {
+        "code" : "386557006",
+        "display" : "Glasgow coma scale finding (finding)"
+      },
+      {
+        "code" : "248241002",
+        "display" : "Glasgow coma score (observable entity)"
       }]
     },
     {

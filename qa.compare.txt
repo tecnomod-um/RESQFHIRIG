@@ -1,7 +1,7 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 9, warn = 120, info = 231
+err = 9, warn = 117, info = 231
 $--
 Generated $--. FHIR version $-- for RESQ-FHIR-IG#$-- (canonical = http://tecnomod-um.org)
  Build Errors : 1249 / 1253 / 0
@@ -108,7 +108,7 @@ Generated $--. FHIR version $-- for RESQ-FHIR-IG#$-- (canonical = http://tecnomo
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-three-month-communication-profile : 0 / 3 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-three-month-contact-mode-observation-profile : 0 / 3 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-tia-clinical-symptoms-observation-profile : 0 / 3 / 2
- /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-timing-metric-observation-profile : 0 / 5 / 2
+ /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-timing-metric-observation-profile : 0 / 2 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-vital-sign-observation-profile : 0 / 3 / 3
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-wakeup-stroke-ext : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-adherence-codes-vs : 0 / 0 / 2
@@ -1707,23 +1707,23 @@ WARNING: en/StructureDefinition-tia-clinical-symptoms-observation-profile.profil
 ERROR: en/StructureDefinition-tia-clinical-symptoms-observation-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-tia-clinical-symptoms-observation-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 3428, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile-definitions.html#/html/body/div/div/div/p/a at Line 961, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile-definitions.html#/html/body/div/div/div/p/a at Line 871, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-timing-metric-observation-profile-examples.html#/html/body/div/div/div/p/a at Line 488, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile-mappings.html#/html/body/div/div/div/p/a at Line 1386, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile-mappings.html#/html/body/div/div/div/p/a at Line 1282, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-timing-metric-observation-profile-testing.html#/html/body/div/div/div/p/a at Line 481, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile.html#/html/body/div/div/div/p/a at Line 3400, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile.html#/html/body/div/div/div/p/a at Line 3160, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.history.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 464, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.json.html#/html/body/div/div/div/p/a at Line 4095, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.json.html#/html/body/div/div/div/p/a at Line 3668, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 3353, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 3025, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-timing-metric-observation-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 3823, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-timing-metric-observation-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 3438, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-vital-sign-observation-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-vital-sign-observation-profile-definitions.html#/html/body/div/div/div/p/a at Line 915, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-vital-sign-observation-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -1981,11 +1981,11 @@ WARNING: en/ValueSet-functional-score-vs.change.history.html#/html/body/div/div/
 ERROR: en/ValueSet-functional-score-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-functional-score-vs.html#/html/body/div/div/div/p/a at Line 508, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-functional-score-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-functional-score-vs.json.html#/html/body/div/div/div/p/a at Line 535, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-functional-score-vs.json.html#/html/body/div/div/div/p/a at Line 543, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-functional-score-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-functional-score-vs.ttl.html#/html/body/div/div/div/p/a at Line 520, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-functional-score-vs.ttl.html#/html/body/div/div/div/p/a at Line 524, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-functional-score-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-functional-score-vs.xml.html#/html/body/div/div/div/p/a at Line 526, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-functional-score-vs.xml.html#/html/body/div/div/div/p/a at Line 534, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-gcsscore-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-gcsscore-vs-testing.html#/html/body/div/div/div/p/a at Line 453, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-gcsscore-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -3013,11 +3013,8 @@ WARNING: StructureDefinition/tia-clinical-symptoms-observation-profile: Structur
 WARNING: StructureDefinition.where(url = 'http://tecnomod-um.org/StructureDefinition/tia-clinical-symptoms-observation-profile'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-timing-metric-observation-profile.json ==
 INFORMATION: StructureDefinition/timing-metric-observation-profile: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.snapshot.element[36]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x] (fixed.exists().not())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
-WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.differential.element[5]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x] (fixed.exists().not())' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
 WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.snapshot.element[53].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
-WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/timing-metric-observation-profile: StructureDefinition.snapshot.element[45].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-vital-sign-observation-profile.json ==
 INFORMATION: StructureDefinition/vital-sign-observation-profile: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: StructureDefinition/vital-sign-observation-profile: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental

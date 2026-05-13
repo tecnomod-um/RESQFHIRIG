@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T11:55:23+00:00",
+  "date" : "2026-05-13T14:14:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -114,14 +114,6 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "type",
-          "path" : "$this"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
       "short" : "Metric duration/value or yes/no indicator",
       "min" : 1,
       "type" : [{
@@ -130,27 +122,6 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
       {
         "code" : "boolean"
       }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.value[x]:valueQuantity",
-      "path" : "Observation.value[x]",
-      "sliceName" : "valueQuantity",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Quantity"
-      }]
-    },
-    {
-      "id" : "Observation.value[x]:valueQuantity.system",
-      "path" : "Observation.value[x].system",
-      "fixedUri" : "https://ucum.org/ucum",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Observation.value[x]:valueQuantity.code",
-      "path" : "Observation.value[x].code",
       "mustSupport" : true
     }]
   }

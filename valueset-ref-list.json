@@ -82,11 +82,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -132,8 +132,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason",
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state"
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state",
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
@@ -145,8 +145,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -185,8 +185,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
@@ -317,8 +317,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
     "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
@@ -415,8 +415,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile"
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
@@ -639,8 +639,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
@@ -703,8 +703,8 @@
     "http://tecnomod-um.org/CodeSystem/old-infarct-cs"],
     "uses" : {
     },
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
@@ -804,8 +804,8 @@
     "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"],
     "uses" : {
     },
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
     "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
     "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
   },
   {
