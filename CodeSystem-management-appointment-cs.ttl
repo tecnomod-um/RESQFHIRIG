@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "management-appointment-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">appointment<a name=\"management-appointment-cs-appointment\"> </a></td><td>Follow-up Appointment Status</td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/management-appointment-cs"^^xsd:anyURI ;
@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "ManagementAppointmentCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-13T14:14:43+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-13T15:23:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -44,8 +44,11 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
+     fhir:code [ fhir:v "appointment" ] ;
+     fhir:display [ fhir:v "Follow-up Appointment Status" ]
+  ] [
      fhir:code [ fhir:v "scheduled" ] ;
      fhir:display [ fhir:v "Scheduled" ]
   ] [

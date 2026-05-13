@@ -14,7 +14,6 @@
     <sch:rule context="f:MedicationAdministration">
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/assessment-timing-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/assessment-timing-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/assessment-timing-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/assessment-timing-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:reason) &gt;= 1">reason: minimum cardinality of 'reason' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

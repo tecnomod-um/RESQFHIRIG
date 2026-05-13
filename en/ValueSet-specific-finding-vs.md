@@ -34,7 +34,7 @@ Allowed coded values for SpecificFinding
   "title" : "SpecificFinding ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T14:14:43+00:00",
+  "date" : "2026-05-13T15:23:44+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -96,6 +96,10 @@ Allowed coded values for SpecificFinding
       {
         "code" : "230706003",
         "display" : "Hemorrhagic cerebral infarction (disorder)"
+      },
+      {
+        "code" : "49436004",
+        "display" : "Atrial fibrillation (disorder)"
       }]
     },
     {

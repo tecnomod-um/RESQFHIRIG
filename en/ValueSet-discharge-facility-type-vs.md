@@ -33,7 +33,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "DischargeFacilityType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T14:14:43+00:00",
+  "date" : "2026-05-13T15:23:44+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

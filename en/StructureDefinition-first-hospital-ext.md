@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-first-hospital-ex
   "name" : "FirstHospitalExt",
   "title" : "First hospital for the stroke episode",
   "status" : "draft",
-  "date" : "2026-05-13T14:14:43+00:00",
+  "date" : "2026-05-13T15:23:44+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

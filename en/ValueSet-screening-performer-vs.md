@@ -33,7 +33,7 @@ Allowed coded values for ScreeningPerformer
   "title" : "ScreeningPerformer ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T14:14:43+00:00",
+  "date" : "2026-05-13T15:23:44+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -52,19 +52,16 @@ Allowed coded values for ScreeningPerformer
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
-      "concept" : [{
-        "code" : "nurse",
-        "display" : "Nurse"
-      },
-      {
-        "code" : "physician",
-        "display" : "Physician"
-      }]
-    },
-    {
       "system" : "http://snomed.info/sct",
       "concept" : [{
+        "code" : "106292003",
+        "display" : "Professional nurse (occupation)"
+      },
+      {
+        "code" : "309343006",
+        "display" : "Physician (occupation)"
+      },
+      {
         "code" : "223366009",
         "display" : "Healthcare professional (occupation)"
       },

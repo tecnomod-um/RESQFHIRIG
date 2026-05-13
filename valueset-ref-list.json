@@ -79,6 +79,7 @@
     "title" : "AnaliticsCodes ValueSet",
     "description" : "Allowed coded values for AnaliticsCodes",
     "systems" : ["http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+    "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
     "http://snomed.info/sct"],
     "uses" : {
     },
@@ -671,8 +672,7 @@
     "name" : "ScreeningPerformerVS",
     "title" : "ScreeningPerformer ValueSet",
     "description" : "Allowed coded values for ScreeningPerformer",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/practitioner-role",
-    "http://snomed.info/sct"],
+    "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
     "StructureDefinition-resq-practitioner-role-profile.html" : "RESQ PractitionerRole Profile"
