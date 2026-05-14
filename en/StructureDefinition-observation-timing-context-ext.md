@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-observation-timin
   "name" : "ObservationTimingContextExt",
   "title" : "Observation timing context",
   "status" : "draft",
-  "date" : "2026-05-14T08:09:55+00:00",
+  "date" : "2026-05-14T08:55:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

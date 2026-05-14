@@ -3,7 +3,7 @@
   "id" : "management-appointment-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">appointment<a name=\"management-appointment-cs-appointment\"> </a></td><td>Follow-up Appointment Status</td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">follow-up-appointment<a name=\"management-appointment-cs-follow-up-appointment\"> </a></td><td>Follow-up Appointment Status</td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
   "version" : "1.0.0",
@@ -11,7 +11,7 @@
   "title" : "ManagementAppointmentCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T08:09:55+00:00",
+  "date" : "2026-05-14T08:55:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -32,7 +32,7 @@
   "content" : "complete",
   "count" : 4,
   "concept" : [{
-    "code" : "appointment",
+    "code" : "follow-up-appointment",
     "display" : "Follow-up Appointment Status"
   },
   {
