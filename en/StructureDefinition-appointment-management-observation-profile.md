@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-appointment-manag
   "title" : "Appointment Management Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T15:23:44+00:00",
+  "date" : "2026-05-14T08:09:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-appointment-manag
       "path" : "Observation.code",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs"
+        "valueSet" : "http://tecnomod-um.org/ValueSet/management-appointment-vs"
       }
     }]
   }

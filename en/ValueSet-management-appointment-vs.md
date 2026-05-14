@@ -7,7 +7,7 @@ Allowed coded values for ManagementAppointment
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -33,7 +33,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "ManagementAppointment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T15:23:44+00:00",
+  "date" : "2026-05-14T08:09:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

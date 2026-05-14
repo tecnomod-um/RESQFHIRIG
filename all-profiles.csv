@@ -322,7 +322,7 @@ Reflex | Repeat | Re-run.","","","","","","","","","",,"required","The type of T
 "
 "appointment-management-observation-profile","Observation.code","Observation.code","","Name
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Registry observation concept","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs","",,,,"Observation.code",1,1,"obs-7
+","Registry observation concept","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/management-appointment-vs","",,,,"Observation.code",1,1,"obs-7
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "appointment-management-observation-profile","Observation.subject","Observation.subject","","","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/resq-patient-profile]]}

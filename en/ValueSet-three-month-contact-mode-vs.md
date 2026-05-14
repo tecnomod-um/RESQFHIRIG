@@ -7,7 +7,6 @@ Allowed coded values for ThreeMonthContactMode
 
  **References** 
 
-* [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md)
 * [Three-Month Contact Communication Profile](StructureDefinition-three-month-communication-profile.md)
 * [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md)
 
@@ -35,7 +34,7 @@ Allowed coded values for ThreeMonthContactMode
   "title" : "ThreeMonthContactMode ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-13T15:23:44+00:00",
+  "date" : "2026-05-14T08:09:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

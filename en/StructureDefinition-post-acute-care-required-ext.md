@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-post-acute-care-r
   "name" : "PostAcuteCareRequiredExt",
   "title" : "Post-acute care required",
   "status" : "draft",
-  "date" : "2026-05-13T15:23:44+00:00",
+  "date" : "2026-05-14T08:09:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
