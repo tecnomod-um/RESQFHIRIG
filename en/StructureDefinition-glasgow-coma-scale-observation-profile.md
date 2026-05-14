@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scal
   "title" : "Glasgow Coma Scale Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

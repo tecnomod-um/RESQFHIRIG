@@ -4,7 +4,7 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name=\"first-contact-place-cs\"> </a><a name=\"hcfirst-contact-place-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HRAD<a name=\"first-contact-place-cs-HRAD\"> </a></td><td>radiology unit</td></tr><tr><td style=\"white-space:nowrap\">ER<a name=\"first-contact-place-cs-ER\"> </a></td><td>Emergency room</td></tr><tr><td style=\"white-space:nowrap\">OF<a name=\"first-contact-place-cs-OF\"> </a></td><td>Outpatient facility</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"first-contact-place-cs-other\"> </a></td><td>Other department</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name=\"first-contact-place-cs\"> </a><a name=\"hcfirst-contact-place-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HRAD<a name=\"first-contact-place-cs-HRAD\"> </a></td><td>radiology unit</td></tr><tr><td style=\"white-space:nowrap\">ER<a name=\"first-contact-place-cs-ER\"> </a></td><td>Emergency room</td></tr><tr><td style=\"white-space:nowrap\">OF<a name=\"first-contact-place-cs-OF\"> </a></td><td>Outpatient facility</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/first-contact-place-cs",
   "version" : "1.0.0",
@@ -12,7 +12,7 @@
   "title" : "FirstContactPlaceCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -31,7 +31,7 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 4,
+  "count" : 3,
   "concept" : [{
     "code" : "HRAD",
     "display" : "radiology unit"
@@ -43,9 +43,5 @@
   {
     "code" : "OF",
     "display" : "Outpatient facility"
-  },
-  {
-    "code" : "other",
-    "display" : "Other department"
   }]
 }

@@ -35,7 +35,7 @@ Allowed coded values for ProcedureNotDoneReason
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -138,6 +138,14 @@ Allowed coded values for ProcedureNotDoneReason
       {
         "code" : "not-required",
         "display" : "Not Required"
+      },
+      {
+        "code" : "low-aspect-score",
+        "display" : "Low ASPECTS Score"
+      },
+      {
+        "code" : "transfer-ivt",
+        "display" : "Transferred elsewhere to perform IVT"
       }]
     },
     {

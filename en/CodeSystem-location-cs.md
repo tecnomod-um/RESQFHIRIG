@@ -7,6 +7,9 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 
 This Code system is referenced in the definition of the following value sets:
 
+* [AdmissionDepartmentVS](ValueSet-admission-department-vs.md)
+* [FirstContactPlaceVS](ValueSet-first-contact-place-vs.md)
+* [IvtApplicationDepartmentVS](ValueSet-ivt-application-department-vs.md)
 * [LocationsVS](ValueSet-locations-vs.md)
 
 -------
@@ -27,7 +30,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "LocationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

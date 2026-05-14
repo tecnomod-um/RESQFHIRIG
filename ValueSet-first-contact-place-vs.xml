@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="first-contact-place-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet first-contact-place-vs</b></p><a name="first-contact-place-vs"> </a><a name="hcfirst-contact-place-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-first-contact-place-cs.html"><code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-first-contact-place-cs.html#first-contact-place-cs-HRAD">HRAD</a></td><td>radiology unit</td></tr><tr><td><a href="CodeSystem-first-contact-place-cs.html#first-contact-place-cs-ER">ER</a></td><td>Emergency room</td></tr><tr><td><a href="CodeSystem-first-contact-place-cs.html#first-contact-place-cs-OF">OF</a></td><td>Outpatient facility</td></tr><tr><td><a href="CodeSystem-first-contact-place-cs.html#first-contact-place-cs-other">other</a></td><td>Other Department</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet first-contact-place-vs</b></p><a name="first-contact-place-vs"> </a><a name="hcfirst-contact-place-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><span title="Version is not explicitly stated, which means it is fixed to 4.0.0, the version found through the package references"> version &#x1F4E6;4.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a></td><td>radiology unit</td><td>**Description:** A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</td></tr><tr><td><a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a></td><td>Emergency room</td><td>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</td></tr><tr><td><a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF">OF</a></td><td>Outpatient facility</td><td/></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-location-cs.html"><code>http://tecnomod-um.org/CodeSystem/location-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-location-cs.html#location-cs-other">other</a></td><td>Other Location</td></tr></table></li></ul></div>
   </text>
   <url value="http://tecnomod-um.org/ValueSet/first-contact-place-vs"/>
   <version value="1.0.0"/>
@@ -11,7 +11,7 @@
   <title value="FirstContactPlace ValueSet"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-05-14T09:35:04+00:00"/>
+  <date value="2026-05-14T11:02:20+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -30,7 +30,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://tecnomod-um.org/CodeSystem/first-contact-place-cs"/>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
       <concept>
         <code value="HRAD"/>
         <display value="radiology unit"/>
@@ -43,9 +43,12 @@
         <code value="OF"/>
         <display value="Outpatient facility"/>
       </concept>
+    </include>
+    <include>
+      <system value="http://tecnomod-um.org/CodeSystem/location-cs"/>
       <concept>
         <code value="other"/>
-        <display value="Other Department"/>
+        <display value="Other Location"/>
       </concept>
     </include>
   </compose>

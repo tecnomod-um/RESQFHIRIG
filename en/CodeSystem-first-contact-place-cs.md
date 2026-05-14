@@ -7,7 +7,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 
 This Code system is referenced in the definition of the following value sets:
 
-* [FirstContactPlaceVS](ValueSet-first-contact-place-vs.md)
+* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 -------
 
@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "FirstContactPlaceCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -46,7 +46,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 4,
+  "count" : 3,
   "concept" : [{
     "code" : "HRAD",
     "display" : "radiology unit"
@@ -58,10 +58,6 @@ This Code system is referenced in the definition of the following value sets:
   {
     "code" : "OF",
     "display" : "Outpatient facility"
-  },
-  {
-    "code" : "other",
-    "display" : "Other department"
   }]
 }
 

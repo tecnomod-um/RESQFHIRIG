@@ -33,7 +33,7 @@ Allowed coded values for AdmissionDepartment
   "title" : "AdmissionDepartment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T09:35:04+00:00",
+  "date" : "2026-05-14T11:02:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -68,10 +68,13 @@ Allowed coded values for AdmissionDepartment
       {
         "code" : "GIM",
         "display" : "General internal medicine clinic"
-      },
-      {
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/location-cs",
+      "concept" : [{
         "code" : "other",
-        "display" : "Other Department"
+        "display" : "Other Location"
       }]
     }]
   }
