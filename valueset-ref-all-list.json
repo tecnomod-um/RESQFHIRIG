@@ -11,10 +11,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.90", "2.16.840.1.113883.4.642.3.97"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administration-subpotent-reason",
@@ -28,10 +28,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3128"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -59,48 +59,48 @@
     "sources" : ["2.16.840.1.113883.4.642.3.21"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-resq-practitioner-role-profile.html" : "RESQ PractitionerRole Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
-    "StructureDefinition-stroke-registry-organization-profile.html" : "Stroke Registry Organization Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
-    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
-    "StructureDefinition-hospitalized-location-profile.html" : "Hospitalized Location Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
+    "StructureDefinition-resq-patient-profile.html" : "RESQ Patient Profile",
+    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
+    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-hospitalized-location-profile.html" : "Hospitalized Location Profile",
+    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
+    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
     "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-resq-patient-profile.html" : "RESQ Patient Profile",
-    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
-    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
-    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
+    "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
     "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-resq-practitioner-role-profile.html" : "RESQ PractitionerRole Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
+    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
+    "StructureDefinition-stroke-registry-organization-profile.html" : "Stroke Registry Organization Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/approach-site-codes",
@@ -114,10 +114,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.346"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -135,32 +135,32 @@
     "2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
+    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
+    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
     "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
-    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile"
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/bodystructure-bodylandmarkorientation-clockface-position",
@@ -234,11 +234,11 @@
     "2.16.840.1.113883.4.642.2.115"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
     "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/communication-category",
@@ -302,9 +302,9 @@
     "2.16.840.1.113883.4.642.2.73"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
@@ -341,14 +341,14 @@
     "uses" : {
     },
     "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile"
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -366,9 +366,9 @@
     "2.16.840.1.113883.4.642.3.159"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
@@ -386,9 +386,9 @@
     "2.16.840.1.113883.4.642.2.408"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
@@ -402,9 +402,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.171"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
@@ -422,9 +422,9 @@
     "2.16.840.1.113883.4.642.3.166"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -438,22 +438,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -471,13 +471,13 @@
     "2.16.840.1.113883.4.642.3.416"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-type",
@@ -493,14 +493,14 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1376"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
     "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
@@ -738,14 +738,14 @@
     "sources" : ["2.16.840.1.113883.4.642.3.109"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -789,48 +789,48 @@
     "2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-resq-practitioner-role-profile.html" : "RESQ PractitionerRole Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
-    "StructureDefinition-stroke-registry-organization-profile.html" : "Stroke Registry Organization Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
-    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
-    "StructureDefinition-hospitalized-location-profile.html" : "Hospitalized Location Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
+    "StructureDefinition-resq-patient-profile.html" : "RESQ Patient Profile",
+    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
+    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-hospitalized-location-profile.html" : "Hospitalized Location Profile",
+    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
+    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
     "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-resq-patient-profile.html" : "RESQ Patient Profile",
-    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
-    "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
-    "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
+    "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
     "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-resq-practitioner-role-profile.html" : "RESQ PractitionerRole Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
+    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
+    "StructureDefinition-stroke-registry-organization-profile.html" : "Stroke Registry Organization Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -878,8 +878,8 @@
     "uses" : {
     },
     "StructureDefinition-hospitalized-location-profile.html" : "Hospitalized Location Profile",
-    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
-    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile"
+    "StructureDefinition-stroke-encounter-profile.html" : "Stroke Encounter Profile",
+    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -946,10 +946,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.349"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-admin-location",
@@ -963,10 +963,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3127"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-admin-status",
@@ -984,10 +984,10 @@
     "2.16.840.1.113883.4.642.3.330"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-dose-aid",
@@ -1118,22 +1118,22 @@
     "2.16.840.1.113883.4.642.3.392"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -1151,21 +1151,21 @@
     "2.16.840.1.113883.4.642.3.383"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -1183,22 +1183,22 @@
     "2.16.840.1.113883.4.642.2.218"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -1216,21 +1216,21 @@
     "2.16.840.1.113883.4.642.3.382"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
@@ -1244,22 +1244,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3264"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -1277,22 +1277,22 @@
     "2.16.840.1.113883.4.642.2.219"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
@@ -1306,22 +1306,22 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3265"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -1355,9 +1355,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.54"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
     "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -1389,13 +1389,13 @@
     "2.16.840.1.113883.4.642.3.424"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -1413,13 +1413,13 @@
     "2.16.840.1.113883.4.642.2.241"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -1455,13 +1455,13 @@
     "2.16.840.1.113883.4.642.2.240"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -1479,10 +1479,10 @@
     "2.16.840.1.113883.4.642.2.418"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -1500,13 +1500,13 @@
     "2.16.840.1.113883.4.642.3.428"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -1524,13 +1524,13 @@
     "2.16.840.1.113883.4.642.2.419"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-vte-procedure-profile.html" : "Stroke VTE Prophylaxis Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/reason-medication-given-codes",
@@ -1548,10 +1548,10 @@
     "2.16.840.1.113883.4.642.2.188"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
@@ -1582,22 +1582,22 @@
     "2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -1615,22 +1615,22 @@
     "2.16.840.1.113883.4.642.3.384"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile",
     "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile",
     "StructureDefinition-base-stroke-observation.html" : "Base Stroke Observation Profile",
+    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
     "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
-    "StructureDefinition-timing-metric-observation-profile.html" : "Timing Metric Observation Profile",
-    "StructureDefinition-tia-clinical-symptoms-observation-profile.html" : "TIA Clinical Symptoms Observation Profile"
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-appointment-management-observation-profile.html" : "Appointment Management Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -1659,10 +1659,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.98"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/service-mode",
@@ -1742,11 +1742,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile"
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -1766,12 +1766,11 @@
     "title" : "AssessmentContext ValueSet",
     "description" : "Allowed coded values for AssessmentContext",
     "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs",
-    "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context",
-    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context"
+    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context",
+    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",
@@ -1806,8 +1805,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -1846,8 +1845,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
     "uses" : {
     },
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
@@ -1917,8 +1916,8 @@
     "uses" : {
     },
     "StructureDefinition-glasgow-coma-scale-observation-profile.html" : "Glasgow Coma Scale Observation Profile",
-    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile",
-    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile"
+    "StructureDefinition-glasgow-coma-score-observation-profile.html" : "Glasgow Coma Score Observation Profile",
+    "StructureDefinition-functional-score-observation-profile.html" : "Functional Score Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/gcsscore-vs",
@@ -1980,9 +1979,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/in-hospital-vs",
@@ -2081,11 +2080,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
@@ -2183,10 +2182,10 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
     "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile",
-    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile"
+    "StructureDefinition-nimodipine-medicationAdministration-profile.html" : "Nimodipine MedicationAdministration Profile",
+    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/observation-methods-vs",
@@ -2198,8 +2197,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile"
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
@@ -2243,9 +2242,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
@@ -2310,8 +2309,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
@@ -2407,8 +2406,8 @@
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"],
     "uses" : {
     },
-    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state",
-    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology"
+    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology",
+    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
@@ -2475,8 +2474,8 @@
     "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"],
     "uses" : {
     },
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs",

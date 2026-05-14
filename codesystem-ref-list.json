@@ -187,9 +187,9 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
     "uses" : {
     },
+    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet",
     "ValueSet-medications-vs.html" : "Medications ValueSet",
-    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
-    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet"
+    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
@@ -233,9 +233,9 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
     "uses" : {
     },
-    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
-    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
     "ValueSet-no-anticoagulant-reason-vs.html" : "NoAnticoagulantReason ValueSet",
+    "ValueSet-not-medication-reason-vs.html" : "NotMedicationReason ValueSet",
+    "ValueSet-paracetamol-on-fever-vs.html" : "ParacetamolOnFever ValueSet",
     "ValueSet-no-anticoagulant-reversal-reason-vs.html" : "NoAnticoagulantReversalReason ValueSet"
   },
   {
@@ -269,9 +269,9 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
     "uses" : {
     },
+    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet",
     "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
-    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
-    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
+    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
@@ -326,8 +326,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
     "uses" : {
     },
-    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet",
-    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet"
+    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet",
+    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
@@ -382,10 +382,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
     "uses" : {
     },
-    "ValueSet-no-thrombectomy-reason-vs.html" : "NoThrombectomyReason ValueSet",
+    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet",
     "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet",
     "ValueSet-no-ich-treatment-reason-vs.html" : "NoIchTreatmentReason ValueSet",
-    "ValueSet-no-thrombolysis-reason-vs.html" : "NoThrombolysisReason ValueSet"
+    "ValueSet-no-thrombectomy-reason-vs.html" : "NoThrombectomyReason ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
@@ -407,8 +407,7 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs.",
     "uses" : {
     },
-    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
-    "ValueSet-assessment-context-vs.html" : "AssessmentContext ValueSet"
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/symptoms-cs",
@@ -474,8 +473,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
     "uses" : {
     },
-    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
-    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet",
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
@@ -486,8 +485,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs.",
     "uses" : {
     },
-    "ValueSet-timing-metric-codes-vs.html" : "TimingMetricCodes ValueSet",
-    "ValueSet-analitics-codes-vs.html" : "AnaliticsCodes ValueSet"
+    "ValueSet-analitics-codes-vs.html" : "AnaliticsCodes ValueSet",
+    "ValueSet-timing-metric-codes-vs.html" : "TimingMetricCodes ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
@@ -557,8 +556,8 @@
     "oids" : ["2.16.840.1.113883.5.111"],
     "uses" : {
     },
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-locations-vs.html" : "Locations ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet"
   }]
 }

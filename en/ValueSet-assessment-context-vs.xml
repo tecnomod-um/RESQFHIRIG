@@ -4,7 +4,7 @@
   <id value="assessment-context-vs"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet assessment-context-vs</b></p><a name="assessment-context-vs"> </a><a name="hcassessment-context-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-assessment-context-cs.html"><code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-pre-stroke">pre-stroke</a></td><td>Pre-stroke</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-discharge">discharge</a></td><td>Discharge</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-3-month">3-month</a></td><td>3 Month Follow-up</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-admission">admission</a></td><td>Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-72-hours">72-hours</a></td><td>72 Hours After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-first-48-hours">first-48-hours</a></td><td>First 48 Hours After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-post-stroke">post-stroke</a></td><td>Post-Stroke</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-last-10-years">last-10-years</a></td><td>During Last 10 Years</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-discharge-or-7-days">discharge-or-7-days</a></td><td>Discharge or 7 Days After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-unknown">unknown</a></td><td>Unknown/Not Applicable</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-acute">acute</a></td><td>Acute Phase (&lt;24h)</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/281381003">281381003</a></td><td>More than 24 hours after admission (qualifier value)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-swallow-screen-time-cs.html"><code>http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-swallow-screen-time-cs.html#swallow-screen-time-cs-T4H">T4H</a></td><td>Within 4 Hours</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet assessment-context-vs</b></p><a name="assessment-context-vs"> </a><a name="hcassessment-context-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-assessment-context-cs.html"><code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-pre-stroke">pre-stroke</a></td><td>Pre-stroke</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-discharge">discharge</a></td><td>Discharge</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-3-month">3-month</a></td><td>3 Month Follow-up</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-admission">admission</a></td><td>Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-72-hours">72-hours</a></td><td>72 Hours After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-first-48-hours">first-48-hours</a></td><td>First 48 Hours After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-post-stroke">post-stroke</a></td><td>Post-Stroke</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-last-10-years">last-10-years</a></td><td>During Last 10 Years</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-discharge-or-7-days">discharge-or-7-days</a></td><td>Discharge or 7 Days After Admission</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-unknown">unknown</a></td><td>Unknown/Not Applicable</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-acute">acute</a></td><td>Acute Phase (&lt;24h)</td></tr><tr><td><a href="CodeSystem-assessment-context-cs.html#assessment-context-cs-T4H">T4H</a></td><td>Within 4 Hours</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/281381003">281381003</a></td><td>More than 24 hours after admission (qualifier value)</td></tr></table></li></ul></div>
   </text>
   <url value="http://tecnomod-um.org/ValueSet/assessment-context-vs"/>
   <version value="1.0.0"/>
@@ -12,7 +12,7 @@
   <title value="AssessmentContext ValueSet"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-05-14T08:55:50+00:00"/>
+  <date value="2026-05-14T09:35:04+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -76,19 +76,16 @@
         <code value="acute"/>
         <display value="Acute Phase (&lt;24h)"/>
       </concept>
+      <concept>
+        <code value="T4H"/>
+        <display value="Within 4 Hours"/>
+      </concept>
     </include>
     <include>
       <system value="http://snomed.info/sct"/>
       <concept>
         <code value="281381003"/>
         <display value="More than 24 hours after admission (qualifier value)"/>
-      </concept>
-    </include>
-    <include>
-      <system value="http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs"/>
-      <concept>
-        <code value="T4H"/>
-        <display value="Within 4 Hours"/>
       </concept>
     </include>
   </compose>

@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "AssessmentContextCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T08:55:50+00:00",
+  "date" : "2026-05-14T09:35:04+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -46,7 +46,7 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 11,
+  "count" : 12,
   "concept" : [{
     "code" : "pre-stroke",
     "display" : "Pre-stroke"
@@ -90,6 +90,10 @@ This Code system is referenced in the definition of the following value sets:
   {
     "code" : "acute",
     "display" : "Acute Phase (<24h)"
+  },
+  {
+    "code" : "T4H",
+    "display" : "Within 4 Hours"
   }]
 }
 

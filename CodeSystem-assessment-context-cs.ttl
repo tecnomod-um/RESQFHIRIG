@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "assessment-context-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem assessment-context-cs</b></p><a name=\"assessment-context-cs\"> </a><a name=\"hcassessment-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-stroke<a name=\"assessment-context-cs-pre-stroke\"> </a></td><td>Pre-stroke</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"assessment-context-cs-discharge\"> </a></td><td>Discharge</td></tr><tr><td style=\"white-space:nowrap\">3-month<a name=\"assessment-context-cs-3-month\"> </a></td><td>3 Month Follow-up</td></tr><tr><td style=\"white-space:nowrap\">admission<a name=\"assessment-context-cs-admission\"> </a></td><td>Admission</td></tr><tr><td style=\"white-space:nowrap\">72-hours<a name=\"assessment-context-cs-72-hours\"> </a></td><td>72 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">first-48-hours<a name=\"assessment-context-cs-first-48-hours\"> </a></td><td>First 48 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">post-stroke<a name=\"assessment-context-cs-post-stroke\"> </a></td><td>Post-Stroke</td></tr><tr><td style=\"white-space:nowrap\">last-10-years<a name=\"assessment-context-cs-last-10-years\"> </a></td><td>During Last 10 Years</td></tr><tr><td style=\"white-space:nowrap\">discharge-or-7-days<a name=\"assessment-context-cs-discharge-or-7-days\"> </a></td><td>Discharge or 7 Days After Admission</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"assessment-context-cs-unknown\"> </a></td><td>Unknown/Not Applicable</td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"assessment-context-cs-acute\"> </a></td><td>Acute Phase (&lt;24h)</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem assessment-context-cs</b></p><a name=\"assessment-context-cs\"> </a><a name=\"hcassessment-context-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/assessment-context-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-stroke<a name=\"assessment-context-cs-pre-stroke\"> </a></td><td>Pre-stroke</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"assessment-context-cs-discharge\"> </a></td><td>Discharge</td></tr><tr><td style=\"white-space:nowrap\">3-month<a name=\"assessment-context-cs-3-month\"> </a></td><td>3 Month Follow-up</td></tr><tr><td style=\"white-space:nowrap\">admission<a name=\"assessment-context-cs-admission\"> </a></td><td>Admission</td></tr><tr><td style=\"white-space:nowrap\">72-hours<a name=\"assessment-context-cs-72-hours\"> </a></td><td>72 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">first-48-hours<a name=\"assessment-context-cs-first-48-hours\"> </a></td><td>First 48 Hours After Admission</td></tr><tr><td style=\"white-space:nowrap\">post-stroke<a name=\"assessment-context-cs-post-stroke\"> </a></td><td>Post-Stroke</td></tr><tr><td style=\"white-space:nowrap\">last-10-years<a name=\"assessment-context-cs-last-10-years\"> </a></td><td>During Last 10 Years</td></tr><tr><td style=\"white-space:nowrap\">discharge-or-7-days<a name=\"assessment-context-cs-discharge-or-7-days\"> </a></td><td>Discharge or 7 Days After Admission</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"assessment-context-cs-unknown\"> </a></td><td>Unknown/Not Applicable</td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"assessment-context-cs-acute\"> </a></td><td>Acute Phase (&lt;24h)</td></tr><tr><td style=\"white-space:nowrap\">T4H<a name=\"assessment-context-cs-T4H\"> </a></td><td>Within 4 Hours</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/assessment-context-cs"^^xsd:anyURI ;
@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "AssessmentContextCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-14T08:55:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-14T09:35:04+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -44,7 +44,7 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "12"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "pre-stroke" ] ;
      fhir:display [ fhir:v "Pre-stroke" ]
@@ -78,6 +78,9 @@
   ] [
      fhir:code [ fhir:v "acute" ] ;
      fhir:display [ fhir:v "Acute Phase (<24h)" ]
+  ] [
+     fhir:code [ fhir:v "T4H" ] ;
+     fhir:display [ fhir:v "Within 4 Hours" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

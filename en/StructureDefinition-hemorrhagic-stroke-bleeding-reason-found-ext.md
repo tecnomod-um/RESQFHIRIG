@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-hemorrhagic-strok
   "name" : "HemorrhagicStrokeBleedingReasonFoundExt",
   "title" : "Hemorrhagic stroke bleeding reason found coded state",
   "status" : "draft",
-  "date" : "2026-05-14T08:55:50+00:00",
+  "date" : "2026-05-14T09:35:04+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

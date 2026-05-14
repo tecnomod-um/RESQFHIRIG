@@ -34,7 +34,7 @@ Allowed coded values for AssessmentContext
   "title" : "AssessmentContext ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T08:55:50+00:00",
+  "date" : "2026-05-14T09:35:04+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -97,6 +97,10 @@ Allowed coded values for AssessmentContext
       {
         "code" : "acute",
         "display" : "Acute Phase (<24h)"
+      },
+      {
+        "code" : "T4H",
+        "display" : "Within 4 Hours"
       }]
     },
     {
@@ -104,13 +108,6 @@ Allowed coded values for AssessmentContext
       "concept" : [{
         "code" : "281381003",
         "display" : "More than 24 hours after admission (qualifier value)"
-      }]
-    },
-    {
-      "system" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
-      "concept" : [{
-        "code" : "T4H",
-        "display" : "Within 4 Hours"
       }]
     }]
   }
