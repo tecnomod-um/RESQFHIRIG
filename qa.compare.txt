@@ -1,7 +1,7 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 5, warn = 117, info = 233
+err = 7, warn = 119, info = 233
 $--
 Generated $--. FHIR version $-- for RESQ-FHIR-IG#$-- (canonical = http://tecnomod-um.org)
  Build Errors : 1249 / 1253 / 0
@@ -88,7 +88,7 @@ Generated $--. FHIR version $-- for RESQ-FHIR-IG#$-- (canonical = http://tecnomo
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-procedure-timing-context-ext : 0 / 1 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-required-post-acute-care-ext : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-resq-body-structure-profile : 0 / 2 / 2
- /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-resq-location-profile : 0 / 1 / 2
+ /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-resq-location-profile : 0 / 3 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-resq-patient-profile : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-resq-practitioner-role-profile : 0 / 2 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/StructureDefinition-specific-finding-observation-profile : 0 / 3 / 2
@@ -142,7 +142,7 @@ Generated $--. FHIR version $-- for RESQ-FHIR-IG#$-- (canonical = http://tecnomo
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-ivt-application-department-vs : 0 / 0 / 3
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-ivt-drug-vs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-laterality-vs : 0 / 1 / 3
- /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-locations-vs : 0 / 0 / 2
+ /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-locations-vs : 2 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-management-appointment-vs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-medications-vs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-mimics-diagnosis-vs : 0 / 0 / 2
@@ -1355,7 +1355,7 @@ WARNING: en/StructureDefinition-resq-location-profile-mappings.html#/html/body/d
 ERROR: en/StructureDefinition-resq-location-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-resq-location-profile-testing.html#/html/body/div/div/div/p/a at Line 471, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-location-profile.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-resq-location-profile.html#/html/body/div/div/div/p/a at Line 2103, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-resq-location-profile.html#/html/body/div/div/div/p/a at Line 2115, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-location-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-resq-location-profile.profile.history.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 454, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-location-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -1363,7 +1363,7 @@ WARNING: en/StructureDefinition-resq-location-profile.profile.json.html#/html/bo
 ERROR: en/StructureDefinition-resq-location-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-resq-location-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 1717, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-location-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-resq-location-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 1863, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-resq-location-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 1865, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-patient-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-resq-patient-profile-definitions.html#/html/body/div/div/div/p/a at Line 811, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-resq-patient-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2135,13 +2135,13 @@ WARNING: en/ValueSet-locations-vs-testing.html#/html/body/div/div/div/p/a at Lin
 ERROR: en/ValueSet-locations-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-locations-vs.change.history.html#/html/body/div/div/div/p/a at Line 413, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-locations-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-locations-vs.html#/html/body/div/div/div/p/a at Line 506, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-locations-vs.html#/html/body/div/div/div/p/a at Line 508, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-locations-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-locations-vs.json.html#/html/body/div/div/div/p/a at Line 531, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-locations-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-locations-vs.ttl.html#/html/body/div/div/div/p/a at Line 518, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-locations-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-locations-vs.xml.html#/html/body/div/div/div/p/a at Line 517, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-locations-vs.xml.html#/html/body/div/div/div/p/a at Line 518, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-management-appointment-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-management-appointment-vs-testing.html#/html/body/div/div/div/p/a at Line 453, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-management-appointment-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2933,6 +2933,8 @@ WARNING: StructureDefinition/resq-body-structure-profile: StructureDefinition.sn
 WARNING: StructureDefinition.where(url = 'http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-resq-location-profile.json ==
 INFORMATION: StructureDefinition/resq-location-profile: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/resq-location-profile: StructureDefinition.snapshot.element[16].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 1.0.0 (from RESQ-FHIR-IG#1.0.0), 3.0.0 (from hl7.terminology.r5#7.1.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
+WARNING: StructureDefinition/resq-location-profile: StructureDefinition.differential.element[1].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 1.0.0 (from RESQ-FHIR-IG#1.0.0), 3.0.0 (from hl7.terminology.r5#7.1.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
 WARNING: StructureDefinition.where(url = 'http://tecnomod-um.org/StructureDefinition/resq-location-profile'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-resq-patient-profile.json ==
 INFORMATION: StructureDefinition/resq-patient-profile: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
@@ -3105,7 +3107,9 @@ INFORMATION: ValueSet/laterality-vs: ValueSet.jurisdiction[0]: Reference to depr
 WARNING: ValueSet/laterality-vs: ValueSet.compose.include[0].concept[5]: The concept '264147007' has a status of inactive and its use should be reviewed
 INFORMATION: ValueSet/laterality-vs: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Left (qualifier value), Right (qualifier value)] and examples for no FSN: [Bilateral, Distal, Dorsal, Plantar, Upper])
 == fsh-generated/resources/ValueSet-locations-vs.json ==
+ERROR: ValueSet.where(url = 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'): Conformance resource /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-locations-vs.json - the canonical URL (http://tecnomod-um.org/ValueSet/locations-vs) does not match the URL (http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType). Use the special-url parameter if you really mean for it not to match
 INFORMATION: ValueSet/locations-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+ERROR: /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-locations-vs: URL Mismatch http://tecnomod-um.org/ValueSet/locations-vs vs http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType
 == fsh-generated/resources/ValueSet-management-appointment-vs.json ==
 INFORMATION: ValueSet/management-appointment-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 == fsh-generated/resources/ValueSet-medications-vs.json ==

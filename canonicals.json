@@ -930,13 +930,6 @@
   "name" : "LateralityVS"
 },
 {
-  "id" : "locations-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/locations-vs",
-  "version" : "1.0.0",
-  "name" : "LocationsVS"
-},
-{
   "id" : "management-appointment-vs",
   "type" : "ValueSet",
   "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",
@@ -1243,4 +1236,11 @@
   "url" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs",
   "version" : "1.0.0",
   "name" : "VteProceduresVS"
+},
+{
+  "id" : "locations-vs",
+  "type" : "ValueSet",
+  "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+  "version" : "1.0.0",
+  "name" : "LocationsVS"
 }]

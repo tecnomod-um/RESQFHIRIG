@@ -7,6 +7,8 @@ Allowed coded values for Locations
 
  **References** 
 
+* [Location](http://hl7.org/fhir/R5/location.html)
+* [ServiceRequest](http://hl7.org/fhir/R5/servicerequest.html)
 * [RESQ Location Profile](StructureDefinition-resq-location-profile.md)
 
 ### Logical Definition (CLD)
@@ -27,13 +29,13 @@ Allowed coded values for Locations
 {
   "resourceType" : "ValueSet",
   "id" : "locations-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/locations-vs",
+  "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
   "version" : "1.0.0",
   "name" : "LocationsVS",
   "title" : "Locations ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-14T11:02:20+00:00",
+  "date" : "2026-05-15T10:10:20+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
