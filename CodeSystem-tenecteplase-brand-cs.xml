@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="tenecteplase-brand-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem tenecteplase-brand-cs</b></p><a name="tenecteplase-brand-cs"> </a><a name="hctenecteplase-brand-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">metalyse<a name="tenecteplase-brand-cs-metalyse"> </a></td><td>Metalyse (Boehringer Ingelheim International)</td></tr><tr><td style="white-space:nowrap">tenectase<a name="tenecteplase-brand-cs-tenectase"> </a></td><td>Tenectase (Gennova Biopharmaceuticals)</td></tr><tr><td style="white-space:nowrap">tnkase<a name="tenecteplase-brand-cs-tnkase"> </a></td><td>TNKase (Genentech/Roche)</td></tr><tr><td style="white-space:nowrap">supralase<a name="tenecteplase-brand-cs-supralase"> </a></td><td>Supraplase (Cadila Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">velix<a name="tenecteplase-brand-cs-velix"> </a></td><td>Velix (Emcure Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">tenectelex<a name="tenecteplase-brand-cs-tenectelex"> </a></td><td>Tenectelex (Abbott Healthcare)</td></tr><tr><td style="white-space:nowrap">telyse<a name="tenecteplase-brand-cs-telyse"> </a></td><td>Telyse (Cipla)</td></tr><tr><td style="white-space:nowrap">tenepact<a name="tenecteplase-brand-cs-tenepact"> </a></td><td>Tenepact (Glenmark Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">other<a name="tenecteplase-brand-cs-other"> </a></td><td>Other Tenecteplase Brand</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem tenecteplase-brand-cs</b></p><a name="tenecteplase-brand-cs"> </a><a name="hctenecteplase-brand-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">metalyse<a name="tenecteplase-brand-cs-metalyse"> </a></td><td>Metalyse (Boehringer Ingelheim International)</td></tr><tr><td style="white-space:nowrap">tenectase<a name="tenecteplase-brand-cs-tenectase"> </a></td><td>Tenectase (Gennova Biopharmaceuticals)</td></tr><tr><td style="white-space:nowrap">tnkase<a name="tenecteplase-brand-cs-tnkase"> </a></td><td>TNKase (Genentech/Roche)</td></tr><tr><td style="white-space:nowrap">supralase<a name="tenecteplase-brand-cs-supralase"> </a></td><td>Supraplase (Cadila Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">velix<a name="tenecteplase-brand-cs-velix"> </a></td><td>Velix (Emcure Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">tenectelex<a name="tenecteplase-brand-cs-tenectelex"> </a></td><td>Tenectelex (Abbott Healthcare)</td></tr><tr><td style="white-space:nowrap">telyse<a name="tenecteplase-brand-cs-telyse"> </a></td><td>Telyse (Cipla)</td></tr><tr><td style="white-space:nowrap">tenepact<a name="tenecteplase-brand-cs-tenepact"> </a></td><td>Tenepact (Glenmark Pharmaceuticals)</td></tr><tr><td style="white-space:nowrap">other<a name="tenecteplase-brand-cs-other"> </a></td><td>Other</td></tr></table></div>
   </text>
   <url value="http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs"/>
   <version value="1.0.0"/>
@@ -11,7 +11,7 @@
   <title value="TenecteplaseBrandCs CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-06-01T10:42:50+00:00"/>
+  <date value="2026-06-01T12:57:35+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -65,6 +65,6 @@
   </concept>
   <concept>
     <code value="other"/>
-    <display value="Other Tenecteplase Brand"/>
+    <display value="Other"/>
   </concept>
 </CodeSystem>

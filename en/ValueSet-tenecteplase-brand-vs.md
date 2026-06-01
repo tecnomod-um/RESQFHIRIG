@@ -1,13 +1,13 @@
-# TecnetplaseBrand ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
+# TenecteplaseBrand ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
 
-## ValueSet: TecnetplaseBrand ValueSet 
+## ValueSet: TenecteplaseBrand ValueSet 
 
  
-Allowed coded values for TecnetplaseBrand 
+Allowed coded values for TenecteplaseBrand 
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Tenecteplase Brand Medication Profile](StructureDefinition-tenecteplase-brand-medication-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -26,14 +26,14 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "tecnetplase-brand-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/tecnetplase-brand-vs",
+  "id" : "tenecteplase-brand-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs",
   "version" : "1.0.0",
-  "name" : "TecnetplaseBrandVS",
-  "title" : "TecnetplaseBrand ValueSet",
+  "name" : "TenecteplaseBrandVS",
+  "title" : "TenecteplaseBrand ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T10:42:50+00:00",
+  "date" : "2026-06-01T12:57:35+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -42,7 +42,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for TecnetplaseBrand",
+  "description" : "Allowed coded values for TenecteplaseBrand",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

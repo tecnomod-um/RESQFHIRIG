@@ -7,7 +7,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 
 This Code system is referenced in the definition of the following value sets:
 
-* [TecnetplaseBrandVS](ValueSet-tecnetplase-brand-vs.md)
+* [TenecteplaseBrandVS](ValueSet-tenecteplase-brand-vs.md)
 
 -------
 
@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "TenecteplaseBrandCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T10:42:50+00:00",
+  "date" : "2026-06-01T12:57:35+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -81,7 +81,7 @@ This Code system is referenced in the definition of the following value sets:
   },
   {
     "code" : "other",
-    "display" : "Other Tenecteplase Brand"
+    "display" : "Other"
   }]
 }
 

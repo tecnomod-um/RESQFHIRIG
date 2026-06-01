@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-01T10:42:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-01T12:57:35+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -2873,15 +2873,33 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/tenecteplase-brand-medication-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Tenecteplase Brand Medication Profile" ] ;
+       fhir:description [ fhir:v "Medication profile for tenecteplase with a specific brand name, used in the RES-Q registry to capture the use of tenecteplase in stroke treatment." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/tecnetplase-brand-vs> ;
-         fhir:reference [ fhir:v "ValueSet/tecnetplase-brand-vs" ]
+         fhir:l <http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs> ;
+         fhir:reference [ fhir:v "ValueSet/tenecteplase-brand-vs" ]
        ] ;
-       fhir:name [ fhir:v "TecnetplaseBrand ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for TecnetplaseBrand" ] ;
+       fhir:name [ fhir:v "TenecteplaseBrand ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for TenecteplaseBrand" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

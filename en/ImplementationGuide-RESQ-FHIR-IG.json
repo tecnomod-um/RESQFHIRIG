@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-01T10:42:50+00:00",
+  "date" : "2026-06-01T12:57:35+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -1901,13 +1901,25 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tenecteplase-brand-medication-profile"
+      },
+      "name" : "Tenecteplase Brand Medication Profile",
+      "description" : "Medication profile for tenecteplase with a specific brand name, used in the RES-Q registry to capture the use of tenecteplase in stroke treatment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/tecnetplase-brand-vs"
+        "reference" : "ValueSet/tenecteplase-brand-vs"
       },
-      "name" : "TecnetplaseBrand ValueSet",
-      "description" : "Allowed coded values for TecnetplaseBrand",
+      "name" : "TenecteplaseBrand ValueSet",
+      "description" : "Allowed coded values for TenecteplaseBrand",
       "isExample" : false
     },
     {

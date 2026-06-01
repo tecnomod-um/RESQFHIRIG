@@ -678,6 +678,13 @@
   "name" : "StrokeVTEProcedureProfile"
 },
 {
+  "id" : "tenecteplase-brand-medication-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile",
+  "version" : "1.0.0",
+  "name" : "TenecteplaseBrandMedicationProfile"
+},
+{
   "id" : "three-month-communication-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/three-month-communication-profile",
@@ -1140,11 +1147,11 @@
   "name" : "SwallowingScreeningTypeVS"
 },
 {
-  "id" : "tecnetplase-brand-vs",
+  "id" : "tenecteplase-brand-vs",
   "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/tecnetplase-brand-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs",
   "version" : "1.0.0",
-  "name" : "TecnetplaseBrandVS"
+  "name" : "TenecteplaseBrandVS"
 },
 {
   "id" : "three-month-contact-mode-vs",
