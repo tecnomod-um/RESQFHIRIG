@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -373,18 +373,6 @@
       },
       "name" : "DischargeFacilityType ValueSet",
       "description" : "Allowed coded values for DischargeFacilityType",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/discharge-medication-vs"
-      },
-      "name" : "DischargeMedication ValueSet",
-      "description" : "Allowed coded values for DischargeMedication",
       "isExample" : false
     },
     {
@@ -1086,61 +1074,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "ValueSet/no-anticoagulant-reason-vs"
+        "reference" : "StructureDefinition/no-anticoagulant-discharge-reason-observation-profile"
       },
-      "name" : "NoAnticoagulantReason ValueSet",
-      "description" : "Allowed coded values for NoAnticoagulantReason",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-anticoagulant-reversal-reason-vs"
-      },
-      "name" : "NoAnticoagulantReversalReason ValueSet",
-      "description" : "Allowed coded values for NoAnticoagulantReversalReason",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-ich-treatment-reason-vs"
-      },
-      "name" : "NoIchTreatmentReason ValueSet",
-      "description" : "Allowed coded values for NoIchTreatmentReason",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-thrombectomy-reason-vs"
-      },
-      "name" : "NoThrombectomyReason ValueSet",
-      "description" : "Allowed coded values for NoThrombectomyReason",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-thrombolysis-reason-vs"
-      },
-      "name" : "NoThrombolysisReason ValueSet",
-      "description" : "Allowed coded values for NoThrombolysisReason",
+      "name" : "No Anticoagulant Discharge Reason Observation Profile",
+      "description" : "Observation profile for recording the reason for not prescribing anticoagulants at discharge after ischemic stroke or TIA.",
       "isExample" : false
     },
     {
@@ -1214,6 +1154,17 @@
       "name" : "OldInfarctCs CodeSystem",
       "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs.",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/OrganizationExample"
+      },
+      "name" : "OrganizationExample",
+      "isExample" : true
     },
     {
       "extension" : [{

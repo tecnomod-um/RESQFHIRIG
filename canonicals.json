@@ -316,7 +316,7 @@
 {
   "id" : "analitics-observation-profile",
   "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/analitics-observation-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/analytics-observation-profile",
   "version" : "1.0.0",
   "name" : "AnaliticsObservationProfile"
 },
@@ -487,6 +487,13 @@
   "url" : "http://tecnomod-um.org/StructureDefinition/nimodipine-medicationAdministration-profile",
   "version" : "1.0.0",
   "name" : "NimodipineMedicationAdministrationProfile"
+},
+{
+  "id" : "no-anticoagulant-discharge-reason-observation-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/no-anticoagulant-discharge-reason-observation-profile",
+  "version" : "1.0.0",
+  "name" : "NoAnticoagulantDischargeReasonObservationProfile"
 },
 {
   "id" : "observation-timing-context-ext",
@@ -825,13 +832,6 @@
   "name" : "DischargeFacilityTypeVS"
 },
 {
-  "id" : "discharge-medication-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/discharge-medication-vs",
-  "version" : "1.0.0",
-  "name" : "DischargeMedicationVS"
-},
-{
   "id" : "first-contact-place-vs",
   "type" : "ValueSet",
   "url" : "http://tecnomod-um.org/ValueSet/first-contact-place-vs",
@@ -970,41 +970,6 @@
   "url" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs",
   "version" : "1.0.0",
   "name" : "NimodipinetimingVS"
-},
-{
-  "id" : "no-anticoagulant-reason-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/no-anticoagulant-reason-vs",
-  "version" : "1.0.0",
-  "name" : "NoAnticoagulantReasonVS"
-},
-{
-  "id" : "no-anticoagulant-reversal-reason-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/no-anticoagulant-reversal-reason-vs",
-  "version" : "1.0.0",
-  "name" : "NoAnticoagulantReversalReasonVS"
-},
-{
-  "id" : "no-ich-treatment-reason-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/no-ich-treatment-reason-vs",
-  "version" : "1.0.0",
-  "name" : "NoIchTreatmentReasonVS"
-},
-{
-  "id" : "no-thrombectomy-reason-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/no-thrombectomy-reason-vs",
-  "version" : "1.0.0",
-  "name" : "NoThrombectomyReasonVS"
-},
-{
-  "id" : "no-thrombolysis-reason-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/no-thrombolysis-reason-vs",
-  "version" : "1.0.0",
-  "name" : "NoThrombolysisReasonVS"
 },
 {
   "id" : "not-medication-reason-vs",

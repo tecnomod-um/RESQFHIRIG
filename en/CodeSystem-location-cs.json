@@ -4,7 +4,7 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem location-cs</b></p><a name=\"location-cs\"> </a><a name=\"hclocation-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/location-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"location-cs-other\"> </a></td><td>Other Location</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem location-cs</b></p><a name=\"location-cs\"> </a><a name=\"hclocation-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/location-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"location-cs-other\"> </a></td><td>Other Location</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"location-cs-unknown\"> </a></td><td>Unknown Location</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/location-cs",
   "version" : "1.0.0",
@@ -12,7 +12,7 @@
   "title" : "LocationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -31,9 +31,13 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1,
+  "count" : 2,
   "concept" : [{
     "code" : "other",
     "display" : "Other Location"
+  },
+  {
+    "code" : "unknown",
+    "display" : "Unknown Location"
   }]
 }

@@ -9,7 +9,7 @@ Observation profile for fever presence or temperature values during the stroke p
 
 * Refer to this Profile: [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/fever-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-fever-observation-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-fever-observation
   "title" : "Fever Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

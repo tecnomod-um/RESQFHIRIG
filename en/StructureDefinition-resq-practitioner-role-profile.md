@@ -9,7 +9,7 @@ PractitionerRole profile for recording the type of clinician or professional per
 
 * Refer to this Profile: [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/resq-practitioner-role-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-resq-practitioner-role-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-practitioner
   "title" : "RESQ PractitionerRole Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

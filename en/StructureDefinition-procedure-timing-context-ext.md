@@ -12,7 +12,7 @@ Timing or phase context for procedure execution, such as acute/post-acute or spe
 
 * Use this Extension: [Stroke Imaging Procedure Profile](StructureDefinition-stroke-imaging-procedure-profile.md), [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md), [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md) and [Stroke Treatment Procedure Profile](StructureDefinition-stroke-treatment-procedure-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/procedure-timing-context-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-procedure-timing-context-ext.json)
 
 ### Formal Views of Extension Content
 
@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-procedure-timing-
   "name" : "ProcedureTimingContextExt",
   "title" : "Procedure timing context",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

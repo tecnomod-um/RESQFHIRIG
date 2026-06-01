@@ -11,7 +11,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-05-15T10:10:20+00:00"/>
+  <date value="2026-06-01T07:47:29+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -342,17 +342,6 @@
       </reference>
       <name value="DischargeFacilityType ValueSet"/>
       <description value="Allowed coded values for DischargeFacilityType"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/discharge-medication-vs"/>
-      </reference>
-      <name value="DischargeMedication ValueSet"/>
-      <description value="Allowed coded values for DischargeMedication"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -995,57 +984,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="ValueSet/no-anticoagulant-reason-vs"/>
+        <reference value="StructureDefinition/no-anticoagulant-discharge-reason-observation-profile"/>
       </reference>
-      <name value="NoAnticoagulantReason ValueSet"/>
-      <description value="Allowed coded values for NoAnticoagulantReason"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/no-anticoagulant-reversal-reason-vs"/>
-      </reference>
-      <name value="NoAnticoagulantReversalReason ValueSet"/>
-      <description value="Allowed coded values for NoAnticoagulantReversalReason"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/no-ich-treatment-reason-vs"/>
-      </reference>
-      <name value="NoIchTreatmentReason ValueSet"/>
-      <description value="Allowed coded values for NoIchTreatmentReason"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/no-thrombectomy-reason-vs"/>
-      </reference>
-      <name value="NoThrombectomyReason ValueSet"/>
-      <description value="Allowed coded values for NoThrombectomyReason"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/no-thrombolysis-reason-vs"/>
-      </reference>
-      <name value="NoThrombolysisReason ValueSet"/>
-      <description value="Allowed coded values for NoThrombolysisReason"/>
+      <name value="No Anticoagulant Discharge Reason Observation Profile"/>
+      <description value="Observation profile for recording the reason for not prescribing anticoagulants at discharge after ischemic stroke or TIA."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1113,6 +1058,16 @@
       <name value="OldInfarctCs CodeSystem"/>
       <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/OrganizationExample"/>
+      </reference>
+      <name value="OrganizationExample"/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

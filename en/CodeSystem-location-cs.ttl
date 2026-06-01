@@ -12,7 +12,7 @@
   fhir:language [ fhir:v "en"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem location-cs</b></p><a name=\"location-cs\"> </a><a name=\"hclocation-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/location-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"location-cs-other\"> </a></td><td>Other Location</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem location-cs</b></p><a name=\"location-cs\"> </a><a name=\"hclocation-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/location-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"location-cs-other\"> </a></td><td>Other Location</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"location-cs-unknown\"> </a></td><td>Unknown Location</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/location-cs"^^xsd:anyURI ;
@@ -23,7 +23,7 @@
   fhir:title [ fhir:v "LocationCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-15T10:10:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-01T07:47:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -45,10 +45,13 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "other" ] ;
      fhir:display [ fhir:v "Other Location" ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown Location" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

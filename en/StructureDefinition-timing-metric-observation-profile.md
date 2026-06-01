@@ -9,7 +9,7 @@ Observation profile for stroke time metrics and process indicators such as door-
 
 * Examples for this Profile: [Observation/ExampleDoorToNeedle](Observation-ExampleDoorToNeedle.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/timing-metric-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-timing-metric-observation-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-timing-metric-obs
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

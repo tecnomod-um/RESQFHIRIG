@@ -13,7 +13,7 @@ Boolean flag indicating that the stroke was first noticed after waking; onsetDat
 * Use this Extension: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 * Examples for this Extension: [Condition/ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/wakeup-stroke-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-wakeup-stroke-ext.json)
 
 ### Formal Views of Extension Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-wakeup-stroke-ext
   "name" : "WakeupStrokeExt",
   "title" : "Wake-up stroke",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

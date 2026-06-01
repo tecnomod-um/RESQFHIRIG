@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-15T10:10:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-01T07:47:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -567,24 +567,6 @@
        ] ;
        fhir:name [ fhir:v "DischargeFacilityType ValueSet" ] ;
        fhir:description [ fhir:v "Allowed coded values for DischargeFacilityType" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/discharge-medication-vs> ;
-         fhir:reference [ fhir:v "ValueSet/discharge-medication-vs" ]
-       ] ;
-       fhir:name [ fhir:v "DischargeMedication ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for DischargeMedication" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1650,87 +1632,15 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ValueSet"
+           fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/no-anticoagulant-reason-vs> ;
-         fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reason-vs" ]
+         fhir:l <http://tecnomod-um.org/StructureDefinition/no-anticoagulant-discharge-reason-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/no-anticoagulant-discharge-reason-observation-profile" ]
        ] ;
-       fhir:name [ fhir:v "NoAnticoagulantReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReason" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/no-anticoagulant-reversal-reason-vs> ;
-         fhir:reference [ fhir:v "ValueSet/no-anticoagulant-reversal-reason-vs" ]
-       ] ;
-       fhir:name [ fhir:v "NoAnticoagulantReversalReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoAnticoagulantReversalReason" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/no-ich-treatment-reason-vs> ;
-         fhir:reference [ fhir:v "ValueSet/no-ich-treatment-reason-vs" ]
-       ] ;
-       fhir:name [ fhir:v "NoIchTreatmentReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoIchTreatmentReason" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/no-thrombectomy-reason-vs> ;
-         fhir:reference [ fhir:v "ValueSet/no-thrombectomy-reason-vs" ]
-       ] ;
-       fhir:name [ fhir:v "NoThrombectomyReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoThrombectomyReason" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/no-thrombolysis-reason-vs> ;
-         fhir:reference [ fhir:v "ValueSet/no-thrombolysis-reason-vs" ]
-       ] ;
-       fhir:name [ fhir:v "NoThrombolysisReason ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for NoThrombolysisReason" ] ;
+       fhir:name [ fhir:v "No Anticoagulant Discharge Reason Observation Profile" ] ;
+       fhir:description [ fhir:v "Observation profile for recording the reason for not prescribing anticoagulants at discharge after ischemic stroke or TIA." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1840,6 +1750,23 @@
        fhir:name [ fhir:v "OldInfarctCs CodeSystem" ] ;
        fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs." ] ;
        fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Organization"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/Organization/OrganizationExample> ;
+         fhir:reference [ fhir:v "Organization/OrganizationExample" ]
+       ] ;
+       fhir:name [ fhir:v "OrganizationExample" ] ;
+       fhir:isExample [ fhir:v true ]
      ] [
        fhir:extension ( [
          fhir:url [

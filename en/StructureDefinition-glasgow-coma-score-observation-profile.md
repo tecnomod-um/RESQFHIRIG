@@ -7,9 +7,9 @@ Specialized functional score profile for Glasgow Coma Score values captured by t
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* This Profile is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/glasgow-coma-score-observation-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-glasgow-coma-score-observation-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-glasgow-coma-scor
   "title" : "Glasgow Coma Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

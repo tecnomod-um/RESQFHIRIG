@@ -7,6 +7,7 @@ Allowed coded values for Medications
 
  **References** 
 
+* [Discharge MedicationRequest Profile](StructureDefinition-discharge-medication-request-profile.md)
 * [Prior MedicationStatement Profile](StructureDefinition-prior-medication-statement-profile.md)
 * [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md)
 
@@ -34,7 +35,7 @@ Allowed coded values for Medications
   "title" : "Medications ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -168,6 +169,10 @@ Allowed coded values for Medications
       {
         "code" : "387502003",
         "display" : "Nimodipine (substance)"
+      },
+      {
+        "code" : "372912004",
+        "display" : "Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action (substance)"
       }]
     }]
   }

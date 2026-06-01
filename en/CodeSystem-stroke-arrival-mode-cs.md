@@ -27,7 +27,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "StrokeArrivalModeCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -46,30 +46,34 @@ This Code system is referenced in the definition of the following value sets:
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 6,
+  "count" : 7,
   "concept" : [{
+    "code" : "ems-home",
+    "display" : "patient arrived by EMS/ambulance from home/scene"
+  },
+  {
     "code" : "ems-gp",
-    "display" : "EMS from GP"
+    "display" : "patient arrived by EMS/ambulance from general practitioner/outpatient office/community service"
   },
   {
     "code" : "priv-transport",
-    "display" : "Private Transportation"
+    "display" : "patient arrived by private transportation from home/scene"
   },
   {
     "code" : "stroke-center",
-    "display" : "Stroke Center"
+    "display" : "patient arrived from stroke treating center"
   },
   {
     "code" : "another-hosp",
-    "display" : "Another Hospital"
+    "display" : "patient arrived from hospital that is not stroke treating center"
   },
   {
     "code" : "priv-transport-gp",
-    "display" : "Private Transportation from GP"
+    "display" : "patient arrived by private transportation from general practitioner/outpatient office/community service"
   },
   {
     "code" : "in-hospital-stroke",
-    "display" : "In-Hospital Stroke"
+    "display" : "stroke while hospitalized in another department of the same hospital"
   }]
 }
 

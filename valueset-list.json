@@ -152,15 +152,6 @@
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/discharge-medication-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "DischargeMedicationVS",
-    "title" : "DischargeMedication ValueSet",
-    "description" : "Allowed coded values for DischargeMedication",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/discharge-medication-cs"]
-  },
-  {
     "url" : "http://tecnomod-um.org/ValueSet/first-contact-place-vs",
     "version" : "1.0.0",
     "status" : "active",
@@ -348,53 +339,6 @@
     "description" : "Allowed coded values for Nimodipinetiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs",
     "http://snomed.info/sct"]
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/no-anticoagulant-reason-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "NoAnticoagulantReasonVS",
-    "title" : "NoAnticoagulantReason ValueSet",
-    "description" : "Allowed coded values for NoAnticoagulantReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
-    "http://snomed.info/sct"]
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/no-anticoagulant-reversal-reason-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "NoAnticoagulantReversalReasonVS",
-    "title" : "NoAnticoagulantReversalReason ValueSet",
-    "description" : "Allowed coded values for NoAnticoagulantReversalReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"]
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/no-ich-treatment-reason-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "NoIchTreatmentReasonVS",
-    "title" : "NoIchTreatmentReason ValueSet",
-    "description" : "Allowed coded values for NoIchTreatmentReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
-    "http://snomed.info/sct"]
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/no-thrombectomy-reason-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "NoThrombectomyReasonVS",
-    "title" : "NoThrombectomyReason ValueSet",
-    "description" : "Allowed coded values for NoThrombectomyReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"]
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/no-thrombolysis-reason-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "NoThrombolysisReasonVS",
-    "title" : "NoThrombolysisReason ValueSet",
-    "description" : "Allowed coded values for NoThrombolysisReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs",

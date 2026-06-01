@@ -12,7 +12,7 @@ Timing category used by medication-administration builders, e.g. insulin within 
 
 * Use this Extension: [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medicationAdministration-profile.md) and [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/assessment-timing-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-assessment-timing-ext.json)
 
 ### Formal Views of Extension Content
 
@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-assessment-timing
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

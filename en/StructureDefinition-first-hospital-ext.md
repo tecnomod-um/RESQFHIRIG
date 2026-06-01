@@ -13,7 +13,7 @@ Boolean flag indicating whether the Encounter corresponds to the first hospital 
 * Use this Extension: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 * Examples for this Extension: [Encounter/ExampleStrokeEncounter](Encounter-ExampleStrokeEncounter.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/first-hospital-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-first-hospital-ext.json)
 
 ### Formal Views of Extension Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-first-hospital-ex
   "name" : "FirstHospitalExt",
   "title" : "First hospital for the stroke episode",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](../StructureDefinition-first-hospital-ex
       "path" : "Extension.value[x]",
       "min" : 1,
       "type" : [{
-        "code" : "boolean"
+        "code" : "Reference"
       }],
       "mustSupport" : true
     }]

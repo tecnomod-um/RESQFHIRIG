@@ -4,7 +4,7 @@
 
 Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 
-**First hospital for the stroke episode**: true
+**First hospital for the stroke episode**: [Organization Example Healthcare Organization](Organization-OrganizationExample.md)
 
 **Required post-acute care**: false
 
@@ -34,7 +34,9 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
   },
   "extension" : [{
     "url" : "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
-    "valueBoolean" : true
+    "valueReference" : {
+      "reference" : "Organization/OrganizationExample"
+    }
   },
   {
     "url" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",

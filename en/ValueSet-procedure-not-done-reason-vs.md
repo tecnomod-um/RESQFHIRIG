@@ -35,7 +35,7 @@ Allowed coded values for ProcedureNotDoneReason
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -146,6 +146,22 @@ Allowed coded values for ProcedureNotDoneReason
       {
         "code" : "transfer-ivt",
         "display" : "Transferred elsewhere to perform IVT"
+      },
+      {
+        "code" : "not-reported",
+        "display" : "Reason for not treating not reported"
+      },
+      {
+        "code" : "lesion-developed",
+        "display" : "Lesion Developed"
+      },
+      {
+        "code" : "previous-bleeding",
+        "display" : "Previous Bleeding"
+      },
+      {
+        "code" : "anticoagulant-use",
+        "display" : "Anticoagulant Use"
       }]
     },
     {

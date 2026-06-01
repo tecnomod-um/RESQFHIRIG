@@ -7,9 +7,9 @@ Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, the
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* This Profile is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/stroke-treatment-procedure-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-stroke-treatment-procedure-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
   "title" : "Stroke Treatment Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -124,7 +124,11 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-treatment-
       "path" : "Procedure.code",
       "short" : "Treatment, rehabilitation or neurosurgical procedure",
       "min" : 1,
-      "mustSupport" : true
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/ich-treatment-vs"
+      }
     },
     {
       "id" : "Procedure.subject",

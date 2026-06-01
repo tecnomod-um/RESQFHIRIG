@@ -13,7 +13,7 @@ Boolean indicator that post-acute care is required or applicable to the resource
 * Use this Extension: [Patient Ventilated Observation Profile](StructureDefinition-patient-ventilated-observation-profile.md), [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md) and [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md)
 * Examples for this Extension: [Encounter/ExampleStrokeEncounter](Encounter-ExampleStrokeEncounter.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/required-post-acute-care-ext)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-required-post-acute-care-ext.json)
 
 ### Formal Views of Extension Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-required-post-acu
   "name" : "RequiredPostAcuteCareExt",
   "title" : "Required post-acute care",
   "status" : "draft",
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -10,7 +10,7 @@ Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-o
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown ( patient-001)](Patient-ExampleRESQPatient.md)
 
-**encounter**: [Encounter: extension = true,false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
+**encounter**: [Encounter: extension = ->Organization Example Healthcare Organization,false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
 
 **value**: 38 minute (Details: ucum codemin = 'min')
 

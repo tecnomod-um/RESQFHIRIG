@@ -33,7 +33,7 @@ Allowed coded values for RiskFactor
   "title" : "RiskFactor ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -112,6 +112,14 @@ Allowed coded values for RiskFactor
       {
         "code" : "429098002",
         "display" : "Thromboembolism of vein (disorder)"
+      },
+      {
+        "code" : "66590003",
+        "display" : "Alcohol dependence (disorder)"
+      },
+      {
+        "code" : "73430006",
+        "display" : "Sleep apnea (disorder)"
       }]
     },
     {

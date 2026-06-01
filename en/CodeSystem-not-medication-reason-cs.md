@@ -7,8 +7,6 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 
 This Code system is referenced in the definition of the following value sets:
 
-* [NoAnticoagulantReasonVS](ValueSet-no-anticoagulant-reason-vs.md)
-* [NoAnticoagulantReversalReasonVS](ValueSet-no-anticoagulant-reversal-reason-vs.md)
 * [NotMedicationReasonVS](ValueSet-not-medication-reason-vs.md)
 * [ParacetamolOnFeverVS](ValueSet-paracetamol-on-fever-vs.md)
 
@@ -30,7 +28,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "NotMedicationReasonCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

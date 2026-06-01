@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "stroke-arrival-mode-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-arrival-mode-cs</b></p><a name=\"stroke-arrival-mode-cs\"> </a><a name=\"hcstroke-arrival-mode-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ems-gp<a name=\"stroke-arrival-mode-cs-ems-gp\"> </a></td><td>EMS from GP</td></tr><tr><td style=\"white-space:nowrap\">priv-transport<a name=\"stroke-arrival-mode-cs-priv-transport\"> </a></td><td>Private Transportation</td></tr><tr><td style=\"white-space:nowrap\">stroke-center<a name=\"stroke-arrival-mode-cs-stroke-center\"> </a></td><td>Stroke Center</td></tr><tr><td style=\"white-space:nowrap\">another-hosp<a name=\"stroke-arrival-mode-cs-another-hosp\"> </a></td><td>Another Hospital</td></tr><tr><td style=\"white-space:nowrap\">priv-transport-gp<a name=\"stroke-arrival-mode-cs-priv-transport-gp\"> </a></td><td>Private Transportation from GP</td></tr><tr><td style=\"white-space:nowrap\">in-hospital-stroke<a name=\"stroke-arrival-mode-cs-in-hospital-stroke\"> </a></td><td>In-Hospital Stroke</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem stroke-arrival-mode-cs</b></p><a name=\"stroke-arrival-mode-cs\"> </a><a name=\"hcstroke-arrival-mode-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ems-home<a name=\"stroke-arrival-mode-cs-ems-home\"> </a></td><td>patient arrived by EMS/ambulance from home/scene</td></tr><tr><td style=\"white-space:nowrap\">ems-gp<a name=\"stroke-arrival-mode-cs-ems-gp\"> </a></td><td>patient arrived by EMS/ambulance from general practitioner/outpatient office/community service</td></tr><tr><td style=\"white-space:nowrap\">priv-transport<a name=\"stroke-arrival-mode-cs-priv-transport\"> </a></td><td>patient arrived by private transportation from home/scene</td></tr><tr><td style=\"white-space:nowrap\">stroke-center<a name=\"stroke-arrival-mode-cs-stroke-center\"> </a></td><td>patient arrived from stroke treating center</td></tr><tr><td style=\"white-space:nowrap\">another-hosp<a name=\"stroke-arrival-mode-cs-another-hosp\"> </a></td><td>patient arrived from hospital that is not stroke treating center</td></tr><tr><td style=\"white-space:nowrap\">priv-transport-gp<a name=\"stroke-arrival-mode-cs-priv-transport-gp\"> </a></td><td>patient arrived by private transportation from general practitioner/outpatient office/community service</td></tr><tr><td style=\"white-space:nowrap\">in-hospital-stroke<a name=\"stroke-arrival-mode-cs-in-hospital-stroke\"> </a></td><td>stroke while hospitalized in another department of the same hospital</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"^^xsd:anyURI ;
@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "StrokeArrivalModeCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-15T10:10:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-01T07:47:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -44,25 +44,28 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
+     fhir:code [ fhir:v "ems-home" ] ;
+     fhir:display [ fhir:v "patient arrived by EMS/ambulance from home/scene" ]
+  ] [
      fhir:code [ fhir:v "ems-gp" ] ;
-     fhir:display [ fhir:v "EMS from GP" ]
+     fhir:display [ fhir:v "patient arrived by EMS/ambulance from general practitioner/outpatient office/community service" ]
   ] [
      fhir:code [ fhir:v "priv-transport" ] ;
-     fhir:display [ fhir:v "Private Transportation" ]
+     fhir:display [ fhir:v "patient arrived by private transportation from home/scene" ]
   ] [
      fhir:code [ fhir:v "stroke-center" ] ;
-     fhir:display [ fhir:v "Stroke Center" ]
+     fhir:display [ fhir:v "patient arrived from stroke treating center" ]
   ] [
      fhir:code [ fhir:v "another-hosp" ] ;
-     fhir:display [ fhir:v "Another Hospital" ]
+     fhir:display [ fhir:v "patient arrived from hospital that is not stroke treating center" ]
   ] [
      fhir:code [ fhir:v "priv-transport-gp" ] ;
-     fhir:display [ fhir:v "Private Transportation from GP" ]
+     fhir:display [ fhir:v "patient arrived by private transportation from general practitioner/outpatient office/community service" ]
   ] [
      fhir:code [ fhir:v "in-hospital-stroke" ] ;
-     fhir:display [ fhir:v "In-Hospital Stroke" ]
+     fhir:display [ fhir:v "stroke while hospitalized in another department of the same hospital" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

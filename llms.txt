@@ -3,12 +3,12 @@
 ## Pages
 
 * [Home](en/index.md)
-* [Artifacts Summary](en/artifacts.md)
 * [Profiles](en/profiles.md)
-* [Terminology](en/terminology.md)
-* [Extensions](en/extensions.md)
 * [Modeling](en/modeling.md)
 * [Resource Map](en/resource-map.md)
+* [Extensions](en/extensions.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Terminology](en/terminology.md)
 
 ## Resources
 
@@ -77,7 +77,6 @@
 * [DischargeDestination ValueSet](en/ValueSet-discharge-destination-vs.md)
 * [DischargeFacilityDepartment ValueSet](en/ValueSet-discharge-facility-department-vs.md)
 * [DischargeFacilityType ValueSet](en/ValueSet-discharge-facility-type-vs.md)
-* [DischargeMedication ValueSet](en/ValueSet-discharge-medication-vs.md)
 * [FirstContactPlace ValueSet](en/ValueSet-first-contact-place-vs.md)
 * [FunctionalScore ValueSet](en/ValueSet-functional-score-vs.md)
 * [GCSScore ValueSet](en/ValueSet-gcsscore-vs.md)
@@ -99,11 +98,6 @@
 * [MRsScore ValueSet](en/ValueSet-mrs-score-vs.md)
 * [MTiciScore ValueSet](en/ValueSet-mtici-score-vs.md)
 * [Nimodipinetiming ValueSet](en/ValueSet-nimodipinetiming-vs.md)
-* [NoAnticoagulantReason ValueSet](en/ValueSet-no-anticoagulant-reason-vs.md)
-* [NoAnticoagulantReversalReason ValueSet](en/ValueSet-no-anticoagulant-reversal-reason-vs.md)
-* [NoIchTreatmentReason ValueSet](en/ValueSet-no-ich-treatment-reason-vs.md)
-* [NoThrombectomyReason ValueSet](en/ValueSet-no-thrombectomy-reason-vs.md)
-* [NoThrombolysisReason ValueSet](en/ValueSet-no-thrombolysis-reason-vs.md)
 * [NotMedicationReason ValueSet](en/ValueSet-not-medication-reason-vs.md)
 * [ObservationMethods ValueSet](en/ValueSet-observation-methods-vs.md)
 * [OccupationalTherapy ValueSet](en/ValueSet-occupational-therapy-vs.md)
@@ -155,6 +149,7 @@
 * [Insulin on Hyperglycemia MedicationAdministration Profile](en/StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.md)
 * [Mechanical Thrombectomy DiagnosticReport Profile](en/StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.md)
 * [Nimodipine MedicationAdministration Profile](en/StructureDefinition-nimodipine-medicationAdministration-profile.md)
+* [No Anticoagulant Discharge Reason Observation Profile](en/StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.md)
 * [Paracetamol on Fever MedicationAdministration Profile](en/StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.md)
 * [Patient Ventilated Observation Profile](en/StructureDefinition-patient-ventilated-observation-profile.md)
 * [Post-Stroke Complication Condition Profile](en/StructureDefinition-post-stroke-complication-condition-profile.md)
@@ -210,4 +205,5 @@
 * [ExampleStrokeDiagnosis (Condition)](en/Condition-ExampleStrokeDiagnosis.md)
 * [ExampleStrokeEncounter (Encounter)](en/Encounter-ExampleStrokeEncounter.md)
 * [ExampleDoorToNeedle (Observation)](en/Observation-ExampleDoorToNeedle.md)
+* [Example Healthcare Organization (Organization)](en/Organization-OrganizationExample.md)
 * [ExampleRESQPatient (Patient)](en/Patient-ExampleRESQPatient.md)

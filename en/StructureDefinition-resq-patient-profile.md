@@ -10,7 +10,7 @@ Patient profile for RES-Q stroke registry submissions. The registry patient is i
 * Refer to this Profile: [Base Stroke Observation Profile](StructureDefinition-base-stroke-observation.md), [Discharge MedicationRequest Profile](StructureDefinition-discharge-medication-request-profile.md), [Mechanical Thrombectomy DiagnosticReport Profile](StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.md), [Post-Stroke Complication Condition Profile](StructureDefinition-post-stroke-complication-condition-profile.md)... Show 15 more, [Prior MedicationStatement Profile](StructureDefinition-prior-medication-statement-profile.md), [RESQ BodyStructure Profile](StructureDefinition-resq-body-structure-profile.md), [Stroke Carotid Endarterectomy Procedure Profile](StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.md), [Stroke Carotid Imaging Procedure Profile](StructureDefinition-stroke-carotid-imaging-procedure-profile.md), [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md), [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md), [Stroke Imaging DiagnosticReport Profile](StructureDefinition-stroke-imaging-diagnostic-report-profile.md), [Stroke Imaging Procedure Profile](StructureDefinition-stroke-imaging-procedure-profile.md), [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md), [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md), [Stroke Risk Factor Condition Profile](StructureDefinition-stroke-risk-factor-condition-profile.md), [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md), [Stroke Treatment Procedure Profile](StructureDefinition-stroke-treatment-procedure-profile.md), [Stroke VTE Prophylaxis Procedure Profile](StructureDefinition-stroke-vte-procedure-profile.md) and [Three-Month Contact Communication Profile](StructureDefinition-three-month-communication-profile.md)
 * Examples for this Profile: [Patient/ExampleRESQPatient](Patient-ExampleRESQPatient.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/RESQ-FHIR-IG|current/StructureDefinition/resq-patient-profile)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-resq-patient-profile.json)
 
 ### Formal Views of Profile Content
 
@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-resq-patient-prof
   "title" : "RESQ Patient Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-15T10:10:20+00:00",
+  "date" : "2026-06-01T07:47:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
