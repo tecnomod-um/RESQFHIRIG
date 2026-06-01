@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-diagnosis-
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T07:47:29+00:00",
+  "date" : "2026-06-01T10:24:12+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -182,7 +182,6 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-diagnosis-
       "id" : "Condition.verificationStatus",
       "path" : "Condition.verificationStatus",
       "short" : "Verification state of diagnosis",
-      "min" : 1,
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",

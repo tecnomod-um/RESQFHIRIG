@@ -18,7 +18,6 @@
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:verificationStatus) &gt;= 1">verificationStatus: minimum cardinality of 'verificationStatus' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
     </sch:rule>

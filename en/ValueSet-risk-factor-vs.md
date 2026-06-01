@@ -33,7 +33,7 @@ Allowed coded values for RiskFactor
   "title" : "RiskFactor ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T07:47:29+00:00",
+  "date" : "2026-06-01T10:24:12+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -3,7 +3,7 @@ RESQStrokeIG : Validation Results
 
 err = 11, warn = 124, info = 222
 IG Publisher Version: 2.2.8
-Generated Mon Jun 01 07:52:01 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
+Generated Mon Jun 01 10:27:32 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1228 / 1232 / 0
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 2
@@ -1492,11 +1492,11 @@ WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.html#/html/bo
 ERROR: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.history.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 464, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.json.html#/html/body/div/div/div/p/a at Line 2727, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.json.html#/html/body/div/div/div/p/a at Line 2726, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 2309, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.ttl.html#/html/body/div/div/div/p/a at Line 2308, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 310, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 2534, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/StructureDefinition-stroke-diagnosis-condition-profile.profile.xml.html#/html/body/div/div/div/p/a at Line 2533, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-stroke-encounter-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/StructureDefinition-stroke-encounter-profile-definitions.html#/html/body/div/div/div/p/a at Line 916, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/StructureDefinition-stroke-encounter-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
