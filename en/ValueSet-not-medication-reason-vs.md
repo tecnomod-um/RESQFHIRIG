@@ -34,7 +34,7 @@ Allowed coded values for NotMedicationReason
   "title" : "NotMedicationReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T10:24:12+00:00",
+  "date" : "2026-06-01T10:42:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -85,6 +85,10 @@ Allowed coded values for NotMedicationReason
       {
         "code" : "300936002",
         "display" : "Terminal illness (finding)"
+      },
+      {
+        "code" : "413560001",
+        "display" : "Anticoagulation not indicated (situation)"
       }]
     },
     {

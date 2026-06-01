@@ -3,7 +3,7 @@ RESQStrokeIG : Validation Results
 
 err = 11, warn = 124, info = 222
 IG Publisher Version: 2.2.8
-Generated Mon Jun 01 10:27:32 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
+Generated Mon Jun 01 10:46:55 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1228 / 1232 / 0
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 2
@@ -2234,11 +2234,11 @@ WARNING: en/ValueSet-not-medication-reason-vs.change.history.html#/html/body/div
 ERROR: en/ValueSet-not-medication-reason-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-not-medication-reason-vs.html#/html/body/div/div/div/p/a at Line 515, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-not-medication-reason-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-not-medication-reason-vs.json.html#/html/body/div/div/div/p/a at Line 555, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-not-medication-reason-vs.json.html#/html/body/div/div/div/p/a at Line 559, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-not-medication-reason-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-not-medication-reason-vs.ttl.html#/html/body/div/div/div/p/a at Line 530, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-not-medication-reason-vs.ttl.html#/html/body/div/div/div/p/a at Line 532, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-not-medication-reason-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-not-medication-reason-vs.xml.html#/html/body/div/div/div/p/a at Line 542, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-not-medication-reason-vs.xml.html#/html/body/div/div/div/p/a at Line 546, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-observation-methods-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-observation-methods-vs-testing.html#/html/body/div/div/div/p/a at Line 453, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-observation-methods-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
