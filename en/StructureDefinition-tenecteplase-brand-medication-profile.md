@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-tenecteplase-bran
   "title" : "Tenecteplase Brand Medication Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:57:35+00:00",
+  "date" : "2026-06-02T10:42:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -101,16 +101,18 @@ Other representations of profile: [CSV](../StructureDefinition-tenecteplase-bran
     {
       "id" : "Medication.ingredient.item",
       "path" : "Medication.ingredient.item",
-      "patternCodeableReference" : {
-        "concept" : {
-          "coding" : [{
-            "system" : "http://snomed.info/sct",
-            "code" : "387066007",
-            "display" : "Tenecteplase (substance)"
-          }]
-        }
-      },
       "mustSupport" : true
+    },
+    {
+      "id" : "Medication.ingredient.item.concept",
+      "path" : "Medication.ingredient.item.concept",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "387066007",
+          "display" : "Tenecteplase (substance)"
+        }]
+      }
     },
     {
       "id" : "Medication.ingredient.isActive",

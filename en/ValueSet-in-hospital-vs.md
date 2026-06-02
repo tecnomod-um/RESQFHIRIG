@@ -35,7 +35,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "InHospital ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:57:35+00:00",
+  "date" : "2026-06-02T10:42:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
