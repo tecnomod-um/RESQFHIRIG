@@ -367,9 +367,9 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
     "uses" : {
     },
-    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
+    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
     "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
-    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet"
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs",
@@ -468,10 +468,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs.",
     "uses" : {
     },
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet",
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
     "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet"
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
+    "ValueSet-locations-vs.html" : "Locations ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
@@ -493,8 +493,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
     "uses" : {
     },
-    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
     "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet",
+    "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
     "ValueSet-medications-vs.html" : "Medications ValueSet"
   },
   {
@@ -573,8 +573,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
     "uses" : {
     },
-    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
     "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
     "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
   },
   {
@@ -630,8 +630,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
     "uses" : {
     },
-    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet",
-    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet"
+    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet",
+    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
@@ -774,8 +774,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
     "uses" : {
     },
-    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
-    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet",
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
@@ -869,8 +869,8 @@
     "oids" : ["2.16.840.1.113883.4.642.1.1074"],
     "uses" : {
     },
-    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet",
-    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes",
+    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
@@ -1278,11 +1278,11 @@
     "oids" : ["2.16.840.1.113883.5.111"],
     "uses" : {
     },
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
     "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet"
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
+    "ValueSet-locations-vs.html" : "Locations ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",

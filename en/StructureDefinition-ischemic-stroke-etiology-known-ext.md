@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-ischemic-stroke-e
   "name" : "IschemicStrokeEtiologyKnownExt",
   "title" : "Ischemic stroke etiology known/unknown coded state",
   "status" : "draft",
-  "date" : "2026-06-02T10:42:43+00:00",
+  "date" : "2026-06-03T07:55:03+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
