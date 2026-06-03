@@ -14,7 +14,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-03T14:48:08+00:00",
+  "date" : "2026-06-03T14:50:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -1491,18 +1491,6 @@
       },
       "name" : "Specific Finding Observation Profile",
       "description" : "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/specific-finding-value-codeableconcept-vs"
-      },
-      "name" : "Specific Finding Value CodeableConcept ValueSet",
-      "description" : "Allowed coded values for specific finding observations.",
       "isExample" : false
     },
     {

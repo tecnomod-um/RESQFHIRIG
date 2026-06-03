@@ -7,7 +7,7 @@ Allowed coded values for AtrialFibrillationOrFlutter
 
  **References** 
 
-* Included into [SpecificFindingValueCodeableConceptVS](ValueSet-specific-finding-value-codeableconcept-vs.md)
+* [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -33,7 +33,7 @@ Allowed coded values for AtrialFibrillationOrFlutter
   "title" : "AtrialFibrillationOrFlutter ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T14:48:08+00:00",
+  "date" : "2026-06-03T14:50:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

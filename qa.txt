@@ -1,10 +1,10 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 11, warn = 128, info = 224
+err = 11, warn = 127, info = 223
 IG Publisher Version: 2.2.8
-Generated Wed Jun 03 14:52:01 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
- Build Errors : 1245 / 1247 / 0
+Generated Wed Jun 03 14:54:24 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.0 (canonical = http://tecnomod-um.org)
+ Build Errors : 1239 / 1241 / 0
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 0 / 2
@@ -167,7 +167,6 @@ Generated Wed Jun 03 14:52:01 UTC 2026. FHIR version 5.0.0 for RESQ-FHIR-IG#1.0.
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-risk-factor-vs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-screening-performer-vs : 0 / 0 / 3
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-sex-vs : 0 / 0 / 2
- /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-specific-finding-value-codeableconcept-vs : 0 / 1 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-specific-finding-vs : 0 / 0 / 3
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-stroke-circumstance-vs : 0 / 0 / 2
  /home/runner/work/RESQ-FHIR-IG/RESQ-FHIR-IG/fsh-generated/resources/ValueSet-stroke-etiology-other-vs : 0 / 0 / 3
@@ -2240,7 +2239,7 @@ WARNING: en/ValueSet-mtici-score-vs-testing.html#/html/body/div/div/div/p/a at L
 ERROR: en/ValueSet-mtici-score-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-mtici-score-vs.change.history.html#/html/body/div/div/div/p/a at Line 413, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-mtici-score-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-mtici-score-vs.html#/html/body/div/div/div/p/a at Line 500, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/ValueSet-mtici-score-vs.html#/html/body/div/div/div/p/a at Line 498, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-mtici-score-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-mtici-score-vs.json.html#/html/body/div/div/div/p/a at Line 522, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-mtici-score-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2439,18 +2438,6 @@ ERROR: en/ValueSet-sex-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Lin
 WARNING: en/ValueSet-sex-vs.ttl.html#/html/body/div/div/div/p/a at Line 504, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-sex-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-sex-vs.xml.html#/html/body/div/div/div/p/a at Line 494, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs-testing.html#/html/body/div/div/div/p/a at Line 453, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs.change.history.html#/html/body/div/div/div/p/a at Line 413, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs.html#/html/body/div/div/div/p/a at Line 501, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs.json.html#/html/body/div/div/div/p/a at Line 498, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs.ttl.html#/html/body/div/div/div/p/a at Line 499, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-ERROR: en/ValueSet-specific-finding-value-codeableconcept-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/ValueSet-specific-finding-value-codeableconcept-vs.xml.html#/html/body/div/div/div/p/a at Line 487, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-specific-finding-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 306, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-specific-finding-vs-testing.html#/html/body/div/div/div/p/a at Line 453, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/ValueSet-specific-finding-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 305, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2656,7 +2643,7 @@ WARNING: en/ValueSet-vte-procedures-vs.ttl.html#/html/body/div/div/div/p/a at Li
 ERROR: en/ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 308, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/div/p/a at Line 526, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 304, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: en/artifacts.html#/html/body/div/div/div/p/a at Line 2546, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: en/artifacts.html#/html/body/div/div/div/p/a at Line 2534, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/extensions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 304, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: en/extensions.html#/html/body/div/div/div/p/a at Line 477, column 22: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: en/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 304, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -3171,9 +3158,6 @@ INFORMATION: ValueSet/screening-performer-vs: ValueSet.jurisdiction[0]: Referenc
 INFORMATION: ValueSet/screening-performer-vs: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Professional nurse (occupation), Physician (occupation), Healthcare professional (occupation)] and examples for no FSN: [Speech and language therapist])
 == fsh-generated/resources/ValueSet-sex-vs.json ==
 INFORMATION: ValueSet/sex-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-== fsh-generated/resources/ValueSet-specific-finding-value-codeableconcept-vs.json ==
-INFORMATION: ValueSet/specific-finding-value-codeableconcept-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
-WARNING: ValueSet/specific-finding-value-codeableconcept-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-specific-finding-vs.json ==
 INFORMATION: ValueSet/specific-finding-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ValueSet/specific-finding-vs: ValueSet.compose.include[1].concept[3]: Wrong Display Name 'Stenosis of carotid artery (disorder)' for http://snomed.info/sct#64586002. Valid display is one of 3 choices: 'Carotid artery stenosis' (en), 'Carotid artery narrowing' (en) or 'Carotid artery stenosis (disorder)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code

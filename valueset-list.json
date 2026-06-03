@@ -485,16 +485,6 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "SpecificFindingValueCodeableConceptVS",
-    "title" : "Specific Finding Value CodeableConcept ValueSet",
-    "description" : "Allowed coded values for specific finding observations.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs",
-    "http://snomed.info/sct"]
-  },
-  {
     "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
     "version" : "1.0.0",
     "status" : "active",
