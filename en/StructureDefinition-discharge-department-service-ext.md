@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-discharge-departm
   "name" : "DischargeDepartmentServiceExt",
   "title" : "Discharge department or service",
   "status" : "draft",
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

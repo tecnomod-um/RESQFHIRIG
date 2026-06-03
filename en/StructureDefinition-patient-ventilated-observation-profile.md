@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-patient-ventilate
   "title" : "Patient Ventilated Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -118,9 +118,12 @@ Other representations of profile: [CSV](../StructureDefinition-patient-ventilate
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/observation-methods-vs"
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "40617009",
+          "display" : "Artificial ventilation (regime/therapy)"
+        }]
       }
     },
     {

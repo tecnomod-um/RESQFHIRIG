@@ -7,6 +7,9 @@ Allowed coded values for ProcedureNotDoneReason
 
  **References** 
 
+* [Stroke Carotid Endarterectomy Procedure Profile](StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.md)
+* [Stroke Carotid Imaging Procedure Profile](StructureDefinition-stroke-carotid-imaging-procedure-profile.md)
+* [Stroke Imaging Procedure Profile](StructureDefinition-stroke-imaging-procedure-profile.md)
 * [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md)
 * [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md)
 * [Stroke Treatment Procedure Profile](StructureDefinition-stroke-treatment-procedure-profile.md)
@@ -35,7 +38,7 @@ Allowed coded values for ProcedureNotDoneReason
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

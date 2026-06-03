@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
   "title" : "Highest Hyperglycemia Value Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -101,13 +101,14 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
         }],
         "ordered" : false,
         "rules" : "open"
-      }
+      },
+      "min" : 1
     },
     {
       "id" : "Observation.extension:observationTimingContext",
       "path" : "Observation.extension",
       "sliceName" : "observationTimingContext",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "type" : [{
         "code" : "Extension",
@@ -118,9 +119,12 @@ Other representations of profile: [CSV](../StructureDefinition-highest-hyperglyc
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs"
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+          "code" : "highest-hyperglycemia-value",
+          "display" : "Highest Hyperglycemia Value"
+        }]
       }
     },
     {

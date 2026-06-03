@@ -10,7 +10,7 @@ Temporal/clinical context of an observation, such as admission, discharge, prest
 
 **Usages:**
 
-* Use this Extension: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md), [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md)... Show 2 more, [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
+* Use this Extension: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md), [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md)... Show 3 more, [Systolic Blood Pressure Highest Value Observation Profile](StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.md), [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQ-FHIR-IG|current/StructureDefinition/StructureDefinition-observation-timing-context-ext.json)
 
@@ -39,7 +39,7 @@ Other representations of profile: [CSV](../StructureDefinition-observation-timin
   "name" : "ObservationTimingContextExt",
   "title" : "Observation timing context",
   "status" : "draft",
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

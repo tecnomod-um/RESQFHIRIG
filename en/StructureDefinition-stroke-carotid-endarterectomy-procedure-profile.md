@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
   "title" : "Stroke Carotid Endarterectomy Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -110,6 +110,15 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-carotid-en
       "id" : "Procedure.status",
       "path" : "Procedure.status",
       "mustSupport" : true
+    },
+    {
+      "id" : "Procedure.statusReason",
+      "path" : "Procedure.statusReason",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs"
+      }
     },
     {
       "id" : "Procedure.code",

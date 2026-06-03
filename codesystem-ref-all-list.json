@@ -368,8 +368,8 @@
     "uses" : {
     },
     "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
-    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
-    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
+    "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs",
@@ -468,10 +468,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs.",
     "uses" : {
     },
+    "ValueSet-locations-vs.html" : "Locations ValueSet",
     "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
     "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet"
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
@@ -573,8 +573,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
     "uses" : {
     },
-    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
     "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
+    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
     "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
   },
   {
@@ -630,8 +630,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
     "uses" : {
     },
-    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet",
-    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet"
+    "ValueSet-discharge-facility-type-vs.html" : "DischargeFacilityType ValueSet",
+    "ValueSet-discharge-destination-vs.html" : "DischargeDestination ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs",
@@ -790,6 +790,17 @@
     "ValueSet-analitics-codes-vs.html" : "AnaliticsCodes ValueSet"
   },
   {
+    "url" : "http://tecnomod-um.org/CodeSystem/vital-signs-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "VitalSignsCS",
+    "title" : "VitalSignsCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vital-signs-cs.",
+    "uses" : {
+    },
+    "ValueSet-vital-signs-vs.html" : "VitalSigns ValueSet"
+  },
+  {
     "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
     "version" : "1.0.0",
     "status" : "active",
@@ -810,42 +821,6 @@
     "uses" : {
     },
     "ValueSet-occupational-therapy-vs.html" : "OccupationalTherapy ValueSet"
-  },
-  {
-    "url" : "http://terminology.hl7.org/CodeSystem/communication-category",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "CommunicationCategory",
-    "title" : "CommunicationCategory",
-    "description" : "Codes for general categories of communications such as alerts, instructions, etc.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1076"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-communication-category.html" : "Communication Category"
-  },
-  {
-    "url" : "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "CommunicationNotDoneReason",
-    "title" : "CommunicationNotDoneReason",
-    "description" : "Codes for the reason why a communication did not happen.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1077"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-communication-not-done-reason.html" : "Communication Not Done Reason"
-  },
-  {
-    "url" : "http://terminology.hl7.org/CodeSystem/communication-topic",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "CommunicationTopic",
-    "title" : "CommunicationTopic",
-    "description" : "Codes describing the purpose or content of the communication.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1078"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R5/valueset-communication-topic.html" : "Communication Topic"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
@@ -869,8 +844,8 @@
     "oids" : ["2.16.840.1.113883.4.642.1.1074"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes",
-    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet"
+    "ValueSet-clinical-status-codes-vs.html" : "ClinicalStatusCodes ValueSet",
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
@@ -1241,8 +1216,8 @@
     "oids" : ["2.16.840.1.113883.5.1008"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy",
-    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes"
+    "http://hl7.org/fhir/R5/valueset-marital-status.html" : "Marital Status Codes",
+    "http://hl7.org/fhir/R5/valueset-encounter-special-courtesy.html" : "Special Courtesy"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -1279,10 +1254,10 @@
     "uses" : {
     },
     "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
+    "ValueSet-locations-vs.html" : "Locations ValueSet",
     "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
     "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
-    "ValueSet-locations-vs.html" : "Locations ValueSet"
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",

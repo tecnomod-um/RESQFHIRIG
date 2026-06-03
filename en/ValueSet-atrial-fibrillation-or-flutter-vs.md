@@ -7,7 +7,7 @@ Allowed coded values for AtrialFibrillationOrFlutter
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* Included into [SpecificFindingValueCodeableConceptVS](ValueSet-specific-finding-value-codeableconcept-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -33,7 +33,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "AtrialFibrillationOrFlutter ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -56,6 +56,10 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "concept" : [{
         "code" : "410515003",
         "display" : "Known present (qualifier value)"
+      },
+      {
+        "code" : "260373001",
+        "display" : "Detected (qualifier value)"
       },
       {
         "code" : "410516002",

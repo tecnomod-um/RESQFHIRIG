@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "vital-signs-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vital-signs-cs</b></p><a name=\"vital-signs-cs\"> </a><a name=\"hcvital-signs-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/vital-signs-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">highest-sys-bp<a name=\"vital-signs-cs-highest-sys-bp\"> </a></td><td>Highest Systolic Blood Pressure</td></tr></table></div>"
+  },
+  "url" : "http://tecnomod-um.org/CodeSystem/vital-signs-cs",
+  "version" : "1.0.0",
+  "name" : "VitalSignsCS",
+  "title" : "VitalSignsCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-03T14:48:08+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vital-signs-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "highest-sys-bp",
+    "display" : "Highest Systolic Blood Pressure"
+  }]
+}

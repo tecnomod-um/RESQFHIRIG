@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-diagnosis-
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -133,7 +133,7 @@ Other representations of profile: [CSV](../StructureDefinition-stroke-diagnosis-
       "sliceName" : "hemorrhagicStrokeBleedingReason",
       "short" : "Known hemorrhagic bleeding reason",
       "min" : 0,
-      "max" : "1",
+      "max" : "*",
       "type" : [{
         "code" : "Extension",
         "profile" : ["http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"]

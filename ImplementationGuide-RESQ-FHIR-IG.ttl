@@ -22,7 +22,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-03T07:55:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-03T14:48:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -1708,24 +1708,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/ValueSet/observation-methods-vs> ;
-         fhir:reference [ fhir:v "ValueSet/observation-methods-vs" ]
-       ] ;
-       fhir:name [ fhir:v "ObservationMethods ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for ObservationMethods" ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:l <http://tecnomod-um.org/ValueSet/occupational-therapy-vs> ;
          fhir:reference [ fhir:v "ValueSet/occupational-therapy-vs" ]
        ] ;
@@ -2270,6 +2252,24 @@
        ] ;
        fhir:name [ fhir:v "Specific Finding Observation Profile" ] ;
        fhir:description [ fhir:v "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs> ;
+         fhir:reference [ fhir:v "ValueSet/specific-finding-value-codeableconcept-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Specific Finding Value CodeableConcept ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for specific finding observations." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2877,6 +2877,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/highest-systolic-blood-pressure-value-observation-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/highest-systolic-blood-pressure-value-observation-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Systolic Blood Pressure Highest Value Observation Profile" ] ;
+       fhir:description [ fhir:v "Observation profile for the highest recorded systolic blood pressure value in the relevant stroke care interval." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/tenecteplase-brand-medication-profile" ]
        ] ;
@@ -2918,24 +2936,6 @@
        ] ;
        fhir:name [ fhir:v "TenecteplaseBrandCs CodeSystem" ] ;
        fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/three-month-communication-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/three-month-communication-profile" ]
-       ] ;
-       fhir:name [ fhir:v "Three-Month Contact Communication Profile" ] ;
-       fhir:description [ fhir:v "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -3224,6 +3224,24 @@
        ] ;
        fhir:name [ fhir:v "VitalSigns ValueSet" ] ;
        fhir:description [ fhir:v "Allowed coded values for VitalSigns" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/CodeSystem/vital-signs-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/vital-signs-cs" ]
+       ] ;
+       fhir:name [ fhir:v "VitalSignsCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vital-signs-cs." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

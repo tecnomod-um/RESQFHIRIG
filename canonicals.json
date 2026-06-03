@@ -293,6 +293,13 @@
   "name" : "TimingMetricCodesCS"
 },
 {
+  "id" : "vital-signs-cs",
+  "type" : "CodeSystem",
+  "url" : "http://tecnomod-um.org/CodeSystem/vital-signs-cs",
+  "version" : "1.0.0",
+  "name" : "VitalSignsCS"
+},
+{
   "id" : "vte-procedures-cs",
   "type" : "CodeSystem",
   "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
@@ -431,6 +438,13 @@
   "url" : "http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
   "version" : "1.0.0",
   "name" : "HighestHyperglycemiaValueObservationProfile"
+},
+{
+  "id" : "highest-systolic-blood-pressure-value-observation-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/highest-systolic-blood-pressure-value-observation-profile",
+  "version" : "1.0.0",
+  "name" : "SystolicBloodPressureHighestValueObservationProfile"
 },
 {
   "id" : "hospitalized-location-profile",
@@ -683,13 +697,6 @@
   "url" : "http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile",
   "version" : "1.0.0",
   "name" : "TenecteplaseBrandMedicationProfile"
-},
-{
-  "id" : "three-month-communication-profile",
-  "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/three-month-communication-profile",
-  "version" : "1.0.0",
-  "name" : "ThreeMonthCommunicationProfile"
 },
 {
   "id" : "three-month-contact-mode-observation-profile",
@@ -986,13 +993,6 @@
   "name" : "NotMedicationReasonVS"
 },
 {
-  "id" : "observation-methods-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/observation-methods-vs",
-  "version" : "1.0.0",
-  "name" : "ObservationMethodsVS"
-},
-{
   "id" : "occupational-therapy-vs",
   "type" : "ValueSet",
   "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
@@ -1089,6 +1089,13 @@
   "url" : "http://tecnomod-um.org/ValueSet/sex-vs",
   "version" : "1.0.0",
   "name" : "SexVS"
+},
+{
+  "id" : "specific-finding-value-codeableconcept-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs",
+  "version" : "1.0.0",
+  "name" : "SpecificFindingValueCodeableConceptVS"
 },
 {
   "id" : "specific-finding-vs",

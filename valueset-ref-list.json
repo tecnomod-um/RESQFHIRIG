@@ -84,11 +84,10 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-highest-hyperglycemia-value-observation-profile.html" : "Highest Hyperglycemia Value Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
     "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -121,7 +120,10 @@
     "name" : "AtrialFibrillationOrFlutterVS",
     "title" : "AtrialFibrillationOrFlutter ValueSet",
     "description" : "Allowed coded values for AtrialFibrillationOrFlutter",
-    "systems" : ["http://snomed.info/sct"]
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "ValueSet-specific-finding-value-codeableconcept-vs.html" : "Specific Finding Value CodeableConcept ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bleeding-reason-vs",
@@ -134,8 +136,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state",
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason"
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason",
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
@@ -147,8 +149,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -295,10 +297,7 @@
     "title" : "IchTreatment ValueSet",
     "description" : "Allowed coded values for IchTreatment",
     "systems" : ["http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
-    "http://snomed.info/sct"],
-    "uses" : {
-    },
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
+    "http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/imaging-type-vs",
@@ -312,8 +311,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/in-hospital-vs",
@@ -331,7 +330,10 @@
     "name" : "INRmodeVS",
     "title" : "INRmode ValueSet",
     "description" : "Allowed coded values for INRmode",
-    "systems" : ["http://snomed.info/sct"]
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs",
@@ -400,8 +402,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
     "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
     "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
@@ -430,7 +432,10 @@
     "name" : "MTiciScoreVS",
     "title" : "MTiciScore ValueSet",
     "description" : "Allowed coded values for MTiciScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"],
+    "uses" : {
+    },
+    "ValueSet-specific-finding-value-codeableconcept-vs.html" : "Specific Finding Value CodeableConcept ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs",
@@ -453,21 +458,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
-  },
-  {
-    "url" : "http://tecnomod-um.org/ValueSet/observation-methods-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "ObservationMethodsVS",
-    "title" : "ObservationMethods ValueSet",
-    "description" : "Allowed coded values for ObservationMethods",
-    "systems" : ["http://snomed.info/sct"],
-    "uses" : {
-    },
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-patient-ventilated-observation-profile.html" : "Patient Ventilated Observation Profile"
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
+    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
@@ -512,8 +504,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
@@ -565,7 +557,10 @@
     "name" : "PostStrokeProceduresVS",
     "title" : "PostStrokeProcedures ValueSet",
     "description" : "Allowed coded values for PostStrokeProcedures",
-    "systems" : ["http://snomed.info/sct"]
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs",
@@ -578,8 +573,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile"
   },
   {
@@ -629,6 +627,19 @@
     "StructureDefinition-gender-snomed-ext.html" : "Gender represented with SNOMED CT"
   },
   {
+    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SpecificFindingValueCodeableConceptVS",
+    "title" : "Specific Finding Value CodeableConcept ValueSet",
+    "description" : "Allowed coded values for specific finding observations.",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
+  },
+  {
     "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
     "version" : "1.0.0",
     "status" : "active",
@@ -642,8 +653,8 @@
     "http://tecnomod-um.org/CodeSystem/old-infarct-cs"],
     "uses" : {
     },
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
@@ -746,8 +757,7 @@
     "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"],
     "uses" : {
     },
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs",
@@ -812,7 +822,8 @@
     "name" : "VitalSignsVS",
     "title" : "VitalSigns ValueSet",
     "description" : "Allowed coded values for VitalSigns",
-    "systems" : ["http://snomed.info/sct"],
+    "systems" : ["http://snomed.info/sct",
+    "http://tecnomod-um.org/CodeSystem/vital-signs-cs"],
     "uses" : {
     },
     "StructureDefinition-vital-sign-observation-profile.html" : "Vital Sign Observation Profile"

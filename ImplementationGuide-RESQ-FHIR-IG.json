@@ -11,7 +11,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -1125,18 +1125,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/observation-methods-vs"
-      },
-      "name" : "ObservationMethods ValueSet",
-      "description" : "Allowed coded values for ObservationMethods",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/occupational-therapy-vs"
       },
       "name" : "OccupationalTherapy ValueSet",
@@ -1500,6 +1488,18 @@
       },
       "name" : "Specific Finding Observation Profile",
       "description" : "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/specific-finding-value-codeableconcept-vs"
+      },
+      "name" : "Specific Finding Value CodeableConcept ValueSet",
+      "description" : "Allowed coded values for specific finding observations.",
       "isExample" : false
     },
     {
@@ -1904,6 +1904,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/highest-systolic-blood-pressure-value-observation-profile"
+      },
+      "name" : "Systolic Blood Pressure Highest Value Observation Profile",
+      "description" : "Observation profile for the highest recorded systolic blood pressure value in the relevant stroke care interval.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/tenecteplase-brand-medication-profile"
       },
       "name" : "Tenecteplase Brand Medication Profile",
@@ -1932,18 +1944,6 @@
       },
       "name" : "TenecteplaseBrandCs CodeSystem",
       "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/three-month-communication-profile"
-      },
-      "name" : "Three-Month Contact Communication Profile",
-      "description" : "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.",
       "isExample" : false
     },
     {
@@ -2136,6 +2136,18 @@
       },
       "name" : "VitalSigns ValueSet",
       "description" : "Allowed coded values for VitalSigns",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/vital-signs-cs"
+      },
+      "name" : "VitalSignsCs CodeSystem",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vital-signs-cs.",
       "isExample" : false
     },
     {

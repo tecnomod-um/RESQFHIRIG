@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "specific-finding-value-codeableconcept-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet specific-finding-value-codeableconcept-vs</b></p><a name=\"specific-finding-value-codeableconcept-vs\"> </a><a name=\"hcspecific-finding-value-codeableconcept-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-mtici-score-vs.html\">MTiciScore ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-atrial-fibrillation-or-flutter-vs.html\">AtrialFibrillationOrFlutter ValueSet</a></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs",
+  "version" : "1.0.0",
+  "name" : "SpecificFindingValueCodeableConceptVS",
+  "title" : "Specific Finding Value CodeableConcept ValueSet",
+  "status" : "active",
+  "date" : "2026-06-03T14:48:08+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for specific finding observations.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/mtici-score-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs"]
+    }]
+  }
+}

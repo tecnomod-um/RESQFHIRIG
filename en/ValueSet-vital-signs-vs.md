@@ -33,7 +33,7 @@ Allowed coded values for VitalSigns
   "title" : "VitalSigns ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -64,6 +64,13 @@ Allowed coded values for VitalSigns
       {
         "code" : "61746007",
         "display" : "Taking patient vital signs (procedure)"
+      }]
+    },
+    {
+      "system" : "http://tecnomod-um.org/CodeSystem/vital-signs-cs",
+      "concept" : [{
+        "code" : "highest-sys-bp",
+        "display" : "Highest Systolic Blood Pressure"
       }]
     }]
   }

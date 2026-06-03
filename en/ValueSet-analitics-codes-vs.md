@@ -10,7 +10,6 @@ Allowed coded values for AnaliticsCodes
 * [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md)
 * [Fever Observation Profile](StructureDefinition-fever-observation-profile.md)
 * [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md)
-* [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md)
 * [Hyperglycemia Observation Profile](StructureDefinition-hyperglycemia-observation-profile.md)
 
 ### Logical Definition (CLD)
@@ -37,7 +36,7 @@ Allowed coded values for AnaliticsCodes
   "title" : "AnaliticsCodes ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

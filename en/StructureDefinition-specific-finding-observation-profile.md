@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
   "title" : "Specific Finding Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-03T07:55:03+00:00",
+  "date" : "2026-06-03T14:48:08+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -89,7 +89,21 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
   "differential" : {
     "element" : [{
       "id" : "Observation",
-      "path" : "Observation"
+      "path" : "Observation",
+      "constraint" : [{
+        "key" : "mtici-value-must-use-mtici-score-vs",
+        "severity" : "error",
+        "human" : "If Observation.code is mTICI, valueCodeableConcept must belong to MTiciScoreVS.",
+        "expression" : "code.coding.where(system = 'http://tecnomod-um.org/CodeSystem/specific-finding-cs' and code = 'mtici').exists().not() or value.ofType(CodeableConcept).memberOf('http://tecnomod-um.org/ValueSet/mtici-score-vs')",
+        "source" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
+      },
+      {
+        "key" : "af-flutter-value-must-use-af-flutter-vs",
+        "severity" : "error",
+        "human" : "If Observation.code is atrial fibrillation/flutter, valueCodeableConcept must belong to AtrialFibrillationOrFlutterVS.",
+        "expression" : "code.coding.where(system = 'http://tecnomod-um.org/CodeSystem/specific-finding-cs' and code = 'atrial-fibrillation-flutter').exists().not() or value.ofType(CodeableConcept).memberOf('http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs')",
+        "source" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
+      }]
     },
     {
       "id" : "Observation.extension",
@@ -132,6 +146,14 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
       "short" : "Finding value",
       "type" : [{
         "code" : "Quantity"
@@ -146,6 +168,21 @@ Other representations of profile: [CSV](../StructureDefinition-specific-finding-
         "code" : "integer"
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "Observation.value[x]:valueCodeableConcept",
+      "path" : "Observation.value[x]",
+      "sliceName" : "valueCodeableConcept",
+      "short" : "Coded finding value, such as mTICI score or atrial fibrillation/flutter status",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/specific-finding-value-codeableconcept-vs"
+      }
     },
     {
       "id" : "Observation.bodyStructure",
