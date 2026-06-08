@@ -7353,7 +7353,7 @@ Cancelled Reason","",0,1,"Y","","Y","CodeableConcept {[]} {[]}
 "
 "stroke-treatment-procedure-profile","Procedure.code","Procedure.code","","type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Treatment, rehabilitation or neurosurgical procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Treatment, rehabilitation or neurosurgical procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "stroke-treatment-procedure-profile","Procedure.subject","Procedure.subject","","patient
 ","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/resq-patient-profile]]}

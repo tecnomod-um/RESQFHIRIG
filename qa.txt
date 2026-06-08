@@ -3,7 +3,7 @@ RESQStrokeIG : Validation Results
 
 err = 26, warn = 127, info = 400
 IG Publisher Version: 2.2.8
-Generated Mon Jun 08 10:55:00 UTC 2026. FHIR version 5.0.0 for RESQFHIRIG#1.0.0 (canonical = http://tecnomod-um.org)
+Generated Mon Jun 08 11:23:49 UTC 2026. FHIR version 5.0.0 for RESQFHIRIG#1.0.0 (canonical = http://tecnomod-um.org)
  Build Errors : 1245 / 1247 / 0
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 3
@@ -2372,7 +2372,7 @@ WARNING: ValueSet-post-stroke-procedures-vs-testing.html#/html/body/div/div/div/
 ERROR: ValueSet-post-stroke-procedures-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-post-stroke-procedures-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/div/p/a at Line 498, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/div/p/a at Line 497, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-post-stroke-procedures-vs.json.html#/html/body/div/div/div/p/a at Line 488, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2492,7 +2492,7 @@ WARNING: ValueSet-stroke-treatment-procedure-vs-testing.html#/html/body/div/div/
 ERROR: ValueSet-stroke-treatment-procedure-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-stroke-treatment-procedure-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-treatment-procedure-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-stroke-treatment-procedure-vs.html#/html/body/div/div/div/p/a at Line 496, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-stroke-treatment-procedure-vs.html#/html/body/div/div/div/p/a at Line 498, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-treatment-procedure-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-stroke-treatment-procedure-vs.json.html#/html/body/div/div/div/p/a at Line 473, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-treatment-procedure-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved

@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-treatment-pro
   "title" : "Stroke Treatment Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T10:51:55+00:00",
+  "date" : "2026-06-08T11:21:15+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -135,8 +135,8 @@ Other representations of profile: [CSV](StructureDefinition-stroke-treatment-pro
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
-        "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs"
+        "strength" : "extensible",
+        "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs"
       }
     },
     {

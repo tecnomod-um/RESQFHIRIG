@@ -51,7 +51,7 @@ Allowed coded values for ThreeMonthContactMode
   "title" : "ThreeMonthContactMode ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T10:51:55+00:00",
+  "date" : "2026-06-08T11:21:15+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

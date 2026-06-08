@@ -17,7 +17,6 @@ Allowed coded values for PostStrokeProcedures
  **References** 
 
 * Included into [StrokeTreatmentProcedureVS](ValueSet-stroke-treatment-procedure-vs.md)
-* [Stroke Treatment Procedure Profile](StructureDefinition-stroke-treatment-procedure-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -52,7 +51,7 @@ Allowed coded values for PostStrokeProcedures
   "title" : "PostStrokeProcedures ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T10:51:55+00:00",
+  "date" : "2026-06-08T11:21:15+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
