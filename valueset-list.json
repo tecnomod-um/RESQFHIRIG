@@ -527,6 +527,16 @@
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"]
   },
   {
+    "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeTreatmentProcedureVS",
+    "title" : "PostStrokeProcedures ValueSet",
+    "description" : "Allowed coded values for PostStrokeProcedures",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
+    "http://snomed.info/sct"]
+  },
+  {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
     "version" : "1.0.0",
     "status" : "active",

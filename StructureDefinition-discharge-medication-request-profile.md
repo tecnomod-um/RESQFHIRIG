@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
   "title" : "Discharge MedicationRequest Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T09:55:23+00:00",
+  "date" : "2026-06-08T10:51:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

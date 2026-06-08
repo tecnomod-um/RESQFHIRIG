@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-08T09:55:23+00:00",
+  "date" : "2026-06-08T10:51:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -1374,6 +1374,18 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       }],
       "reference" : {
         "reference" : "ValueSet/post-stroke-procedures-vs"
+      },
+      "name" : "PostStrokeProcedures ValueSet",
+      "description" : "Allowed coded values for PostStrokeProcedures",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/stroke-treatment-procedure-vs"
       },
       "name" : "PostStrokeProcedures ValueSet",
       "description" : "Allowed coded values for PostStrokeProcedures",

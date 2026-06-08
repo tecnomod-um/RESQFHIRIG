@@ -16,7 +16,7 @@ Allowed coded values for IchTreatment
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* Included into [StrokeTreatmentProcedureVS](ValueSet-stroke-treatment-procedure-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "IchTreatment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T09:55:23+00:00",
+  "date" : "2026-06-08T10:51:55+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

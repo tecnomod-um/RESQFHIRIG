@@ -133,6 +133,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [PostRecanalizationImaging ValueSet](ValueSet-post-recanalization-imaging-vs.md) | Allowed coded values for PostRecanalizationImaging |
 | [PostStrokeComplications ValueSet](ValueSet-post-stroke-complications-vs.md) | Allowed coded values for PostStrokeComplications |
 | [PostStrokeProcedures ValueSet](ValueSet-post-stroke-procedures-vs.md) | Allowed coded values for PostStrokeProcedures |
+| [PostStrokeProcedures ValueSet](ValueSet-stroke-treatment-procedure-vs.md) | Allowed coded values for PostStrokeProcedures |
 | [Procedure Timing Context ValueSet](ValueSet-procedure-timing-context-vs.md) | Allowed values for the Procedure timing context extension. |
 | [ProcedureNotDoneReason ValueSet](ValueSet-procedure-not-done-reason-vs.md) | Allowed coded values for ProcedureNotDoneReason |
 | [RiskFactor ValueSet](ValueSet-risk-factor-vs.md) | Allowed coded values for RiskFactor |

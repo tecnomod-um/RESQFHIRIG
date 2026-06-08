@@ -10,7 +10,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-06-08T09:55:23+00:00"/>
+  <date value="2026-06-08T10:51:55+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -1195,6 +1195,17 @@
       </extension>
       <reference>
         <reference value="ValueSet/post-stroke-procedures-vs"/>
+      </reference>
+      <name value="PostStrokeProcedures ValueSet"/>
+      <description value="Allowed coded values for PostStrokeProcedures"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-treatment-procedure-vs"/>
       </reference>
       <name value="PostStrokeProcedures ValueSet"/>
       <description value="Allowed coded values for PostStrokeProcedures"/>

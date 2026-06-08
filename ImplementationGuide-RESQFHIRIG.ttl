@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-08T09:55:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-08T10:51:55+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -1978,6 +1978,24 @@
        fhir:reference [
          fhir:l <http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs> ;
          fhir:reference [ fhir:v "ValueSet/post-stroke-procedures-vs" ]
+       ] ;
+       fhir:name [ fhir:v "PostStrokeProcedures ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for PostStrokeProcedures" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-treatment-procedure-vs" ]
        ] ;
        fhir:name [ fhir:v "PostStrokeProcedures ValueSet" ] ;
        fhir:description [ fhir:v "Allowed coded values for PostStrokeProcedures" ] ;

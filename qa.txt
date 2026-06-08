@@ -1,10 +1,10 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 26, warn = 127, info = 398
+err = 26, warn = 127, info = 400
 IG Publisher Version: 2.2.8
-Generated Mon Jun 08 09:58:01 UTC 2026. FHIR version 5.0.0 for RESQFHIRIG#1.0.0 (canonical = http://tecnomod-um.org)
- Build Errors : 1239 / 1241 / 0
+Generated Mon Jun 08 10:55:00 UTC 2026. FHIR version 5.0.0 for RESQFHIRIG#1.0.0 (canonical = http://tecnomod-um.org)
+ Build Errors : 1245 / 1247 / 0
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 0 / 3
@@ -171,6 +171,7 @@ Generated Mon Jun 08 09:58:01 UTC 2026. FHIR version 5.0.0 for RESQFHIRIG#1.0.0 
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-stroke-circumstance-vs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-stroke-etiology-other-vs : 0 / 0 / 4
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-stroke-etiology-vs : 0 / 0 / 4
+ /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-stroke-treatment-procedure-vs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-stroke-type-vs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-swallowing-screening-done-vs : 0 / 0 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-swallowing-screening-timing-vs : 0 / 0 / 3
@@ -2083,7 +2084,7 @@ WARNING: ValueSet-ich-treatment-vs-testing.html#/html/body/div/div/div/p/a at Li
 ERROR: ValueSet-ich-treatment-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-ich-treatment-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-ich-treatment-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-ich-treatment-vs.html#/html/body/div/div/div/p/a at Line 499, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-ich-treatment-vs.html#/html/body/div/div/div/p/a at Line 501, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-ich-treatment-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-ich-treatment-vs.json.html#/html/body/div/div/div/p/a at Line 513, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-ich-treatment-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2371,7 +2372,7 @@ WARNING: ValueSet-post-stroke-procedures-vs-testing.html#/html/body/div/div/div/
 ERROR: ValueSet-post-stroke-procedures-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-post-stroke-procedures-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/div/p/a at Line 497, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-post-stroke-procedures-vs.html#/html/body/div/div/div/p/a at Line 498, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-post-stroke-procedures-vs.json.html#/html/body/div/div/div/p/a at Line 488, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-post-stroke-procedures-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2486,6 +2487,18 @@ ERROR: ValueSet-stroke-etiology-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li
 WARNING: ValueSet-stroke-etiology-vs.ttl.html#/html/body/div/div/div/p/a at Line 496, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-etiology-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-stroke-etiology-vs.xml.html#/html/body/div/div/div/p/a at Line 499, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs.html#/html/body/div/div/div/p/a at Line 496, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs.json.html#/html/body/div/div/div/p/a at Line 473, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs.ttl.html#/html/body/div/div/div/p/a at Line 474, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: ValueSet-stroke-treatment-procedure-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: ValueSet-stroke-treatment-procedure-vs.xml.html#/html/body/div/div/div/p/a at Line 460, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-type-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-stroke-type-vs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-stroke-type-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2643,7 +2656,7 @@ WARNING: ValueSet-vte-procedures-vs.ttl.html#/html/body/div/div/div/p/a at Line 
 ERROR: ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/div/p/a at Line 500, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 1981, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 1990, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: extensions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: extensions.html#/html/body/div/div/div/p/a at Line 460, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -3346,6 +3359,9 @@ INFORMATION: ValueSet/stroke-etiology-other-vs: ValueSet.compose.include[0].conc
 INFORMATION: ValueSet/stroke-etiology-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is the default language display
 INFORMATION: ValueSet/stroke-etiology-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ValueSet/stroke-etiology-vs: ValueSet.compose.include[0].concept[3]: Wrong Display Name 'Dissection of artery (disorder)' for http://snomed.info/sct#122459003. Valid display is one of 3 choices: 'Dissection' (en), 'Dissection procedure' (en) or 'Dissection procedure (procedure)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-stroke-treatment-procedure-vs.json ==
+INFORMATION: ValueSet/stroke-treatment-procedure-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is the default language display
+INFORMATION: ValueSet/stroke-treatment-procedure-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 == fsh-generated/resources/ValueSet-stroke-type-vs.json ==
 INFORMATION: ValueSet/stroke-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is the default language display
 INFORMATION: ValueSet/stroke-type-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

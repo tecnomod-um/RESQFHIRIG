@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stroke-treatment-procedure-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-treatment-procedure-vs</b></p><a name=\"stroke-treatment-procedure-vs\"> </a><a name=\"hcstroke-treatment-procedure-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-post-stroke-procedures-vs.html\">PostStrokeProcedures ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-ich-treatment-vs.html\">IchTreatment ValueSet</a></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeTreatmentProcedureVS",
+  "title" : "PostStrokeProcedures ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-08T10:51:55+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for PostStrokeProcedures",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/ich-treatment-vs"]
+    }]
+  }
+}
