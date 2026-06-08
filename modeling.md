@@ -1,12 +1,19 @@
+# Modeling - RESQ Stroke Registry Implementation Guide v1.0.0
+
+* [**Table of Contents**](toc.md)
+* **Modeling**
+
+## Modeling
+
 # Modeling Decisions
 
 This page explains the main modeling choices in the RES-Q FHIR IG. The goal is to make the generated resources easy to validate, clinically interpretable and close to the shape of the source transformation pipeline.
 
 ## Patient and Encounter
 
-`Patient` is kept deliberately small. The registry does not need a full demographic record in the IG, so [RESQ Patient](StructureDefinition-resq-patient-profile.html) requires a stable identifier and carries sex/gender as a SNOMED CT coded extension. `Patient.gender` is prohibited so implementers do not send conflicting administrative and clinical sex/gender values.
+`Patient` is kept deliberately small. The registry does not need a full demographic record in the IG, so [RESQ Patient](StructureDefinition-resq-patient-profile.md) requires a stable identifier and carries sex/gender as a SNOMED CT coded extension. `Patient.gender` is prohibited so implementers do not send conflicting administrative and clinical sex/gender values.
 
-The [Stroke Encounter](StructureDefinition-stroke-encounter-profile.html) is the central episode context. Most clinical resources require both `subject` and `encounter`, making it straightforward to query all facts for a stroke admission and to distinguish repeated admissions for the same patient.
+The [Stroke Encounter](StructureDefinition-stroke-encounter-profile.md) is the central episode context. Most clinical resources require both `subject` and `encounter`, making it straightforward to query all facts for a stroke admission and to distinguish repeated admissions for the same patient.
 
 ## Conditions vs Observations
 
@@ -24,8 +31,8 @@ The [Stroke Encounter](StructureDefinition-stroke-encounter-profile.html) is the
 
 The model uses three medication resources because the registry captures three different meanings:
 
-| Resource | Meaning in this IG |
-| --- | --- |
+| | |
+| :--- | :--- |
 | `MedicationStatement` | Medication use before the stroke, including adherence. |
 | `MedicationRequest` | Discharge medication orders or recommendations. |
 | `MedicationAdministration` | Medication actually administered as part of acute or post-acute stroke care. |
@@ -37,3 +44,4 @@ Extensions are used only where the base FHIR resource lacks an appropriate eleme
 ## Terminology
 
 Local registry enumerations are represented as CodeSystems and ValueSets under the IG canonical. This makes generated codes computable, reusable in bindings and visible in the published artifact index, while preserving external standards such as SNOMED CT, LOINC and UCUM when those are already appropriate.
+

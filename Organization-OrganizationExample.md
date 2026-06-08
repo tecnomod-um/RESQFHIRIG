@@ -1,0 +1,27 @@
+# OrganizationExample - RESQ Stroke Registry Implementation Guide v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **OrganizationExample**
+
+## Example Organization: OrganizationExample
+
+**identifier**: organization-001
+
+**name**: Example Healthcare Organization
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Organization",
+  "id" : "OrganizationExample",
+  "identifier" : [{
+    "value" : "organization-001"
+  }],
+  "name" : "Example Healthcare Organization"
+}
+
+```

@@ -1,0 +1,73 @@
+# ManagementAppointmentCs CodeSystem - RESQ Stroke Registry Implementation Guide v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **ManagementAppointmentCs CodeSystem**
+
+## CodeSystem: ManagementAppointmentCs CodeSystem 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://tecnomod-um.org/CodeSystem/management-appointment-cs | *Version*:1.0.0 |
+| Active as of 2026-06-08 | *Computable Name*:ManagementAppointmentCS |
+
+ 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs. 
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* [ManagementAppointmentVS](ValueSet-management-appointment-vs.md)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "management-appointment-cs",
+  "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
+  "version" : "1.0.0",
+  "name" : "ManagementAppointmentCS",
+  "title" : "ManagementAppointmentCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-08T09:55:23+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "follow-up-appointment",
+    "display" : "Follow-up Appointment Status"
+  },
+  {
+    "code" : "scheduled",
+    "display" : "Scheduled"
+  },
+  {
+    "code" : "not-recommended",
+    "display" : "Not Recommended"
+  },
+  {
+    "code" : "not-scheduled",
+    "display" : "Not Scheduled"
+  }]
+}
+
+```
