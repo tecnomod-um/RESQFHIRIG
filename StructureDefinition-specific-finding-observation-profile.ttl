@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "Specific Finding Observation Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-11T11:47:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-11T14:44:28+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -235,7 +235,7 @@
          fhir:key [ fhir:v "blood-volume-must-be-quantity-ml" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If Observation.code is blood volume, valueQuantity must be expressed in UCUM milliliters." ] ;
-         fhir:expression [ fhir:v "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'http://unitsofmeasure.org' and value.ofType(Quantity).code = 'mL')" ] ;
+         fhir:expression [ fhir:v "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'https://ucum.org/ucum' and value.ofType(Quantity).code = 'mL')" ] ;
          fhir:source [
            fhir:v "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
            fhir:l <http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile>
@@ -3826,7 +3826,7 @@
          fhir:key [ fhir:v "blood-volume-must-be-quantity-ml" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "If Observation.code is blood volume, valueQuantity must be expressed in UCUM milliliters." ] ;
-         fhir:expression [ fhir:v "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'http://unitsofmeasure.org' and value.ofType(Quantity).code = 'mL')" ] ;
+         fhir:expression [ fhir:v "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'https://ucum.org/ucum' and value.ofType(Quantity).code = 'mL')" ] ;
          fhir:source [
            fhir:v "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"^^xsd:anyURI ;
            fhir:l <http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile>

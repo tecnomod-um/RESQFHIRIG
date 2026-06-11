@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
   "title" : "Stroke Encounter Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T11:47:40+00:00",
+  "date" : "2026-06-11T14:44:28+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

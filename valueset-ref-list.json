@@ -84,10 +84,10 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
     "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile"
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -110,8 +110,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context",
-    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context"
+    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context",
+    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",
@@ -413,9 +413,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
     "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
-    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile"
+    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
@@ -475,8 +475,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile"
+    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
@@ -590,9 +590,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
     "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
@@ -671,8 +671,8 @@
     "http://tecnomod-um.org/CodeSystem/old-infarct-cs"],
     "uses" : {
     },
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",

@@ -11,7 +11,7 @@
   "title" : "Specific Finding Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T11:47:40+00:00",
+  "date" : "2026-06-11T14:44:28+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -168,7 +168,7 @@
         "key" : "blood-volume-must-be-quantity-ml",
         "severity" : "error",
         "human" : "If Observation.code is blood volume, valueQuantity must be expressed in UCUM milliliters.",
-        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'http://unitsofmeasure.org' and value.ofType(Quantity).code = 'mL')",
+        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'https://ucum.org/ucum' and value.ofType(Quantity).code = 'mL')",
         "source" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
       },
       {
@@ -3169,7 +3169,7 @@
         "key" : "blood-volume-must-be-quantity-ml",
         "severity" : "error",
         "human" : "If Observation.code is blood volume, valueQuantity must be expressed in UCUM milliliters.",
-        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'http://unitsofmeasure.org' and value.ofType(Quantity).code = 'mL')",
+        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '16086006').exists().not() or (value.ofType(Quantity).exists() and value.ofType(Quantity).system = 'https://ucum.org/ucum' and value.ofType(Quantity).code = 'mL')",
         "source" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"
       },
       {
