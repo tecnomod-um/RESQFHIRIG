@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/appointment-management-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:AppointmentManagementObservationProfile |
+| Active as of 2026-06-11 | *Computable Name*:AppointmentManagementObservationProfile |
 
  
 Observation profile for recording whether a three-month follow-up appointment was scheduled or attended. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-appointment-manageme
   "title" : "Appointment Management Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

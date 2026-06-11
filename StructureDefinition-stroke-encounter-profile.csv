@@ -36,8 +36,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Encounter.extension:emsPrenotification","Encounter.extension","emsPrenotification","","",1,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext]]} {[]}
 ","Whether EMS prenotified the receiving hospital","Indicates whether emergency medical services prenotified the receiving hospital before arrival.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Encounter.extension:dischargeFacilityType","Encounter.extension","dischargeFacilityType","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext]]} {[]}
+","Type of facility or transfer destination after discharge","Type of facility or transfer destination receiving the patient at discharge.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Encounter.extension:dischargeDepartmentService","Encounter.extension","dischargeDepartmentService","","",0,1,"Y","","","Extension {[CanonicalType[http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext]]} {[]}
-","Discharge department, service or facility type","Department/service or facility type receiving the patient at discharge.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Discharge department, service or facility type","Department, unit or service receiving the patient at discharge.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Encounter.modifierExtension","Encounter.modifierExtension","","extensions
 user content","",0,*,"","Y","Y","Extension {[]} {[]}

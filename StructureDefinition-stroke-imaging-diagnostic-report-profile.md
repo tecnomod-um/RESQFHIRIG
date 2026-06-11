@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
+| Active as of 2026-06-11 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
 
  
 DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
   "title" : "Stroke Imaging DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

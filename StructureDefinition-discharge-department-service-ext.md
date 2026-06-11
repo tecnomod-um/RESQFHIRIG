@@ -9,9 +9,9 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext | *Version*:1.0.0 |
-| Draft as of 2026-06-08 | *Computable Name*:DischargeDepartmentServiceExt |
+| Draft as of 2026-06-11 | *Computable Name*:DischargeDepartmentServiceExt |
 
-Department/service or facility type receiving the patient at discharge.
+Department, unit or service receiving the patient at discharge.
 
 **Context of Use**
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
   "name" : "DischargeDepartmentServiceExt",
   "title" : "Discharge department or service",
   "status" : "draft",
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Department/service or facility type receiving the patient at discharge.",
+  "description" : "Department, unit or service receiving the patient at discharge.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
       "id" : "Extension",
       "path" : "Extension",
       "short" : "Discharge department or service",
-      "definition" : "Department/service or facility type receiving the patient at discharge."
+      "definition" : "Department, unit or service receiving the patient at discharge."
     },
     {
       "id" : "Extension.extension",
@@ -104,6 +104,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
     {
       "id" : "Extension.value[x]",
       "path" : "Extension.value[x]",
+      "short" : "Receiving department, unit or service at discharge",
       "min" : 1,
       "type" : [{
         "code" : "CodeableConcept"

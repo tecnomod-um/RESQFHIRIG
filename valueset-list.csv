@@ -50,8 +50,10 @@ http://tecnomod-um.org/ValueSet/procedure-timing-context-vs,1.0.0,active,,Proced
 http://tecnomod-um.org/ValueSet/risk-factor-vs,1.0.0,active,,RiskFactorVS,RiskFactor ValueSet,"Allowed coded values for RiskFactor",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/screening-performer-vs,1.0.0,active,,ScreeningPerformerVS,ScreeningPerformer ValueSet,"Allowed coded values for ScreeningPerformer",,"SCT"
 http://tecnomod-um.org/ValueSet/sex-vs,1.0.0,active,,SexVS,Sex ValueSet,"Allowed coded values for Sex",,"SCT"
-http://tecnomod-um.org/ValueSet/specific-finding-vs,1.0.0,active,,SpecificFindingVS,SpecificFinding ValueSet,"Allowed coded values for SpecificFinding",,"SCT,Internal"
+http://tecnomod-um.org/ValueSet/specific-finding-value-vs,1.0.0,active,,SpecificFindingValueVS,Specific Finding Value ValueSet,"Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",,
+http://tecnomod-um.org/ValueSet/specific-finding-vs,1.0.0,active,,SpecificFindingVS,SpecificFinding ValueSet,"Allowed coded values for specific stroke-related findings.",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-circumstance-vs,1.0.0,active,,StrokeCircumstanceVS,StrokeCircumstance ValueSet,"Allowed coded values for StrokeCircumstance",,"Internal"
+http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs,1.0.0,active,,StrokeDiagnosisCodeVS,Stroke Diagnosis Code ValueSet,"Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",,
 http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs,1.0.0,active,,StrokeEtiologyOtherVS,StrokeEtiologyOther ValueSet,"Allowed coded values for StrokeEtiologyOther",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-etiology-vs,1.0.0,active,,StrokeEtiologyVS,StrokeEtiology ValueSet,"Allowed coded values for StrokeEtiology",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs,1.0.0,active,,StrokeTreatmentProcedureVS,PostStrokeProcedures ValueSet,"Allowed coded values for PostStrokeProcedures",,

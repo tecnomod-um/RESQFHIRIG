@@ -459,7 +459,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" title="StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile">Insulin on Hyperglycemia MedicationAdministration Profile</a>
+               <a href="StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.html" title="StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile">Insulin on Hyperglycemia MedicationAdministration Profile</a>
             </td>
             <td>
 <p>MedicationAdministration profile for insulin administered in response to hyperglycemia.</p>
@@ -475,7 +475,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-nimodipine-medicationAdministration-profile.html" title="StructureDefinition/nimodipine-medicationAdministration-profile">Nimodipine MedicationAdministration Profile</a>
+               <a href="StructureDefinition-nimodipine-medication-administration-profile.html" title="StructureDefinition/nimodipine-medication-administration-profile">Nimodipine MedicationAdministration Profile</a>
             </td>
             <td>
 <p>MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.</p>
@@ -491,7 +491,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" title="StructureDefinition/paracetamol-on-fever-medicationAdministration-profile">Paracetamol on Fever MedicationAdministration Profile</a>
+               <a href="StructureDefinition-paracetamol-on-fever-medication-administration-profile.html" title="StructureDefinition/paracetamol-on-fever-medication-administration-profile">Paracetamol on Fever MedicationAdministration Profile</a>
             </td>
             <td>
 <p>MedicationAdministration profile for paracetamol administered because of fever.</p>
@@ -558,7 +558,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="StructureDefinition-specific-finding-observation-profile.html" title="StructureDefinition/specific-finding-observation-profile">Specific Finding Observation Profile</a>
             </td>
             <td>
-<p>Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.</p>
+<p>Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings.</p>
 </td>
          </tr>
          <tr>
@@ -734,7 +734,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="StructureDefinition-discharge-department-service-ext.html" title="StructureDefinition/discharge-department-service-ext">Discharge department or service</a>
             </td>
             <td>
-<p>Department/service or facility type receiving the patient at discharge.</p>
+<p>Department, unit or service receiving the patient at discharge.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-discharge-facility-type-ext.html" title="StructureDefinition/discharge-facility-type-ext">Discharge facility type</a>
+            </td>
+            <td>
+<p>Type of facility or transfer destination receiving the patient at discharge.</p>
 </td>
          </tr>
          <tr>
@@ -766,15 +774,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" title="StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext">Hemorrhagic stroke bleeding reason</a>
             </td>
             <td>
-<p>Reason or underlying cause identified for hemorrhagic stroke.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" title="StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext">Hemorrhagic stroke bleeding reason found coded state</a>
-            </td>
-            <td>
-<p>Coded state used when bleeding reason is not found/undetermined in the source model.</p>
+<p>Reason or underlying cause identified for hemorrhagic stroke, including undetermined when no reason is found.</p>
 </td>
          </tr>
          <tr>
@@ -790,15 +790,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="StructureDefinition-ischemic-stroke-etiology-ext.html" title="StructureDefinition/ischemic-stroke-etiology-ext">Ischemic stroke etiology</a>
             </td>
             <td>
-<p>Etiology of ischemic stroke when known.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-ischemic-stroke-etiology-known-ext.html" title="StructureDefinition/ischemic-stroke-etiology-known-ext">Ischemic stroke etiology known/unknown coded state</a>
-            </td>
-            <td>
-<p>Coded state used when the Python builder represents unknown or undetermined ischemic stroke etiology.</p>
+<p>Etiology of ischemic stroke, including undetermined when the etiology is not known.</p>
 </td>
          </tr>
          <tr>
@@ -1275,10 +1267,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-specific-finding-value-vs.html" title="ValueSet/specific-finding-value-vs">Specific Finding Value ValueSet</a>
+            </td>
+            <td>
+<p>Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-specific-finding-vs.html" title="ValueSet/specific-finding-vs">SpecificFinding ValueSet</a>
             </td>
             <td>
-<p>Allowed coded values for SpecificFinding</p>
+<p>Allowed coded values for specific stroke-related findings.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-stroke-diagnosis-code-vs.html" title="ValueSet/stroke-diagnosis-code-vs">Stroke Diagnosis Code ValueSet</a>
+            </td>
+            <td>
+<p>Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.</p>
 </td>
          </tr>
          <tr>
@@ -1830,7 +1838,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://tecnomod-um.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Jun 8, 2026 11:21+0000">2026-06-08</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://tecnomod-um.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Jun 11, 2026 11:47+0000">2026-06-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

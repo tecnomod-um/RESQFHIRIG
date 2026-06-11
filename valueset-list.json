@@ -485,12 +485,23 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
+    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SpecificFindingValueVS",
+    "title" : "Specific Finding Value ValueSet",
+    "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs",
+    "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "http://snomed.info/sct"]
+  },
+  {
     "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SpecificFindingVS",
     "title" : "SpecificFinding ValueSet",
-    "description" : "Allowed coded values for SpecificFinding",
+    "description" : "Allowed coded values for specific stroke-related findings.",
     "systems" : ["http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
     "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
     "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
@@ -505,6 +516,16 @@
     "title" : "StrokeCircumstance ValueSet",
     "description" : "Allowed coded values for StrokeCircumstance",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs"]
+  },
+  {
+    "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeDiagnosisCodeVS",
+    "title" : "Stroke Diagnosis Code ValueSet",
+    "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs",

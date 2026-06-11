@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeMedicationAdministrationProfile |
+| Active as of 2026-06-11 | *Computable Name*:StrokeMedicationAdministrationProfile |
 
  
 Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations. 
@@ -19,7 +19,7 @@ Records medication administrations that are part of the acute or post-acute stro
 
 **Usages:**
 
-* Derived from this Profile: [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medicationAdministration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.md)
+* Derived from this Profile: [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medication-administration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-medication-administration-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -92,7 +92,21 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
   "differential" : {
     "element" : [{
       "id" : "MedicationAdministration",
-      "path" : "MedicationAdministration"
+      "path" : "MedicationAdministration",
+      "constraint" : [{
+        "key" : "medadm-not-done-must-have-status-reason",
+        "severity" : "error",
+        "human" : "If the medication administration was not done, a statusReason should be provided.",
+        "expression" : "status != 'not-done' or statusReason.exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile"
+      },
+      {
+        "key" : "medadm-status-reason-only-when-not-done",
+        "severity" : "warning",
+        "human" : "statusReason should only be present when status is not-done.",
+        "expression" : "statusReason.exists().not() or status = 'not-done'",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile"
+      }]
     },
     {
       "id" : "MedicationAdministration.extension",
@@ -110,6 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "id" : "MedicationAdministration.extension:requiredPostAcuteCare",
       "path" : "MedicationAdministration.extension",
       "sliceName" : "requiredPostAcuteCare",
+      "short" : "Whether the medication relates to post-acute care",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -122,6 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "id" : "MedicationAdministration.extension:assessmentTiming",
       "path" : "MedicationAdministration.extension",
       "sliceName" : "assessmentTiming",
+      "short" : "Timing category for medication administration",
       "min" : 0,
       "max" : "1",
       "type" : [{

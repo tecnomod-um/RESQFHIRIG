@@ -3,7 +3,7 @@
   "id" : "specific-finding-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem specific-finding-cs</b></p><a name=\"specific-finding-cs\"> </a><a name=\"hcspecific-finding-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no-finding<a name=\"specific-finding-cs-no-finding\"> </a></td><td>No Finding</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem specific-finding-cs</b></p><a name=\"specific-finding-cs\"> </a><a name=\"hcspecific-finding-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no-finding<a name=\"specific-finding-cs-no-finding\"> </a></td><td>No Finding</td></tr><tr><td style=\"white-space:nowrap\">atrial-fibrillation-flutter<a name=\"specific-finding-cs-atrial-fibrillation-flutter\"> </a></td><td>Atrial fibrillation/flutter</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
   "version" : "1.0.0",
@@ -11,7 +11,7 @@
   "title" : "SpecificFindingCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -30,9 +30,13 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1,
+  "count" : 2,
   "concept" : [{
     "code" : "no-finding",
     "display" : "No Finding"
+  },
+  {
+    "code" : "atrial-fibrillation-flutter",
+    "display" : "Atrial fibrillation/flutter"
   }]
 }

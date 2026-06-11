@@ -18,6 +18,7 @@
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
     </sch:rule>

@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "specific-finding-value-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet specific-finding-value-vs</b></p><a name=\"specific-finding-value-vs\"> </a><a name=\"hcspecific-finding-value-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-mtici-score-vs.html\">MTiciScore ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-atrial-fibrillation-or-flutter-vs.html\">AtrialFibrillationOrFlutter ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-carotid-stenosis-level-vs.html\">CarotidStenosisLevel ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-hemorrhagic-transformation-type-vs.html\">HemorrhagicTransformationType ValueSet</a></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+  "version" : "1.0.0",
+  "name" : "SpecificFindingValueVS",
+  "title" : "Specific Finding Value ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T11:47:40+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/mtici-score-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/carotid-stenosis-level-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs"]
+    }]
+  }
+}

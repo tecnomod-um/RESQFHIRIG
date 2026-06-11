@@ -84,10 +84,10 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
     "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
@@ -123,7 +123,7 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
+    "ValueSet-specific-finding-value-vs.html" : "Specific Finding Value ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bleeding-reason-vs",
@@ -136,8 +136,7 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason",
-    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html" : "Hemorrhagic stroke bleeding reason found coded state"
+    "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html" : "Hemorrhagic stroke bleeding reason"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
@@ -149,8 +148,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
@@ -177,7 +176,10 @@
     "name" : "CarotidStenosisLevelVS",
     "title" : "CarotidStenosisLevel ValueSet",
     "description" : "Allowed coded values for CarotidStenosisLevel",
-    "systems" : ["http://snomed.info/sct"]
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "ValueSet-specific-finding-value-vs.html" : "Specific Finding Value ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/clinical-status-codes-vs",
@@ -225,7 +227,10 @@
     "title" : "DischargeFacilityType ValueSet",
     "description" : "Allowed coded values for DischargeFacilityType",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
-    "http://snomed.info/sct"]
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-discharge-facility-type-ext.html" : "Discharge facility type"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/first-contact-place-vs",
@@ -275,7 +280,10 @@
     "name" : "HemorrhagicTransformationTypeVS",
     "title" : "HemorrhagicTransformationType ValueSet",
     "description" : "Allowed coded values for HemorrhagicTransformationType",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs"],
+    "uses" : {
+    },
+    "ValueSet-specific-finding-value-vs.html" : "Specific Finding Value ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/hospitalized-in-vs",
@@ -348,7 +356,7 @@
     "systems" : ["http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs"],
     "uses" : {
     },
-    "StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile"
+    "StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.html" : "Insulin on Hyperglycemia MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/ivt-application-department-vs",
@@ -406,8 +414,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile"
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
+    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
@@ -417,7 +425,10 @@
     "title" : "MimicsDiagnosis ValueSet",
     "description" : "Allowed coded values for MimicsDiagnosis",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
-    "http://snomed.info/sct"]
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "ValueSet-stroke-diagnosis-code-vs.html" : "Stroke Diagnosis Code ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
@@ -435,7 +446,10 @@
     "name" : "MTiciScoreVS",
     "title" : "MTiciScore ValueSet",
     "description" : "Allowed coded values for MTiciScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"]
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"],
+    "uses" : {
+    },
+    "ValueSet-specific-finding-value-vs.html" : "Specific Finding Value ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs",
@@ -445,7 +459,10 @@
     "title" : "Nimodipinetiming ValueSet",
     "description" : "Allowed coded values for Nimodipinetiming",
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs",
-    "http://snomed.info/sct"]
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-nimodipine-medication-administration-profile.html" : "Nimodipine MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs",
@@ -481,7 +498,7 @@
     "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs"],
     "uses" : {
     },
-    "StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile"
+    "StructureDefinition-paracetamol-on-fever-medication-administration-profile.html" : "Paracetamol on Fever MedicationAdministration Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/paracetamol-on-fever-vs",
@@ -503,9 +520,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
@@ -573,11 +590,11 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
   },
   {
@@ -627,12 +644,26 @@
     "StructureDefinition-gender-snomed-ext.html" : "Gender represented with SNOMED CT"
   },
   {
+    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "SpecificFindingValueVS",
+    "title" : "Specific Finding Value ValueSet",
+    "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs",
+    "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
+  },
+  {
     "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SpecificFindingVS",
     "title" : "SpecificFinding ValueSet",
-    "description" : "Allowed coded values for SpecificFinding",
+    "description" : "Allowed coded values for specific stroke-related findings.",
     "systems" : ["http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
     "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
     "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
@@ -640,8 +671,8 @@
     "http://tecnomod-um.org/CodeSystem/old-infarct-cs"],
     "uses" : {
     },
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
@@ -651,6 +682,19 @@
     "title" : "StrokeCircumstance ValueSet",
     "description" : "Allowed coded values for StrokeCircumstance",
     "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs"]
+  },
+  {
+    "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeDiagnosisCodeVS",
+    "title" : "Stroke Diagnosis Code ValueSet",
+    "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs",
@@ -673,8 +717,7 @@
     "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"],
     "uses" : {
     },
-    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology",
-    "StructureDefinition-ischemic-stroke-etiology-known-ext.html" : "Ischemic stroke etiology known/unknown coded state"
+    "StructureDefinition-ischemic-stroke-etiology-ext.html" : "Ischemic stroke etiology"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
@@ -699,7 +742,7 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
+    "ValueSet-stroke-diagnosis-code-vs.html" : "Stroke Diagnosis Code ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs",

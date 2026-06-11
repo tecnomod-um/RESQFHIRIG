@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/in-hospital-vs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:InHospitalVS |
+| Active as of 2026-06-11 | *Computable Name*:InHospitalVS |
 
  
 Allowed coded values for InHospital 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "InHospital ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

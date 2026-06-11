@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "specific-finding-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem specific-finding-cs</b></p><a name=\"specific-finding-cs\"> </a><a name=\"hcspecific-finding-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no-finding<a name=\"specific-finding-cs-no-finding\"> </a></td><td>No Finding</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem specific-finding-cs</b></p><a name=\"specific-finding-cs\"> </a><a name=\"hcspecific-finding-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no-finding<a name=\"specific-finding-cs-no-finding\"> </a></td><td>No Finding</td></tr><tr><td style=\"white-space:nowrap\">atrial-fibrillation-flutter<a name=\"specific-finding-cs-atrial-fibrillation-flutter\"> </a></td><td>Atrial fibrillation/flutter</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "http://tecnomod-um.org/CodeSystem/specific-finding-cs"^^xsd:anyURI ;
@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "SpecificFindingCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-08T11:21:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-11T11:47:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -44,10 +44,13 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "no-finding" ] ;
      fhir:display [ fhir:v "No Finding" ]
+  ] [
+     fhir:code [ fhir:v "atrial-fibrillation-flutter" ] ;
+     fhir:display [ fhir:v "Atrial fibrillation/flutter" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

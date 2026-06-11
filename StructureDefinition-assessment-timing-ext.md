@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/assessment-timing-ext | *Version*:1.0.0 |
-| Draft as of 2026-06-08 | *Computable Name*:AssessmentTimingExt |
+| Draft as of 2026-06-11 | *Computable Name*:AssessmentTimingExt |
 
 Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.
 
@@ -19,7 +19,7 @@ Timing category used by medication-administration builders, e.g. insulin within 
 
 **Usages:**
 
-* Use this Extension: [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medicationAdministration-profile.md) and [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md)
+* Use this Extension: [Stroke MedicationAdministration Profile](StructureDefinition-stroke-medication-administration-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-assessment-timing-ext.json)
 
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

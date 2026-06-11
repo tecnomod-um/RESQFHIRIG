@@ -9,9 +9,9 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:1.0.0 |
-| Draft as of 2026-06-08 | *Computable Name*:IschemicStrokeEtiologyExt |
+| Draft as of 2026-06-11 | *Computable Name*:IschemicStrokeEtiologyExt |
 
-Etiology of ischemic stroke when known.
+Etiology of ischemic stroke, including undetermined when the etiology is not known.
 
 **Context of Use**
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
   "name" : "IschemicStrokeEtiologyExt",
   "title" : "Ischemic stroke etiology",
   "status" : "draft",
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Etiology of ischemic stroke when known.",
+  "description" : "Etiology of ischemic stroke, including undetermined when the etiology is not known.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       "id" : "Extension",
       "path" : "Extension",
       "short" : "Ischemic stroke etiology",
-      "definition" : "Etiology of ischemic stroke when known."
+      "definition" : "Etiology of ischemic stroke, including undetermined when the etiology is not known."
     },
     {
       "id" : "Extension.extension",

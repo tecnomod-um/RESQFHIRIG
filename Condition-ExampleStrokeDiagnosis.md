@@ -14,6 +14,8 @@ Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnos
 
 **verificationStatus**: Confirmed
 
+**category**: Encounter Diagnosis
+
 **code**: Ischemic stroke (disorder)
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown ( patient-001)](Patient-ExampleRESQPatient.md)
@@ -49,6 +51,13 @@ Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnos
       "display" : "Confirmed"
     }]
   },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "encounter-diagnosis",
+      "display" : "Encounter Diagnosis"
+    }]
+  }],
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",

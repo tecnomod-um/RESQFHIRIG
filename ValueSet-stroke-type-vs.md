@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/stroke-type-vs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeTypeVS |
+| Active as of 2026-06-11 | *Computable Name*:StrokeTypeVS |
 
  
 Allowed coded values for StrokeType 
 
  **References** 
 
-* [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
+* Included into [StrokeDiagnosisCodeVS](ValueSet-stroke-diagnosis-code-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -51,7 +51,7 @@ Allowed coded values for StrokeType
   "title" : "StrokeType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

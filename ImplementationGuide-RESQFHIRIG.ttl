@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-08T11:21:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-11T11:47:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -475,7 +475,25 @@
          fhir:reference [ fhir:v "StructureDefinition/discharge-department-service-ext" ]
        ] ;
        fhir:name [ fhir:v "Discharge department or service" ] ;
-       fhir:description [ fhir:v "Department/service or facility type receiving the patient at discharge." ] ;
+       fhir:description [ fhir:v "Department, unit or service receiving the patient at discharge." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext> ;
+         fhir:reference [ fhir:v "StructureDefinition/discharge-facility-type-ext" ]
+       ] ;
+       fhir:name [ fhir:v "Discharge facility type" ] ;
+       fhir:description [ fhir:v "Type of facility or transfer destination receiving the patient at discharge." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -937,25 +955,7 @@
          fhir:reference [ fhir:v "StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext" ]
        ] ;
        fhir:name [ fhir:v "Hemorrhagic stroke bleeding reason" ] ;
-       fhir:description [ fhir:v "Reason or underlying cause identified for hemorrhagic stroke." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:extension"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext> ;
-         fhir:reference [ fhir:v "StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext" ]
-       ] ;
-       fhir:name [ fhir:v "Hemorrhagic stroke bleeding reason found coded state" ] ;
-       fhir:description [ fhir:v "Coded state used when bleeding reason is not found/undetermined in the source model." ] ;
+       fhir:description [ fhir:v "Reason or underlying cause identified for hemorrhagic stroke, including undetermined when no reason is found." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1221,8 +1221,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile" ]
+         fhir:l <http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile" ]
        ] ;
        fhir:name [ fhir:v "Insulin on Hyperglycemia MedicationAdministration Profile" ] ;
        fhir:description [ fhir:v "MedicationAdministration profile for insulin administered in response to hyperglycemia." ] ;
@@ -1279,25 +1279,7 @@
          fhir:reference [ fhir:v "StructureDefinition/ischemic-stroke-etiology-ext" ]
        ] ;
        fhir:name [ fhir:v "Ischemic stroke etiology" ] ;
-       fhir:description [ fhir:v "Etiology of ischemic stroke when known." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:extension"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext> ;
-         fhir:reference [ fhir:v "StructureDefinition/ischemic-stroke-etiology-known-ext" ]
-       ] ;
-       fhir:name [ fhir:v "Ischemic stroke etiology known/unknown coded state" ] ;
-       fhir:description [ fhir:v "Coded state used when the Python builder represents unknown or undetermined ischemic stroke etiology." ] ;
+       fhir:description [ fhir:v "Etiology of ischemic stroke, including undetermined when the etiology is not known." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1599,8 +1581,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/nimodipine-medicationAdministration-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/nimodipine-medicationAdministration-profile" ]
+         fhir:l <http://tecnomod-um.org/StructureDefinition/nimodipine-medication-administration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/nimodipine-medication-administration-profile" ]
        ] ;
        fhir:name [ fhir:v "Nimodipine MedicationAdministration Profile" ] ;
        fhir:description [ fhir:v "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway." ] ;
@@ -1760,8 +1742,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-medicationAdministration-profile> ;
-         fhir:reference [ fhir:v "StructureDefinition/paracetamol-on-fever-medicationAdministration-profile" ]
+         fhir:l <http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/paracetamol-on-fever-medication-administration-profile" ]
        ] ;
        fhir:name [ fhir:v "Paracetamol on Fever MedicationAdministration Profile" ] ;
        fhir:description [ fhir:v "MedicationAdministration profile for paracetamol administered because of fever." ] ;
@@ -2268,7 +2250,25 @@
          fhir:reference [ fhir:v "StructureDefinition/specific-finding-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Specific Finding Observation Profile" ] ;
-       fhir:description [ fhir:v "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter." ] ;
+       fhir:description [ fhir:v "Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/specific-finding-value-vs> ;
+         fhir:reference [ fhir:v "ValueSet/specific-finding-value-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Specific Finding Value ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2286,7 +2286,7 @@
          fhir:reference [ fhir:v "ValueSet/specific-finding-vs" ]
        ] ;
        fhir:name [ fhir:v "SpecificFinding ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed coded values for SpecificFinding" ] ;
+       fhir:description [ fhir:v "Allowed coded values for specific stroke-related findings." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2341,6 +2341,24 @@
        ] ;
        fhir:name [ fhir:v "Stroke Carotid Imaging Procedure Profile" ] ;
        fhir:description [ fhir:v "Procedure profile for carotid imaging used in post-stroke assessment." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs> ;
+         fhir:reference [ fhir:v "ValueSet/stroke-diagnosis-code-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Stroke Diagnosis Code ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

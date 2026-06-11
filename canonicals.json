@@ -356,6 +356,13 @@
   "name" : "DischargeDepartmentServiceExt"
 },
 {
+  "id" : "discharge-facility-type-ext",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext",
+  "version" : "1.0.0",
+  "name" : "DischargeFacilityTypeExt"
+},
+{
   "id" : "discharge-medication-request-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
@@ -426,13 +433,6 @@
   "name" : "HemorrhagicStrokeBleedingReasonExt"
 },
 {
-  "id" : "hemorrhagic-stroke-bleeding-reason-found-ext",
-  "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext",
-  "version" : "1.0.0",
-  "name" : "HemorrhagicStrokeBleedingReasonFoundExt"
-},
-{
   "id" : "highest-hyperglycemia-value-observation-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
@@ -468,9 +468,9 @@
   "name" : "InitialCareIntensityExt"
 },
 {
-  "id" : "insulin-on-hyperglycemia-medicationAdministration-profile",
+  "id" : "insulin-on-hyperglycemia-medication-administration-profile",
   "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "InsulinOnHyperglycemiaMedicationAdministrationProfile"
 },
@@ -482,13 +482,6 @@
   "name" : "IschemicStrokeEtiologyExt"
 },
 {
-  "id" : "ischemic-stroke-etiology-known-ext",
-  "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext",
-  "version" : "1.0.0",
-  "name" : "IschemicStrokeEtiologyKnownExt"
-},
-{
   "id" : "mechanical-thrombectomy-diagnostic-report-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile",
@@ -496,9 +489,9 @@
   "name" : "MechanicalThrombectomyDiagnosticReportProfile"
 },
 {
-  "id" : "nimodipine-medicationAdministration-profile",
+  "id" : "nimodipine-medication-administration-profile",
   "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/nimodipine-medicationAdministration-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/nimodipine-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "NimodipineMedicationAdministrationProfile"
 },
@@ -517,9 +510,9 @@
   "name" : "ObservationTimingContextExt"
 },
 {
-  "id" : "paracetamol-on-fever-medicationAdministration-profile",
+  "id" : "paracetamol-on-fever-medication-administration-profile",
   "type" : "StructureDefinition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-medicationAdministration-profile",
+  "url" : "http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "ParacetamolOnFeverMedicationAdministrationProfile"
 },
@@ -1091,6 +1084,13 @@
   "name" : "SexVS"
 },
 {
+  "id" : "specific-finding-value-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+  "version" : "1.0.0",
+  "name" : "SpecificFindingValueVS"
+},
+{
   "id" : "specific-finding-vs",
   "type" : "ValueSet",
   "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
@@ -1103,6 +1103,13 @@
   "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
   "version" : "1.0.0",
   "name" : "StrokeCircumstanceVS"
+},
+{
+  "id" : "stroke-diagnosis-code-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeDiagnosisCodeVS"
 },
 {
   "id" : "stroke-etiology-other-vs",

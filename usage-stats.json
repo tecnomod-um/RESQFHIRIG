@@ -19,6 +19,13 @@
       ]
     },
     {
+      "url": "http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext",
+      "title": "Discharge facility type",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext",
       "title": "EMS prenotification",
       "types": [
@@ -47,13 +54,6 @@
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext",
-      "title": "Hemorrhagic stroke bleeding reason found coded state",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
       "url": "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
       "title": "Initial care intensity",
       "types": [
@@ -63,13 +63,6 @@
     {
       "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
       "title": "Ischemic stroke etiology",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext",
-      "title": "Ischemic stroke etiology known/unknown coded state",
       "types": [
         "CodeableConcept"
       ]
@@ -228,6 +221,9 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
@@ -259,6 +255,9 @@
     "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext": [
       "Encounter"
     ],
+    "http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext": [
+      "Encounter"
+    ],
     "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext": [
       "Encounter"
     ],
@@ -271,16 +270,10 @@
     "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
       "Condition"
     ],
-    "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext": [
-      "Condition"
-    ],
     "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext": [
       "Location"
     ],
     "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext": [
-      "Condition"
-    ],
-    "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext": [
       "Condition"
     ],
     "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext": [

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "stroke-diagnosis-code-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-diagnosis-code-vs</b></p><a name=\"stroke-diagnosis-code-vs\"> </a><a name=\"hcstroke-diagnosis-code-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-stroke-type-vs.html\">StrokeType ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-mimics-diagnosis-vs.html\">MimicsDiagnosis ValueSet</a></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeDiagnosisCodeVS",
+  "title" : "Stroke Diagnosis Code ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T11:47:40+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/stroke-type-vs"]
+    },
+    {
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs"]
+    }]
+  }
+}

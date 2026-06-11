@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:ProcedureNotDoneReasonVS |
+| Active as of 2026-06-11 | *Computable Name*:ProcedureNotDoneReasonVS |
 
  
 Allowed coded values for ProcedureNotDoneReason 
@@ -56,7 +56,7 @@ Allowed coded values for ProcedureNotDoneReason
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeEtiologyOtherCS |
+| Active as of 2026-06-11 | *Computable Name*:StrokeEtiologyOtherCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "StrokeEtiologyOtherCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

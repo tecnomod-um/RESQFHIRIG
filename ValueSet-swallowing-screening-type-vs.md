@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/swallowing-screening-type-vs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:SwallowingScreeningTypeVS |
+| Active as of 2026-06-11 | *Computable Name*:SwallowingScreeningTypeVS |
 
  
 Allowed coded values for SwallowingScreeningType 
@@ -51,7 +51,7 @@ Allowed coded values for SwallowingScreeningType
   "title" : "SwallowingScreeningType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

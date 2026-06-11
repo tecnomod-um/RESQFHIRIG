@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/fever-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:FeverObservationProfile |
+| Active as of 2026-06-11 | *Computable Name*:FeverObservationProfile |
 
  
 Observation profile for fever presence or temperature values during the stroke pathway. 
 
 **Usages:**
 
-* Refer to this Profile: [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.md)
+* Refer to this Profile: [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-fever-observation-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fever-observation-pr
   "title" : "Fever Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

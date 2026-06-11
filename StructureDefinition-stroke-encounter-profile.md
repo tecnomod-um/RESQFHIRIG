@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeEncounterProfile |
+| Active as of 2026-06-11 | *Computable Name*:StrokeEncounterProfile |
 
  
 Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
   "title" : "Stroke Encounter Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -144,6 +144,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "type" : [{
         "code" : "Extension",
         "profile" : ["http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Encounter.extension:dischargeFacilityType",
+      "path" : "Encounter.extension",
+      "sliceName" : "dischargeFacilityType",
+      "short" : "Type of facility or transfer destination after discharge",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext"]
       }],
       "mustSupport" : true
     },

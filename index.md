@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-06-08 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-06-11 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -381,7 +381,19 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "StructureDefinition/discharge-department-service-ext"
       },
       "name" : "Discharge department or service",
-      "description" : "Department/service or facility type receiving the patient at discharge.",
+      "description" : "Department, unit or service receiving the patient at discharge.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/discharge-facility-type-ext"
+      },
+      "name" : "Discharge facility type",
+      "description" : "Type of facility or transfer destination receiving the patient at discharge.",
       "isExample" : false
     },
     {
@@ -681,19 +693,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
       },
       "name" : "Hemorrhagic stroke bleeding reason",
-      "description" : "Reason or underlying cause identified for hemorrhagic stroke.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext"
-      },
-      "name" : "Hemorrhagic stroke bleeding reason found coded state",
-      "description" : "Coded state used when bleeding reason is not found/undetermined in the source model.",
+      "description" : "Reason or underlying cause identified for hemorrhagic stroke, including undetermined when no reason is found.",
       "isExample" : false
     },
     {
@@ -870,7 +870,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile"
+        "reference" : "StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile"
       },
       "name" : "Insulin on Hyperglycemia MedicationAdministration Profile",
       "description" : "MedicationAdministration profile for insulin administered in response to hyperglycemia.",
@@ -909,19 +909,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "StructureDefinition/ischemic-stroke-etiology-ext"
       },
       "name" : "Ischemic stroke etiology",
-      "description" : "Etiology of ischemic stroke when known.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ischemic-stroke-etiology-known-ext"
-      },
-      "name" : "Ischemic stroke etiology known/unknown coded state",
-      "description" : "Coded state used when the Python builder represents unknown or undetermined ischemic stroke etiology.",
+      "description" : "Etiology of ischemic stroke, including undetermined when the etiology is not known.",
       "isExample" : false
     },
     {
@@ -1122,7 +1110,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/nimodipine-medicationAdministration-profile"
+        "reference" : "StructureDefinition/nimodipine-medication-administration-profile"
       },
       "name" : "Nimodipine MedicationAdministration Profile",
       "description" : "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.",
@@ -1229,7 +1217,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/paracetamol-on-fever-medicationAdministration-profile"
+        "reference" : "StructureDefinition/paracetamol-on-fever-medication-administration-profile"
       },
       "name" : "Paracetamol on Fever MedicationAdministration Profile",
       "description" : "MedicationAdministration profile for paracetamol administered because of fever.",
@@ -1568,7 +1556,19 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "StructureDefinition/specific-finding-observation-profile"
       },
       "name" : "Specific Finding Observation Profile",
-      "description" : "Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter.",
+      "description" : "Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/specific-finding-value-vs"
+      },
+      "name" : "Specific Finding Value ValueSet",
+      "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
       "isExample" : false
     },
     {
@@ -1580,7 +1580,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "ValueSet/specific-finding-vs"
       },
       "name" : "SpecificFinding ValueSet",
-      "description" : "Allowed coded values for SpecificFinding",
+      "description" : "Allowed coded values for specific stroke-related findings.",
       "isExample" : false
     },
     {
@@ -1617,6 +1617,18 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "Stroke Carotid Imaging Procedure Profile",
       "description" : "Procedure profile for carotid imaging used in post-stroke assessment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/stroke-diagnosis-code-vs"
+      },
+      "name" : "Stroke Diagnosis Code ValueSet",
+      "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
       "isExample" : false
     },
     {

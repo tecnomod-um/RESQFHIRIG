@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="stroke-diagnosis-code-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet stroke-diagnosis-code-vs</b></p><a name="stroke-diagnosis-code-vs"> </a><a name="hcstroke-diagnosis-code-vs"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-stroke-type-vs.html">StrokeType ValueSet</a></li><li>Import all the codes that are contained in <a href="ValueSet-mimics-diagnosis-vs.html">MimicsDiagnosis ValueSet</a></li></ul></div>
+  </text>
+  <url value="http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs"/>
+  <version value="1.0.0"/>
+  <name value="StrokeDiagnosisCodeVS"/>
+  <title value="Stroke Diagnosis Code ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T11:47:40+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="http://tecnomod-um.org/ValueSet/stroke-type-vs"/>
+    </include>
+    <include>
+      <valueSet value="http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs"/>
+    </include>
+  </compose>
+</ValueSet>

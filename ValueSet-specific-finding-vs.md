@@ -9,10 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/specific-finding-vs | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:SpecificFindingVS |
+| Active as of 2026-06-11 | *Computable Name*:SpecificFindingVS |
 
  
-Allowed coded values for SpecificFinding 
+Allowed coded values for specific stroke-related findings. 
 
  **References** 
 
@@ -52,7 +52,7 @@ Allowed coded values for SpecificFinding
   "title" : "SpecificFinding ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -61,7 +61,7 @@ Allowed coded values for SpecificFinding
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for SpecificFinding",
+  "description" : "Allowed coded values for specific stroke-related findings.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -114,10 +114,6 @@ Allowed coded values for SpecificFinding
       {
         "code" : "230706003",
         "display" : "Hemorrhagic cerebral infarction (disorder)"
-      },
-      {
-        "code" : "49436004",
-        "display" : "Atrial fibrillation (disorder)"
       }]
     },
     {
@@ -143,6 +139,10 @@ Allowed coded values for SpecificFinding
       "concept" : [{
         "code" : "no-finding",
         "display" : "No Finding"
+      },
+      {
+        "code" : "atrial-fibrillation-flutter",
+        "display" : "Atrial fibrillation/flutter"
       }]
     }]
   }

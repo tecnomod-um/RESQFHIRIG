@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-06-08 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| Active as of 2026-06-11 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-08T11:21:15+00:00",
+  "date" : "2026-06-11T11:47:40+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -98,7 +98,42 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "differential" : {
     "element" : [{
       "id" : "Condition",
-      "path" : "Condition"
+      "path" : "Condition",
+      "constraint" : [{
+        "key" : "ischemic-etiology-only-for-ischemic-stroke",
+        "severity" : "error",
+        "human" : "Ischemic stroke etiology extension should only be present when the diagnosis code is ischemic stroke.",
+        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and code = '422504002').exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      },
+      {
+        "key" : "hemorrhagic-bleeding-reason-only-for-hemorrhagic-stroke",
+        "severity" : "error",
+        "human" : "Hemorrhagic bleeding reason extension should only be present when the diagnosis code is hemorrhagic stroke or subarachnoid hemorrhage.",
+        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and (code = '274100004' or code = '21454007')).exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      },
+      {
+        "key" : "wakeup-stroke-true-should-have-onset",
+        "severity" : "warning",
+        "human" : "If wake-up stroke is true, onsetDateTime should be populated with the last-known-well or sleep timestamp.",
+        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext').value.ofType(boolean) != true or onset.exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      },
+      {
+        "key" : "tia-should-have-evidence",
+        "severity" : "warning",
+        "human" : "If the diagnosis is transient ischemic attack, diagnostic evidence should preferably reference the observed symptoms.",
+        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '266257000').exists().not() or evidence.exists()",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      },
+      {
+        "key" : "mimic-diagnosis-should-not-have-stroke-specific-extensions",
+        "severity" : "error",
+        "human" : "If the diagnosis code belongs to MimicsDiagnosisVS, stroke-specific etiology or hemorrhagic bleeding reason extensions should not be present.",
+        "expression" : "code.memberOf('http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs').not() or (extension.where(url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() and extension.where(url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not())",
+        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+      }]
     },
     {
       "id" : "Condition.extension",
@@ -127,19 +162,6 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "mustSupport" : true
     },
     {
-      "id" : "Condition.extension:ischemicStrokeEtiologyKnown",
-      "path" : "Condition.extension",
-      "sliceName" : "ischemicStrokeEtiologyKnown",
-      "short" : "Known/unknown state for ischemic etiology",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-known-ext"]
-      }],
-      "mustSupport" : true
-    },
-    {
       "id" : "Condition.extension:hemorrhagicStrokeBleedingReason",
       "path" : "Condition.extension",
       "sliceName" : "hemorrhagicStrokeBleedingReason",
@@ -149,19 +171,6 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "type" : [{
         "code" : "Extension",
         "profile" : ["http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"]
-      }],
-      "mustSupport" : true
-    },
-    {
-      "id" : "Condition.extension:hemorrhagicStrokeBleedingReasonFound",
-      "path" : "Condition.extension",
-      "sliceName" : "hemorrhagicStrokeBleedingReasonFound",
-      "short" : "Known/unknown state for bleeding reason",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext"]
       }],
       "mustSupport" : true
     },
@@ -201,14 +210,27 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       }
     },
     {
+      "id" : "Condition.category",
+      "path" : "Condition.category",
+      "short" : "Encounter diagnosis",
+      "min" : 1,
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "encounter-diagnosis"
+        }]
+      },
+      "mustSupport" : true
+    },
+    {
       "id" : "Condition.code",
       "path" : "Condition.code",
-      "short" : "Stroke diagnosis type",
+      "short" : "Final diagnosis code for the stroke episode, including stroke mimics",
       "min" : 1,
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-type-vs"
+        "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs"
       }
     },
     {

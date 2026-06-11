@@ -10,7 +10,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-06-08T11:21:15+00:00"/>
+  <date value="2026-06-11T11:47:40+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -285,7 +285,18 @@
         <reference value="StructureDefinition/discharge-department-service-ext"/>
       </reference>
       <name value="Discharge department or service"/>
-      <description value="Department/service or facility type receiving the patient at discharge."/>
+      <description value="Department, unit or service receiving the patient at discharge."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/discharge-facility-type-ext"/>
+      </reference>
+      <name value="Discharge facility type"/>
+      <description value="Type of facility or transfer destination receiving the patient at discharge."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -560,18 +571,7 @@
         <reference value="StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"/>
       </reference>
       <name value="Hemorrhagic stroke bleeding reason"/>
-      <description value="Reason or underlying cause identified for hemorrhagic stroke."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hemorrhagic-stroke-bleeding-reason-found-ext"/>
-      </reference>
-      <name value="Hemorrhagic stroke bleeding reason found coded state"/>
-      <description value="Coded state used when bleeding reason is not found/undetermined in the source model."/>
+      <description value="Reason or underlying cause identified for hemorrhagic stroke, including undetermined when no reason is found."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -733,7 +733,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/insulin-on-hyperglycemia-medicationAdministration-profile"/>
+        <reference value="StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile"/>
       </reference>
       <name value="Insulin on Hyperglycemia MedicationAdministration Profile"/>
       <description value="MedicationAdministration profile for insulin administered in response to hyperglycemia."/>
@@ -769,18 +769,7 @@
         <reference value="StructureDefinition/ischemic-stroke-etiology-ext"/>
       </reference>
       <name value="Ischemic stroke etiology"/>
-      <description value="Etiology of ischemic stroke when known."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ischemic-stroke-etiology-known-ext"/>
-      </reference>
-      <name value="Ischemic stroke etiology known/unknown coded state"/>
-      <description value="Coded state used when the Python builder represents unknown or undetermined ischemic stroke etiology."/>
+      <description value="Etiology of ischemic stroke, including undetermined when the etiology is not known."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -964,7 +953,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/nimodipine-medicationAdministration-profile"/>
+        <reference value="StructureDefinition/nimodipine-medication-administration-profile"/>
       </reference>
       <name value="Nimodipine MedicationAdministration Profile"/>
       <description value="MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway."/>
@@ -1062,7 +1051,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/paracetamol-on-fever-medicationAdministration-profile"/>
+        <reference value="StructureDefinition/paracetamol-on-fever-medication-administration-profile"/>
       </reference>
       <name value="Paracetamol on Fever MedicationAdministration Profile"/>
       <description value="MedicationAdministration profile for paracetamol administered because of fever."/>
@@ -1373,7 +1362,18 @@
         <reference value="StructureDefinition/specific-finding-observation-profile"/>
       </reference>
       <name value="Specific Finding Observation Profile"/>
-      <description value="Observation profile for specific clinical, imaging or procedural findings including mTICI, bleeding volume, carotid stenosis, occlusion and atrial fibrillation/flutter."/>
+      <description value="Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/specific-finding-value-vs"/>
+      </reference>
+      <name value="Specific Finding Value ValueSet"/>
+      <description value="Allowed coded values used as Observation.valueCodeableConcept for specific finding observations."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1384,7 +1384,7 @@
         <reference value="ValueSet/specific-finding-vs"/>
       </reference>
       <name value="SpecificFinding ValueSet"/>
-      <description value="Allowed coded values for SpecificFinding"/>
+      <description value="Allowed coded values for specific stroke-related findings."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1418,6 +1418,17 @@
       </reference>
       <name value="Stroke Carotid Imaging Procedure Profile"/>
       <description value="Procedure profile for carotid imaging used in post-stroke assessment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/stroke-diagnosis-code-vs"/>
+      </reference>
+      <name value="Stroke Diagnosis Code ValueSet"/>
+      <description value="Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics."/>
       <isExample value="false"/>
     </resource>
     <resource>
