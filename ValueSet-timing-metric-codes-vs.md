@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/timing-metric-codes-vs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:TimingMetricCodesVS |
+| Active as of 2026-06-12 | *Computable Name*:TimingMetricCodesVS |
 
  
 Allowed coded values for TimingMetricCodes 
@@ -51,7 +51,7 @@ Allowed coded values for TimingMetricCodes
   "title" : "TimingMetricCodes ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

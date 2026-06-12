@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-06-11 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-06-12 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -190,6 +190,18 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "AnalyticsCodesCs CodeSystem",
       "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/anticoagulant-reversal-medication-administration-profile"
+      },
+      "name" : "Anticoagulant Reversal MedicationAdministration Profile",
+      "description" : "MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations.",
       "isExample" : false
     },
     {

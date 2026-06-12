@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:RESQPractitionerRoleProfile |
+| Active as of 2026-06-12 | *Computable Name*:RESQPractitionerRoleProfile |
 
  
 PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-practitioner-ro
   "title" : "RESQ PractitionerRole Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

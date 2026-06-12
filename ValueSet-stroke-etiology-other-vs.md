@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeEtiologyOtherVS |
+| Active as of 2026-06-12 | *Computable Name*:StrokeEtiologyOtherVS |
 
  
 Allowed coded values for StrokeEtiologyOther 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "StrokeEtiologyOther ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -76,7 +76,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
         "display" : "Vasculitis (disorder)"
       },
       {
-        "code" : "122459003",
+        "code" : "710864009",
         "display" : "Dissection of artery (disorder)"
       },
       {

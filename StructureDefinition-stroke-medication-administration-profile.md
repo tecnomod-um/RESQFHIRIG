@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeMedicationAdministrationProfile |
+| Active as of 2026-06-12 | *Computable Name*:StrokeMedicationAdministrationProfile |
 
  
 Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations. 
@@ -19,7 +19,7 @@ Records medication administrations that are part of the acute or post-acute stro
 
 **Usages:**
 
-* Derived from this Profile: [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medication-administration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
+* Derived from this Profile: [Anticoagulant Reversal MedicationAdministration Profile](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md), [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medication-administration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-medication-administration-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

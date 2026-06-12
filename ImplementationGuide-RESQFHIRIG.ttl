@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-06-11T14:44:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -188,6 +188,24 @@
        ] ;
        fhir:name [ fhir:v "AnalyticsCodesCs CodeSystem" ] ;
        fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/anticoagulant-reversal-medication-administration-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Anticoagulant Reversal MedicationAdministration Profile" ] ;
+       fhir:description [ fhir:v "MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

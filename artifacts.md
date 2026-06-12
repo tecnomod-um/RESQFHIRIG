@@ -14,6 +14,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | | |
 | :--- | :--- |
 | [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md) | Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL. |
+| [Anticoagulant Reversal MedicationAdministration Profile](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md) | MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations. |
 | [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md) | Observation profile for recording whether a three-month follow-up appointment was scheduled or attended. |
 | [Base Stroke Observation Profile](StructureDefinition-base-stroke-observation.md) | Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context. |
 | [Discharge MedicationRequest Profile](StructureDefinition-discharge-medication-request-profile.md) | MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter. |

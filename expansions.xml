@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="cecd32d9-1f1e-4a58-8887-0480f728974c"/>
+  <id value="d29c7ecb-a740-41bb-b6d2-08dd7fae2604"/>
   <meta>
-    <lastUpdated value="2026-06-11T14:44:28.896+00:00"/>
+    <lastUpdated value="2026-06-12T09:34:13.453+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -114,7 +114,7 @@
         <title value="AdherenceCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -123,8 +123,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:26ac1918-47bd-4740-8482-ceec678d345d"/>
-          <timestamp value="2026-06-11T14:46:38+00:00"/>
+          <identifier value="urn:uuid:3c784bc3-bcd2-4f95-81e4-4e10b80be142"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -336,7 +336,7 @@
         <title value="AdmissionDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -345,8 +345,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a455e449-6167-4e47-a6d5-cc77f9699ec0"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
+          <identifier value="urn:uuid:7162a1dc-97cc-4bb7-974d-96beb8f81c43"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -563,7 +563,7 @@
         <title value="AdmissionPathway ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -572,8 +572,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c16e9f75-a6dd-4b98-b060-86db850d8fb5"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
+          <identifier value="urn:uuid:0ba2d2df-5709-41aa-a32e-0fdea3d54d50"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -942,7 +942,7 @@
         <title value="AnaliticsCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -951,8 +951,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d55e23ab-2261-4a24-b8c0-d0526c2a272b"/>
-          <timestamp value="2026-06-11T14:46:19+00:00"/>
+          <identifier value="urn:uuid:ec1cf1a5-0f28-4a4a-99f7-c6ce63f3a07e"/>
+          <timestamp value="2026-06-12T09:35:27+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -1071,7 +1071,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 11 concepts</p>
+            <p>This value set contains 10 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -1252,26 +1252,6 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-none-medication"> </a>
-                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-medication-cs.html#medication-cs-none-medication">none-medication</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;none-medication&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;none-medication&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-Vitamin-K"> </a>
                   <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
                 </td>
@@ -1319,7 +1299,7 @@
         <title value="AnticoagulantReversal ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1328,9 +1308,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:45a5155b-0e05-46c9-a2ba-b27246489c2c"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
-          <total value="11"/>
+          <identifier value="urn:uuid:29894ff9-eb4d-4adb-b452-200954e7ad00"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <total value="10"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -1395,10 +1375,6 @@
           <contains>
             <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
             <code value="other"/>
-          </contains>
-          <contains>
-            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
-            <code value="none-medication"/>
           </contains>
           <contains>
             <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
@@ -1724,7 +1700,7 @@
         <title value="AssessmentContext ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1733,8 +1709,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:81366805-5431-45de-9452-c0d7d92a70eb"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
+          <identifier value="urn:uuid:14e1ffeb-db28-432c-89e6-b27e7934911a"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -1950,7 +1926,7 @@
         <title value="AtrialFibrillationOrFlutter ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1959,8 +1935,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f39d279f-1bcf-4633-9702-983fddc53324"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
+          <identifier value="urn:uuid:b7282fa8-be5d-464f-8505-cd4704efb861"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2263,7 +2239,7 @@
         <title value="BleedingReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2272,8 +2248,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:97328d30-7c3d-486d-862b-6122feb9cbf1"/>
-          <timestamp value="2026-06-11T14:46:39+00:00"/>
+          <identifier value="urn:uuid:891cc0de-4174-4c66-8940-455fc86f32d0"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -2733,7 +2709,7 @@
         <title value="BodySites ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2742,8 +2718,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0ae68ddd-6eb1-4478-9daa-d85a935e97c6"/>
-          <timestamp value="2026-06-11T14:46:34+00:00"/>
+          <identifier value="urn:uuid:866520b2-d49e-4e6c-a443-779c972d30cd"/>
+          <timestamp value="2026-06-12T09:35:36+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -2948,7 +2924,7 @@
         <title value="CarotidEndarterectomyTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2957,8 +2933,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5c3916fb-1767-4378-bab5-59a1e4fbb7e6"/>
-          <timestamp value="2026-06-11T14:46:40+00:00"/>
+          <identifier value="urn:uuid:91b20e2a-fbed-4615-8ba1-a27ebfd995bd"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -3118,7 +3094,7 @@
         <title value="CarotidStenosisLevel ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3127,8 +3103,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1fd1fd9c-ae94-460a-a7d1-2f140dde66e5"/>
-          <timestamp value="2026-06-11T14:46:40+00:00"/>
+          <identifier value="urn:uuid:bf6c3ca5-caf9-40ac-a4e8-78d272113fb2"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3308,7 +3284,7 @@
         <title value="ClinicalStatusCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3317,8 +3293,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:155e3cf8-acf5-4de1-a577-936c7054198b"/>
-          <timestamp value="2026-06-11T14:46:30+00:00"/>
+          <identifier value="urn:uuid:0b9efe36-2d5c-4b00-a9a8-f04d23450521"/>
+          <timestamp value="2026-06-12T09:35:34+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3533,7 +3509,7 @@
         <title value="DischargeDestination ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3542,8 +3518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5d970759-da0d-4530-8ef2-db4c91ae6a16"/>
-          <timestamp value="2026-06-11T14:46:40+00:00"/>
+          <identifier value="urn:uuid:b740e799-2cbd-4c1b-9618-b3416ac18e4b"/>
+          <timestamp value="2026-06-12T09:35:40+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -3728,7 +3704,7 @@
         <title value="DischargeFacilityDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3737,8 +3713,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:af2d5935-59e3-47d7-bf4a-de6f965afc4b"/>
-          <timestamp value="2026-06-11T14:46:41+00:00"/>
+          <identifier value="urn:uuid:1f1b5156-6237-494e-82fc-21e00bf77c8c"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3913,7 +3889,7 @@
         <title value="DischargeFacilityType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3922,8 +3898,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e1090525-b45d-47b0-bbf6-198ce539af88"/>
-          <timestamp value="2026-06-11T14:46:41+00:00"/>
+          <identifier value="urn:uuid:91720a5d-e622-49c2-bb7f-80e37aaaec32"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -4132,7 +4108,7 @@
         <title value="FirstContactPlace ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4141,8 +4117,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fe605327-62bb-4b6b-965b-584ff8a29aab"/>
-          <timestamp value="2026-06-11T14:46:41+00:00"/>
+          <identifier value="urn:uuid:445b8726-1f08-46a7-a2b0-d13f904bf81a"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -4461,7 +4437,7 @@
         <title value="FunctionalScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4470,8 +4446,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:490f3a7e-1bef-43f8-a2b6-6f1069d1e4fe"/>
-          <timestamp value="2026-06-11T14:46:26+00:00"/>
+          <identifier value="urn:uuid:8fc3bbcd-3c4d-45d4-b797-2ff96cc0fbc4"/>
+          <timestamp value="2026-06-12T09:35:30+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -4655,7 +4631,7 @@
         <title value="GCSScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4664,8 +4640,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6176715e-52e0-4568-ae73-5f99b202a6fe"/>
-          <timestamp value="2026-06-11T14:46:41+00:00"/>
+          <identifier value="urn:uuid:a326deb8-ce8e-4078-aa6a-ae700423391d"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -5053,7 +5029,7 @@
         <title value="GlasgowComaScale ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5062,8 +5038,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c59b079-3c91-4629-899a-74f5ced73690"/>
-          <timestamp value="2026-06-11T14:46:42+00:00"/>
+          <identifier value="urn:uuid:e5d9bef7-ac73-4079-88ed-2b17632348fc"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -5280,7 +5256,7 @@
         <title value="HemorrhagicTransformationType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5289,8 +5265,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:63aabb08-f99d-415a-8618-40008ef44290"/>
-          <timestamp value="2026-06-11T14:46:42+00:00"/>
+          <identifier value="urn:uuid:3b6a9ca9-a831-454e-9836-86dcf26c9c0d"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -5435,7 +5411,7 @@
         <title value="HospitalizedIn ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5444,8 +5420,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6f3dff0d-7b6b-43ef-b359-a9a0e29d57ce"/>
-          <timestamp value="2026-06-11T14:46:42+00:00"/>
+          <identifier value="urn:uuid:9ffd0425-11fc-4c03-874d-2221f58d9ad4"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -5736,7 +5712,7 @@
         <title value="IchTreatment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5745,8 +5721,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1d3d6eee-65e0-4192-9741-e1a70511aa91"/>
-          <timestamp value="2026-06-11T14:46:42+00:00"/>
+          <identifier value="urn:uuid:26c456dd-cfe9-4cc9-957c-746b19372839"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -6017,7 +5993,7 @@
         <title value="ImagingType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6026,8 +6002,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6d9a659d-5c3f-4cc1-aed8-6d812d3197d9"/>
-          <timestamp value="2026-06-11T14:46:43+00:00"/>
+          <identifier value="urn:uuid:00631d10-f850-47cc-a066-d6a0326b87f7"/>
+          <timestamp value="2026-06-12T09:35:41+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -6195,7 +6171,7 @@
         <title value="INRmode ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6204,8 +6180,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d0719dca-3eea-47a5-ac6a-59ebc8dcb58d"/>
-          <timestamp value="2026-06-11T14:46:22+00:00"/>
+          <identifier value="urn:uuid:a567e08a-2a25-4ae6-b387-fe742c4a3188"/>
+          <timestamp value="2026-06-12T09:35:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -6334,7 +6310,7 @@
         <title value="InsulinOnHyperglycemiaTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6343,8 +6319,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a57b07d-fe8c-4f4c-8c8e-43ef01ead6cd"/>
-          <timestamp value="2026-06-11T14:46:44+00:00"/>
+          <identifier value="urn:uuid:99838734-515b-4872-9ece-2f9c031725ab"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -6533,7 +6509,7 @@
         <title value="IvtApplicationDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6542,8 +6518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:73a35636-7e0d-4dbd-a7ab-dd7f380279fe"/>
-          <timestamp value="2026-06-11T14:46:44+00:00"/>
+          <identifier value="urn:uuid:94660658-2164-42b1-a6b4-1a9517cdabde"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -6722,7 +6698,7 @@
         <title value="IvtDrug ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6731,8 +6707,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:920227f1-a229-418d-a2de-2a5529a6f8f4"/>
-          <timestamp value="2026-06-11T14:46:44+00:00"/>
+          <identifier value="urn:uuid:96c9e7b9-b8a5-4a97-80cf-9b1e798a293f"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -7166,7 +7142,7 @@
         <title value="Laterality ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7175,8 +7151,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:024be582-5205-4833-b5ee-6fb2c6d7488a"/>
-          <timestamp value="2026-06-11T14:46:44+00:00"/>
+          <identifier value="urn:uuid:72ab3a2d-8e6f-4fd1-a96e-a9e3d9dd22b8"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -7526,7 +7502,7 @@
         <title value="Locations ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7535,8 +7511,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:65384d73-da03-4b96-b46f-fffe3000111d"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:54879d2c-831b-4898-8316-74399d722b62"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -7721,7 +7697,7 @@
         <title value="ManagementAppointment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7730,8 +7706,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b4f2a156-d0fb-4b27-80a3-ff8fccc3582d"/>
-          <timestamp value="2026-06-11T14:46:24+00:00"/>
+          <identifier value="urn:uuid:f5d0c5d1-cb48-44d8-aa09-f348b1461c58"/>
+          <timestamp value="2026-06-12T09:35:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -8406,7 +8382,7 @@
         <title value="Medications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8415,8 +8391,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:be78ba82-66f6-4627-add7-a0f61ced4930"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:fdbfb212-9cfe-4924-96d9-ea1a163eabe3"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="29"/>
           <offset value="0"/>
           <parameter>
@@ -8747,7 +8723,7 @@
         <title value="MimicsDiagnosis ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8756,8 +8732,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5d09adeb-1982-47cf-891f-08e76d1e885e"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:7a466d67-88c8-4d5f-8191-2c9d595f5362"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -9002,7 +8978,7 @@
         <title value="MRsScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9011,8 +8987,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:407824d7-c7d0-45e7-ab05-8ec5747a196b"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:80640a66-3e4a-49b2-bb20-66d617c086db"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -9249,7 +9225,7 @@
         <title value="MTiciScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9258,8 +9234,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b32511db-8bde-43eb-af67-88c6c62f71ac"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:94a15c15-9bcc-4a95-bd11-8c17cee8ba97"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -9406,7 +9382,7 @@
         <title value="Nimodipinetiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9415,8 +9391,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2143b5de-2a84-48cc-a6c2-63d43511762c"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:e9b10694-0720-4ae1-a8cb-6f8c95ef9b22"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -9712,21 +9688,21 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Cost|20of|20drug"> </a>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Cost-of-drug"> </a>
                   <code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Costofdrug">Cost of drug</a>
+                  <a href="CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Cost-of-drug">Cost-of-drug</a>
                 </td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Cost of drug&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Cost-of-drug&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Cost of drug&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Cost-of-drug&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -9819,7 +9795,7 @@
         <title value="NotMedicationReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9828,8 +9804,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a41adb1-e4c3-4577-8b0f-132e04e6e256"/>
-          <timestamp value="2026-06-11T14:46:30+00:00"/>
+          <identifier value="urn:uuid:cf7cad35-bce0-41d9-af03-0806841cf372"/>
+          <timestamp value="2026-06-12T09:35:33+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -9906,7 +9882,7 @@
           </contains>
           <contains>
             <system value="http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"/>
-            <code value="Cost of drug"/>
+            <code value="Cost-of-drug"/>
           </contains>
           <contains>
             <system value="http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"/>
@@ -10020,7 +9996,7 @@
         <title value="OccupationalTherapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10029,8 +10005,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5bfedb6c-5812-4a32-9931-74527782d93a"/>
-          <timestamp value="2026-06-11T14:46:45+00:00"/>
+          <identifier value="urn:uuid:0b030899-f8e8-40c2-9940-8439cbdfafe3"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -10159,7 +10135,7 @@
         <title value="ParacetamolOnFeverTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10168,8 +10144,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cb80193e-7732-4a10-9ea3-4bd8f55c6f30"/>
-          <timestamp value="2026-06-11T14:46:46+00:00"/>
+          <identifier value="urn:uuid:0fe376b6-55fd-47be-9ab9-7aaf22415138"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -10316,7 +10292,7 @@
         <title value="ParacetamolOnFever ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10325,8 +10301,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c3256d7-0a8f-48b8-95e5-474bbfdbb8db"/>
-          <timestamp value="2026-06-11T14:46:46+00:00"/>
+          <identifier value="urn:uuid:fd3cba58-3af4-483e-8d97-6fc659e3accf"/>
+          <timestamp value="2026-06-12T09:35:42+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -10498,7 +10474,7 @@
         <title value="PerforationProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10507,8 +10483,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:91f9a061-2d7b-4f6a-bb4b-331179101ace"/>
-          <timestamp value="2026-06-11T14:46:46+00:00"/>
+          <identifier value="urn:uuid:4d94d165-bf26-4456-ba19-8e82dd757c19"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -10671,7 +10647,7 @@
         <title value="PostAcuteCare ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10680,8 +10656,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4a54d566-b353-43fb-8842-9ca0bbc3d8cd"/>
-          <timestamp value="2026-06-11T14:46:47+00:00"/>
+          <identifier value="urn:uuid:a08b723f-556f-43c1-bacb-641c8daf9caa"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -10848,7 +10824,7 @@
         <title value="PostNeurosurgeryImaging ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10857,8 +10833,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e391d01f-1202-4a0d-b669-541f1fae533d"/>
-          <timestamp value="2026-06-11T14:46:47+00:00"/>
+          <identifier value="urn:uuid:024cdf1d-cccf-414b-8a2d-8b70cddc81f1"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -11021,7 +10997,7 @@
         <title value="PostRecanalizationImaging ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11030,8 +11006,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:efb76fc6-6c50-460e-8727-689973824bac"/>
-          <timestamp value="2026-06-11T14:46:47+00:00"/>
+          <identifier value="urn:uuid:3d0b0665-c690-4633-acd3-4d002d7cbb92"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -11314,7 +11290,7 @@
         <title value="PostStrokeComplications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11323,8 +11299,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:068ccb2c-6132-479e-9617-ea4026e935f5"/>
-          <timestamp value="2026-06-11T14:46:30+00:00"/>
+          <identifier value="urn:uuid:f5bd3e89-8bb1-4b9d-b126-73e908d2be8f"/>
+          <timestamp value="2026-06-12T09:35:34+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -11540,7 +11516,7 @@
         <title value="PostStrokeProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11549,8 +11525,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:138a2615-8ec5-4c6a-9ca6-0eba1c93367f"/>
-          <timestamp value="2026-06-11T14:46:47+00:00"/>
+          <identifier value="urn:uuid:da5109de-e472-4025-a758-98e414ba0983"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -12237,7 +12213,7 @@
         <title value="ProcedureNotDoneReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12246,8 +12222,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:21e4ee02-686f-4da9-bf6c-6ac2cfa8779a"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:3cc635be-fae6-4446-9774-a55ebaea4ee1"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="29"/>
           <offset value="0"/>
           <parameter>
@@ -12488,7 +12464,7 @@
         <title value="Procedure Timing Context ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12497,8 +12473,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:080e015e-6388-4638-a92d-d5d65a7ace10"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:51581e7c-a630-47db-a602-040dffff28ce"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -12945,7 +12921,7 @@
         <title value="RiskFactor ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12954,8 +12930,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:78f38356-5099-4512-95b3-297d5b7b9153"/>
-          <timestamp value="2026-06-11T14:46:36+00:00"/>
+          <identifier value="urn:uuid:3564d01d-7b8f-4d54-9081-81b89fbbb617"/>
+          <timestamp value="2026-06-12T09:35:38+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -13187,7 +13163,7 @@
         <title value="ScreeningPerformer ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13196,8 +13172,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bf0f6ed9-09bc-493c-a4a0-9f3fda637173"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:02ef41cf-780c-4987-8b78-8b27c8a71e8d"/>
+          <timestamp value="2026-06-12T09:35:43+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -13349,7 +13325,7 @@
         <title value="Sex ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13358,8 +13334,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:522c40d0-082f-40e6-b05f-4bd04362154f"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:a1de7a24-ed8d-4bf0-842b-b44dca0d4ca5"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -13868,7 +13844,7 @@
         <title value="Specific Finding Value ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13877,8 +13853,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c969d89-36b0-43f6-a882-020126d7529a"/>
-          <timestamp value="2026-06-11T14:46:32+00:00"/>
+          <identifier value="urn:uuid:f801ef80-aaa9-417e-96fc-ab27fc44ef21"/>
+          <timestamp value="2026-06-12T09:35:35+00:00"/>
           <total value="19"/>
           <offset value="0"/>
           <parameter>
@@ -14383,7 +14359,7 @@
         <title value="SpecificFinding ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14392,8 +14368,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:143daa2e-69bd-4fe7-a55e-dc1f047ec8bd"/>
-          <timestamp value="2026-06-11T14:46:32+00:00"/>
+          <identifier value="urn:uuid:d01a34fa-4043-4282-ab1b-db8f29614571"/>
+          <timestamp value="2026-06-12T09:35:35+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -14590,7 +14566,7 @@
         <title value="StrokeCircumstance ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14599,8 +14575,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9b4fc2e5-6f3d-49d1-a523-aa0c36dc8426"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:68ceed54-9629-485f-8f33-c8504bd2e213"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -14959,7 +14935,7 @@
         <title value="Stroke Diagnosis Code ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14968,8 +14944,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b568a641-3fa1-46e1-8a0f-51cd046bb309"/>
-          <timestamp value="2026-06-11T14:46:34+00:00"/>
+          <identifier value="urn:uuid:db05ed71-8941-4ae2-bf91-063147cfd58b"/>
+          <timestamp value="2026-06-12T09:35:36+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -15133,21 +15109,21 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://snomed.info/sct-122459003"> </a>
+                  <a name="x-http://snomed.info/sct-710864009"> </a>
                   <code>http://snomed.info/sct</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/122459003">122459003</a>
+                  <a href="http://snomed.info/id/710864009">710864009</a>
                 </td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;122459003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;710864009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;122459003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;710864009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -15420,7 +15396,7 @@
         <title value="StrokeEtiologyOther ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15429,8 +15405,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1bce1a2d-9fe9-4cdb-80d6-3a29784142a6"/>
-          <timestamp value="2026-06-11T14:46:48+00:00"/>
+          <identifier value="urn:uuid:9d6c7489-4cc7-47a7-871e-4b9802b29fc9"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -15471,7 +15447,7 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="122459003"/>
+            <code value="710864009"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -15634,21 +15610,21 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://snomed.info/sct-122459003"> </a>
+                  <a name="x-http://snomed.info/sct-710864009"> </a>
                   <code>http://snomed.info/sct</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/122459003">122459003</a>
+                  <a href="http://snomed.info/id/710864009">710864009</a>
                 </td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;122459003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;710864009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;122459003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;710864009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -15781,7 +15757,7 @@
         <title value="StrokeEtiology ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15790,8 +15766,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9934d041-408c-437c-88e6-2d574411bd89"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:8daf18bc-c38a-4066-9a7e-419984dc82f5"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -15840,7 +15816,7 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="122459003"/>
+            <code value="710864009"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -16234,7 +16210,7 @@
         <title value="PostStrokeProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16243,8 +16219,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9642cf2a-0c81-4cbc-a75c-cefa7abc5562"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:27b4ffbe-004f-4309-8066-388fd550e967"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -16532,7 +16508,7 @@
         <title value="StrokeType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16541,8 +16517,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ce7fd2a2-aab0-4d59-bb0d-c31d632eced5"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:4843a10f-49a3-495d-89de-3829ad5ec78e"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -16706,7 +16682,7 @@
         <title value="SwallowingScreeningDone ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16715,8 +16691,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0ee45845-5dd5-489f-8bfe-cf15d0d45474"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:2a65f5f6-ed79-45e1-bdce-cd0e90cba2aa"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -16881,7 +16857,7 @@
         <title value="SwallowingScreeningTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16890,8 +16866,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5f384bea-e87f-46d3-842f-a327ea9161b7"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:39100c72-d261-41df-97b0-6390c8df3e4f"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -17102,7 +17078,7 @@
         <title value="SwallowingScreeningType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17111,8 +17087,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:74cef674-2de7-4202-b977-fa872e1fdc86"/>
-          <timestamp value="2026-06-11T14:46:49+00:00"/>
+          <identifier value="urn:uuid:ae2d38b9-f53f-4461-857f-2257e1a18403"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -17393,7 +17369,7 @@
         <title value="TenecteplaseBrand ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17402,8 +17378,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4513c4e-4dda-4c98-acde-09771160df7f"/>
-          <timestamp value="2026-06-11T14:46:50+00:00"/>
+          <identifier value="urn:uuid:baf73b0f-d505-4b92-8e85-a7418f7afe45"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -17638,7 +17614,7 @@
         <title value="ThreeMonthContactMode ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17647,8 +17623,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1c312bc6-108a-49c6-9f98-b28afb444b7c"/>
-          <timestamp value="2026-06-11T14:46:37+00:00"/>
+          <identifier value="urn:uuid:960cec31-a9d2-4109-91ce-c4422976e3d3"/>
+          <timestamp value="2026-06-12T09:35:38+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -17863,7 +17839,7 @@
         <title value="ThrombectomyComplications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17872,8 +17848,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7842fd05-194c-412e-9964-419b76e803a6"/>
-          <timestamp value="2026-06-11T14:46:50+00:00"/>
+          <identifier value="urn:uuid:02ddf47e-31cf-4da7-8174-5b1a38dd2cbe"/>
+          <timestamp value="2026-06-12T09:35:44+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -18044,7 +18020,7 @@
         <title value="TiaClinicalSymptoms ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18053,8 +18029,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a7dac068-22c1-4ae1-b73b-0ccfdd61f763"/>
-          <timestamp value="2026-06-11T14:46:37+00:00"/>
+          <identifier value="urn:uuid:597de610-6bbe-4c21-b940-4a7c606052e4"/>
+          <timestamp value="2026-06-12T09:35:39+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -18207,7 +18183,7 @@
         <title value="TiaSymptomDuration ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18216,8 +18192,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:86a310bb-187c-416e-9395-a4dc1692b098"/>
-          <timestamp value="2026-06-11T14:46:50+00:00"/>
+          <identifier value="urn:uuid:14a0c124-cc05-4225-b45d-2990188a568b"/>
+          <timestamp value="2026-06-12T09:35:45+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -18818,7 +18794,7 @@
         <title value="TimingMetricCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18827,8 +18803,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:019fd8f1-c0e5-4aca-bc37-3b272061d3c5"/>
-          <timestamp value="2026-06-11T14:46:38+00:00"/>
+          <identifier value="urn:uuid:32c727ae-81c0-49ac-ae44-c0ae36b56bc2"/>
+          <timestamp value="2026-06-12T09:35:39+00:00"/>
           <total value="26"/>
           <offset value="0"/>
           <parameter>
@@ -19091,7 +19067,7 @@
         <title value="VitalSigns ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -19100,8 +19076,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4a9495e-3a46-4c99-8129-d92b996657e5"/>
-          <timestamp value="2026-06-11T14:46:38+00:00"/>
+          <identifier value="urn:uuid:afb9b57e-d920-4752-a11f-c3b571b410b8"/>
+          <timestamp value="2026-06-12T09:35:39+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -19388,7 +19364,7 @@
         <title value="VteProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-11T14:44:28+00:00"/>
+        <date value="2026-06-12T09:34:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -19397,8 +19373,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:df0468bd-4586-478d-8112-8d83c421355e"/>
-          <timestamp value="2026-06-11T14:46:50+00:00"/>
+          <identifier value="urn:uuid:25b655ac-0254-4fef-b1ff-638d4e46b03d"/>
+          <timestamp value="2026-06-12T09:35:45+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>

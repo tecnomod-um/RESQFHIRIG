@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/analytics-codes-cs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:AnalyticsCodesCS |
+| Active as of 2026-06-12 | *Computable Name*:AnalyticsCodesCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "AnalyticsCodesCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

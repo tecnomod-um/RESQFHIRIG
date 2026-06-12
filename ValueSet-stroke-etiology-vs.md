@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/stroke-etiology-vs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeEtiologyVS |
+| Active as of 2026-06-12 | *Computable Name*:StrokeEtiologyVS |
 
  
 Allowed coded values for StrokeEtiology 
@@ -51,7 +51,7 @@ Allowed coded values for StrokeEtiology
   "title" : "StrokeEtiology ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -84,7 +84,7 @@ Allowed coded values for StrokeEtiology
         "display" : "Cryptogenic stroke (disorder)"
       },
       {
-        "code" : "122459003",
+        "code" : "710864009",
         "display" : "Dissection of artery (disorder)"
       },
       {

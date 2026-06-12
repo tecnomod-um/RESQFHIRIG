@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeMechanicalProcedureProfile |
+| Active as of 2026-06-12 | *Computable Name*:StrokeMechanicalProcedureProfile |
 
  
 Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
   "title" : "Stroke Reperfusion Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

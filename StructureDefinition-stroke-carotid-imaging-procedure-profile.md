@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-carotid-imaging-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeCarotidImagingProcedureProfile |
+| Active as of 2026-06-12 | *Computable Name*:StrokeCarotidImagingProcedureProfile |
 
  
 Procedure profile for carotid imaging used in post-stroke assessment. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-imagi
   "title" : "Stroke Carotid Imaging Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/glucose-ge10-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:GlucoseGE10ObservationProfile |
+| Active as of 2026-06-12 | *Computable Name*:GlucoseGE10ObservationProfile |
 
  
 Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-glucose-ge10-observa
   "title" : "Glucose >= 10 Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

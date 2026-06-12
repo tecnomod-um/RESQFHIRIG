@@ -124,6 +124,12 @@
         "title": "Vital Sign Observation Profile"
       }
     ],
+    "MedicationAdministration": [
+      {
+        "url": "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+        "title": "Stroke MedicationAdministration Profile"
+      }
+    ],
     "MedicationRequest": [
       {
         "url": "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
@@ -134,12 +140,6 @@
       {
         "url": "http://tecnomod-um.org/StructureDefinition/resq-location-profile",
         "title": "RESQ Location Profile"
-      }
-    ],
-    "MedicationAdministration": [
-      {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
-        "title": "Stroke MedicationAdministration Profile"
       }
     ],
     "DiagnosticReport": [

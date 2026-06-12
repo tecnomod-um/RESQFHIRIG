@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/body-sites-vs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:BodySitesVS |
+| Active as of 2026-06-12 | *Computable Name*:BodySitesVS |
 
  
 Allowed coded values for BodySites 
@@ -52,7 +52,7 @@ Allowed coded values for BodySites
   "title" : "BodySites ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

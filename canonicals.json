@@ -328,6 +328,13 @@
   "name" : "AnaliticsObservationProfile"
 },
 {
+  "id" : "anticoagulant-reversal-medication-administration-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile",
+  "version" : "1.0.0",
+  "name" : "AnticoagulantReversalMedicationAdministrationProfile"
+},
+{
   "id" : "appointment-management-observation-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/appointment-management-observation-profile",

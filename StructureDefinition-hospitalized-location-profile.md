@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/hospitalized-location-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:HospitalizedLocationProfile |
+| Active as of 2026-06-12 | *Computable Name*:HospitalizedLocationProfile |
 
  
 Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
   "title" : "Hospitalized Location Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:AnticoagulantReversalVS |
+| Active as of 2026-06-12 | *Computable Name*:AnticoagulantReversalVS |
 
  
 Allowed coded values for AnticoagulantReversal 
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Anticoagulant Reversal MedicationAdministration Profile](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md)
 
 ### Logical Definition (CLD)
 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "AnticoagulantReversal ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -105,10 +105,6 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       "concept" : [{
         "code" : "other",
         "display" : "Other Medication"
-      },
-      {
-        "code" : "none-medication",
-        "display" : "No Medication"
       },
       {
         "code" : "Vitamin-K",

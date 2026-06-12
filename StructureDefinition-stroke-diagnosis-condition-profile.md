@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-06-11 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| Active as of 2026-06-12 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-11T14:44:28+00:00",
+  "date" : "2026-06-12T09:34:13+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
