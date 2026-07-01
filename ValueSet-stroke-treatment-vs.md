@@ -1,18 +1,18 @@
-# IchTreatment ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
+# StrokeTreatment ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **IchTreatment ValueSet**
+* **StrokeTreatment ValueSet**
 
-## ValueSet: IchTreatment ValueSet 
+## ValueSet: StrokeTreatment ValueSet 
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/ich-treatment-vs | *Version*:1.0.0 |
-| Active as of 2026-06-12 | *Computable Name*:IchTreatmentVS |
+| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-treatment-vs | *Version*:1.0.0 |
+| Active as of 2026-07-01 | *Computable Name*:StrokeTreatmentVS |
 
  
-Allowed coded values for IchTreatment 
+Allowed coded values for StrokeTreatment 
 
  **References** 
 
@@ -44,14 +44,14 @@ Allowed coded values for IchTreatment
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "ich-treatment-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/ich-treatment-vs",
+  "id" : "stroke-treatment-vs",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-vs",
   "version" : "1.0.0",
-  "name" : "IchTreatmentVS",
-  "title" : "IchTreatment ValueSet",
+  "name" : "StrokeTreatmentVS",
+  "title" : "StrokeTreatment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-12T09:34:13+00:00",
+  "date" : "2026-07-01T13:43:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -60,7 +60,7 @@ Allowed coded values for IchTreatment
       "value" : "http://tecnomod-um.org"
     }]
   }],
-  "description" : "Allowed coded values for IchTreatment",
+  "description" : "Allowed coded values for StrokeTreatment",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -109,10 +109,14 @@ Allowed coded values for IchTreatment
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
+      "system" : "http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other Treatment"
+      },
+      {
+        "code" : "min-invasive",
+        "display" : "Minimally Invasive Procedure"
       }]
     }]
   }

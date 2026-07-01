@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs | *Version*:1.0.0 |
-| Active as of 2026-06-12 | *Computable Name*:ThreeMonthContactModeCS |
+| Active as of 2026-07-01 | *Computable Name*:ThreeMonthContactModeCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "ThreeMonthContactModeCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-12T09:34:13+00:00",
+  "date" : "2026-07-01T13:43:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

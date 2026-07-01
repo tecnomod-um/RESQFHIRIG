@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet procedure-timing-context-vs</b></p><a name=\"procedure-timing-context-vs\"> </a><a name=\"hcprocedure-timing-context-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-procedure-timing-context-cs.html\"><code>http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/procedure-timing-context-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "ProcedureTimingContextVS"] ; # 
   fhir:title [ fhir:v "Procedure Timing Context ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,20 +31,14 @@
   fhir:description [ fhir:v "Allowed values for the Procedure timing context extension."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs>
-       ]
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"^^xsd:anyURI ]
      ] )
   ] . # 
 

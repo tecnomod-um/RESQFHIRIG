@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet swallowing-screening-timing-vs</b></p><a name=\"swallowing-screening-timing-vs\"> </a><a name=\"hcswallowing-screening-timing-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-swallow-screen-time-cs.html\"><code>http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-swallow-screen-time-cs.html#swallow-screen-time-cs-T4H\">T4H</a></td><td>Within 4 Hours</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-procedure-timing-context-cs.html\"><code>http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-procedure-timing-context-cs.html#procedure-timing-context-cs-post-acute\">post-acute</a></td><td>Acute Phase (&lt;24h)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/281381003\">281381003</a></td><td>More than 24 hours after admission (qualifier value)</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "SwallowingScreeningTimingVS"] ; # 
   fhir:title [ fhir:v "SwallowingScreeningTiming ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,38 +31,26 @@
   fhir:description [ fhir:v "Allowed coded values for SwallowingScreeningTiming"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "T4H" ] ;
          fhir:display [ fhir:v "Within 4 Hours" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "post-acute" ] ;
          fhir:display [ fhir:v "Acute Phase (<24h)" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "281381003" ] ;
          fhir:display [ fhir:v "More than 24 hours after admission (qualifier value)" ]

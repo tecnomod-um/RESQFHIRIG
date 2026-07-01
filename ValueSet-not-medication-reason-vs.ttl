@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet not-medication-reason-vs</b></p><a name=\"not-medication-reason-vs\"> </a><a name=\"hcnot-medication-reason-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/609328004\">609328004</a></td><td>Allergy disposition (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/36456004\">36456004</a></td><td>Mental state finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/443390004\">443390004</a></td><td>Declined (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/129839007\">129839007</a></td><td>At increased risk for falls (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/131148009\">131148009</a></td><td>Bleeding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401207004\">401207004</a></td><td>Medication side effects present (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/397943006\">397943006</a></td><td>Planned (qualifier value)</td></tr><tr><td><a href=\"http://snomed.info/id/300936002\">300936002</a></td><td>Terminal illness (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/413560001\">413560001</a></td><td>Anticoagulation not indicated (situation)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-not-medication-reason-cs.html\"><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Consent\">Not-Consent</a></td><td>Patient or family did not consent</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Cost-of-drug\">Cost-of-drug</a></td><td>Cost of drug</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Available\">Not-Available</a></td><td>Medication not available</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Licensed\">Not-Licensed</a></td><td>Medication not licensed</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Criteria\">Not-Criteria</a></td><td>Patient does not meet criteria for medication</td></tr><tr><td><a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Forgot\">Forgot</a></td><td>Patient forgot to take medication</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/not-medication-reason-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/not-medication-reason-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/not-medication-reason-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "NotMedicationReasonVS"] ; # 
   fhir:title [ fhir:v "NotMedicationReason ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,20 +31,14 @@
   fhir:description [ fhir:v "Allowed coded values for NotMedicationReason"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "609328004" ] ;
          fhir:display [ fhir:v "Allergy disposition (finding)" ]
@@ -77,10 +68,7 @@
          fhir:display [ fhir:v "Anticoagulation not indicated (situation)" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/not-medication-reason-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "Not-Consent" ] ;
          fhir:display [ fhir:v "Patient or family did not consent" ]

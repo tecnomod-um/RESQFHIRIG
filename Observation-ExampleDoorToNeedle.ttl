@@ -12,7 +12,7 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"^^xsd:anyURI ;
-       fhir:l <http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile>
+       fhir:link <http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile>
      ] )
   ] ; # 
   fhir:text [
@@ -22,30 +22,24 @@
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "D2N" ] ;
        fhir:display [ fhir:v "Door to Needle" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <http://tecnomod-um.org/Patient/ExampleRESQPatient> ;
+     fhir:link <http://tecnomod-um.org/Patient/ExampleRESQPatient> ;
      fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
   ] ; # 
   fhir:encounter [
-     fhir:l <http://tecnomod-um.org/Encounter/ExampleStrokeEncounter> ;
+     fhir:link <http://tecnomod-um.org/Encounter/ExampleStrokeEncounter> ;
      fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
   ] ; # 
   fhir:value [
      a fhir:Quantity ;
      fhir:value [ fhir:v "38"^^xsd:decimal ] ;
      fhir:unit [ fhir:v "minute" ] ;
-     fhir:system [
-       fhir:v "https://ucum.org/ucum"^^xsd:anyURI ;
-       fhir:l <https://ucum.org/ucum>
-     ] ;
+     fhir:system [ fhir:v "https://ucum.org/ucum"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "min" ]
   ] . # 
 

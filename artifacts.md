@@ -109,7 +109,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [HemorrhagicTransformationType ValueSet](ValueSet-hemorrhagic-transformation-type-vs.md) | Allowed coded values for HemorrhagicTransformationType |
 | [HospitalizedIn ValueSet](ValueSet-hospitalized-in-vs.md) | Allowed coded values for HospitalizedIn |
 | [INRmode ValueSet](ValueSet-inrmode-vs.md) | Allowed coded values for INRmode |
-| [IchTreatment ValueSet](ValueSet-ich-treatment-vs.md) | Allowed coded values for IchTreatment |
 | [ImagingType ValueSet](ValueSet-imaging-type-vs.md) | Allowed coded values for ImagingType |
 | [InHospital ValueSet](ValueSet-in-hospital-vs.md) | Allowed coded values for InHospital |
 | [InsulinOnHyperglycemiaTiming ValueSet](ValueSet-insulin-on-hyperglycemia-timing-vs.md) | Allowed coded values for InsulinOnHyperglycemiaTiming |
@@ -145,6 +144,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [StrokeCircumstance ValueSet](ValueSet-stroke-circumstance-vs.md) | Allowed coded values for StrokeCircumstance |
 | [StrokeEtiology ValueSet](ValueSet-stroke-etiology-vs.md) | Allowed coded values for StrokeEtiology |
 | [StrokeEtiologyOther ValueSet](ValueSet-stroke-etiology-other-vs.md) | Allowed coded values for StrokeEtiologyOther |
+| [StrokeTreatment ValueSet](ValueSet-stroke-treatment-vs.md) | Allowed coded values for StrokeTreatment |
 | [StrokeType ValueSet](ValueSet-stroke-type-vs.md) | Allowed coded values for StrokeType |
 | [SwallowingScreeningDone ValueSet](ValueSet-swallowing-screening-done-vs.md) | Allowed coded values for SwallowingScreeningDone |
 | [SwallowingScreeningTiming ValueSet](ValueSet-swallowing-screening-timing-vs.md) | Allowed coded values for SwallowingScreeningTiming |
@@ -175,7 +175,6 @@ These define new code systems used by systems conforming to this implementation 
 | [FunctionalScoreCs CodeSystem](CodeSystem-functional-score-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs. |
 | [HemorrhagicStrokeBleedingReasonCs CodeSystem](CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs. |
 | [HemorrhagicTransformationTypeCs CodeSystem](CodeSystem-hemorrhagic-transformation-type-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs. |
-| [IchTreatmentCs CodeSystem](CodeSystem-ich-treatment-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs. |
 | [InitialCareIntensityCs CodeSystem](CodeSystem-initial-care-intensity-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs. |
 | [InsulinHyperglycemiaTimeCs CodeSystem](CodeSystem-insulin-hyperglycemia-time-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs. |
 | [LocationCs CodeSystem](CodeSystem-location-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs. |
@@ -198,6 +197,7 @@ These define new code systems used by systems conforming to this implementation 
 | [StrokeMimicsDiagnosisCs CodeSystem](CodeSystem-stroke-mimics-diagnosis-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs. |
 | [StrokePostStrokeComplicationCs CodeSystem](CodeSystem-stroke-post-stroke-complication-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs. |
 | [StrokeProcNotDoneReasonCs CodeSystem](CodeSystem-stroke-proc-not-done-reason-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs. |
+| [StrokeTreatmentCs CodeSystem](CodeSystem-stroke-treatment-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs. |
 | [SwallowProceduresCs CodeSystem](CodeSystem-swallow-procedures-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs. |
 | [SwallowScreenTimeCs CodeSystem](CodeSystem-swallow-screen-time-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs. |
 | [SymptomsCs CodeSystem](CodeSystem-symptoms-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/symptoms-cs. |

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-06-12 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-07-01 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-06-12T09:34:13+00:00",
+  "date" : "2026-07-01T13:43:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -107,7 +107,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r5",
-    "version" : "7.1.0"
+    "version" : "7.2.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r5",
@@ -790,30 +790,6 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "Hyperglycemia Observation Profile",
       "description" : "Observation profile for hyperglycemia monitoring, checks and measured values.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/ich-treatment-vs"
-      },
-      "name" : "IchTreatment ValueSet",
-      "description" : "Allowed coded values for IchTreatment",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/ich-treatment-cs"
-      },
-      "name" : "IchTreatmentCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs.",
       "isExample" : false
     },
     {
@@ -1905,6 +1881,30 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "StrokeProcNotDoneReasonCs CodeSystem",
       "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/stroke-treatment-vs"
+      },
+      "name" : "StrokeTreatment ValueSet",
+      "description" : "Allowed coded values for StrokeTreatment",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/stroke-treatment-cs"
+      },
+      "name" : "StrokeTreatmentCs CodeSystem",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs.",
       "isExample" : false
     },
     {

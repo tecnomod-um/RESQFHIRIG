@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem discharge-medication-cs</b></p><a name=\"discharge-medication-cs\"> </a><a name=\"hcdischarge-medication-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/discharge-medication-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">antiplatelet<a name=\"discharge-medication-cs-antiplatelet\"> </a></td><td>Any Antiplatelet</td></tr><tr><td style=\"white-space:nowrap\">anticoagulant<a name=\"discharge-medication-cs-anticoagulant\"> </a></td><td>Any Anticoagulant</td></tr><tr><td style=\"white-space:nowrap\">asa<a name=\"discharge-medication-cs-asa\"> </a></td><td>Aspirin</td></tr><tr><td style=\"white-space:nowrap\">heparin<a name=\"discharge-medication-cs-heparin\"> </a></td><td>Heparin</td></tr><tr><td style=\"white-space:nowrap\">warfarin<a name=\"discharge-medication-cs-warfarin\"> </a></td><td>Warfarin</td></tr><tr><td style=\"white-space:nowrap\">statin<a name=\"discharge-medication-cs-statin\"> </a></td><td>Statin</td></tr><tr><td style=\"white-space:nowrap\">antidiabetics<a name=\"discharge-medication-cs-antidiabetics\"> </a></td><td>Antidiabetics</td></tr><tr><td style=\"white-space:nowrap\">antihypertensive<a name=\"discharge-medication-cs-antihypertensive\"> </a></td><td>Antihypertensive</td></tr><tr><td style=\"white-space:nowrap\">other-antiplatelet<a name=\"discharge-medication-cs-other-antiplatelet\"> </a></td><td>Other Antiplatelet</td></tr><tr><td style=\"white-space:nowrap\">clopidogrel<a name=\"discharge-medication-cs-clopidogrel\"> </a></td><td>Clopidogrel</td></tr><tr><td style=\"white-space:nowrap\">contraception<a name=\"discharge-medication-cs-contraception\"> </a></td><td>Contraception</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"discharge-medication-cs-other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/CodeSystem/discharge-medication-cs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/CodeSystem/discharge-medication-cs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/CodeSystem/discharge-medication-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "DischargeMedicationCS"] ; # 
   fhir:title [ fhir:v "DischargeMedicationCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,10 +31,7 @@
   fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-medication-cs."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )

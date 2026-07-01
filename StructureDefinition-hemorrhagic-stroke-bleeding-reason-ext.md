@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext | *Version*:1.0.0 |
-| Draft as of 2026-06-12 | *Computable Name*:HemorrhagicStrokeBleedingReasonExt |
+| Draft as of 2026-07-01 | *Computable Name*:HemorrhagicStrokeBleedingReasonExt |
 
 Reason or underlying cause identified for hemorrhagic stroke, including undetermined when no reason is found.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-hemorrhagic-stroke-b
   "name" : "HemorrhagicStrokeBleedingReasonExt",
   "title" : "Hemorrhagic stroke bleeding reason",
   "status" : "draft",
-  "date" : "2026-06-12T09:34:13+00:00",
+  "date" : "2026-07-01T13:43:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

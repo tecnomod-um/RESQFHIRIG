@@ -11,18 +11,15 @@
   fhir:id [ fhir:v "locations-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet locations-vs</b></p><a name=\"locations-vs\"> </a><a name=\"hclocations-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.0, the version found through the package references\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td>Emergency room</td><td>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td>Outpatient facility</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td>radiology unit</td><td>**Description:** A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td>Neurology critical care and stroke unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td>Intensive Care Unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td>Neurosurgery unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td>General internal medicine clinic</td><td/></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-location-cs.html\"><code>http://tecnomod-um.org/CodeSystem/location-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td>Other Location</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet locations-vs</b></p><a name=\"locations-vs\"> </a><a name=\"hclocations-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.0, the version found through the package references\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td>Emergency room</td><td>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td>Outpatient facility</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td>radiology unit</td><td>**Description:** A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td>Neurology critical care and stroke unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td>Intensive Care Unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td>Neurosurgery unit</td><td/></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td>General internal medicine clinic</td><td/></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-location-cs.html\"><code>http://tecnomod-um.org/CodeSystem/location-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td>Other Location</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType>
-  ] ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "LocationsVS"] ; # 
   fhir:title [ fhir:v "Locations ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,20 +31,14 @@
   fhir:description [ fhir:v "Allowed coded values for Locations"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
-       ] ;
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "ER" ] ;
          fhir:display [ fhir:v "Emergency room" ]
@@ -71,10 +62,7 @@
          fhir:display [ fhir:v "General internal medicine clinic" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/location-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/location-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/location-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "other" ] ;
          fhir:display [ fhir:v "Other Location" ]

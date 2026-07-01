@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet specific-finding-vs</b></p><a name=\"specific-finding-vs\"> </a><a name=\"hcspecific-finding-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-mtici-code-cs.html\"><code>http://tecnomod-um.org/CodeSystem/mtici-code-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-mtici-code-cs.html#mtici-code-cs-mTICI\">mTICI</a></td><td>mTICI</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/371863001\">371863001</a></td><td>Perfusion finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/787044009\">787044009</a></td><td>Stenosis of bilateral carotid arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16086006\">16086006</a></td><td>Blood volume (observable entity)</td></tr><tr><td><a href=\"http://snomed.info/id/64586002\">64586002</a></td><td>Stenosis of carotid artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230745008\">230745008</a></td><td>Hydrocephalus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/2929001\">2929001</a></td><td>Occlusion of artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1386000\">1386000</a></td><td>Intracranial hemorrhage (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230690007\">230690007</a></td><td>Cerebrovascular accident (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/230706003\">230706003</a></td><td>Hemorrhagic cerebral infarction (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-perfusion-volume-cs.html\"><code>http://tecnomod-um.org/CodeSystem/perfusion-volume-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-perfusion-volume-cs.html#perfusion-volume-cs-perf-volume\">perf-volume</a></td><td>Perfusion Volume</td></tr><tr><td><a href=\"CodeSystem-perfusion-volume-cs.html#perfusion-volume-cs-hypo-volume\">hypo-volume</a></td><td>Hypoperfusion Volume</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-old-infarct-cs.html\"><code>http://tecnomod-um.org/CodeSystem/old-infarct-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-old-infarct-cs.html#old-infarct-cs-old-infarct\">old-infarct</a></td><td>Old Infarct</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-specific-finding-cs.html\"><code>http://tecnomod-um.org/CodeSystem/specific-finding-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-specific-finding-cs.html#specific-finding-cs-no-finding\">no-finding</a></td><td>No Finding</td></tr><tr><td><a href=\"CodeSystem-specific-finding-cs.html#specific-finding-cs-atrial-fibrillation-flutter\">atrial-fibrillation-flutter</a></td><td>Atrial fibrillation/flutter</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/specific-finding-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/specific-finding-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/specific-finding-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "SpecificFindingVS"] ; # 
   fhir:title [ fhir:v "SpecificFinding ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,29 +31,20 @@
   fhir:description [ fhir:v "Allowed coded values for specific stroke-related findings."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/mtici-code-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/mtici-code-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/mtici-code-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "mTICI" ] ;
          fhir:display [ fhir:v "mTICI" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "371863001" ] ;
          fhir:display [ fhir:v "Perfusion finding (finding)" ]
@@ -86,10 +74,7 @@
          fhir:display [ fhir:v "Hemorrhagic cerebral infarction (disorder)" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/perfusion-volume-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "perf-volume" ] ;
          fhir:display [ fhir:v "Perfusion Volume" ]
@@ -98,19 +83,13 @@
          fhir:display [ fhir:v "Hypoperfusion Volume" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/old-infarct-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/old-infarct-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/old-infarct-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "old-infarct" ] ;
          fhir:display [ fhir:v "Old Infarct" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/specific-finding-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/specific-finding-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/specific-finding-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "no-finding" ] ;
          fhir:display [ fhir:v "No Finding" ]

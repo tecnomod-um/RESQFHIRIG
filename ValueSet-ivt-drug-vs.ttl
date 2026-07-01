@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ivt-drug-vs</b></p><a name=\"ivt-drug-vs\"> </a><a name=\"hcivt-drug-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/387152000\">387152000</a></td><td>Alteplase (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/387066007\">387066007</a></td><td>Tenecteplase (substance)</td></tr><tr><td><a href=\"http://snomed.info/id/395889004\">395889004</a></td><td>Streptokinase (substance)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-medication-cs.html\"><code>http://tecnomod-um.org/CodeSystem/medication-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-medication-cs.html#medication-cs-staphylokinase\">staphylokinase</a></td><td>Staphylokinase</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/ivt-drug-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/ivt-drug-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/ivt-drug-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "IvtDrugVS"] ; # 
   fhir:title [ fhir:v "IvtDrug ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,20 +31,14 @@
   fhir:description [ fhir:v "Allowed coded values for IvtDrug"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "387152000" ] ;
          fhir:display [ fhir:v "Alteplase (substance)" ]
@@ -59,10 +50,7 @@
          fhir:display [ fhir:v "Streptokinase (substance)" ]
        ] )
      ] [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/medication-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/medication-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/medication-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "staphylokinase" ] ;
          fhir:display [ fhir:v "Staphylokinase" ]

@@ -80,14 +80,6 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs."
   },
   {
-    "url" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "IchTreatmentCS",
-    "title" : "IchTreatmentCs CodeSystem",
-    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs."
-  },
-  {
     "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
     "version" : "1.0.0",
     "status" : "active",
@@ -262,6 +254,14 @@
     "name" : "StrokeProcNotDoneReasonCS",
     "title" : "StrokeProcNotDoneReasonCs CodeSystem",
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs."
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeTreatmentCS",
+    "title" : "StrokeTreatmentCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs."
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",

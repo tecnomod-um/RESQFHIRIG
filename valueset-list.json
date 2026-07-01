@@ -208,16 +208,6 @@
     "systems" : ["http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/ich-treatment-vs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "IchTreatmentVS",
-    "title" : "IchTreatment ValueSet",
-    "description" : "Allowed coded values for IchTreatment",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
-    "http://snomed.info/sct"]
-  },
-  {
     "url" : "http://tecnomod-um.org/ValueSet/imaging-type-vs",
     "version" : "1.0.0",
     "status" : "active",
@@ -554,7 +544,17 @@
     "name" : "StrokeTreatmentProcedureVS",
     "title" : "PostStrokeProcedures ValueSet",
     "description" : "Allowed coded values for PostStrokeProcedures",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+    "http://snomed.info/sct"]
+  },
+  {
+    "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeTreatmentVS",
+    "title" : "StrokeTreatment ValueSet",
+    "description" : "Allowed coded values for StrokeTreatment",
+    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
     "http://snomed.info/sct"]
   },
   {

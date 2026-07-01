@@ -69,13 +69,6 @@
   "name" : "HemorrhagicTransformationTypeCS"
 },
 {
-  "id" : "ich-treatment-cs",
-  "type" : "CodeSystem",
-  "url" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
-  "version" : "1.0.0",
-  "name" : "IchTreatmentCS"
-},
-{
   "id" : "initial-care-intensity-cs",
   "type" : "CodeSystem",
   "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
@@ -228,6 +221,13 @@
   "url" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
   "version" : "1.0.0",
   "name" : "StrokeProcNotDoneReasonCS"
+},
+{
+  "id" : "stroke-treatment-cs",
+  "type" : "CodeSystem",
+  "url" : "http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+  "version" : "1.0.0",
+  "name" : "StrokeTreatmentCS"
 },
 {
   "id" : "swallow-procedures-cs",
@@ -888,13 +888,6 @@
   "name" : "HospitalizedInVS"
 },
 {
-  "id" : "ich-treatment-vs",
-  "type" : "ValueSet",
-  "url" : "http://tecnomod-um.org/ValueSet/ich-treatment-vs",
-  "version" : "1.0.0",
-  "name" : "IchTreatmentVS"
-},
-{
   "id" : "imaging-type-vs",
   "type" : "ValueSet",
   "url" : "http://tecnomod-um.org/ValueSet/imaging-type-vs",
@@ -1138,6 +1131,13 @@
   "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
   "version" : "1.0.0",
   "name" : "StrokeTreatmentProcedureVS"
+},
+{
+  "id" : "stroke-treatment-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-vs",
+  "version" : "1.0.0",
+  "name" : "StrokeTreatmentVS"
 },
 {
   "id" : "stroke-type-vs",

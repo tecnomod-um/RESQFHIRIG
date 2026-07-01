@@ -379,8 +379,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
     "uses" : {
     },
-    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
     "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
     "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet"
   },
   {
@@ -439,17 +439,6 @@
     "ValueSet-hemorrhagic-transformation-type-vs.html" : "HemorrhagicTransformationType ValueSet"
   },
   {
-    "url" : "http://tecnomod-um.org/CodeSystem/ich-treatment-cs",
-    "version" : "1.0.0",
-    "status" : "active",
-    "name" : "IchTreatmentCS",
-    "title" : "IchTreatmentCs CodeSystem",
-    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/ich-treatment-cs.",
-    "uses" : {
-    },
-    "ValueSet-ich-treatment-vs.html" : "IchTreatment ValueSet"
-  },
-  {
     "url" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
     "version" : "1.0.0",
     "status" : "active",
@@ -481,9 +470,9 @@
     "uses" : {
     },
     "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-locations-vs.html" : "Locations ValueSet",
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet"
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
@@ -586,8 +575,8 @@
     "uses" : {
     },
     "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
-    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
-    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet"
+    "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet",
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
@@ -699,6 +688,17 @@
     "uses" : {
     },
     "ValueSet-procedure-not-done-reason-vs.html" : "ProcedureNotDoneReason ValueSet"
+  },
+  {
+    "url" : "http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "StrokeTreatmentCS",
+    "title" : "StrokeTreatmentCs CodeSystem",
+    "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs.",
+    "uses" : {
+    },
+    "ValueSet-stroke-treatment-vs.html" : "StrokeTreatment ValueSet"
   },
   {
     "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
@@ -1108,7 +1108,7 @@
     "oids" : ["2.16.840.1.113883.18.36"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
@@ -1120,7 +1120,7 @@
     "oids" : ["2.16.840.1.113883.18.47"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -1156,7 +1156,7 @@
     "oids" : ["2.16.840.1.113883.18.439"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0936.html" : "hl7VS-VS-observationType"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0936.html" : "hl7VS-VS-observationType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -1168,7 +1168,7 @@
     "oids" : ["2.16.840.1.113883.5.4"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-encounter-class.html" : "Encounter class"
+    "http://terminology.hl7.org/7.2.0/ValueSet-encounter-class.html" : "Encounter class"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
@@ -1180,7 +1180,7 @@
     "oids" : ["2.16.840.1.113883.5.7"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActPriority.html" : "ActPriority"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ActPriority.html" : "ActPriority"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
@@ -1192,7 +1192,7 @@
     "oids" : ["2.16.840.1.113883.5.8"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
@@ -1266,10 +1266,10 @@
     "uses" : {
     },
     "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-locations-vs.html" : "Locations ValueSet",
     "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
+    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
@@ -1281,6 +1281,6 @@
     "oids" : ["2.16.840.1.113883.5.1070"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
   }]
 }

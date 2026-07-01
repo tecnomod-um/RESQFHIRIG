@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d29c7ecb-a740-41bb-b6d2-08dd7fae2604"/>
+  <id value="a0d7c802-2000-4609-be8d-ba5111a54bc1"/>
   <meta>
-    <lastUpdated value="2026-06-12T09:34:13.453+00:00"/>
+    <lastUpdated value="2026-07-01T13:43:23.876+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -114,7 +114,7 @@
         <title value="AdherenceCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -123,8 +123,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c784bc3-bcd2-4f95-81e4-4e10b80be142"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:272fe30d-d3cd-4b57-8659-21cdb32f45db"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -181,7 +181,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
@@ -213,7 +213,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS">NCCS</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS">NCCS</a>
                 </td>
                 <td/>
                 <td>
@@ -233,7 +233,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS">NS</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS">NS</a>
                 </td>
                 <td/>
                 <td>
@@ -253,7 +253,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
                 </td>
                 <td/>
                 <td>
@@ -273,7 +273,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM">GIM</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM">GIM</a>
                 </td>
                 <td/>
                 <td>
@@ -336,7 +336,7 @@
         <title value="AdmissionDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -345,8 +345,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7162a1dc-97cc-4bb7-974d-96beb8f81c43"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:ad459617-35bb-4b60-acef-cfc991e22216"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -563,7 +563,7 @@
         <title value="AdmissionPathway ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -572,8 +572,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0ba2d2df-5709-41aa-a32e-0fdea3d54d50"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:d815f66b-631f-4561-afb3-d4b5bcf34798"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -942,7 +942,7 @@
         <title value="AnaliticsCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -951,8 +951,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ec1cf1a5-0f28-4a4a-99f7-c6ce63f3a07e"/>
-          <timestamp value="2026-06-12T09:35:27+00:00"/>
+          <identifier value="urn:uuid:83c55abb-27b1-4933-9503-825471665bc6"/>
+          <timestamp value="2026-07-01T13:45:12+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -1299,7 +1299,7 @@
         <title value="AnticoagulantReversal ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1308,8 +1308,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:29894ff9-eb4d-4adb-b452-200954e7ad00"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:3a2f5090-72a8-4c24-965d-12bda2367cb7"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1700,7 +1700,7 @@
         <title value="AssessmentContext ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1709,8 +1709,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:14e1ffeb-db28-432c-89e6-b27e7934911a"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:89272972-a232-4d89-8630-7913bf986de3"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -1926,7 +1926,7 @@
         <title value="AtrialFibrillationOrFlutter ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1935,8 +1935,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b7282fa8-be5d-464f-8505-cd4704efb861"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:c98f9085-7ba1-47d4-a824-947dd6b5bac1"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2239,7 +2239,7 @@
         <title value="BleedingReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2248,8 +2248,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:891cc0de-4174-4c66-8940-455fc86f32d0"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:e91e516a-6d07-47e4-bbc7-47a7b04793ec"/>
+          <timestamp value="2026-07-01T13:45:27+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -2709,7 +2709,7 @@
         <title value="BodySites ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2718,8 +2718,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:866520b2-d49e-4e6c-a443-779c972d30cd"/>
-          <timestamp value="2026-06-12T09:35:36+00:00"/>
+          <identifier value="urn:uuid:27668891-fea0-4773-87d2-c25f819a8a37"/>
+          <timestamp value="2026-07-01T13:45:23+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -2924,7 +2924,7 @@
         <title value="CarotidEndarterectomyTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2933,8 +2933,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:91b20e2a-fbed-4615-8ba1-a27ebfd995bd"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:39253289-2d43-4fa2-bce9-af0b8dd4b827"/>
+          <timestamp value="2026-07-01T13:45:28+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -3094,7 +3094,7 @@
         <title value="CarotidStenosisLevel ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3103,8 +3103,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bf6c3ca5-caf9-40ac-a4e8-78d272113fb2"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:5d707ad6-d3ab-47f0-9765-5f45bdbda9b1"/>
+          <timestamp value="2026-07-01T13:45:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3164,7 +3164,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="http://terminology.hl7.org/7.1.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
@@ -3197,7 +3197,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td/>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -3218,7 +3218,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td/>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -3239,7 +3239,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
                 </td>
                 <td/>
                 <td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td>
@@ -3260,7 +3260,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-condition-clinical.html#condition-clinical-unknown">unknown</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-unknown">unknown</a>
                 </td>
                 <td/>
                 <td>The authoring/source system does not know which of the status values currently applies for this condition. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td>
@@ -3284,7 +3284,7 @@
         <title value="ClinicalStatusCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3293,8 +3293,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0b9efe36-2d5c-4b00-a9a8-f04d23450521"/>
-          <timestamp value="2026-06-12T09:35:34+00:00"/>
+          <identifier value="urn:uuid:bbd1af9f-d2b1-4bb2-8baf-aabeb9f104ac"/>
+          <timestamp value="2026-07-01T13:45:20+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3509,7 +3509,7 @@
         <title value="DischargeDestination ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3518,8 +3518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b740e799-2cbd-4c1b-9618-b3416ac18e4b"/>
-          <timestamp value="2026-06-12T09:35:40+00:00"/>
+          <identifier value="urn:uuid:9d415de9-19df-4189-a75b-4dca66a4732c"/>
+          <timestamp value="2026-07-01T13:45:28+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -3704,7 +3704,7 @@
         <title value="DischargeFacilityDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3713,8 +3713,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1f1b5156-6237-494e-82fc-21e00bf77c8c"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:63084cc3-9659-4382-acf3-8995e6840007"/>
+          <timestamp value="2026-07-01T13:45:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3889,7 +3889,7 @@
         <title value="DischargeFacilityType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -3898,8 +3898,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:91720a5d-e622-49c2-bb7f-80e37aaaec32"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:fa5f24d2-04a7-44b4-b043-c95a0af0aad5"/>
+          <timestamp value="2026-07-01T13:45:28+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3972,7 +3972,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
@@ -4007,7 +4007,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
                 </td>
                 <td/>
                 <td>
@@ -4035,7 +4035,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
                 </td>
                 <td/>
                 <td>
@@ -4061,7 +4061,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF">OF</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF">OF</a>
                 </td>
                 <td/>
                 <td>
@@ -4108,7 +4108,7 @@
         <title value="FirstContactPlace ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4117,8 +4117,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:445b8726-1f08-46a7-a2b0-d13f904bf81a"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:87c414af-60da-4249-b8b8-6073053343d5"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -4437,7 +4437,7 @@
         <title value="FunctionalScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4446,8 +4446,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8fc3bbcd-3c4d-45d4-b797-2ff96cc0fbc4"/>
-          <timestamp value="2026-06-12T09:35:30+00:00"/>
+          <identifier value="urn:uuid:6ec9ae62-8ea2-4eb7-ab44-686f1a37c8ca"/>
+          <timestamp value="2026-07-01T13:45:16+00:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -4631,7 +4631,7 @@
         <title value="GCSScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -4640,8 +4640,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a326deb8-ce8e-4078-aa6a-ae700423391d"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:6e0f7fe7-ec53-4463-a3d3-4430f6396d4c"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -5029,7 +5029,7 @@
         <title value="GlasgowComaScale ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5038,8 +5038,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e5d9bef7-ac73-4079-88ed-2b17632348fc"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:bffe9dda-19cb-4fa3-8abe-b2b5d3844452"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -5256,7 +5256,7 @@
         <title value="HemorrhagicTransformationType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5265,8 +5265,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3b6a9ca9-a831-454e-9836-86dcf26c9c0d"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:5080dac1-9f0d-4168-9d8c-466fccb72c16"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -5323,7 +5323,7 @@
                 <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -5402,6 +5402,26 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs-unknown"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-initial-care-intensity-cs.html#initial-care-intensity-cs-unknown">unknown</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;unknown&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;unknown&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -5411,7 +5431,7 @@
         <title value="HospitalizedIn ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5420,9 +5440,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9ffd0425-11fc-4c03-874d-2221f58d9ad4"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:cdc5e8c9-58c9-4bd7-a180-2768dea800fc"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
+          <total value="4"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -5456,346 +5476,9 @@
             <system value="http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"/>
             <code value="standard"/>
           </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://tecnomod-um.org/ValueSet/ich-treatment-vs"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
-            <p class="res-header-id"/>
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion from tx.fhir.org based on:</p>
-              <ul>
-                <li>SNOMED CT International edition 01-Feb 2025
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
-                  </span>
-                </li>
-                <li>
-                  <a href="CodeSystem-ich-treatment-cs.html">codesystem IchTreatmentCs CodeSystem v1.0.0 (CodeSystem)</a>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/ich-treatment-cs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <p>This value set contains 10 concepts</p>
-            <table class="codes" data-fhir="generated">
-              <tr>
-                <td>
-                  <b>System</b>
-                </td>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display (es)</b>
-                </td>
-                <td>
-                  <b>JSON</b>
-                </td>
-                <td>
-                  <b>XML</b>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-1288015005"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/1288015005">1288015005</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1288015005&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1288015005&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-10458001"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/10458001">10458001</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;10458001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;10458001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-43810009"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/43810009">43810009</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;43810009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;43810009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-36910002"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/36910002">36910002</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;36910002&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;36910002&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-77337009"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/77337009">77337009</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;77337009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;77337009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-230869001"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/230869001">230869001</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230869001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;230869001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-21147007"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/21147007">21147007</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;21147007&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;21147007&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-1230010003"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/1230010003">1230010003</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1230010003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1230010003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://snomed.info/sct-182764009"> </a>
-                  <code>http://snomed.info/sct</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="http://snomed.info/id/182764009">182764009</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;182764009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;182764009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a name="x-http://tecnomod-um.org/CodeSystem/ich-treatment-cs-other"> </a>
-                  <code>http://tecnomod-um.org/CodeSystem/ich-treatment-cs</code>
-                </td>
-                <td style="white-space:nowrap">  
-                  <a href="CodeSystem-ich-treatment-cs.html#ich-treatment-cs-other">other</a>
-                </td>
-                <td/>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/ich-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-                <td>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/ich-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
-                  </span>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://tecnomod-um.org/ValueSet/ich-treatment-vs"/>
-        <version value="1.0.0"/>
-        <name value="IchTreatmentVS"/>
-        <title value="IchTreatment ValueSet"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ES"/>
-            <display value="Spain"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:26c456dd-cfe9-4cc9-957c-746b19372839"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
-          <total value="10"/>
-          <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="es"/>
-          </parameter>
-          <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
-          </parameter>
-          <parameter>
-            <name value="offset"/>
-            <valueInteger value="0"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="includeDefinition"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://tecnomod-um.org/CodeSystem/ich-treatment-cs|1.0.0"/>
-          </parameter>
           <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="1288015005"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="10458001"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="43810009"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="36910002"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="77337009"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="230869001"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="21147007"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="1230010003"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="182764009"/>
-          </contains>
-          <contains>
-            <system value="http://tecnomod-um.org/CodeSystem/ich-treatment-cs"/>
-            <code value="other"/>
+            <system value="http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"/>
+            <code value="unknown"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -5993,7 +5676,7 @@
         <title value="ImagingType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6002,8 +5685,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:00631d10-f850-47cc-a066-d6a0326b87f7"/>
-          <timestamp value="2026-06-12T09:35:41+00:00"/>
+          <identifier value="urn:uuid:75a2f716-04ba-4946-aea8-c0196e9866cf"/>
+          <timestamp value="2026-07-01T13:45:29+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -6171,7 +5854,7 @@
         <title value="INRmode ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6180,8 +5863,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a567e08a-2a25-4ae6-b387-fe742c4a3188"/>
-          <timestamp value="2026-06-12T09:35:27+00:00"/>
+          <identifier value="urn:uuid:1aa98378-960a-440d-bca6-be90849a877e"/>
+          <timestamp value="2026-07-01T13:45:12+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -6310,7 +5993,7 @@
         <title value="InsulinOnHyperglycemiaTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6319,8 +6002,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:99838734-515b-4872-9ece-2f9c031725ab"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:f1b02169-870e-4b1c-929d-28942ea4ba28"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -6373,7 +6056,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
@@ -6408,7 +6091,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
                 </td>
                 <td/>
                 <td>
@@ -6436,7 +6119,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
                 </td>
                 <td/>
                 <td>
@@ -6459,7 +6142,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
                 </td>
                 <td/>
                 <td>
@@ -6509,7 +6192,7 @@
         <title value="IvtApplicationDepartment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6518,8 +6201,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:94660658-2164-42b1-a6b4-1a9517cdabde"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:100298b5-bbfc-4479-b550-ecfa850e0819"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -6698,7 +6381,7 @@
         <title value="IvtDrug ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -6707,8 +6390,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:96c9e7b9-b8a5-4a97-80cf-9b1e798a293f"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:b44458a6-ec02-4928-b874-eecc4af99294"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -7142,7 +6825,7 @@
         <title value="Laterality ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7151,8 +6834,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:72ab3a2d-8e6f-4fd1-a96e-a9e3d9dd22b8"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:adfedc12-1d04-499e-8002-a454a14fd19d"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -7274,7 +6957,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html">codesystem RoleCode v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
@@ -7309,7 +6992,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER">ER</a>
                 </td>
                 <td/>
                 <td>
@@ -7335,7 +7018,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF">OF</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF">OF</a>
                 </td>
                 <td/>
                 <td>
@@ -7358,7 +7041,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD">HRAD</a>
                 </td>
                 <td/>
                 <td>
@@ -7386,7 +7069,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS">NCCS</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS">NCCS</a>
                 </td>
                 <td/>
                 <td>
@@ -7409,7 +7092,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU">ICU</a>
                 </td>
                 <td/>
                 <td>
@@ -7432,7 +7115,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS">NS</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS">NS</a>
                 </td>
                 <td/>
                 <td>
@@ -7455,7 +7138,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM">GIM</a>
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM">GIM</a>
                 </td>
                 <td/>
                 <td>
@@ -7502,7 +7185,7 @@
         <title value="Locations ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7511,8 +7194,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:54879d2c-831b-4898-8316-74399d722b62"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:fd20b591-b5de-42d1-99d4-bc493e1a530f"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -7697,7 +7380,7 @@
         <title value="ManagementAppointment ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -7706,8 +7389,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f5d0c5d1-cb48-44d8-aa09-f348b1461c58"/>
-          <timestamp value="2026-06-12T09:35:28+00:00"/>
+          <identifier value="urn:uuid:98b96774-5710-418d-8122-f539d19d0eff"/>
+          <timestamp value="2026-07-01T13:45:14+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -7774,7 +7457,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 29 concepts</p>
+            <p>This value set contains 30 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -7890,6 +7573,26 @@
                 <td>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;none-medication&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/medication-cs-other"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/medication-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-medication-cs.html#medication-cs-other">other</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/medication-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -8382,7 +8085,7 @@
         <title value="Medications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8391,9 +8094,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fdbfb212-9cfe-4924-96d9-ea1a163eabe3"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
-          <total value="29"/>
+          <identifier value="urn:uuid:dbc36f51-f95f-4322-a858-3751d6ac65b4"/>
+          <timestamp value="2026-07-01T13:45:30+00:00"/>
+          <total value="30"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8450,6 +8153,10 @@
           <contains>
             <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
             <code value="none-medication"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/medication-cs"/>
+            <code value="other"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -8723,7 +8430,7 @@
         <title value="MimicsDiagnosis ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8732,8 +8439,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a466d67-88c8-4d5f-8191-2c9d595f5362"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:df72e865-6848-4d99-85a3-a5e15c6142f3"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -8978,7 +8685,7 @@
         <title value="MRsScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8987,8 +8694,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:80640a66-3e4a-49b2-bb20-66d617c086db"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:60cb25f7-9dec-48a2-8acc-8099c6d6947e"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -9225,7 +8932,7 @@
         <title value="MTiciScore ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9234,8 +8941,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:94a15c15-9bcc-4a95-bd11-8c17cee8ba97"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:01f096ec-7adf-45d9-87bd-a41180caecd9"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -9382,7 +9089,7 @@
         <title value="Nimodipinetiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9391,8 +9098,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e9b10694-0720-4ae1-a8cb-6f8c95ef9b22"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:2472e096-c2d7-46a5-a158-3388892ed427"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -9795,7 +9502,7 @@
         <title value="NotMedicationReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9804,8 +9511,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cf7cad35-bce0-41d9-af03-0806841cf372"/>
-          <timestamp value="2026-06-12T09:35:33+00:00"/>
+          <identifier value="urn:uuid:1ef5e19e-9650-4e6b-b0a4-8623cd5b1956"/>
+          <timestamp value="2026-07-01T13:45:19+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -9996,7 +9703,7 @@
         <title value="OccupationalTherapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10005,8 +9712,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0b030899-f8e8-40c2-9940-8439cbdfafe3"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:6de53731-6213-43a9-82e1-e4cf60570f49"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -10135,7 +9842,7 @@
         <title value="ParacetamolOnFeverTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10144,8 +9851,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0fe376b6-55fd-47be-9ab9-7aaf22415138"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:eb9ab133-835c-46b0-9ba4-c50e1c756569"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -10292,7 +9999,7 @@
         <title value="ParacetamolOnFever ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10301,8 +10008,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fd3cba58-3af4-483e-8d97-6fc659e3accf"/>
-          <timestamp value="2026-06-12T09:35:42+00:00"/>
+          <identifier value="urn:uuid:0d1d1d3d-2859-4cd5-a4d0-0e3e31c4b77d"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -10474,7 +10181,7 @@
         <title value="PerforationProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10483,8 +10190,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4d94d165-bf26-4456-ba19-8e82dd757c19"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:243ff55c-2ac6-4dd3-adf2-5e73e5a79f7d"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -10647,7 +10354,7 @@
         <title value="PostAcuteCare ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10656,8 +10363,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a08b723f-556f-43c1-bacb-641c8daf9caa"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:520e8799-cb20-4003-ac56-a6cb1252771a"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -10824,7 +10531,7 @@
         <title value="PostNeurosurgeryImaging ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -10833,8 +10540,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:024cdf1d-cccf-414b-8a2d-8b70cddc81f1"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:af4a012b-f01d-426f-b15c-4e09830323fc"/>
+          <timestamp value="2026-07-01T13:45:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -10997,7 +10704,7 @@
         <title value="PostRecanalizationImaging ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11006,8 +10713,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3d0b0665-c690-4633-acd3-4d002d7cbb92"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:96c9698a-59c7-493b-adcf-85aa33a94572"/>
+          <timestamp value="2026-07-01T13:45:32+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -11290,7 +10997,7 @@
         <title value="PostStrokeComplications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11299,8 +11006,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f5bd3e89-8bb1-4b9d-b126-73e908d2be8f"/>
-          <timestamp value="2026-06-12T09:35:34+00:00"/>
+          <identifier value="urn:uuid:e40f1913-077f-487a-a3a2-f80a261c82a8"/>
+          <timestamp value="2026-07-01T13:45:20+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -11516,7 +11223,7 @@
         <title value="PostStrokeProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11525,8 +11232,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da5109de-e472-4025-a758-98e414ba0983"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:88c82c5a-c59e-481c-a26d-72ad46462af4"/>
+          <timestamp value="2026-07-01T13:45:32+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -11605,7 +11312,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 29 concepts</p>
+            <p>This value set contains 30 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -12204,6 +11911,26 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-385432009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/385432009">385432009</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;385432009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;385432009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -12213,7 +11940,7 @@
         <title value="ProcedureNotDoneReason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12222,9 +11949,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3cc635be-fae6-4446-9774-a55ebaea4ee1"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
-          <total value="29"/>
+          <identifier value="urn:uuid:8f756cb1-d9f7-47ff-a2e2-931c663741a9"/>
+          <timestamp value="2026-07-01T13:45:32+00:00"/>
+          <total value="30"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -12378,6 +12105,10 @@
             <system value="http://snomed.info/sct"/>
             <code value="170969009"/>
           </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="385432009"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -12464,7 +12195,7 @@
         <title value="Procedure Timing Context ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12473,8 +12204,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:51581e7c-a630-47db-a602-040dffff28ce"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:db50940f-284d-4d27-b925-5f883cc8b929"/>
+          <timestamp value="2026-07-01T13:45:32+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -12921,7 +12652,7 @@
         <title value="RiskFactor ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -12930,8 +12661,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3564d01d-7b8f-4d54-9081-81b89fbbb617"/>
-          <timestamp value="2026-06-12T09:35:38+00:00"/>
+          <identifier value="urn:uuid:a15b9adc-8b8a-4c72-a3fc-92b3729cc132"/>
+          <timestamp value="2026-07-01T13:45:24+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
@@ -13163,7 +12894,7 @@
         <title value="ScreeningPerformer ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13172,8 +12903,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:02ef41cf-780c-4987-8b78-8b27c8a71e8d"/>
-          <timestamp value="2026-06-12T09:35:43+00:00"/>
+          <identifier value="urn:uuid:c3745a5d-f7a9-4d33-8024-c97c5cf55717"/>
+          <timestamp value="2026-07-01T13:45:32+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -13325,7 +13056,7 @@
         <title value="Sex ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13334,8 +13065,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a1de7a24-ed8d-4bf0-842b-b44dca0d4ca5"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:b8366322-db5d-406b-ab94-85ee6b2d96f9"/>
+          <timestamp value="2026-07-01T13:45:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -13844,7 +13575,7 @@
         <title value="Specific Finding Value ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -13853,8 +13584,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f801ef80-aaa9-417e-96fc-ab27fc44ef21"/>
-          <timestamp value="2026-06-12T09:35:35+00:00"/>
+          <identifier value="urn:uuid:0d709047-176c-40b9-beaf-78389ba7c0a6"/>
+          <timestamp value="2026-07-01T13:45:21+00:00"/>
           <total value="19"/>
           <offset value="0"/>
           <parameter>
@@ -14359,7 +14090,7 @@
         <title value="SpecificFinding ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14368,8 +14099,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d01a34fa-4043-4282-ab1b-db8f29614571"/>
-          <timestamp value="2026-06-12T09:35:35+00:00"/>
+          <identifier value="urn:uuid:003c7af0-03c1-4ebc-939f-82c74d3922b6"/>
+          <timestamp value="2026-07-01T13:45:21+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -14566,7 +14297,7 @@
         <title value="StrokeCircumstance ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14575,8 +14306,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:68ceed54-9629-485f-8f33-c8504bd2e213"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:4d1469e9-7780-4865-8d21-e1ce402fdcbd"/>
+          <timestamp value="2026-07-01T13:45:33+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -14935,7 +14666,7 @@
         <title value="Stroke Diagnosis Code ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -14944,8 +14675,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:db05ed71-8941-4ae2-bf91-063147cfd58b"/>
-          <timestamp value="2026-06-12T09:35:36+00:00"/>
+          <identifier value="urn:uuid:795272b1-665a-4319-a6ca-3362ab6483cd"/>
+          <timestamp value="2026-07-01T13:45:22+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -15396,7 +15127,7 @@
         <title value="StrokeEtiologyOther ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15405,8 +15136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9d6c7489-4cc7-47a7-871e-4b9802b29fc9"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:109f2d88-d665-4787-aee6-39f01b57faa3"/>
+          <timestamp value="2026-07-01T13:45:33+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -15757,7 +15488,7 @@
         <title value="StrokeEtiology ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -15766,8 +15497,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8daf18bc-c38a-4066-9a7e-419984dc82f5"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:20c83379-ed17-4f97-8692-81dac906e2b6"/>
+          <timestamp value="2026-07-01T13:45:33+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -15863,15 +15594,9 @@
                   </span>
                 </li>
                 <li>
-                  <a href="CodeSystem-ich-treatment-cs.html">codesystem IchTreatmentCs CodeSystem v1.0.0 (CodeSystem)</a>
+                  <a href="CodeSystem-stroke-treatment-cs.html">codesystem StrokeTreatmentCs CodeSystem v1.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/ich-treatment-cs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
-                  </span>
-                </li>
-                <li>
-                  <a href="ValueSet-ich-treatment-vs.html">valueset IchTreatment ValueSet v1.0.0 (ValueSet)</a>
-                  <span class="copy-text-inline">
-                    <button data-clipboard-text="http://tecnomod-um.org/ValueSet/ich-treatment-vs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
@@ -15880,9 +15605,15 @@
                     <button data-clipboard-text="http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
                   </span>
                 </li>
+                <li>
+                  <a href="ValueSet-stroke-treatment-vs.html">valueset StrokeTreatment ValueSet v1.0.0 (ValueSet)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://tecnomod-um.org/ValueSet/stroke-treatment-vs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
               </ul>
             </div>
-            <p>This value set contains 15 concepts</p>
+            <p>This value set contains 16 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -16183,21 +15914,41 @@
               </tr>
               <tr>
                 <td>
-                  <a name="x-http://tecnomod-um.org/CodeSystem/ich-treatment-cs-other"> </a>
-                  <code>http://tecnomod-um.org/CodeSystem/ich-treatment-cs</code>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/stroke-treatment-cs-other"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="CodeSystem-ich-treatment-cs.html#ich-treatment-cs-other">other</a>
+                  <a href="CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-other">other</a>
                 </td>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/ich-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/ich-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/stroke-treatment-cs-min-invasive"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-min-invasive">min-invasive</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;min-invasive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;min-invasive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -16210,7 +15961,7 @@
         <title value="PostStrokeProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16219,9 +15970,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:27b4ffbe-004f-4309-8066-388fd550e967"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
-          <total value="15"/>
+          <identifier value="urn:uuid:fc994f35-181d-48c8-826b-a8c1a6378b52"/>
+          <timestamp value="2026-07-01T13:45:33+00:00"/>
+          <total value="16"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -16257,11 +16008,11 @@
           </parameter>
           <parameter>
             <name value="used-valueset"/>
-            <valueUri value="http://tecnomod-um.org/ValueSet/ich-treatment-vs|1.0.0"/>
+            <valueUri value="http://tecnomod-um.org/ValueSet/stroke-treatment-vs|1.0.0"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://tecnomod-um.org/CodeSystem/ich-treatment-cs|1.0.0"/>
+            <valueUri value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs|1.0.0"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -16320,8 +16071,377 @@
             <code value="182764009"/>
           </contains>
           <contains>
-            <system value="http://tecnomod-um.org/CodeSystem/ich-treatment-cs"/>
+            <system value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"/>
             <code value="other"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"/>
+            <code value="min-invasive"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://tecnomod-um.org/ValueSet/stroke-treatment-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT International edition 01-Feb 2025
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-stroke-treatment-cs.html">codesystem StrokeTreatmentCs CodeSystem v1.0.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs|1.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (es)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-1288015005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/1288015005">1288015005</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1288015005&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1288015005&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-10458001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/10458001">10458001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;10458001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;10458001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-43810009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/43810009">43810009</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;43810009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;43810009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-36910002"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/36910002">36910002</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;36910002&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;36910002&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-77337009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/77337009">77337009</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;77337009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;77337009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-230869001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/230869001">230869001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230869001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;230869001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-21147007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/21147007">21147007</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;21147007&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;21147007&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-1230010003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/1230010003">1230010003</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1230010003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;1230010003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-182764009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/182764009">182764009</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;182764009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;182764009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/stroke-treatment-cs-other"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-other">other</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://tecnomod-um.org/CodeSystem/stroke-treatment-cs-min-invasive"> </a>
+                  <code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-min-invasive">min-invasive</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;min-invasive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-treatment-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;min-invasive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://tecnomod-um.org/ValueSet/stroke-treatment-vs"/>
+        <version value="1.0.0"/>
+        <name value="StrokeTreatmentVS"/>
+        <title value="StrokeTreatment ValueSet"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="ES"/>
+            <display value="Spain"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:7a376c40-58d2-4a60-b3f0-1f4cdd72f36c"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="es"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1288015005"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10458001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43810009"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="36910002"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77337009"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="230869001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="21147007"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1230010003"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="182764009"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"/>
+            <code value="other"/>
+          </contains>
+          <contains>
+            <system value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"/>
+            <code value="min-invasive"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -16508,7 +16628,7 @@
         <title value="StrokeType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16517,8 +16637,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4843a10f-49a3-495d-89de-3829ad5ec78e"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:4197b69a-5b5d-44af-b605-04443ace51c9"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -16682,7 +16802,7 @@
         <title value="SwallowingScreeningDone ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16691,8 +16811,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2a65f5f6-ed79-45e1-bdce-cd0e90cba2aa"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:9d6b6c95-604a-4792-a8b6-823e930916e2"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -16857,7 +16977,7 @@
         <title value="SwallowingScreeningTiming ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -16866,8 +16986,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:39100c72-d261-41df-97b0-6390c8df3e4f"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:571e48f9-15e0-49b2-94c4-45cbfcc1d318"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -17078,7 +17198,7 @@
         <title value="SwallowingScreeningType ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17087,8 +17207,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae2d38b9-f53f-4461-857f-2257e1a18403"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:6f05ab93-e5c5-43cd-b4ff-61b76838623b"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -17369,7 +17489,7 @@
         <title value="TenecteplaseBrand ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17378,8 +17498,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:baf73b0f-d505-4b92-8e85-a7418f7afe45"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:fcbaccc5-db5e-4055-b8bd-6bd6005e208d"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -17614,7 +17734,7 @@
         <title value="ThreeMonthContactMode ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17623,8 +17743,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:960cec31-a9d2-4109-91ce-c4422976e3d3"/>
-          <timestamp value="2026-06-12T09:35:38+00:00"/>
+          <identifier value="urn:uuid:2ab0646b-9526-4da0-88f9-294c83dbbc47"/>
+          <timestamp value="2026-07-01T13:45:25+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -17839,7 +17959,7 @@
         <title value="ThrombectomyComplications ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -17848,8 +17968,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:02ddf47e-31cf-4da7-8174-5b1a38dd2cbe"/>
-          <timestamp value="2026-06-12T09:35:44+00:00"/>
+          <identifier value="urn:uuid:82f40f88-e016-4f56-b4c1-51fc9120ceca"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -18020,7 +18140,7 @@
         <title value="TiaClinicalSymptoms ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18029,8 +18149,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:597de610-6bbe-4c21-b940-4a7c606052e4"/>
-          <timestamp value="2026-06-12T09:35:39+00:00"/>
+          <identifier value="urn:uuid:1ed566a4-4308-47c8-81e0-668de0275c42"/>
+          <timestamp value="2026-07-01T13:45:26+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -18183,7 +18303,7 @@
         <title value="TiaSymptomDuration ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18192,8 +18312,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:14a0c124-cc05-4225-b45d-2990188a568b"/>
-          <timestamp value="2026-06-12T09:35:45+00:00"/>
+          <identifier value="urn:uuid:d9a83df5-3402-4efe-8b26-44e0661eaccd"/>
+          <timestamp value="2026-07-01T13:45:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -18794,7 +18914,7 @@
         <title value="TimingMetricCodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -18803,8 +18923,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:32c727ae-81c0-49ac-ae44-c0ae36b56bc2"/>
-          <timestamp value="2026-06-12T09:35:39+00:00"/>
+          <identifier value="urn:uuid:c75eb934-a29b-45a0-ba42-c2b9c367118c"/>
+          <timestamp value="2026-07-01T13:45:26+00:00"/>
           <total value="26"/>
           <offset value="0"/>
           <parameter>
@@ -19067,7 +19187,7 @@
         <title value="VitalSigns ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -19076,8 +19196,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:afb9b57e-d920-4752-a11f-c3b571b410b8"/>
-          <timestamp value="2026-06-12T09:35:39+00:00"/>
+          <identifier value="urn:uuid:d1fb1977-a5b1-48d5-81a9-69fed9b97a12"/>
+          <timestamp value="2026-07-01T13:45:26+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -19364,7 +19484,7 @@
         <title value="VteProcedures ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-06-12T09:34:13+00:00"/>
+        <date value="2026-07-01T13:43:23+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -19373,8 +19493,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:25b655ac-0254-4fef-b1ff-638d4e46b03d"/>
-          <timestamp value="2026-06-12T09:35:45+00:00"/>
+          <identifier value="urn:uuid:72c6dd2b-10e3-48f2-82a6-cb1f4af9eb9d"/>
+          <timestamp value="2026-07-01T13:45:35+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>

@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-diagnosis-code-vs</b></p><a name=\"stroke-diagnosis-code-vs\"> </a><a name=\"hcstroke-diagnosis-code-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-stroke-type-vs.html\">StrokeType ValueSet</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-mimics-diagnosis-vs.html\">MimicsDiagnosis ValueSet</a></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "StrokeDiagnosisCodeVS"] ; # 
   fhir:title [ fhir:v "Stroke Diagnosis Code ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,10 +31,7 @@
   fhir:description [ fhir:v "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
@@ -46,12 +40,12 @@
      fhir:include ( [
        fhir:valueSet ( [
          fhir:v "http://tecnomod-um.org/ValueSet/stroke-type-vs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/ValueSet/stroke-type-vs>
+         fhir:link <http://tecnomod-um.org/ValueSet/stroke-type-vs>
        ] )
      ] [
        fhir:valueSet ( [
          fhir:v "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs>
+         fhir:link <http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs>
        ] )
      ] )
   ] . # 

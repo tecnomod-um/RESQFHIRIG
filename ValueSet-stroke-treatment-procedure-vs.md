@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs | *Version*:1.0.0 |
-| Active as of 2026-06-12 | *Computable Name*:StrokeTreatmentProcedureVS |
+| Active as of 2026-07-01 | *Computable Name*:StrokeTreatmentProcedureVS |
 
  
 Allowed coded values for PostStrokeProcedures 
@@ -51,7 +51,7 @@ Allowed coded values for PostStrokeProcedures
   "title" : "PostStrokeProcedures ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-12T09:34:13+00:00",
+  "date" : "2026-07-01T13:43:23+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -73,7 +73,7 @@ Allowed coded values for PostStrokeProcedures
       "valueSet" : ["http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/ich-treatment-vs"]
+      "valueSet" : ["http://tecnomod-um.org/ValueSet/stroke-treatment-vs"]
     }]
   }
 }

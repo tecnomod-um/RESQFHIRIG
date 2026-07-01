@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="stroke-treatment-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem stroke-treatment-cs</b></p><a name="stroke-treatment-cs"> </a><a name="hcstroke-treatment-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">other<a name="stroke-treatment-cs-other"> </a></td><td>Other Treatment</td></tr><tr><td style="white-space:nowrap">min-invasive<a name="stroke-treatment-cs-min-invasive"> </a></td><td>Minimally Invasive Procedure</td></tr></table></div>
+  </text>
+  <url value="http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"/>
+  <version value="1.0.0"/>
+  <name value="StrokeTreatmentCS"/>
+  <title value="StrokeTreatmentCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-01T13:43:23+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://tecnomod-um.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="other"/>
+    <display value="Other Treatment"/>
+  </concept>
+  <concept>
+    <code value="min-invasive"/>
+    <display value="Minimally Invasive Procedure"/>
+  </concept>
+</CodeSystem>

@@ -13,16 +13,13 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet insulin-on-hyperglycemia-timing-vs</b></p><a name=\"insulin-on-hyperglycemia-timing-vs\"> </a><a name=\"hcinsulin-on-hyperglycemia-timing-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-insulin-hyperglycemia-time-cs.html\"><code>http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-insulin-hyperglycemia-time-cs.html#insulin-hyperglycemia-time-cs-T1H\">T1H</a></td><td>Within 1 Hour</td></tr><tr><td><a href=\"CodeSystem-insulin-hyperglycemia-time-cs.html#insulin-hyperglycemia-time-cs-after-1h\">after-1h</a></td><td>After 1 Hour</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [
-     fhir:v "http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs"^^xsd:anyURI ;
-     fhir:l <http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs>
-  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "InsulinOnHyperglycemiaTimingVS"] ; # 
   fhir:title [ fhir:v "InsulinOnHyperglycemiaTiming ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-12T09:34:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -34,20 +31,14 @@
   fhir:description [ fhir:v "Allowed coded values for InsulinOnHyperglycemiaTiming"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ES" ] ;
        fhir:display [ fhir:v "Spain" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs"^^xsd:anyURI ;
-         fhir:l <http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs>
-       ] ;
+       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "T1H" ] ;
          fhir:display [ fhir:v "Within 1 Hour" ]

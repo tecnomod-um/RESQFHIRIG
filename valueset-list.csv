@@ -21,7 +21,6 @@ http://tecnomod-um.org/ValueSet/gcsscore-vs,1.0.0,active,,GCSScoreVS,GCSScore Va
 http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs,1.0.0,active,,GlasgowComaScaleVS,GlasgowComaScale ValueSet,"Allowed coded values for GlasgowComaScale",,"SCT"
 http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs,1.0.0,active,,HemorrhagicTransformationTypeVS,HemorrhagicTransformationType ValueSet,"Allowed coded values for HemorrhagicTransformationType",,"Internal"
 http://tecnomod-um.org/ValueSet/hospitalized-in-vs,1.0.0,active,,HospitalizedInVS,HospitalizedIn ValueSet,"Allowed coded values for HospitalizedIn",,"Internal"
-http://tecnomod-um.org/ValueSet/ich-treatment-vs,1.0.0,active,,IchTreatmentVS,IchTreatment ValueSet,"Allowed coded values for IchTreatment",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/imaging-type-vs,1.0.0,active,,ImagingTypeVS,ImagingType ValueSet,"Allowed coded values for ImagingType",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/in-hospital-vs,1.0.0,active,,InHospitalVS,InHospital ValueSet,"Allowed coded values for InHospital",,"FHIR"
 http://tecnomod-um.org/ValueSet/inrmode-vs,1.0.0,active,,INRmodeVS,INRmode ValueSet,"Allowed coded values for INRmode",,"SCT"
@@ -57,6 +56,7 @@ http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs,1.0.0,active,,StrokeDia
 http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs,1.0.0,active,,StrokeEtiologyOtherVS,StrokeEtiologyOther ValueSet,"Allowed coded values for StrokeEtiologyOther",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-etiology-vs,1.0.0,active,,StrokeEtiologyVS,StrokeEtiology ValueSet,"Allowed coded values for StrokeEtiology",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs,1.0.0,active,,StrokeTreatmentProcedureVS,PostStrokeProcedures ValueSet,"Allowed coded values for PostStrokeProcedures",,
+http://tecnomod-um.org/ValueSet/stroke-treatment-vs,1.0.0,active,,StrokeTreatmentVS,StrokeTreatment ValueSet,"Allowed coded values for StrokeTreatment",,"SCT,Internal"
 http://tecnomod-um.org/ValueSet/stroke-type-vs,1.0.0,active,,StrokeTypeVS,StrokeType ValueSet,"Allowed coded values for StrokeType",,"SCT"
 http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs,1.0.0,active,,SwallowingScreeningDoneVS,SwallowingScreeningDone ValueSet,"Allowed coded values for SwallowingScreeningDone",,"SCT"
 http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs,1.0.0,active,,SwallowingScreeningTimingVS,SwallowingScreeningTiming ValueSet,"Allowed coded values for SwallowingScreeningTiming",,"SCT,Internal"
