@@ -447,6 +447,24 @@
     "systems" : ["http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"]
   },
   {
+    "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RESQStrokeDischargeDocumentTypeVS",
+    "title" : "RESQ Stroke Discharge Document Type ValueSet",
+    "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+    "systems" : ["http://loinc.org"]
+  },
+  {
+    "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "RESQStrokeDischargeSectionCodeVS",
+    "title" : "RESQ Stroke Discharge Section Code ValueSet",
+    "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
+    "systems" : ["http://loinc.org"]
+  },
+  {
     "url" : "http://tecnomod-um.org/ValueSet/risk-factor-vs",
     "version" : "1.0.0",
     "status" : "active",

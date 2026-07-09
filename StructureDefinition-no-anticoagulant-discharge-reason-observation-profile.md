@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/no-anticoagulant-discharge-reason-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-01 | *Computable Name*:NoAnticoagulantDischargeReasonObservationProfile |
+| Active as of 2026-07-09 | *Computable Name*:NoAnticoagulantDischargeReasonObservationProfile |
 
  
 Observation profile for recording the reason for not prescribing anticoagulants at discharge after ischemic stroke or TIA. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-anticoagulant-dis
   "title" : "No Anticoagulant Discharge Reason Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

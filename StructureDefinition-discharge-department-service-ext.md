@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-01 | *Computable Name*:DischargeDepartmentServiceExt |
+| Draft as of 2026-07-09 | *Computable Name*:DischargeDepartmentServiceExt |
 
 Department, unit or service receiving the patient at discharge.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
   "name" : "DischargeDepartmentServiceExt",
   "title" : "Discharge department or service",
   "status" : "draft",
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-01 | *Computable Name*:IschemicStrokeEtiologyExt |
+| Draft as of 2026-07-09 | *Computable Name*:IschemicStrokeEtiologyExt |
 
 Etiology of ischemic stroke, including undetermined when the etiology is not known.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
   "name" : "IschemicStrokeEtiologyExt",
   "title" : "Ischemic stroke etiology",
   "status" : "draft",
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

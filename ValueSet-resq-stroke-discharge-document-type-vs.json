@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "resq-stroke-discharge-document-type-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet resq-stroke-discharge-document-type-vs</b></p><a name=\"resq-stroke-discharge-document-type-vs\"> </a><a name=\"hcresq-stroke-discharge-document-type-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/34105-7/\">34105-7</a></td><td>Hospital Discharge summary</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs",
+  "version" : "1.0.0",
+  "name" : "RESQStrokeDischargeDocumentTypeVS",
+  "title" : "RESQ Stroke Discharge Document Type ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-09T09:09:43+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://tecnomod-um.org"
+    }]
+  }],
+  "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "34105-7",
+        "display" : "Hospital Discharge summary"
+      }]
+    }]
+  }
+}

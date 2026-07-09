@@ -10,7 +10,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -1415,6 +1415,42 @@
       },
       "name" : "RESQ PractitionerRole Profile",
       "description" : "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/resq-stroke-discharge-document-type-vs"
+      },
+      "name" : "RESQ Stroke Discharge Document Type ValueSet",
+      "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/resq-stroke-discharge-section-code-vs"
+      },
+      "name" : "RESQ Stroke Discharge Section Code ValueSet",
+      "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/resq-stroke-discharge-composition"
+      },
+      "name" : "RESQ Stroke Hospital Discharge Composition",
+      "description" : "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document.",
       "isExample" : false
     },
     {

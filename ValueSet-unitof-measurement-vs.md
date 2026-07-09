@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/unitof-measurement-vs | *Version*:1.0.0 |
-| Active as of 2026-07-01 | *Computable Name*:UnitofMeasurementVS |
+| Active as of 2026-07-09 | *Computable Name*:UnitofMeasurementVS |
 
  
 Allowed coded values for UnitofMeasurement 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "UnitofMeasurement ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

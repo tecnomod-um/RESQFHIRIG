@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-07-01T13:43:23+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-07-09T09:09:43+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -1789,6 +1789,51 @@
        ] ;
        fhir:name [ fhir:v "RESQ PractitionerRole Profile" ] ;
        fhir:description [ fhir:v "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/resq-stroke-discharge-document-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Stroke Discharge Document Type ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs> ;
+         fhir:reference [ fhir:v "ValueSet/resq-stroke-discharge-section-code-vs" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Stroke Discharge Section Code ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-stroke-discharge-composition" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Stroke Hospital Discharge Composition" ] ;
+       fhir:description [ fhir:v "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

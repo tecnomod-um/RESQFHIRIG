@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-01 | *Computable Name*:StrokeVTEProcedureProfile |
+| Active as of 2026-07-09 | *Computable Name*:StrokeVTEProcedureProfile |
 
  
 Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
   "title" : "Stroke VTE Prophylaxis Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs | *Version*:1.0.0 |
-| Active as of 2026-07-01 | *Computable Name*:TiaSymptomDurationCS |
+| Active as of 2026-07-09 | *Computable Name*:TiaSymptomDurationCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "TiaSymptomDurationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -594,6 +594,13 @@
   "name" : "RESQPractitionerRoleProfile"
 },
 {
+  "id" : "resq-stroke-discharge-composition",
+  "type" : "StructureDefinition",
+  "url" : "http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition",
+  "version" : "1.0.0",
+  "name" : "RESQStrokeDischargeComposition"
+},
+{
   "id" : "specific-finding-observation-profile",
   "type" : "StructureDefinition",
   "url" : "http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile",
@@ -1061,6 +1068,20 @@
   "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
   "version" : "1.0.0",
   "name" : "ProcedureTimingContextVS"
+},
+{
+  "id" : "resq-stroke-discharge-document-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs",
+  "version" : "1.0.0",
+  "name" : "RESQStrokeDischargeDocumentTypeVS"
+},
+{
+  "id" : "resq-stroke-discharge-section-code-vs",
+  "type" : "ValueSet",
+  "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs",
+  "version" : "1.0.0",
+  "name" : "RESQStrokeDischargeSectionCodeVS"
 },
 {
   "id" : "risk-factor-vs",

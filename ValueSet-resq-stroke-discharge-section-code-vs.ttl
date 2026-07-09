@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "resq-stroke-discharge-section-code-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet resq-stroke-discharge-section-code-vs</b></p><a name=\"resq-stroke-discharge-section-code-vs\"> </a><a name=\"hcresq-stroke-discharge-section-code-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td>Admission evaluation note</td></tr><tr><td><a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td>History of general health Narrative</td></tr><tr><td><a href=\"https://loinc.org/11450-4/\">11450-4</a></td><td>Problem list - Reported</td></tr><tr><td><a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td>Hospital course note</td></tr><tr><td><a href=\"https://loinc.org/11535-2/\">11535-2</a></td><td>Hospital discharge diagnosis Narrative</td></tr><tr><td><a href=\"https://loinc.org/10185-7/\">10185-7</a></td><td>Hospital discharge procedures</td></tr><tr><td><a href=\"https://loinc.org/87232-5/\">87232-5</a></td><td>Medication administration brief</td></tr><tr><td><a href=\"https://loinc.org/30954-2/\">30954-2</a></td><td>Relevant diagnostic tests/laboratory data Narrative</td></tr><tr><td><a href=\"https://loinc.org/8716-3/\">8716-3</a></td><td>Vital signs note</td></tr><tr><td><a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td>Functional status assessment note</td></tr><tr><td><a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td>Hospital discharge disposition note</td></tr><tr><td><a href=\"https://loinc.org/75311-1/\">75311-1</a></td><td>Discharge medications Narrative</td></tr><tr><td><a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td>Plan of care note</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "RESQStrokeDischargeSectionCodeVS"] ; # 
+  fhir:title [ fhir:v "RESQ Stroke Discharge Section Code ValueSet"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-07-09T09:09:43+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Spain" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "67851-6" ] ;
+         fhir:display [ fhir:v "Admission evaluation note" ]
+       ] [
+         fhir:code [ fhir:v "11329-0" ] ;
+         fhir:display [ fhir:v "History of general health Narrative" ]
+       ] [
+         fhir:code [ fhir:v "11450-4" ] ;
+         fhir:display [ fhir:v "Problem list - Reported" ]
+       ] [
+         fhir:code [ fhir:v "8648-8" ] ;
+         fhir:display [ fhir:v "Hospital course note" ]
+       ] [
+         fhir:code [ fhir:v "11535-2" ] ;
+         fhir:display [ fhir:v "Hospital discharge diagnosis Narrative" ]
+       ] [
+         fhir:code [ fhir:v "10185-7" ] ;
+         fhir:display [ fhir:v "Hospital discharge procedures" ]
+       ] [
+         fhir:code [ fhir:v "87232-5" ] ;
+         fhir:display [ fhir:v "Medication administration brief" ]
+       ] [
+         fhir:code [ fhir:v "30954-2" ] ;
+         fhir:display [ fhir:v "Relevant diagnostic tests/laboratory data Narrative" ]
+       ] [
+         fhir:code [ fhir:v "8716-3" ] ;
+         fhir:display [ fhir:v "Vital signs note" ]
+       ] [
+         fhir:code [ fhir:v "47420-5" ] ;
+         fhir:display [ fhir:v "Functional status assessment note" ]
+       ] [
+         fhir:code [ fhir:v "8650-4" ] ;
+         fhir:display [ fhir:v "Hospital discharge disposition note" ]
+       ] [
+         fhir:code [ fhir:v "75311-1" ] ;
+         fhir:display [ fhir:v "Discharge medications Narrative" ]
+       ] [
+         fhir:code [ fhir:v "18776-5" ] ;
+         fhir:display [ fhir:v "Plan of care note" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

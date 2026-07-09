@@ -38,6 +38,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [RESQ Location Profile](StructureDefinition-resq-location-profile.md) | Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site. |
 | [RESQ Patient Profile](StructureDefinition-resq-patient-profile.md) | Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension. |
 | [RESQ PractitionerRole Profile](StructureDefinition-resq-practitioner-role-profile.md) | PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities. |
+| [RESQ Stroke Hospital Discharge Composition](StructureDefinition-resq-stroke-discharge-composition.md) | FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document. |
 | [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md) | Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings. |
 | [Stroke Carotid Endarterectomy Procedure Profile](StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.md) | Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway. |
 | [Stroke Carotid Imaging Procedure Profile](StructureDefinition-stroke-carotid-imaging-procedure-profile.md) | Procedure profile for carotid imaging used in post-stroke assessment. |
@@ -135,6 +136,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [PostStrokeProcedures ValueSet](ValueSet-stroke-treatment-procedure-vs.md) | Allowed coded values for PostStrokeProcedures |
 | [Procedure Timing Context ValueSet](ValueSet-procedure-timing-context-vs.md) | Allowed values for the Procedure timing context extension. |
 | [ProcedureNotDoneReason ValueSet](ValueSet-procedure-not-done-reason-vs.md) | Allowed coded values for ProcedureNotDoneReason |
+| [RESQ Stroke Discharge Document Type ValueSet](ValueSet-resq-stroke-discharge-document-type-vs.md) | Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition. |
+| [RESQ Stroke Discharge Section Code ValueSet](ValueSet-resq-stroke-discharge-section-code-vs.md) | Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition. |
 | [RiskFactor ValueSet](ValueSet-risk-factor-vs.md) | Allowed coded values for RiskFactor |
 | [ScreeningPerformer ValueSet](ValueSet-screening-performer-vs.md) | Allowed coded values for ScreeningPerformer |
 | [Sex ValueSet](ValueSet-sex-vs.md) | Allowed coded values for Sex |

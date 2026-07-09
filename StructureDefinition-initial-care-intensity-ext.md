@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-01 | *Computable Name*:InitialCareIntensityExt |
+| Draft as of 2026-07-09 | *Computable Name*:InitialCareIntensityExt |
 
 Initial care intensity for hospitalized location, e.g. ICU/stroke unit, monitored bed, or standard bed.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
   "name" : "InitialCareIntensityExt",
   "title" : "Initial care intensity",
   "status" : "draft",
-  "date" : "2026-07-01T13:43:23+00:00",
+  "date" : "2026-07-09T09:09:43+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
