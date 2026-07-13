@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/risk-factor-cs | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:RiskFactorCS |
+| Active as of 2026-07-13 | *Computable Name*:RiskFactorCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "RiskFactorCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

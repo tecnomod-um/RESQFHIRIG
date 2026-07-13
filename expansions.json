@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "73f73e6a-590a-4bc2-ad52-35a6ebc391d8",
+  "id" : "d268a3bf-9ff4-482e-9f72-0862407168e1",
   "meta" : {
-    "lastUpdated" : "2026-07-09T09:09:43.870+00:00"
+    "lastUpdated" : "2026-07-13T09:21:26.603+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "AdherenceCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6d26b057-2877-47f6-89d7-1f2040d33a16",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:d2d80e85-424f-4662-ad5c-6205c88ab20f",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -81,7 +81,7 @@
       "title" : "AdmissionDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -90,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0a7b5cb0-ea77-44ca-8724-4346fc149140",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:bd52ac22-1da9-457a-944d-abd20565349f",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -159,7 +159,7 @@
       "title" : "AdmissionPathway ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -168,8 +168,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3dfea1c5-fa79-4481-a524-8f4279d5454b",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:e116c895-69b2-4f80-9590-f42c093711f2",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -233,7 +233,7 @@
       "title" : "AnaliticsCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -242,8 +242,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ff04474b-e80b-4a85-a25d-5917198a68d3",
-        "timestamp" : "2026-07-09T09:11:40+00:00",
+        "identifier" : "urn:uuid:08263758-0ee5-4954-940a-e46b640510f4",
+        "timestamp" : "2026-07-13T09:23:27+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -351,7 +351,7 @@
       "title" : "AnticoagulantReversal ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -360,8 +360,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8cd84c2a-cf16-405f-8581-a098115cbfd7",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:ea17ca3e-8478-4e2e-b411-731fbd184afe",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -453,7 +453,7 @@
       "title" : "AssessmentContext ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -462,8 +462,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0d197b73-3c98-4531-9ede-3cd2de7a2208",
-        "timestamp" : "2026-07-09T09:11:56+00:00",
+        "identifier" : "urn:uuid:d7a952f9-4bbf-4877-bd5e-40718c1b645c",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -571,7 +571,7 @@
       "title" : "AtrialFibrillationOrFlutter ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -580,8 +580,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0f00b31e-ac01-4348-9c52-de65795999e1",
-        "timestamp" : "2026-07-09T09:11:56+00:00",
+        "identifier" : "urn:uuid:51caa52b-cdb2-411d-845d-6ac032148ffe",
+        "timestamp" : "2026-07-13T09:23:43+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -645,7 +645,7 @@
       "title" : "BleedingReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -654,8 +654,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f6641035-4367-4d67-8585-6ea075ed5b7d",
-        "timestamp" : "2026-07-09T09:11:56+00:00",
+        "identifier" : "urn:uuid:396e6251-92fd-4008-90cd-bccf092316cb",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -747,7 +747,7 @@
       "title" : "BodySites ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -756,8 +756,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:80a1c747-3a36-4353-a48b-72ff24b2cd5a",
-        "timestamp" : "2026-07-09T09:11:51+00:00",
+        "identifier" : "urn:uuid:ac8c0829-472b-49c9-9b79-266713b705d3",
+        "timestamp" : "2026-07-13T09:23:38+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -873,7 +873,7 @@
       "title" : "CarotidEndarterectomyTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -882,8 +882,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9b06a7b1-e742-41bb-b401-c3b1dccc3900",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:087f2201-c44a-4830-a06c-c64793906b9d",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -935,7 +935,7 @@
       "title" : "CarotidStenosisLevel ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -944,8 +944,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7c7629fd-d782-4f1c-ac95-8e60fbad5aee",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:43816b1e-70c2-41b6-84ac-b68eee1e89d1",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1009,7 +1009,7 @@
       "title" : "ClinicalStatusCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1018,8 +1018,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8784cdc4-4560-42cf-a9b1-2564f994c0ec",
-        "timestamp" : "2026-07-09T09:11:47+00:00",
+        "identifier" : "urn:uuid:73ca4099-9a7b-46c7-9cb0-ed52a7e0430c",
+        "timestamp" : "2026-07-13T09:23:34+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1075,7 +1075,7 @@
       "title" : "DischargeDestination ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1084,8 +1084,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:430032b4-daf5-4650-97f5-ca0948fa6c64",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:d0234f5e-2927-4eec-ac2b-12e9434491a5",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1161,7 +1161,7 @@
       "title" : "DischargeFacilityDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1170,8 +1170,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3a87fa83-3b2b-4bef-9d45-e70b53042cb8",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:dd5c3fde-35fe-4ef3-9908-77e08e53b29f",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1227,7 +1227,7 @@
       "title" : "DischargeFacilityType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1236,8 +1236,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:38c863ed-20fd-4f6f-8f2b-6b303881d974",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:dd96127c-9456-4989-ac10-c2f52dcf339b",
+        "timestamp" : "2026-07-13T09:23:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1305,7 +1305,7 @@
       "title" : "FirstContactPlace ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1314,8 +1314,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6b57ca5e-9b06-400c-837b-0bd50117271e",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:1df7c89e-a8ea-48ea-95a0-b574909e2a87",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1375,7 +1375,7 @@
       "title" : "FunctionalScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1384,8 +1384,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ebc82055-07b8-4969-a671-5ee2f4a7323a",
-        "timestamp" : "2026-07-09T09:11:43+00:00",
+        "identifier" : "urn:uuid:645108ad-2c0e-499c-8946-fed0d8a98481",
+        "timestamp" : "2026-07-13T09:23:30+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -1481,7 +1481,7 @@
       "title" : "GCSScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1490,8 +1490,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee500830-906b-4803-98d2-33a57ca8c317",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:e025d098-d820-43c1-9e3f-0e1a9501d85d",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1551,7 +1551,7 @@
       "title" : "GlasgowComaScale ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1560,8 +1560,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:029b4d58-9040-459b-b3e3-a48cb7450983",
-        "timestamp" : "2026-07-09T09:11:57+00:00",
+        "identifier" : "urn:uuid:3c93a963-7a9a-428a-9494-479e4f158e7d",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -1669,7 +1669,7 @@
       "title" : "HemorrhagicTransformationType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1678,8 +1678,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d870a6a6-27de-4911-9d37-6e8a593e6c38",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:c2536e06-c359-4ba3-ba07-00988399e419",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1735,7 +1735,7 @@
       "title" : "HospitalizedIn ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1744,8 +1744,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9a386c9a-89ce-4958-bbbb-215df382f415",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:5dccde33-85e6-47cb-8844-f051c303cb91",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1801,7 +1801,7 @@
       "title" : "ImagingType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1810,8 +1810,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:37c7ad45-9afa-4bf1-abcc-7b13f1b8fcce",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:8e72c0a5-94ff-4fd5-8778-d8bf0351b16d",
+        "timestamp" : "2026-07-13T09:23:45+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -1891,7 +1891,7 @@
       "title" : "INRmode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1900,8 +1900,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:50436279-c1a1-462d-8741-c7b8fa5e7cb3",
-        "timestamp" : "2026-07-09T09:11:40+00:00",
+        "identifier" : "urn:uuid:61e03efd-896a-448b-a7e3-36edc4e4077d",
+        "timestamp" : "2026-07-13T09:23:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1961,7 +1961,7 @@
       "title" : "InsulinOnHyperglycemiaTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1970,8 +1970,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ad69052-d807-48ca-aa7f-1f055183aff3",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:fe8be71c-043e-4a66-a4e8-506c99d71d94",
+        "timestamp" : "2026-07-13T09:23:46+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2019,7 +2019,7 @@
       "title" : "IvtApplicationDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2028,8 +2028,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1c3ab452-4066-4474-90af-bb686783c123",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:dc4fddb9-15e2-44d3-af3e-cf177ed1173a",
+        "timestamp" : "2026-07-13T09:23:46+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2089,7 +2089,7 @@
       "title" : "IvtDrug ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2098,8 +2098,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:75ab6d2a-db7f-4974-92d2-d11b27d19fe4",
-        "timestamp" : "2026-07-09T09:11:58+00:00",
+        "identifier" : "urn:uuid:c6b76069-55d6-4f5f-a988-48b45dbf733a",
+        "timestamp" : "2026-07-13T09:23:46+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2167,7 +2167,7 @@
       "title" : "Laterality ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2176,8 +2176,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:13e52c8a-d61c-4f79-b65b-f427db4c2f5e",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:6520560f-08f6-4acc-8924-fdbfa298625f",
+        "timestamp" : "2026-07-13T09:23:46+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -2294,7 +2294,7 @@
       "title" : "Locations ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2303,8 +2303,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f4defa34-5fa2-45f7-bf24-f8162f1d2e47",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:7654979f-718d-41de-b91e-13bb56d5ffb3",
+        "timestamp" : "2026-07-13T09:23:46+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -2380,7 +2380,7 @@
       "title" : "ManagementAppointment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2389,8 +2389,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d181b41c-9e4f-4b06-829d-01e389717f9b",
-        "timestamp" : "2026-07-09T09:11:41+00:00",
+        "identifier" : "urn:uuid:e89af9b0-035a-4693-86f7-f4da3f371b71",
+        "timestamp" : "2026-07-13T09:23:29+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2446,7 +2446,7 @@
       "title" : "Medications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2455,8 +2455,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:913c2a9b-4491-4a74-869d-a889db695d10",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:c53f94d2-818d-4846-90a5-8e3f9e7b69a9",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -2632,7 +2632,7 @@
       "title" : "MimicsDiagnosis ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2641,8 +2641,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:52f2e1a4-3f5d-47db-9d39-37a9fc3afd0a",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:1df010ca-9ac5-43bc-937c-5eea791a6030",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2718,7 +2718,7 @@
       "title" : "MRsScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2727,8 +2727,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d41d4c59-1f8e-46af-8c8e-976a4baac895",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:536fc5c9-5afb-41d1-b4af-a1878b351b47",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2796,7 +2796,7 @@
       "title" : "MTiciScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2805,8 +2805,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7911e627-53ff-4db2-b130-ec155d92090a",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:d643bd24-ea97-4763-9b58-64487863fc25",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2874,7 +2874,7 @@
       "title" : "Nimodipinetiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2883,8 +2883,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:627301bd-b216-490b-9883-a461c083f3ef",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:bdf32ab0-178f-41f5-b3b8-4a56a8b6576b",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2948,7 +2948,7 @@
       "title" : "NotMedicationReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2957,8 +2957,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:af179ec6-e0b1-4877-b2a3-6a88487f09cf",
-        "timestamp" : "2026-07-09T09:11:46+00:00",
+        "identifier" : "urn:uuid:5ac1403a-9e16-41a3-bd2c-ae1558f17562",
+        "timestamp" : "2026-07-13T09:23:33+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -3070,7 +3070,7 @@
       "title" : "OccupationalTherapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3079,8 +3079,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4e9c2f81-7667-48ba-bad0-db9b80a08cfa",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:d36e11f1-dfae-4eac-919c-40ea5ed627f9",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3140,7 +3140,7 @@
       "title" : "ParacetamolOnFeverTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3149,8 +3149,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:05f25f78-cf85-4495-b7ac-424a781f89cf",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:61806fd4-7071-4049-b301-78132f89349f",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3198,7 +3198,7 @@
       "title" : "ParacetamolOnFever ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3207,8 +3207,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8b2dbf49-f4b0-462e-85de-5d74f4abaadd",
-        "timestamp" : "2026-07-09T09:11:59+00:00",
+        "identifier" : "urn:uuid:84be1f9f-6c69-4df0-8048-331838d524ee",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3272,7 +3272,7 @@
       "title" : "PerforationProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3281,8 +3281,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b829633c-54c3-4ea0-9016-39855ac1dee4",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:e5057c8a-dac3-4349-b658-2703ecaed220",
+        "timestamp" : "2026-07-13T09:23:47+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3346,7 +3346,7 @@
       "title" : "PostAcuteCare ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3355,8 +3355,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9e9a22bf-18b2-4666-9bb3-535088724db8",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:23faedf2-4fa4-42a8-8836-f273b90740a0",
+        "timestamp" : "2026-07-13T09:23:48+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3424,7 +3424,7 @@
       "title" : "PostNeurosurgeryImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3433,8 +3433,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6a370551-3bbc-4af1-b5c7-ca548328da39",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:054c9933-d5e1-4f0d-a391-2677ecc99487",
+        "timestamp" : "2026-07-13T09:23:48+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3498,7 +3498,7 @@
       "title" : "PostRecanalizationImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3507,8 +3507,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee40ec5c-48f1-486e-bbb0-e297fbc77967",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:7280f6f9-c64f-4fd4-af9a-858d53e41f0f",
+        "timestamp" : "2026-07-13T09:23:48+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3572,7 +3572,7 @@
       "title" : "PostStrokeComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3581,8 +3581,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:396df7fd-1cc8-4ad6-82c9-3819de7a22f2",
-        "timestamp" : "2026-07-09T09:11:47+00:00",
+        "identifier" : "urn:uuid:016390ee-c872-4f74-9a76-210016d7f081",
+        "timestamp" : "2026-07-13T09:23:34+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -3670,7 +3670,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3679,8 +3679,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc6027b4-68df-4a4d-8b2b-b3d5cc6e4e3c",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:1ac69196-7b6b-4b98-8a2c-f918d068884f",
+        "timestamp" : "2026-07-13T09:23:48+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3748,7 +3748,7 @@
       "title" : "ProcedureNotDoneReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3757,8 +3757,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0b8e9c82-7b37-4ff1-937b-66c7554d21b3",
-        "timestamp" : "2026-07-09T09:12:00+00:00",
+        "identifier" : "urn:uuid:f36d21f6-66f7-4c6e-bf96-31779f089f4c",
+        "timestamp" : "2026-07-13T09:23:48+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -3934,7 +3934,7 @@
       "title" : "Procedure Timing Context ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3943,8 +3943,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d49ce108-b062-4b61-9481-1de22d867297",
-        "timestamp" : "2026-07-09T09:12:01+00:00",
+        "identifier" : "urn:uuid:6eb5e4fb-57f8-4f62-8f9b-7e4a970523a4",
+        "timestamp" : "2026-07-13T09:23:49+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3984,7 +3984,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-34105-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/34105-7/\">34105-7</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;34105-7&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;2.82&quot;&gt;&lt;code value=&quot;34105-7&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-18842-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/18842-5/\">18842-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;18842-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;&gt;&lt;version value=&quot;2.82&quot;&gt;&lt;code value=&quot;18842-5&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs",
       "version" : "1.0.0",
@@ -3992,7 +3992,7 @@
       "title" : "RESQ Stroke Discharge Document Type ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4001,8 +4001,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:64e6dc22-e78a-4101-b49c-668c08e8beab",
-        "timestamp" : "2026-07-09T09:12:01+00:00",
+        "identifier" : "urn:uuid:a1c2f86b-2b8a-4813-b280-8cd86fc29eb2",
+        "timestamp" : "2026-07-13T09:23:49+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -4035,7 +4035,7 @@
         }],
         "contains" : [{
           "system" : "http://loinc.org",
-          "code" : "34105-7"
+          "code" : "18842-5"
         }]
       }
     }
@@ -4054,7 +4054,7 @@
       "title" : "RESQ Stroke Discharge Section Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4063,8 +4063,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:549430ae-64b4-4aaf-99f0-d3ae82494c5a",
-        "timestamp" : "2026-07-09T09:12:01+00:00",
+        "identifier" : "urn:uuid:84a4080c-fb05-46ea-8665-3424154789a6",
+        "timestamp" : "2026-07-13T09:23:49+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -4164,7 +4164,7 @@
       "title" : "RiskFactor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4173,8 +4173,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:79f2829f-53c3-489c-b8b8-3b0778cc6418",
-        "timestamp" : "2026-07-09T09:11:53+00:00",
+        "identifier" : "urn:uuid:13ba10a0-8823-4665-8c6b-de1116158910",
+        "timestamp" : "2026-07-13T09:23:40+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -4298,7 +4298,7 @@
       "title" : "ScreeningPerformer ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4307,8 +4307,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:02fa0b54-e67a-42a6-936b-1600199cd9c6",
-        "timestamp" : "2026-07-09T09:12:01+00:00",
+        "identifier" : "urn:uuid:4cc25387-51c8-4402-908b-d5682614740b",
+        "timestamp" : "2026-07-13T09:23:49+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -4372,7 +4372,7 @@
       "title" : "Sex ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4381,8 +4381,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bd633df3-5896-4f33-bd81-81f4bfa7e2b6",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:1827d359-966a-40f1-bdb8-50492c938a0d",
+        "timestamp" : "2026-07-13T09:23:49+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4442,7 +4442,7 @@
       "title" : "Specific Finding Value ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4451,8 +4451,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c5eacf74-f62b-469a-98b8-11032d7f4c84",
-        "timestamp" : "2026-07-09T09:11:49+00:00",
+        "identifier" : "urn:uuid:5b599541-55b4-4fb2-befa-e1fdfbcc4e0d",
+        "timestamp" : "2026-07-13T09:23:36+00:00",
         "total" : 19,
         "offset" : 0,
         "parameter" : [{
@@ -4600,7 +4600,7 @@
       "title" : "SpecificFinding ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4609,8 +4609,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1c2ba81-bffd-4c97-9edd-859bd4fcf820",
-        "timestamp" : "2026-07-09T09:11:49+00:00",
+        "identifier" : "urn:uuid:614c7bec-1886-4bc8-985d-ff4ab7094bff",
+        "timestamp" : "2026-07-13T09:23:36+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -4738,7 +4738,7 @@
       "title" : "StrokeCircumstance ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4747,8 +4747,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f0c40cec-6ee6-4d6d-8df5-69ee3cd899e4",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:d805e670-ce12-44af-b523-51b1e93487f2",
+        "timestamp" : "2026-07-13T09:23:50+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4796,7 +4796,7 @@
       "title" : "Stroke Diagnosis Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4805,8 +4805,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:513befb3-b3da-4703-9cd9-81a6bbaa563a",
-        "timestamp" : "2026-07-09T09:11:51+00:00",
+        "identifier" : "urn:uuid:05e8fd4c-a28a-4b1e-8eb9-ab4b4cbb71db",
+        "timestamp" : "2026-07-13T09:23:38+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -4918,7 +4918,7 @@
       "title" : "StrokeEtiologyOther ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4927,8 +4927,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1d8ca5c9-d32c-48ab-85d8-e6645e33b37b",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:e99d2d77-9aaa-401e-adf5-119ff7958095",
+        "timestamp" : "2026-07-13T09:23:50+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -5040,7 +5040,7 @@
       "title" : "StrokeEtiology ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5049,8 +5049,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:94fe7b83-1511-40ce-95b0-3633e06503e6",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:8ccb270c-40ad-42da-b26b-59fd34206910",
+        "timestamp" : "2026-07-13T09:23:50+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -5142,7 +5142,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5151,8 +5151,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:85d24c54-123e-4942-bac8-db50d38cd0d5",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:e1e5061f-ddc3-45b6-b3fa-42abe5b7b14f",
+        "timestamp" : "2026-07-13T09:23:50+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -5276,7 +5276,7 @@
       "title" : "StrokeTreatment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5285,8 +5285,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f5ebe7d6-47ce-495c-af8d-665a21308478",
-        "timestamp" : "2026-07-09T09:12:02+00:00",
+        "identifier" : "urn:uuid:5e5d2367-2e41-47c4-806f-c8e57484fa89",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -5382,7 +5382,7 @@
       "title" : "StrokeType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5391,8 +5391,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2b83ffb0-26d6-4dcb-a891-f089c7c41925",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:f6c624c8-f4df-4675-be3f-65c21d0bdeb0",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -5468,7 +5468,7 @@
       "title" : "SwallowingScreeningDone ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5477,8 +5477,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3cd366b9-4d33-4433-916d-9935c531b910",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:fdb7f224-1db3-4216-88b3-d6ad8a3d6d18",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5538,7 +5538,7 @@
       "title" : "SwallowingScreeningTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5547,8 +5547,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:144077e6-ea6b-4be1-b035-23f10d5eaeba",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:b4054938-dd4f-484e-9a60-1e04fe433b3d",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5620,7 +5620,7 @@
       "title" : "SwallowingScreeningType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5629,8 +5629,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5e1fb8ec-1e35-4f29-bf04-7940477ff2a5",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:54b4b3a2-51f0-4c46-b225-44b0514c989a",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5702,7 +5702,7 @@
       "title" : "TenecteplaseBrand ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5711,8 +5711,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7abe6f0b-2389-4cf3-a66e-f1a72485732b",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:66a3bea8-8d61-4862-8141-e47efbc27b8f",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -5788,7 +5788,7 @@
       "title" : "ThreeMonthContactMode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5797,8 +5797,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:566e13a8-9994-4b55-8b4a-d1bc2037461c",
-        "timestamp" : "2026-07-09T09:11:54+00:00",
+        "identifier" : "urn:uuid:10fcd2c3-457c-49b7-bd8a-4fc0ec9e31fc",
+        "timestamp" : "2026-07-13T09:23:41+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -5874,7 +5874,7 @@
       "title" : "ThrombectomyComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5883,8 +5883,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8d573502-c135-4f8d-8147-6fc6ef7c7b98",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:26c82010-96c8-473d-8530-5a218c1b6b3c",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5956,7 +5956,7 @@
       "title" : "TiaClinicalSymptoms ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5965,8 +5965,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c65cf11f-709e-469d-9fb7-26f4bf7af13c",
-        "timestamp" : "2026-07-09T09:11:54+00:00",
+        "identifier" : "urn:uuid:ff0a6577-2e78-489d-9ce0-70f5b3f3f2d6",
+        "timestamp" : "2026-07-13T09:23:42+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6030,7 +6030,7 @@
       "title" : "TiaSymptomDuration ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6039,8 +6039,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1c7a5601-3876-4ccc-8070-d101229089f8",
-        "timestamp" : "2026-07-09T09:12:03+00:00",
+        "identifier" : "urn:uuid:c706b475-2779-4bde-bc5d-6b8385c22251",
+        "timestamp" : "2026-07-13T09:23:51+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6092,7 +6092,7 @@
       "title" : "TimingMetricCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6101,8 +6101,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ddf88eb8-b0aa-4737-9b69-a82901288ac4",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:3933afd9-3a7f-41b3-8fbc-f5649263f378",
+        "timestamp" : "2026-07-13T09:23:42+00:00",
         "total" : 26,
         "offset" : 0,
         "parameter" : [{
@@ -6246,7 +6246,7 @@
       "title" : "VitalSigns ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6255,8 +6255,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1f53219e-7cbc-4706-b047-f63f6a8ec0b0",
-        "timestamp" : "2026-07-09T09:11:55+00:00",
+        "identifier" : "urn:uuid:57868877-2d62-492d-839c-412455f201f7",
+        "timestamp" : "2026-07-13T09:23:42+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -6324,7 +6324,7 @@
       "title" : "VteProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-09T09:09:43+00:00",
+      "date" : "2026-07-13T09:21:26+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6333,8 +6333,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0e899e6d-1aa8-4fc4-a095-fc2a635ee148",
-        "timestamp" : "2026-07-09T09:12:04+00:00",
+        "identifier" : "urn:uuid:32e233a7-8dfe-4b1b-82a3-cd7dbecee4d3",
+        "timestamp" : "2026-07-13T09:23:52+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{

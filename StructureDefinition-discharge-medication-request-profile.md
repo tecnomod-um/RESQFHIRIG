@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:DischargeMedicationRequestProfile |
+| Active as of 2026-07-13 | *Computable Name*:DischargeMedicationRequestProfile |
 
  
 MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
   "title" : "Discharge MedicationRequest Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

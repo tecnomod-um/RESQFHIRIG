@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:RESQStrokeDischargeComposition |
+| Active as of 2026-07-13 | *Computable Name*:RESQStrokeDischargeComposition |
 
  
 FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
   "title" : "RESQ Stroke Hospital Discharge Composition",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -98,6 +98,26 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
     {
       "id" : "Composition.text",
       "path" : "Composition.text",
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Composition.identifier",
+      "path" : "Composition.identifier",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Composition.identifier.system",
+      "path" : "Composition.identifier.system",
+      "min" : 1,
+      "patternUri" : "https://stroke.qualityregistry.org/",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Composition.identifier.value",
+      "path" : "Composition.identifier.value",
       "min" : 1,
       "mustSupport" : true
     },

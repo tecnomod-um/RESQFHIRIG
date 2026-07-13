@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
+| Active as of 2026-07-13 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
 
  
 Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition. 
@@ -51,7 +51,7 @@ Allowed document type code for the RESQ Stroke Hospital Discharge Summary Compos
   "title" : "RESQ Stroke Discharge Document Type ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -72,8 +72,8 @@ Allowed document type code for the RESQ Stroke Hospital Discharge Summary Compos
     "include" : [{
       "system" : "http://loinc.org",
       "concept" : [{
-        "code" : "34105-7",
-        "display" : "Hospital Discharge summary"
+        "code" : "18842-5",
+        "display" : "Discharge summary"
       }]
     }]
   }

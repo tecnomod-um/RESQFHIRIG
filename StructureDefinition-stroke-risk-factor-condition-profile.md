@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:StrokeRiskFactorConditionProfile |
+| Active as of 2026-07-13 | *Computable Name*:StrokeRiskFactorConditionProfile |
 
  
 Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
   "title" : "Stroke Risk Factor Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

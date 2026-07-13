@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/assessment-timing-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-09 | *Computable Name*:AssessmentTimingExt |
+| Draft as of 2026-07-13 | *Computable Name*:AssessmentTimingExt |
 
 Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.
 
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

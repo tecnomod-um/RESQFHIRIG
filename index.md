@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-07-09 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-07-13 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

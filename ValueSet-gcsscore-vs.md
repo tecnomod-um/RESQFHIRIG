@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/gcsscore-vs | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:GCSScoreVS |
+| Active as of 2026-07-13 | *Computable Name*:GCSScoreVS |
 
  
 Allowed coded values for GCSScore 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "GCSScore ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

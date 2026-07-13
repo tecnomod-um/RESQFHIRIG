@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-09 | *Computable Name*:ObservationTimingContextExt |
+| Draft as of 2026-07-13 | *Computable Name*:ObservationTimingContextExt |
 
 Temporal/clinical context of an observation, such as admission, discharge, prestroke or three-month follow-up. Also supports boolean usage because build_observation_blood_volume currently writes a boolean post_acute_care value to this URL.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
   "name" : "ObservationTimingContextExt",
   "title" : "Observation timing context",
   "status" : "draft",
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

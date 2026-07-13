@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-09 | *Computable Name*:TimingMetricObservationProfile |
+| Active as of 2026-07-13 | *Computable Name*:TimingMetricObservationProfile |
 
  
 Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-timing-metric-observ
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-09T09:09:43+00:00",
+  "date" : "2026-07-13T09:21:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
