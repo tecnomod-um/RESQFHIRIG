@@ -77,8 +77,8 @@ Some reporting work flows require that the original narrative of a final documen
 ","Kind of composition (LOINC if possible)","Specifies the particular kind of composition (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the composition.","For Composition type, LOINC is ubiquitous and strongly endorsed by HL7. Most implementation guides will require a specific LOINC code, or use LOINC as an extensible binding.","Key metadata element describing the composition, used in searching/filtering.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
     <system value=""http://loinc.org""/>
-    <code value=""34105-7""/>
-    <display value=""Hospital Discharge summary""/>
+    <code value=""18842-5""/>
+    <display value=""Discharge summary""/>
   </coding>
 </valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs","",,,,"Composition.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.class","./code",".code","DocumentReference.type"

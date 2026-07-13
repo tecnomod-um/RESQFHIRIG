@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-facility-t
   "name" : "DischargeFacilityTypeExt",
   "title" : "Discharge facility type",
   "status" : "draft",
-  "date" : "2026-07-13T09:21:26+00:00",
+  "date" : "2026-07-13T09:30:27+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
   "title" : "RESQ Stroke Hospital Discharge Composition",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:21:26+00:00",
+  "date" : "2026-07-13T09:30:27+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -133,8 +133,8 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
-          "code" : "34105-7",
-          "display" : "Hospital Discharge summary"
+          "code" : "18842-5",
+          "display" : "Discharge summary"
         }]
       },
       "mustSupport" : true,
