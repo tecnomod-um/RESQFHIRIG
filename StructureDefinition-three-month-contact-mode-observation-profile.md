@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:ThreeMonthContactModeObservationProfile |
+| Active as of 2026-07-14 | *Computable Name*:ThreeMonthContactModeObservationProfile |
 
  
 Observation profile for the modality used to obtain three-month follow-up information. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-three-month-contact-
   "title" : "Three-Month Contact Mode Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

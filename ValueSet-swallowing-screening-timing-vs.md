@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:SwallowingScreeningTimingVS |
+| Active as of 2026-07-14 | *Computable Name*:SwallowingScreeningTimingVS |
 
  
 Allowed coded values for SwallowingScreeningTiming 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "SwallowingScreeningTiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

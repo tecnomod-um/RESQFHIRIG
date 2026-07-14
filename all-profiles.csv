@@ -7562,11 +7562,12 @@ This element is labeled as a modifier because the status contains codes that mar
 Cancelled Reason","",0,1,"Y","","Y","CodeableConcept {[]} {[]}
 ","Reason for current status","Captures the reason for the current state of the procedure.","This is generally only used for ""exception"" statuses such as ""not-done"", ""suspended"" or ""aborted"". The reason for performing the event at all is captured in reasonCode, not here.","","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs","",,,,"Procedure.statusReason",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"stroke-imaging-procedure-profile","Procedure.category","Procedure.category","","","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
+"stroke-imaging-procedure-profile","Procedure.category","Procedure.category","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","Classification of the procedure","A code that classifies the procedure for searching, sorting and display purposes (e.g. ""Surgical Procedure"").","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://terminology.hl7.org/CodeSystem/observation-category""/>
-    <code value=""imaging""/>
+    <system value=""http://snomed.info/sct""/>
+    <code value=""103693007""/>
+    <display value=""Diagnostic procedure""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","A code that classifies a procedure for searching, sorting and display purposes.","http://hl7.org/fhir/ValueSet/procedure-category|5.0.0","",,,,"Procedure.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

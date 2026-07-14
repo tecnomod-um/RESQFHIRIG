@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/medication-cs | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:MedicationCS |
+| Active as of 2026-07-14 | *Computable Name*:MedicationCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs. 
@@ -34,7 +34,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "MedicationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

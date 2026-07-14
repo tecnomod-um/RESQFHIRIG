@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:StrokeMedicationAdministrationProfile |
+| Active as of 2026-07-14 | *Computable Name*:StrokeMedicationAdministrationProfile |
 
  
 Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

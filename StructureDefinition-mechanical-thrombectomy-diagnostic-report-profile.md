@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
+| Active as of 2026-07-14 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
 
  
 DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
   "title" : "Mechanical Thrombectomy DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

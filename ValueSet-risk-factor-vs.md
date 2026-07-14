@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/risk-factor-vs | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:RiskFactorVS |
+| Active as of 2026-07-14 | *Computable Name*:RiskFactorVS |
 
  
 Allowed coded values for RiskFactor 
@@ -51,7 +51,7 @@ Allowed coded values for RiskFactor
   "title" : "RiskFactor ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

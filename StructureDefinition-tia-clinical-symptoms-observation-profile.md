@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/tia-clinical-symptoms-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
+| Active as of 2026-07-14 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
 
  
 Observation profile for TIA clinical symptoms and their recorded values. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-tia-clinical-symptom
   "title" : "TIA Clinical Symptoms Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

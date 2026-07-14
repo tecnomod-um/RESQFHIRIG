@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/patient-ventilated-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:PatientVentilatedObservationProfile |
+| Active as of 2026-07-14 | *Computable Name*:PatientVentilatedObservationProfile |
 
  
 Observation profile for recording whether the patient was ventilated in acute or post-acute care. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-ventilated-o
   "title" : "Patient Ventilated Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

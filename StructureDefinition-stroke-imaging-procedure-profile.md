@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-imaging-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-13 | *Computable Name*:StrokeImagingProcedureProfile |
+| Active as of 2026-07-14 | *Computable Name*:StrokeImagingProcedureProfile |
 
  
 Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
   "title" : "Stroke Imaging Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-13T09:30:27+00:00",
+  "date" : "2026-07-14T07:23:58+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -138,11 +138,11 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "path" : "Procedure.category",
       "patternCodeableConcept" : {
         "coding" : [{
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "imaging"
+          "system" : "http://snomed.info/sct",
+          "code" : "103693007",
+          "display" : "Diagnostic procedure"
         }]
-      },
-      "mustSupport" : true
+      }
     },
     {
       "id" : "Procedure.code",
