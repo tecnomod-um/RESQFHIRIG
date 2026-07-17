@@ -3,7 +3,7 @@
   "id" : "resq-stroke-discharge-section-code-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet resq-stroke-discharge-section-code-vs</b></p><a name=\"resq-stroke-discharge-section-code-vs\"> </a><a name=\"hcresq-stroke-discharge-section-code-vs\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td>Admission evaluation note</td></tr><tr><td><a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td>History of general health Narrative</td></tr><tr><td><a href=\"https://loinc.org/11450-4/\">11450-4</a></td><td>Problem list - Reported</td></tr><tr><td><a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td>Hospital course note</td></tr><tr><td><a href=\"https://loinc.org/11535-2/\">11535-2</a></td><td>Hospital discharge diagnosis Narrative</td></tr><tr><td><a href=\"https://loinc.org/10185-7/\">10185-7</a></td><td>Hospital discharge procedures</td></tr><tr><td><a href=\"https://loinc.org/87232-5/\">87232-5</a></td><td>Medication administration brief</td></tr><tr><td><a href=\"https://loinc.org/30954-2/\">30954-2</a></td><td>Relevant diagnostic tests/laboratory data Narrative</td></tr><tr><td><a href=\"https://loinc.org/8716-3/\">8716-3</a></td><td>Vital signs note</td></tr><tr><td><a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td>Functional status assessment note</td></tr><tr><td><a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td>Hospital discharge disposition note</td></tr><tr><td><a href=\"https://loinc.org/75311-1/\">75311-1</a></td><td>Discharge medications Narrative</td></tr><tr><td><a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td>Plan of care note</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet resq-stroke-discharge-section-code-vs</b></p><a name=\"resq-stroke-discharge-section-code-vs\"> </a><a name=\"hcresq-stroke-discharge-section-code-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td>Admission evaluation note</td></tr><tr><td><a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td>History of general health Narrative</td></tr><tr><td><a href=\"https://loinc.org/11450-4/\">11450-4</a></td><td>Problem list - Reported</td></tr><tr><td><a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td>Hospital course note</td></tr><tr><td><a href=\"https://loinc.org/11535-2/\">11535-2</a></td><td>Hospital discharge diagnosis Narrative</td></tr><tr><td><a href=\"https://loinc.org/10185-7/\">10185-7</a></td><td>Hospital discharge procedures</td></tr><tr><td><a href=\"https://loinc.org/87232-5/\">87232-5</a></td><td>Medication administration brief</td></tr><tr><td><a href=\"https://loinc.org/30954-2/\">30954-2</a></td><td>Relevant diagnostic tests/laboratory data Narrative</td></tr><tr><td><a href=\"https://loinc.org/8716-3/\">8716-3</a></td><td>Vital signs note</td></tr><tr><td><a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td>Functional status assessment note</td></tr><tr><td><a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td>Hospital discharge disposition note</td></tr><tr><td><a href=\"https://loinc.org/75311-1/\">75311-1</a></td><td>Discharge medications Narrative</td></tr><tr><td><a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td>Plan of care note</td></tr><tr><td><a href=\"https://loinc.org/75310-3/\">75310-3</a></td><td>Health concerns Document</td></tr><tr><td><a href=\"https://loinc.org/48765-2/\">48765-2</a></td><td>Allergies and adverse reactions Document</td></tr><tr><td><a href=\"https://loinc.org/46240-8/\">46240-8</a></td><td>History of Hospitalizations+Outpatient visits Narrative</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/866144008\">866144008</a></td><td>Encounter note (record artifact)</td></tr></table></li></ul></div>"
   },
   "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs",
   "version" : "1.0.0",
@@ -11,7 +11,7 @@
   "title" : "RESQ Stroke Discharge Section Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -82,6 +82,25 @@
       {
         "code" : "18776-5",
         "display" : "Plan of care note"
+      },
+      {
+        "code" : "75310-3",
+        "display" : "Health concerns Document"
+      },
+      {
+        "code" : "48765-2",
+        "display" : "Allergies and adverse reactions Document"
+      },
+      {
+        "code" : "46240-8",
+        "display" : "History of Hospitalizations+Outpatient visits Narrative"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "866144008",
+        "display" : "Encounter note (record artifact)"
       }]
     }]
   }

@@ -1,10 +1,10 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 46, warn = 253, info = 491
+err = 46, warn = 254, info = 493
 $--
 Generated $--. FHIR version $-- for RESQFHIRIG#$-- (canonical = http://tecnomod-um.org)
- Build Errors : 1284 / 1296 / 0
+ Build Errors : 1290 / 1302 / 0
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 1 / 3
@@ -32,6 +32,7 @@ Generated $--. FHIR version $-- for RESQFHIRIG#$-- (canonical = http://tecnomod-
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-arrival-mode-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-circumstance-codes-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-discharge-destination-cs : 0 / 1 / 3
+ /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-discharge-summary-section-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-etiology-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-etiology-other-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-stroke-mimics-diagnosis-cs : 0 / 1 / 3
@@ -522,6 +523,18 @@ ERROR: CodeSystem-stroke-discharge-destination-cs.ttl.html#/html/body/div/div/na
 WARNING: CodeSystem-stroke-discharge-destination-cs.ttl.html#/html/body/div/div/div/p/a at Line 472, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-stroke-discharge-destination-cs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: CodeSystem-stroke-discharge-destination-cs.xml.html#/html/body/div/div/div/p/a at Line 464, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs.html#/html/body/div/div/div/p/a at Line 456, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs.json.html#/html/body/div/div/div/p/a at Line 468, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs.ttl.html#/html/body/div/div/div/p/a at Line 469, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+ERROR: CodeSystem-stroke-discharge-summary-section-cs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: CodeSystem-stroke-discharge-summary-section-cs.xml.html#/html/body/div/div/div/p/a at Line 460, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-stroke-etiology-cs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: CodeSystem-stroke-etiology-cs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-stroke-etiology-cs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -695,13 +708,13 @@ WARNING: CodeSystem-timing-metric-codes-cs-testing.html#/html/body/div/div/div/p
 ERROR: CodeSystem-timing-metric-codes-cs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: CodeSystem-timing-metric-codes-cs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-timing-metric-codes-cs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: CodeSystem-timing-metric-codes-cs.html#/html/body/div/div/div/p/a at Line 509, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-timing-metric-codes-cs.html#/html/body/div/div/div/p/a at Line 511, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-timing-metric-codes-cs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: CodeSystem-timing-metric-codes-cs.json.html#/html/body/div/div/div/p/a at Line 568, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-timing-metric-codes-cs.json.html#/html/body/div/div/div/p/a at Line 572, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-timing-metric-codes-cs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: CodeSystem-timing-metric-codes-cs.ttl.html#/html/body/div/div/div/p/a at Line 544, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-timing-metric-codes-cs.ttl.html#/html/body/div/div/div/p/a at Line 547, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-timing-metric-codes-cs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: CodeSystem-timing-metric-codes-cs.xml.html#/html/body/div/div/div/p/a at Line 560, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-timing-metric-codes-cs.xml.html#/html/body/div/div/div/p/a at Line 564, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-vital-signs-cs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: CodeSystem-vital-signs-cs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: CodeSystem-vital-signs-cs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2448,13 +2461,13 @@ WARNING: ValueSet-resq-stroke-discharge-section-code-vs-testing.html#/html/body/
 ERROR: ValueSet-resq-stroke-discharge-section-code-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-resq-stroke-discharge-section-code-vs.change.history.html#/html/body/div/div/div/p/a at Line 397, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-resq-stroke-discharge-section-code-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-resq-stroke-discharge-section-code-vs.html#/html/body/div/div/div/p/a at Line 497, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-resq-stroke-discharge-section-code-vs.html#/html/body/div/div/div/p/a at Line 501, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-resq-stroke-discharge-section-code-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-resq-stroke-discharge-section-code-vs.json.html#/html/body/div/div/div/p/a at Line 520, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-resq-stroke-discharge-section-code-vs.json.html#/html/body/div/div/div/p/a at Line 541, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-resq-stroke-discharge-section-code-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-resq-stroke-discharge-section-code-vs.ttl.html#/html/body/div/div/div/p/a at Line 507, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-resq-stroke-discharge-section-code-vs.ttl.html#/html/body/div/div/div/p/a at Line 522, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-resq-stroke-discharge-section-code-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-resq-stroke-discharge-section-code-vs.xml.html#/html/body/div/div/div/p/a at Line 510, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-resq-stroke-discharge-section-code-vs.xml.html#/html/body/div/div/div/p/a at Line 530, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-risk-factor-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-risk-factor-vs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-risk-factor-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2702,11 +2715,11 @@ WARNING: ValueSet-timing-metric-codes-vs.change.history.html#/html/body/div/div/
 ERROR: ValueSet-timing-metric-codes-vs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-timing-metric-codes-vs.html#/html/body/div/div/div/p/a at Line 497, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-timing-metric-codes-vs.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-timing-metric-codes-vs.json.html#/html/body/div/div/div/p/a at Line 572, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-timing-metric-codes-vs.json.html#/html/body/div/div/div/p/a at Line 576, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-timing-metric-codes-vs.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-timing-metric-codes-vs.ttl.html#/html/body/div/div/div/p/a at Line 546, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-timing-metric-codes-vs.ttl.html#/html/body/div/div/div/p/a at Line 549, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-timing-metric-codes-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: ValueSet-timing-metric-codes-vs.xml.html#/html/body/div/div/div/p/a at Line 562, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-timing-metric-codes-vs.xml.html#/html/body/div/div/div/p/a at Line 566, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-unitof-measurement-vs-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-unitof-measurement-vs-testing.html#/html/body/div/div/div/p/a at Line 428, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: ValueSet-unitof-measurement-vs.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 301, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -2744,7 +2757,7 @@ WARNING: ValueSet-vte-procedures-vs.ttl.html#/html/body/div/div/div/p/a at Line 
 ERROR: ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 299, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/div/p/a at Line 500, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
-WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 2036, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 2045, column 27: The link 'http://tecnomod-um.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: extensions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 297, column 6: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: extensions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 419, column 12: The link 'StructureDefinition-ischemic-stroke-etiology-known-ext.html' for "Ischemic stroke etiology known/unknown coded state" cannot be resolved
 ERROR: extensions.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 429, column 12: The link 'StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html' for "Hemorrhagic stroke bleeding reason found coded state" cannot be resolved
@@ -2880,6 +2893,10 @@ WARNING: Resource: The resource CodeSystem/stroke-circumstance-codes-cs should h
 INFORMATION: CodeSystem/stroke-discharge-destination-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
 INFORMATION: CodeSystem/stroke-discharge-destination-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 WARNING: Resource: The resource CodeSystem/stroke-discharge-destination-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-stroke-discharge-summary-section-cs.json ==
+INFORMATION: CodeSystem/stroke-discharge-summary-section-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
+INFORMATION: CodeSystem/stroke-discharge-summary-section-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: Resource: The resource CodeSystem/stroke-discharge-summary-section-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-stroke-etiology-cs.json ==
 INFORMATION: CodeSystem/stroke-etiology-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
 INFORMATION: CodeSystem/stroke-etiology-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

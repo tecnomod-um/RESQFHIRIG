@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:TimingMetricCodesCS |
+| Active as of 2026-07-17 | *Computable Name*:TimingMetricCodesCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs. 
@@ -33,7 +33,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "TimingMetricCodesCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -52,7 +52,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 26,
+  "count" : 27,
   "concept" : [{
     "code" : "sys-bp-lt-140",
     "display" : "Systolic Blood Pressure < 140 mmHg"
@@ -70,8 +70,12 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
     "display" : "Door to Groin <= 120 Minutes"
   },
   {
-    "code" : "D2D",
+    "code" : "Door2Door",
     "display" : "Door to Door"
+  },
+  {
+    "code" : "Door2Discharge",
+    "display" : "Door to Discharge"
   },
   {
     "code" : "D2N",

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-07-14 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-07-17 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -80,7 +80,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -124,6 +124,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-adherence-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/adherence-codes-vs"
@@ -136,6 +140,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-admission-department-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/admission-department-vs"
@@ -148,6 +156,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-admission-pathway-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/admission-pathway-vs"
@@ -160,6 +172,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-analitics-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/analitics-codes-vs"
@@ -172,6 +188,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-analitics-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/analitics-observation-profile"
@@ -184,6 +204,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-analytics-codes-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/analytics-codes-cs"
@@ -196,6 +220,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-anticoagulant-reversal-medication-administration-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/anticoagulant-reversal-medication-administration-profile"
@@ -208,6 +236,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-anticoagulant-reversal-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/anticoagulant-reversal-vs"
@@ -220,6 +252,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-appointment-management-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/appointment-management-observation-profile"
@@ -232,6 +268,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-assessment-timing-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/assessment-timing-ext"
@@ -244,6 +284,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-assessment-context-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/assessment-context-vs"
@@ -256,6 +300,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-assessment-context-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/assessment-context-cs"
@@ -268,6 +316,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-atrial-fibrillation-or-flutter-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/atrial-fibrillation-or-flutter-vs"
@@ -280,6 +332,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-base-stroke-observation.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/base-stroke-observation"
@@ -292,6 +348,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-bleeding-reason-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/bleeding-reason-vs"
@@ -304,6 +364,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-body-sites-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/body-sites-vs"
@@ -316,6 +380,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-bool-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/bool-vs"
@@ -328,6 +396,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-brain-imaging-type-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/brain-imaging-type-cs"
@@ -340,6 +412,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-carotid-endarterectomy-timing-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/carotid-endarterectomy-timing-vs"
@@ -352,6 +428,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-carotid-endarterectomy-timing-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/carotid-endarterectomy-timing-cs"
@@ -364,6 +444,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-carotid-stenosis-level-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/carotid-stenosis-level-vs"
@@ -376,6 +460,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-clinical-status-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/clinical-status-codes-vs"
@@ -388,6 +476,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-discharge-department-service-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/discharge-department-service-ext"
@@ -400,6 +492,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-discharge-facility-type-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/discharge-facility-type-ext"
@@ -412,6 +508,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-discharge-medication-request-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/discharge-medication-request-profile"
@@ -424,6 +524,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-discharge-dept-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/discharge-dept-cs"
@@ -436,6 +540,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-discharge-destination-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/discharge-destination-vs"
@@ -448,6 +556,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-discharge-facility-department-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/discharge-facility-department-vs"
@@ -460,6 +572,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-discharge-facility-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/discharge-facility-type-vs"
@@ -472,6 +588,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-discharge-medication-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/discharge-medication-cs"
@@ -484,6 +604,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-ems-prenotification-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/ems-prenotification-ext"
@@ -496,6 +620,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-ExampleDoorToNeedle.html"
       }],
       "reference" : {
         "reference" : "Observation/ExampleDoorToNeedle"
@@ -508,6 +636,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-ExampleRESQPatient.html"
       }],
       "reference" : {
         "reference" : "Patient/ExampleRESQPatient"
@@ -520,6 +652,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Condition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Condition-ExampleStrokeDiagnosis.html"
       }],
       "reference" : {
         "reference" : "Condition/ExampleStrokeDiagnosis"
@@ -532,6 +668,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Encounter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Encounter-ExampleStrokeEncounter.html"
       }],
       "reference" : {
         "reference" : "Encounter/ExampleStrokeEncounter"
@@ -544,6 +684,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fever-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fever-observation-profile"
@@ -556,6 +700,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-first-hospital-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/first-hospital-ext"
@@ -568,6 +716,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-first-contact-place-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/first-contact-place-vs"
@@ -580,6 +732,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-first-contact-place-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/first-contact-place-cs"
@@ -592,6 +748,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-functional-score-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/functional-score-observation-profile"
@@ -604,6 +764,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-functional-score-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/functional-score-vs"
@@ -616,6 +780,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-functional-score-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/functional-score-cs"
@@ -628,6 +796,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-gcsscore-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/gcsscore-vs"
@@ -640,6 +812,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-gender-snomed-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/gender-snomed-ext"
@@ -652,6 +828,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-glasgow-coma-scale-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/glasgow-coma-scale-observation-profile"
@@ -664,6 +844,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-glasgow-coma-score-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/glasgow-coma-score-observation-profile"
@@ -676,6 +860,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-glasgow-coma-scale-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/glasgow-coma-scale-vs"
@@ -688,6 +876,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-glucose-ge10-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/glucose-ge10-observation-profile"
@@ -700,6 +892,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"
@@ -712,6 +908,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
@@ -724,6 +924,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-hemorrhagic-transformation-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/hemorrhagic-transformation-type-vs"
@@ -736,6 +940,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-hemorrhagic-transformation-type-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/hemorrhagic-transformation-type-cs"
@@ -748,6 +956,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-highest-hyperglycemia-value-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/highest-hyperglycemia-value-observation-profile"
@@ -760,6 +972,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-hospitalized-location-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/hospitalized-location-profile"
@@ -772,6 +988,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-hospitalized-in-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/hospitalized-in-vs"
@@ -784,6 +1004,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-hyperglycemia-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/hyperglycemia-observation-profile"
@@ -796,6 +1020,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-imaging-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/imaging-type-vs"
@@ -808,6 +1036,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-in-hospital-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/in-hospital-vs"
@@ -820,6 +1052,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-initial-care-intensity-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/initial-care-intensity-ext"
@@ -832,6 +1068,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-initial-care-intensity-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/initial-care-intensity-cs"
@@ -844,6 +1084,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-inrmode-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/inrmode-vs"
@@ -856,6 +1100,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile"
@@ -868,6 +1116,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-insulin-hyperglycemia-time-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/insulin-hyperglycemia-time-cs"
@@ -880,6 +1132,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-insulin-on-hyperglycemia-timing-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/insulin-on-hyperglycemia-timing-vs"
@@ -892,6 +1148,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-ischemic-stroke-etiology-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/ischemic-stroke-etiology-ext"
@@ -904,6 +1164,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ivt-application-department-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/ivt-application-department-vs"
@@ -916,6 +1180,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-ivt-drug-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/ivt-drug-vs"
@@ -928,6 +1196,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-laterality-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/laterality-vs"
@@ -940,6 +1212,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-location-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/location-cs"
@@ -952,6 +1228,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-locations-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/locations-vs"
@@ -964,6 +1244,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-management-appointment-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/management-appointment-vs"
@@ -976,6 +1260,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-management-appointment-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/management-appointment-cs"
@@ -988,6 +1276,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"
@@ -1000,6 +1292,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-medication-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/medication-cs"
@@ -1012,6 +1308,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-medications-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/medications-vs"
@@ -1024,6 +1324,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mimics-diagnosis-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/mimics-diagnosis-vs"
@@ -1036,6 +1340,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mrs-score-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/mrs-score-vs"
@@ -1048,6 +1356,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mrs-score-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/mrs-score-cs"
@@ -1060,6 +1372,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mtici-code-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/mtici-code-cs"
@@ -1072,6 +1388,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mtici-score-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/mtici-score-vs"
@@ -1084,6 +1404,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mtici-score-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/mtici-score-cs"
@@ -1096,6 +1420,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-nimodipine-medication-administration-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/nimodipine-medication-administration-profile"
@@ -1108,6 +1436,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-nimodipinetiming-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/nimodipinetiming-vs"
@@ -1120,6 +1452,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/no-anticoagulant-discharge-reason-observation-profile"
@@ -1132,6 +1468,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-not-medication-reason-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/not-medication-reason-vs"
@@ -1144,6 +1484,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-not-medication-reason-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/not-medication-reason-cs"
@@ -1156,6 +1500,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-observation-timing-context-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/observation-timing-context-ext"
@@ -1168,6 +1516,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-occupational-therapy-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/occupational-therapy-vs"
@@ -1180,6 +1532,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-old-infarct-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/old-infarct-cs"
@@ -1192,6 +1548,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Organization-OrganizationExample.html"
       }],
       "reference" : {
         "reference" : "Organization/OrganizationExample"
@@ -1203,6 +1563,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-paracetamol-on-fever-medication-administration-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/paracetamol-on-fever-medication-administration-profile"
@@ -1215,6 +1579,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-paracetamol-on-fever-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/paracetamol-on-fever-vs"
@@ -1227,6 +1595,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-paracetamol-on-fever-timing-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/paracetamol-on-fever-timing-vs"
@@ -1239,6 +1611,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-patient-ventilated-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/patient-ventilated-observation-profile"
@@ -1251,6 +1627,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-perforation-procedures-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/perforation-procedures-vs"
@@ -1263,6 +1643,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-perfusion-volume-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/perfusion-volume-cs"
@@ -1275,6 +1659,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-post-acute-care-required-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/post-acute-care-required-ext"
@@ -1287,6 +1675,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-post-stroke-complication-condition-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/post-stroke-complication-condition-profile"
@@ -1299,6 +1691,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-post-acute-care-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/post-acute-care-vs"
@@ -1311,6 +1707,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-post-neurosurgery-imaging-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/post-neurosurgery-imaging-vs"
@@ -1323,6 +1723,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-post-recanalization-imaging-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/post-recanalization-imaging-vs"
@@ -1335,6 +1739,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-post-stroke-complications-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/post-stroke-complications-vs"
@@ -1347,6 +1755,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-post-stroke-procedures-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/post-stroke-procedures-vs"
@@ -1359,6 +1771,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-treatment-procedure-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-treatment-procedure-vs"
@@ -1371,6 +1787,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-prior-medication-statement-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/prior-medication-statement-profile"
@@ -1383,6 +1803,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-procedure-timing-context-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/procedure-timing-context-ext"
@@ -1395,6 +1819,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-procedure-timing-context-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/procedure-timing-context-vs"
@@ -1407,6 +1835,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-procedure-not-done-reason-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/procedure-not-done-reason-vs"
@@ -1419,6 +1851,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-procedure-timing-context-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/procedure-timing-context-cs"
@@ -1431,6 +1867,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-required-post-acute-care-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/required-post-acute-care-ext"
@@ -1443,6 +1883,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-body-structure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/resq-body-structure-profile"
@@ -1455,6 +1899,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-location-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/resq-location-profile"
@@ -1467,6 +1915,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-patient-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/resq-patient-profile"
@@ -1479,6 +1931,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-practitioner-role-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/resq-practitioner-role-profile"
@@ -1491,6 +1947,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-resq-stroke-discharge-document-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/resq-stroke-discharge-document-type-vs"
@@ -1503,6 +1963,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-resq-stroke-discharge-section-code-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/resq-stroke-discharge-section-code-vs"
@@ -1515,6 +1979,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-stroke-discharge-composition.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/resq-stroke-discharge-composition"
@@ -1527,6 +1995,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-risk-factor-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/risk-factor-vs"
@@ -1539,6 +2011,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-risk-factor-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/risk-factor-cs"
@@ -1551,6 +2027,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-screening-performer-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/screening-performer-vs"
@@ -1563,6 +2043,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-sex-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/sex-vs"
@@ -1575,6 +2059,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-specific-finding-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/specific-finding-observation-profile"
@@ -1587,6 +2075,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-specific-finding-value-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/specific-finding-value-vs"
@@ -1599,6 +2091,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-specific-finding-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/specific-finding-vs"
@@ -1611,6 +2107,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-specific-finding-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/specific-finding-cs"
@@ -1623,6 +2123,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-carotid-endarterectomy-procedure-profile"
@@ -1635,6 +2139,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-carotid-imaging-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-carotid-imaging-procedure-profile"
@@ -1647,6 +2155,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-diagnosis-code-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-diagnosis-code-vs"
@@ -1659,6 +2171,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-diagnosis-condition-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-diagnosis-condition-profile"
@@ -1671,6 +2187,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-encounter-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-encounter-profile"
@@ -1683,6 +2203,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-imaging-diagnostic-report-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-imaging-diagnostic-report-profile"
@@ -1695,6 +2219,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-imaging-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-imaging-procedure-profile"
@@ -1707,6 +2235,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-medication-administration-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-medication-administration-profile"
@@ -1719,6 +2251,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-registry-organization-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-registry-organization-profile"
@@ -1731,6 +2267,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-mechanical-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-mechanical-procedure-profile"
@@ -1743,6 +2283,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-risk-factor-condition-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-risk-factor-condition-profile"
@@ -1755,6 +2299,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-swallow-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-swallow-procedure-profile"
@@ -1767,6 +2315,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-treatment-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-treatment-procedure-profile"
@@ -1779,6 +2331,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-stroke-vte-procedure-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/stroke-vte-procedure-profile"
@@ -1791,6 +2347,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-arrival-mode-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-arrival-mode-cs"
@@ -1803,6 +2363,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-circumstance-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-circumstance-vs"
@@ -1815,6 +2379,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-circumstance-codes-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-circumstance-codes-cs"
@@ -1827,6 +2395,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-discharge-destination-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-discharge-destination-cs"
@@ -1838,7 +2410,27 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-discharge-summary-section-cs.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/stroke-discharge-summary-section-cs"
+      },
+      "name" : "StrokeDischargeSummarySectionCs CodeSystem",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-summary-section-cs.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-etiology-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-etiology-vs"
@@ -1851,6 +2443,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-etiology-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-etiology-cs"
@@ -1863,6 +2459,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-etiology-other-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-etiology-other-vs"
@@ -1875,6 +2475,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-etiology-other-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-etiology-other-cs"
@@ -1887,6 +2491,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-mimics-diagnosis-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-mimics-diagnosis-cs"
@@ -1899,6 +2507,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-post-stroke-complication-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-post-stroke-complication-cs"
@@ -1911,6 +2523,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-proc-not-done-reason-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-proc-not-done-reason-cs"
@@ -1923,6 +2539,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-treatment-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-treatment-vs"
@@ -1935,6 +2555,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-stroke-treatment-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/stroke-treatment-cs"
@@ -1947,6 +2571,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-stroke-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/stroke-type-vs"
@@ -1959,6 +2587,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-swallowing-screening-done-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/swallowing-screening-done-vs"
@@ -1971,6 +2603,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-swallowing-screening-timing-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/swallowing-screening-timing-vs"
@@ -1983,6 +2619,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-swallowing-screening-type-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/swallowing-screening-type-vs"
@@ -1995,6 +2635,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-swallow-procedures-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/swallow-procedures-cs"
@@ -2007,6 +2651,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-swallow-screen-time-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/swallow-screen-time-cs"
@@ -2019,6 +2667,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-symptoms-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/symptoms-cs"
@@ -2031,6 +2683,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/highest-systolic-blood-pressure-value-observation-profile"
@@ -2043,6 +2699,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-tenecteplase-brand-medication-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/tenecteplase-brand-medication-profile"
@@ -2055,6 +2715,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-tenecteplase-brand-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/tenecteplase-brand-vs"
@@ -2067,6 +2731,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-tenecteplase-brand-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/tenecteplase-brand-cs"
@@ -2079,6 +2747,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-three-month-contact-mode-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/three-month-contact-mode-observation-profile"
@@ -2091,6 +2763,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-three-month-contact-mode-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/three-month-contact-mode-vs"
@@ -2103,6 +2779,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-three-month-contact-mode-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/three-month-contact-mode-cs"
@@ -2115,6 +2795,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-thrombectomy-complications-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/thrombectomy-complications-vs"
@@ -2127,6 +2811,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-thrombectomy-complications-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/thrombectomy-complications-cs"
@@ -2139,6 +2827,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-tia-clinical-symptoms-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/tia-clinical-symptoms-observation-profile"
@@ -2151,6 +2843,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-tia-clinical-symptoms-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/tia-clinical-symptoms-vs"
@@ -2163,6 +2859,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-tia-symptom-duration-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/tia-symptom-duration-vs"
@@ -2175,6 +2875,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-tia-symptom-duration-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/tia-symptom-duration-cs"
@@ -2187,6 +2891,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-timing-metric-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/timing-metric-observation-profile"
@@ -2199,6 +2907,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-timing-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/timing-cs"
@@ -2211,6 +2923,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-timing-metric-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/timing-metric-codes-vs"
@@ -2223,6 +2939,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-timing-metric-codes-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/timing-metric-codes-cs"
@@ -2235,6 +2955,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-unitof-measurement-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/unitof-measurement-vs"
@@ -2247,6 +2971,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vital-sign-observation-profile.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vital-sign-observation-profile"
@@ -2259,6 +2987,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vital-signs-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vital-signs-vs"
@@ -2271,6 +3003,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vital-signs-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/vital-signs-cs"
@@ -2283,6 +3019,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vte-procedures-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vte-procedures-vs"
@@ -2295,6 +3035,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vte-procedures-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/vte-procedures-cs"
@@ -2307,6 +3051,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-wakeup-stroke-ext.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/wakeup-stroke-ext"
@@ -2319,6 +3067,10 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-yes-no-not-required-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/yes-no-not-required-cs"

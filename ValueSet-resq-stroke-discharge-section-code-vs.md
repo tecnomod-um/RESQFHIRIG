@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
+| Active as of 2026-07-17 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
 
  
 Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition. 
@@ -51,7 +51,7 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
   "title" : "RESQ Stroke Discharge Section Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -122,6 +122,25 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
       {
         "code" : "18776-5",
         "display" : "Plan of care note"
+      },
+      {
+        "code" : "75310-3",
+        "display" : "Health concerns Document"
+      },
+      {
+        "code" : "48765-2",
+        "display" : "Allergies and adverse reactions Document"
+      },
+      {
+        "code" : "46240-8",
+        "display" : "History of Hospitalizations+Outpatient visits Narrative"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "866144008",
+        "display" : "Encounter note (record artifact)"
       }]
     }]
   }

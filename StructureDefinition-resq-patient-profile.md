@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-patient-profile | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:RESQPatientProfile |
+| Active as of 2026-07-17 | *Computable Name*:RESQPatientProfile |
 
  
 Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-patient-profile
   "title" : "RESQ Patient Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

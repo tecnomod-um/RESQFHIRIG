@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-14 | *Computable Name*:PostAcuteCareRequiredExt |
+| Draft as of 2026-07-17 | *Computable Name*:PostAcuteCareRequiredExt |
 
 Boolean indicator used by Procedure builders to mark post-acute-care relevance. Semantically equivalent to required-post-acute-care-ext but kept because both URLs exist in the codebase.
 
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-post-acute-care-requ
   "name" : "PostAcuteCareRequiredExt",
   "title" : "Post-acute care required",
   "status" : "draft",
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

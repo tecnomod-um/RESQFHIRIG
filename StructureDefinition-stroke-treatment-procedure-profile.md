@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-treatment-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:StrokeTreatmentProcedureProfile |
+| Active as of 2026-07-17 | *Computable Name*:StrokeTreatmentProcedureProfile |
 
  
 Generic treatment and rehabilitation profile for ICH, SAH, CVT, craniectomy, therapy, smoking cessation and shunt procedures not given a dedicated meta.profile in the Python builders. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-treatment-pro
   "title" : "Stroke Treatment Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -462,7 +462,7 @@
     "name" : "RESQStrokeDischargeSectionCodeVS",
     "title" : "RESQ Stroke Discharge Section Code ValueSet",
     "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
-    "systems" : ["http://loinc.org"]
+    "systems" : ["http://loinc.org", "http://snomed.info/sct"]
   },
   {
     "url" : "http://tecnomod-um.org/ValueSet/risk-factor-vs",

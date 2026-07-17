@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:ThrombectomyComplicationsVS |
+| Active as of 2026-07-17 | *Computable Name*:ThrombectomyComplicationsVS |
 
  
 Allowed coded values for ThrombectomyComplications 
@@ -51,7 +51,7 @@ Allowed coded values for ThrombectomyComplications
   "title" : "ThrombectomyComplications ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-14 | *Computable Name*:WakeupStrokeExt |
+| Draft as of 2026-07-17 | *Computable Name*:WakeupStrokeExt |
 
 Boolean flag indicating that the stroke was first noticed after waking; onsetDateTime is then populated using the last-known-well/sleep timestamp in the builder.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-wakeup-stroke-ext.cs
   "name" : "WakeupStrokeExt",
   "title" : "Wake-up stroke",
   "status" : "draft",
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

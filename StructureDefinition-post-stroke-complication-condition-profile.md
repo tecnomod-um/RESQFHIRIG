@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/post-stroke-complication-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-07-14 | *Computable Name*:PostStrokeComplicationConditionProfile |
+| Active as of 2026-07-17 | *Computable Name*:PostStrokeComplicationConditionProfile |
 
  
 Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
   "title" : "Post-Stroke Complication Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-14T07:23:58+00:00",
+  "date" : "2026-07-17T09:40:30+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
