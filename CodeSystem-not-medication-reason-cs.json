@@ -3,7 +3,7 @@
   "id" : "not-medication-reason-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem not-medication-reason-cs</b></p><a name=\"not-medication-reason-cs\"> </a><a name=\"hcnot-medication-reason-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Not-Consent<a name=\"not-medication-reason-cs-Not-Consent\"> </a></td><td>Patient or family did not consent</td></tr><tr><td style=\"white-space:nowrap\">Cost-of-drug<a name=\"not-medication-reason-cs-Cost-of-drug\"> </a></td><td>Cost of drug</td></tr><tr><td style=\"white-space:nowrap\">Not-Available<a name=\"not-medication-reason-cs-Not-Available\"> </a></td><td>Drug not available</td></tr><tr><td style=\"white-space:nowrap\">Not-Licensed<a name=\"not-medication-reason-cs-Not-Licensed\"> </a></td><td>Antidote not licenced for specific indication</td></tr><tr><td style=\"white-space:nowrap\">Not-Criteria<a name=\"not-medication-reason-cs-Not-Criteria\"> </a></td><td>Not met criteria for specific agent</td></tr><tr><td style=\"white-space:nowrap\">Forgot<a name=\"not-medication-reason-cs-Forgot\"> </a></td><td>Patient did not use anticoagulant before ICH (forgot to take a pill)</td></tr><tr><td style=\"white-space:nowrap\">Not-Reported<a name=\"not-medication-reason-cs-Not-Reported\"> </a></td><td>Reason for not giving anticoagulant reversal not reported</td></tr><tr><td style=\"white-space:nowrap\">not-required<a name=\"not-medication-reason-cs-not-required\"> </a></td><td>Not Required</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem not-medication-reason-cs</b></p><a name=\"not-medication-reason-cs\"> </a><a name=\"hcnot-medication-reason-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Not-Consent<a name=\"not-medication-reason-cs-Not-Consent\"> </a></td><td>Patient or family did not consent</td></tr><tr><td style=\"white-space:nowrap\">Cost-of-drug<a name=\"not-medication-reason-cs-Cost-of-drug\"> </a></td><td>Cost of drug</td></tr><tr><td style=\"white-space:nowrap\">Not-Available<a name=\"not-medication-reason-cs-Not-Available\"> </a></td><td>Drug not available</td></tr><tr><td style=\"white-space:nowrap\">Not-Licensed<a name=\"not-medication-reason-cs-Not-Licensed\"> </a></td><td>Antidote not licenced for specific indication</td></tr><tr><td style=\"white-space:nowrap\">Not-Criteria<a name=\"not-medication-reason-cs-Not-Criteria\"> </a></td><td>Not met criteria for specific agent</td></tr><tr><td style=\"white-space:nowrap\">Forgot<a name=\"not-medication-reason-cs-Forgot\"> </a></td><td>Patient did not use anticoagulant before ICH (forgot to take a pill)</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"not-medication-reason-cs-not-reported\"> </a></td><td>Reason for not giving anticoagulant reversal not reported</td></tr><tr><td style=\"white-space:nowrap\">not-required<a name=\"not-medication-reason-cs-not-required\"> </a></td><td>Not Required</td></tr></table></div>"
   },
   "url" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
   "version" : "1.0.0",
@@ -11,7 +11,7 @@
   "title" : "NotMedicationReasonCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -56,7 +56,7 @@
     "display" : "Patient did not use anticoagulant before ICH (forgot to take a pill)"
   },
   {
-    "code" : "Not-Reported",
+    "code" : "not-reported",
     "display" : "Reason for not giving anticoagulant reversal not reported"
   },
   {

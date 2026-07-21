@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile | *Version*:1.0.0 |
-| Active as of 2026-07-17 | *Computable Name*:PriorMedicationStatementProfile |
+| Active as of 2026-07-21 | *Computable Name*:PriorMedicationStatementProfile |
 
  
 MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
   "title" : "Prior MedicationStatement Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

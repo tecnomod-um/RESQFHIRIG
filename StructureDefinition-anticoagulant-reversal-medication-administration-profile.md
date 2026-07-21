@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-17 | *Computable Name*:AnticoagulantReversalMedicationAdministrationProfile |
+| Active as of 2026-07-21 | *Computable Name*:AnticoagulantReversalMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
   "title" : "Anticoagulant Reversal MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -112,11 +112,7 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
     {
       "id" : "MedicationAdministration.statusReason",
       "path" : "MedicationAdministration.statusReason",
-      "short" : "Reason anticoagulant reversal was not administered",
-      "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs"
-      }
+      "short" : "Reason anticoagulant reversal was not administered"
     },
     {
       "id" : "MedicationAdministration.medication",

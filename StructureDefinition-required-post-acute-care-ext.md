@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-17 | *Computable Name*:RequiredPostAcuteCareExt |
+| Draft as of 2026-07-21 | *Computable Name*:RequiredPostAcuteCareExt |
 
 Boolean indicator that post-acute care is required or applicable to the resource context. Used by Encounter, Observation and MedicationAdministration builders.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
   "name" : "RequiredPostAcuteCareExt",
   "title" : "Required post-acute care",
   "status" : "draft",
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

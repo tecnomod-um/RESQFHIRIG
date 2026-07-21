@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:1.0.0 |
-| Active as of 2026-07-17 | *Computable Name*:StrokeEncounterProfile |
+| Active as of 2026-07-21 | *Computable Name*:StrokeEncounterProfile |
 
  
 Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
   "title" : "Stroke Encounter Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

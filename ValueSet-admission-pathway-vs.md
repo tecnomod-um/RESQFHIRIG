@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/ValueSet/admission-pathway-vs | *Version*:1.0.0 |
-| Active as of 2026-07-17 | *Computable Name*:AdmissionPathwayVS |
+| Active as of 2026-07-21 | *Computable Name*:AdmissionPathwayVS |
 
  
 Allowed coded values for AdmissionPathway 
@@ -51,7 +51,7 @@ Allowed coded values for AdmissionPathway
   "title" : "AdmissionPathway ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -94,6 +94,10 @@ Allowed coded values for AdmissionPathway
       {
         "code" : "in-hospital-stroke",
         "display" : "In-Hospital Stroke"
+      },
+      {
+        "code" : "ems-home",
+        "display" : "patient arrived by EMS/ambulance from home/scene"
       }]
     }]
   }

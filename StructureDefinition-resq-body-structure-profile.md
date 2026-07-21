@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-17 | *Computable Name*:RESQBodyStructureProfile |
+| Active as of 2026-07-21 | *Computable Name*:RESQBodyStructureProfile |
 
  
 BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
   "title" : "RESQ BodyStructure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-17T09:40:30+00:00",
+  "date" : "2026-07-21T08:04:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

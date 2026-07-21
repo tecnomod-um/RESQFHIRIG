@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e16e9861-5645-4730-b17d-5601c702bcdb",
+  "id" : "14da229f-5a6e-4b8f-9530-a944f2af01a4",
   "meta" : {
-    "lastUpdated" : "2026-07-17T09:40:30.598+00:00"
+    "lastUpdated" : "2026-07-21T08:04:16.253+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "AdherenceCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5a90cd18-ddae-4133-9bff-4ef50e67cd0e",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:5cbee9a5-50db-4a08-81e6-fde1f4a7da05",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -81,7 +81,7 @@
       "title" : "AdmissionDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -90,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:df93590d-9aeb-43b6-adbb-fe13b71a499d",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:e692d521-f0af-481c-bda4-b10c728c1a9b",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -151,7 +151,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-stroke-arrival-mode-cs.html\">codesystem StrokeArrivalModeCs CodeSystem v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs|1.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-ems-gp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-ems-gp\">ems-gp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;ems-gp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;ems-gp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-priv-transport\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport\">priv-transport</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;priv-transport&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;priv-transport&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-stroke-center\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-stroke-center\">stroke-center</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;stroke-center&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;stroke-center&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-another-hosp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-another-hosp\">another-hosp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;another-hosp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;another-hosp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-priv-transport-gp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport-gp\">priv-transport-gp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;priv-transport-gp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;priv-transport-gp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-in-hospital-stroke\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-in-hospital-stroke\">in-hospital-stroke</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;in-hospital-stroke&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;in-hospital-stroke&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-stroke-arrival-mode-cs.html\">codesystem StrokeArrivalModeCs CodeSystem v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs|1.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-ems-gp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-ems-gp\">ems-gp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;ems-gp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;ems-gp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-priv-transport\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport\">priv-transport</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;priv-transport&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;priv-transport&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-stroke-center\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-stroke-center\">stroke-center</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;stroke-center&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;stroke-center&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-another-hosp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-another-hosp\">another-hosp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;another-hosp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;another-hosp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-priv-transport-gp\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-priv-transport-gp\">priv-transport-gp</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;priv-transport-gp&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;priv-transport-gp&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-in-hospital-stroke\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-in-hospital-stroke\">in-hospital-stroke</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;in-hospital-stroke&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;in-hospital-stroke&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs-ems-home\"> </a><code>http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-arrival-mode-cs.html#stroke-arrival-mode-cs-ems-home\">ems-home</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;ems-home&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;ems-home&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://tecnomod-um.org/ValueSet/admission-pathway-vs",
       "version" : "1.0.0",
@@ -159,7 +159,7 @@
       "title" : "AdmissionPathway ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -168,9 +168,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e58ea136-3bd0-4bc1-a1bd-78735413a669",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
-        "total" : 6,
+        "identifier" : "urn:uuid:48ed3707-2ca5-4b4c-ac6c-9e4831eed7a9",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
+        "total" : 7,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -215,6 +215,10 @@
         {
           "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
           "code" : "in-hospital-stroke"
+        },
+        {
+          "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+          "code" : "ems-home"
         }]
       }
     }
@@ -233,7 +237,7 @@
       "title" : "AnaliticsCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -242,8 +246,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:99fea63a-8aa0-48c4-afee-0e6e7e9e0cb9",
-        "timestamp" : "2026-07-17T09:42:07+00:00",
+        "identifier" : "urn:uuid:e96536c1-673d-4310-8a52-1ef4f57fdff2",
+        "timestamp" : "2026-07-21T08:06:25+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -351,7 +355,7 @@
       "title" : "AnticoagulantReversal ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -360,8 +364,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4724f05c-48a6-46da-b9fd-c26f1f1c3ce7",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:b688a89e-68fd-4856-a645-d09be39e3a98",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -453,7 +457,7 @@
       "title" : "AssessmentContext ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -462,8 +466,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44d3d736-4ac8-4af1-96c3-8f73efcd4796",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:a5a0c39b-67ac-475e-b83f-fe075610b267",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -571,7 +575,7 @@
       "title" : "AtrialFibrillationOrFlutter ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -580,8 +584,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6b892597-1cab-4cec-b5a0-a90761cc2eb5",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:c41810e1-1001-4bd5-8403-f99a2a7bb5d2",
+        "timestamp" : "2026-07-21T08:06:42+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -645,7 +649,7 @@
       "title" : "BleedingReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -654,8 +658,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c1682574-e4f7-45fc-85b0-9a9524223809",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:f5f7f8dc-5b18-4b7a-9fe2-8dda4750b3d6",
+        "timestamp" : "2026-07-21T08:06:42+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -747,7 +751,7 @@
       "title" : "BodySites ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -756,8 +760,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5013f1a5-51a4-45f4-bc3f-705ec699ef7d",
-        "timestamp" : "2026-07-17T09:42:18+00:00",
+        "identifier" : "urn:uuid:0d3fd77c-6696-40fb-89fe-3099d3e2f846",
+        "timestamp" : "2026-07-21T08:06:37+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -873,7 +877,7 @@
       "title" : "CarotidEndarterectomyTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -882,8 +886,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:09f8ef65-02e5-470b-90fa-d1ed227fe6e2",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:5a2def20-10c9-4532-8f7c-daa2d36b2c8c",
+        "timestamp" : "2026-07-21T08:06:42+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -935,7 +939,7 @@
       "title" : "CarotidStenosisLevel ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -944,8 +948,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:04287318-a98a-476e-99f4-c3ea6e47599c",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:0cef8bd7-9dac-42ee-9b15-aaaa8954e73a",
+        "timestamp" : "2026-07-21T08:06:42+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1009,7 +1013,7 @@
       "title" : "ClinicalStatusCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1018,8 +1022,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a27ff4a1-fe7e-43aa-9a1c-0948d8248d37",
-        "timestamp" : "2026-07-17T09:42:14+00:00",
+        "identifier" : "urn:uuid:fa04c5c2-37fc-47c2-8676-d70724349bf2",
+        "timestamp" : "2026-07-21T08:06:33+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1075,7 +1079,7 @@
       "title" : "DischargeDestination ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1084,8 +1088,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7fed73a0-f502-4073-ba37-4b08ce0468a2",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:b579be3f-32d4-4f0c-8f6a-d60894161680",
+        "timestamp" : "2026-07-21T08:06:42+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1161,7 +1165,7 @@
       "title" : "DischargeFacilityDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1170,8 +1174,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1d7d186c-7d4c-4fa4-adfe-9cfcbd5c33bc",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:9dfb4d73-52ff-494c-871d-08e012a1d30f",
+        "timestamp" : "2026-07-21T08:06:43+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1227,7 +1231,7 @@
       "title" : "DischargeFacilityType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1236,8 +1240,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:07947974-dc38-458d-b82d-c0b02d16fdd5",
-        "timestamp" : "2026-07-17T09:42:21+00:00",
+        "identifier" : "urn:uuid:c22392a4-438f-4567-81f3-8844babdac20",
+        "timestamp" : "2026-07-21T08:06:43+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1305,7 +1309,7 @@
       "title" : "FirstContactPlace ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1314,8 +1318,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:efe74888-4df1-4520-b2e5-f11a5946ed82",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:d1826bc0-1306-4dac-b269-9b01080f96dc",
+        "timestamp" : "2026-07-21T08:06:43+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1375,7 +1379,7 @@
       "title" : "FunctionalScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1384,8 +1388,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c2f9c0b8-ac82-426a-89a0-1a362aa34fab",
-        "timestamp" : "2026-07-17T09:42:11+00:00",
+        "identifier" : "urn:uuid:282813f8-31fa-485d-a0e9-90374258062f",
+        "timestamp" : "2026-07-21T08:06:29+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -1481,7 +1485,7 @@
       "title" : "GCSScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1490,8 +1494,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7276f91b-e079-45da-ac4a-f4cb25412d7d",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:c374de16-2229-4891-98e1-ba414688c9f4",
+        "timestamp" : "2026-07-21T08:06:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1551,7 +1555,7 @@
       "title" : "GlasgowComaScale ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1560,8 +1564,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d080d498-478d-4ea1-b57a-a638705775f3",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:8aacfd22-6545-42fa-98b8-29782ada905e",
+        "timestamp" : "2026-07-21T08:06:43+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -1669,7 +1673,7 @@
       "title" : "HemorrhagicTransformationType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1678,8 +1682,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:73370906-f1b5-4a39-8496-e48d75a2b60c",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:f1b0c786-137c-4a3c-82f9-6a4b988d8fec",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1735,7 +1739,7 @@
       "title" : "HospitalizedIn ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1744,8 +1748,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6e06700c-fa36-4102-acd3-b5f998bafa45",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:0e4ab6ae-6e0c-4125-a5e1-62b26925d773",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1801,7 +1805,7 @@
       "title" : "ImagingType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1810,8 +1814,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9fb0a40c-1621-44fd-a78a-7a9a6b2e7357",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:94b52807-add5-4531-8104-d2e350fdcb7a",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -1891,7 +1895,7 @@
       "title" : "INRmode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1900,8 +1904,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cef79251-18c6-4165-9544-89e3165f69e7",
-        "timestamp" : "2026-07-17T09:42:08+00:00",
+        "identifier" : "urn:uuid:80cc748c-15c9-4715-8a0f-e8c1fea032d4",
+        "timestamp" : "2026-07-21T08:06:25+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1961,7 +1965,7 @@
       "title" : "InsulinOnHyperglycemiaTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1970,8 +1974,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d0ded6aa-152a-4e7b-a598-7a12ac19019f",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:49d01bf1-492d-4675-aa60-606bee150848",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2019,7 +2023,7 @@
       "title" : "IvtApplicationDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2028,8 +2032,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:66dbd823-7f02-4f57-b9f2-e4e7461529c9",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:296bf63d-539c-41c4-a6b2-4c0e735eacb7",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2089,7 +2093,7 @@
       "title" : "IvtDrug ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2098,8 +2102,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0787097d-3abc-417d-8c62-b46f8d5fbb07",
-        "timestamp" : "2026-07-17T09:42:22+00:00",
+        "identifier" : "urn:uuid:f0b61ebc-3346-416a-8680-fee686027719",
+        "timestamp" : "2026-07-21T08:06:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2167,7 +2171,7 @@
       "title" : "Laterality ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2176,8 +2180,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:abc5c817-26a5-4e0b-a1e2-76f4602a0511",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:92f47f4e-d63d-43f8-b9cc-005754cf2bdd",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -2294,7 +2298,7 @@
       "title" : "Locations ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2303,8 +2307,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:799a3292-26f4-4b3f-b1bc-30c07e609fa0",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:b86ea049-55d8-4de3-80f7-edf4cc894c7f",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -2380,7 +2384,7 @@
       "title" : "ManagementAppointment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2389,8 +2393,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6f18cec7-16bb-404e-980a-dba2b47b5793",
-        "timestamp" : "2026-07-17T09:42:09+00:00",
+        "identifier" : "urn:uuid:5993d35e-3b08-4886-be1c-5983cdcecc8c",
+        "timestamp" : "2026-07-21T08:06:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2446,7 +2450,7 @@
       "title" : "Medications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2455,8 +2459,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aa036f2b-5a8d-4ed5-9104-1afaf9ff2c7a",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:ccab0dcc-722c-479a-b0df-e84bbac98987",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -2632,7 +2636,7 @@
       "title" : "MimicsDiagnosis ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2641,8 +2645,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:91c2a579-5dd8-4424-a8c2-20169d919b3b",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:2589dc5a-2ff9-4e39-b00b-427649231be3",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2718,7 +2722,7 @@
       "title" : "MRsScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2727,8 +2731,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f0fd5047-e6e5-4029-a5df-3d6a35e6fbcc",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:d624c925-3f69-4133-a82f-93d54597fd76",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2796,7 +2800,7 @@
       "title" : "MTiciScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2805,8 +2809,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f3b49bc1-331f-4fa3-8cae-9f65d69b55de",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:d3218179-fd71-4782-814c-17495ccbf6c4",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2874,7 +2878,7 @@
       "title" : "Nimodipinetiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2883,8 +2887,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cf0f638b-bf62-4746-831c-92c45f3fbbc7",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:e4276580-3ffd-4d10-b8e5-3eed1ca93164",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2940,7 +2944,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-not-medication-reason-cs.html\">codesystem NotMedicationReasonCs CodeSystem v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://tecnomod-um.org/CodeSystem/not-medication-reason-cs|1.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 15 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-609328004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/609328004\">609328004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;609328004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;609328004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-36456004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/36456004\">36456004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;36456004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;36456004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-443390004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/443390004\">443390004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;443390004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;443390004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129839007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129839007\">129839007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;129839007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;129839007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-131148009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/131148009\">131148009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;131148009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;131148009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-401207004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/401207004\">401207004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;401207004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;401207004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-397943006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/397943006\">397943006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;397943006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;397943006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-300936002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/300936002\">300936002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;300936002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;300936002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413560001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413560001\">413560001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;413560001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;413560001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Consent\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Consent\">Not-Consent</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Consent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Consent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Cost-of-drug\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Cost-of-drug\">Cost-of-drug</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Cost-of-drug&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Cost-of-drug&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Available\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Available\">Not-Available</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Available&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Available&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Licensed\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Licensed\">Not-Licensed</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Licensed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Licensed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Criteria\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Criteria\">Not-Criteria</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Criteria&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Criteria&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Forgot\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Forgot\">Forgot</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Forgot&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Forgot&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-not-medication-reason-cs.html\">codesystem NotMedicationReasonCs CodeSystem v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://tecnomod-um.org/CodeSystem/not-medication-reason-cs|1.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set contains 17 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-609328004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/609328004\">609328004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;609328004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;609328004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-36456004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/36456004\">36456004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;36456004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;36456004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-443390004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/443390004\">443390004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;443390004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;443390004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129839007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129839007\">129839007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;129839007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;129839007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-131148009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/131148009\">131148009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;131148009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;131148009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-401207004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/401207004\">401207004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;401207004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;401207004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-397943006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/397943006\">397943006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;397943006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;397943006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-300936002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/300936002\">300936002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;300936002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;300936002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413560001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413560001\">413560001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;413560001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;413560001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Consent\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Consent\">Not-Consent</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Consent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Consent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Cost-of-drug\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Cost-of-drug\">Cost-of-drug</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Cost-of-drug&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Cost-of-drug&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Available\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Available\">Not-Available</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Available&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Available&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Licensed\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Licensed\">Not-Licensed</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Licensed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Licensed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Not-Criteria\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Not-Criteria\">Not-Criteria</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Not-Criteria&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Not-Criteria&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-Forgot\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-Forgot\">Forgot</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;Forgot&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;Forgot&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-not-required\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-not-required\">not-required</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;not-required&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;not-required&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://tecnomod-um.org/CodeSystem/not-medication-reason-cs-not-reported\"> </a><code>http://tecnomod-um.org/CodeSystem/not-medication-reason-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-not-medication-reason-cs.html#not-medication-reason-cs-not-reported\">not-reported</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;not-reported&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://tecnomod-um.org/CodeSystem/not-medication-reason-cs&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;not-reported&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs",
       "version" : "1.0.0",
@@ -2948,7 +2952,7 @@
       "title" : "NotMedicationReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2957,9 +2961,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c35edb65-042a-454b-b62b-2117a09c194e",
-        "timestamp" : "2026-07-17T09:42:13+00:00",
-        "total" : 15,
+        "identifier" : "urn:uuid:1f7c287d-8f84-468e-9e6c-897a7a2bf72b",
+        "timestamp" : "2026-07-21T08:06:32+00:00",
+        "total" : 17,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3052,6 +3056,14 @@
         {
           "system" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
           "code" : "Forgot"
+        },
+        {
+          "system" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+          "code" : "not-required"
+        },
+        {
+          "system" : "http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+          "code" : "not-reported"
         }]
       }
     }
@@ -3070,7 +3082,7 @@
       "title" : "OccupationalTherapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3079,8 +3091,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b43484f6-1e4a-4676-b6b8-9a9f58dc59fb",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:c968bef9-355d-4078-ade4-95292f156731",
+        "timestamp" : "2026-07-21T08:06:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3140,7 +3152,7 @@
       "title" : "ParacetamolOnFeverTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3149,8 +3161,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:35793e94-4543-4e6c-82ce-6a875cc9376c",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:7af36716-bd03-4681-8238-993b5cb25366",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3198,7 +3210,7 @@
       "title" : "ParacetamolOnFever ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3207,8 +3219,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:26d59f1b-fecb-48a9-b9b7-7796527bb6b2",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:b292f944-dcab-42f5-9452-50c148147cfa",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3272,7 +3284,7 @@
       "title" : "PerforationProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3281,8 +3293,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:24e01833-6de8-4385-aa9e-88b62e56a85b",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:3e2ee824-ffb5-4b4d-b24f-a4ecaf220cda",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3346,7 +3358,7 @@
       "title" : "PostAcuteCare ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3355,8 +3367,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b36a969c-1267-4195-8cc3-8953ef7102cf",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:69722320-c67a-463e-9778-0e44bef96f2e",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3424,7 +3436,7 @@
       "title" : "PostNeurosurgeryImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3433,8 +3445,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:697c763a-f5cf-4a91-8e9c-4ea00ee41b13",
-        "timestamp" : "2026-07-17T09:42:23+00:00",
+        "identifier" : "urn:uuid:7634a565-0cf0-4d61-978d-814d2367a213",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3498,7 +3510,7 @@
       "title" : "PostRecanalizationImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3507,8 +3519,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2f5a37e2-f1fc-4b6f-8b2b-84ea90b8e1c0",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:a60ab05c-bbd1-40be-893f-a4a4f16d7824",
+        "timestamp" : "2026-07-21T08:06:46+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3572,7 +3584,7 @@
       "title" : "PostStrokeComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3581,8 +3593,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3715a929-094f-40da-a8b2-6e8a0ad5f36f",
-        "timestamp" : "2026-07-17T09:42:14+00:00",
+        "identifier" : "urn:uuid:3cda9f87-a6c9-4942-86d1-3e139d98c90e",
+        "timestamp" : "2026-07-21T08:06:33+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -3670,7 +3682,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3679,8 +3691,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:941358d3-5819-4776-8e4b-8ffb707a4c67",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:5d558215-11c4-4e72-8a34-073f08062188",
+        "timestamp" : "2026-07-21T08:06:47+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3748,7 +3760,7 @@
       "title" : "ProcedureNotDoneReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3757,8 +3769,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee023623-4131-41c0-99cc-93952aaebbf0",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:01611588-c938-474a-95de-d89a7e9b6cc9",
+        "timestamp" : "2026-07-21T08:06:47+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -3934,7 +3946,7 @@
       "title" : "Procedure Timing Context ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3943,8 +3955,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f908c482-116a-4ed6-8365-71b5e75bb799",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:5a709509-01c0-4bcd-a90f-d18ddcfae899",
+        "timestamp" : "2026-07-21T08:06:47+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3992,7 +4004,7 @@
       "title" : "RESQ Stroke Discharge Document Type ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4001,8 +4013,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:48f8185f-ec5a-42d1-b9ff-f144d7af5aae",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:3a514077-5a7a-4164-98f9-2abd19ad5795",
+        "timestamp" : "2026-07-21T08:06:47+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -4054,7 +4066,7 @@
       "title" : "RESQ Stroke Discharge Section Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4063,8 +4075,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a5964164-ec14-4ce4-ba36-018a4408775c",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:342e73b5-ed07-44f7-b75b-d261d99896b5",
+        "timestamp" : "2026-07-21T08:06:47+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -4188,7 +4200,7 @@
       "title" : "RiskFactor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4197,8 +4209,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d269447-da08-4e5e-9520-7f82647786ae",
-        "timestamp" : "2026-07-17T09:42:19+00:00",
+        "identifier" : "urn:uuid:dea21c59-bd6e-4ac2-acfb-835ad4cede07",
+        "timestamp" : "2026-07-21T08:06:38+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -4322,7 +4334,7 @@
       "title" : "ScreeningPerformer ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4331,8 +4343,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a63471de-8234-42cf-bb5c-c16c87c3f568",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:e9cec269-d353-4364-9506-6a5d382d5ac0",
+        "timestamp" : "2026-07-21T08:06:48+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -4396,7 +4408,7 @@
       "title" : "Sex ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4405,8 +4417,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:77e1e88e-b9ac-4d4a-805a-93ffd2964e39",
-        "timestamp" : "2026-07-17T09:42:24+00:00",
+        "identifier" : "urn:uuid:b2068de7-98d6-46f5-b825-d4cf067d605c",
+        "timestamp" : "2026-07-21T08:06:48+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4466,7 +4478,7 @@
       "title" : "Specific Finding Value ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4475,8 +4487,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:84c7cc17-1f2f-48ae-a4a6-c9c436c11552",
-        "timestamp" : "2026-07-17T09:42:16+00:00",
+        "identifier" : "urn:uuid:e65ccfc1-7958-4453-babf-68f6f4842719",
+        "timestamp" : "2026-07-21T08:06:35+00:00",
         "total" : 19,
         "offset" : 0,
         "parameter" : [{
@@ -4624,7 +4636,7 @@
       "title" : "SpecificFinding ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4633,8 +4645,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bde538ef-88d1-46fd-a1aa-dfcabfc503ab",
-        "timestamp" : "2026-07-17T09:42:16+00:00",
+        "identifier" : "urn:uuid:306887bb-a0a4-4843-b601-d55152dde77d",
+        "timestamp" : "2026-07-21T08:06:34+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -4762,7 +4774,7 @@
       "title" : "StrokeCircumstance ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4771,8 +4783,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9c0d8a94-35f5-4784-b06f-c26923891a45",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:3e2e256f-cd75-4c23-9326-348dfa3481c3",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4820,7 +4832,7 @@
       "title" : "Stroke Diagnosis Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4829,8 +4841,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7711f7d8-7bb9-40db-ae5c-335364a57eb8",
-        "timestamp" : "2026-07-17T09:42:17+00:00",
+        "identifier" : "urn:uuid:0950cfa9-2c48-4ed2-8adf-fc916a0740b5",
+        "timestamp" : "2026-07-21T08:06:36+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -4942,7 +4954,7 @@
       "title" : "StrokeEtiologyOther ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4951,8 +4963,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:59ad0dc3-08aa-44ea-a166-d0114237e089",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:506e81fc-6c32-4035-8bd5-9921b8187f03",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -5064,7 +5076,7 @@
       "title" : "StrokeEtiology ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5073,8 +5085,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a706d404-c9fe-457f-9a22-5231689c554f",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:bc6de49b-ff11-4ff8-b586-cac81dc957fb",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -5166,7 +5178,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5175,8 +5187,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3118555-e5c6-4599-bec1-eaecf46cb1ba",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:f5f4c2b3-1e3b-4c96-a058-306987d82524",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -5300,7 +5312,7 @@
       "title" : "StrokeTreatment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5309,8 +5321,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:95652b85-eca8-4b55-b479-8eed11eb34d8",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:644db2f5-bae5-4855-8c94-6c58430cec54",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -5406,7 +5418,7 @@
       "title" : "StrokeType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5415,8 +5427,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:028f2068-1b96-4a2a-9c41-a6e516a06d14",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:1ff9e810-a374-4b9d-abd0-5f1e3f8254d2",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -5492,7 +5504,7 @@
       "title" : "SwallowingScreeningDone ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5501,8 +5513,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4bbe1d44-155a-464d-ab30-3454b02c5f9a",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:a1423313-c65b-4dbf-b043-8b395f0fce48",
+        "timestamp" : "2026-07-21T08:06:49+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5562,7 +5574,7 @@
       "title" : "SwallowingScreeningTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5571,8 +5583,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:32f46748-9003-4640-9ccd-774192c65a6d",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:53cf28c2-3528-4d99-82cd-63750faf4b60",
+        "timestamp" : "2026-07-21T08:06:50+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5644,7 +5656,7 @@
       "title" : "SwallowingScreeningType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5653,8 +5665,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ae0cb0cb-2bfd-455e-92b6-dbef524443b9",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:fab01017-afca-4627-892a-5af17c8f77a2",
+        "timestamp" : "2026-07-21T08:06:50+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5726,7 +5738,7 @@
       "title" : "TenecteplaseBrand ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5735,8 +5747,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:903fb178-2eb2-493b-afcd-ce00241c3c62",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:e6e60b60-27fd-4852-87f2-573892179c49",
+        "timestamp" : "2026-07-21T08:06:50+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -5812,7 +5824,7 @@
       "title" : "ThreeMonthContactMode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5821,8 +5833,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:951f9f4c-1641-4e52-a9f9-49e1f47f0f6f",
-        "timestamp" : "2026-07-17T09:42:19+00:00",
+        "identifier" : "urn:uuid:a719f912-e45d-465d-979f-43c04c6a1446",
+        "timestamp" : "2026-07-21T08:06:39+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -5898,7 +5910,7 @@
       "title" : "ThrombectomyComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5907,8 +5919,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:812e40f7-e759-48f1-956e-bc9ede4b0a66",
-        "timestamp" : "2026-07-17T09:42:25+00:00",
+        "identifier" : "urn:uuid:a5d08ddb-928c-4cb5-a2aa-af2399bdd477",
+        "timestamp" : "2026-07-21T08:06:50+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5980,7 +5992,7 @@
       "title" : "TiaClinicalSymptoms ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5989,8 +6001,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8b62c8f4-940c-4d02-ad98-2189c7d66423",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:710c0b21-53f2-40f6-a0a2-70285d0f2d77",
+        "timestamp" : "2026-07-21T08:06:40+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6054,7 +6066,7 @@
       "title" : "TiaSymptomDuration ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6063,8 +6075,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f692fb16-2a7b-40a3-90a8-847c742295da",
-        "timestamp" : "2026-07-17T09:42:26+00:00",
+        "identifier" : "urn:uuid:04186425-7a77-4052-b216-aae4a81dbcf4",
+        "timestamp" : "2026-07-21T08:06:50+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6116,7 +6128,7 @@
       "title" : "TimingMetricCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6125,8 +6137,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ce13b048-fc15-4bd1-aa1a-f6a06d120eb5",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:8ff7524b-29df-4385-8841-1952e8aad340",
+        "timestamp" : "2026-07-21T08:06:40+00:00",
         "total" : 27,
         "offset" : 0,
         "parameter" : [{
@@ -6274,7 +6286,7 @@
       "title" : "VitalSigns ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6283,8 +6295,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4fa5a7f5-08ca-4049-9f6c-cee588788871",
-        "timestamp" : "2026-07-17T09:42:20+00:00",
+        "identifier" : "urn:uuid:830940cf-8b94-4acf-90a0-a97d99010a79",
+        "timestamp" : "2026-07-21T08:06:41+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -6352,7 +6364,7 @@
       "title" : "VteProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-07-17T09:40:30+00:00",
+      "date" : "2026-07-21T08:04:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6361,8 +6373,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f4a95228-b2da-4768-a609-9e5fc4545efd",
-        "timestamp" : "2026-07-17T09:42:26+00:00",
+        "identifier" : "urn:uuid:75cff9ec-b309-4900-8551-c28bc7b475eb",
+        "timestamp" : "2026-07-21T08:06:51+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
