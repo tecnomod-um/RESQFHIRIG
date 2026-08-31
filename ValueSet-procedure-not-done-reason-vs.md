@@ -56,7 +56,7 @@ Allowed coded values for ProcedureNotDoneReason
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T09:17:06+00:00",
+  "date" : "2026-08-31T10:08:26+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
