@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:RequiredPostAcuteCareExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:RequiredPostAcuteCareExt |
 
 Boolean indicator that post-acute care is required or applicable to the resource context. Used by Encounter, Observation and MedicationAdministration builders.
 
@@ -46,18 +46,18 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext",
   "version" : "1.0.0",
   "name" : "RequiredPostAcuteCareExt",
   "title" : "Required post-acute care",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Boolean indicator that post-acute care is required or applicable to the resource context. Used by Encounter, Observation and MedicationAdministration builders.",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext"
     },
     {
       "id" : "Extension.value[x]",

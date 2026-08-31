@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/discharge-facility-type-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:DischargeFacilityTypeVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/discharge-facility-type-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:DischargeFacilityTypeVS |
 
  
 Allowed coded values for DischargeFacilityType 
@@ -45,19 +45,19 @@ Allowed coded values for DischargeFacilityType
 {
   "resourceType" : "ValueSet",
   "id" : "discharge-facility-type-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/discharge-facility-type-vs",
+  "url" : "http://qualityregistry.org/ValueSet/discharge-facility-type-vs",
   "version" : "1.0.0",
   "name" : "DischargeFacilityTypeVS",
   "title" : "DischargeFacilityType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for DischargeFacilityType",
@@ -85,7 +85,7 @@ Allowed coded values for DischargeFacilityType
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-discharge-destination-cs",
       "concept" : [{
         "code" : "comprehensive-stroke-center",
         "display" : "Discharged to comprehensive stroke center"

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/glasgow-coma-scale-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:GlasgowComaScaleObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/glasgow-coma-scale-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:GlasgowComaScaleObservationProfile |
 
  
 Specialized functional score profile for Glasgow Coma Scale component values captured by the registry. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-glasgow-coma-scale-o
 {
   "resourceType" : "StructureDefinition",
   "id" : "glasgow-coma-scale-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/glasgow-coma-scale-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/glasgow-coma-scale-observation-profile",
   "version" : "1.0.0",
   "name" : "GlasgowComaScaleObservationProfile",
   "title" : "Glasgow Coma Scale Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Specialized functional score profile for Glasgow Coma Scale component values captured by the registry.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-glasgow-coma-scale-o
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

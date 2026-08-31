@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/discharge-facility-department-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:DischargeFacilityDepartmentVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/discharge-facility-department-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:DischargeFacilityDepartmentVS |
 
  
 Allowed coded values for DischargeFacilityDepartment 
@@ -45,19 +45,19 @@ Allowed coded values for DischargeFacilityDepartment
 {
   "resourceType" : "ValueSet",
   "id" : "discharge-facility-department-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/discharge-facility-department-vs",
+  "url" : "http://qualityregistry.org/ValueSet/discharge-facility-department-vs",
   "version" : "1.0.0",
   "name" : "DischargeFacilityDepartmentVS",
   "title" : "DischargeFacilityDepartment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for DischargeFacilityDepartment",
@@ -70,7 +70,7 @@ Allowed coded values for DischargeFacilityDepartment
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/discharge-dept-cs",
       "concept" : [{
         "code" : "acute",
         "display" : "Acute Rehabilitation"

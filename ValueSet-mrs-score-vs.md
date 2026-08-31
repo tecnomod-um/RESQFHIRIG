@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/mrs-score-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:MRsScoreVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/mrs-score-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:MRsScoreVS |
 
  
 Allowed coded values for MRsScore 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "mrs-score-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
+  "url" : "http://qualityregistry.org/ValueSet/mrs-score-vs",
   "version" : "1.0.0",
   "name" : "MRsScoreVS",
   "title" : "MRsScore ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for MRsScore",
@@ -70,7 +70,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/mrs-score-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/mrs-score-cs",
       "concept" : [{
         "code" : "0",
         "display" : "No symptoms at all"

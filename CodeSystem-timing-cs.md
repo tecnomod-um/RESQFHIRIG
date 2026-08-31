@@ -8,16 +8,16 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/timing-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TimingCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/timing-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TimingCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [NimodipinetimingVS](ValueSet-nimodipinetiming-vs.md)
-* [ParacetamolOnFeverTimingVS](ValueSet-paracetamol-on-fever-timing-vs.md)
+* [Nimodipinetiming ValueSet](ValueSet-nimodipinetiming-vs.md)
+* [ParacetamolOnFeverTiming ValueSet](ValueSet-paracetamol-on-fever-timing-vs.md)
 
 
 
@@ -27,22 +27,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "timing-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/timing-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/timing-cs",
   "version" : "1.0.0",
   "name" : "TimingCS",
   "title" : "TimingCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

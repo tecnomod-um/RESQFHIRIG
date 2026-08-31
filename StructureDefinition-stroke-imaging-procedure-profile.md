@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-imaging-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeImagingProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-imaging-procedure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeImagingProcedureProfile |
 
  
 Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-imaging-procedure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-imaging-procedure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-imaging-procedure-profile",
   "version" : "1.0.0",
   "name" : "StrokeImagingProcedureProfile",
   "title" : "Stroke Imaging Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Procedure profile for brain imaging performed in the stroke pathway, with optional report linkage and timing context.",
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -130,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs"
       }
     },
     {
@@ -151,7 +151,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/imaging-type-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/imaging-type-vs"
       }
     },
     {
@@ -161,7 +161,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -173,7 +173,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },
@@ -192,7 +192,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-proce
       "short" : "Imaging diagnostic report",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile"]
       }],
       "mustSupport" : true
     }]

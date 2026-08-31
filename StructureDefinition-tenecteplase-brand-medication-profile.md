@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TenecteplaseBrandMedicationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TenecteplaseBrandMedicationProfile |
 
  
 Medication profile for tenecteplase with a specific brand name, used in the RES-Q registry to capture the use of tenecteplase in stroke treatment. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-tenecteplase-brand-m
 {
   "resourceType" : "StructureDefinition",
   "id" : "tenecteplase-brand-medication-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile",
   "version" : "1.0.0",
   "name" : "TenecteplaseBrandMedicationProfile",
   "title" : "Tenecteplase Brand Medication Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Medication profile for tenecteplase with a specific brand name, used in the RES-Q registry to capture the use of tenecteplase in stroke treatment.",
@@ -102,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-tenecteplase-brand-m
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/tenecteplase-brand-vs"
       }
     },
     {

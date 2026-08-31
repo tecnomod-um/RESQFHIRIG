@@ -3,24 +3,24 @@
   "id" : "swallow-procedures-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem swallow-procedures-cs</b></p><a name=\"swallow-procedures-cs\"> </a><a name=\"hcswallow-procedures-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/swallow-procedures-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">assist<a name=\"swallow-procedures-cs-assist\"> </a></td><td>ASSIST</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"swallow-procedures-cs-other\"> </a></td><td>Other Swallow Procedure</td></tr><tr><td style=\"white-space:nowrap\">v-vst<a name=\"swallow-procedures-cs-v-vst\"> </a></td><td>V-VST</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem swallow-procedures-cs</b></p><a name=\"swallow-procedures-cs\"> </a><a name=\"hcswallow-procedures-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/swallow-procedures-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">assist<a name=\"swallow-procedures-cs-assist\"> </a></td><td>ASSIST</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"swallow-procedures-cs-other\"> </a></td><td>Other Swallow Procedure</td></tr><tr><td style=\"white-space:nowrap\">v-vst<a name=\"swallow-procedures-cs-v-vst\"> </a></td><td>V-VST</td></tr></table></div>"
   },
-  "url" : "http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/swallow-procedures-cs",
   "version" : "1.0.0",
   "name" : "SwallowProceduresCS",
   "title" : "SwallowProceduresCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/swallow-procedures-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

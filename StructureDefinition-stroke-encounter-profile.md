@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeEncounterProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-encounter-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeEncounterProfile |
 
  
 Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability. 
@@ -40,19 +40,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-encounter-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-encounter-profile",
   "version" : "1.0.0",
   "name" : "StrokeEncounterProfile",
   "title" : "Stroke Encounter Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Index encounter for an acute stroke episode in the RES-Q registry. It records the patient, completed encounter state, admission and discharge pathway information, hospital locations, first-hospital status, EMS prenotification and post-acute-care applicability.",
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/first-hospital-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/first-hospital-ext"]
       }],
       "mustSupport" : true
     },
@@ -130,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext"]
       }],
       "mustSupport" : true
     },
@@ -143,7 +143,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/ems-prenotification-ext"]
       }],
       "mustSupport" : true
     },
@@ -156,7 +156,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/discharge-facility-type-ext"]
       }],
       "mustSupport" : true
     },
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/discharge-department-service-ext"]
       }],
       "mustSupport" : true
     },
@@ -193,7 +193,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -210,7 +210,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/admission-pathway-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/admission-pathway-vs"
       }
     },
     {
@@ -220,7 +220,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-encounter-pro
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/discharge-destination-vs"
       }
     },
     {

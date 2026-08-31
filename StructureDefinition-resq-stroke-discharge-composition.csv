@@ -80,7 +80,7 @@ Some reporting work flows require that the original narrative of a final documen
     <code value=""18842-5""/>
     <display value=""Discharge summary""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs","",,,,"Composition.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs","",,,,"Composition.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.class","./code",".code","DocumentReference.type"
 "Composition.category","Composition.category","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","Categorization of Composition","A categorization for the type of the composition - helps for indexing and searching. This may be implied by or derived from the code specified in the Composition Type.","","Helps humans to assess whether the composition is of interest when viewing an index of compositions or documents.","","","","","","","",,"example","High-level kind of a clinical document at a macro level.","http://hl7.org/fhir/ValueSet/referenced-item-category|5.0.0","",,,,"Composition.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -199,7 +199,7 @@ labelcaption","",1,1,"Y","","","string {[]} {[]}
 "Composition.section.code","Composition.section.code","","","",1,1,"Y","","","CodeableConcept {[]} {[]}
 ","Classification of section (recommended)","A code identifying the kind of content contained within the section. This must be consistent with the section title.","The code identifies the section for an automated processor of the document. This is particularly relevant when using profiles to control the structure of the document.   
 
-If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -254,7 +254,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""67851-6""/>
     <display value=""Admission evaluation note""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:admissionEvaluation.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -309,7 +309,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""11329-0""/>
     <display value=""History of general health Narrative""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:patientHistory.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -364,7 +364,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""11450-4""/>
     <display value=""Problem list - Reported""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:problemList.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -419,7 +419,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""8648-8""/>
     <display value=""Course of Encounter""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:hospitalCourse.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -474,7 +474,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""11535-2""/>
     <display value=""Hospital discharge diagnosis Narrative""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:diagnosticSummary.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -529,7 +529,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""10185-7""/>
     <display value=""Hospital discharge procedures""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:significantProcedures.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -584,7 +584,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""87232-5""/>
     <display value=""Medication administration brief""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:pharmacotherapy.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -639,7 +639,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""30954-2""/>
     <display value=""Relevant diagnostic tests/laboratory data Narrative""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:significantResults.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -694,7 +694,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""8716-3""/>
     <display value=""Vital signs note""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:vitalSigns.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -749,7 +749,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""47420-5""/>
     <display value=""Functional status assessment note""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:functionalStatus.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -804,7 +804,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""8650-4""/>
     <display value=""Hospital discharge disposition note""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:dischargeDetails.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -859,7 +859,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""75311-1""/>
     <display value=""Discharge medications Narrative""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:dischargeMedications.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -914,7 +914,7 @@ If the section has content (instead of sub-sections), the section.code does not 
     <code value=""18776-5""/>
     <display value=""Plan of care note""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code",".code"
 "Composition.section:planOfCare.author","Composition.section.author","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
 ","Who and/or what authored the section","Identifies who is responsible for the information in this section, not necessarily who typed it in.","","Identifies who is responsible for the content.","","","","","","","",,,,,"",,,,"Composition.section.author",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

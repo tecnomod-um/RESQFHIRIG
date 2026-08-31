@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:VitalSignObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:VitalSignObservationProfile |
 
  
 Observation profile for vital signs in the acute stroke pathway, especially blood pressure components. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
 {
   "resourceType" : "StructureDefinition",
   "id" : "vital-sign-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile",
   "version" : "1.0.0",
   "name" : "VitalSignObservationProfile",
   "title" : "Vital Sign Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for vital signs in the acute stroke pathway, especially blood pressure components.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/observation-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -142,7 +142,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
       "path" : "Observation.code",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/vital-signs-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/vital-signs-vs"
       }
     },
     {
@@ -158,7 +158,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/vital-signs-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/vital-signs-vs"
       }
     },
     {

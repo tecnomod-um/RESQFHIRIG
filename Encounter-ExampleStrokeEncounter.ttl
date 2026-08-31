@@ -7,34 +7,34 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://tecnomod-um.org/Encounter/ExampleStrokeEncounter> a fhir:Encounter ;
+<http://qualityregistry.org/Encounter/ExampleStrokeEncounter> a fhir:Encounter ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ExampleStrokeEncounter"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
-       fhir:link <http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile>
+       fhir:v "http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"^^xsd:anyURI ;
+       fhir:link <http://qualityregistry.org/StructureDefinition/stroke-encounter-profile>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter ExampleStrokeEncounter</b></p><a name=\"ExampleStrokeEncounter\"> </a><a name=\"hcExampleStrokeEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-stroke-encounter-profile.html\">Stroke Encounter Profile</a></p></div><p><b>First hospital for the stroke episode</b>: <a href=\"Organization-OrganizationExample.html\">Organization Example Healthcare Organization</a></p><p><b>Required post-acute care</b>: false</p><p><b>EMS prenotification</b>: true</p><p><b>status</b>: Completed</p><p><b>subject</b>: <a href=\"Patient-ExampleRESQPatient.html\">Anonymous Patient (no stated gender), DoB Unknown ( patient-001)</a></p><h3>Admissions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs ems-gp}\">EMS from GP</span></td><td><span title=\"Codes:{http://snomed.info/sct 306689006}\">Discharge to home (procedure)</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter ExampleStrokeEncounter</b></p><a name=\"ExampleStrokeEncounter\"> </a><a name=\"hcExampleStrokeEncounter\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-stroke-encounter-profile.html\">Stroke Encounter Profile</a></p></div><p><b>First hospital for the stroke episode</b>: <a href=\"Organization-OrganizationExample.html\">Organization Example Healthcare Organization</a></p><p><b>Required post-acute care</b>: false</p><p><b>EMS prenotification</b>: true</p><p><b>status</b>: Completed</p><p><b>subject</b>: <a href=\"Patient-ExampleRESQPatient.html\">Anonymous Patient (no stated gender), DoB Unknown ( patient-001)</a></p><h3>Admissions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs ems-gp}\">EMS from GP</span></td><td><span title=\"Codes:{http://snomed.info/sct 306689006}\">Discharge to home (procedure)</span></td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://tecnomod-um.org/StructureDefinition/first-hospital-ext"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://qualityregistry.org/StructureDefinition/first-hospital-ext"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://tecnomod-um.org/Organization/OrganizationExample> ;
+       fhir:link <http://qualityregistry.org/Organization/OrganizationExample> ;
        fhir:reference [ fhir:v "Organization/OrganizationExample" ]
      ]
   ] [
-     fhir:url [ fhir:v "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:boolean ;
        fhir:v false
      ]
   ] [
-     fhir:url [ fhir:v "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:boolean ;
        fhir:v true
@@ -42,13 +42,13 @@
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:subject [
-     fhir:link <http://tecnomod-um.org/Patient/ExampleRESQPatient> ;
+     fhir:link <http://qualityregistry.org/Patient/ExampleRESQPatient> ;
      fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
   ] ; # 
   fhir:admission [
      fhir:admitSource [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "ems-gp" ] ;
          fhir:display [ fhir:v "EMS from GP" ]
        ] )

@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-type-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeTypeVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/stroke-type-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeTypeVS |
 
  
 Allowed coded values for StrokeType 
 
  **References** 
 
-* Included into [StrokeDiagnosisCodeVS](ValueSet-stroke-diagnosis-code-vs.md)
+* Included into [Stroke Diagnosis Code ValueSet](ValueSet-stroke-diagnosis-code-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -45,19 +45,19 @@ Allowed coded values for StrokeType
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-type-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
+  "url" : "http://qualityregistry.org/ValueSet/stroke-type-vs",
   "version" : "1.0.0",
   "name" : "StrokeTypeVS",
   "title" : "StrokeType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for StrokeType",

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/post-stroke-complications-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:PostStrokeComplicationsVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/post-stroke-complications-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:PostStrokeComplicationsVS |
 
  
 Allowed coded values for PostStrokeComplications 
@@ -45,19 +45,19 @@ Allowed coded values for PostStrokeComplications
 {
   "resourceType" : "ValueSet",
   "id" : "post-stroke-complications-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/post-stroke-complications-vs",
+  "url" : "http://qualityregistry.org/ValueSet/post-stroke-complications-vs",
   "version" : "1.0.0",
   "name" : "PostStrokeComplicationsVS",
   "title" : "PostStrokeComplications ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for PostStrokeComplications",
@@ -101,7 +101,7 @@ Allowed coded values for PostStrokeComplications
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-post-stroke-complication-cs",
       "concept" : [{
         "code" : "Sores",
         "display" : "Sores"

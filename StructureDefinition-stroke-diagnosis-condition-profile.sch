@@ -12,9 +12,9 @@
   <sch:pattern>
     <sch:title>f:Condition</sch:title>
     <sch:rule context="f:Condition">
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext']) &gt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext']) &lt;= 1">extension with URL = 'http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext']) &gt;= 1">extension with URL = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext']) &lt;= 1">extension with URL = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>

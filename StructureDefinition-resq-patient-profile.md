@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-patient-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RESQPatientProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-patient-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RESQPatientProfile |
 
  
 Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension. 
@@ -40,19 +40,19 @@ Other representations of profile: [CSV](StructureDefinition-resq-patient-profile
 {
   "resourceType" : "StructureDefinition",
   "id" : "resq-patient-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/resq-patient-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/resq-patient-profile",
   "version" : "1.0.0",
   "name" : "RESQPatientProfile",
   "title" : "RESQ Patient Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension.",
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-patient-profile
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/gender-snomed-ext"]
       }],
       "mustSupport" : true
     },

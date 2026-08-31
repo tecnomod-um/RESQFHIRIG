@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/occupational-therapy-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:OccupationalTherapyVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/occupational-therapy-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:OccupationalTherapyVS |
 
  
 Allowed coded values for OccupationalTherapy 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "occupational-therapy-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
+  "url" : "http://qualityregistry.org/ValueSet/occupational-therapy-vs",
   "version" : "1.0.0",
   "name" : "OccupationalTherapyVS",
   "title" : "OccupationalTherapy ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for OccupationalTherapy",
@@ -81,7 +81,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/yes-no-not-required-cs",
       "concept" : [{
         "code" : "not-required",
         "display" : "Not Required"

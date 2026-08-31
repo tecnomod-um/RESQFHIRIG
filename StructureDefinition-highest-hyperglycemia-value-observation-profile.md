@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:HighestHyperglycemiaValueObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/highest-hyperglycemia-value-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:HighestHyperglycemiaValueObservationProfile |
 
  
 Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-highest-hyperglycemi
 {
   "resourceType" : "StructureDefinition",
   "id" : "highest-hyperglycemia-value-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
   "version" : "1.0.0",
   "name" : "HighestHyperglycemiaValueObservationProfile",
   "title" : "Highest Hyperglycemia Value Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for the highest recorded hyperglycemia value in the relevant stroke care interval.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-highest-hyperglycemi
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](StructureDefinition-highest-hyperglycemi
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/observation-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -130,7 +130,7 @@ Other representations of profile: [CSV](StructureDefinition-highest-hyperglycemi
       "path" : "Observation.code",
       "patternCodeableConcept" : {
         "coding" : [{
-          "system" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+          "system" : "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
           "code" : "highest-hyperglycemia-value",
           "display" : "Highest Hyperglycemia Value"
         }]

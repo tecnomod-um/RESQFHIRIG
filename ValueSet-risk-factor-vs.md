@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/risk-factor-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RiskFactorVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/risk-factor-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RiskFactorVS |
 
  
 Allowed coded values for RiskFactor 
@@ -45,19 +45,19 @@ Allowed coded values for RiskFactor
 {
   "resourceType" : "ValueSet",
   "id" : "risk-factor-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/risk-factor-vs",
+  "url" : "http://qualityregistry.org/ValueSet/risk-factor-vs",
   "version" : "1.0.0",
   "name" : "RiskFactorVS",
   "title" : "RiskFactor ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for RiskFactor",
@@ -141,7 +141,7 @@ Allowed coded values for RiskFactor
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/risk-factor-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other"

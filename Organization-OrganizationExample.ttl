@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://tecnomod-um.org/Organization/OrganizationExample> a fhir:Organization ;
+<http://qualityregistry.org/Organization/OrganizationExample> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "OrganizationExample"] ; # 
   fhir:text [

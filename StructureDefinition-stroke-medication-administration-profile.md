@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeMedicationAdministrationProfile |
 
  
 Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-medication-administration-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "StrokeMedicationAdministrationProfile",
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations.",
@@ -98,14 +98,14 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
         "severity" : "error",
         "human" : "If the medication administration was not done, a statusReason should be provided.",
         "expression" : "status != 'not-done' or statusReason.exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile"
       },
       {
         "key" : "medadm-status-reason-only-when-not-done",
         "severity" : "warning",
         "human" : "statusReason should only be present when status is not-done.",
         "expression" : "statusReason.exists().not() or status = 'not-done'",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile"
       }]
     },
     {
@@ -129,7 +129,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext"]
       }],
       "mustSupport" : true
     },
@@ -142,7 +142,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/assessment-timing-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/assessment-timing-ext"]
       }],
       "mustSupport" : true
     },
@@ -173,7 +173,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/not-medication-reason-vs"
       }
     },
     {
@@ -183,7 +183,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/medications-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/medications-vs"
       }
     },
     {
@@ -193,7 +193,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },

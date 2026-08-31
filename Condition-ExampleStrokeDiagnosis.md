@@ -31,10 +31,10 @@ Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnos
   "resourceType" : "Condition",
   "id" : "ExampleStrokeDiagnosis",
   "meta" : {
-    "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
+    "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"]
   },
   "extension" : [{
-    "url" : "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext",
+    "url" : "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext",
     "valueBoolean" : false
   }],
   "clinicalStatus" : {

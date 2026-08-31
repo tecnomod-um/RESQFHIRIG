@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:ThreeMonthContactModeObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:ThreeMonthContactModeObservationProfile |
 
  
 Observation profile for the modality used to obtain three-month follow-up information. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-three-month-contact-
 {
   "resourceType" : "StructureDefinition",
   "id" : "three-month-contact-mode-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile",
   "version" : "1.0.0",
   "name" : "ThreeMonthContactModeObservationProfile",
   "title" : "Three-Month Contact Mode Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for the modality used to obtain three-month follow-up information.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-three-month-contact-
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-three-month-contact-
       "short" : "Three-month contact mode",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/three-month-contact-mode-vs"
       }
     }]
   }

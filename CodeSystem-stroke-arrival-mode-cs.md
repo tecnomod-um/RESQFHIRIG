@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeArrivalModeCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeArrivalModeCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AdmissionPathwayVS](ValueSet-admission-pathway-vs.md)
+* [AdmissionPathway ValueSet](ValueSet-admission-pathway-vs.md)
 
 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "stroke-arrival-mode-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs",
   "version" : "1.0.0",
   "name" : "StrokeArrivalModeCS",
   "title" : "StrokeArrivalModeCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

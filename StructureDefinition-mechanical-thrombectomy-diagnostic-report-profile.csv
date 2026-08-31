@@ -50,14 +50,14 @@ Sub-departmentServiceDiscipline","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","FiveWs.class","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Report type","A code or name that describes this diagnostic report.","","","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/perforation-procedures-vs","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Report type","A code or name that describes this diagnostic report.","","","","","","","","","",,"extensible","","http://qualityregistry.org/ValueSet/perforation-procedures-vs","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]","OBR-4 (HL7 V2 doesn't provide an easy way to indicate both the ordered test and the performed panel)","code"
 "DiagnosticReport.subject","DiagnosticReport.subject","","Patient
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/resq-patient-profile]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://qualityregistry.org/StructureDefinition/resq-patient-profile]]}
 ","RES-Q registry patient","Patient who experienced the index stroke episode represented in this registry dataset.","","SHALL know the subject context.","","","","","","","",,,,,"",,,,"DiagnosticReport.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.subject","FiveWs.subject[x]","PID-3 (no HL7 V2 mapping for Group or Device)","participation[typeCode=SBJ]"
 "DiagnosticReport.encounter","DiagnosticReport.encounter","","Context
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://qualityregistry.org/StructureDefinition/stroke-encounter-profile]]}
 ","Index stroke encounter","Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.","This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter  but still be tied to the context of the encounter  (e.g. pre-admission laboratory tests).","Links the request to the Encounter context.","","","","","","","",,,,,"",,,,"DiagnosticReport.encounter",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.encounter","FiveWs.context","PV1-19","inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]"
 "DiagnosticReport.effective[x]","DiagnosticReport.effective[x]","","Observation time
@@ -80,7 +80,7 @@ Reported by","",0,*,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhi
 ","Specimens this report is based on","Details about the specimens on which this diagnostic report is based.","If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.","Need to be able to report information about the collected specimens on which the report is based.","","","","","","","",,,,,"",,,,"DiagnosticReport.specimen",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SPM","participation[typeCode=SBJ]"
 "DiagnosticReport.result","DiagnosticReport.result","","Data
-Atomic ValueResultAtomic resultDataTestAnalyteBatteryOrganizer","",1,*,"Y","","","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile]]}
+Atomic ValueResultAtomic resultDataTestAnalyteBatteryOrganizer","",1,*,"Y","","","Reference {[]} {[CanonicalType[http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile]]}
 ","Thrombectomy outcome observation such as mTICI","[Observations](http://hl7.org/fhir/R5/observation.html)  that are part of this diagnostic report.","Observations can contain observations.","Need to support individual results, or  groups of results, where the result grouping is arbitrary, but meaningful.","","","","","","","",,,,,"",,,,"DiagnosticReport.result",0,*,"dgr-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBXs","outboundRelationship[typeCode=COMP].target"

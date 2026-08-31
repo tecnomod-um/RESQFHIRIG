@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/nimodipinetiming-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:NimodipinetimingVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/nimodipinetiming-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:NimodipinetimingVS |
 
  
 Allowed coded values for Nimodipinetiming 
@@ -45,19 +45,19 @@ Allowed coded values for Nimodipinetiming
 {
   "resourceType" : "ValueSet",
   "id" : "nimodipinetiming-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs",
+  "url" : "http://qualityregistry.org/ValueSet/nimodipinetiming-vs",
   "version" : "1.0.0",
   "name" : "NimodipinetimingVS",
   "title" : "Nimodipinetiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for Nimodipinetiming",
@@ -70,7 +70,7 @@ Allowed coded values for Nimodipinetiming
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/timing-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/timing-cs",
       "concept" : [{
         "code" : "within-24-hours",
         "display" : "Within 24 Hours"

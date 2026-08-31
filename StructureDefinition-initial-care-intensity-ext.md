@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:InitialCareIntensityExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:InitialCareIntensityExt |
 
 Initial care intensity for hospitalized location, e.g. ICU/stroke unit, monitored bed, or standard bed.
 
@@ -47,18 +47,18 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext",
   "version" : "1.0.0",
   "name" : "InitialCareIntensityExt",
   "title" : "Initial care intensity",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Initial care intensity for hospitalized location, e.g. ICU/stroke unit, monitored bed, or standard bed.",
@@ -99,7 +99,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext"
     },
     {
       "id" : "Extension.value[x]",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/hospitalized-in-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/hospitalized-in-vs"
       }
     }]
   }

@@ -6,26 +6,26 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://tecnomod-um.org/ValueSet/stroke-treatment-vs> a fhir:ValueSet ;
+<http://qualityregistry.org/ValueSet/stroke-treatment-vs> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "stroke-treatment-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-treatment-vs</b></p><a name=\"stroke-treatment-vs\"> </a><a name=\"hcstroke-treatment-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1288015005\">1288015005</a></td><td>Decompressive craniectomy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/10458001\">10458001</a></td><td>Evacuation of intracerebral hematoma (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/43810009\">43810009</a></td><td>Removal of thrombus (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/36910002\">36910002</a></td><td>Excision of bone of cranium (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/77337009\">77337009</a></td><td>Stereotactic biopsy by aspiration of intracranial lesion (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/230869001\">230869001</a></td><td>External drainage procedure from ventricle of brain (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/21147007\">21147007</a></td><td>Closure by clip (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/1230010003\">1230010003</a></td><td>Percutaneous transluminal procedure on blood vessel (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/182764009\">182764009</a></td><td>Anticoagulant therapy (procedure)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-stroke-treatment-cs.html\"><code>http://tecnomod-um.org/CodeSystem/stroke-treatment-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-other\">other</a></td><td>Other Treatment</td></tr><tr><td><a href=\"CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-min-invasive\">min-invasive</a></td><td>Minimally Invasive Procedure</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet stroke-treatment-vs</b></p><a name=\"stroke-treatment-vs\"> </a><a name=\"hcstroke-treatment-vs\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1288015005\">1288015005</a></td><td>Decompressive craniectomy (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/10458001\">10458001</a></td><td>Evacuation of intracerebral hematoma (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/43810009\">43810009</a></td><td>Removal of thrombus (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/36910002\">36910002</a></td><td>Excision of bone of cranium (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/77337009\">77337009</a></td><td>Stereotactic biopsy by aspiration of intracranial lesion (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/230869001\">230869001</a></td><td>External drainage procedure from ventricle of brain (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/21147007\">21147007</a></td><td>Closure by clip (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/1230010003\">1230010003</a></td><td>Percutaneous transluminal procedure on blood vessel (procedure)</td></tr><tr><td><a href=\"http://snomed.info/id/182764009\">182764009</a></td><td>Anticoagulant therapy (procedure)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-stroke-treatment-cs.html\"><code>http://qualityregistry.org/CodeSystem/stroke-treatment-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-other\">other</a></td><td>Other Treatment</td></tr><tr><td><a href=\"CodeSystem-stroke-treatment-cs.html#stroke-treatment-cs-min-invasive\">min-invasive</a></td><td>Minimally Invasive Procedure</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://tecnomod-um.org/ValueSet/stroke-treatment-vs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://qualityregistry.org/ValueSet/stroke-treatment-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "StrokeTreatmentVS"] ; # 
   fhir:title [ fhir:v "StrokeTreatment ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-07-21T08:04:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-08-31T09:17:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+       fhir:value [ fhir:v "http://qualityregistry.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Allowed coded values for StrokeTreatment"] ; # 
@@ -68,7 +68,7 @@
          fhir:display [ fhir:v "Anticoagulant therapy (procedure)" ]
        ] )
      ] [
-       fhir:system [ fhir:v "http://tecnomod-um.org/CodeSystem/stroke-treatment-cs"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://qualityregistry.org/CodeSystem/stroke-treatment-cs"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "other" ] ;
          fhir:display [ fhir:v "Other Treatment" ]

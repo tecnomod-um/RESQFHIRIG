@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/hospitalized-location-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:HospitalizedLocationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/hospitalized-location-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:HospitalizedLocationProfile |
 
  
 Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
 {
   "resourceType" : "StructureDefinition",
   "id" : "hospitalized-location-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/hospitalized-location-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/hospitalized-location-profile",
   "version" : "1.0.0",
   "name" : "HospitalizedLocationProfile",
   "title" : "Hospitalized Location Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model.",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext"]
       }],
       "mustSupport" : true
     },
@@ -123,7 +123,7 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/admission-department-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/admission-department-vs"
       }
     }]
   }

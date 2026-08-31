@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:DischargeMedicationRequestProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/discharge-medication-request-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:DischargeMedicationRequestProfile |
 
  
 MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
 {
   "resourceType" : "StructureDefinition",
   "id" : "discharge-medication-request-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/discharge-medication-request-profile",
   "version" : "1.0.0",
   "name" : "DischargeMedicationRequestProfile",
   "title" : "Discharge MedicationRequest Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "MedicationRequest profile for medications prescribed or recommended at discharge after the index stroke encounter.",
@@ -133,7 +133,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/medications-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/medications-vs"
       }
     },
     {
@@ -143,7 +143,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -155,7 +155,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-medication
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     }]

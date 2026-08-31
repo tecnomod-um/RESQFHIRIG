@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:MimicsDiagnosisVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/mimics-diagnosis-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:MimicsDiagnosisVS |
 
  
 Allowed coded values for MimicsDiagnosis 
 
  **References** 
 
-* Included into [StrokeDiagnosisCodeVS](ValueSet-stroke-diagnosis-code-vs.md)
+* Included into [Stroke Diagnosis Code ValueSet](ValueSet-stroke-diagnosis-code-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -45,19 +45,19 @@ Allowed coded values for MimicsDiagnosis
 {
   "resourceType" : "ValueSet",
   "id" : "mimics-diagnosis-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
+  "url" : "http://qualityregistry.org/ValueSet/mimics-diagnosis-vs",
   "version" : "1.0.0",
   "name" : "MimicsDiagnosisVS",
   "title" : "MimicsDiagnosis ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for MimicsDiagnosis",
@@ -93,7 +93,7 @@ Allowed coded values for MimicsDiagnosis
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-mimics-diagnosis-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other Stroke Mimics Diagnosis"

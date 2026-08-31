@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
 
  
 DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
 {
   "resourceType" : "StructureDefinition",
   "id" : "mechanical-thrombectomy-diagnostic-report-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile",
   "version" : "1.0.0",
   "name" : "MechanicalThrombectomyDiagnosticReportProfile",
   "title" : "Mechanical Thrombectomy DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results.",
@@ -108,7 +108,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/perforation-procedures-vs"
       }
     },
     {
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -131,7 +131,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },
@@ -142,7 +142,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/specific-finding-observation-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile"]
       }],
       "mustSupport" : true
     }]

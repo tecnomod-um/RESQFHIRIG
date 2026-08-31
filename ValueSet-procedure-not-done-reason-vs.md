@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:ProcedureNotDoneReasonVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:ProcedureNotDoneReasonVS |
 
  
 Allowed coded values for ProcedureNotDoneReason 
@@ -50,19 +50,19 @@ Allowed coded values for ProcedureNotDoneReason
 {
   "resourceType" : "ValueSet",
   "id" : "procedure-not-done-reason-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs",
+  "url" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs",
   "version" : "1.0.0",
   "name" : "ProcedureNotDoneReasonVS",
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for ProcedureNotDoneReason",
@@ -75,7 +75,7 @@ Allowed coded values for ProcedureNotDoneReason
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-proc-not-done-reason-cs",
       "concept" : [{
         "code" : "done-elsewhere",
         "display" : "Performed Elsewhere"

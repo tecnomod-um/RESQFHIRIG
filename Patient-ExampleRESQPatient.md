@@ -25,10 +25,10 @@ Anonymous Patient (no stated gender), DoB Unknown ( patient-001)
   "resourceType" : "Patient",
   "id" : "ExampleRESQPatient",
   "meta" : {
-    "profile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+    "profile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
   },
   "extension" : [{
-    "url" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+    "url" : "http://qualityregistry.org/StructureDefinition/gender-snomed-ext",
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",

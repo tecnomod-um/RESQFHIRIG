@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AtrialFibrillationOrFlutterVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/atrial-fibrillation-or-flutter-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AtrialFibrillationOrFlutterVS |
 
  
 Allowed coded values for AtrialFibrillationOrFlutter 
 
  **References** 
 
-* Included into [SpecificFindingValueVS](ValueSet-specific-finding-value-vs.md)
+* Included into [Specific Finding Value ValueSet](ValueSet-specific-finding-value-vs.md)
 
 ### Logical Definition (CLD)
 
@@ -45,19 +45,19 @@ Allowed coded values for AtrialFibrillationOrFlutter
 {
   "resourceType" : "ValueSet",
   "id" : "atrial-fibrillation-or-flutter-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",
+  "url" : "http://qualityregistry.org/ValueSet/atrial-fibrillation-or-flutter-vs",
   "version" : "1.0.0",
   "name" : "AtrialFibrillationOrFlutterVS",
   "title" : "AtrialFibrillationOrFlutter ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for AtrialFibrillationOrFlutter",

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/medications-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:MedicationsVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/medications-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:MedicationsVS |
 
  
 Allowed coded values for Medications 
@@ -47,19 +47,19 @@ Allowed coded values for Medications
 {
   "resourceType" : "ValueSet",
   "id" : "medications-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/medications-vs",
+  "url" : "http://qualityregistry.org/ValueSet/medications-vs",
   "version" : "1.0.0",
   "name" : "MedicationsVS",
   "title" : "Medications ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for Medications",
@@ -72,7 +72,7 @@ Allowed coded values for Medications
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/medication-cs",
       "concept" : [{
         "code" : "antidiabetic",
         "display" : "Any Antidiabetic"

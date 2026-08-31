@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/base-stroke-observation | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:BaseStrokeObservation |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/base-stroke-observation | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:BaseStrokeObservation |
 
  
 Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
 {
   "resourceType" : "StructureDefinition",
   "id" : "base-stroke-observation",
-  "url" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "url" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "version" : "1.0.0",
   "name" : "BaseStrokeObservation",
   "title" : "Base Stroke Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context.",
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     }]

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:InsulinOnHyperglycemiaMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:InsulinOnHyperglycemiaMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for insulin administered in response to hyperglycemia. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-insulin-on-hyperglyc
 {
   "resourceType" : "StructureDefinition",
   "id" : "insulin-on-hyperglycemia-medication-administration-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "InsulinOnHyperglycemiaMedicationAdministrationProfile",
   "title" : "Insulin on Hyperglycemia MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "MedicationAdministration profile for insulin administered in response to hyperglycemia.",
@@ -83,7 +83,7 @@ Other representations of profile: [CSV](StructureDefinition-insulin-on-hyperglyc
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationAdministration",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-insulin-on-hyperglyc
       "path" : "MedicationAdministration.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/insulin-on-hyperglycemia-timing-vs"
       }
     },
     {
@@ -133,8 +133,8 @@ Other representations of profile: [CSV](StructureDefinition-insulin-on-hyperglyc
       "min" : 1,
       "type" : [{
         "code" : "CodeableReference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
-        "http://tecnomod-um.org/StructureDefinition/hyperglycemia-observation-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/hyperglycemia-observation-profile"]
       }]
     },
     {

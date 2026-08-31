@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/post-stroke-complication-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:PostStrokeComplicationConditionProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:PostStrokeComplicationConditionProfile |
 
  
 Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
 {
   "resourceType" : "StructureDefinition",
   "id" : "post-stroke-complication-condition-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/post-stroke-complication-condition-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile",
   "version" : "1.0.0",
   "name" : "PostStrokeComplicationConditionProfile",
   "title" : "Post-Stroke Complication Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Condition profile for complications occurring after the index stroke, including complications relevant to post-acute care and registry outcome tracking.",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/clinical-status-codes-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/clinical-status-codes-vs"
       }
     },
     {
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/post-stroke-complications-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/post-stroke-complications-vs"
       }
     },
     {
@@ -127,7 +127,7 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -139,7 +139,7 @@ Other representations of profile: [CSV](StructureDefinition-post-stroke-complica
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     }]

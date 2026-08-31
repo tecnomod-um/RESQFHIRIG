@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeTreatmentProcedureVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/stroke-treatment-procedure-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeTreatmentProcedureVS |
 
  
 Allowed coded values for PostStrokeProcedures 
@@ -45,19 +45,19 @@ Allowed coded values for PostStrokeProcedures
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-treatment-procedure-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
+  "url" : "http://qualityregistry.org/ValueSet/stroke-treatment-procedure-vs",
   "version" : "1.0.0",
   "name" : "StrokeTreatmentProcedureVS",
   "title" : "PostStrokeProcedures ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for PostStrokeProcedures",
@@ -70,10 +70,10 @@ Allowed coded values for PostStrokeProcedures
   }],
   "compose" : {
     "include" : [{
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/post-stroke-procedures-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/stroke-treatment-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/stroke-treatment-vs"]
     }]
   }
 }

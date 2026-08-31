@@ -6,29 +6,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://tecnomod-um.org/CodeSystem/management-appointment-cs> a fhir:CodeSystem ;
+<http://qualityregistry.org/CodeSystem/management-appointment-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "management-appointment-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">follow-up-appointment<a name=\"management-appointment-cs-follow-up-appointment\"> </a></td><td>Follow-up Appointment Status</td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem management-appointment-cs</b></p><a name=\"management-appointment-cs\"> </a><a name=\"hcmanagement-appointment-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/management-appointment-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">follow-up-appointment<a name=\"management-appointment-cs-follow-up-appointment\"> </a></td><td>Follow-up Appointment Status</td></tr><tr><td style=\"white-space:nowrap\">scheduled<a name=\"management-appointment-cs-scheduled\"> </a></td><td>Scheduled</td></tr><tr><td style=\"white-space:nowrap\">not-recommended<a name=\"management-appointment-cs-not-recommended\"> </a></td><td>Not Recommended</td></tr><tr><td style=\"white-space:nowrap\">not-scheduled<a name=\"management-appointment-cs-not-scheduled\"> </a></td><td>Not Scheduled</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://tecnomod-um.org/CodeSystem/management-appointment-cs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://qualityregistry.org/CodeSystem/management-appointment-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "ManagementAppointmentCS"] ; # 
   fhir:title [ fhir:v "ManagementAppointmentCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-07-21T08:04:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-08-31T09:17:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+       fhir:value [ fhir:v "http://qualityregistry.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs."] ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/management-appointment-cs."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

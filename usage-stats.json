@@ -5,70 +5,70 @@
   "jurisdiction": "ES",
   "extensions": [
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/assessment-timing-ext",
       "title": "Assessment or medication timing",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/discharge-department-service-ext",
       "title": "Discharge department or service",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/discharge-facility-type-ext",
       "title": "Discharge facility type",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext",
       "title": "EMS prenotification",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/first-hospital-ext",
       "title": "First hospital for the stroke episode",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/gender-snomed-ext",
       "title": "Gender represented with SNOMED CT",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext",
       "title": "Hemorrhagic stroke bleeding reason",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext",
       "title": "Initial care intensity",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext",
       "title": "Ischemic stroke etiology",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/observation-timing-context-ext",
       "title": "Observation timing context",
       "types": [
         "boolean",
@@ -77,28 +77,28 @@
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext",
       "title": "Post-acute care required",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext",
       "title": "Procedure timing context",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext",
       "title": "Required post-acute care",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext",
+      "url": "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext",
       "title": "Wake-up stroke",
       "types": [
         "boolean"
@@ -108,111 +108,111 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/three-month-contact-mode-observation-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile",
         "title": "Three-Month Contact Mode Observation Profile"
       },
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/tia-clinical-symptoms-observation-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/tia-clinical-symptoms-observation-profile",
         "title": "TIA Clinical Symptoms Observation Profile"
       },
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile",
         "title": "Timing Metric Observation Profile"
       },
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/vital-sign-observation-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile",
         "title": "Vital Sign Observation Profile"
       }
     ],
     "MedicationAdministration": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
         "title": "Stroke MedicationAdministration Profile"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/discharge-medication-request-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/discharge-medication-request-profile",
         "title": "Discharge MedicationRequest Profile"
       }
     ],
     "Location": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/resq-location-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/resq-location-profile",
         "title": "RESQ Location Profile"
       }
     ],
     "DiagnosticReport": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
         "title": "Stroke Imaging DiagnosticReport Profile"
       }
     ],
     "Condition": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile",
         "title": "Stroke Risk Factor Condition Profile"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/prior-medication-statement-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/prior-medication-statement-profile",
         "title": "Prior MedicationStatement Profile"
       }
     ],
     "BodyStructure": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/resq-body-structure-profile",
         "title": "RESQ BodyStructure Profile"
       }
     ],
     "Patient": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/resq-patient-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/resq-patient-profile",
         "title": "RESQ Patient Profile"
       }
     ],
     "PractitionerRole": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile",
         "title": "RESQ PractitionerRole Profile"
       }
     ],
     "Composition": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition",
+        "url": "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition",
         "title": "RESQ Stroke Hospital Discharge Composition"
       }
     ],
     "Procedure": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile",
         "title": "Stroke Swallowing Screening Procedure Profile"
       },
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-treatment-procedure-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-treatment-procedure-profile",
         "title": "Stroke Treatment Procedure Profile"
       },
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile",
         "title": "Stroke VTE Prophylaxis Procedure Profile"
       }
     ],
     "Encounter": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-encounter-profile",
         "title": "Stroke Encounter Profile"
       }
     ],
     "Organization": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile",
         "title": "Stroke Registry Organization Profile"
       }
     ],
     "Medication": [
       {
-        "url": "http://tecnomod-um.org/StructureDefinition/tenecteplase-brand-medication-profile",
+        "url": "http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile",
         "title": "Tenecteplase Brand Medication Profile"
       }
     ]
@@ -255,48 +255,48 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext": [
+    "http://qualityregistry.org/StructureDefinition/assessment-timing-ext": [
       "MedicationAdministration"
     ],
-    "http://tecnomod-um.org/StructureDefinition/discharge-department-service-ext": [
+    "http://qualityregistry.org/StructureDefinition/discharge-department-service-ext": [
       "Encounter"
     ],
-    "http://tecnomod-um.org/StructureDefinition/discharge-facility-type-ext": [
+    "http://qualityregistry.org/StructureDefinition/discharge-facility-type-ext": [
       "Encounter"
     ],
-    "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext": [
+    "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext": [
       "Encounter"
     ],
-    "http://tecnomod-um.org/StructureDefinition/first-hospital-ext": [
+    "http://qualityregistry.org/StructureDefinition/first-hospital-ext": [
       "Encounter"
     ],
-    "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext": [
+    "http://qualityregistry.org/StructureDefinition/gender-snomed-ext": [
       "Patient"
     ],
-    "http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
+    "http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext": [
       "Condition"
     ],
-    "http://tecnomod-um.org/StructureDefinition/initial-care-intensity-ext": [
+    "http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext": [
       "Location"
     ],
-    "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext": [
+    "http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext": [
       "Condition"
     ],
-    "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext": [
+    "http://qualityregistry.org/StructureDefinition/observation-timing-context-ext": [
       "Observation"
     ],
-    "http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext": [
+    "http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext": [
       "Procedure"
     ],
-    "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext": [
+    "http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext": [
       "Procedure"
     ],
-    "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext": [
+    "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext": [
       "Encounter",
       "MedicationAdministration",
       "Observation"
     ],
-    "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext": [
+    "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext": [
       "Condition"
     ]
   }

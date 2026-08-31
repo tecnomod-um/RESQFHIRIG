@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TenecteplaseBrandVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/tenecteplase-brand-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TenecteplaseBrandVS |
 
  
 Allowed coded values for TenecteplaseBrand 
@@ -45,19 +45,19 @@ Allowed coded values for TenecteplaseBrand
 {
   "resourceType" : "ValueSet",
   "id" : "tenecteplase-brand-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs",
+  "url" : "http://qualityregistry.org/ValueSet/tenecteplase-brand-vs",
   "version" : "1.0.0",
   "name" : "TenecteplaseBrandVS",
   "title" : "TenecteplaseBrand ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for TenecteplaseBrand",
@@ -70,7 +70,7 @@ Allowed coded values for TenecteplaseBrand
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/tenecteplase-brand-cs",
       "concept" : [{
         "code" : "metalyse",
         "display" : "Metalyse (Boehringer Ingelheim International)"

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:SwallowingScreeningDoneVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/swallowing-screening-done-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:SwallowingScreeningDoneVS |
 
  
 Allowed coded values for SwallowingScreeningDone 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "swallowing-screening-done-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs",
+  "url" : "http://qualityregistry.org/ValueSet/swallowing-screening-done-vs",
   "version" : "1.0.0",
   "name" : "SwallowingScreeningDoneVS",
   "title" : "SwallowingScreeningDone ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for SwallowingScreeningDone",

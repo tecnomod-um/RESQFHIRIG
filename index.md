@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:RESQStrokeIG |
+| *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -65,7 +65,7 @@ flowchart LR
 
 ## Known normalization notes
 
-The Python builders include both `required-post-acute-care-ext` and `post-acute-care-required-ext`. Both are preserved as separate extension URLs because both appear in the implementation. The MedicationAdministration builders also contain a typo URL `http://tecnomod-um-org/StructureDefinition/assessment-timing-ext`; the IG normalizes this to `http://tecnomod-um.org/StructureDefinition/assessment-timing-ext`.
+The Python builders include both `required-post-acute-care-ext` and `post-acute-care-required-ext`. Both are preserved as separate extension URLs because both appear in the implementation. The MedicationAdministration builders also contain a typo URL `http://tecnomod-um-org/StructureDefinition/assessment-timing-ext`; the IG normalizes this to `http://qualityregistry.org/StructureDefinition/assessment-timing-ext`.
 
 
 
@@ -75,18 +75,18 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
 {
   "resourceType" : "ImplementationGuide",
   "id" : "RESQFHIRIG",
-  "url" : "http://tecnomod-um.org/ImplementationGuide/RESQFHIRIG",
+  "url" : "http://qualityregistry.org/ImplementationGuide/RESQFHIRIG",
   "version" : "1.0.0",
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "jurisdiction" : [{
@@ -107,7 +107,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r5",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r5",
@@ -213,7 +213,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/analytics-codes-cs"
       },
       "name" : "AnalyticsCodesCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/analytics-codes-cs.",
       "isExample" : false
     },
     {
@@ -309,7 +309,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/assessment-context-cs"
       },
       "name" : "AssessmentContextCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/assessment-context-cs.",
       "isExample" : false
     },
     {
@@ -405,7 +405,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/brain-imaging-type-cs"
       },
       "name" : "BrainImagingTypeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/brain-imaging-type-cs.",
       "isExample" : false
     },
     {
@@ -437,7 +437,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/carotid-endarterectomy-timing-cs"
       },
       "name" : "CarotidEndarterectomyTimingCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/carotid-endarterectomy-timing-cs.",
       "isExample" : false
     },
     {
@@ -533,7 +533,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/discharge-dept-cs"
       },
       "name" : "DischargeDeptCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-dept-cs.",
       "isExample" : false
     },
     {
@@ -597,7 +597,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/discharge-medication-cs"
       },
       "name" : "DischargeMedicationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-medication-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-cs.",
       "isExample" : false
     },
     {
@@ -630,7 +630,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "ExampleDoorToNeedle",
       "isExample" : true,
-      "profile" : ["http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"]
+      "profile" : ["http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile"]
     },
     {
       "extension" : [{
@@ -646,7 +646,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "ExampleRESQPatient",
       "isExample" : true,
-      "profile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+      "profile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
     },
     {
       "extension" : [{
@@ -662,7 +662,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "ExampleStrokeDiagnosis",
       "isExample" : true,
-      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"]
     },
     {
       "extension" : [{
@@ -678,7 +678,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "ExampleStrokeEncounter",
       "isExample" : true,
-      "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
     },
     {
       "extension" : [{
@@ -741,7 +741,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/first-contact-place-cs"
       },
       "name" : "FirstContactPlaceCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/first-contact-place-cs.",
       "isExample" : false
     },
     {
@@ -789,7 +789,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/functional-score-cs"
       },
       "name" : "FunctionalScoreCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/functional-score-cs.",
       "isExample" : false
     },
     {
@@ -917,7 +917,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/hemorrhagic-stroke-bleeding-reason-cs"
       },
       "name" : "HemorrhagicStrokeBleedingReasonCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs.",
       "isExample" : false
     },
     {
@@ -949,7 +949,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/hemorrhagic-transformation-type-cs"
       },
       "name" : "HemorrhagicTransformationTypeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/hemorrhagic-transformation-type-cs.",
       "isExample" : false
     },
     {
@@ -1077,7 +1077,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/initial-care-intensity-cs"
       },
       "name" : "InitialCareIntensityCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/initial-care-intensity-cs.",
       "isExample" : false
     },
     {
@@ -1125,7 +1125,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/insulin-hyperglycemia-time-cs"
       },
       "name" : "InsulinHyperglycemiaTimeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/insulin-hyperglycemia-time-cs.",
       "isExample" : false
     },
     {
@@ -1221,7 +1221,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/location-cs"
       },
       "name" : "LocationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/location-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/location-cs.",
       "isExample" : false
     },
     {
@@ -1269,7 +1269,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/management-appointment-cs"
       },
       "name" : "ManagementAppointmentCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/management-appointment-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/management-appointment-cs.",
       "isExample" : false
     },
     {
@@ -1301,7 +1301,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/medication-cs"
       },
       "name" : "MedicationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/medication-cs.",
       "isExample" : false
     },
     {
@@ -1365,7 +1365,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/mrs-score-cs"
       },
       "name" : "MrsScoreCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mrs-score-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/mrs-score-cs.",
       "isExample" : false
     },
     {
@@ -1381,7 +1381,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/mtici-code-cs"
       },
       "name" : "MticiCodeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-code-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/mtici-code-cs.",
       "isExample" : false
     },
     {
@@ -1413,7 +1413,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/mtici-score-cs"
       },
       "name" : "MticiScoreCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mtici-score-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/mtici-score-cs.",
       "isExample" : false
     },
     {
@@ -1493,7 +1493,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/not-medication-reason-cs"
       },
       "name" : "NotMedicationReasonCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/not-medication-reason-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/not-medication-reason-cs.",
       "isExample" : false
     },
     {
@@ -1541,7 +1541,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/old-infarct-cs"
       },
       "name" : "OldInfarctCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/old-infarct-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/old-infarct-cs.",
       "isExample" : false
     },
     {
@@ -1652,7 +1652,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/perfusion-volume-cs"
       },
       "name" : "PerfusionVolumeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/perfusion-volume-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/perfusion-volume-cs.",
       "isExample" : false
     },
     {
@@ -1860,7 +1860,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/procedure-timing-context-cs"
       },
       "name" : "ProcedureTimingContextCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/procedure-timing-context-cs.",
       "isExample" : false
     },
     {
@@ -2020,7 +2020,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/risk-factor-cs"
       },
       "name" : "RiskFactorCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/risk-factor-cs.",
       "isExample" : false
     },
     {
@@ -2116,7 +2116,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/specific-finding-cs"
       },
       "name" : "SpecificFindingCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/specific-finding-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/specific-finding-cs.",
       "isExample" : false
     },
     {
@@ -2356,7 +2356,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-arrival-mode-cs"
       },
       "name" : "StrokeArrivalModeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs.",
       "isExample" : false
     },
     {
@@ -2388,7 +2388,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-circumstance-codes-cs"
       },
       "name" : "StrokeCircumstanceCodesCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-circumstance-codes-cs.",
       "isExample" : false
     },
     {
@@ -2404,7 +2404,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-discharge-destination-cs"
       },
       "name" : "StrokeDischargeDestinationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-discharge-destination-cs.",
       "isExample" : false
     },
     {
@@ -2420,7 +2420,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-discharge-summary-section-cs"
       },
       "name" : "StrokeDischargeSummarySectionCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-discharge-summary-section-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs.",
       "isExample" : false
     },
     {
@@ -2452,7 +2452,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-etiology-cs"
       },
       "name" : "StrokeEtiologyCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-etiology-cs.",
       "isExample" : false
     },
     {
@@ -2484,7 +2484,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-etiology-other-cs"
       },
       "name" : "StrokeEtiologyOtherCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-etiology-other-cs.",
       "isExample" : false
     },
     {
@@ -2500,7 +2500,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-mimics-diagnosis-cs"
       },
       "name" : "StrokeMimicsDiagnosisCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-mimics-diagnosis-cs.",
       "isExample" : false
     },
     {
@@ -2516,7 +2516,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-post-stroke-complication-cs"
       },
       "name" : "StrokePostStrokeComplicationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-post-stroke-complication-cs.",
       "isExample" : false
     },
     {
@@ -2532,7 +2532,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-proc-not-done-reason-cs"
       },
       "name" : "StrokeProcNotDoneReasonCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-proc-not-done-reason-cs.",
       "isExample" : false
     },
     {
@@ -2564,7 +2564,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/stroke-treatment-cs"
       },
       "name" : "StrokeTreatmentCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/stroke-treatment-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-treatment-cs.",
       "isExample" : false
     },
     {
@@ -2644,7 +2644,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/swallow-procedures-cs"
       },
       "name" : "SwallowProceduresCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-procedures-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/swallow-procedures-cs.",
       "isExample" : false
     },
     {
@@ -2660,7 +2660,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/swallow-screen-time-cs"
       },
       "name" : "SwallowScreenTimeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/swallow-screen-time-cs.",
       "isExample" : false
     },
     {
@@ -2676,7 +2676,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/symptoms-cs"
       },
       "name" : "SymptomsCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/symptoms-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/symptoms-cs.",
       "isExample" : false
     },
     {
@@ -2740,7 +2740,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/tenecteplase-brand-cs"
       },
       "name" : "TenecteplaseBrandCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/tenecteplase-brand-cs.",
       "isExample" : false
     },
     {
@@ -2788,7 +2788,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/three-month-contact-mode-cs"
       },
       "name" : "ThreeMonthContactModeCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/three-month-contact-mode-cs.",
       "isExample" : false
     },
     {
@@ -2820,7 +2820,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/thrombectomy-complications-cs"
       },
       "name" : "ThrombectomyComplicationsCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/thrombectomy-complications-cs.",
       "isExample" : false
     },
     {
@@ -2884,7 +2884,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/tia-symptom-duration-cs"
       },
       "name" : "TiaSymptomDurationCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/tia-symptom-duration-cs.",
       "isExample" : false
     },
     {
@@ -2916,7 +2916,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/timing-cs"
       },
       "name" : "TimingCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-cs.",
       "isExample" : false
     },
     {
@@ -2948,7 +2948,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/timing-metric-codes-cs"
       },
       "name" : "TimingMetricCodesCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-metric-codes-cs.",
       "isExample" : false
     },
     {
@@ -3012,7 +3012,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/vital-signs-cs"
       },
       "name" : "VitalSignsCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vital-signs-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/vital-signs-cs.",
       "isExample" : false
     },
     {
@@ -3044,7 +3044,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/vte-procedures-cs"
       },
       "name" : "VteProceduresCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vte-procedures-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/vte-procedures-cs.",
       "isExample" : false
     },
     {
@@ -3076,7 +3076,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "CodeSystem/yes-no-not-required-cs"
       },
       "name" : "YesNoNotRequiredCs CodeSystem",
-      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs.",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/yes-no-not-required-cs.",
       "isExample" : false
     }],
     "page" : {
@@ -3294,7 +3294,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "path-history"
       },
-      "value" : "http://tecnomod-um.org/history.html"
+      "value" : "http://qualityregistry.org/history.html"
     },
     {
       "code" : {

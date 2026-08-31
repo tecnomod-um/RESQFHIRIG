@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/admission-department-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AdmissionDepartmentVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/admission-department-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AdmissionDepartmentVS |
 
  
 Allowed coded values for AdmissionDepartment 
@@ -45,19 +45,19 @@ Allowed coded values for AdmissionDepartment
 {
   "resourceType" : "ValueSet",
   "id" : "admission-department-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/admission-department-vs",
+  "url" : "http://qualityregistry.org/ValueSet/admission-department-vs",
   "version" : "1.0.0",
   "name" : "AdmissionDepartmentVS",
   "title" : "AdmissionDepartment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for AdmissionDepartment",
@@ -89,7 +89,7 @@ Allowed coded values for AdmissionDepartment
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/location-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/location-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other Location"

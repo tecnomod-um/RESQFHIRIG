@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/nimodipine-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:NimodipineMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/nimodipine-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:NimodipineMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-nimodipine-medicatio
 {
   "resourceType" : "StructureDefinition",
   "id" : "nimodipine-medication-administration-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/nimodipine-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/nimodipine-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "NimodipineMedicationAdministrationProfile",
   "title" : "Nimodipine MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway.",
@@ -83,7 +83,7 @@ Other representations of profile: [CSV](StructureDefinition-nimodipine-medicatio
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationAdministration",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -100,7 +100,7 @@ Other representations of profile: [CSV](StructureDefinition-nimodipine-medicatio
       "path" : "MedicationAdministration.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/nimodipinetiming-vs"
       }
     },
     {

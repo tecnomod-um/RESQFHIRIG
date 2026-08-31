@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeRegistryOrganizationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeRegistryOrganizationProfile |
 
  
 Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-registry-orga
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-registry-organization-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-registry-organization-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile",
   "version" : "1.0.0",
   "name" : "StrokeRegistryOrganizationProfile",
   "title" : "Stroke Registry Organization Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier.",

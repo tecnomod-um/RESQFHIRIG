@@ -50,14 +50,14 @@ Sub-departmentServiceDiscipline","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","FiveWs.class","OBR-24","inboundRelationship[typeCode=COMP].source[classCode=LIST, moodCode=EVN, code < LabService].code"
 "DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Report type","A code or name that describes this diagnostic report.","","","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/imaging-type-vs","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Report type","A code or name that describes this diagnostic report.","","","","","","","","","",,"extensible","","http://qualityregistry.org/ValueSet/imaging-type-vs","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","FiveWs.what[x]","OBR-4 (HL7 V2 doesn't provide an easy way to indicate both the ordered test and the performed panel)","code"
 "DiagnosticReport.subject","DiagnosticReport.subject","","Patient
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/resq-patient-profile]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://qualityregistry.org/StructureDefinition/resq-patient-profile]]}
 ","RES-Q registry patient","Patient who experienced the index stroke episode represented in this registry dataset.","","SHALL know the subject context.","","","","","","","",,,,,"",,,,"DiagnosticReport.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.subject","FiveWs.subject[x]","PID-3 (no HL7 V2 mapping for Group or Device)","participation[typeCode=SBJ]"
 "DiagnosticReport.encounter","DiagnosticReport.encounter","","Context
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://qualityregistry.org/StructureDefinition/stroke-encounter-profile]]}
 ","Index stroke encounter","Encounter that anchors the clinical fact to the acute stroke episode and hospital pathway.","This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter  but still be tied to the context of the encounter  (e.g. pre-admission laboratory tests).","Links the request to the Encounter context.","","","","","","","",,,,,"",,,,"DiagnosticReport.encounter",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.encounter","FiveWs.context","PV1-19","inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]"
 "DiagnosticReport.effective[x]","DiagnosticReport.effective[x]","","Observation time
@@ -144,7 +144,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Clinical conclusion (interpretation) of test results","Concise and clinically contextualized summary conclusion (interpretation/impression) of the diagnostic report.","","Need to be able to provide a conclusion that is not lost among the basic result data.","","","","","","","",,,,,"",,,,"DiagnosticReport.conclusion",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBX","inboundRelationship[typeCode=""SPRT""].source[classCode=OBS, moodCode=EVN, code=LOINC:48767-8].value (type=ST)"
 "DiagnosticReport.conclusionCode","DiagnosticReport.conclusionCode","","","",0,*,"Y","","","CodeableConcept {[]} {[]}
-","Coded imaging conclusion","One or more codes that represent the summary conclusion (interpretation/impression) of the diagnostic report.","","","","","","","","","",,"extensible","","http://tecnomod-um.org/ValueSet/specific-finding-vs","",,,,"DiagnosticReport.conclusionCode",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Coded imaging conclusion","One or more codes that represent the summary conclusion (interpretation/impression) of the diagnostic report.","","","","","","","","","",,"extensible","","http://qualityregistry.org/ValueSet/specific-finding-vs","",,,,"DiagnosticReport.conclusionCode",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBX","inboundRelationship[typeCode=SPRT].source[classCode=OBS, moodCode=EVN, code=LOINC:54531-9].value (type=CD)"
 "DiagnosticReport.presentedForm","DiagnosticReport.presentedForm","","","",0,*,"","","","Attachment {[]} {[]}
 ","Entire report as issued","Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they SHALL be semantically equivalent.","""application/pdf"" is recommended as the most reliable and interoperable in this context.","Gives laboratory the ability to provide its own fully formatted report for clinical fidelity.","","","","","","","",,,,,"",,,,"DiagnosticReport.presentedForm",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

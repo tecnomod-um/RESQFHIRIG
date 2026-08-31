@@ -1,6 +1,6 @@
 {
   "codeSystems" : [{
-    "url" : "http://tecnomod-um.org/ValueSet/adherence-codes-vs",
+    "url" : "http://qualityregistry.org/ValueSet/adherence-codes-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AdherenceCodesVS",
@@ -9,57 +9,57 @@
     "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-adherence"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/admission-department-vs",
+    "url" : "http://qualityregistry.org/ValueSet/admission-department-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AdmissionDepartmentVS",
     "title" : "AdmissionDepartment ValueSet",
     "description" : "Allowed coded values for AdmissionDepartment",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/location-cs"]
+    "http://qualityregistry.org/CodeSystem/location-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/admission-pathway-vs",
+    "url" : "http://qualityregistry.org/ValueSet/admission-pathway-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AdmissionPathwayVS",
     "title" : "AdmissionPathway ValueSet",
     "description" : "Allowed coded values for AdmissionPathway",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs",
+    "url" : "http://qualityregistry.org/ValueSet/analitics-codes-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AnaliticsCodesVS",
     "title" : "AnaliticsCodes ValueSet",
     "description" : "Allowed coded values for AnaliticsCodes",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
-    "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/timing-metric-codes-cs",
+    "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
+    "url" : "http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AnticoagulantReversalVS",
     "title" : "AnticoagulantReversal ValueSet",
     "description" : "Allowed coded values for AnticoagulantReversal",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/assessment-context-vs",
+    "url" : "http://qualityregistry.org/ValueSet/assessment-context-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AssessmentContextVS",
     "title" : "AssessmentContext ValueSet",
     "description" : "Allowed coded values for AssessmentContext",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/assessment-context-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs",
+    "url" : "http://qualityregistry.org/ValueSet/atrial-fibrillation-or-flutter-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "AtrialFibrillationOrFlutterVS",
@@ -68,17 +68,17 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/bleeding-reason-vs",
+    "url" : "http://qualityregistry.org/ValueSet/bleeding-reason-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "BleedingReasonVS",
     "title" : "BleedingReason ValueSet",
     "description" : "Allowed coded values for BleedingReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
+    "url" : "http://qualityregistry.org/ValueSet/body-sites-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "BodySitesVS",
@@ -87,7 +87,7 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/bool-vs",
+    "url" : "http://qualityregistry.org/ValueSet/bool-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "BoolVS",
@@ -96,16 +96,16 @@
     "systems" : ["http://hl7.org/fhir/bool"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/carotid-endarterectomy-timing-vs",
+    "url" : "http://qualityregistry.org/ValueSet/carotid-endarterectomy-timing-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "CarotidEndarterectomyTimingVS",
     "title" : "CarotidEndarterectomyTiming ValueSet",
     "description" : "Allowed coded values for CarotidEndarterectomyTiming",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/carotid-endarterectomy-timing-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/carotid-endarterectomy-timing-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/carotid-stenosis-level-vs",
+    "url" : "http://qualityregistry.org/ValueSet/carotid-stenosis-level-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "CarotidStenosisLevelVS",
@@ -114,7 +114,7 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/clinical-status-codes-vs",
+    "url" : "http://qualityregistry.org/ValueSet/clinical-status-codes-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ClinicalStatusCodesVS",
@@ -123,56 +123,56 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
+    "url" : "http://qualityregistry.org/ValueSet/discharge-destination-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "DischargeDestinationVS",
     "title" : "DischargeDestination ValueSet",
     "description" : "Allowed coded values for DischargeDestination",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-discharge-destination-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/discharge-facility-department-vs",
+    "url" : "http://qualityregistry.org/ValueSet/discharge-facility-department-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "DischargeFacilityDepartmentVS",
     "title" : "DischargeFacilityDepartment ValueSet",
     "description" : "Allowed coded values for DischargeFacilityDepartment",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/discharge-dept-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/discharge-dept-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/discharge-facility-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/discharge-facility-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "DischargeFacilityTypeVS",
     "title" : "DischargeFacilityType ValueSet",
     "description" : "Allowed coded values for DischargeFacilityType",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-discharge-destination-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/first-contact-place-vs",
+    "url" : "http://qualityregistry.org/ValueSet/first-contact-place-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "FirstContactPlaceVS",
     "title" : "FirstContactPlace ValueSet",
     "description" : "Allowed coded values for FirstContactPlace",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/location-cs"]
+    "http://qualityregistry.org/CodeSystem/location-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/functional-score-vs",
+    "url" : "http://qualityregistry.org/ValueSet/functional-score-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "FunctionalScoreVS",
     "title" : "FunctionalScore ValueSet",
     "description" : "Allowed coded values for FunctionalScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/functional-score-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/functional-score-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/gcsscore-vs",
+    "url" : "http://qualityregistry.org/ValueSet/gcsscore-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "GCSScoreVS",
@@ -181,7 +181,7 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/glasgow-coma-scale-vs",
+    "url" : "http://qualityregistry.org/ValueSet/glasgow-coma-scale-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "GlasgowComaScaleVS",
@@ -190,35 +190,35 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/hemorrhagic-transformation-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "HemorrhagicTransformationTypeVS",
     "title" : "HemorrhagicTransformationType ValueSet",
     "description" : "Allowed coded values for HemorrhagicTransformationType",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/hemorrhagic-transformation-type-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/hospitalized-in-vs",
+    "url" : "http://qualityregistry.org/ValueSet/hospitalized-in-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "HospitalizedInVS",
     "title" : "HospitalizedIn ValueSet",
     "description" : "Allowed coded values for HospitalizedIn",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/initial-care-intensity-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/imaging-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/imaging-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ImagingTypeVS",
     "title" : "ImagingType ValueSet",
     "description" : "Allowed coded values for ImagingType",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/in-hospital-vs",
+    "url" : "http://qualityregistry.org/ValueSet/in-hospital-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "InHospitalVS",
@@ -227,7 +227,7 @@
     "systems" : ["http://hl7.org/fhir/in-hospital"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/inrmode-vs",
+    "url" : "http://qualityregistry.org/ValueSet/inrmode-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "INRmodeVS",
@@ -236,36 +236,36 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/insulin-on-hyperglycemia-timing-vs",
+    "url" : "http://qualityregistry.org/ValueSet/insulin-on-hyperglycemia-timing-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "InsulinOnHyperglycemiaTimingVS",
     "title" : "InsulinOnHyperglycemiaTiming ValueSet",
     "description" : "Allowed coded values for InsulinOnHyperglycemiaTiming",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/insulin-hyperglycemia-time-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/insulin-hyperglycemia-time-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/ivt-application-department-vs",
+    "url" : "http://qualityregistry.org/ValueSet/ivt-application-department-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "IvtApplicationDepartmentVS",
     "title" : "IvtApplicationDepartment ValueSet",
     "description" : "Allowed coded values for IvtApplicationDepartment",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/location-cs"]
+    "http://qualityregistry.org/CodeSystem/location-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/ivt-drug-vs",
+    "url" : "http://qualityregistry.org/ValueSet/ivt-drug-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "IvtDrugVS",
     "title" : "IvtDrug ValueSet",
     "description" : "Allowed coded values for IvtDrug",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/laterality-vs",
+    "url" : "http://qualityregistry.org/ValueSet/laterality-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "LateralityVS",
@@ -274,103 +274,103 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",
+    "url" : "http://qualityregistry.org/ValueSet/management-appointment-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ManagementAppointmentVS",
     "title" : "ManagementAppointment ValueSet",
     "description" : "Allowed coded values for ManagementAppointment",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/management-appointment-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/management-appointment-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/medications-vs",
+    "url" : "http://qualityregistry.org/ValueSet/medications-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "MedicationsVS",
     "title" : "Medications ValueSet",
     "description" : "Allowed coded values for Medications",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/medication-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/medication-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs",
+    "url" : "http://qualityregistry.org/ValueSet/mimics-diagnosis-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "MimicsDiagnosisVS",
     "title" : "MimicsDiagnosis ValueSet",
     "description" : "Allowed coded values for MimicsDiagnosis",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-mimics-diagnosis-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/mrs-score-vs",
+    "url" : "http://qualityregistry.org/ValueSet/mrs-score-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "MRsScoreVS",
     "title" : "MRsScore ValueSet",
     "description" : "Allowed coded values for MRsScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mrs-score-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/mrs-score-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/mtici-score-vs",
+    "url" : "http://qualityregistry.org/ValueSet/mtici-score-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "MTiciScoreVS",
     "title" : "MTiciScore ValueSet",
     "description" : "Allowed coded values for MTiciScore",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/mtici-score-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/nimodipinetiming-vs",
+    "url" : "http://qualityregistry.org/ValueSet/nimodipinetiming-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "NimodipinetimingVS",
     "title" : "Nimodipinetiming ValueSet",
     "description" : "Allowed coded values for Nimodipinetiming",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/timing-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/not-medication-reason-vs",
+    "url" : "http://qualityregistry.org/ValueSet/not-medication-reason-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "NotMedicationReasonVS",
     "title" : "NotMedicationReason ValueSet",
     "description" : "Allowed coded values for NotMedicationReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/not-medication-reason-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/occupational-therapy-vs",
+    "url" : "http://qualityregistry.org/ValueSet/occupational-therapy-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "OccupationalTherapyVS",
     "title" : "OccupationalTherapy ValueSet",
     "description" : "Allowed coded values for OccupationalTherapy",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/yes-no-not-required-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/yes-no-not-required-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/paracetamol-on-fever-timing-vs",
+    "url" : "http://qualityregistry.org/ValueSet/paracetamol-on-fever-timing-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ParacetamolOnFeverTimingVS",
     "title" : "ParacetamolOnFeverTiming ValueSet",
     "description" : "Allowed coded values for ParacetamolOnFeverTiming",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/timing-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/timing-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/paracetamol-on-fever-vs",
+    "url" : "http://qualityregistry.org/ValueSet/paracetamol-on-fever-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ParacetamolOnFeverVS",
     "title" : "ParacetamolOnFever ValueSet",
     "description" : "Allowed coded values for ParacetamolOnFever",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/not-medication-reason-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/not-medication-reason-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs",
+    "url" : "http://qualityregistry.org/ValueSet/perforation-procedures-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PerforationProceduresVS",
@@ -379,47 +379,47 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/post-acute-care-vs",
+    "url" : "http://qualityregistry.org/ValueSet/post-acute-care-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PostAcuteCareVS",
     "title" : "PostAcuteCare ValueSet",
     "description" : "Allowed coded values for PostAcuteCare",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/procedure-timing-context-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/post-neurosurgery-imaging-vs",
+    "url" : "http://qualityregistry.org/ValueSet/post-neurosurgery-imaging-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PostNeurosurgeryImagingVS",
     "title" : "PostNeurosurgeryImaging ValueSet",
     "description" : "Allowed coded values for PostNeurosurgeryImaging",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/post-recanalization-imaging-vs",
+    "url" : "http://qualityregistry.org/ValueSet/post-recanalization-imaging-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PostRecanalizationImagingVS",
     "title" : "PostRecanalizationImaging ValueSet",
     "description" : "Allowed coded values for PostRecanalizationImaging",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/brain-imaging-type-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/post-stroke-complications-vs",
+    "url" : "http://qualityregistry.org/ValueSet/post-stroke-complications-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PostStrokeComplicationsVS",
     "title" : "PostStrokeComplications ValueSet",
     "description" : "Allowed coded values for PostStrokeComplications",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-post-stroke-complication-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-post-stroke-complication-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/post-stroke-procedures-vs",
+    "url" : "http://qualityregistry.org/ValueSet/post-stroke-procedures-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "PostStrokeProceduresVS",
@@ -428,26 +428,26 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs",
+    "url" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ProcedureNotDoneReasonVS",
     "title" : "ProcedureNotDoneReason ValueSet",
     "description" : "Allowed coded values for ProcedureNotDoneReason",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-proc-not-done-reason-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-proc-not-done-reason-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/procedure-timing-context-vs",
+    "url" : "http://qualityregistry.org/ValueSet/procedure-timing-context-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ProcedureTimingContextVS",
     "title" : "Procedure Timing Context ValueSet",
     "description" : "Allowed values for the Procedure timing context extension.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/procedure-timing-context-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "RESQStrokeDischargeDocumentTypeVS",
@@ -456,7 +456,7 @@
     "systems" : ["http://loinc.org"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs",
+    "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "RESQStrokeDischargeSectionCodeVS",
@@ -465,17 +465,17 @@
     "systems" : ["http://loinc.org", "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/risk-factor-vs",
+    "url" : "http://qualityregistry.org/ValueSet/risk-factor-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "RiskFactorVS",
     "title" : "RiskFactor ValueSet",
     "description" : "Allowed coded values for RiskFactor",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/risk-factor-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/screening-performer-vs",
+    "url" : "http://qualityregistry.org/ValueSet/screening-performer-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ScreeningPerformerVS",
@@ -484,7 +484,7 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/sex-vs",
+    "url" : "http://qualityregistry.org/ValueSet/sex-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SexVS",
@@ -493,90 +493,90 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+    "url" : "http://qualityregistry.org/ValueSet/specific-finding-value-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SpecificFindingValueVS",
     "title" : "Specific Finding Value ValueSet",
     "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/mtici-score-cs",
-    "http://tecnomod-um.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/hemorrhagic-transformation-type-cs",
+    "http://qualityregistry.org/CodeSystem/mtici-score-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
+    "url" : "http://qualityregistry.org/ValueSet/specific-finding-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SpecificFindingVS",
     "title" : "SpecificFinding ValueSet",
     "description" : "Allowed coded values for specific stroke-related findings.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
-    "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
-    "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/specific-finding-cs",
+    "http://qualityregistry.org/CodeSystem/perfusion-volume-cs",
+    "http://qualityregistry.org/CodeSystem/mtici-code-cs",
     "http://snomed.info/sct",
-    "http://tecnomod-um.org/CodeSystem/old-infarct-cs"]
+    "http://qualityregistry.org/CodeSystem/old-infarct-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-circumstance-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-circumstance-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeCircumstanceVS",
     "title" : "StrokeCircumstance ValueSet",
     "description" : "Allowed coded values for StrokeCircumstance",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-circumstance-codes-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-circumstance-codes-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-diagnosis-code-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeDiagnosisCodeVS",
     "title" : "Stroke Diagnosis Code ValueSet",
     "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-mimics-diagnosis-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-mimics-diagnosis-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-other-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-etiology-other-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeEtiologyOtherVS",
     "title" : "StrokeEtiologyOther ValueSet",
     "description" : "Allowed coded values for StrokeEtiologyOther",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-etiology-other-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-etiology-other-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-etiology-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-etiology-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeEtiologyVS",
     "title" : "StrokeEtiology ValueSet",
     "description" : "Allowed coded values for StrokeEtiology",
-    "systems" : ["http://snomed.info/sct",
-    "http://tecnomod-um.org/CodeSystem/stroke-etiology-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-etiology-cs",
+    "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-procedure-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-treatment-procedure-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeTreatmentProcedureVS",
     "title" : "PostStrokeProcedures ValueSet",
     "description" : "Allowed coded values for PostStrokeProcedures",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-treatment-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-treatment-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-treatment-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeTreatmentVS",
     "title" : "StrokeTreatment ValueSet",
     "description" : "Allowed coded values for StrokeTreatment",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/stroke-treatment-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-treatment-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/stroke-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/stroke-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "StrokeTypeVS",
@@ -585,7 +585,7 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-done-vs",
+    "url" : "http://qualityregistry.org/ValueSet/swallowing-screening-done-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SwallowingScreeningDoneVS",
@@ -594,85 +594,85 @@
     "systems" : ["http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs",
+    "url" : "http://qualityregistry.org/ValueSet/swallowing-screening-timing-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SwallowingScreeningTimingVS",
     "title" : "SwallowingScreeningTiming ValueSet",
     "description" : "Allowed coded values for SwallowingScreeningTiming",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
-    "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/swallow-screen-time-cs",
+    "http://qualityregistry.org/CodeSystem/procedure-timing-context-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-type-vs",
+    "url" : "http://qualityregistry.org/ValueSet/swallowing-screening-type-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "SwallowingScreeningTypeVS",
     "title" : "SwallowingScreeningType ValueSet",
     "description" : "Allowed coded values for SwallowingScreeningType",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/swallow-procedures-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/swallow-procedures-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/tenecteplase-brand-vs",
+    "url" : "http://qualityregistry.org/ValueSet/tenecteplase-brand-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "TenecteplaseBrandVS",
     "title" : "TenecteplaseBrand ValueSet",
     "description" : "Allowed coded values for TenecteplaseBrand",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/tenecteplase-brand-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/tenecteplase-brand-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/three-month-contact-mode-vs",
+    "url" : "http://qualityregistry.org/ValueSet/three-month-contact-mode-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ThreeMonthContactModeVS",
     "title" : "ThreeMonthContactMode ValueSet",
     "description" : "Allowed coded values for ThreeMonthContactMode",
-    "systems" : ["http://snomed.info/sct",
-    "http://tecnomod-um.org/CodeSystem/three-month-contact-mode-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/three-month-contact-mode-cs",
+    "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs",
+    "url" : "http://qualityregistry.org/ValueSet/thrombectomy-complications-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "ThrombectomyComplicationsVS",
     "title" : "ThrombectomyComplications ValueSet",
     "description" : "Allowed coded values for ThrombectomyComplications",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/thrombectomy-complications-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/thrombectomy-complications-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/tia-clinical-symptoms-vs",
+    "url" : "http://qualityregistry.org/ValueSet/tia-clinical-symptoms-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "TiaClinicalSymptomsVS",
     "title" : "TiaClinicalSymptoms ValueSet",
     "description" : "Allowed coded values for TiaClinicalSymptoms",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/symptoms-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/symptoms-cs",
     "http://snomed.info/sct"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/tia-symptom-duration-vs",
+    "url" : "http://qualityregistry.org/ValueSet/tia-symptom-duration-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "TiaSymptomDurationVS",
     "title" : "TiaSymptomDuration ValueSet",
     "description" : "Allowed coded values for TiaSymptomDuration",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/tia-symptom-duration-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs",
+    "url" : "http://qualityregistry.org/ValueSet/timing-metric-codes-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "TimingMetricCodesVS",
     "title" : "TimingMetricCodes ValueSet",
     "description" : "Allowed coded values for TimingMetricCodes",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs"]
+    "systems" : ["http://qualityregistry.org/CodeSystem/timing-metric-codes-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/unitof-measurement-vs",
+    "url" : "http://qualityregistry.org/ValueSet/unitof-measurement-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "UnitofMeasurementVS",
@@ -681,23 +681,23 @@
     "systems" : ["https://ucum.org/ucum"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/vital-signs-vs",
+    "url" : "http://qualityregistry.org/ValueSet/vital-signs-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "VitalSignsVS",
     "title" : "VitalSigns ValueSet",
     "description" : "Allowed coded values for VitalSigns",
     "systems" : ["http://snomed.info/sct",
-    "http://tecnomod-um.org/CodeSystem/vital-signs-cs"]
+    "http://qualityregistry.org/CodeSystem/vital-signs-cs"]
   },
   {
-    "url" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs",
+    "url" : "http://qualityregistry.org/ValueSet/vte-procedures-vs",
     "version" : "1.0.0",
     "status" : "active",
     "name" : "VteProceduresVS",
     "title" : "VteProcedures ValueSet",
     "description" : "Allowed coded values for VteProcedures",
-    "systems" : ["http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+    "systems" : ["http://qualityregistry.org/CodeSystem/vte-procedures-cs",
     "http://snomed.info/sct"]
   },
   {
@@ -708,6 +708,6 @@
     "title" : "Locations ValueSet",
     "description" : "Allowed coded values for Locations",
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-    "http://tecnomod-um.org/CodeSystem/location-cs"]
+    "http://qualityregistry.org/CodeSystem/location-cs"]
   }]
 }

@@ -8,11 +8,11 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/first-contact-place-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:FirstContactPlaceCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/first-contact-place-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:FirstContactPlaceCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/first-contact-place-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "first-contact-place-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/first-contact-place-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/first-contact-place-cs",
   "version" : "1.0.0",
   "name" : "FirstContactPlaceCS",
   "title" : "FirstContactPlaceCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/first-contact-place-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

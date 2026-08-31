@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/clinical-status-codes-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:ClinicalStatusCodesVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/clinical-status-codes-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:ClinicalStatusCodesVS |
 
  
 Allowed coded values for ClinicalStatusCodes 
@@ -46,19 +46,19 @@ Allowed coded values for ClinicalStatusCodes
 {
   "resourceType" : "ValueSet",
   "id" : "clinical-status-codes-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/clinical-status-codes-vs",
+  "url" : "http://qualityregistry.org/ValueSet/clinical-status-codes-vs",
   "version" : "1.0.0",
   "name" : "ClinicalStatusCodesVS",
   "title" : "ClinicalStatusCodes ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for ClinicalStatusCodes",

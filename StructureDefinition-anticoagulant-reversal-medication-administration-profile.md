@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AnticoagulantReversalMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AnticoagulantReversalMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
 {
   "resourceType" : "StructureDefinition",
   "id" : "anticoagulant-reversal-medication-administration-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "AnticoagulantReversalMedicationAdministrationProfile",
   "title" : "Anticoagulant Reversal MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "MedicationAdministration profile for anticoagulant reversal treatment in the acute stroke pathway, including completed and not-done reversal administrations.",
@@ -83,7 +83,7 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationAdministration",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -94,14 +94,14 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
         "severity" : "error",
         "human" : "If anticoagulant reversal was not done, a statusReason must be provided.",
         "expression" : "status != 'not-done' or statusReason.exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile"
       },
       {
         "key" : "anticoagulant-reversal-status-reason-only-when-not-done",
         "severity" : "warning",
         "human" : "statusReason should only be present when anticoagulant reversal was not done.",
         "expression" : "statusReason.exists().not() or status = 'not-done'",
-        "source" : "http://tecnomod-um.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile"
       }]
     },
     {
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-anticoagulant-revers
       "short" : "Anticoagulant reversal medication or substance",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs"
       }
     },
     {

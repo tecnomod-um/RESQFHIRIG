@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:WakeupStrokeExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:WakeupStrokeExt |
 
 Boolean flag indicating that the stroke was first noticed after waking; onsetDateTime is then populated using the last-known-well/sleep timestamp in the builder.
 
@@ -46,18 +46,18 @@ Other representations of profile: [CSV](StructureDefinition-wakeup-stroke-ext.cs
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext",
   "version" : "1.0.0",
   "name" : "WakeupStrokeExt",
   "title" : "Wake-up stroke",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Boolean flag indicating that the stroke was first noticed after waking; onsetDateTime is then populated using the last-known-well/sleep timestamp in the builder.",
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-wakeup-stroke-ext.cs
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext"
     },
     {
       "id" : "Extension.value[x]",

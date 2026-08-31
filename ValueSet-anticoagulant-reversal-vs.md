@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AnticoagulantReversalVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AnticoagulantReversalVS |
 
  
 Allowed coded values for AnticoagulantReversal 
@@ -45,19 +45,19 @@ Allowed coded values for AnticoagulantReversal
 {
   "resourceType" : "ValueSet",
   "id" : "anticoagulant-reversal-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/anticoagulant-reversal-vs",
+  "url" : "http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs",
   "version" : "1.0.0",
   "name" : "AnticoagulantReversalVS",
   "title" : "AnticoagulantReversal ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for AnticoagulantReversal",
@@ -101,7 +101,7 @@ Allowed coded values for AnticoagulantReversal
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/medication-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other Medication"

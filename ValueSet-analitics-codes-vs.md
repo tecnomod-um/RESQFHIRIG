@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/analitics-codes-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AnaliticsCodesVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/analitics-codes-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AnaliticsCodesVS |
 
  
 Allowed coded values for AnaliticsCodes 
@@ -48,19 +48,19 @@ Allowed coded values for AnaliticsCodes
 {
   "resourceType" : "ValueSet",
   "id" : "analitics-codes-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs",
+  "url" : "http://qualityregistry.org/ValueSet/analitics-codes-vs",
   "version" : "1.0.0",
   "name" : "AnaliticsCodesVS",
   "title" : "AnaliticsCodes ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for AnaliticsCodes",
@@ -96,7 +96,7 @@ Allowed coded values for AnaliticsCodes
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
       "concept" : [{
         "code" : "ge10",
         "display" : "Glucose > 10 mmol/L"
@@ -107,7 +107,7 @@ Allowed coded values for AnaliticsCodes
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/timing-metric-codes-cs",
       "concept" : [{
         "code" : "hyperglycemia-day-1",
         "display" : "Hyperglycemia Checks Day 1"

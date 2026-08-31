@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeRiskFactorConditionProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeRiskFactorConditionProfile |
 
  
 Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-risk-factor-condition-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-risk-factor-condition-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile",
   "version" : "1.0.0",
   "name" : "StrokeRiskFactorConditionProfile",
   "title" : "Stroke Risk Factor Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry.",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/clinical-status-codes-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/clinical-status-codes-vs"
       }
     },
     {
@@ -123,7 +123,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/risk-factor-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/risk-factor-vs"
       }
     },
     {
@@ -133,7 +133,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -145,7 +145,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     }]

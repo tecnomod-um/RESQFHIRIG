@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/vital-signs-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:VitalSignsVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/vital-signs-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:VitalSignsVS |
 
  
 Allowed coded values for VitalSigns 
@@ -45,19 +45,19 @@ Allowed coded values for VitalSigns
 {
   "resourceType" : "ValueSet",
   "id" : "vital-signs-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/vital-signs-vs",
+  "url" : "http://qualityregistry.org/ValueSet/vital-signs-vs",
   "version" : "1.0.0",
   "name" : "VitalSignsVS",
   "title" : "VitalSigns ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for VitalSigns",
@@ -85,7 +85,7 @@ Allowed coded values for VitalSigns
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/vital-signs-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/vital-signs-cs",
       "concept" : [{
         "code" : "highest-sys-bp",
         "display" : "Highest Systolic Blood Pressure"

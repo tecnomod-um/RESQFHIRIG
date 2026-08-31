@@ -27,12 +27,12 @@ Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-o
   "resourceType" : "Observation",
   "id" : "ExampleDoorToNeedle",
   "meta" : {
-    "profile" : ["http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile"]
+    "profile" : ["http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile"]
   },
   "status" : "final",
   "code" : {
     "coding" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/timing-metric-codes-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/timing-metric-codes-cs",
       "code" : "D2N",
       "display" : "Door to Needle"
     }]

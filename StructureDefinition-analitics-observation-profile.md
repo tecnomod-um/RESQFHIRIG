@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/analytics-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AnaliticsObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/analytics-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AnaliticsObservationProfile |
 
  
 Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
 {
   "resourceType" : "StructureDefinition",
   "id" : "analitics-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/analytics-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/analytics-observation-profile",
   "version" : "1.0.0",
   "name" : "AnaliticsObservationProfile",
   "title" : "Analytics Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/observation-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
       "short" : "Laboratory or analytics concept",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/analitics-codes-vs"
       }
     },
     {
@@ -160,7 +160,7 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/inrmode-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/inrmode-vs"
       }
     }]
   }

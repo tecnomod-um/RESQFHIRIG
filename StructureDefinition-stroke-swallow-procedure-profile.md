@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeSwallowProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeSwallowProcedureProfile |
 
  
 Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-swallow-procedure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile",
   "version" : "1.0.0",
   "name" : "StrokeSwallowProcedureProfile",
   "title" : "Stroke Swallowing Screening Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Procedure profile for swallowing screening, including screening type, not-done reason, performer role and timing context.",
@@ -93,15 +93,15 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
         "key" : "stroke-swallow-completed-requires-post-acute-care",
         "severity" : "error",
         "human" : "If the swallowing screening procedure is completed, post-acute care required extension SHALL be present.",
-        "expression" : "status != 'completed' or extension.where(url = 'http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext').exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
+        "expression" : "status != 'completed' or extension.where(url = 'http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext').exists()",
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile"
       },
       {
         "key" : "stroke-swallow-not-done-requires-status-reason",
         "severity" : "error",
         "human" : "If the swallowing screening procedure was not done, statusReason SHALL be present.",
         "expression" : "status != 'not-done' or statusReason.exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-swallow-procedure-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile"
       }]
     },
     {
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -136,7 +136,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext"]
       }],
       "mustSupport" : true
     },
@@ -152,7 +152,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs"
       }
     },
     {
@@ -162,7 +162,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/swallowing-screening-type-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/swallowing-screening-type-vs"
       }
     },
     {
@@ -172,7 +172,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },
@@ -199,7 +199,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-swallow-proce
       "path" : "Procedure.performer.actor",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile"]
       }]
     }]
   }

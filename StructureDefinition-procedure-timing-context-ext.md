@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:ProcedureTimingContextExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:ProcedureTimingContextExt |
 
 Timing or phase context for procedure execution, such as acute/post-acute or specific screening window.
 
@@ -47,18 +47,18 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext",
   "version" : "1.0.0",
   "name" : "ProcedureTimingContextExt",
   "title" : "Procedure timing context",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Timing or phase context for procedure execution, such as acute/post-acute or specific screening window.",
@@ -99,7 +99,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext"
     },
     {
       "id" : "Extension.value[x]",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/assessment-context-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/assessment-context-vs"
       }
     }]
   }

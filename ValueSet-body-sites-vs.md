@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/body-sites-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:BodySitesVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/body-sites-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:BodySitesVS |
 
  
 Allowed coded values for BodySites 
@@ -46,19 +46,19 @@ Allowed coded values for BodySites
 {
   "resourceType" : "ValueSet",
   "id" : "body-sites-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/body-sites-vs",
+  "url" : "http://qualityregistry.org/ValueSet/body-sites-vs",
   "version" : "1.0.0",
   "name" : "BodySitesVS",
   "title" : "BodySites ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for BodySites",

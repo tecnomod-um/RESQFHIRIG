@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/functional-score-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:FunctionalScoreCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/functional-score-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:FunctionalScoreCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/functional-score-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [FunctionalScoreVS](ValueSet-functional-score-vs.md)
+* [FunctionalScore ValueSet](ValueSet-functional-score-vs.md)
 
 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "functional-score-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/functional-score-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/functional-score-cs",
   "version" : "1.0.0",
   "name" : "FunctionalScoreCS",
   "title" : "FunctionalScoreCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/functional-score-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

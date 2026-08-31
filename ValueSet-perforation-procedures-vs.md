@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/perforation-procedures-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:PerforationProceduresVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/perforation-procedures-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:PerforationProceduresVS |
 
  
 Allowed coded values for PerforationProcedures 
@@ -47,19 +47,19 @@ Allowed coded values for PerforationProcedures
 {
   "resourceType" : "ValueSet",
   "id" : "perforation-procedures-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs",
+  "url" : "http://qualityregistry.org/ValueSet/perforation-procedures-vs",
   "version" : "1.0.0",
   "name" : "PerforationProceduresVS",
   "title" : "PerforationProcedures ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for PerforationProcedures",

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:ParacetamolOnFeverMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:ParacetamolOnFeverMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for paracetamol administered because of fever. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-paracetamol-on-fever
 {
   "resourceType" : "StructureDefinition",
   "id" : "paracetamol-on-fever-medication-administration-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "ParacetamolOnFeverMedicationAdministrationProfile",
   "title" : "Paracetamol on Fever MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "MedicationAdministration profile for paracetamol administered because of fever.",
@@ -83,7 +83,7 @@ Other representations of profile: [CSV](StructureDefinition-paracetamol-on-fever
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationAdministration",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/stroke-medication-administration-profile",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-paracetamol-on-fever
       "path" : "MedicationAdministration.extension.value[x]",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/paracetamol-on-fever-timing-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/paracetamol-on-fever-timing-vs"
       }
     },
     {
@@ -133,7 +133,7 @@ Other representations of profile: [CSV](StructureDefinition-paracetamol-on-fever
       "min" : 1,
       "type" : [{
         "code" : "CodeableReference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/fever-observation-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/fever-observation-profile"]
       }]
     },
     {

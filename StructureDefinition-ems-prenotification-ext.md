@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:EmsPrenotificationExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/ems-prenotification-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:EmsPrenotificationExt |
 
 Indicates whether emergency medical services prenotified the receiving hospital before arrival.
 
@@ -46,18 +46,18 @@ Other representations of profile: [CSV](StructureDefinition-ems-prenotification-
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext",
   "version" : "1.0.0",
   "name" : "EmsPrenotificationExt",
   "title" : "EMS prenotification",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Indicates whether emergency medical services prenotified the receiving hospital before arrival.",
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-ems-prenotification-
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext"
     },
     {
       "id" : "Extension.value[x]",

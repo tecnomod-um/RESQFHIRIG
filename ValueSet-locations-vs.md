@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:LocationsVS |
+| Active as of 2026-08-31 | *Computable Name*:LocationsVS |
 
  
 Allowed coded values for Locations 
@@ -53,13 +53,13 @@ Allowed coded values for Locations
   "title" : "Locations ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for Locations",
@@ -103,7 +103,7 @@ Allowed coded values for Locations
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/location-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/location-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Other Location"

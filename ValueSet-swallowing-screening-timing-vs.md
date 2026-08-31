@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:SwallowingScreeningTimingVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/swallowing-screening-timing-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:SwallowingScreeningTimingVS |
 
  
 Allowed coded values for SwallowingScreeningTiming 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "swallowing-screening-timing-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/swallowing-screening-timing-vs",
+  "url" : "http://qualityregistry.org/ValueSet/swallowing-screening-timing-vs",
   "version" : "1.0.0",
   "name" : "SwallowingScreeningTimingVS",
   "title" : "SwallowingScreeningTiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for SwallowingScreeningTiming",
@@ -70,14 +70,14 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/swallow-screen-time-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/swallow-screen-time-cs",
       "concept" : [{
         "code" : "T4H",
         "display" : "Within 4 Hours"
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/procedure-timing-context-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/procedure-timing-context-cs",
       "concept" : [{
         "code" : "post-acute",
         "display" : "Acute Phase (<24h)"

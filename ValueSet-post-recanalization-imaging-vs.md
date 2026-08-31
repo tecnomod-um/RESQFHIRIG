@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/post-recanalization-imaging-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:PostRecanalizationImagingVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/post-recanalization-imaging-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:PostRecanalizationImagingVS |
 
  
 Allowed coded values for PostRecanalizationImaging 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "post-recanalization-imaging-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/post-recanalization-imaging-vs",
+  "url" : "http://qualityregistry.org/ValueSet/post-recanalization-imaging-vs",
   "version" : "1.0.0",
   "name" : "PostRecanalizationImagingVS",
   "title" : "PostRecanalizationImaging ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for PostRecanalizationImaging",
@@ -77,7 +77,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/brain-imaging-type-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/brain-imaging-type-cs",
       "concept" : [{
         "code" : "mr",
         "display" : "MR"

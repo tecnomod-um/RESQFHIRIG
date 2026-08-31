@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Observation</sch:title>
     <sch:rule context="f:Observation">
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext']) &lt;= 1">extension with URL = 'http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &gt;= 1">value[x]: minimum cardinality of 'value[x]' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

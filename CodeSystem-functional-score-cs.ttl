@@ -6,29 +6,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://tecnomod-um.org/CodeSystem/functional-score-cs> a fhir:CodeSystem ;
+<http://qualityregistry.org/CodeSystem/functional-score-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "functional-score-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem functional-score-cs</b></p><a name=\"functional-score-cs\"> </a><a name=\"hcfunctional-score-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/functional-score-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ICH-score<a name=\"functional-score-cs-ICH-score\"> </a></td><td>Intracerebral Hemorrhage Score</td></tr><tr><td style=\"white-space:nowrap\">hunt-hess<a name=\"functional-score-cs-hunt-hess\"> </a></td><td>Hunt and Hess Score</td></tr><tr><td style=\"white-space:nowrap\">thrive<a name=\"functional-score-cs-thrive\"> </a></td><td>Totaled Health Risks in Vascular Events Score</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem functional-score-cs</b></p><a name=\"functional-score-cs\"> </a><a name=\"hcfunctional-score-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/functional-score-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ICH-score<a name=\"functional-score-cs-ICH-score\"> </a></td><td>Intracerebral Hemorrhage Score</td></tr><tr><td style=\"white-space:nowrap\">hunt-hess<a name=\"functional-score-cs-hunt-hess\"> </a></td><td>Hunt and Hess Score</td></tr><tr><td style=\"white-space:nowrap\">thrive<a name=\"functional-score-cs-thrive\"> </a></td><td>Totaled Health Risks in Vascular Events Score</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://tecnomod-um.org/CodeSystem/functional-score-cs"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://qualityregistry.org/CodeSystem/functional-score-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "FunctionalScoreCS"] ; # 
   fhir:title [ fhir:v "FunctionalScoreCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-07-21T08:04:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-08-31T09:17:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://tecnomod-um.org" ]
+       fhir:value [ fhir:v "http://qualityregistry.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/functional-score-cs."] ; # 
+  fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/functional-score-cs."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

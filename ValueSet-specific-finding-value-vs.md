@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/specific-finding-value-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:SpecificFindingValueVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-value-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:SpecificFindingValueVS |
 
  
 Allowed coded values used as Observation.valueCodeableConcept for specific finding observations. 
@@ -45,19 +45,19 @@ Allowed coded values used as Observation.valueCodeableConcept for specific findi
 {
   "resourceType" : "ValueSet",
   "id" : "specific-finding-value-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-value-vs",
+  "url" : "http://qualityregistry.org/ValueSet/specific-finding-value-vs",
   "version" : "1.0.0",
   "name" : "SpecificFindingValueVS",
   "title" : "Specific Finding Value ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values used as Observation.valueCodeableConcept for specific finding observations.",
@@ -70,16 +70,16 @@ Allowed coded values used as Observation.valueCodeableConcept for specific findi
   }],
   "compose" : {
     "include" : [{
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/mtici-score-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/mtici-score-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/atrial-fibrillation-or-flutter-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/atrial-fibrillation-or-flutter-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/carotid-stenosis-level-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/carotid-stenosis-level-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/hemorrhagic-transformation-type-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/hemorrhagic-transformation-type-vs"]
     }]
   }
 }

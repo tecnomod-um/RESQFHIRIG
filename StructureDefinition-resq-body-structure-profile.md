@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RESQBodyStructureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-body-structure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RESQBodyStructureProfile |
 
  
 BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
 {
   "resourceType" : "StructureDefinition",
   "id" : "resq-body-structure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/resq-body-structure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/resq-body-structure-profile",
   "version" : "1.0.0",
   "name" : "RESQBodyStructureProfile",
   "title" : "RESQ BodyStructure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings.",
@@ -107,7 +107,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/body-sites-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/body-sites-vs"
       }
     },
     {
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/laterality-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/laterality-vs"
       }
     },
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
       "short" : "Patient whose anatomical structure is described",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     }]

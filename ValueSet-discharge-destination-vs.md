@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/discharge-destination-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:DischargeDestinationVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/discharge-destination-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:DischargeDestinationVS |
 
  
 Allowed coded values for DischargeDestination 
@@ -45,19 +45,19 @@ Allowed coded values for DischargeDestination
 {
   "resourceType" : "ValueSet",
   "id" : "discharge-destination-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/discharge-destination-vs",
+  "url" : "http://qualityregistry.org/ValueSet/discharge-destination-vs",
   "version" : "1.0.0",
   "name" : "DischargeDestinationVS",
   "title" : "DischargeDestination ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for DischargeDestination",
@@ -93,7 +93,7 @@ Allowed coded values for DischargeDestination
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/stroke-discharge-destination-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-discharge-destination-cs",
       "concept" : [{
         "code" : "dead",
         "display" : "Patient Deceased"

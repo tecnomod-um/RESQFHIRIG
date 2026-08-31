@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/assessment-context-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AssessmentContextCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/assessment-context-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AssessmentContextCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/assessment-context-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AssessmentContextVS](ValueSet-assessment-context-vs.md)
+* [AssessmentContext ValueSet](ValueSet-assessment-context-vs.md)
 
 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "assessment-context-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/assessment-context-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/assessment-context-cs",
   "version" : "1.0.0",
   "name" : "AssessmentContextCS",
   "title" : "AssessmentContextCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/assessment-context-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/assessment-context-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

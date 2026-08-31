@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RESQPractitionerRoleProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RESQPractitionerRoleProfile |
 
  
 PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-resq-practitioner-ro
 {
   "resourceType" : "StructureDefinition",
   "id" : "resq-practitioner-role-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/resq-practitioner-role-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile",
   "version" : "1.0.0",
   "name" : "RESQPractitionerRoleProfile",
   "title" : "RESQ PractitionerRole Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities.",
@@ -107,7 +107,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-practitioner-ro
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/screening-performer-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/screening-performer-vs"
       }
     }]
   }

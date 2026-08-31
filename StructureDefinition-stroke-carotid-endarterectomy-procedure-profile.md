@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeCarotidEndarterectomyProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeCarotidEndarterectomyProcedureProfile |
 
  
 Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-carotid-endarterectomy-procedure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile",
   "version" : "1.0.0",
   "name" : "StrokeCarotidEndarterectomyProcedureProfile",
   "title" : "Stroke Carotid Endarterectomy Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Procedure profile for carotid endarterectomy and its timing window in the RES-Q pathway.",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext"]
       }],
       "mustSupport" : true
     },
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs"
       }
     },
     {
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/perforation-procedures-vs"
       }
     },
     {
@@ -147,7 +147,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-carotid-endar
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeDiagnosisCodeVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/stroke-diagnosis-code-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeDiagnosisCodeVS |
 
  
 Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics. 
@@ -45,19 +45,19 @@ Allowed coded values for final stroke episode diagnosis, including stroke types 
 {
   "resourceType" : "ValueSet",
   "id" : "stroke-diagnosis-code-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs",
+  "url" : "http://qualityregistry.org/ValueSet/stroke-diagnosis-code-vs",
   "version" : "1.0.0",
   "name" : "StrokeDiagnosisCodeVS",
   "title" : "Stroke Diagnosis Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for final stroke episode diagnosis, including stroke types and stroke mimics.",
@@ -70,10 +70,10 @@ Allowed coded values for final stroke episode diagnosis, including stroke types 
   }],
   "compose" : {
     "include" : [{
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/stroke-type-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/stroke-type-vs"]
     },
     {
-      "valueSet" : ["http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs"]
+      "valueSet" : ["http://qualityregistry.org/ValueSet/mimics-diagnosis-vs"]
     }]
   }
 }

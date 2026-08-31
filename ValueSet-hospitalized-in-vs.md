@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/hospitalized-in-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:HospitalizedInVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/hospitalized-in-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:HospitalizedInVS |
 
  
 Allowed coded values for HospitalizedIn 
@@ -45,19 +45,19 @@ Allowed coded values for HospitalizedIn
 {
   "resourceType" : "ValueSet",
   "id" : "hospitalized-in-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/hospitalized-in-vs",
+  "url" : "http://qualityregistry.org/ValueSet/hospitalized-in-vs",
   "version" : "1.0.0",
   "name" : "HospitalizedInVS",
   "title" : "HospitalizedIn ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for HospitalizedIn",
@@ -70,7 +70,7 @@ Allowed coded values for HospitalizedIn
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/initial-care-intensity-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/initial-care-intensity-cs",
       "concept" : [{
         "code" : "icu-stroke",
         "display" : "ICU / Stroke Unit"

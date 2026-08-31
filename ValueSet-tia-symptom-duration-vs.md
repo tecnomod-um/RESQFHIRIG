@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/tia-symptom-duration-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TiaSymptomDurationVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/tia-symptom-duration-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TiaSymptomDurationVS |
 
  
 Allowed coded values for TiaSymptomDuration 
@@ -45,19 +45,19 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 {
   "resourceType" : "ValueSet",
   "id" : "tia-symptom-duration-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/tia-symptom-duration-vs",
+  "url" : "http://qualityregistry.org/ValueSet/tia-symptom-duration-vs",
   "version" : "1.0.0",
   "name" : "TiaSymptomDurationVS",
   "title" : "TiaSymptomDuration ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for TiaSymptomDuration",
@@ -70,7 +70,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/tia-symptom-duration-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/tia-symptom-duration-cs",
       "concept" : [{
         "code" : "duration-lt-10-minutes",
         "display" : "Duration < 10 Minutes"

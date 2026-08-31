@@ -3,24 +3,24 @@
   "id" : "vte-procedures-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vte-procedures-cs</b></p><a name=\"vte-procedures-cs\"> </a><a name=\"hcvte-procedures-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/vte-procedures-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">vte-proc<a name=\"vte-procedures-cs-vte-proc\"> </a></td><td>Thromboembolism intervention</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vte-procedures-cs</b></p><a name=\"vte-procedures-cs\"> </a><a name=\"hcvte-procedures-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/vte-procedures-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">vte-proc<a name=\"vte-procedures-cs-vte-proc\"> </a></td><td>Thromboembolism intervention</td></tr></table></div>"
   },
-  "url" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/vte-procedures-cs",
   "version" : "1.0.0",
   "name" : "VteProceduresCS",
   "title" : "VteProceduresCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/vte-procedures-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/vte-procedures-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

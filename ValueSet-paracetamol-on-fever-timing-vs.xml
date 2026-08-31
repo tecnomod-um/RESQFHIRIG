@@ -3,21 +3,21 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="paracetamol-on-fever-timing-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet paracetamol-on-fever-timing-vs</b></p><a name="paracetamol-on-fever-timing-vs"> </a><a name="hcparacetamol-on-fever-timing-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-timing-cs.html"><code>http://tecnomod-um.org/CodeSystem/timing-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-timing-cs.html#timing-cs-within-1-hours">within-1-hours</a></td><td>Within 1 Hour</td></tr><tr><td><a href="CodeSystem-timing-cs.html#timing-cs-after-1-hours">after-1-hours</a></td><td>After 1 Hour</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet paracetamol-on-fever-timing-vs</b></p><a name="paracetamol-on-fever-timing-vs"> </a><a name="hcparacetamol-on-fever-timing-vs"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-timing-cs.html"><code>http://qualityregistry.org/CodeSystem/timing-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;1.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-timing-cs.html#timing-cs-within-1-hours">within-1-hours</a></td><td>Within 1 Hour</td></tr><tr><td><a href="CodeSystem-timing-cs.html#timing-cs-after-1-hours">after-1-hours</a></td><td>After 1 Hour</td></tr></table></li></ul></div>
   </text>
-  <url value="http://tecnomod-um.org/ValueSet/paracetamol-on-fever-timing-vs"/>
+  <url value="http://qualityregistry.org/ValueSet/paracetamol-on-fever-timing-vs"/>
   <version value="1.0.0"/>
   <name value="ParacetamolOnFeverTimingVS"/>
   <title value="ParacetamolOnFeverTiming ValueSet"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-07-21T08:04:16+00:00"/>
+  <date value="2026-08-31T09:17:06+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
     <telecom>
       <system value="url"/>
-      <value value="http://tecnomod-um.org"/>
+      <value value="http://qualityregistry.org"/>
     </telecom>
   </contact>
   <description value="Allowed coded values for ParacetamolOnFeverTiming"/>
@@ -30,7 +30,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://tecnomod-um.org/CodeSystem/timing-cs"/>
+      <system value="http://qualityregistry.org/CodeSystem/timing-cs"/>
       <concept>
         <code value="within-1-hours"/>
         <display value="Within 1 Hour"/>

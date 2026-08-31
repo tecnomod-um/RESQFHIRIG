@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/hyperglycemia-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:HyperglycemiaObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/hyperglycemia-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:HyperglycemiaObservationProfile |
 
  
 Observation profile for hyperglycemia monitoring, checks and measured values. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-hyperglycemia-observ
 {
   "resourceType" : "StructureDefinition",
   "id" : "hyperglycemia-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/hyperglycemia-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/hyperglycemia-observation-profile",
   "version" : "1.0.0",
   "name" : "HyperglycemiaObservationProfile",
   "title" : "Hyperglycemia Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for hyperglycemia monitoring, checks and measured values.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-hyperglycemia-observ
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-hyperglycemia-observ
       "path" : "Observation.code",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/analitics-codes-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/analitics-codes-vs"
       }
     },
     {

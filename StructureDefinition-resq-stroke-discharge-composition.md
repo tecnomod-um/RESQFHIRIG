@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RESQStrokeDischargeComposition |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RESQStrokeDischargeComposition |
 
  
 FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
 {
   "resourceType" : "StructureDefinition",
   "id" : "resq-stroke-discharge-composition",
-  "url" : "http://tecnomod-um.org/StructureDefinition/resq-stroke-discharge-composition",
+  "url" : "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition",
   "version" : "1.0.0",
   "name" : "RESQStrokeDischargeComposition",
   "title" : "RESQ Stroke Hospital Discharge Composition",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document.",
@@ -140,7 +140,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-document-type-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs"
       }
     },
     {
@@ -214,7 +214,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs"
       }
     },
     {

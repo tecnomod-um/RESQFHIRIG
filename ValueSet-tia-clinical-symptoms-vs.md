@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/tia-clinical-symptoms-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TiaClinicalSymptomsVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/tia-clinical-symptoms-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TiaClinicalSymptomsVS |
 
  
 Allowed coded values for TiaClinicalSymptoms 
@@ -45,19 +45,19 @@ Allowed coded values for TiaClinicalSymptoms
 {
   "resourceType" : "ValueSet",
   "id" : "tia-clinical-symptoms-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/tia-clinical-symptoms-vs",
+  "url" : "http://qualityregistry.org/ValueSet/tia-clinical-symptoms-vs",
   "version" : "1.0.0",
   "name" : "TiaClinicalSymptomsVS",
   "title" : "TiaClinicalSymptoms ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for TiaClinicalSymptoms",
@@ -81,7 +81,7 @@ Allowed coded values for TiaClinicalSymptoms
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/symptoms-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/symptoms-cs",
       "concept" : [{
         "code" : "other-symptom",
         "display" : "Other Symptom"

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/vte-procedures-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:VteProceduresVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/vte-procedures-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:VteProceduresVS |
 
  
 Allowed coded values for VteProcedures 
@@ -45,19 +45,19 @@ Allowed coded values for VteProcedures
 {
   "resourceType" : "ValueSet",
   "id" : "vte-procedures-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs",
+  "url" : "http://qualityregistry.org/ValueSet/vte-procedures-vs",
   "version" : "1.0.0",
   "name" : "VteProceduresVS",
   "title" : "VteProcedures ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for VteProcedures",
@@ -70,7 +70,7 @@ Allowed coded values for VteProcedures
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/vte-procedures-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/vte-procedures-cs",
       "concept" : [{
         "code" : "vte-proc",
         "display" : "Thromboembolism intervention"

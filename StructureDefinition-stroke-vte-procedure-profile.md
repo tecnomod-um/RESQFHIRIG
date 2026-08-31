@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeVTEProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeVTEProcedureProfile |
 
  
 Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-vte-procedure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-vte-procedure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile",
   "version" : "1.0.0",
   "name" : "StrokeVTEProcedureProfile",
   "title" : "Stroke VTE Prophylaxis Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway.",
@@ -103,7 +103,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/vte-procedures-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/vte-procedures-vs"
       }
     },
     {
@@ -113,7 +113,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     }]

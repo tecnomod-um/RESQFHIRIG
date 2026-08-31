@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/unitof-measurement-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:UnitofMeasurementVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/unitof-measurement-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:UnitofMeasurementVS |
 
  
 Allowed coded values for UnitofMeasurement 
@@ -47,19 +47,19 @@ No Expansion for this valueset (Unknown Code System)
 {
   "resourceType" : "ValueSet",
   "id" : "unitof-measurement-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/unitof-measurement-vs",
+  "url" : "http://qualityregistry.org/ValueSet/unitof-measurement-vs",
   "version" : "1.0.0",
   "name" : "UnitofMeasurementVS",
   "title" : "UnitofMeasurement ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for UnitofMeasurement",

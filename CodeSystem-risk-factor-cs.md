@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/risk-factor-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RiskFactorCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/risk-factor-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RiskFactorCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/risk-factor-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [RiskFactorVS](ValueSet-risk-factor-vs.md)
+* [RiskFactor ValueSet](ValueSet-risk-factor-vs.md)
 
 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "risk-factor-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/risk-factor-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/risk-factor-cs",
   "version" : "1.0.0",
   "name" : "RiskFactorCS",
   "title" : "RiskFactorCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/risk-factor-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/risk-factor-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

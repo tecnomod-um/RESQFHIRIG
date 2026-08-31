@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:ObservationTimingContextExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/observation-timing-context-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:ObservationTimingContextExt |
 
 Temporal/clinical context of an observation, such as admission, discharge, prestroke or three-month follow-up. Also supports boolean usage because build_observation_blood_volume currently writes a boolean post_acute_care value to this URL.
 
@@ -47,18 +47,18 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/observation-timing-context-ext",
   "version" : "1.0.0",
   "name" : "ObservationTimingContextExt",
   "title" : "Observation timing context",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Temporal/clinical context of an observation, such as admission, discharge, prestroke or three-month follow-up. Also supports boolean usage because build_observation_blood_volume currently writes a boolean post_acute_care value to this URL.",
@@ -99,7 +99,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/observation-timing-context-ext"
     },
     {
       "id" : "Extension.value[x]",
@@ -132,7 +132,7 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
       }],
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/assessment-context-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/assessment-context-vs"
       }
     }]
   }

@@ -34,20 +34,20 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
   "resourceType" : "Encounter",
   "id" : "ExampleStrokeEncounter",
   "meta" : {
-    "profile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+    "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
   },
   "extension" : [{
-    "url" : "http://tecnomod-um.org/StructureDefinition/first-hospital-ext",
+    "url" : "http://qualityregistry.org/StructureDefinition/first-hospital-ext",
     "valueReference" : {
       "reference" : "Organization/OrganizationExample"
     }
   },
   {
-    "url" : "http://tecnomod-um.org/StructureDefinition/required-post-acute-care-ext",
+    "url" : "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext",
     "valueBoolean" : false
   },
   {
-    "url" : "http://tecnomod-um.org/StructureDefinition/ems-prenotification-ext",
+    "url" : "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext",
     "valueBoolean" : true
   }],
   "status" : "completed",
@@ -57,7 +57,7 @@ Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile
   "admission" : {
     "admitSource" : {
       "coding" : [{
-        "system" : "http://tecnomod-um.org/CodeSystem/stroke-arrival-mode-cs",
+        "system" : "http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs",
         "code" : "ems-gp",
         "display" : "EMS from GP"
       }]

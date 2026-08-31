@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/assessment-timing-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:AssessmentTimingExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/assessment-timing-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:AssessmentTimingExt |
 
 Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.
 
@@ -45,18 +45,18 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/assessment-timing-ext",
   "version" : "1.0.0",
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.",
@@ -97,7 +97,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/assessment-timing-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/assessment-timing-ext"
     },
     {
       "id" : "Extension.value[x]",

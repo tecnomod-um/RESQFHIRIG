@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -40,19 +40,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-diagnosis-condition-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
   "version" : "1.0.0",
   "name" : "StrokeDiagnosisConditionProfile",
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status.",
@@ -103,36 +103,36 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "key" : "ischemic-etiology-only-for-ischemic-stroke",
         "severity" : "error",
         "human" : "Ischemic stroke etiology extension should only be present when the diagnosis code is ischemic stroke.",
-        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and code = '422504002').exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+        "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and code = '422504002').exists()",
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
         "key" : "hemorrhagic-bleeding-reason-only-for-hemorrhagic-stroke",
         "severity" : "error",
         "human" : "Hemorrhagic bleeding reason extension should only be present when the diagnosis code is hemorrhagic stroke or subarachnoid hemorrhage.",
-        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and (code = '274100004' or code = '21454007')).exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+        "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and (code = '274100004' or code = '21454007')).exists()",
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
         "key" : "wakeup-stroke-true-should-have-onset",
         "severity" : "warning",
         "human" : "If wake-up stroke is true, onsetDateTime should be populated with the last-known-well or sleep timestamp.",
-        "expression" : "extension.where(url = 'http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext').value.ofType(boolean) != true or onset.exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+        "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext').value.ofType(boolean) != true or onset.exists()",
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
         "key" : "tia-should-have-evidence",
         "severity" : "warning",
         "human" : "If the diagnosis is transient ischemic attack, diagnostic evidence should preferably reference the observed symptoms.",
         "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '266257000').exists().not() or evidence.exists()",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
         "key" : "mimic-diagnosis-should-not-have-stroke-specific-extensions",
         "severity" : "error",
         "human" : "If the diagnosis code belongs to MimicsDiagnosisVS, stroke-specific etiology or hemorrhagic bleeding reason extensions should not be present.",
-        "expression" : "code.memberOf('http://tecnomod-um.org/ValueSet/mimics-diagnosis-vs').not() or (extension.where(url = 'http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() and extension.where(url = 'http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not())",
-        "source" : "http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"
+        "expression" : "code.memberOf('http://qualityregistry.org/ValueSet/mimics-diagnosis-vs').not() or (extension.where(url = 'http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext').exists().not() and extension.where(url = 'http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not())",
+        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       }]
     },
     {
@@ -157,7 +157,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext"]
       }],
       "mustSupport" : true
     },
@@ -170,7 +170,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext"]
       }],
       "mustSupport" : true
     },
@@ -183,7 +183,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/wakeup-stroke-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext"]
       }],
       "mustSupport" : true
     },
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-diagnosis-code-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/stroke-diagnosis-code-vs"
       }
     },
     {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/body-sites-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/body-sites-vs"
       }
     },
     {
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -262,7 +262,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },

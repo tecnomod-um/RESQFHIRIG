@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:IschemicStrokeEtiologyExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:IschemicStrokeEtiologyExt |
 
 Etiology of ischemic stroke, including undetermined when the etiology is not known.
 
@@ -47,18 +47,18 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext",
   "version" : "1.0.0",
   "name" : "IschemicStrokeEtiologyExt",
   "title" : "Ischemic stroke etiology",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Etiology of ischemic stroke, including undetermined when the etiology is not known.",
@@ -99,7 +99,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/ischemic-stroke-etiology-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/ischemic-stroke-etiology-ext"
     },
     {
       "id" : "Extension.value[x]",
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-ischemic-stroke-etio
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/stroke-etiology-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/stroke-etiology-vs"
       }
     }]
   }

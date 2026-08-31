@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/analytics-codes-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:AnalyticsCodesCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/analytics-codes-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:AnalyticsCodesCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/analytics-codes-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AnaliticsCodesVS](ValueSet-analitics-codes-vs.md)
+* [AnaliticsCodes ValueSet](ValueSet-analitics-codes-vs.md)
 
 
 
@@ -26,22 +26,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "analytics-codes-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
   "version" : "1.0.0",
   "name" : "AnalyticsCodesCS",
   "title" : "AnalyticsCodesCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/analytics-codes-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:FunctionalScoreObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/functional-score-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
 {
   "resourceType" : "StructureDefinition",
   "id" : "functional-score-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/functional-score-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
   "version" : "1.0.0",
   "name" : "FunctionalScoreObservationProfile",
   "title" : "Functional Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/observation-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/observation-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -139,7 +139,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
       "short" : "Functional or severity score instrument",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/functional-score-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/functional-score-vs"
       }
     },
     {

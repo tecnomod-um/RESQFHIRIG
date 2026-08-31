@@ -3,24 +3,24 @@
   "id" : "analytics-codes-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem analytics-codes-cs</b></p><a name=\"analytics-codes-cs\"> </a><a name=\"hcanalytics-codes-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/analytics-codes-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ge10<a name=\"analytics-codes-cs-ge10\"> </a></td><td>Glucose &gt; 10 mmol/L</td></tr><tr><td style=\"white-space:nowrap\">highest-hyperglycemia-value<a name=\"analytics-codes-cs-highest-hyperglycemia-value\"> </a></td><td>Highest Hyperglycemia Value</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem analytics-codes-cs</b></p><a name=\"analytics-codes-cs\"> </a><a name=\"hcanalytics-codes-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/analytics-codes-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ge10<a name=\"analytics-codes-cs-ge10\"> </a></td><td>Glucose &gt; 10 mmol/L</td></tr><tr><td style=\"white-space:nowrap\">highest-hyperglycemia-value<a name=\"analytics-codes-cs-highest-hyperglycemia-value\"> </a></td><td>Highest Hyperglycemia Value</td></tr></table></div>"
   },
-  "url" : "http://tecnomod-um.org/CodeSystem/analytics-codes-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
   "version" : "1.0.0",
   "name" : "AnalyticsCodesCS",
   "title" : "AnalyticsCodesCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/analytics-codes-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/analytics-codes-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

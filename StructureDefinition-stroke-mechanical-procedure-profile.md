@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeMechanicalProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeMechanicalProcedureProfile |
 
  
 Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-mechanical-procedure-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-mechanical-procedure-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile",
   "version" : "1.0.0",
   "name" : "StrokeMechanicalProcedureProfile",
   "title" : "Stroke Reperfusion Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context.",
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/procedure-timing-context-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext"]
       }],
       "mustSupport" : true
     },
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://tecnomod-um.org/StructureDefinition/post-acute-care-required-ext"]
+        "profile" : ["http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext"]
       }],
       "mustSupport" : true
     },
@@ -142,7 +142,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/procedure-not-done-reason-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs"
       }
     },
     {
@@ -153,7 +153,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/perforation-procedures-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/perforation-procedures-vs"
       }
     },
     {
@@ -163,7 +163,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "definition" : "Patient who experienced the index stroke episode represented in this registry dataset.",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "short" : "Index stroke diagnosis prompting reperfusion",
       "type" : [{
         "code" : "CodeableReference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-diagnosis-condition-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"]
       }],
       "mustSupport" : true
     },
@@ -214,7 +214,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/thrombectomy-complications-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/thrombectomy-complications-vs"
       }
     }]
   }

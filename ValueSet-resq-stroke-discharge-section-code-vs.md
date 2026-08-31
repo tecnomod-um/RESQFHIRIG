@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
 
  
 Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition. 
@@ -45,19 +45,19 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
 {
   "resourceType" : "ValueSet",
   "id" : "resq-stroke-discharge-section-code-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/resq-stroke-discharge-section-code-vs",
+  "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs",
   "version" : "1.0.0",
   "name" : "RESQStrokeDischargeSectionCodeVS",
   "title" : "RESQ Stroke Discharge Section Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",

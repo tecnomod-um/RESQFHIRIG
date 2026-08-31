@@ -3,24 +3,24 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="first-contact-place-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name="first-contact-place-cs"> </a><a name="hcfirst-contact-place-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">HRAD<a name="first-contact-place-cs-HRAD"> </a></td><td>radiology unit</td></tr><tr><td style="white-space:nowrap">ER<a name="first-contact-place-cs-ER"> </a></td><td>Emergency room</td></tr><tr><td style="white-space:nowrap">OF<a name="first-contact-place-cs-OF"> </a></td><td>Outpatient facility</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem first-contact-place-cs</b></p><a name="first-contact-place-cs"> </a><a name="hcfirst-contact-place-cs"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/first-contact-place-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">HRAD<a name="first-contact-place-cs-HRAD"> </a></td><td>radiology unit</td></tr><tr><td style="white-space:nowrap">ER<a name="first-contact-place-cs-ER"> </a></td><td>Emergency room</td></tr><tr><td style="white-space:nowrap">OF<a name="first-contact-place-cs-OF"> </a></td><td>Outpatient facility</td></tr></table></div>
   </text>
-  <url value="http://tecnomod-um.org/CodeSystem/first-contact-place-cs"/>
+  <url value="http://qualityregistry.org/CodeSystem/first-contact-place-cs"/>
   <version value="1.0.0"/>
   <name value="FirstContactPlaceCS"/>
   <title value="FirstContactPlaceCs CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-07-21T08:04:16+00:00"/>
+  <date value="2026-08-31T09:17:06+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
     <telecom>
       <system value="url"/>
-      <value value="http://tecnomod-um.org"/>
+      <value value="http://qualityregistry.org"/>
     </telecom>
   </contact>
-  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/first-contact-place-cs."/>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/first-contact-place-cs."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

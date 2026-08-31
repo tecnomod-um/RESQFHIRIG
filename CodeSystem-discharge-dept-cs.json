@@ -3,24 +3,24 @@
   "id" : "discharge-dept-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem discharge-dept-cs</b></p><a name=\"discharge-dept-cs\"> </a><a name=\"hcdischarge-dept-cs\"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/discharge-dept-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"discharge-dept-cs-acute\"> </a></td><td>Acute Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">post-care<a name=\"discharge-dept-cs-post-care\"> </a></td><td>Post Care Bed</td></tr><tr><td style=\"white-space:nowrap\">neurology<a name=\"discharge-dept-cs-neurology\"> </a></td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\">another-department<a name=\"discharge-dept-cs-another-department\"> </a></td><td>Another Department</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem discharge-dept-cs</b></p><a name=\"discharge-dept-cs\"> </a><a name=\"hcdischarge-dept-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/discharge-dept-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"discharge-dept-cs-acute\"> </a></td><td>Acute Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\">post-care<a name=\"discharge-dept-cs-post-care\"> </a></td><td>Post Care Bed</td></tr><tr><td style=\"white-space:nowrap\">neurology<a name=\"discharge-dept-cs-neurology\"> </a></td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\">another-department<a name=\"discharge-dept-cs-another-department\"> </a></td><td>Another Department</td></tr></table></div>"
   },
-  "url" : "http://tecnomod-um.org/CodeSystem/discharge-dept-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/discharge-dept-cs",
   "version" : "1.0.0",
   "name" : "DischargeDeptCS",
   "title" : "DischargeDeptCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/discharge-dept-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-dept-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

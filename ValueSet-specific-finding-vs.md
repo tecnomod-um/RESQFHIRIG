@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/specific-finding-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:SpecificFindingVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:SpecificFindingVS |
 
  
 Allowed coded values for specific stroke-related findings. 
@@ -46,19 +46,19 @@ Allowed coded values for specific stroke-related findings.
 {
   "resourceType" : "ValueSet",
   "id" : "specific-finding-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/specific-finding-vs",
+  "url" : "http://qualityregistry.org/ValueSet/specific-finding-vs",
   "version" : "1.0.0",
   "name" : "SpecificFindingVS",
   "title" : "SpecificFinding ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for specific stroke-related findings.",
@@ -71,7 +71,7 @@ Allowed coded values for specific stroke-related findings.
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/mtici-code-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/mtici-code-cs",
       "concept" : [{
         "code" : "mTICI",
         "display" : "mTICI"
@@ -117,7 +117,7 @@ Allowed coded values for specific stroke-related findings.
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/perfusion-volume-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/perfusion-volume-cs",
       "concept" : [{
         "code" : "perf-volume",
         "display" : "Perfusion Volume"
@@ -128,14 +128,14 @@ Allowed coded values for specific stroke-related findings.
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/old-infarct-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/old-infarct-cs",
       "concept" : [{
         "code" : "old-infarct",
         "display" : "Old Infarct"
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/specific-finding-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/specific-finding-cs",
       "concept" : [{
         "code" : "no-finding",
         "display" : "No Finding"

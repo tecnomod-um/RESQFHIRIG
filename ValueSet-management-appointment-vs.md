@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/management-appointment-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:ManagementAppointmentVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/management-appointment-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:ManagementAppointmentVS |
 
  
 Allowed coded values for ManagementAppointment 
@@ -45,19 +45,19 @@ Allowed coded values for ManagementAppointment
 {
   "resourceType" : "ValueSet",
   "id" : "management-appointment-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/management-appointment-vs",
+  "url" : "http://qualityregistry.org/ValueSet/management-appointment-vs",
   "version" : "1.0.0",
   "name" : "ManagementAppointmentVS",
   "title" : "ManagementAppointment ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for ManagementAppointment",
@@ -70,7 +70,7 @@ Allowed coded values for ManagementAppointment
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://tecnomod-um.org/CodeSystem/management-appointment-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/management-appointment-cs",
       "concept" : [{
         "code" : "scheduled",
         "display" : "Scheduled"

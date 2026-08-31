@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/gender-snomed-ext | *Version*:1.0.0 |
-| Draft as of 2026-07-21 | *Computable Name*:GenderSnomedExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/gender-snomed-ext | *Version*:1.0.0 |
+| Draft as of 2026-08-31 | *Computable Name*:GenderSnomedExt |
 
 Sex/gender value as a SNOMED CT CodeableConcept, matching build_Patient().
 
@@ -48,18 +48,18 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
     "valueCode" : "can-bind"
   }],
-  "url" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext",
+  "url" : "http://qualityregistry.org/StructureDefinition/gender-snomed-ext",
   "version" : "1.0.0",
   "name" : "GenderSnomedExt",
   "title" : "Gender represented with SNOMED CT",
   "status" : "draft",
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Sex/gender value as a SNOMED CT CodeableConcept, matching build_Patient().",
@@ -100,7 +100,7 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "http://tecnomod-um.org/StructureDefinition/gender-snomed-ext"
+      "fixedUri" : "http://qualityregistry.org/StructureDefinition/gender-snomed-ext"
     },
     {
       "id" : "Extension.value[x]",
@@ -112,7 +112,7 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/sex-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/sex-vs"
       }
     }]
   }

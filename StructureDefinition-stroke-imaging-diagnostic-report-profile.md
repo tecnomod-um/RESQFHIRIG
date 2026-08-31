@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
 
  
 DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway. 
@@ -39,19 +39,19 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
 {
   "resourceType" : "StructureDefinition",
   "id" : "stroke-imaging-diagnostic-report-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
   "version" : "1.0.0",
   "name" : "StrokeImagingDiagnosticReportProfile",
   "title" : "Stroke Imaging DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway.",
@@ -108,7 +108,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/imaging-type-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/imaging-type-vs"
       }
     },
     {
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/resq-patient-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
@@ -131,7 +131,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://tecnomod-um.org/StructureDefinition/stroke-encounter-profile"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }],
       "mustSupport" : true
     },
@@ -148,7 +148,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/specific-finding-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/specific-finding-vs"
       }
     }]
   }

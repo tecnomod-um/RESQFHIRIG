@@ -3,24 +3,24 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="mrs-score-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mrs-score-cs</b></p><a name="mrs-score-cs"> </a><a name="hcmrs-score-cs"> </a><p>This case-insensitive code system <code>http://tecnomod-um.org/CodeSystem/mrs-score-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0<a name="mrs-score-cs-0"> </a></td><td>No symptoms at all</td></tr><tr><td style="white-space:nowrap">1<a name="mrs-score-cs-1"> </a></td><td>No significant disability despite symptoms; able to carry out all usual duties and activities</td></tr><tr><td style="white-space:nowrap">2<a name="mrs-score-cs-2"> </a></td><td>Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance</td></tr><tr><td style="white-space:nowrap">3<a name="mrs-score-cs-3"> </a></td><td>Moderate disability; requiring some help, but able to walk without assistance</td></tr><tr><td style="white-space:nowrap">4<a name="mrs-score-cs-4"> </a></td><td>Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance</td></tr><tr><td style="white-space:nowrap">5<a name="mrs-score-cs-5"> </a></td><td>Severe disability; bedridden, incontinent and requiring constant nursing care and attention</td></tr><tr><td style="white-space:nowrap">6<a name="mrs-score-cs-6"> </a></td><td>Dead</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem mrs-score-cs</b></p><a name="mrs-score-cs"> </a><a name="hcmrs-score-cs"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/mrs-score-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0<a name="mrs-score-cs-0"> </a></td><td>No symptoms at all</td></tr><tr><td style="white-space:nowrap">1<a name="mrs-score-cs-1"> </a></td><td>No significant disability despite symptoms; able to carry out all usual duties and activities</td></tr><tr><td style="white-space:nowrap">2<a name="mrs-score-cs-2"> </a></td><td>Slight disability; unable to carry out all previous activities, but able to look after own affairs without assistance</td></tr><tr><td style="white-space:nowrap">3<a name="mrs-score-cs-3"> </a></td><td>Moderate disability; requiring some help, but able to walk without assistance</td></tr><tr><td style="white-space:nowrap">4<a name="mrs-score-cs-4"> </a></td><td>Moderately severe disability; unable to walk without assistance and unable to attend to own bodily needs without assistance</td></tr><tr><td style="white-space:nowrap">5<a name="mrs-score-cs-5"> </a></td><td>Severe disability; bedridden, incontinent and requiring constant nursing care and attention</td></tr><tr><td style="white-space:nowrap">6<a name="mrs-score-cs-6"> </a></td><td>Dead</td></tr></table></div>
   </text>
-  <url value="http://tecnomod-um.org/CodeSystem/mrs-score-cs"/>
+  <url value="http://qualityregistry.org/CodeSystem/mrs-score-cs"/>
   <version value="1.0.0"/>
   <name value="MrsScoreCS"/>
   <title value="MrsScoreCs CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-07-21T08:04:16+00:00"/>
+  <date value="2026-08-31T09:17:06+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
     <telecom>
       <system value="url"/>
-      <value value="http://tecnomod-um.org"/>
+      <value value="http://qualityregistry.org"/>
     </telecom>
   </contact>
-  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/mrs-score-cs."/>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/mrs-score-cs."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

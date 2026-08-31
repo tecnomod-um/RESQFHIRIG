@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/ValueSet/bleeding-reason-vs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:BleedingReasonVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/bleeding-reason-vs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:BleedingReasonVS |
 
  
 Allowed coded values for BleedingReason 
@@ -45,19 +45,19 @@ Allowed coded values for BleedingReason
 {
   "resourceType" : "ValueSet",
   "id" : "bleeding-reason-vs",
-  "url" : "http://tecnomod-um.org/ValueSet/bleeding-reason-vs",
+  "url" : "http://qualityregistry.org/ValueSet/bleeding-reason-vs",
   "version" : "1.0.0",
   "name" : "BleedingReasonVS",
   "title" : "BleedingReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Allowed coded values for BleedingReason",
@@ -109,7 +109,7 @@ Allowed coded values for BleedingReason
       }]
     },
     {
-      "system" : "http://tecnomod-um.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
+      "system" : "http://qualityregistry.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs",
       "concept" : [{
         "code" : "other",
         "display" : "Bleeding Reason Other"

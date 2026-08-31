@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://tecnomod-um.org/StructureDefinition/gender-snomed-ext']) &lt;= 1">extension with URL = 'http://tecnomod-um.org/StructureDefinition/gender-snomed-ext': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://qualityregistry.org/StructureDefinition/gender-snomed-ext']) &lt;= 1">extension with URL = 'http://qualityregistry.org/StructureDefinition/gender-snomed-ext': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:gender) &lt;= 0">gender: maximum cardinality of 'gender' is 0</sch:assert>
     </sch:rule>

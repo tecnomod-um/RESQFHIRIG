@@ -8,17 +8,17 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/CodeSystem/medication-cs | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:MedicationCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/medication-cs | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:MedicationCS |
 
  
-Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs. 
+Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/medication-cs. 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [AnticoagulantReversalVS](ValueSet-anticoagulant-reversal-vs.md)
-* [IvtDrugVS](ValueSet-ivt-drug-vs.md)
-* [MedicationsVS](ValueSet-medications-vs.md)
+* [AnticoagulantReversal ValueSet](ValueSet-anticoagulant-reversal-vs.md)
+* [IvtDrug ValueSet](ValueSet-ivt-drug-vs.md)
+* [Medications ValueSet](ValueSet-medications-vs.md)
 
 
 
@@ -28,22 +28,22 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 {
   "resourceType" : "CodeSystem",
   "id" : "medication-cs",
-  "url" : "http://tecnomod-um.org/CodeSystem/medication-cs",
+  "url" : "http://qualityregistry.org/CodeSystem/medication-cs",
   "version" : "1.0.0",
   "name" : "MedicationCS",
   "title" : "MedicationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://tecnomod-um.org/CodeSystem/medication-cs.",
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/medication-cs.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

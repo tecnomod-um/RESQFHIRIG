@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-07-21 | *Computable Name*:TimingMetricObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile | *Version*:1.0.0 |
+| Active as of 2026-08-31 | *Computable Name*:TimingMetricObservationProfile |
 
  
 Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures. 
@@ -36,19 +36,19 @@ Other representations of profile: [CSV](StructureDefinition-timing-metric-observ
 {
   "resourceType" : "StructureDefinition",
   "id" : "timing-metric-observation-profile",
-  "url" : "http://tecnomod-um.org/StructureDefinition/timing-metric-observation-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile",
   "version" : "1.0.0",
   "name" : "TimingMetricObservationProfile",
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-07-21T08:04:16+00:00",
+  "date" : "2026-08-31T09:17:06+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://tecnomod-um.org"
+      "value" : "http://qualityregistry.org"
     }]
   }],
   "description" : "Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures.",
@@ -93,7 +93,7 @@ Other representations of profile: [CSV](StructureDefinition-timing-metric-observ
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://tecnomod-um.org/StructureDefinition/base-stroke-observation",
+  "baseDefinition" : "http://qualityregistry.org/StructureDefinition/base-stroke-observation",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -117,7 +117,7 @@ Other representations of profile: [CSV](StructureDefinition-timing-metric-observ
       "short" : "Timing or process metric",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://tecnomod-um.org/ValueSet/timing-metric-codes-vs"
+        "valueSet" : "http://qualityregistry.org/ValueSet/timing-metric-codes-vs"
       }
     },
     {
