@@ -1779,7 +1779,7 @@ Description: "Allowed values for the Procedure timing context extension."
 ValueSet: RESQStrokeDischargeDocumentTypeVS
 Id: resq-stroke-discharge-document-type-vs
 Title: "RESQ Stroke Discharge Document Type ValueSet"
-Description: "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition."
+Description: "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition."
 * ^url = "http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs"
 * ^status = #active
 * ^experimental = false
@@ -1788,7 +1788,7 @@ Description: "Allowed document type code for the RESQ Stroke Hospital Discharge 
 ValueSet: RESQStrokeDischargeSectionCodeVS
 Id: resq-stroke-discharge-section-code-vs
 Title: "RESQ Stroke Discharge Section Code ValueSet"
-Description: "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition."
+Description: "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition."
 * ^url = "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs"
 * ^status = #active
 * ^experimental = false
@@ -1799,14 +1799,11 @@ Description: "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge
 * LOINC#11535-2 "Hospital discharge diagnosis Narrative"
 * LOINC#10185-7 "Hospital discharge procedures"
 * LOINC#87232-5 "Medication administration brief"
+* StrokeDischargeSummarySectionCS#treatment-timings "Treatment Timings"
 * LOINC#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
 * LOINC#8716-3 "Vital signs note"
 * LOINC#47420-5 "Functional status assessment note"
 * LOINC#8650-4 "Hospital discharge disposition note"
 * LOINC#75311-1 "Discharge medications Narrative"
 * LOINC#18776-5 "Plan of care note"
-* LOINC#75310-3 "Health concerns Document"
-* LOINC#48765-2 "Allergies and adverse reactions Document"
-* LOINC#46240-8 "History of Hospitalizations+Outpatient visits Narrative"
-* SCT#866144008 "Encounter note (record artifact)"
 

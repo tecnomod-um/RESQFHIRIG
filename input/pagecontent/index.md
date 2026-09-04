@@ -9,10 +9,10 @@ This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R
     <p>The model turns one stroke episode into a connected resource graph: a patient and encounter anchor the record, while diagnoses, observations, procedures, medications, reports and follow-up resources describe the clinical pathway.</p>
   </div>
   <div class="resq-stat-grid">
-    <a class="resq-stat" href="profiles.html"><strong>41</strong><span>Profiles</span></a>
-    <a class="resq-stat" href="extensions.html"><strong>15</strong><span>Extensions</span></a>
-    <a class="resq-stat" href="terminology.html"><strong>117</strong><span>Terminology artifacts</span></a>
-    <a class="resq-stat" href="resource-map.html"><strong>15</strong><span>FHIR resource types</span></a>
+    <a class="resq-stat" href="profiles.html"><strong>48</strong><span>Profiles</span></a>
+    <a class="resq-stat" href="extensions.html"><strong>14</strong><span>Extensions</span></a>
+    <a class="resq-stat" href="terminology.html"><strong>120</strong><span>Terminology artifacts</span></a>
+    <a class="resq-stat" href="resource-map.html"><strong>17</strong><span>FHIR resource types</span></a>
   </div>
 </div>
 
@@ -22,6 +22,10 @@ This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R
   <a class="resq-card" href="resource-map.html">
     <strong>Resource map</strong>
     <span>See every FHIR resource type used in the IG and how the resources connect across a stroke episode.</span>
+  </a>
+  <a class="resq-card" href="discharge-summary.html">
+    <strong>Discharge patient summary</strong>
+    <span>Review the Composition profile that organizes one stroke admission into document sections.</span>
   </a>
   <a class="resq-card" href="modeling.html">
     <strong>Modeling decisions</strong>
@@ -39,12 +43,18 @@ This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R
 
 ## Scope
 
-The IG covers the complete transaction bundle produced by `transform_to_fhir`: `Organization`, `Patient`, `Encounter`, `Location`, `Condition`, `Observation`, `Procedure`, `DiagnosticReport`, `BodyStructure`, `MedicationStatement`, `MedicationRequest`, `MedicationAdministration`, `PractitionerRole`, `Appointment` and `Communication`.
+The IG covers the complete transaction bundle produced by `transform_to_fhir`: `Composition`, `Organization`, `Patient`, `Encounter`, `Location`, `Condition`, `Observation`, `Procedure`, `DiagnosticReport`, `BodyStructure`, `Medication`, `MedicationStatement`, `MedicationRequest`, `MedicationAdministration`, `PractitionerRole`, `Appointment` and `Communication`.
 
 ## Resource graph
 
 ```mermaid
 flowchart LR
+  Comp["Discharge Summary Composition"] --> Pat
+  Comp --> Enc
+  Comp --> Dx
+  Comp --> Obs
+  Comp --> Proc
+  Comp --> Med
   Org["Organization"] --> Enc["StrokeEncounter"]
   Pat["RESQPatient"] --> Enc
   Enc --> Dx["Diagnosis Condition"]

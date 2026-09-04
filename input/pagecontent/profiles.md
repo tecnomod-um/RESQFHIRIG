@@ -2,6 +2,12 @@
 
 Profiles are grouped below by FHIR resource type. Each link opens the generated StructureDefinition page with the formal constraints, bindings, snapshots and downloadable JSON/XML/TTL representations.
 
+## Clinical Documents
+
+| Resource | Profiles |
+| --- | --- |
+| `Composition` | [RESQ Stroke Discharge Patient Summary](StructureDefinition-resq-stroke-discharge-composition.html) |
+
 ## Administrative Resources
 
 | Resource | Profiles |
@@ -38,9 +44,11 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | [Hyperglycemia Observation](StructureDefinition-hyperglycemia-observation-profile.html) | Hyperglycemia checks and values. |
 | [Glucose >= 10 Observation](StructureDefinition-glucose-ge10-observation-profile.html) | Boolean glucose threshold indicator. |
 | [Highest Hyperglycemia Value Observation](StructureDefinition-highest-hyperglycemia-value-observation-profile.html) | Highest recorded glucose value in context. |
+| [Highest Systolic Blood Pressure Value Observation](StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.html) | Highest recorded systolic blood pressure value in context. |
 | [TIA Clinical Symptoms Observation](StructureDefinition-tia-clinical-symptoms-observation-profile.html) | TIA symptom indicators and durations. |
 | [Patient Ventilated Observation](StructureDefinition-patient-ventilated-observation-profile.html) | Ventilation indicator. |
 | [Three-Month Contact Mode Observation](StructureDefinition-three-month-contact-mode-observation-profile.html) | Contact mode used for follow-up outcome capture. |
+| [Appointment Management Observation](StructureDefinition-appointment-management-observation-profile.html) | Scheduled or attended follow-up appointment management status. |
 
 ## Procedures {#procedures}
 
@@ -64,6 +72,7 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 
 | Resource | Profiles |
 | --- | --- |
+| `Medication` | [Tenecteplase Brand Medication](StructureDefinition-tenecteplase-brand-medication-profile.html) |
 | `MedicationStatement` | [Prior MedicationStatement](StructureDefinition-prior-medication-statement-profile.html) |
 | `MedicationRequest` | [Discharge MedicationRequest](StructureDefinition-discharge-medication-request-profile.html) |
-| `MedicationAdministration` | [Stroke MedicationAdministration](StructureDefinition-stroke-medication-administration-profile.html), [Paracetamol on Fever](StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.html), [Insulin on Hyperglycemia](StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.html), [Nimodipine](StructureDefinition-nimodipine-medicationAdministration-profile.html) |
+| `MedicationAdministration` | [Stroke MedicationAdministration](StructureDefinition-stroke-medication-administration-profile.html), [Paracetamol on Fever](StructureDefinition-paracetamol-on-fever-medication-administration-profile.html), [Insulin on Hyperglycemia](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.html), [Nimodipine](StructureDefinition-nimodipine-medication-administration-profile.html), [Anticoagulant Reversal](StructureDefinition-anticoagulant-reversal-medication-administration-profile.html) |

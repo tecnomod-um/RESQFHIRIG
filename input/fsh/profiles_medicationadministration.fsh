@@ -65,7 +65,7 @@ Id: paracetamol-on-fever-medication-administration-profile
 Title: "Paracetamol on Fever MedicationAdministration Profile"
 Description: "MedicationAdministration profile for paracetamol administered because of fever."
 
-* ^url = "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile"
+* ^url = "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile"
 * insert RESQProfileMetadata
 
 * medication.concept 1..1 MS

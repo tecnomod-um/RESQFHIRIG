@@ -4,6 +4,7 @@ The RES-Q IG models one registry case as a connected set of FHIR resources. The 
 
 | Resource type | What it represents | Main profiles |
 | --- | --- | --- |
+| `Composition` | Discharge patient summary document that organizes the stroke admission resources into sections | [RESQ Stroke Discharge Patient Summary](StructureDefinition-resq-stroke-discharge-composition.html) |
 | `Patient` | Pseudonymized patient anchor and coded sex/gender | [RESQ Patient](StructureDefinition-resq-patient-profile.html) |
 | `Encounter` | Index stroke admission and pathway context | [Stroke Encounter](StructureDefinition-stroke-encounter-profile.html) |
 | `Organization` | Contributing registry hospital or organization | [Stroke Registry Organization](StructureDefinition-stroke-registry-organization-profile.html) |
@@ -13,6 +14,7 @@ The RES-Q IG models one registry case as a connected set of FHIR resources. The 
 | `Procedure` | Imaging, reperfusion, screening, VTE prophylaxis and treatments | [Procedure profiles](profiles.html#procedures) |
 | `DiagnosticReport` | Imaging reports and thrombectomy outcome reports | [Stroke Imaging Report](StructureDefinition-stroke-imaging-diagnostic-report-profile.html), [Mechanical Thrombectomy Report](StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html) |
 | `BodyStructure` | Anatomical sites such as occluded arteries and laterality | [RESQ BodyStructure](StructureDefinition-resq-body-structure-profile.html) |
+| `Medication` | Medication product details when a registry field needs a reusable medication resource | [Tenecteplase Brand Medication](StructureDefinition-tenecteplase-brand-medication-profile.html) |
 | `MedicationStatement` | Medication use before stroke onset and adherence | [Prior MedicationStatement](StructureDefinition-prior-medication-statement-profile.html) |
 | `MedicationRequest` | Medication prescribed at discharge | [Discharge MedicationRequest](StructureDefinition-discharge-medication-request-profile.html) |
 | `MedicationAdministration` | Acute or post-acute medication administrations | [MedicationAdministration profiles](profiles.html#medications) |
@@ -22,11 +24,19 @@ The RES-Q IG models one registry case as a connected set of FHIR resources. The 
 
 ## How to Navigate
 
-Use [Profiles](profiles.html) when you know the FHIR resource type. Use [Modeling Decisions](modeling.html) when you need to understand why a registry field was placed in a given resource. Use [Terminology](terminology.html) when a profile binds an element to a generated ValueSet.
+Use [Discharge Patient Summary](discharge-summary.html) when you need the document-level Composition. Use [Profiles](profiles.html) when you know the FHIR resource type. Use [Modeling Decisions](modeling.html) when you need to understand why a registry field was placed in a given resource. Use [Terminology](terminology.html) when a profile binds an element to a generated ValueSet.
 
 ```mermaid
 flowchart TD
   Case["Stroke registry case"] --> Patient["Patient"]
+  Case --> Composition["Discharge Patient Summary Composition"]
+  Composition --> Patient
+  Composition --> Encounter["Encounter"]
+  Composition --> Sections["Composition sections"]
+  Sections --> Conditions
+  Sections --> Observations
+  Sections --> Procedures
+  Sections --> Medications
   Case --> Encounter["Encounter"]
   Encounter --> Conditions["Condition profiles"]
   Encounter --> Observations["Observation profiles"]
