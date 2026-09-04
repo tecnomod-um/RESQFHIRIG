@@ -1388,25 +1388,25 @@ Description: "Allowed coded values for Bool"
 * include FHIRBoolCS#true "True"
 * include FHIRBoolCS#false "False"
 
-// ValueSet: DischargeMedicationVS
-// Id: discharge-medication-vs
-// Title: "DischargeMedication ValueSet"
-// Description: "Allowed coded values for DischargeMedication"
-// * ^url = "http://qualityregistry.org/ValueSet/discharge-medication-vs"
-// * ^status = #active
-// * ^experimental = false
-// * include DischargeMedicationCS#antiplatelet "any Antiplatelet"
-// * include DischargeMedicationCS#anticoagulant "Any Anticoagulant"
-// * include DischargeMedicationCS#asa "Aspirin"
-// * include DischargeMedicationCS#heparin "Heparin"
-// * include DischargeMedicationCS#warfarin "Warfarin"
-// * include DischargeMedicationCS#statin "Statin"
-// * include DischargeMedicationCS#antidiabetics "Antidiabetics"
-// * include DischargeMedicationCS#antihypertensive "Antihypertensive"
-// * include DischargeMedicationCS#other-antiplatelet "Other Antiplatelet"
-// * include DischargeMedicationCS#clopidogrel "Clopidogrel"
-// * include DischargeMedicationCS#contraception "Contraception"
-// * include DischargeMedicationCS#other "Other"
+ValueSet: DischargeMedicationVS
+Id: discharge-medication-vs
+Title: "DischargeMedication ValueSet"
+Description: "Allowed coded values for medications prescribed or recommended at discharge."
+* ^url = "http://qualityregistry.org/ValueSet/discharge-medication-vs"
+* ^status = #active
+* ^experimental = false
+* include DischargeMedicationCS#antiplatelet "Any Antiplatelet"
+* include DischargeMedicationCS#anticoagulant "Any Anticoagulant"
+* include DischargeMedicationCS#asa "Aspirin"
+* include DischargeMedicationCS#heparin "Heparin"
+* include DischargeMedicationCS#warfarin "Warfarin"
+* include DischargeMedicationCS#statin "Statin"
+* include DischargeMedicationCS#antidiabetics "Antidiabetics"
+* include DischargeMedicationCS#antihypertensive "Antihypertensive"
+* include DischargeMedicationCS#other-antiplatelet "Other Antiplatelet"
+* include DischargeMedicationCS#clopidogrel "Clopidogrel"
+* include DischargeMedicationCS#contraception "Contraception"
+* include DischargeMedicationCS#other "Other"
 
 ValueSet: InsulinOnHyperglycemiaTimingVS
 Id: insulin-on-hyperglycemia-timing-vs

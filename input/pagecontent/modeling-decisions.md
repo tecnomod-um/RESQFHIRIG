@@ -1,5 +1,3 @@
-# Modeling Decisions
-
 This page explains the main modeling choices in the RES-Q FHIR IG. The goal is to make the generated resources easy to validate, clinically interpretable and close to the shape of the source transformation pipeline.
 
 ## Patient and Encounter

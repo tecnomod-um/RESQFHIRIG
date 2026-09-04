@@ -1,5 +1,3 @@
-# Resource Map
-
 The RES-Q IG models one registry case as a connected set of FHIR resources. The table below is the fastest route from a real registry concept to the resource profile that represents it.
 
 | Resource type | What it represents | Main profiles |
@@ -24,7 +22,7 @@ The RES-Q IG models one registry case as a connected set of FHIR resources. The 
 
 ## How to Navigate
 
-Use [Discharge Patient Summary](discharge-summary.html) when you need the document-level Composition. Use [Profiles](profiles.html) when you know the FHIR resource type. Use [Modeling Decisions](modeling.html) when you need to understand why a registry field was placed in a given resource. Use [Terminology](terminology.html) when a profile binds an element to a generated ValueSet.
+Use [Discharge Patient Summary](discharge-patient-summary.html) when you need the document-level Composition. Use [Profiles](profiles.html) when you know the FHIR resource type. Use [Modeling Decisions](modeling-decisions.html) when you need to understand why a registry field was placed in a given resource. Use [Terminology](terminology.html) when a profile binds an element to a generated ValueSet.
 
 ```mermaid
 flowchart TD

@@ -1,5 +1,3 @@
-# RESQ Stroke Registry Implementation Guide
-
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
 <div class="resq-hero">
@@ -11,7 +9,7 @@ This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R
   <div class="resq-stat-grid">
     <a class="resq-stat" href="profiles.html"><strong>48</strong><span>Profiles</span></a>
     <a class="resq-stat" href="extensions.html"><strong>14</strong><span>Extensions</span></a>
-    <a class="resq-stat" href="terminology.html"><strong>120</strong><span>Terminology artifacts</span></a>
+    <a class="resq-stat" href="terminology.html"><strong>121</strong><span>Terminology artifacts</span></a>
     <a class="resq-stat" href="resource-map.html"><strong>17</strong><span>FHIR resource types</span></a>
   </div>
 </div>
@@ -23,11 +21,11 @@ This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R
     <strong>Resource map</strong>
     <span>See every FHIR resource type used in the IG and how the resources connect across a stroke episode.</span>
   </a>
-  <a class="resq-card" href="discharge-summary.html">
+  <a class="resq-card" href="discharge-patient-summary.html">
     <strong>Discharge patient summary</strong>
     <span>Review the Composition profile that organizes one stroke admission into document sections.</span>
   </a>
-  <a class="resq-card" href="modeling.html">
+  <a class="resq-card" href="modeling-decisions.html">
     <strong>Modeling decisions</strong>
     <span>Understand why the registry is split across Patient, Encounter, Condition, Observation, Procedure and medication resources.</span>
   </a>
@@ -49,7 +47,7 @@ The IG covers the complete transaction bundle produced by `transform_to_fhir`: `
 
 ```mermaid
 flowchart LR
-  Comp["Discharge Summary Composition"] --> Pat
+  Comp["Discharge Patient Summary Composition"] --> Pat
   Comp --> Enc
   Comp --> Dx
   Comp --> Obs

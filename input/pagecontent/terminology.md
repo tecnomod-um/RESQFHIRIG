@@ -1,5 +1,3 @@
-# Terminology
-
 The IG exposes registry enumerations as computable FHIR terminology. Local CodeSystems preserve the values generated from `enum_models.py`; ValueSets provide the bindings used by profiles and extensions.
 
 ## Main Terminology Groups

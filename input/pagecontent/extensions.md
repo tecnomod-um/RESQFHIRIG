@@ -1,5 +1,3 @@
-# Extensions
-
 Extensions carry registry-specific semantics that do not fit cleanly into a standard FHIR R5 element or that are already emitted by the source builders.
 
 | Extension | Used on | Purpose |
