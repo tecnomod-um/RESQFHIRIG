@@ -5,8 +5,6 @@
 
 ## Profiles
 
-# Profiles
-
 Profiles are grouped below by FHIR resource type. Each link opens the generated StructureDefinition page with the formal constraints, bindings, snapshots and downloadable JSON/XML/TTL representations.
 
 ## Clinical Documents

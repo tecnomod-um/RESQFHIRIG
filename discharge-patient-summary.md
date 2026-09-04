@@ -1,11 +1,9 @@
-# Discharge Summary - RESQ Stroke Registry Implementation Guide v1.0.0
+# Discharge Patient Summary - RESQ Stroke Registry Implementation Guide v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **Discharge Summary**
+* **Discharge Patient Summary**
 
-## Discharge Summary
-
-# Discharge Patient Summary
+## Discharge Patient Summary
 
 The [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) is the clinical document entry point for a completed RES-Q stroke admission. It does not replace the discrete registry resources; it organizes them into a discharge summary that can be rendered for humans while preserving computable references for validation, analytics and exchange.
 

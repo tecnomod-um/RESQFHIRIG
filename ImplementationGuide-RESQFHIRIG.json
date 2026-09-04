@@ -10,7 +10,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-04T09:44:50+00:00",
+  "date" : "2026-09-04T10:11:46+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -396,6 +396,18 @@
       },
       "name" : "DischargeFacilityType ValueSet",
       "description" : "Allowed coded values for DischargeFacilityType",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/discharge-medication-vs"
+      },
+      "name" : "DischargeMedication ValueSet",
+      "description" : "Allowed coded values for medications prescribed or recommended at discharge.",
       "isExample" : false
     },
     {
@@ -2318,9 +2330,15 @@
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "discharge-summary.html",
-        "name" : "discharge-summary.html",
-        "title" : "Discharge Summary",
+        "sourceUrl" : "discharge-patient-summary.html",
+        "name" : "discharge-patient-summary.html",
+        "title" : "Discharge Patient Summary",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "downloads.html",
+        "name" : "downloads.html",
+        "title" : "Downloads",
         "generation" : "markdown"
       },
       {
@@ -2330,9 +2348,9 @@
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "modeling.html",
-        "name" : "modeling.html",
-        "title" : "Modeling",
+        "sourceUrl" : "modeling-decisions.html",
+        "name" : "modeling-decisions.html",
+        "title" : "Modeling Decisions",
         "generation" : "markdown"
       },
       {

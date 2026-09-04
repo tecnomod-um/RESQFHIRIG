@@ -105,6 +105,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [DischargeDestination ValueSet](ValueSet-discharge-destination-vs.md) | Allowed coded values for DischargeDestination |
 | [DischargeFacilityDepartment ValueSet](ValueSet-discharge-facility-department-vs.md) | Allowed coded values for DischargeFacilityDepartment |
 | [DischargeFacilityType ValueSet](ValueSet-discharge-facility-type-vs.md) | Allowed coded values for DischargeFacilityType |
+| [DischargeMedication ValueSet](ValueSet-discharge-medication-vs.md) | Allowed coded values for medications prescribed or recommended at discharge. |
 | [FirstContactPlace ValueSet](ValueSet-first-contact-place-vs.md) | Allowed coded values for FirstContactPlace |
 | [FunctionalScore ValueSet](ValueSet-functional-score-vs.md) | Allowed coded values for FunctionalScore |
 | [GCSScore ValueSet](ValueSet-gcsscore-vs.md) | Allowed coded values for GCSScore |

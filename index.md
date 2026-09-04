@@ -10,8 +10,6 @@
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
 | Draft as of 2026-09-04 | *Computable Name*:RESQStrokeIG |
 
-# RESQ Stroke Registry Implementation Guide
-
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
 FHIR R5 implementation guide
@@ -22,14 +20,14 @@ The model turns one stroke episode into a connected resource graph: a patient an
 
 [**48**Profiles](profiles.md)
 [**14**Extensions](extensions.md)
-[**120**Terminology artifacts](terminology.md)
+[**121**Terminology artifacts](terminology.md)
 [**17**FHIR resource types](resource-map.md)
 
 ## Start here
 
 [ **Resource map** See every FHIR resource type used in the IG and how the resources connect across a stroke episode. ](resource-map.md)
-[ **Discharge patient summary** Review the Composition profile that organizes one stroke admission into document sections. ](discharge-summary.md)
-[ **Modeling decisions** Understand why the registry is split across Patient, Encounter, Condition, Observation, Procedure and medication resources. ](modeling.md)
+[ **Discharge patient summary** Review the Composition profile that organizes one stroke admission into document sections. ](discharge-patient-summary.md)
+[ **Modeling decisions** Understand why the registry is split across Patient, Encounter, Condition, Observation, Procedure and medication resources. ](modeling-decisions.md)
 [ **Profiles by resource** Jump directly to the StructureDefinition pages for each profile. ](profiles.md)
 [ **Terminology** Review the local CodeSystems and ValueSets generated from the registry enumeration model. ](terminology.md)
 
@@ -41,7 +39,7 @@ The IG covers the complete transaction bundle produced by `transform_to_fhir`: `
 
 ```
 flowchart LR
-  Comp["Discharge Summary Composition"] --> Pat
+  Comp["Discharge Patient Summary Composition"] --> Pat
   Comp --> Enc
   Comp --> Dx
   Comp --> Obs
@@ -87,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-04T09:44:50+00:00",
+  "date" : "2026-09-04T10:11:46+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -589,6 +587,22 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "DischargeFacilityType ValueSet",
       "description" : "Allowed coded values for DischargeFacilityType",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-discharge-medication-vs.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/discharge-medication-vs"
+      },
+      "name" : "DischargeMedication ValueSet",
+      "description" : "Allowed coded values for medications prescribed or recommended at discharge.",
       "isExample" : false
     },
     {
@@ -3147,9 +3161,15 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "discharge-summary.html",
-        "name" : "discharge-summary.html",
-        "title" : "Discharge Summary",
+        "sourceUrl" : "discharge-patient-summary.html",
+        "name" : "discharge-patient-summary.html",
+        "title" : "Discharge Patient Summary",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "downloads.html",
+        "name" : "downloads.html",
+        "title" : "Downloads",
         "generation" : "markdown"
       },
       {
@@ -3159,9 +3179,9 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "generation" : "markdown"
       },
       {
-        "sourceUrl" : "modeling.html",
-        "name" : "modeling.html",
-        "title" : "Modeling",
+        "sourceUrl" : "modeling-decisions.html",
+        "name" : "modeling-decisions.html",
+        "title" : "Modeling Decisions",
         "generation" : "markdown"
       },
       {

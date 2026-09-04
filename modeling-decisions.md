@@ -1,11 +1,9 @@
-# Modeling - RESQ Stroke Registry Implementation Guide v1.0.0
+# Modeling Decisions - RESQ Stroke Registry Implementation Guide v1.0.0
 
 * [**Table of Contents**](toc.md)
-* **Modeling**
+* **Modeling Decisions**
 
-## Modeling
-
-# Modeling Decisions
+## Modeling Decisions
 
 This page explains the main modeling choices in the RES-Q FHIR IG. The goal is to make the generated resources easy to validate, clinically interpretable and close to the shape of the source transformation pipeline.
 

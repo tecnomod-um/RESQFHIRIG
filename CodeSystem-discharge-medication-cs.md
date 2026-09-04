@@ -16,7 +16,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [DischargeMedication ValueSet](ValueSet-discharge-medication-vs.md)
 
 
 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "DischargeMedicationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T09:44:50+00:00",
+  "date" : "2026-09-04T10:11:46+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

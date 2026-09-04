@@ -1,24 +1,28 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+<!-- get modelType -->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>Post-Stroke Complication Condition Profile - RESQ Stroke Registry Implementation Guide v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <style type="text/css">
   :root {
     --resq-ink: #172033;
@@ -41,6 +45,16 @@
   .navbar,
   .navbar-inverse {
     border-radius: 0;
+  }
+
+  .navbar .navbar-nav > li > a:not([href]) {
+    display: none;
+  }
+
+  .navbar .navbar-nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
   }
 
   .navbar .dropdown-menu > li > a {
@@ -196,32 +210,32 @@
 </style>
 
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script src="assets/js/mermaid.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"8.20"}
-    h3,h4,h5,h6{--heading-prefix:"8.20"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"9.20"}
+    h3,h4,h5,h6{--heading-prefix:"9.20"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
 
-          <!-- Placeholder for child template header declarations -->
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
@@ -231,33 +245,33 @@
 
 
 
-  <img src="assets/images/esp.svg" alt="Spain flag" title="Spain" height="16"/>
+  <img alt="Spain flag" src="assets/images/esp.svg" height="16" title="Spain"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -270,10 +284,10 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
-        <a href="discharge-summary.html">Discharge Patient Summary</a>
+        <a href="discharge-patient-summary.html">Discharge Patient Summary</a>
       </li>
       <li>
-        <a href="modeling.html">Modeling Decisions</a>
+        <a href="modeling-decisions.html">Modeling Decisions</a>
       </li>
     </ul>
   </li>
@@ -296,35 +310,35 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l211">​</a>
+  <li>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Post-Stroke Complication Condition Profile</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Post-Stroke Complication Condition Profile</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://qualityregistry.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -401,10 +415,10 @@
   <table class="colsi">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile<button data-clipboard-text="http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile" title="Click to copy URL" class="btn-copy"></button></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">1.0.0<button data-clipboard-text="http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile|1.0.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile|1.0.0"/></span>
       </td>
     </tr>
 
@@ -447,7 +461,7 @@
 
 
 
-  <!-- insert intro if present -->
+<!-- insert intro if present -->
 
 
 
@@ -458,7 +472,7 @@
 </ul>
 <p>You can also check for <a href="https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-post-stroke-complication-condition-profile.json">usages in the FHIR IG Statistics</a></p>
 
-    <!-- no uri -->
+  <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
   <p>
@@ -476,19 +490,19 @@
         <a href="#tabs-snap">Snapshot Table</a>
       </li>
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-xml">Pseudo-XML</a>
-      </li> -->
+      </li>-->
 
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-json">Pseudo-JSON</a>
-      </li> -->
+      </li>-->
 
 
-        <!-- <li>
+      <!--<li>
         <a href="#tabs-ttl">Pseudo-TTL</a>
-      </li> -->
+      </li>-->
 
       <li>
         <a href="#tabs-summ">Statistics/References</a>
@@ -549,7 +563,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter Profile</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Index stroke encounter</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileK'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileK-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileK'));
 document.getElementById('cbpost-stroke-complication-condition-profileK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -557,7 +571,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileK'
 document.getElementById('cbpost-stroke-complication-condition-profileK-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileK'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileK-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileK'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -625,10 +639,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileK'
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -771,7 +785,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileK'
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter Profile</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Index stroke encounter</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileD'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileD-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileD'));
 document.getElementById('cbpost-stroke-complication-condition-profileD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -780,7 +794,7 @@ document.getElementById('cbpost-stroke-complication-condition-profileD-obligatio
 filterDesc(document.getElementById('post-stroke-complication-condition-profileD'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileD-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileD'));
 </script></table>
           <a name="tx"> </a>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings (Differential)</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -833,7 +847,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileD'
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -1082,7 +1096,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#Annotation">Annotation</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional information about the Condition<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileS'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileS-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileS'));
 document.getElementById('cbpost-stroke-complication-condition-profileS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1090,7 +1104,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
 document.getElementById('cbpost-stroke-complication-condition-profileS-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileS'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileS-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileS'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -1278,10 +1292,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -1402,7 +1416,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
       </div>
     </div>
 
-  <!-- <a name="tabs-xml"> </a>
+<!--    <a name="tabs-xml"> </a>
     <div id="tabs-xml">
       <div id="xml">
         <div id="xml-inner">
@@ -1410,10 +1424,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-  <!-- <a name="tabs-json"> </a>
+<!--    <a name="tabs-json"> </a>
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
@@ -1469,10 +1483,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-      <!-- <a name="tabs-ttl"> </a>
+    <!--<a name="tabs-ttl"> </a>
     <div id="tabs-ttl">
       <div id="ttl">
         <div id="ttl-inner">
@@ -1480,7 +1494,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileS'
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
@@ -1560,7 +1574,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter Profile</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Index stroke encounter</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileKA'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileKA-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileKA'));
 document.getElementById('cbpost-stroke-complication-condition-profileKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1568,7 +1582,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileKA
 document.getElementById('cbpost-stroke-complication-condition-profileKA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileKA'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileKA-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileKA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -1636,10 +1650,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileKA
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -1782,7 +1796,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileKA
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter Profile</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Index stroke encounter</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileDA'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileDA-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileDA'));
 document.getElementById('cbpost-stroke-complication-condition-profileDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1790,7 +1804,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileDA
 document.getElementById('cbpost-stroke-complication-condition-profileDA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileDA'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileDA-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileDA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings (Differential)</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -1843,7 +1857,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileDA
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -2092,7 +2106,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#Annotation">Annotation</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Additional information about the Condition<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // ef0abb38-5b93-4225-8622-35426f35b681
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R5/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 4b49a5cd-7c5c-4363-a3ca-1c3bc49e0de6
 document.getElementById('cbpost-stroke-complication-condition-profileSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileSA'), 'binding', document.getElementById('cbpost-stroke-complication-condition-profileSA-binding').checked, document.getElementById('pppost-stroke-complication-condition-profileSA'));
 document.getElementById('cbpost-stroke-complication-condition-profileSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2100,7 +2114,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
 document.getElementById('cbpost-stroke-complication-condition-profileSA-obligation').checked = 'false' != localStorage.getItem('ht-table-states-obligation');
 filterDesc(document.getElementById('post-stroke-complication-condition-profileSA'), 'obligation', document.getElementById('cbpost-stroke-complication-condition-profileSA-obligation').checked, document.getElementById('pppost-stroke-complication-condition-profileSA'));
 </script></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list" data-fhir="generated-heirarchy">
   <tr>
@@ -2288,10 +2302,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list presentation" data-fhir="generated-heirarchy">
   <tr>
@@ -2411,7 +2425,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
         </div>
       </div>
 
-        <!-- <div id="all-xml">
+      <!--<div id="all-xml">
         <p>
           <b>XML Template</b>
         </p>
@@ -2419,10 +2433,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
           <p><span style="color: maroon; font-weight: bold">yet to be done: Xml template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-json">
+      <!--<div id="all-json">
         <p>
           <b>JSON Template</b>
         </p>
@@ -2478,10 +2492,10 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
   }
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-ttl">
+      <!--<div id="all-ttl">
         <p>
           <b>TTL Template</b>
         </p>
@@ -2489,7 +2503,7 @@ filterDesc(document.getElementById('post-stroke-complication-condition-profileSA
           <p><span style="color: maroon; font-weight: bold">yet to be done: Turtle template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
       <div id="all-summ">
         <p>This structure is derived from <a href="http://hl7.org/fhir/R5/condition.html">Condition</a>
@@ -2512,38 +2526,38 @@ Summary
       </div>
     </div>
   </div>
-  <p>&nbsp;</p>
+  <p>&#160;</p>
   <p>Other representations of profile: <a href="StructureDefinition-post-stroke-complication-condition-profile.csv">CSV</a>, <a href="StructureDefinition-post-stroke-complication-condition-profile.xlsx">Excel</a>, <a href="StructureDefinition-post-stroke-complication-condition-profile.sch">Schematron</a>
  
   </p>
 
   
 
-  <!-- insert notes if present -->
+<!-- insert notes if present -->
 
 
 
 
 </div>
 
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 10:11+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -2552,26 +2566,27 @@ Summary
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

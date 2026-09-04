@@ -152,6 +152,15 @@
     "http://snomed.info/sct"]
   },
   {
+    "url" : "http://qualityregistry.org/ValueSet/discharge-medication-vs",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DischargeMedicationVS",
+    "title" : "DischargeMedication ValueSet",
+    "description" : "Allowed coded values for medications prescribed or recommended at discharge.",
+    "systems" : ["http://qualityregistry.org/CodeSystem/discharge-medication-cs"]
+  },
+  {
     "url" : "http://qualityregistry.org/ValueSet/first-contact-place-vs",
     "version" : "1.0.0",
     "status" : "active",

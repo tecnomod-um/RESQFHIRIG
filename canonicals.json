@@ -874,6 +874,13 @@
   "name" : "DischargeFacilityTypeVS"
 },
 {
+  "id" : "discharge-medication-vs",
+  "type" : "ValueSet",
+  "url" : "http://qualityregistry.org/ValueSet/discharge-medication-vs",
+  "version" : "1.0.0",
+  "name" : "DischargeMedicationVS"
+},
+{
   "id" : "first-contact-place-vs",
   "type" : "ValueSet",
   "url" : "http://qualityregistry.org/ValueSet/first-contact-place-vs",
