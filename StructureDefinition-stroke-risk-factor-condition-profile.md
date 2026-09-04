@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:StrokeRiskFactorConditionProfile |
+| Active as of 2026-09-04 | *Computable Name*:StrokeRiskFactorConditionProfile |
 
  
 Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry. 
@@ -19,7 +19,7 @@ Represents comorbidities and clinical risk factors used in stroke quality measur
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-risk-factor-condition-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
   "title" : "Stroke Risk Factor Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

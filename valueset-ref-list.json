@@ -33,7 +33,7 @@
     "2.16.840.1.113883.4.642.2.176"],
     "uses" : {
     },
-    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Hospital Discharge Composition"
+    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Discharge Patient Summary Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -102,10 +102,10 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs",
@@ -212,8 +212,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
     "uses" : {
     },
-    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile",
-    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile"
+    "StructureDefinition-stroke-risk-factor-condition-profile.html" : "Stroke Risk Factor Condition Profile",
+    "StructureDefinition-post-stroke-complication-condition-profile.html" : "Post-Stroke Complication Condition Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/discharge-destination-vs",
@@ -330,8 +330,8 @@
     "uses" : {
     },
     "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/in-hospital-vs",
@@ -421,9 +421,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile",
     "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-discharge-medication-request-profile.html" : "Discharge MedicationRequest Profile"
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/mimics-diagnosis-vs",
@@ -528,9 +528,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/post-acute-care-vs",
@@ -598,12 +598,12 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
     "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
-    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile"
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
+    "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/procedure-timing-context-vs",
@@ -620,11 +620,11 @@
     "status" : "active",
     "name" : "RESQStrokeDischargeDocumentTypeVS",
     "title" : "RESQ Stroke Discharge Document Type ValueSet",
-    "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+    "description" : "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition.",
     "systems" : ["http://loinc.org"],
     "uses" : {
     },
-    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Hospital Discharge Composition"
+    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Discharge Patient Summary Composition"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs",
@@ -632,11 +632,12 @@
     "status" : "active",
     "name" : "RESQStrokeDischargeSectionCodeVS",
     "title" : "RESQ Stroke Discharge Section Code ValueSet",
-    "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
-    "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+    "description" : "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
+    "http://loinc.org"],
     "uses" : {
     },
-    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Hospital Discharge Composition"
+    "StructureDefinition-resq-stroke-discharge-composition.html" : "RESQ Stroke Discharge Patient Summary Composition"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/risk-factor-vs",
@@ -703,8 +704,8 @@
     "http://qualityregistry.org/CodeSystem/old-infarct-cs"],
     "uses" : {
     },
-    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile",
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-specific-finding-observation-profile.html" : "Specific Finding Observation Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/stroke-circumstance-vs",
@@ -845,7 +846,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/thrombectomy-complications-vs",
@@ -941,6 +943,7 @@
     "sources" : ["2.16.840.1.113883.1.11.17660"],
     "uses" : {
     },
+    "StructureDefinition-follow-up-appointment-profile.html" : "Three-Month Follow-up Appointment Profile",
     "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile"
   },
   {

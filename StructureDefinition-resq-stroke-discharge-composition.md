@@ -1,22 +1,25 @@
-# RESQ Stroke Hospital Discharge Composition - RESQ Stroke Registry Implementation Guide v1.0.0
+# RESQ Stroke Discharge Patient Summary Composition - RESQ Stroke Registry Implementation Guide v1.0.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **RESQ Stroke Hospital Discharge Composition**
+* **RESQ Stroke Discharge Patient Summary Composition**
 
-## Resource Profile: RESQ Stroke Hospital Discharge Composition 
+## Resource Profile: RESQ Stroke Discharge Patient Summary Composition 
 
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:RESQStrokeDischargeComposition |
+| Active as of 2026-09-04 | *Computable Name*:RESQStrokeDischargeComposition |
 
  
-FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document. 
+Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary. 
+
+ 
+Provides the clinical document entry point for one RES-Q stroke admission, grouping diagnosis, hospital course, treatments, discharge status, medications and follow-up information while keeping each coded fact available as a discrete FHIR resource. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Examples for this Profile: [Composition/ExampleRESQStrokeDischargeComposition](Composition-ExampleRESQStrokeDischargeComposition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-resq-stroke-discharge-composition.json)
 
@@ -39,10 +42,10 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
   "url" : "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition",
   "version" : "1.0.0",
   "name" : "RESQStrokeDischargeComposition",
-  "title" : "RESQ Stroke Hospital Discharge Composition",
+  "title" : "RESQ Stroke Discharge Patient Summary Composition",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -51,7 +54,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document.",
+  "description" : "Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -59,6 +62,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "display" : "Spain"
     }]
   }],
+  "purpose" : "Provides the clinical document entry point for one RES-Q stroke admission, grouping diagnosis, hospital course, treatments, discharge status, medications and follow-up information while keeping each coded fact available as a discrete FHIR resource.",
   "fhirVersion" : "5.0.0",
   "mapping" : [{
     "identity" : "workflow",
@@ -93,17 +97,26 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
   "differential" : {
     "element" : [{
       "id" : "Composition",
-      "path" : "Composition"
+      "path" : "Composition",
+      "constraint" : [{
+        "key" : "resq-section-entry-or-empty-reason",
+        "severity" : "warning",
+        "human" : "Every section in the RESQ discharge patient summary should either reference at least one entry or state why no entry is available.",
+        "expression" : "section.all(entry.exists() or emptyReason.exists())",
+        "source" : "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"
+      }]
     },
     {
       "id" : "Composition.text",
       "path" : "Composition.text",
+      "short" : "Narrative rendering of the complete discharge summary",
       "min" : 1,
       "mustSupport" : true
     },
     {
       "id" : "Composition.identifier",
       "path" : "Composition.identifier",
+      "short" : "Stable document identifier",
       "min" : 1,
       "max" : "1",
       "mustSupport" : true
@@ -112,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "id" : "Composition.identifier.system",
       "path" : "Composition.identifier.system",
       "min" : 1,
-      "patternUri" : "https://stroke.qualityregistry.org/",
+      "fixedUri" : "https://stroke.qualityregistry.org",
       "mustSupport" : true
     },
     {
@@ -124,12 +137,14 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
     {
       "id" : "Composition.status",
       "path" : "Composition.status",
+      "short" : "Final discharge patient summary",
       "patternCode" : "final",
       "mustSupport" : true
     },
     {
       "id" : "Composition.type",
       "path" : "Composition.type",
+      "short" : "Discharge summary document type",
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
@@ -146,32 +161,40 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
     {
       "id" : "Composition.subject",
       "path" : "Composition.subject",
+      "short" : "Patient discharged after the index stroke admission",
       "min" : 1,
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/resq-patient-profile"]
       }],
       "mustSupport" : true
     },
     {
       "id" : "Composition.encounter",
       "path" : "Composition.encounter",
+      "short" : "Index stroke encounter summarized by the document",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
+      }],
       "mustSupport" : true
     },
     {
       "id" : "Composition.date",
       "path" : "Composition.date",
+      "short" : "Date/time the discharge summary was finalized",
       "mustSupport" : true
     },
     {
       "id" : "Composition.author",
       "path" : "Composition.author",
+      "short" : "Authoring organization, clinician, role or system",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile",
         "http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+        "http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile",
         "http://hl7.org/fhir/StructureDefinition/Device"]
       }],
       "mustSupport" : true
@@ -179,12 +202,19 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
     {
       "id" : "Composition.title",
       "path" : "Composition.title",
-      "patternString" : "Stroke Hospital Discharge Summary",
+      "short" : "Human-readable document title",
+      "patternString" : "RESQ Stroke Discharge Patient Summary",
       "mustSupport" : true
     },
     {
       "id" : "Composition.custodian",
       "path" : "Composition.custodian",
+      "short" : "Organization responsible for maintaining the document",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"]
+      }],
       "mustSupport" : true
     },
     {
@@ -198,6 +228,8 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
         "ordered" : false,
         "rules" : "open"
       },
+      "short" : "Discharge summary sections",
+      "definition" : "Sections organize narrative and computable entries for the discharge patient summary. When a section is present without entries, emptyReason explains why no discrete resources are referenced.",
       "min" : 1,
       "mustSupport" : true
     },
@@ -240,6 +272,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "id" : "Composition.section:admissionEvaluation",
       "path" : "Composition.section",
       "sliceName" : "admissionEvaluation",
+      "short" : "Initial clinical status, location and assessment at admission",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -265,15 +298,20 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Condition",
-        "http://hl7.org/fhir/StructureDefinition/Observation",
-        "http://hl7.org/fhir/StructureDefinition/Location"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/resq-location-profile",
+        "http://qualityregistry.org/StructureDefinition/hospitalized-location-profile"]
       }]
     },
     {
       "id" : "Composition.section:patientHistory",
       "path" : "Composition.section",
       "sliceName" : "patientHistory",
+      "short" : "Relevant pre-stroke history and prior medication use",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -299,13 +337,15 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/MedicationStatement"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/prior-medication-statement-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"]
       }]
     },
     {
       "id" : "Composition.section:problemList",
       "path" : "Composition.section",
       "sliceName" : "problemList",
+      "short" : "Stroke diagnosis, risk factors and relevant complications",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -331,13 +371,16 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Condition"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile"]
       }]
     },
     {
       "id" : "Composition.section:hospitalCourse",
       "path" : "Composition.section",
       "sliceName" : "hospitalCourse",
+      "short" : "Clinical course and major events during hospitalization",
       "min" : 1,
       "max" : "1",
       "mustSupport" : true
@@ -363,17 +406,32 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Condition",
-        "http://hl7.org/fhir/StructureDefinition/Observation",
-        "http://hl7.org/fhir/StructureDefinition/Procedure",
-        "http://hl7.org/fhir/StructureDefinition/MedicationAdministration",
-        "http://hl7.org/fhir/StructureDefinition/DiagnosticReport"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/post-stroke-complication-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/analytics-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-imaging-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-treatment-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/nimodipine-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+        "http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"]
       }]
     },
     {
       "id" : "Composition.section:diagnosticSummary",
       "path" : "Composition.section",
       "sliceName" : "diagnosticSummary",
+      "short" : "Final diagnosis and supporting diagnostic findings",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -399,14 +457,17 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Condition",
-        "http://hl7.org/fhir/StructureDefinition/Observation"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
+        "http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+        "http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"]
       }]
     },
     {
       "id" : "Composition.section:significantProcedures",
       "path" : "Composition.section",
       "sliceName" : "significantProcedures",
+      "short" : "Clinically significant procedures performed or considered",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -432,13 +493,20 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Procedure"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-imaging-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-carotid-imaging-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-carotid-endarterectomy-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-swallow-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-treatment-procedure-profile"]
       }]
     },
     {
       "id" : "Composition.section:pharmacotherapy",
       "path" : "Composition.section",
       "sliceName" : "pharmacotherapy",
+      "short" : "Medication administrations during acute or post-acute stroke care",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -464,14 +532,51 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/MedicationAdministration",
-        "http://hl7.org/fhir/StructureDefinition/MedicationStatement"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/insulin-on-hyperglycemia-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/nimodipine-medication-administration-profile",
+        "http://qualityregistry.org/StructureDefinition/anticoagulant-reversal-medication-administration-profile"]
+      }]
+    },
+    {
+      "id" : "Composition.section:treatmentTimings",
+      "path" : "Composition.section",
+      "sliceName" : "treatmentTimings",
+      "short" : "Stroke pathway timing metrics such as door-to-needle and onset-to-door",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Composition.section:treatmentTimings.title",
+      "path" : "Composition.section.title",
+      "patternString" : "Treatment Timings"
+    },
+    {
+      "id" : "Composition.section:treatmentTimings.code",
+      "path" : "Composition.section.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
+          "code" : "treatment-timings",
+          "display" : "Treatment Timings"
+        }]
+      }
+    },
+    {
+      "id" : "Composition.section:treatmentTimings.entry",
+      "path" : "Composition.section.entry",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile"]
       }]
     },
     {
       "id" : "Composition.section:significantResults",
       "path" : "Composition.section",
       "sliceName" : "significantResults",
+      "short" : "Relevant diagnostic, imaging and laboratory results",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -497,14 +602,22 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation",
-        "http://hl7.org/fhir/StructureDefinition/DiagnosticReport"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/analytics-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/fever-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/hyperglycemia-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/glucose-ge10-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/highest-hyperglycemia-value-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/highest-systolic-blood-pressure-value-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile",
+        "http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile"]
       }]
     },
     {
       "id" : "Composition.section:vitalSigns",
       "path" : "Composition.section",
       "sliceName" : "vitalSigns",
+      "short" : "Vital signs relevant to discharge status",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -530,13 +643,15 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/highest-systolic-blood-pressure-value-observation-profile"]
       }]
     },
     {
       "id" : "Composition.section:functionalStatus",
       "path" : "Composition.section",
       "sliceName" : "functionalStatus",
+      "short" : "Functional and neurological status at discharge",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -562,8 +677,10 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation",
-        "http://hl7.org/fhir/StructureDefinition/Condition",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/glasgow-coma-score-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/glasgow-coma-scale-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/patient-ventilated-observation-profile",
         "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"]
       }]
     },
@@ -571,6 +688,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "id" : "Composition.section:dischargeDetails",
       "path" : "Composition.section",
       "sliceName" : "dischargeDetails",
+      "short" : "Discharge destination, disposition and facility/service details",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -596,13 +714,14 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Encounter"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/stroke-encounter-profile"]
       }]
     },
     {
       "id" : "Composition.section:dischargeMedications",
       "path" : "Composition.section",
       "sliceName" : "dischargeMedications",
+      "short" : "Medication orders or omission reasons at discharge",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -628,14 +747,15 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/MedicationRequest",
-        "http://hl7.org/fhir/StructureDefinition/MedicationStatement"]
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/discharge-medication-request-profile",
+        "http://qualityregistry.org/StructureDefinition/no-anticoagulant-discharge-reason-observation-profile"]
       }]
     },
     {
       "id" : "Composition.section:planOfCare",
       "path" : "Composition.section",
       "sliceName" : "planOfCare",
+      "short" : "Follow-up plan, scheduled contact and continuing care recommendations",
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -661,11 +781,13 @@ Other representations of profile: [CSV](StructureDefinition-resq-stroke-discharg
       "path" : "Composition.section.entry",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Appointment",
+        "targetProfile" : ["http://qualityregistry.org/StructureDefinition/follow-up-appointment-profile",
+        "http://qualityregistry.org/StructureDefinition/three-month-communication-profile",
+        "http://qualityregistry.org/StructureDefinition/appointment-management-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile",
+        "http://qualityregistry.org/StructureDefinition/stroke-treatment-procedure-profile",
         "http://hl7.org/fhir/StructureDefinition/CarePlan",
-        "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
-        "http://hl7.org/fhir/StructureDefinition/Procedure",
-        "http://hl7.org/fhir/StructureDefinition/Observation"]
+        "http://hl7.org/fhir/StructureDefinition/ServiceRequest"]
       }]
     }]
   }

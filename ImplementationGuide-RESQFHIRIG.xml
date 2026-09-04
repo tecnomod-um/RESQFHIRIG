@@ -10,7 +10,7 @@
   <name value="RESQStrokeIG"/>
   <title value="RESQ Stroke Registry Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-08-31T10:08:26+00:00"/>
+  <date value="2026-09-04T09:44:50+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -153,7 +153,7 @@
         <reference value="StructureDefinition/assessment-timing-ext"/>
       </reference>
       <name value="Assessment or medication timing"/>
-      <description value="Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org."/>
+      <description value="Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1034,6 +1034,7 @@
       </reference>
       <name value="OrganizationExample"/>
       <isExample value="true"/>
+      <profile value="http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1307,7 +1308,29 @@
         <reference value="ValueSet/resq-stroke-discharge-document-type-vs"/>
       </reference>
       <name value="RESQ Stroke Discharge Document Type ValueSet"/>
-      <description value="Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition."/>
+      <description value="Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/ExampleRESQStrokeDischargeComposition"/>
+      </reference>
+      <name value="RESQ Stroke Discharge Patient Summary"/>
+      <isExample value="true"/>
+      <profile value="http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/resq-stroke-discharge-composition"/>
+      </reference>
+      <name value="RESQ Stroke Discharge Patient Summary Composition"/>
+      <description value="Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1318,18 +1341,7 @@
         <reference value="ValueSet/resq-stroke-discharge-section-code-vs"/>
       </reference>
       <name value="RESQ Stroke Discharge Section Code ValueSet"/>
-      <description value="Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/resq-stroke-discharge-composition"/>
-      </reference>
-      <name value="RESQ Stroke Hospital Discharge Composition"/>
-      <description value="FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document."/>
+      <description value="Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -1854,10 +1866,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/three-month-communication-profile"/>
+      </reference>
+      <name value="Three-Month Contact Communication Profile"/>
+      <description value="Communication profile for recording contact with the patient or caregiver at approximately three months after stroke."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/three-month-contact-mode-observation-profile"/>
       </reference>
       <name value="Three-Month Contact Mode Observation Profile"/>
       <description value="Observation profile for the modality used to obtain three-month follow-up information."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/follow-up-appointment-profile"/>
+      </reference>
+      <name value="Three-Month Follow-up Appointment Profile"/>
+      <description value="Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -2089,6 +2123,12 @@
         <sourceUrl value="index.html"/>
         <name value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="discharge-summary.html"/>
+        <name value="discharge-summary.html"/>
+        <title value="Discharge Summary"/>
         <generation value="markdown"/>
       </page>
       <page>

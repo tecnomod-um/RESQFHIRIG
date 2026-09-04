@@ -216,8 +216,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"2"}
-    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -270,6 +270,9 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
         <a href="modeling.html">Modeling Decisions</a>
       </li>
     </ul>
@@ -293,7 +296,7 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l204">​</a>
+  <li><a name="l210">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -391,6 +394,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>Captures discharge department/service or facility type.</td>
     </tr>
     <tr>
+      <td><a href="StructureDefinition-discharge-facility-type-ext.html">Discharge facility type</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Encounter</code></td>
+      <td>Captures the facility or transfer destination type after discharge.</td>
+    </tr>
+    <tr>
       <td><a href="StructureDefinition-initial-care-intensity-ext.html">Initial care intensity</a></td>
       <td><code class="language-plaintext highlighter-rouge">Location</code></td>
       <td>Captures ICU/stroke unit, monitored bed or standard bed context.</td>
@@ -416,19 +424,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>Captures known ischemic stroke etiology.</td>
     </tr>
     <tr>
-      <td><a name="l480">​</a><a href="StructureDefinition-ischemic-stroke-etiology-known-ext.html">Ischemic stroke etiology known/unknown coded state</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Condition</code></td>
-      <td>Captures unknown or undetermined etiology state.</td>
-    </tr>
-    <tr>
       <td><a href="StructureDefinition-hemorrhagic-stroke-bleeding-reason-ext.html">Hemorrhagic stroke bleeding reason</a></td>
       <td><code class="language-plaintext highlighter-rouge">Condition</code></td>
       <td>Captures known bleeding reason.</td>
-    </tr>
-    <tr>
-      <td><a name="l508">​</a><a href="StructureDefinition-hemorrhagic-stroke-bleeding-reason-found-ext.html">Hemorrhagic stroke bleeding reason found coded state</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Condition</code></td>
-      <td>Captures unknown or undetermined bleeding reason state.</td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-wakeup-stroke-ext.html">Wake-up stroke</a></td>
@@ -457,7 +455,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Aug 31, 2026 10:08+0000">2026-08-31</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/procedure-timing-context-ext | *Version*:1.0.0 |
-| Draft as of 2026-08-31 | *Computable Name*:ProcedureTimingContextExt |
+| Draft as of 2026-09-04 | *Computable Name*:ProcedureTimingContextExt |
 
 Timing or phase context for procedure execution, such as acute/post-acute or specific screening window.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-procedure-timing-con
   "name" : "ProcedureTimingContextExt",
   "title" : "Procedure timing context",
   "status" : "draft",
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -15,6 +15,12 @@ This page explains the main modeling choices in the RES-Q FHIR IG. The goal is t
 
 The [Stroke Encounter](StructureDefinition-stroke-encounter-profile.md) is the central episode context. Most clinical resources require both `subject` and `encounter`, making it straightforward to query all facts for a stroke admission and to distinguish repeated admissions for the same patient.
 
+## Discharge Patient Summary
+
+The [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) is the document-level view of the stroke admission. It groups the same profiled resources used throughout the IG into clinically meaningful discharge sections, including hospital course, diagnostic summary, procedures, treatment timings, discharge details, discharge medications and follow-up plan.
+
+The Composition is intentionally modeled as an index over discrete resources rather than as a replacement for them. Narrative text supports human review, while `section.entry` references preserve validation, querying and analytics against the underlying Condition, Observation, Procedure, DiagnosticReport and medication resources.
+
 ## Conditions vs Observations
 
 `Condition` is used when the registry concept is a clinical assertion that can persist over time: the index diagnosis, risk factors and complications. These profiles bind `code` to focused registry value sets and keep the diagnosis-specific details in extensions when the base Condition model has no clean field for them.

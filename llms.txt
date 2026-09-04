@@ -3,6 +3,7 @@
 ## Pages
 
 * [Home](index.md)
+* [Discharge Summary](discharge-summary.md)
 * [Terminology](terminology.md)
 * [Modeling](modeling.md)
 * [Extensions](extensions.md)
@@ -146,6 +147,7 @@
 * [Base Stroke Observation Profile](StructureDefinition-base-stroke-observation.md)
 * [Discharge MedicationRequest Profile](StructureDefinition-discharge-medication-request-profile.md)
 * [Fever Observation Profile](StructureDefinition-fever-observation-profile.md)
+* [Three-Month Follow-up Appointment Profile](StructureDefinition-follow-up-appointment-profile.md)
 * [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md)
 * [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md)
 * [Glasgow Coma Score Observation Profile](StructureDefinition-glasgow-coma-score-observation-profile.md)
@@ -166,7 +168,7 @@
 * [RESQ Location Profile](StructureDefinition-resq-location-profile.md)
 * [RESQ Patient Profile](StructureDefinition-resq-patient-profile.md)
 * [RESQ PractitionerRole Profile](StructureDefinition-resq-practitioner-role-profile.md)
-* [RESQ Stroke Hospital Discharge Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 * [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md)
 * [Stroke Carotid Endarterectomy Procedure Profile](StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.md)
 * [Stroke Carotid Imaging Procedure Profile](StructureDefinition-stroke-carotid-imaging-procedure-profile.md)
@@ -182,6 +184,7 @@
 * [Stroke Treatment Procedure Profile](StructureDefinition-stroke-treatment-procedure-profile.md)
 * [Stroke VTE Prophylaxis Procedure Profile](StructureDefinition-stroke-vte-procedure-profile.md)
 * [Tenecteplase Brand Medication Profile](StructureDefinition-tenecteplase-brand-medication-profile.md)
+* [Three-Month Contact Communication Profile](StructureDefinition-three-month-communication-profile.md)
 * [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md)
 * [TIA Clinical Symptoms Observation Profile](StructureDefinition-tia-clinical-symptoms-observation-profile.md)
 * [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md)
@@ -210,6 +213,7 @@
 
 ### Examples
 
+* [RESQ Stroke Discharge Patient Summary (Composition)](Composition-ExampleRESQStrokeDischargeComposition.md)
 * [ExampleStrokeDiagnosis (Condition)](Condition-ExampleStrokeDiagnosis.md)
 * [ExampleStrokeEncounter (Encounter)](Encounter-ExampleStrokeEncounter.md)
 * [ExampleDoorToNeedle (Observation)](Observation-ExampleDoorToNeedle.md)

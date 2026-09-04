@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/resq-practitioner-role-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:RESQPractitionerRoleProfile |
+| Active as of 2026-09-04 | *Computable Name*:RESQPractitionerRoleProfile |
 
  
 PractitionerRole profile for recording the type of clinician or professional performing swallowing screening and related pathway activities. 
@@ -19,7 +19,7 @@ Captures performer role categories when the source registry records a role rathe
 
 **Usages:**
 
-* Refer to this Profile: [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md)
+* Refer to this Profile: [Three-Month Follow-up Appointment Profile](StructureDefinition-follow-up-appointment-profile.md), [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) and [Stroke Swallowing Screening Procedure Profile](StructureDefinition-stroke-swallow-procedure-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-resq-practitioner-role-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-practitioner-ro
   "title" : "RESQ PractitionerRole Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/base-stroke-observation | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:BaseStrokeObservation |
+| Active as of 2026-09-04 | *Computable Name*:BaseStrokeObservation |
 
  
 Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
   "title" : "Base Stroke Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

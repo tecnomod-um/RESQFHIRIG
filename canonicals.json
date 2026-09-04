@@ -405,6 +405,13 @@
   "name" : "FirstHospitalExt"
 },
 {
+  "id" : "follow-up-appointment-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://qualityregistry.org/StructureDefinition/follow-up-appointment-profile",
+  "version" : "1.0.0",
+  "name" : "FollowUpAppointmentProfile"
+},
+{
   "id" : "functional-score-observation-profile",
   "type" : "StructureDefinition",
   "url" : "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
@@ -526,7 +533,7 @@
 {
   "id" : "paracetamol-on-fever-medication-administration-profile",
   "type" : "StructureDefinition",
-  "url" : "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "ParacetamolOnFeverMedicationAdministrationProfile"
 },
@@ -711,6 +718,13 @@
   "url" : "http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile",
   "version" : "1.0.0",
   "name" : "TenecteplaseBrandMedicationProfile"
+},
+{
+  "id" : "three-month-communication-profile",
+  "type" : "StructureDefinition",
+  "url" : "http://qualityregistry.org/StructureDefinition/three-month-communication-profile",
+  "version" : "1.0.0",
+  "name" : "ThreeMonthCommunicationProfile"
 },
 {
   "id" : "three-month-contact-mode-observation-profile",

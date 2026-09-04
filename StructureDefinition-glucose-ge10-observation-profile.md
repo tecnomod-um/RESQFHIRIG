@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/glucose-ge10-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:GlucoseGE10ObservationProfile |
+| Active as of 2026-09-04 | *Computable Name*:GlucoseGE10ObservationProfile |
 
  
 Boolean observation profile indicating whether glucose was greater than or equal to 10 mmol/L. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-glucose-ge10-observation-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-glucose-ge10-observa
   "title" : "Glucose >= 10 Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

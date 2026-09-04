@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.0.0 |
-| Draft as of 2026-08-31 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-09-04 | *Computable Name*:RESQStrokeIG |
 
 # RESQ Stroke Registry Implementation Guide
 
@@ -20,26 +20,33 @@ FHIR R5 implementation guide
 
 The model turns one stroke episode into a connected resource graph: a patient and encounter anchor the record, while diagnoses, observations, procedures, medications, reports and follow-up resources describe the clinical pathway.
 
-[**41**Profiles](profiles.md)
-[**15**Extensions](extensions.md)
-[**117**Terminology artifacts](terminology.md)
-[**15**FHIR resource types](resource-map.md)
+[**48**Profiles](profiles.md)
+[**14**Extensions](extensions.md)
+[**120**Terminology artifacts](terminology.md)
+[**17**FHIR resource types](resource-map.md)
 
 ## Start here
 
 [ **Resource map** See every FHIR resource type used in the IG and how the resources connect across a stroke episode. ](resource-map.md)
+[ **Discharge patient summary** Review the Composition profile that organizes one stroke admission into document sections. ](discharge-summary.md)
 [ **Modeling decisions** Understand why the registry is split across Patient, Encounter, Condition, Observation, Procedure and medication resources. ](modeling.md)
 [ **Profiles by resource** Jump directly to the StructureDefinition pages for each profile. ](profiles.md)
 [ **Terminology** Review the local CodeSystems and ValueSets generated from the registry enumeration model. ](terminology.md)
 
 ## Scope
 
-The IG covers the complete transaction bundle produced by `transform_to_fhir`: `Organization`, `Patient`, `Encounter`, `Location`, `Condition`, `Observation`, `Procedure`, `DiagnosticReport`, `BodyStructure`, `MedicationStatement`, `MedicationRequest`, `MedicationAdministration`, `PractitionerRole`, `Appointment` and `Communication`.
+The IG covers the complete transaction bundle produced by `transform_to_fhir`: `Composition`, `Organization`, `Patient`, `Encounter`, `Location`, `Condition`, `Observation`, `Procedure`, `DiagnosticReport`, `BodyStructure`, `Medication`, `MedicationStatement`, `MedicationRequest`, `MedicationAdministration`, `PractitionerRole`, `Appointment` and `Communication`.
 
 ## Resource graph
 
 ```
 flowchart LR
+  Comp["Discharge Summary Composition"] --> Pat
+  Comp --> Enc
+  Comp --> Dx
+  Comp --> Obs
+  Comp --> Proc
+  Comp --> Med
   Org["Organization"] --> Enc["StrokeEncounter"]
   Pat["RESQPatient"] --> Enc
   Enc --> Dx["Diagnosis Condition"]
@@ -80,7 +87,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -277,7 +284,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "StructureDefinition/assessment-timing-ext"
       },
       "name" : "Assessment or medication timing",
-      "description" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.",
+      "description" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical.",
       "isExample" : false
     },
     {
@@ -1557,7 +1564,8 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "Organization/OrganizationExample"
       },
       "name" : "OrganizationExample",
-      "isExample" : true
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"]
     },
     {
       "extension" : [{
@@ -1956,7 +1964,39 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "ValueSet/resq-stroke-discharge-document-type-vs"
       },
       "name" : "RESQ Stroke Discharge Document Type ValueSet",
-      "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+      "description" : "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Composition-ExampleRESQStrokeDischargeComposition.html"
+      }],
+      "reference" : {
+        "reference" : "Composition/ExampleRESQStrokeDischargeComposition"
+      },
+      "name" : "RESQ Stroke Discharge Patient Summary",
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-resq-stroke-discharge-composition.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/resq-stroke-discharge-composition"
+      },
+      "name" : "RESQ Stroke Discharge Patient Summary Composition",
+      "description" : "Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary.",
       "isExample" : false
     },
     {
@@ -1972,23 +2012,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "reference" : "ValueSet/resq-stroke-discharge-section-code-vs"
       },
       "name" : "RESQ Stroke Discharge Section Code ValueSet",
-      "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-resq-stroke-discharge-composition.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/resq-stroke-discharge-composition"
-      },
-      "name" : "RESQ Stroke Hospital Discharge Composition",
-      "description" : "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document.",
+      "description" : "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.",
       "isExample" : false
     },
     {
@@ -2750,6 +2774,22 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-three-month-communication-profile.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/three-month-communication-profile"
+      },
+      "name" : "Three-Month Contact Communication Profile",
+      "description" : "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "StructureDefinition-three-month-contact-mode-observation-profile.html"
       }],
       "reference" : {
@@ -2757,6 +2797,22 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "Three-Month Contact Mode Observation Profile",
       "description" : "Observation profile for the modality used to obtain three-month follow-up information.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-follow-up-appointment-profile.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/follow-up-appointment-profile"
+      },
+      "name" : "Three-Month Follow-up Appointment Profile",
+      "description" : "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.",
       "isExample" : false
     },
     {
@@ -3088,6 +3144,12 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
         "sourceUrl" : "index.html",
         "name" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "discharge-summary.html",
+        "name" : "discharge-summary.html",
+        "title" : "Discharge Summary",
         "generation" : "markdown"
       },
       {

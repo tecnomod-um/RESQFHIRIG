@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
+| Active as of 2026-09-04 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
 
  
-Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition. 
+Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition. 
 
  **References** 
 
-* [RESQ Stroke Hospital Discharge Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 ### Logical Definition (CLD)
 
@@ -51,7 +51,7 @@ Allowed document type code for the RESQ Stroke Hospital Discharge Summary Compos
   "title" : "RESQ Stroke Discharge Document Type ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -60,7 +60,7 @@ Allowed document type code for the RESQ Stroke Hospital Discharge Summary Compos
       "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+  "description" : "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

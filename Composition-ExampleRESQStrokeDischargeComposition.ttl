@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qualityregistry.org/Composition/ExampleRESQStrokeDischargeComposition> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleRESQStrokeDischargeComposition"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"^^xsd:anyURI ;
+       fhir:link <http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">RESQ stroke discharge patient summary for the example stroke encounter.</div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://stroke.qualityregistry.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "discharge-summary-001" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:18842-5 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "18842-5" ] ;
+       fhir:display [ fhir:v "Discharge summary" ]
+     ] )
+  ] ; # 
+  fhir:subject ( [
+     fhir:link <http://qualityregistry.org/Patient/ExampleRESQPatient> ;
+     fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
+  ] ) ; # 
+  fhir:encounter [
+     fhir:link <http://qualityregistry.org/Encounter/ExampleStrokeEncounter> ;
+     fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
+  ] ; # 
+  fhir:date [ fhir:v "2026-09-04T10:00:00+02:00"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://qualityregistry.org/Organization/OrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/OrganizationExample" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "RESQ Stroke Discharge Patient Summary"] ; # 
+  fhir:custodian [
+     fhir:link <http://qualityregistry.org/Organization/OrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/OrganizationExample" ]
+  ] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Hospital Course" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8648-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8648-8" ] ;
+         fhir:display [ fhir:v "Hospital course note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://qualityregistry.org/Condition/ExampleStrokeDiagnosis> ;
+       fhir:reference [ fhir:v "Condition/ExampleStrokeDiagnosis" ]
+     ] [
+       fhir:link <http://qualityregistry.org/Observation/ExampleDoorToNeedle> ;
+       fhir:reference [ fhir:v "Observation/ExampleDoorToNeedle" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:LocationsVS |
+| Active as of 2026-09-04 | *Computable Name*:LocationsVS |
 
  
 Allowed coded values for Locations 
@@ -18,6 +18,7 @@ Allowed coded values for Locations
 
 * [Location](http://hl7.org/fhir/R5/location.html)
 * [ServiceRequest](http://hl7.org/fhir/R5/servicerequest.html)
+* [Three-Month Follow-up Appointment Profile](StructureDefinition-follow-up-appointment-profile.md)
 * [RESQ Location Profile](StructureDefinition-resq-location-profile.md)
 
 ### Logical Definition (CLD)
@@ -53,7 +54,7 @@ Allowed coded values for Locations
   "title" : "Locations ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

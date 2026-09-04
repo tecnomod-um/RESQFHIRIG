@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/timing-metric-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:TimingMetricObservationProfile |
+| Active as of 2026-09-04 | *Computable Name*:TimingMetricObservationProfile |
 
  
 Observation profile for stroke time metrics and process indicators such as door-to-needle, door-to-groin, onset-to-door and related measures. 
 
 **Usages:**
 
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 * Examples for this Profile: [Observation/ExampleDoorToNeedle](Observation-ExampleDoorToNeedle.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-timing-metric-observation-profile.json)
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-timing-metric-observ
   "title" : "Timing Metric Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

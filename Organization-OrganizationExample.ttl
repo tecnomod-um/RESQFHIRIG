@@ -9,13 +9,21 @@
 <http://qualityregistry.org/Organization/OrganizationExample> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "OrganizationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
+       fhir:link <http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization OrganizationExample</b></p><a name=\"OrganizationExample\"> </a><a name=\"hcOrganizationExample\"> </a><p><b>identifier</b>: organization-001</p><p><b>name</b>: Example Healthcare Organization</p></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization OrganizationExample</b></p><a name=\"OrganizationExample\"> </a><a name=\"hcOrganizationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-stroke-registry-organization-profile.html\">Stroke Registry Organization Profile</a></p></div><p><b>identifier</b>: <code>https://stroke.qualityregistry.org</code>/organization-001</p><p><b>active</b>: true</p><p><b>name</b>: Example Healthcare Organization</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
+     fhir:system [ fhir:v "https://stroke.qualityregistry.org"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "organization-001" ]
   ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
   fhir:name [ fhir:v "Example Healthcare Organization"] . # 
 
 # -------------------------------------------------------------------------------------

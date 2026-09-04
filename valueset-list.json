@@ -452,7 +452,7 @@
     "status" : "active",
     "name" : "RESQStrokeDischargeDocumentTypeVS",
     "title" : "RESQ Stroke Discharge Document Type ValueSet",
-    "description" : "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.",
+    "description" : "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition.",
     "systems" : ["http://loinc.org"]
   },
   {
@@ -461,8 +461,9 @@
     "status" : "active",
     "name" : "RESQStrokeDischargeSectionCodeVS",
     "title" : "RESQ Stroke Discharge Section Code ValueSet",
-    "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
-    "systems" : ["http://loinc.org", "http://snomed.info/sct"]
+    "description" : "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.",
+    "systems" : ["http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
+    "http://loinc.org"]
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/risk-factor-vs",

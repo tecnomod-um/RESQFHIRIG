@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/hemorrhagic-transformation-type-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:HemorrhagicTransformationTypeVS |
+| Active as of 2026-09-04 | *Computable Name*:HemorrhagicTransformationTypeVS |
 
  
 Allowed coded values for HemorrhagicTransformationType 
@@ -51,7 +51,7 @@ Allowed coded values for HemorrhagicTransformationType
   "title" : "HemorrhagicTransformationType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

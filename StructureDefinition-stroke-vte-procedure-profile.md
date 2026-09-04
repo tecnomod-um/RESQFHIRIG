@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-vte-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:StrokeVTEProcedureProfile |
+| Active as of 2026-09-04 | *Computable Name*:StrokeVTEProcedureProfile |
 
  
 Procedure profile for venous thromboembolism prophylaxis used in the stroke pathway. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-vte-procedure-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
   "title" : "Stroke VTE Prophylaxis Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/post-recanalization-imaging-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:PostRecanalizationImagingVS |
+| Active as of 2026-09-04 | *Computable Name*:PostRecanalizationImagingVS |
 
  
 Allowed coded values for PostRecanalizationImaging 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "PostRecanalizationImaging ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

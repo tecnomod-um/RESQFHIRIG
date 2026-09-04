@@ -13,6 +13,7 @@ The IG exposes registry enumerations as computable FHIR terminology. Local CodeS
 
 | | |
 | :--- | :--- |
+| Discharge summary document | [RESQ Stroke Discharge Document Type ValueSet](ValueSet-resq-stroke-discharge-document-type-vs.md),[RESQ Stroke Discharge Section Code ValueSet](ValueSet-resq-stroke-discharge-section-code-vs.md) |
 | Stroke pathway and admission | [AdmissionPathway ValueSet](ValueSet-admission-pathway-vs.md),[FirstContactPlace ValueSet](ValueSet-first-contact-place-vs.md),[DischargeDestination ValueSet](ValueSet-discharge-destination-vs.md) |
 | Diagnosis and etiology | [StrokeType ValueSet](ValueSet-stroke-type-vs.md),[StrokeEtiology ValueSet](ValueSet-stroke-etiology-vs.md),[BleedingReason ValueSet](ValueSet-bleeding-reason-vs.md) |
 | Observations and scores | [FunctionalScore ValueSet](ValueSet-functional-score-vs.md),[MRsScore ValueSet](ValueSet-mrs-score-vs.md),[GlasgowComaScale ValueSet](ValueSet-glasgow-coma-scale-vs.md),[TimingMetricCodes ValueSet](ValueSet-timing-metric-codes-vs.md) |

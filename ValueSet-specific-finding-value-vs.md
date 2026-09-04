@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-value-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:SpecificFindingValueVS |
+| Active as of 2026-09-04 | *Computable Name*:SpecificFindingValueVS |
 
  
 Allowed coded values used as Observation.valueCodeableConcept for specific finding observations. 
@@ -51,7 +51,7 @@ Allowed coded values used as Observation.valueCodeableConcept for specific findi
   "title" : "Specific Finding Value ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

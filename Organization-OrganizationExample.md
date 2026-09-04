@@ -6,7 +6,11 @@
 
 ## Example Organization: OrganizationExample
 
-**identifier**: organization-001
+Profile: [Stroke Registry Organization Profile](StructureDefinition-stroke-registry-organization-profile.md)
+
+**identifier**: `https://stroke.qualityregistry.org`/organization-001
+
+**active**: true
 
 **name**: Example Healthcare Organization
 
@@ -18,9 +22,14 @@
 {
   "resourceType" : "Organization",
   "id" : "OrganizationExample",
+  "meta" : {
+    "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"]
+  },
   "identifier" : [{
+    "system" : "https://stroke.qualityregistry.org",
     "value" : "organization-001"
   }],
+  "active" : true,
   "name" : "Example Healthcare Organization"
 }
 

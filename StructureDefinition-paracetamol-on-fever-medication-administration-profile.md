@@ -8,15 +8,15 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:ParacetamolOnFeverMedicationAdministrationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile | *Version*:1.0.0 |
+| Active as of 2026-09-04 | *Computable Name*:ParacetamolOnFeverMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for paracetamol administered because of fever. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-paracetamol-on-fever-medication-administration-profile.json)
 
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-paracetamol-on-fever
 {
   "resourceType" : "StructureDefinition",
   "id" : "paracetamol-on-fever-medication-administration-profile",
-  "url" : "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-paracetamol-on-fever-medication-administration-profile",
+  "url" : "http://qualityregistry.org/StructureDefinition/paracetamol-on-fever-medication-administration-profile",
   "version" : "1.0.0",
   "name" : "ParacetamolOnFeverMedicationAdministrationProfile",
   "title" : "Paracetamol on Fever MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

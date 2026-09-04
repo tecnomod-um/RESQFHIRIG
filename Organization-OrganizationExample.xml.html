@@ -216,8 +216,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"7.185"}
-    h3,h4,h5,h6{--heading-prefix:"7.185"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.187"}
+    h3,h4,h5,h6{--heading-prefix:"8.187"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -270,6 +270,9 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
         <a href="modeling.html">Modeling Decisions</a>
       </li>
     </ul>
@@ -293,7 +296,7 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l204">​</a>
+  <li><a name="l210">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -380,13 +383,19 @@
   <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml" data-fhir="generated"><code style="white-space: pre; text-wrap: nowrap;" class="language-xml">
 &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>="OrganizationExample"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>="http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Organization OrganizationExample&lt;/b&gt;&lt;/p&gt;&lt;a name="OrganizationExample"&gt; &lt;/a&gt;&lt;a name="hcOrganizationExample"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: organization-001&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Example Healthcare Organization&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Organization OrganizationExample&lt;/b&gt;&lt;/p&gt;&lt;a name="OrganizationExample"&gt; &lt;/a&gt;&lt;a name="hcOrganizationExample"&gt; &lt;/a&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"/&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="StructureDefinition-stroke-registry-organization-profile.html"&gt;Stroke Registry Organization Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://stroke.qualityregistry.org&lt;/code&gt;/organization-001&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Example Healthcare Organization&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>="https://stroke.qualityregistry.org"/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="organization-001"/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.active">active</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>="true"/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>="Example Healthcare Organization"/&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a>&gt;</code></pre>
 
@@ -412,7 +421,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Aug 31, 2026 10:08+0000">2026-08-31</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

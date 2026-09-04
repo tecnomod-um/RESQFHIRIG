@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:StrokeRegistryOrganizationProfile |
+| Active as of 2026-09-04 | *Computable Name*:StrokeRegistryOrganizationProfile |
 
  
 Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier. 
@@ -19,7 +19,8 @@ Identifies the care organization or hospital associated with registry encounters
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* Examples for this Profile: [Example Healthcare Organization](Organization-OrganizationExample.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-registry-organization-profile.json)
 
@@ -45,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-registry-orga
   "title" : "Stroke Registry Organization Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

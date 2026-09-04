@@ -136,6 +136,12 @@
         "title": "Discharge MedicationRequest Profile"
       }
     ],
+    "Appointment": [
+      {
+        "url": "http://qualityregistry.org/StructureDefinition/follow-up-appointment-profile",
+        "title": "Three-Month Follow-up Appointment Profile"
+      }
+    ],
     "Location": [
       {
         "url": "http://qualityregistry.org/StructureDefinition/resq-location-profile",
@@ -181,7 +187,7 @@
     "Composition": [
       {
         "url": "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition",
-        "title": "RESQ Stroke Hospital Discharge Composition"
+        "title": "RESQ Stroke Discharge Patient Summary Composition"
       }
     ],
     "Procedure": [
@@ -214,6 +220,12 @@
       {
         "url": "http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile",
         "title": "Tenecteplase Brand Medication Profile"
+      }
+    ],
+    "Communication": [
+      {
+        "url": "http://qualityregistry.org/StructureDefinition/three-month-communication-profile",
+        "title": "Three-Month Contact Communication Profile"
       }
     ]
   },

@@ -9,9 +9,9 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/assessment-timing-ext | *Version*:1.0.0 |
-| Draft as of 2026-08-31 | *Computable Name*:AssessmentTimingExt |
+| Draft as of 2026-09-04 | *Computable Name*:AssessmentTimingExt |
 
-Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.
+Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical.
 
 **Context of Use**
 
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -59,7 +59,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
       "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.",
+  "description" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -87,7 +87,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
       "id" : "Extension",
       "path" : "Extension",
       "short" : "Assessment or medication timing",
-      "definition" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org."
+      "definition" : "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical."
     },
     {
       "id" : "Extension.extension",

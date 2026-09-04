@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/functional-score-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:FunctionalScoreObservationProfile |
+| Active as of 2026-09-04 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
@@ -17,6 +17,7 @@ Observation profile for functional or severity scores such as mRS, NIHSS, ASPECT
 **Usages:**
 
 * Derived from this Profile: [Glasgow Coma Scale Observation Profile](StructureDefinition-glasgow-coma-scale-observation-profile.md) and [Glasgow Coma Score Observation Profile](StructureDefinition-glasgow-coma-score-observation-profile.md)
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-functional-score-observation-profile.json)
 
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "title" : "Functional Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

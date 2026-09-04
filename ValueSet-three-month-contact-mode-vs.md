@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/three-month-contact-mode-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:ThreeMonthContactModeVS |
+| Active as of 2026-09-04 | *Computable Name*:ThreeMonthContactModeVS |
 
  
 Allowed coded values for ThreeMonthContactMode 
 
  **References** 
 
+* [Three-Month Contact Communication Profile](StructureDefinition-three-month-communication-profile.md)
 * [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md)
 
 ### Logical Definition (CLD)
@@ -51,7 +52,7 @@ Allowed coded values for ThreeMonthContactMode
   "title" : "ThreeMonthContactMode ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/CodeSystem/location-cs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:LocationCS |
+| Active as of 2026-09-04 | *Computable Name*:LocationCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/location-cs. 
@@ -35,7 +35,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "LocationCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

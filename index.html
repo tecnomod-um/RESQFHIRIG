@@ -270,6 +270,9 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
         <a href="modeling.html">Modeling Decisions</a>
       </li>
     </ul>
@@ -293,7 +296,7 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l204">​</a>
+  <li><a name="l210">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -359,7 +362,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2026-08-31
+            as of 2026-09-04
           
         
       </td>
@@ -397,10 +400,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>The model turns one stroke episode into a connected resource graph: a patient and encounter anchor the record, while diagnoses, observations, procedures, medications, reports and follow-up resources describe the clinical pathway.</p>
   </div>
   <div class="resq-stat-grid">
-    <a href="profiles.html" class="resq-stat"><strong>41</strong><span>Profiles</span></a>
-    <a href="extensions.html" class="resq-stat"><strong>15</strong><span>Extensions</span></a>
-    <a href="terminology.html" class="resq-stat"><strong>117</strong><span>Terminology artifacts</span></a>
-    <a href="resource-map.html" class="resq-stat"><strong>15</strong><span>FHIR resource types</span></a>
+    <a href="profiles.html" class="resq-stat"><strong>48</strong><span>Profiles</span></a>
+    <a href="extensions.html" class="resq-stat"><strong>14</strong><span>Extensions</span></a>
+    <a href="terminology.html" class="resq-stat"><strong>120</strong><span>Terminology artifacts</span></a>
+    <a href="resource-map.html" class="resq-stat"><strong>17</strong><span>FHIR resource types</span></a>
   </div>
 </div>
 
@@ -410,6 +413,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <a href="resource-map.html" class="resq-card">
     <strong>Resource map</strong>
     <span>See every FHIR resource type used in the IG and how the resources connect across a stroke episode.</span>
+  </a>
+  <a href="discharge-summary.html" class="resq-card">
+    <strong>Discharge patient summary</strong>
+    <span>Review the Composition profile that organizes one stroke admission into document sections.</span>
   </a>
   <a href="modeling.html" class="resq-card">
     <strong>Modeling decisions</strong>
@@ -427,11 +434,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="scope">Scope</h2>
 
-<p>The IG covers the complete transaction bundle produced by <code class="language-plaintext highlighter-rouge">transform_to_fhir</code>: <code class="language-plaintext highlighter-rouge">Organization</code>, <code class="language-plaintext highlighter-rouge">Patient</code>, <code class="language-plaintext highlighter-rouge">Encounter</code>, <code class="language-plaintext highlighter-rouge">Location</code>, <code class="language-plaintext highlighter-rouge">Condition</code>, <code class="language-plaintext highlighter-rouge">Observation</code>, <code class="language-plaintext highlighter-rouge">Procedure</code>, <code class="language-plaintext highlighter-rouge">DiagnosticReport</code>, <code class="language-plaintext highlighter-rouge">BodyStructure</code>, <code class="language-plaintext highlighter-rouge">MedicationStatement</code>, <code class="language-plaintext highlighter-rouge">MedicationRequest</code>, <code class="language-plaintext highlighter-rouge">MedicationAdministration</code>, <code class="language-plaintext highlighter-rouge">PractitionerRole</code>, <code class="language-plaintext highlighter-rouge">Appointment</code> and <code class="language-plaintext highlighter-rouge">Communication</code>.</p>
+<p>The IG covers the complete transaction bundle produced by <code class="language-plaintext highlighter-rouge">transform_to_fhir</code>: <code class="language-plaintext highlighter-rouge">Composition</code>, <code class="language-plaintext highlighter-rouge">Organization</code>, <code class="language-plaintext highlighter-rouge">Patient</code>, <code class="language-plaintext highlighter-rouge">Encounter</code>, <code class="language-plaintext highlighter-rouge">Location</code>, <code class="language-plaintext highlighter-rouge">Condition</code>, <code class="language-plaintext highlighter-rouge">Observation</code>, <code class="language-plaintext highlighter-rouge">Procedure</code>, <code class="language-plaintext highlighter-rouge">DiagnosticReport</code>, <code class="language-plaintext highlighter-rouge">BodyStructure</code>, <code class="language-plaintext highlighter-rouge">Medication</code>, <code class="language-plaintext highlighter-rouge">MedicationStatement</code>, <code class="language-plaintext highlighter-rouge">MedicationRequest</code>, <code class="language-plaintext highlighter-rouge">MedicationAdministration</code>, <code class="language-plaintext highlighter-rouge">PractitionerRole</code>, <code class="language-plaintext highlighter-rouge">Appointment</code> and <code class="language-plaintext highlighter-rouge">Communication</code>.</p>
 
 <h2 id="resource-graph">Resource graph</h2>
 
 <pre><code class="language-mermaid">flowchart LR
+  Comp["Discharge Summary Composition"] --&gt; Pat
+  Comp --&gt; Enc
+  Comp --&gt; Dx
+  Comp --&gt; Obs
+  Comp --&gt; Proc
+  Comp --&gt; Med
   Org["Organization"] --&gt; Enc["StrokeEncounter"]
   Pat["RESQPatient"] --&gt; Enc
   Enc --&gt; Dx["Diagnosis Condition"]
@@ -479,7 +492,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Aug 31, 2026 10:08+0000">2026-08-31</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/hospitalized-location-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:HospitalizedLocationProfile |
+| Active as of 2026-09-04 | *Computable Name*:HospitalizedLocationProfile |
 
  
 Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model. 
@@ -19,7 +19,7 @@ Represents the inpatient department or unit type where the patient was hospitali
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-hospitalized-location-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
   "title" : "Hospitalized Location Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

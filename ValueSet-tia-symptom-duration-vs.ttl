@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "tia-symptom-duration-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet tia-symptom-duration-vs</b></p><a name=\"tia-symptom-duration-vs\"> </a><a name=\"hctia-symptom-duration-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-tia-symptom-duration-cs.html\"><code>http://qualityregistry.org/CodeSystem/tia-symptom-duration-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-lt-10-minutes\">duration-lt-10-minutes</a></td><td>Duration &lt; 10 Minutes</td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-between-10-and-60-minutes\">duration-between-10-and-60-minutes</a></td><td>Duration Between 10 and 60 Minutes</td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-gt-60-minutes\">duration-gt-60-minutes</a></td><td>Duration &gt; 60 Minutes</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet tia-symptom-duration-vs</b></p><a name=\"tia-symptom-duration-vs\"> </a><a name=\"hctia-symptom-duration-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-tia-symptom-duration-cs.html\"><code>http://qualityregistry.org/CodeSystem/tia-symptom-duration-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-lt-10-minutes\">duration-lt-10-minutes</a></td><td>Duration &lt; 10 Minutes</td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-between-10-and-60-minutes\">duration-between-10-and-60-minutes</a></td><td>Duration Between 10 and 60 Minutes</td></tr><tr><td><a href=\"CodeSystem-tia-symptom-duration-cs.html#tia-symptom-duration-cs-duration-gt-60-minutes\">duration-gt-60-minutes</a></td><td>Duration &gt; 60 Minutes</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [ fhir:v "http://qualityregistry.org/ValueSet/tia-symptom-duration-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "TiaSymptomDuration ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-08-31T10:08:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-09-04T09:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;

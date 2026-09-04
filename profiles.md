@@ -9,6 +9,12 @@
 
 Profiles are grouped below by FHIR resource type. Each link opens the generated StructureDefinition page with the formal constraints, bindings, snapshots and downloadable JSON/XML/TTL representations.
 
+## Clinical Documents
+
+| | |
+| :--- | :--- |
+| `Composition` | [RESQ Stroke Discharge Patient Summary](StructureDefinition-resq-stroke-discharge-composition.md) |
+
 ## Administrative Resources
 
 | | |
@@ -45,9 +51,11 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | [Hyperglycemia Observation](StructureDefinition-hyperglycemia-observation-profile.md) | Hyperglycemia checks and values. |
 | [Glucose >= 10 Observation](StructureDefinition-glucose-ge10-observation-profile.md) | Boolean glucose threshold indicator. |
 | [Highest Hyperglycemia Value Observation](StructureDefinition-highest-hyperglycemia-value-observation-profile.md) | Highest recorded glucose value in context. |
+| [Highest Systolic Blood Pressure Value Observation](StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.md) | Highest recorded systolic blood pressure value in context. |
 | [TIA Clinical Symptoms Observation](StructureDefinition-tia-clinical-symptoms-observation-profile.md) | TIA symptom indicators and durations. |
 | [Patient Ventilated Observation](StructureDefinition-patient-ventilated-observation-profile.md) | Ventilation indicator. |
 | [Three-Month Contact Mode Observation](StructureDefinition-three-month-contact-mode-observation-profile.md) | Contact mode used for follow-up outcome capture. |
+| [Appointment Management Observation](StructureDefinition-appointment-management-observation-profile.md) | Scheduled or attended follow-up appointment management status. |
 
 ## Procedures
 
@@ -71,7 +79,8 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 
 | | |
 | :--- | :--- |
+| `Medication` | [Tenecteplase Brand Medication](StructureDefinition-tenecteplase-brand-medication-profile.md) |
 | `MedicationStatement` | [Prior MedicationStatement](StructureDefinition-prior-medication-statement-profile.md) |
 | `MedicationRequest` | [Discharge MedicationRequest](StructureDefinition-discharge-medication-request-profile.md) |
-| `MedicationAdministration` | [Stroke MedicationAdministration](StructureDefinition-stroke-medication-administration-profile.md),[Paracetamol on Fever](StructureDefinition-paracetamol-on-fever-medicationAdministration-profile.md),[Insulin on Hyperglycemia](StructureDefinition-insulin-on-hyperglycemia-medicationAdministration-profile.md),[Nimodipine](StructureDefinition-nimodipine-medicationAdministration-profile.md) |
+| `MedicationAdministration` | [Stroke MedicationAdministration](StructureDefinition-stroke-medication-administration-profile.md),[Paracetamol on Fever](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md),[Insulin on Hyperglycemia](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md),[Nimodipine](StructureDefinition-nimodipine-medication-administration-profile.md),[Anticoagulant Reversal](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md) |
 

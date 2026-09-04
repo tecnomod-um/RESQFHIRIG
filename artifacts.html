@@ -216,8 +216,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"7"}
-    h3,h4,h5,h6{--heading-prefix:"7.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -270,6 +270,9 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
         <a href="modeling.html">Modeling Decisions</a>
       </li>
     </ul>
@@ -293,7 +296,7 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l204">​</a>
+  <li><a name="l210">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -563,10 +566,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-resq-stroke-discharge-composition.html" title="StructureDefinition/resq-stroke-discharge-composition">RESQ Stroke Hospital Discharge Composition</a>
+               <a href="StructureDefinition-resq-stroke-discharge-composition.html" title="StructureDefinition/resq-stroke-discharge-composition">RESQ Stroke Discharge Patient Summary Composition</a>
             </td>
             <td>
-<p>FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document.</p>
+<p>Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary.</p>
 </td>
          </tr>
          <tr>
@@ -707,10 +710,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="StructureDefinition-three-month-communication-profile.html" title="StructureDefinition/three-month-communication-profile">Three-Month Contact Communication Profile</a>
+            </td>
+            <td>
+<p>Communication profile for recording contact with the patient or caregiver at approximately three months after stroke.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="StructureDefinition-three-month-contact-mode-observation-profile.html" title="StructureDefinition/three-month-contact-mode-observation-profile">Three-Month Contact Mode Observation Profile</a>
             </td>
             <td>
 <p>Observation profile for the modality used to obtain three-month follow-up information.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-follow-up-appointment-profile.html" title="StructureDefinition/follow-up-appointment-profile">Three-Month Follow-up Appointment Profile</a>
+            </td>
+            <td>
+<p>Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode.</p>
 </td>
          </tr>
          <tr>
@@ -742,7 +761,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="StructureDefinition-assessment-timing-ext.html" title="StructureDefinition/assessment-timing-ext">Assessment or medication timing</a>
             </td>
             <td>
-<p>Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org.</p>
+<p>Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical.</p>
 </td>
          </tr>
          <tr>
@@ -1254,7 +1273,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="ValueSet-resq-stroke-discharge-document-type-vs.html" title="ValueSet/resq-stroke-discharge-document-type-vs">RESQ Stroke Discharge Document Type ValueSet</a>
             </td>
             <td>
-<p>Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition.</p>
+<p>Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition.</p>
 </td>
          </tr>
          <tr>
@@ -1262,7 +1281,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="ValueSet-resq-stroke-discharge-section-code-vs.html" title="ValueSet/resq-stroke-discharge-section-code-vs">RESQ Stroke Discharge Section Code ValueSet</a>
             </td>
             <td>
-<p>Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.</p>
+<p>Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.</p>
 </td>
          </tr>
          <tr>
@@ -1858,6 +1877,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Organization-OrganizationExample.html" title="Organization/OrganizationExample">OrganizationExample</a>
             </td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Composition-ExampleRESQStrokeDischargeComposition.html" title="Composition/ExampleRESQStrokeDischargeComposition">RESQ Stroke Discharge Patient Summary</a>
+            </td>
+         </tr>
       </tbody>
    </table>
 </div>
@@ -1878,7 +1902,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Aug 31, 2026 10:08+0000">2026-08-31</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

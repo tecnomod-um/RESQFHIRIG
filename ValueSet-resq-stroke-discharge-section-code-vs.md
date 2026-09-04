@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
+| Active as of 2026-09-04 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
 
  
-Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition. 
+Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition. 
 
  **References** 
 
-* [RESQ Stroke Hospital Discharge Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 ### Logical Definition (CLD)
 
@@ -51,7 +51,7 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
   "title" : "RESQ Stroke Discharge Section Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -60,7 +60,7 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
       "value" : "http://qualityregistry.org"
     }]
   }],
-  "description" : "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition.",
+  "description" : "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -122,25 +122,13 @@ Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Compo
       {
         "code" : "18776-5",
         "display" : "Plan of care note"
-      },
-      {
-        "code" : "75310-3",
-        "display" : "Health concerns Document"
-      },
-      {
-        "code" : "48765-2",
-        "display" : "Allergies and adverse reactions Document"
-      },
-      {
-        "code" : "46240-8",
-        "display" : "History of Hospitalizations+Outpatient visits Narrative"
       }]
     },
     {
-      "system" : "http://snomed.info/sct",
+      "system" : "http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
       "concept" : [{
-        "code" : "866144008",
-        "display" : "Encounter note (record artifact)"
+        "code" : "treatment-timings",
+        "display" : "Treatment Timings"
       }]
     }]
   }

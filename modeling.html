@@ -216,8 +216,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -270,6 +270,9 @@
         <a href="resource-map.html">Resource Map</a>
       </li>
       <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
         <a href="modeling.html">Modeling Decisions</a>
       </li>
     </ul>
@@ -293,7 +296,7 @@
   <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
-  <li><a name="l204">​</a>
+  <li><a name="l210">​</a>
     <a href="downloads.html">Downloads</a>
   </li>
 </ul>
@@ -356,6 +359,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><code class="language-plaintext highlighter-rouge">Patient</code> is kept deliberately small. The registry does not need a full demographic record in the IG, so <a href="StructureDefinition-resq-patient-profile.html">RESQ Patient</a> requires a stable identifier and carries sex/gender as a SNOMED CT coded extension. <code class="language-plaintext highlighter-rouge">Patient.gender</code> is prohibited so implementers do not send conflicting administrative and clinical sex/gender values.</p>
 
 <p>The <a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter</a> is the central episode context. Most clinical resources require both <code class="language-plaintext highlighter-rouge">subject</code> and <code class="language-plaintext highlighter-rouge">encounter</code>, making it straightforward to query all facts for a stroke admission and to distinguish repeated admissions for the same patient.</p>
+
+<h2 id="discharge-patient-summary">Discharge Patient Summary</h2>
+
+<p>The <a href="StructureDefinition-resq-stroke-discharge-composition.html">RESQ Stroke Discharge Patient Summary Composition</a> is the document-level view of the stroke admission. It groups the same profiled resources used throughout the IG into clinically meaningful discharge sections, including hospital course, diagnostic summary, procedures, treatment timings, discharge details, discharge medications and follow-up plan.</p>
+
+<p>The Composition is intentionally modeled as an index over discrete resources rather than as a replacement for them. Narrative text supports human review, while <code class="language-plaintext highlighter-rouge">section.entry</code> references preserve validation, querying and analytics against the underlying Condition, Observation, Procedure, DiagnosticReport and medication resources.</p>
 
 <h2 id="conditions-vs-observations">Conditions vs Observations</h2>
 
@@ -423,7 +432,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Mon, Aug 31, 2026 10:08+0000">2026-08-31</span>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

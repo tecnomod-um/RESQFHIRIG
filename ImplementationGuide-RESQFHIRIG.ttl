@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-08-31T10:08:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-09-04T09:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -217,7 +217,7 @@
          fhir:reference [ fhir:v "StructureDefinition/assessment-timing-ext" ]
        ] ;
        fhir:name [ fhir:v "Assessment or medication timing" ] ;
-       fhir:description [ fhir:v "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes to tecnomod-um.org." ] ;
+       fhir:description [ fhir:v "Timing category used by medication-administration builders, e.g. insulin within one hour or paracetamol timing. The Python code contains a typo variant tecnomod-um-org; this IG normalizes it to the qualityregistry.org canonical." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1429,7 +1429,11 @@
          fhir:reference [ fhir:v "Organization/OrganizationExample" ]
        ] ;
        fhir:name [ fhir:v "OrganizationExample" ] ;
-       fhir:isExample [ fhir:v true ]
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile"^^xsd:anyURI ;
+         fhir:link <http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1803,7 +1807,40 @@
          fhir:reference [ fhir:v "ValueSet/resq-stroke-discharge-document-type-vs" ]
        ] ;
        fhir:name [ fhir:v "RESQ Stroke Discharge Document Type ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed document type code for the RESQ Stroke Hospital Discharge Summary Composition." ] ;
+       fhir:description [ fhir:v "Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Composition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://qualityregistry.org/Composition/ExampleRESQStrokeDischargeComposition> ;
+         fhir:reference [ fhir:v "Composition/ExampleRESQStrokeDischargeComposition" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Stroke Discharge Patient Summary" ] ;
+       fhir:isExample [ fhir:v true ] ;
+       fhir:profile ( [
+         fhir:v "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"^^xsd:anyURI ;
+         fhir:link <http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition> ;
+         fhir:reference [ fhir:v "StructureDefinition/resq-stroke-discharge-composition" ]
+       ] ;
+       fhir:name [ fhir:v "RESQ Stroke Discharge Patient Summary Composition" ] ;
+       fhir:description [ fhir:v "Composition profile for the RESQ Stroke Discharge Patient Summary document. It assembles the patient, index stroke encounter and clinically relevant registry resources into a navigable FHIR R5 discharge summary." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1818,22 +1855,7 @@
          fhir:reference [ fhir:v "ValueSet/resq-stroke-discharge-section-code-vs" ]
        ] ;
        fhir:name [ fhir:v "RESQ Stroke Discharge Section Code ValueSet" ] ;
-       fhir:description [ fhir:v "Allowed LOINC section codes for the RESQ Stroke Hospital Discharge Summary Composition." ] ;
-       fhir:isExample [ fhir:v false ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition> ;
-         fhir:reference [ fhir:v "StructureDefinition/resq-stroke-discharge-composition" ]
-       ] ;
-       fhir:name [ fhir:v "RESQ Stroke Hospital Discharge Composition" ] ;
-       fhir:description [ fhir:v "FHIR R5 Composition profile for the RESQ Stroke Hospital Discharge Summary document." ] ;
+       fhir:description [ fhir:v "Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2549,11 +2571,41 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://qualityregistry.org/StructureDefinition/three-month-communication-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/three-month-communication-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Three-Month Contact Communication Profile" ] ;
+       fhir:description [ fhir:v "Communication profile for recording contact with the patient or caregiver at approximately three months after stroke." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile> ;
          fhir:reference [ fhir:v "StructureDefinition/three-month-contact-mode-observation-profile" ]
        ] ;
        fhir:name [ fhir:v "Three-Month Contact Mode Observation Profile" ] ;
        fhir:description [ fhir:v "Observation profile for the modality used to obtain three-month follow-up information." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://qualityregistry.org/StructureDefinition/follow-up-appointment-profile> ;
+         fhir:reference [ fhir:v "StructureDefinition/follow-up-appointment-profile" ]
+       ] ;
+       fhir:name [ fhir:v "Three-Month Follow-up Appointment Profile" ] ;
+       fhir:description [ fhir:v "Appointment profile for planned or recorded three-month neurology follow-up after the index stroke episode." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -2871,6 +2923,14 @@
          ] ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [
+           a fhir:url ;
+           fhir:v "discharge-summary.html"^^xsd:anyURI
+         ] ;
+         fhir:name [ fhir:v "discharge-summary.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Discharge Summary" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [

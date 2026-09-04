@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Discharge Summary - RESQ Stroke Registry Implementation Guide v1.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+    <style type="text/css">
+  :root {
+    --resq-ink: #172033;
+    --resq-muted: #526070;
+    --resq-line: #d9e2ec;
+    --resq-surface: #f7fafc;
+    --resq-accent: #0f766e;
+    --resq-accent-dark: #115e59;
+    --resq-link: #0b5cad;
+  }
+
+  body {
+    color: var(--resq-ink);
+  }
+
+  a {
+    color: var(--resq-link);
+  }
+
+  .navbar,
+  .navbar-inverse {
+    border-radius: 0;
+  }
+
+  .navbar .dropdown-menu > li > a {
+    min-height: 34px;
+    padding: 8px 18px;
+    white-space: nowrap;
+  }
+
+  .navbar .dropdown-menu > li:empty,
+  .navbar .dropdown-menu > li > a:empty {
+    display: none;
+  }
+
+  #segment-content h1 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  #segment-content h2 {
+    margin-top: 30px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--resq-line);
+  }
+
+  #segment-content table {
+    width: 100%;
+  }
+
+  #segment-content table th {
+    background: var(--resq-surface);
+    color: var(--resq-ink);
+  }
+
+  #segment-content table td,
+  #segment-content table th {
+    vertical-align: top;
+  }
+
+  .resq-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(260px, 0.85fr);
+    gap: 24px;
+    align-items: stretch;
+    margin: 14px 0 28px;
+    padding: 28px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f8fbfd 0%, #edf7f5 100%);
+  }
+
+  .resq-hero h2 {
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .resq-hero p {
+    max-width: 760px;
+    color: var(--resq-muted);
+    font-size: 16px;
+  }
+
+  .resq-kicker {
+    margin: 0 0 8px;
+    color: var(--resq-accent-dark) !important;
+    font-size: 13px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .resq-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .resq-stat {
+    display: flex;
+    min-height: 92px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .resq-stat:hover,
+  .resq-card:hover {
+    border-color: var(--resq-accent);
+    text-decoration: none;
+  }
+
+  .resq-stat strong {
+    color: var(--resq-accent-dark);
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .resq-stat span {
+    margin-top: 8px;
+    color: var(--resq-muted);
+  }
+
+  .resq-card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    margin: 18px 0 28px;
+  }
+
+  .resq-card {
+    display: block;
+    min-height: 130px;
+    padding: 18px;
+    border: 1px solid var(--resq-line);
+    border-radius: 8px;
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .resq-card strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--resq-ink);
+    font-size: 16px;
+  }
+
+  .resq-card span {
+    color: var(--resq-muted);
+  }
+
+  @media (max-width: 900px) {
+    .resq-hero,
+    .resq-card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .resq-hero {
+      padding: 18px;
+    }
+
+    .resq-stat-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">RESQ Stroke Registry Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - ci-build
+
+
+
+  <img src="assets/images/esp.svg" alt="Spain flag" title="Spain" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R5/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guide
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="resource-map.html">Resource Map</a>
+      </li>
+      <li>
+        <a href="discharge-summary.html">Discharge Patient Summary</a>
+      </li>
+      <li>
+        <a href="modeling.html">Modeling Decisions</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Resources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="extensions.html">Extensions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Terminology</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li><a name="l210">​</a>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Discharge Summary</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://qualityregistry.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Discharge Summary</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h1 id="discharge-patient-summary">Discharge Patient Summary</h1>
+
+<p>The <a href="StructureDefinition-resq-stroke-discharge-composition.html">RESQ Stroke Discharge Patient Summary Composition</a> is the clinical document entry point for a completed RES-Q stroke admission. It does not replace the discrete registry resources; it organizes them into a discharge summary that can be rendered for humans while preserving computable references for validation, analytics and exchange.</p>
+
+<h2 id="document-role">Document Role</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Composition element</th>
+      <th>RES-Q expectation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">status</code></td>
+      <td>Fixed to <code class="language-plaintext highlighter-rouge">final</code> for the completed discharge summary.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">type</code></td>
+      <td>Fixed to LOINC <code class="language-plaintext highlighter-rouge">18842-5</code> Discharge summary.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">subject</code></td>
+      <td>References the profiled <a href="StructureDefinition-resq-patient-profile.html">RESQ Patient</a>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">encounter</code></td>
+      <td>References the profiled <a href="StructureDefinition-stroke-encounter-profile.html">Stroke Encounter</a> when available.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">author</code></td>
+      <td>References the authoring organization, clinician role, practitioner or source system.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">custodian</code></td>
+      <td>References the profiled <a href="StructureDefinition-stroke-registry-organization-profile.html">Stroke Registry Organization</a>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">section</code></td>
+      <td>Uses fixed section slices with required coded section headers and narrative text.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sections">Sections</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th>Code</th>
+      <th>Main computable entries</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Admission Evaluation</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">67851-6</code></td>
+      <td>Admission diagnosis, risk factors, admission assessments, vitals, timing metrics and locations.</td>
+    </tr>
+    <tr>
+      <td>Relevant Patient History</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">11329-0</code></td>
+      <td>Prior medications and relevant risk factors.</td>
+    </tr>
+    <tr>
+      <td>Relevant Problems and Risk Factors</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">11450-4</code></td>
+      <td>Diagnosis, risk factors and post-stroke complications.</td>
+    </tr>
+    <tr>
+      <td>Hospital Course</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">8648-8</code></td>
+      <td>Required section for diagnosis, observations, procedures, medication administrations and reports recorded during hospitalization.</td>
+    </tr>
+    <tr>
+      <td>Diagnostic Summary</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">11535-2</code></td>
+      <td>Final diagnosis, imaging findings and diagnostic reports.</td>
+    </tr>
+    <tr>
+      <td>Significant Procedures</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">10185-7</code></td>
+      <td>Imaging, reperfusion, swallowing screening, VTE prophylaxis, carotid and treatment procedures.</td>
+    </tr>
+    <tr>
+      <td>Pharmacotherapy During Hospitalisation</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">87232-5</code></td>
+      <td>Acute or post-acute medication administrations.</td>
+    </tr>
+    <tr>
+      <td>Treatment Timings</td>
+      <td>RES-Q <code class="language-plaintext highlighter-rouge">treatment-timings</code></td>
+      <td>Stroke pathway timing metrics such as door-to-needle and onset-to-door.</td>
+    </tr>
+    <tr>
+      <td>Significant Results</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">30954-2</code></td>
+      <td>Imaging, laboratory and clinically significant observation results.</td>
+    </tr>
+    <tr>
+      <td>Vital Signs at Discharge</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">8716-3</code></td>
+      <td>Discharge-relevant vital signs.</td>
+    </tr>
+    <tr>
+      <td>Functional Status at Discharge</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">47420-5</code></td>
+      <td>Functional scores, neurological status and ventilation status.</td>
+    </tr>
+    <tr>
+      <td>Discharge Details</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">8650-4</code></td>
+      <td>Discharge disposition and facility/service details from the stroke encounter.</td>
+    </tr>
+    <tr>
+      <td>Discharge Medications</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">75311-1</code></td>
+      <td>Medication requests and documented reasons for omitted anticoagulation.</td>
+    </tr>
+    <tr>
+      <td>Plan of Care and Follow-up</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">18776-5</code></td>
+      <td>Follow-up appointments, communications, contact mode and appointment management observations.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="implementation-guidance">Implementation Guidance</h2>
+
+<p>Implementers SHOULD produce this Composition when exchanging a complete discharge summary for a registry case. Each section SHALL include narrative text. When a section has no discrete entries, populate <code class="language-plaintext highlighter-rouge">section.emptyReason</code> rather than leaving the section structurally empty.</p>
+
+<p>The Composition SHOULD reference RES-Q profiled resources wherever a matching profile exists. This keeps the document clinically readable while preserving the computable resource graph used elsewhere in the IG.</p>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 09:44+0000">2026-09-04</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

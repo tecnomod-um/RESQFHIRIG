@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/first-hospital-ext | *Version*:1.0.0 |
-| Draft as of 2026-08-31 | *Computable Name*:FirstHospitalExt |
+| Draft as of 2026-09-04 | *Computable Name*:FirstHospitalExt |
 
 Boolean flag indicating whether the Encounter corresponds to the first hospital attended for the index stroke episode.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-first-hospital-ext.c
   "name" : "FirstHospitalExt",
   "title" : "First hospital for the stroke episode",
   "status" : "draft",
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

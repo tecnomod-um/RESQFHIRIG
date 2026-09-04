@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-imaging-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
+| Active as of 2026-09-04 | *Computable Name*:StrokeImagingDiagnosticReportProfile |
 
  
 DiagnosticReport profile for brain, carotid and follow-up imaging reports in the stroke pathway. 
@@ -19,7 +19,7 @@ Aggregates imaging observations and coded conclusions so imaging evidence can be
 
 **Usages:**
 
-* Refer to this Profile: [Stroke Imaging Procedure Profile](StructureDefinition-stroke-imaging-procedure-profile.md)
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) and [Stroke Imaging Procedure Profile](StructureDefinition-stroke-imaging-procedure-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-imaging-diagnostic-report-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-imaging-diagn
   "title" : "Stroke Imaging DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

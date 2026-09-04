@@ -1,0 +1,70 @@
+# RESQ Stroke Discharge Patient Summary - RESQ Stroke Registry Implementation Guide v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **RESQ Stroke Discharge Patient Summary**
+
+## Example Composition: RESQ Stroke Discharge Patient Summary
+
+RESQ stroke discharge patient summary for the example stroke encounter.
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Composition",
+  "id" : "ExampleRESQStrokeDischargeComposition",
+  "meta" : {
+    "profile" : ["http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"]
+  },
+  "identifier" : [{
+    "system" : "https://stroke.qualityregistry.org",
+    "value" : "discharge-summary-001"
+  }],
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "18842-5",
+      "display" : "Discharge summary"
+    }]
+  },
+  "subject" : [{
+    "reference" : "Patient/ExampleRESQPatient"
+  }],
+  "encounter" : {
+    "reference" : "Encounter/ExampleStrokeEncounter"
+  },
+  "date" : "2026-09-04T10:00:00+02:00",
+  "author" : [{
+    "reference" : "Organization/OrganizationExample"
+  }],
+  "title" : "RESQ Stroke Discharge Patient Summary",
+  "custodian" : {
+    "reference" : "Organization/OrganizationExample"
+  },
+  "section" : [{
+    "title" : "Hospital Course",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8648-8",
+        "display" : "Hospital course note"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.</div>"
+    },
+    "entry" : [{
+      "reference" : "Condition/ExampleStrokeDiagnosis"
+    },
+    {
+      "reference" : "Observation/ExampleDoorToNeedle"
+    }]
+  }]
+}
+
+```

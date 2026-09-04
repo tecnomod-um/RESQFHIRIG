@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/no-anticoagulant-discharge-reason-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-08-31 | *Computable Name*:NoAnticoagulantDischargeReasonObservationProfile |
+| Active as of 2026-09-04 | *Computable Name*:NoAnticoagulantDischargeReasonObservationProfile |
 
  
 Observation profile for recording the reason for not prescribing anticoagulants at discharge after ischemic stroke or TIA. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-no-anticoagulant-dis
   "title" : "No Anticoagulant Discharge Reason Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T10:08:26+00:00",
+  "date" : "2026-09-04T09:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
