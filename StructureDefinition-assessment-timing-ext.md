@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-assessment-timing-ex
   "name" : "AssessmentTimingExt",
   "title" : "Assessment or medication timing",
   "status" : "draft",
-  "date" : "2026-09-23T10:52:36+00:00",
+  "date" : "2026-09-23T10:52:57+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
