@@ -1,4 +1,4 @@
-# Stroke Reperfusion Procedure Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Stroke Reperfusion Procedure Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:StrokeMechanicalProcedureProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:StrokeMechanicalProcedureProfile |
 
  
 Procedure profile for acute reperfusion interventions, including thrombolysis and mechanical thrombectomy. It supports reason, not-done reason, location, occurrence, complications and timing context. 
@@ -40,12 +40,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-mechanical-pr
   "resourceType" : "StructureDefinition",
   "id" : "stroke-mechanical-procedure-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/stroke-mechanical-procedure-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "StrokeMechanicalProcedureProfile",
   "title" : "Stroke Reperfusion Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -1,4 +1,4 @@
-# Initial care intensity - RESQ Stroke Registry Implementation Guide v1.0.0
+# Initial care intensity - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:InitialCareIntensityExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:InitialCareIntensityExt |
 
 Initial care intensity for hospitalized location, e.g. ICU/stroke unit, monitored bed, or standard bed.
 
@@ -48,11 +48,11 @@ Other representations of profile: [CSV](StructureDefinition-initial-care-intensi
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/initial-care-intensity-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "InitialCareIntensityExt",
   "title" : "Initial care intensity",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

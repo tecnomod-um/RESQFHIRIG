@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>RESQ Stroke Discharge Patient Summary - JSON Representation - RESQ Stroke Registry Implementation Guide v1.0.0</title>
+    <title>Stroke Hospital Discharge Summary - JSON Representation - RESQ Stroke Registry Implementation Guide v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -239,7 +239,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">RESQ Stroke Registry Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - ci-build
+            <span style="display:inline-block;">1.1.0 - ci-build
 
 
 
@@ -323,7 +323,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RESQ Stroke Discharge Patient Summary</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Stroke Hospital Discharge Summary</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -336,7 +336,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -382,7 +382,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: RESQ Stroke Discharge Patient Summary - JSON Representation</h2>
+<h2 id="root">: Stroke Hospital Discharge Summary - JSON Representation</h2>
 
 
 <p><a href="Composition-ExampleRESQStrokeDischargeComposition.json" no-download="true">Raw json</a> | <a href="Composition-ExampleRESQStrokeDischargeComposition.json" download>Download</a></p>
@@ -400,16 +400,18 @@
       <a href="StructureDefinition-resq-stroke-discharge-composition.html" style="color: Maroon">&#x1F517;</a> "http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"
     ]
   },
+  "<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a>" : "en",
   "<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;RESQ stroke discharge patient summary for the example stroke encounter.&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://stroke.qualityregistry.org",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "https://stroke.qualityregistry.org/",
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "discharge-summary-001"
     }
   ],
+  "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.version">version</a>" : "1",
   "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a>" : "final",
   "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>" : {
     "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
@@ -434,11 +436,82 @@
       <a href="Organization-OrganizationExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Organization/OrganizationExample"
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a>" : "RESQ Stroke Discharge Patient Summary",
+  "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a>" : "Stroke Hospital Discharge Summary",
   "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.custodian">custodian</a>" : {
     <a href="Organization-OrganizationExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Organization/OrganizationExample"
   },
   "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Medical Alerts",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "75310-3",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Health concerns document"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Medical alerts were not collected in this registry case.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "notasked",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Not Asked"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Allergies and Intolerances",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "48765-2",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Allergies and adverse reactions document"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Allergies and intolerances were not collected in this registry case.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "notasked",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Not Asked"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Encounter Information",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "46240-8",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "History of hospitalization and outpatient visits"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;The document summarizes the example stroke encounter.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>" : [
+        {
+          <a href="Encounter-ExampleStrokeEncounter.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Encounter/ExampleStrokeEncounter"
+        }
+      ]
+    },
     {
       "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Hospital Course",
       "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
@@ -452,16 +525,300 @@
       },
       "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
         "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
-        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.&lt;/div&gt;"
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Hospital course sections include diagnosis, procedures, devices and significant results.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Diagnostic Summary",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "11535-2",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Hospital discharge diagnosis note"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;The example case includes an ischemic stroke diagnosis.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>" : [
+            {
+              <a href="Condition-ExampleStrokeDiagnosis.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Condition/ExampleStrokeDiagnosis"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Significant Procedures",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "10185-7",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Hospital discharge procedure note"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No significant procedures are represented in this minimal example.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Medical Devices and Implants",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://snomed.info/sct",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "1184586001",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Medical device document section"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Medical devices and implants were not collected in this registry case.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "notasked",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Not Asked"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Significant Test Results",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "30954-2",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Relevant diagnostic tests and laboratory data note"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No significant test results are represented in this minimal example.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Treatment Timings",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "treatment-timings",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Treatment Timings"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Door-to-needle time was 38 minutes.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>" : [
+            {
+              <a href="Observation-ExampleDoorToNeedle.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Observation/ExampleDoorToNeedle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Discharge Details",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "8650-4",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Hospital discharge disposition note"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Discharge details reference the example stroke encounter.&lt;/div&gt;"
       },
       "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>" : [
         {
-          <a href="Condition-ExampleStrokeDiagnosis.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Condition/ExampleStrokeDiagnosis"
+          <a href="Encounter-ExampleStrokeEncounter.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Encounter/ExampleStrokeEncounter"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Vital Signs at Discharge",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "8716-3",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Vital signs note"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No discharge vital signs are represented in this minimal example.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+              }
+            ]
+          }
         },
         {
-          <a href="Observation-ExampleDoorToNeedle.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a>" : "Observation/ExampleDoorToNeedle"
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Anthropometric Measurements",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://snomed.info/sct",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "248326004",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Anthropometric measure"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Anthropometric measurements were not collected in this registry case.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "notasked",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Not Asked"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Physical Examination at Discharge",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "29545-1",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Physical findings"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Physical examination findings were not collected in this registry case.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "notasked",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Not Asked"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Functional Status at Discharge",
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "47420-5",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Functional status assessment note"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+            "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No discharge functional status entries are represented in this minimal example.&lt;/div&gt;"
+          },
+          "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+              }
+            ]
+          }
         }
       ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Medication Summary at Discharge",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "75311-1",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Discharge medications note"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No discharge medications are represented in this minimal example.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a>" : "Plan of Care and Follow-up",
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://loinc.org",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "18776-5",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Plan of care note"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>" : {
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+        "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;No follow-up plan entries are represented in this minimal example.&lt;/div&gt;"
+      },
+      "<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "unavailable",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Unavailable"
+          }
+        ]
+      }
     }
   ]
 }</code></pre>
@@ -488,7 +845,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 10:11+0000">2026-09-04</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 23, 2026 10:52+0000">2026-09-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

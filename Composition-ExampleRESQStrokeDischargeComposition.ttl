@@ -3,6 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
@@ -16,14 +17,16 @@
        fhir:link <http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition>
      ] )
   ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">RESQ stroke discharge patient summary for the example stroke encounter.</div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://stroke.qualityregistry.org"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "https://stroke.qualityregistry.org/"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "discharge-summary-001" ]
   ] ) ; # 
+  fhir:version [ fhir:v "1"] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:type [
      fhir:coding ( [
@@ -46,12 +49,72 @@
      fhir:link <http://qualityregistry.org/Organization/OrganizationExample> ;
      fhir:reference [ fhir:v "Organization/OrganizationExample" ]
   ] ) ; # 
-  fhir:title [ fhir:v "RESQ Stroke Discharge Patient Summary"] ; # 
+  fhir:title [ fhir:v "Stroke Hospital Discharge Summary"] ; # 
   fhir:custodian [
      fhir:link <http://qualityregistry.org/Organization/OrganizationExample> ;
      fhir:reference [ fhir:v "Organization/OrganizationExample" ]
   ] ; # 
   fhir:section ( [
+     fhir:title [ fhir:v "Medical Alerts" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:75310-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "75310-3" ] ;
+         fhir:display [ fhir:v "Health concerns document" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medical alerts were not collected in this registry case.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "notasked" ] ;
+         fhir:display [ fhir:v "Not Asked" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "Allergies and Intolerances" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:48765-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "48765-2" ] ;
+         fhir:display [ fhir:v "Allergies and adverse reactions document" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies and intolerances were not collected in this registry case.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "notasked" ] ;
+         fhir:display [ fhir:v "Not Asked" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "Encounter Information" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:46240-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "46240-8" ] ;
+         fhir:display [ fhir:v "History of hospitalization and outpatient visits" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">The document summarizes the example stroke encounter.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://qualityregistry.org/Encounter/ExampleStrokeEncounter> ;
+       fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
+     ] )
+  ] [
      fhir:title [ fhir:v "Hospital Course" ] ;
      fhir:code [
        fhir:coding ( [
@@ -63,15 +126,252 @@
      ] ;
      fhir:text [
        fhir:status [ fhir:v "generated" ] ;
-       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.</div>"^^rdf:XMLLiteral ]
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hospital course sections include diagnosis, procedures, devices and significant results.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Diagnostic Summary" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:11535-2 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "11535-2" ] ;
+           fhir:display [ fhir:v "Hospital discharge diagnosis note" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">The example case includes an ischemic stroke diagnosis.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://qualityregistry.org/Condition/ExampleStrokeDiagnosis> ;
+         fhir:reference [ fhir:v "Condition/ExampleStrokeDiagnosis" ]
+       ] )
+     ] [
+       fhir:title [ fhir:v "Significant Procedures" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:10185-7 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10185-7" ] ;
+           fhir:display [ fhir:v "Hospital discharge procedure note" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No significant procedures are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ] ;
+           fhir:display [ fhir:v "Unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Medical Devices and Implants" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a sct:1184586001 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "1184586001" ] ;
+           fhir:display [ fhir:v "Medical device document section" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medical devices and implants were not collected in this registry case.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "notasked" ] ;
+           fhir:display [ fhir:v "Not Asked" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Significant Test Results" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:30954-2 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "30954-2" ] ;
+           fhir:display [ fhir:v "Relevant diagnostic tests and laboratory data note" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No significant test results are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ] ;
+           fhir:display [ fhir:v "Unavailable" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Treatment Timings" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "treatment-timings" ] ;
+           fhir:display [ fhir:v "Treatment Timings" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Door-to-needle time was 38 minutes.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:entry ( [
+         fhir:link <http://qualityregistry.org/Observation/ExampleDoorToNeedle> ;
+         fhir:reference [ fhir:v "Observation/ExampleDoorToNeedle" ]
+       ] )
+     ] )
+  ] [
+     fhir:title [ fhir:v "Discharge Details" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8650-4 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8650-4" ] ;
+         fhir:display [ fhir:v "Hospital discharge disposition note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge details reference the example stroke encounter.</div>"^^rdf:XMLLiteral ]
      ] ;
      fhir:entry ( [
-       fhir:link <http://qualityregistry.org/Condition/ExampleStrokeDiagnosis> ;
-       fhir:reference [ fhir:v "Condition/ExampleStrokeDiagnosis" ]
+       fhir:link <http://qualityregistry.org/Encounter/ExampleStrokeEncounter> ;
+       fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
+     ] ) ;
+     fhir:section ( [
+       fhir:title [ fhir:v "Vital Signs at Discharge" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:8716-3 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "8716-3" ] ;
+           fhir:display [ fhir:v "Vital signs note" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge vital signs are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ] ;
+           fhir:display [ fhir:v "Unavailable" ]
+         ] )
+       ]
      ] [
-       fhir:link <http://qualityregistry.org/Observation/ExampleDoorToNeedle> ;
-       fhir:reference [ fhir:v "Observation/ExampleDoorToNeedle" ]
+       fhir:title [ fhir:v "Anthropometric Measurements" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a sct:248326004 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "248326004" ] ;
+           fhir:display [ fhir:v "Anthropometric measure" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Anthropometric measurements were not collected in this registry case.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "notasked" ] ;
+           fhir:display [ fhir:v "Not Asked" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Physical Examination at Discharge" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:29545-1 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "29545-1" ] ;
+           fhir:display [ fhir:v "Physical findings" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Physical examination findings were not collected in this registry case.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "notasked" ] ;
+           fhir:display [ fhir:v "Not Asked" ]
+         ] )
+       ]
+     ] [
+       fhir:title [ fhir:v "Functional Status at Discharge" ] ;
+       fhir:code [
+         fhir:coding ( [
+           a loinc:47420-5 ;
+           fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "47420-5" ] ;
+           fhir:display [ fhir:v "Functional status assessment note" ]
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge functional status entries are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+       ] ;
+       fhir:emptyReason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "unavailable" ] ;
+           fhir:display [ fhir:v "Unavailable" ]
+         ] )
+       ]
      ] )
+  ] [
+     fhir:title [ fhir:v "Medication Summary at Discharge" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:75311-1 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "75311-1" ] ;
+         fhir:display [ fhir:v "Discharge medications note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge medications are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] )
+     ]
+  ] [
+     fhir:title [ fhir:v "Plan of Care and Follow-up" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:18776-5 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "18776-5" ] ;
+         fhir:display [ fhir:v "Plan of care note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">No follow-up plan entries are represented in this minimal example.</div>"^^rdf:XMLLiteral ]
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] )
+     ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

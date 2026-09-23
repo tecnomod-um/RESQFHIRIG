@@ -1,4 +1,4 @@
-# Specific Finding Observation Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Specific Finding Observation Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:SpecificFindingObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:SpecificFindingObservationProfile |
 
  
 Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings. 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
   "resourceType" : "StructureDefinition",
   "id" : "specific-finding-observation-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "SpecificFindingObservationProfile",
   "title" : "Specific Finding Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

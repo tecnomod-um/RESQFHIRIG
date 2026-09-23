@@ -1,4 +1,4 @@
-# Required post-acute care - RESQ Stroke Registry Implementation Guide v1.0.0
+# Required post-acute care - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:RequiredPostAcuteCareExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:RequiredPostAcuteCareExt |
 
 Boolean indicator that post-acute care is required or applicable to the resource context. Used by Encounter, Observation and MedicationAdministration builders.
 
@@ -47,11 +47,11 @@ Other representations of profile: [CSV](StructureDefinition-required-post-acute-
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/required-post-acute-care-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "RequiredPostAcuteCareExt",
   "title" : "Required post-acute care",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

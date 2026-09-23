@@ -1,10 +1,10 @@
-# RESQ Stroke Discharge Patient Summary - RESQ Stroke Registry Implementation Guide v1.0.0
+# Stroke Hospital Discharge Summary - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **RESQ Stroke Discharge Patient Summary**
+* **Stroke Hospital Discharge Summary**
 
-## Example Composition: RESQ Stroke Discharge Patient Summary
+## Example Composition: Stroke Hospital Discharge Summary
 
 RESQ stroke discharge patient summary for the example stroke encounter.
 
@@ -19,10 +19,12 @@ RESQ stroke discharge patient summary for the example stroke encounter.
   "meta" : {
     "profile" : ["http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"]
   },
+  "language" : "en",
   "identifier" : [{
-    "system" : "https://stroke.qualityregistry.org",
+    "system" : "https://stroke.qualityregistry.org/",
     "value" : "discharge-summary-001"
   }],
+  "version" : "1",
   "status" : "final",
   "type" : {
     "coding" : [{
@@ -41,11 +43,70 @@ RESQ stroke discharge patient summary for the example stroke encounter.
   "author" : [{
     "reference" : "Organization/OrganizationExample"
   }],
-  "title" : "RESQ Stroke Discharge Patient Summary",
+  "title" : "Stroke Hospital Discharge Summary",
   "custodian" : {
     "reference" : "Organization/OrganizationExample"
   },
   "section" : [{
+    "title" : "Medical Alerts",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "75310-3",
+        "display" : "Health concerns document"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medical alerts were not collected in this registry case.</div>"
+    },
+    "emptyReason" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+        "code" : "notasked",
+        "display" : "Not Asked"
+      }]
+    }
+  },
+  {
+    "title" : "Allergies and Intolerances",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "48765-2",
+        "display" : "Allergies and adverse reactions document"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies and intolerances were not collected in this registry case.</div>"
+    },
+    "emptyReason" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+        "code" : "notasked",
+        "display" : "Not Asked"
+      }]
+    }
+  },
+  {
+    "title" : "Encounter Information",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "46240-8",
+        "display" : "History of hospitalization and outpatient visits"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">The document summarizes the example stroke encounter.</div>"
+    },
+    "entry" : [{
+      "reference" : "Encounter/ExampleStrokeEncounter"
+    }]
+  },
+  {
     "title" : "Hospital Course",
     "code" : {
       "coding" : [{
@@ -56,14 +117,248 @@ RESQ stroke discharge patient summary for the example stroke encounter.
     },
     "text" : {
       "status" : "generated",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.</div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hospital course sections include diagnosis, procedures, devices and significant results.</div>"
     },
-    "entry" : [{
-      "reference" : "Condition/ExampleStrokeDiagnosis"
+    "section" : [{
+      "title" : "Diagnostic Summary",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "11535-2",
+          "display" : "Hospital discharge diagnosis note"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">The example case includes an ischemic stroke diagnosis.</div>"
+      },
+      "entry" : [{
+        "reference" : "Condition/ExampleStrokeDiagnosis"
+      }]
     },
     {
-      "reference" : "Observation/ExampleDoorToNeedle"
+      "title" : "Significant Procedures",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "10185-7",
+          "display" : "Hospital discharge procedure note"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No significant procedures are represented in this minimal example.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "unavailable",
+          "display" : "Unavailable"
+        }]
+      }
+    },
+    {
+      "title" : "Medical Devices and Implants",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "1184586001",
+          "display" : "Medical device document section"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medical devices and implants were not collected in this registry case.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "notasked",
+          "display" : "Not Asked"
+        }]
+      }
+    },
+    {
+      "title" : "Significant Test Results",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "30954-2",
+          "display" : "Relevant diagnostic tests and laboratory data note"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No significant test results are represented in this minimal example.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "unavailable",
+          "display" : "Unavailable"
+        }]
+      }
+    },
+    {
+      "title" : "Treatment Timings",
+      "code" : {
+        "coding" : [{
+          "system" : "http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs",
+          "code" : "treatment-timings",
+          "display" : "Treatment Timings"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Door-to-needle time was 38 minutes.</div>"
+      },
+      "entry" : [{
+        "reference" : "Observation/ExampleDoorToNeedle"
+      }]
     }]
+  },
+  {
+    "title" : "Discharge Details",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8650-4",
+        "display" : "Hospital discharge disposition note"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge details reference the example stroke encounter.</div>"
+    },
+    "entry" : [{
+      "reference" : "Encounter/ExampleStrokeEncounter"
+    }],
+    "section" : [{
+      "title" : "Vital Signs at Discharge",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8716-3",
+          "display" : "Vital signs note"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge vital signs are represented in this minimal example.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "unavailable",
+          "display" : "Unavailable"
+        }]
+      }
+    },
+    {
+      "title" : "Anthropometric Measurements",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "248326004",
+          "display" : "Anthropometric measure"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Anthropometric measurements were not collected in this registry case.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "notasked",
+          "display" : "Not Asked"
+        }]
+      }
+    },
+    {
+      "title" : "Physical Examination at Discharge",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "29545-1",
+          "display" : "Physical findings"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Physical examination findings were not collected in this registry case.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "notasked",
+          "display" : "Not Asked"
+        }]
+      }
+    },
+    {
+      "title" : "Functional Status at Discharge",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "47420-5",
+          "display" : "Functional status assessment note"
+        }]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge functional status entries are represented in this minimal example.</div>"
+      },
+      "emptyReason" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+          "code" : "unavailable",
+          "display" : "Unavailable"
+        }]
+      }
+    }]
+  },
+  {
+    "title" : "Medication Summary at Discharge",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "75311-1",
+        "display" : "Discharge medications note"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No discharge medications are represented in this minimal example.</div>"
+    },
+    "emptyReason" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+        "code" : "unavailable",
+        "display" : "Unavailable"
+      }]
+    }
+  },
+  {
+    "title" : "Plan of Care and Follow-up",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "18776-5",
+        "display" : "Plan of care note"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No follow-up plan entries are represented in this minimal example.</div>"
+    },
+    "emptyReason" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+        "code" : "unavailable",
+        "display" : "Unavailable"
+      }]
+    }
   }]
 }
 

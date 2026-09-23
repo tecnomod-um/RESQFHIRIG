@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>RESQ Stroke Discharge Patient Summary - XML Representation - RESQ Stroke Registry Implementation Guide v1.0.0</title>
+    <title>Stroke Hospital Discharge Summary - XML Representation - RESQ Stroke Registry Implementation Guide v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -239,7 +239,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">RESQ Stroke Registry Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - ci-build
+            <span style="display:inline-block;">1.1.0 - ci-build
 
 
 
@@ -323,7 +323,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RESQ Stroke Discharge Patient Summary</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Stroke Hospital Discharge Summary</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -336,7 +336,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -382,7 +382,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: RESQ Stroke Discharge Patient Summary - XML Representation</h2>
+<h2 id="root">: Stroke Hospital Discharge Summary - XML Representation</h2>
 
 
 <p><a href="Composition-ExampleRESQStrokeDischargeComposition.xml" no-download="true">Raw xml</a> | <a href="Composition-ExampleRESQStrokeDischargeComposition.xml" download>Download</a></p>
@@ -399,14 +399,16 @@
     &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
              <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XComposition.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XComposition.language">language</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;RESQ stroke discharge patient summary for the example stroke encounter.&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XComposition.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://stroke.qualityregistry.org&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;https://stroke.qualityregistry.org/&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;discharge-summary-001&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.type">type</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
@@ -425,10 +427,71 @@
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;<a href="Organization-OrganizationExample.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/OrganizationExample&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.author">author</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;RESQ Stroke Discharge Patient Summary&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Stroke Hospital Discharge Summary&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.custodian">custodian</a>&gt;<a href="Organization-OrganizationExample.html" style="color: Maroon">&#x1F517;</a> 
     &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Organization/OrganizationExample&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.custodian">custodian</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medical Alerts&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;75310-3&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Health concerns document&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Medical alerts were not collected in this registry case.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;notasked&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Not Asked&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Allergies and Intolerances&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;48765-2&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Allergies and adverse reactions document&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Allergies and intolerances were not collected in this registry case.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;notasked&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Not Asked&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Encounter Information&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;46240-8&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;History of hospitalization and outpatient visits&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;The document summarizes the example stroke encounter.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Encounter-ExampleStrokeEncounter.html" style="color: Maroon">&#x1F517;</a> 
+      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Encounter/ExampleStrokeEncounter&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Hospital Course&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
@@ -440,14 +503,259 @@
     &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.&lt;/div&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Hospital course sections include diagnosis, procedures, devices and significant results.&lt;/div&gt;
     &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Condition-ExampleStrokeDiagnosis.html" style="color: Maroon">&#x1F517;</a> 
-      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Condition/ExampleStrokeDiagnosis&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Diagnostic Summary&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;11535-2&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Hospital discharge diagnosis note&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;The example case includes an ischemic stroke diagnosis.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Condition-ExampleStrokeDiagnosis.html" style="color: Maroon">&#x1F517;</a> 
+        &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Condition/ExampleStrokeDiagnosis&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Significant Procedures&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;10185-7&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Hospital discharge procedure note&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No significant procedures are represented in this minimal example.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medical Devices and Implants&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;1184586001&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medical device document section&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Medical devices and implants were not collected in this registry case.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;notasked&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Not Asked&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Significant Test Results&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;30954-2&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>
+                   <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Relevant diagnostic tests and laboratory data note&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No significant test results are represented in this minimal example.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Treatment Timings&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;treatment-timings&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Treatment Timings&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Door-to-needle time was 38 minutes.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Observation-ExampleDoorToNeedle.html" style="color: Maroon">&#x1F517;</a> 
+        &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Observation/ExampleDoorToNeedle&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Discharge Details&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;8650-4&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Hospital discharge disposition note&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Discharge details reference the example stroke encounter.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Encounter-ExampleStrokeEncounter.html" style="color: Maroon">&#x1F517;</a> 
+      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Encounter/ExampleStrokeEncounter&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;<a href="Observation-ExampleDoorToNeedle.html" style="color: Maroon">&#x1F517;</a> 
-      &lt;<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.reference">reference</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Observation/ExampleDoorToNeedle&quot;/&gt;
-    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Vital Signs at Discharge&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;8716-3&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Vital signs note&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No discharge vital signs are represented in this minimal example.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Anthropometric Measurements&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;248326004&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Anthropometric measure&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Anthropometric measurements were not collected in this registry case.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;notasked&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Not Asked&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Physical Examination at Discharge&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;29545-1&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Physical findings&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Physical examination findings were not collected in this registry case.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;notasked&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Not Asked&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Functional Status at Discharge&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;47420-5&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Functional status assessment note&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+        &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No discharge functional status entries are represented in this minimal example.&lt;/div&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.section">section</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Medication Summary at Discharge&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;75311-1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Discharge medications note&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No discharge medications are represented in this minimal example.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Plan of Care and Follow-up&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;18776-5&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Plan of care note&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+      &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;No follow-up plan entries are represented in this minimal example.&lt;/div&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>
+                <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section.emptyReason">emptyReason</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition.section">section</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R5/composition.html#XComposition">Composition</a>&gt;</code></pre>
 
@@ -473,7 +781,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 10:11+0000">2026-09-04</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 23, 2026 10:52+0000">2026-09-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

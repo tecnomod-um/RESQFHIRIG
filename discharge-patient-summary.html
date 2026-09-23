@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Discharge Patient Summary - RESQ Stroke Registry Implementation Guide v1.0.0</title>
+    <title>Discharge Patient Summary - RESQ Stroke Registry Implementation Guide v1.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -237,7 +237,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">RESQ Stroke Registry Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - ci-build
+            <span style="display:inline-block;">1.1.0 - ci-build
 
 
 
@@ -341,7 +341,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">RESQ Stroke Registry Implementation Guide - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://qualityregistry.org/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Discharge Patient Summary</h2>
   
 
@@ -357,10 +357,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#document-role" id="markdown-toc-document-role">Document Role</a></li>
+  <li><a href="#section-hierarchy" id="markdown-toc-section-hierarchy">Section Hierarchy</a>    <ul>
+      <li><a href="#hospital-course-children" id="markdown-toc-hospital-course-children">Hospital Course Children</a></li>
+      <li><a href="#discharge-details-children" id="markdown-toc-discharge-details-children">Discharge Details Children</a></li>
+    </ul>
+  </li>
+  <li><a href="#empty-sections" id="markdown-toc-empty-sections">Empty Sections</a></li>
+  <li><a href="#stroke-specific-content" id="markdown-toc-stroke-specific-content">Stroke-Specific Content</a></li>
+  <li><a href="#clinical-synthesis" id="markdown-toc-clinical-synthesis">Clinical Synthesis</a></li>
+  <li><a href="#document-bundle" id="markdown-toc-document-bundle">Document Bundle</a></li>
+</ul>
+
 </div>
-<p>The <a href="StructureDefinition-resq-stroke-discharge-composition.html">RESQ Stroke Discharge Patient Summary Composition</a> is the clinical document entry point for a completed RES-Q stroke admission. It does not replace the discrete registry resources; it organizes them into a discharge summary that can be rendered for humans while preserving computable references for validation, analytics and exchange.</p>
+<p>The <a href="StructureDefinition-resq-stroke-discharge-composition.html">RESQ Stroke Discharge Patient Summary Composition</a> is the document organization layer for a completed RES-Q stroke admission. It does not replace the discrete clinical resources. The <code class="language-plaintext highlighter-rouge">Composition</code> organizes the existing RES-Q resource graph into a FHIR R5 document that can be rendered for humans while preserving computable references for validation, analytics and exchange.</p>
+
+<p>The current RESQ2FHIR implementation aligns this document structure with the Xt-EHR logical model <code class="language-plaintext highlighter-rouge">EHDSDischargeReport</code>:</p>
+
+<p><code class="language-plaintext highlighter-rouge">http://www.xt-ehr.eu/fhir/models/StructureDefinition/EHDSDischargeReport</code></p>
+
+<p>That logical model refines the eHealth Network Hospital Discharge Report content in the EHDS context. This IG does not claim to publish the normative final EU FHIR discharge profile; it aligns the RES-Q discharge document with the evolving European logical model while keeping the registry's stroke-specific clinical resources intact.</p>
 
 <h2 id="document-role">Document Role</h2>
 
@@ -381,6 +399,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>Fixed to LOINC <code class="language-plaintext highlighter-rouge">18842-5</code> Discharge summary.</td>
     </tr>
     <tr>
+      <td><code class="language-plaintext highlighter-rouge">identifier.system</code></td>
+      <td>Fixed to <code class="language-plaintext highlighter-rouge">https://stroke.qualityregistry.org/</code>.</td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">subject</code></td>
       <td>References the profiled <a href="StructureDefinition-resq-patient-profile.html">RESQ Patient</a>.</td>
     </tr>
@@ -390,108 +412,271 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">author</code></td>
-      <td>References the authoring organization, clinician role, practitioner or source system.</td>
+      <td>References the authoring organization, clinician role, practitioner or source system according to the existing model.</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">custodian</code></td>
       <td>References the profiled <a href="StructureDefinition-stroke-registry-organization-profile.html">Stroke Registry Organization</a>.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">section</code></td>
-      <td>Uses fixed section slices with required coded section headers and narrative text.</td>
+      <td><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>Fixed to <code class="language-plaintext highlighter-rouge">Stroke Hospital Discharge Summary</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">language</code></td>
+      <td>Fixed to <code class="language-plaintext highlighter-rouge">en</code>; generated narratives carry matching XHTML language attributes.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">version</code></td>
+      <td>Fixed to <code class="language-plaintext highlighter-rouge">1</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">text</code></td>
+      <td>Contains the generated narrative for the Composition.</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="sections">Sections</h2>
+<h2 id="section-hierarchy">Section Hierarchy</h2>
+
+<p>RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children under Hospital Course and 4 children under Discharge Details.</p>
 
 <table>
   <thead>
     <tr>
-      <th>Section</th>
+      <th>Root section</th>
       <th>Code</th>
-      <th>Main computable entries</th>
+      <th>Required</th>
+      <th>EHDS path</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>Medical Alerts</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">75310-3</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.alerts</code></td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">emptyReason = notasked</code> when RES-Q has no alert data.</td>
+    </tr>
+    <tr>
+      <td>Allergies and Intolerances</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">48765-2</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.alerts</code></td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">emptyReason = notasked</code> when RES-Q has no allergy data.</td>
+    </tr>
+    <tr>
+      <td>Encounter Information</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">46240-8</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.encounterInformation</code></td>
+      <td>References the Stroke Encounter.</td>
+    </tr>
+    <tr>
       <td>Admission Evaluation</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">67851-6</code></td>
-      <td>Admission diagnosis, risk factors, admission assessments, vitals, timing metrics and locations.</td>
+      <td>No</td>
+      <td><code class="language-plaintext highlighter-rouge">body.admissionEvaluation</code></td>
+      <td>Admission assessments and context.</td>
     </tr>
     <tr>
       <td>Relevant Patient History</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">11329-0</code></td>
-      <td>Prior medications and relevant risk factors.</td>
-    </tr>
-    <tr>
-      <td>Relevant Problems and Risk Factors</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">11450-4</code></td>
-      <td>Diagnosis, risk factors and post-stroke complications.</td>
+      <td>No</td>
+      <td><code class="language-plaintext highlighter-rouge">body.patientHistory</code></td>
+      <td>Absorbs the former RES-Q Patient History and Problem List content.</td>
     </tr>
     <tr>
       <td>Hospital Course</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">8648-8</code></td>
-      <td>Required section for diagnosis, observations, procedures, medication administrations and reports recorded during hospitalization.</td>
-    </tr>
-    <tr>
-      <td>Diagnostic Summary</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">11535-2</code></td>
-      <td>Final diagnosis, imaging findings and diagnostic reports.</td>
-    </tr>
-    <tr>
-      <td>Significant Procedures</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">10185-7</code></td>
-      <td>Imaging, reperfusion, swallowing screening, VTE prophylaxis, carotid and treatment procedures.</td>
-    </tr>
-    <tr>
-      <td>Pharmacotherapy During Hospitalisation</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">87232-5</code></td>
-      <td>Acute or post-acute medication administrations.</td>
-    </tr>
-    <tr>
-      <td>Treatment Timings</td>
-      <td>RES-Q <code class="language-plaintext highlighter-rouge">treatment-timings</code></td>
-      <td>Stroke pathway timing metrics such as door-to-needle and onset-to-door.</td>
-    </tr>
-    <tr>
-      <td>Significant Results</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">30954-2</code></td>
-      <td>Imaging, laboratory and clinically significant observation results.</td>
-    </tr>
-    <tr>
-      <td>Vital Signs at Discharge</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">8716-3</code></td>
-      <td>Discharge-relevant vital signs.</td>
-    </tr>
-    <tr>
-      <td>Functional Status at Discharge</td>
-      <td>LOINC <code class="language-plaintext highlighter-rouge">47420-5</code></td>
-      <td>Functional scores, neurological status and ventilation status.</td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter</code></td>
+      <td>Container for the six course-of-encounter subsections.</td>
     </tr>
     <tr>
       <td>Discharge Details</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">8650-4</code></td>
-      <td>Discharge disposition and facility/service details from the stroke encounter.</td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.dischargeDetails</code></td>
+      <td>References the Stroke Encounter and contains four discharge detail subsections.</td>
     </tr>
     <tr>
-      <td>Discharge Medications</td>
+      <td>Medication Summary at Discharge</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">75311-1</code></td>
-      <td>Medication requests and documented reasons for omitted anticoagulation.</td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.medicationSummary</code></td>
+      <td>Discharge medication orders and omission reasons.</td>
     </tr>
     <tr>
       <td>Plan of Care and Follow-up</td>
       <td>LOINC <code class="language-plaintext highlighter-rouge">18776-5</code></td>
-      <td>Follow-up appointments, communications, contact mode and appointment management observations.</td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.carePlan</code></td>
+      <td>Follow-up and continuing-care recommendations.</td>
+    </tr>
+    <tr>
+      <td>Clinical Synthesis</td>
+      <td>SNOMED CT <code class="language-plaintext highlighter-rouge">866144008</code></td>
+      <td>No</td>
+      <td><code class="language-plaintext highlighter-rouge">body.clinicalSynthesis</code></td>
+      <td>Deterministic narrative only; no <code class="language-plaintext highlighter-rouge">section.entry</code> is required.</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="implementation-guidance">Implementation Guidance</h2>
+<h3 id="hospital-course-children">Hospital Course Children</h3>
 
-<p>Implementers SHOULD produce this Composition when exchanging a complete discharge summary for a registry case. Each section SHALL include narrative text. When a section has no discrete entries, populate <code class="language-plaintext highlighter-rouge">section.emptyReason</code> rather than leaving the section structurally empty.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Subsection</th>
+      <th>Code</th>
+      <th>Required</th>
+      <th>EHDS path</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Diagnostic Summary</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">11535-2</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter.diagnosticSummary</code></td>
+      <td>Diagnosis and supporting findings.</td>
+    </tr>
+    <tr>
+      <td>Significant Procedures</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">10185-7</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter.procedures</code></td>
+      <td>Procedures performed or considered.</td>
+    </tr>
+    <tr>
+      <td>Treatment Timings</td>
+      <td>RES-Q <code class="language-plaintext highlighter-rouge">treatment-timings</code></td>
+      <td>No</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter</code></td>
+      <td>Stroke-specific RES-Q content; includes D2N, D2G and D2D only.</td>
+    </tr>
+    <tr>
+      <td>Medical Devices and Implants</td>
+      <td>SNOMED CT <code class="language-plaintext highlighter-rouge">1184586001</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter.medicalDevicesAndImplants</code></td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">emptyReason = notasked</code> when RES-Q has no device data.</td>
+    </tr>
+    <tr>
+      <td>Pharmacotherapy During Encounter</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">87232-5</code></td>
+      <td>No</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter.pharmacotherapy</code></td>
+      <td>Medication administrations during the encounter.</td>
+    </tr>
+    <tr>
+      <td>Significant Test Results</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">30954-2</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.courseOfEncounter.testResults[x]</code></td>
+      <td>Diagnostic, imaging and laboratory results.</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>The Composition SHOULD reference RES-Q profiled resources wherever a matching profile exists. This keeps the document clinically readable while preserving the computable resource graph used elsewhere in the IG.</p>
+<h3 id="discharge-details-children">Discharge Details Children</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Subsection</th>
+      <th>Code</th>
+      <th>Required</th>
+      <th>EHDS path</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vital Signs at Discharge</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">8716-3</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.dischargeDetails.objectiveFindings</code></td>
+      <td>Discharge vital signs.</td>
+    </tr>
+    <tr>
+      <td>Anthropometric Measurements</td>
+      <td>SNOMED CT <code class="language-plaintext highlighter-rouge">248326004</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.dischargeDetails.objectiveFindings</code></td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">emptyReason = notasked</code> when RES-Q has no anthropometry data.</td>
+    </tr>
+    <tr>
+      <td>Physical Examination at Discharge</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">29545-1</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.dischargeDetails.objectiveFindings</code></td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">emptyReason = notasked</code> when RES-Q has no physical examination data.</td>
+    </tr>
+    <tr>
+      <td>Functional Status at Discharge</td>
+      <td>LOINC <code class="language-plaintext highlighter-rouge">47420-5</code></td>
+      <td>Yes</td>
+      <td><code class="language-plaintext highlighter-rouge">body.dischargeDetails.functionalStatus[x]</code></td>
+      <td>Discharge NIHSS, mRS and related functional status entries.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="empty-sections">Empty Sections</h2>
+
+<p>Required EHDS sections remain present even when RES-Q did not collect matching data. In those cases RESQ2FHIR uses <code class="language-plaintext highlighter-rouge">section.emptyReason</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">notasked</code> means the registry did not collect the data item for that section. It must not be interpreted as "no known condition", "no known allergy", "no device" or any other negative clinical assertion. Other required sections without data use the generator's default <code class="language-plaintext highlighter-rouge">unavailable</code> empty reason.</p>
+
+<p>Optional sections are omitted when they have no content. Hospital Course and Discharge Details may be valid with nested <code class="language-plaintext highlighter-rouge">section.section</code> content and no direct entries. Clinical Synthesis may be valid with generated narrative only.</p>
+
+<h2 id="stroke-specific-content">Stroke-Specific Content</h2>
+
+<p>Most sections use standard LOINC or SNOMED CT headings from the EHDS-aligned model. The stroke-specific RES-Q section is Treatment Timings, coded with the local section code <code class="language-plaintext highlighter-rouge">treatment-timings</code>.</p>
+
+<p>RESQ2FHIR selects timing observations for this section by exact timing metric codes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Timing metric</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Door to Needle</td>
+      <td><code class="language-plaintext highlighter-rouge">D2N</code></td>
+    </tr>
+    <tr>
+      <td>Door to Groin</td>
+      <td><code class="language-plaintext highlighter-rouge">D2G</code></td>
+    </tr>
+    <tr>
+      <td>Door to Door</td>
+      <td><code class="language-plaintext highlighter-rouge">D2D</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Derived indicators such as <code class="language-plaintext highlighter-rouge">D2N&lt;=45</code> are not selected into Treatment Timings.</p>
+
+<h2 id="clinical-synthesis">Clinical Synthesis</h2>
+
+<p>Clinical Synthesis is generated deterministically from FHIR resources that have already been modeled. It does not use an LLM and does not invent facts outside the generated resource graph.</p>
+
+<p>Depending on available resources, the narrative may include age, sex, diagnosis, admission NIHSS, relevant history, treatments, discharge NIHSS, discharge mRS, discharge medication and disposition.</p>
+
+<h2 id="document-bundle">Document Bundle</h2>
+
+<p>RESQ2FHIR builds a FHIR R5 <code class="language-plaintext highlighter-rouge">Bundle</code> with <code class="language-plaintext highlighter-rouge">type = document</code>. The <code class="language-plaintext highlighter-rouge">Composition</code> is always the first <code class="language-plaintext highlighter-rouge">Bundle.entry</code>. The Bundle then includes resources referenced by <code class="language-plaintext highlighter-rouge">Composition.section.entry</code>, plus the Patient, Encounter and Organization context resources when present.</p>
+
+<p>Local references are resolved recursively. If a selected resource references another local resource in the same case graph, that referenced resource is added to the document Bundle as well.</p>
 
 
 
@@ -512,7 +697,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Sep 4, 2026 10:11+0000">2026-09-04</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 23, 2026 10:52+0000">2026-09-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

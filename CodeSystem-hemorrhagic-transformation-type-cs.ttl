@@ -14,12 +14,12 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hemorrhagic-transformation-type-cs</b></p><a name=\"hemorrhagic-transformation-type-cs\"> </a><a name=\"hchemorrhagic-transformation-type-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/hemorrhagic-transformation-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">hi-type-1<a name=\"hemorrhagic-transformation-type-cs-hi-type-1\"> </a></td><td>HI type 1</td></tr><tr><td style=\"white-space:nowrap\">hi-type-2<a name=\"hemorrhagic-transformation-type-cs-hi-type-2\"> </a></td><td>HI type 2</td></tr><tr><td style=\"white-space:nowrap\">ph-type-1<a name=\"hemorrhagic-transformation-type-cs-ph-type-1\"> </a></td><td>PH type 1</td></tr><tr><td style=\"white-space:nowrap\">ph-type-2<a name=\"hemorrhagic-transformation-type-cs-ph-type-2\"> </a></td><td>PH type 2</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [ fhir:v "http://qualityregistry.org/CodeSystem/hemorrhagic-transformation-type-cs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "HemorrhagicTransformationTypeCS"] ; # 
   fhir:title [ fhir:v "HemorrhagicTransformationTypeCs CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-09-04T10:11:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-09-23T10:52:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;

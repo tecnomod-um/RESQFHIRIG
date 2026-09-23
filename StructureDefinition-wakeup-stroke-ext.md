@@ -1,4 +1,4 @@
-# Wake-up stroke - RESQ Stroke Registry Implementation Guide v1.0.0
+# Wake-up stroke - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:WakeupStrokeExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:WakeupStrokeExt |
 
 Boolean flag indicating that the stroke was first noticed after waking; onsetDateTime is then populated using the last-known-well/sleep timestamp in the builder.
 
@@ -47,11 +47,11 @@ Other representations of profile: [CSV](StructureDefinition-wakeup-stroke-ext.cs
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "WakeupStrokeExt",
   "title" : "Wake-up stroke",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

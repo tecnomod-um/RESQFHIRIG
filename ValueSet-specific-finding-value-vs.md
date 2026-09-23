@@ -1,4 +1,4 @@
-# Specific Finding Value ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
+# Specific Finding Value ValueSet - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-value-vs | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:SpecificFindingValueVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-value-vs | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:SpecificFindingValueVS |
 
  
 Allowed coded values used as Observation.valueCodeableConcept for specific finding observations. 
@@ -46,12 +46,12 @@ Allowed coded values used as Observation.valueCodeableConcept for specific findi
   "resourceType" : "ValueSet",
   "id" : "specific-finding-value-vs",
   "url" : "http://qualityregistry.org/ValueSet/specific-finding-value-vs",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "SpecificFindingValueVS",
   "title" : "Specific Finding Value ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

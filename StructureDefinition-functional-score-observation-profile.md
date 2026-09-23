@@ -1,4 +1,4 @@
-# Functional Score Observation Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Functional Score Observation Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/functional-score-observation-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:FunctionalScoreObservationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/functional-score-observation-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
@@ -38,12 +38,12 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "resourceType" : "StructureDefinition",
   "id" : "functional-score-observation-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/functional-score-observation-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "FunctionalScoreObservationProfile",
   "title" : "Functional Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

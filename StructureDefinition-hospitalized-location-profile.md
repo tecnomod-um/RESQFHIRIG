@@ -1,4 +1,4 @@
-# Hospitalized Location Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Hospitalized Location Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/hospitalized-location-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:HospitalizedLocationProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/hospitalized-location-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:HospitalizedLocationProfile |
 
  
 Hospitalized location profile aligned with the admission department and initial care intensity captured by the RES-Q source model. 
@@ -40,12 +40,12 @@ Other representations of profile: [CSV](StructureDefinition-hospitalized-locatio
   "resourceType" : "StructureDefinition",
   "id" : "hospitalized-location-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/hospitalized-location-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "HospitalizedLocationProfile",
   "title" : "Hospitalized Location Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

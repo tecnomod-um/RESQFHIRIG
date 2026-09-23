@@ -1,4 +1,4 @@
-# Gender represented with SNOMED CT - RESQ Stroke Registry Implementation Guide v1.0.0
+# Gender represented with SNOMED CT - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/gender-snomed-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:GenderSnomedExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/gender-snomed-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:GenderSnomedExt |
 
 Sex/gender value as a SNOMED CT CodeableConcept, matching build_Patient().
 
@@ -49,11 +49,11 @@ Other representations of profile: [CSV](StructureDefinition-gender-snomed-ext.cs
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/gender-snomed-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "GenderSnomedExt",
   "title" : "Gender represented with SNOMED CT",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

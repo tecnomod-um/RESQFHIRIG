@@ -1,4 +1,4 @@
-# Observation timing context - RESQ Stroke Registry Implementation Guide v1.0.0
+# Observation timing context - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/observation-timing-context-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:ObservationTimingContextExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/observation-timing-context-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:ObservationTimingContextExt |
 
 Temporal/clinical context of an observation, such as admission, discharge, prestroke or three-month follow-up. Also supports boolean usage because build_observation_blood_volume currently writes a boolean post_acute_care value to this URL.
 
@@ -48,11 +48,11 @@ Other representations of profile: [CSV](StructureDefinition-observation-timing-c
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/observation-timing-context-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "ObservationTimingContextExt",
   "title" : "Observation timing context",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

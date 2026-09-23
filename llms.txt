@@ -1,15 +1,15 @@
-# RESQFHIRIG#1.0.0: RESQ Stroke Registry Implementation Guide
+# RESQFHIRIG#1.1.0: RESQ Stroke Registry Implementation Guide
 
 ## Pages
 
 * [Home](index.md)
-* [Modeling Decisions](modeling-decisions.md)
+* [Profiles](profiles.md)
+* [Discharge Patient Summary](discharge-patient-summary.md)
 * [Terminology](terminology.md)
 * [Extensions](extensions.md)
-* [Profiles](profiles.md)
 * [Artifacts Summary](artifacts.md)
-* [Discharge Patient Summary](discharge-patient-summary.md)
 * [Downloads](downloads.md)
+* [Modeling Decisions](modeling-decisions.md)
 * [Resource Map](resource-map.md)
 
 ## Resources
@@ -215,7 +215,7 @@
 
 ### Examples
 
-* [RESQ Stroke Discharge Patient Summary (Composition)](Composition-ExampleRESQStrokeDischargeComposition.md)
+* [Stroke Hospital Discharge Summary (Composition)](Composition-ExampleRESQStrokeDischargeComposition.md)
 * [ExampleStrokeDiagnosis (Condition)](Condition-ExampleStrokeDiagnosis.md)
 * [ExampleStrokeEncounter (Encounter)](Encounter-ExampleStrokeEncounter.md)
 * [ExampleDoorToNeedle (Observation)](Observation-ExampleDoorToNeedle.md)

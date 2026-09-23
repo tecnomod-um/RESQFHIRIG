@@ -1,4 +1,4 @@
-# Mechanical Thrombectomy DiagnosticReport Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Mechanical Thrombectomy DiagnosticReport Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
 
  
 DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results. 
@@ -40,12 +40,12 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
   "resourceType" : "StructureDefinition",
   "id" : "mechanical-thrombectomy-diagnostic-report-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "MechanicalThrombectomyDiagnosticReportProfile",
   "title" : "Mechanical Thrombectomy DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

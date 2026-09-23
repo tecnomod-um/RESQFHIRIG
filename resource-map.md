@@ -1,4 +1,4 @@
-# Resource Map - RESQ Stroke Registry Implementation Guide v1.0.0
+# Resource Map - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **Resource Map**

@@ -1,4 +1,4 @@
-# Stroke Diagnosis Condition Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# Stroke Diagnosis Condition Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -41,12 +41,12 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "resourceType" : "StructureDefinition",
   "id" : "stroke-diagnosis-condition-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "StrokeDiagnosisConditionProfile",
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

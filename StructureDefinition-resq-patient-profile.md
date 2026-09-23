@@ -1,4 +1,4 @@
-# RESQ Patient Profile - RESQ Stroke Registry Implementation Guide v1.0.0
+# RESQ Patient Profile - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-patient-profile | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:RESQPatientProfile |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/resq-patient-profile | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:RESQPatientProfile |
 
  
 Patient profile for RES-Q stroke registry submissions. The registry patient is intentionally pseudonymized: the profile requires a stable registry identifier and represents sex/gender using a SNOMED CT coded extension because the source ETL does not populate Patient.gender. Age is represented as an Observation in the registry model rather than as a Patient extension. 
@@ -41,12 +41,12 @@ Other representations of profile: [CSV](StructureDefinition-resq-patient-profile
   "resourceType" : "StructureDefinition",
   "id" : "resq-patient-profile",
   "url" : "http://qualityregistry.org/StructureDefinition/resq-patient-profile",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "RESQPatientProfile",
   "title" : "RESQ Patient Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

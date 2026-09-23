@@ -1,4 +1,4 @@
-# EMS prenotification - RESQ Stroke Registry Implementation Guide v1.0.0
+# EMS prenotification - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/StructureDefinition/ems-prenotification-ext | *Version*:1.0.0 |
-| Draft as of 2026-09-04 | *Computable Name*:EmsPrenotificationExt |
+| *Official URL*:http://qualityregistry.org/StructureDefinition/ems-prenotification-ext | *Version*:1.1.0 |
+| Draft as of 2026-09-23 | *Computable Name*:EmsPrenotificationExt |
 
 Indicates whether emergency medical services prenotified the receiving hospital before arrival.
 
@@ -47,11 +47,11 @@ Other representations of profile: [CSV](StructureDefinition-ems-prenotification-
     "valueCode" : "can-bind"
   }],
   "url" : "http://qualityregistry.org/StructureDefinition/ems-prenotification-ext",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "EmsPrenotificationExt",
   "title" : "EMS prenotification",
   "status" : "draft",
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

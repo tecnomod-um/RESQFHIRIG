@@ -1,4 +1,4 @@
-# TimingMetricCodesCs CodeSystem - RESQ Stroke Registry Implementation Guide v1.0.0
+# TimingMetricCodesCs CodeSystem - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/CodeSystem/timing-metric-codes-cs | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:TimingMetricCodesCS |
+| *Official URL*:http://qualityregistry.org/CodeSystem/timing-metric-codes-cs | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:TimingMetricCodesCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-metric-codes-cs. 
@@ -28,12 +28,12 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "resourceType" : "CodeSystem",
   "id" : "timing-metric-codes-cs",
   "url" : "http://qualityregistry.org/CodeSystem/timing-metric-codes-cs",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "TimingMetricCodesCS",
   "title" : "TimingMetricCodesCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -52,7 +52,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 27,
+  "count" : 28,
   "concept" : [{
     "code" : "sys-bp-lt-140",
     "display" : "Systolic Blood Pressure < 140 mmHg"
@@ -68,6 +68,10 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   {
     "code" : "D2G<=120",
     "display" : "Door to Groin <= 120 Minutes"
+  },
+  {
+    "code" : "D2D",
+    "display" : "Door to Door"
   },
   {
     "code" : "Door2Door",

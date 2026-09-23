@@ -1,4 +1,4 @@
-# ProcedureNotDoneReason ValueSet - RESQ Stroke Registry Implementation Guide v1.0.0
+# ProcedureNotDoneReason ValueSet - RESQ Stroke Registry Implementation Guide v1.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs | *Version*:1.0.0 |
-| Active as of 2026-09-04 | *Computable Name*:ProcedureNotDoneReasonVS |
+| *Official URL*:http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs | *Version*:1.1.0 |
+| Active as of 2026-09-23 | *Computable Name*:ProcedureNotDoneReasonVS |
 
  
 Allowed coded values for ProcedureNotDoneReason 
@@ -51,12 +51,12 @@ Allowed coded values for ProcedureNotDoneReason
   "resourceType" : "ValueSet",
   "id" : "procedure-not-done-reason-vs",
   "url" : "http://qualityregistry.org/ValueSet/procedure-not-done-reason-vs",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "ProcedureNotDoneReasonVS",
   "title" : "ProcedureNotDoneReason ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T10:11:46+00:00",
+  "date" : "2026-09-23T10:52:36+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -5,13 +5,15 @@
   <meta>
     <profile value="http://qualityregistry.org/StructureDefinition/resq-stroke-discharge-composition"/>
   </meta>
+  <language value="en"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">RESQ stroke discharge patient summary for the example stroke encounter.</div>
   </text>
   <identifier>
-    <system value="https://stroke.qualityregistry.org"/>
+    <system value="https://stroke.qualityregistry.org/"/>
     <value value="discharge-summary-001"/>
   </identifier>
+  <version value="1"/>
   <status value="final"/>
   <type>
     <coding>
@@ -30,10 +32,66 @@
   <author>
     <reference value="Organization/OrganizationExample"/>
   </author>
-  <title value="RESQ Stroke Discharge Patient Summary"/>
+  <title value="Stroke Hospital Discharge Summary"/>
   <custodian>
     <reference value="Organization/OrganizationExample"/>
   </custodian>
+  <section>
+    <title value="Medical Alerts"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="75310-3"/>
+        <display value="Health concerns document"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Medical alerts were not collected in this registry case.</div>
+    </text>
+    <emptyReason>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+        <code value="notasked"/>
+        <display value="Not Asked"/>
+      </coding>
+    </emptyReason>
+  </section>
+  <section>
+    <title value="Allergies and Intolerances"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48765-2"/>
+        <display value="Allergies and adverse reactions document"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Allergies and intolerances were not collected in this registry case.</div>
+    </text>
+    <emptyReason>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+        <code value="notasked"/>
+        <display value="Not Asked"/>
+      </coding>
+    </emptyReason>
+  </section>
+  <section>
+    <title value="Encounter Information"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="46240-8"/>
+        <display value="History of hospitalization and outpatient visits"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">The document summarizes the example stroke encounter.</div>
+    </text>
+    <entry>
+      <reference value="Encounter/ExampleStrokeEncounter"/>
+    </entry>
+  </section>
   <section>
     <title value="Hospital Course"/>
     <code>
@@ -44,13 +102,235 @@
       </coding>
     </code>
     <text>
-      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">The hospital course references the confirmed stroke diagnosis and the door-to-needle timing metric.</div>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Hospital course sections include diagnosis, procedures, devices and significant results.</div>
+    </text>
+    <section>
+      <title value="Diagnostic Summary"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="11535-2"/>
+          <display value="Hospital discharge diagnosis note"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">The example case includes an ischemic stroke diagnosis.</div>
+      </text>
+      <entry>
+        <reference value="Condition/ExampleStrokeDiagnosis"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Significant Procedures"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="10185-7"/>
+          <display value="Hospital discharge procedure note"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No significant procedures are represented in this minimal example.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+          <display value="Unavailable"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Medical Devices and Implants"/>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="1184586001"/>
+          <display value="Medical device document section"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Medical devices and implants were not collected in this registry case.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="notasked"/>
+          <display value="Not Asked"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Significant Test Results"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="30954-2"/>
+          <display value="Relevant diagnostic tests and laboratory data note"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No significant test results are represented in this minimal example.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+          <display value="Unavailable"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Treatment Timings"/>
+      <code>
+        <coding>
+          <system value="http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs"/>
+          <code value="treatment-timings"/>
+          <display value="Treatment Timings"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Door-to-needle time was 38 minutes.</div>
+      </text>
+      <entry>
+        <reference value="Observation/ExampleDoorToNeedle"/>
+      </entry>
+    </section>
+  </section>
+  <section>
+    <title value="Discharge Details"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8650-4"/>
+        <display value="Hospital discharge disposition note"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Discharge details reference the example stroke encounter.</div>
     </text>
     <entry>
-      <reference value="Condition/ExampleStrokeDiagnosis"/>
+      <reference value="Encounter/ExampleStrokeEncounter"/>
     </entry>
-    <entry>
-      <reference value="Observation/ExampleDoorToNeedle"/>
-    </entry>
+    <section>
+      <title value="Vital Signs at Discharge"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="8716-3"/>
+          <display value="Vital signs note"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No discharge vital signs are represented in this minimal example.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+          <display value="Unavailable"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Anthropometric Measurements"/>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="248326004"/>
+          <display value="Anthropometric measure"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Anthropometric measurements were not collected in this registry case.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="notasked"/>
+          <display value="Not Asked"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Physical Examination at Discharge"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="29545-1"/>
+          <display value="Physical findings"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Physical examination findings were not collected in this registry case.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="notasked"/>
+          <display value="Not Asked"/>
+        </coding>
+      </emptyReason>
+    </section>
+    <section>
+      <title value="Functional Status at Discharge"/>
+      <code>
+        <coding>
+          <system value="http://loinc.org"/>
+          <code value="47420-5"/>
+          <display value="Functional status assessment note"/>
+        </coding>
+      </code>
+      <text>
+        <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No discharge functional status entries are represented in this minimal example.</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+          <display value="Unavailable"/>
+        </coding>
+      </emptyReason>
+    </section>
+  </section>
+  <section>
+    <title value="Medication Summary at Discharge"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="75311-1"/>
+        <display value="Discharge medications note"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No discharge medications are represented in this minimal example.</div>
+    </text>
+    <emptyReason>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+        <code value="unavailable"/>
+        <display value="Unavailable"/>
+      </coding>
+    </emptyReason>
+  </section>
+  <section>
+    <title value="Plan of Care and Follow-up"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="18776-5"/>
+        <display value="Plan of care note"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">No follow-up plan entries are represented in this minimal example.</div>
+    </text>
+    <emptyReason>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+        <code value="unavailable"/>
+        <display value="Unavailable"/>
+      </coding>
+    </emptyReason>
   </section>
 </Composition>
