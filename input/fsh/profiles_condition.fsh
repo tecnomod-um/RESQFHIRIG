@@ -15,7 +15,6 @@ Description: "Condition profile for the index stroke diagnosis. It captures stro
 * obeys ischemic-etiology-only-for-ischemic-stroke
 * obeys hemorrhagic-bleeding-reason-only-for-hemorrhagic-stroke
 * obeys wakeup-stroke-true-should-have-onset
-* obeys tia-should-have-evidence
 * obeys mimic-diagnosis-should-not-have-stroke-specific-extensions
 
 * category 1..* MS
@@ -39,7 +38,7 @@ Description: "Condition profile for the index stroke diagnosis. It captures stro
 * bodySite ^short = "Anatomical site of stroke involvement"
 
 * evidence 0..* MS
-* evidence ^short = "Diagnostic evidence supporting the stroke diagnosis"
+* evidence ^short = "Diagnostic evidence supporting the stroke diagnosis when available in the source system"
 
 * onset[x] 0..1 MS
 * onset[x] only dateTime
@@ -61,11 +60,6 @@ Invariant: hemorrhagic-bleeding-reason-only-for-hemorrhagic-stroke
 Description: "Hemorrhagic bleeding reason extension should only be present when the diagnosis code is hemorrhagic stroke or subarachnoid hemorrhage."
 Severity: #error
 Expression: "extension.where(url = 'http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and (code = '274100004' or code = '21454007')).exists()"
-
-Invariant: tia-should-have-evidence
-Description: "If the diagnosis is transient ischemic attack, diagnostic evidence should preferably reference the observed symptoms."
-Severity: #warning
-Expression: "code.coding.where(system = 'http://snomed.info/sct' and code = '266257000').exists().not() or evidence.exists()"
 
 Invariant: wakeup-stroke-true-should-have-onset
 Description: "If wake-up stroke is true, onsetDateTime should be populated with the last-known-well or sleep timestamp."
