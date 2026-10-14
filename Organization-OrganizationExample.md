@@ -6,13 +6,15 @@
 
 ## Example Organization: OrganizationExample
 
-Profile: [Stroke Registry Organization Profile](StructureDefinition-stroke-registry-organization-profile.md)
+Perfil: [Stroke Registry Organization Profile](StructureDefinition-stroke-registry-organization-profile.md)
 
-**identifier**: `https://stroke.qualityregistry.org`/organization-001
+Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001)
 
-**active**: true
+-------
 
-**name**: Example Healthcare Organization
+| | |
+| :--- | :--- |
+| Active: | true |
 
 
 

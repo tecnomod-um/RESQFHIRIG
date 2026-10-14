@@ -6,9 +6,9 @@
 
 ## Example Encounter: ExampleStrokeEncounter
 
-Profile: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
+Perfil: [Stroke Encounter Profile](StructureDefinition-stroke-encounter-profile.md)
 
-**First hospital for the stroke episode**: [Organization Example Healthcare Organization](Organization-OrganizationExample.md)
+**First hospital for the stroke episode**: [Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001)](Organization-OrganizationExample.md)
 
 **Required post-acute care**: false
 

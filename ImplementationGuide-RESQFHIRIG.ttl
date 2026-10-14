@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-09-23T10:52:57+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-10-14T14:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -35,7 +35,6 @@
      ] )
   ] ) ; # 
   fhir:packageId [ fhir:v "RESQFHIRIG"] ; # 
-  fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "5.0.0"] ) ; # 
   fhir:dependsOn ( [
      fhir:id [ fhir:v "hl7tx" ] ;
@@ -66,7 +65,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r5#1.1.2"
+         fhir:v "hl7.fhir.uv.tools.r5#1.3.0"
        ]
      ] ) ;
      fhir:resource ( [

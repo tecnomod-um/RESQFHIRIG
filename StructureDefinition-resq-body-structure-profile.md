@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/resq-body-structure-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:RESQBodyStructureProfile |
+| Active as of 2026-10-14 | *Computable Name*:RESQBodyStructureProfile |
 
  
 BodyStructure profile for anatomical structures relevant to stroke, such as occluded arteries, stenosis sites and laterality-specific findings. 
@@ -19,7 +19,7 @@ Allows observations and reports to reference a normalized anatomical site instea
 
 **Usages:**
 
-* Refer to this Profile: [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md)
+* Refer to this Perfil: [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-resq-body-structure-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
   "title" : "RESQ BodyStructure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

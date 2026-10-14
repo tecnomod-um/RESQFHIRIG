@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/analytics-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:AnaliticsObservationProfile |
+| Active as of 2026-10-14 | *Computable Name*:AnaliticsObservationProfile |
 
  
 Laboratory/analytics observation profile for glucose, cholesterol, INR and related findings. The id preserves the original spelling used in the Python profile URL. 
 
 **Usages:**
 
-* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-analitics-observation-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-analitics-observatio
   "title" : "Analytics Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

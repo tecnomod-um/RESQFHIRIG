@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
+| Active as of 2026-10-14 | *Computable Name*:RESQStrokeDischargeDocumentTypeVS |
 
  
 Allowed document type code for the RESQ Stroke Discharge Patient Summary Composition. 
@@ -51,7 +51,7 @@ Allowed document type code for the RESQ Stroke Discharge Patient Summary Composi
   "title" : "RESQ Stroke Discharge Document Type ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

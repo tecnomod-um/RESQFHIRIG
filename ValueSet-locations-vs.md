@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:LocationsVS |
+| Active as of 2026-10-14 | *Computable Name*:LocationsVS |
 
  
 Allowed coded values for Locations 
@@ -54,7 +54,7 @@ Allowed coded values for Locations
   "title" : "Locations ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

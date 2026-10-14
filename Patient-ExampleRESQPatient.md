@@ -6,7 +6,7 @@
 
 ## Example Patient: ExampleRESQPatient
 
-Profile: [RESQ Patient Profile](StructureDefinition-resq-patient-profile.md)
+Perfil: [RESQ Patient Profile](StructureDefinition-resq-patient-profile.md)
 
 Anonymous Patient (no stated gender), DoB Unknown ( patient-001)
 

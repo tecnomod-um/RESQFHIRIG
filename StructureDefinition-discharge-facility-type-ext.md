@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/discharge-facility-type-ext | *Version*:1.1.0 |
-| Draft as of 2026-09-23 | *Computable Name*:DischargeFacilityTypeExt |
+| Draft as of 2026-10-14 | *Computable Name*:DischargeFacilityTypeExt |
 
 Type of facility or transfer destination receiving the patient at discharge.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-facility-t
   "name" : "DischargeFacilityTypeExt",
   "title" : "Discharge facility type",
   "status" : "draft",
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

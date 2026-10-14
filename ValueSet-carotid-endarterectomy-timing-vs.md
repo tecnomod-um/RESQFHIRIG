@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/carotid-endarterectomy-timing-vs | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:CarotidEndarterectomyTimingVS |
+| Active as of 2026-10-14 | *Computable Name*:CarotidEndarterectomyTimingVS |
 
  
 Allowed coded values for CarotidEndarterectomyTiming 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "CarotidEndarterectomyTiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

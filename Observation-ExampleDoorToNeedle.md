@@ -6,7 +6,7 @@
 
 ## Example Observation: ExampleDoorToNeedle
 
-Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md)
+Perfil: [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md)
 
 **status**: Final
 
@@ -14,7 +14,7 @@ Profile: [Timing Metric Observation Profile](StructureDefinition-timing-metric-o
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown ( patient-001)](Patient-ExampleRESQPatient.md)
 
-**encounter**: [Encounter: extension = ->Organization Example Healthcare Organization,false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
+**encounter**: [Encounter: extension = ->Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001),false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
 
 **value**: 38 minute (Details: ucum codemin = 'min')
 

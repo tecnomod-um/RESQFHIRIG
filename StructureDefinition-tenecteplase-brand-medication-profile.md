@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/tenecteplase-brand-medication-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:TenecteplaseBrandMedicationProfile |
+| Active as of 2026-10-14 | *Computable Name*:TenecteplaseBrandMedicationProfile |
 
  
 Medication profile for tenecteplase with a specific brand name, used in the RES-Q registry to capture the use of tenecteplase in stroke treatment. 
@@ -19,7 +19,7 @@ Represents tenecteplase medications with specific brand names to capture detaile
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* This Perfil is not used by any profiles in this Specification
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-tenecteplase-brand-medication-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-tenecteplase-brand-m
   "title" : "Tenecteplase Brand Medication Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

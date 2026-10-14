@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/hospitalized-in-vs | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:HospitalizedInVS |
+| Active as of 2026-10-14 | *Computable Name*:HospitalizedInVS |
 
  
 Allowed coded values for HospitalizedIn 
@@ -51,7 +51,7 @@ Allowed coded values for HospitalizedIn
   "title" : "HospitalizedIn ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

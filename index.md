@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.1.0 |
-| Draft as of 2026-09-23 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-10-14 | *Computable Name*:RESQStrokeIG |
 
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
@@ -85,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -102,7 +102,6 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     }]
   }],
   "packageId" : "RESQFHIRIG",
-  "license" : "CC0-1.0",
   "fhirVersion" : ["5.0.0"],
   "dependsOn" : [{
     "id" : "hl7tx",
@@ -123,7 +122,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "definition" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r5#1.1.2"
+      "valueCode" : "hl7.fhir.uv.tools.r5#1.3.0"
     }],
     "resource" : [{
       "extension" : [{

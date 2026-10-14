@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-medication-administration-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:StrokeMedicationAdministrationProfile |
+| Active as of 2026-10-14 | *Computable Name*:StrokeMedicationAdministrationProfile |
 
  
 Generic MedicationAdministration profile for acute stroke treatment medications, including thrombolysis, anticoagulant reversal, IV antihypertensives and other administrations. 
@@ -19,8 +19,8 @@ Records medication administrations that are part of the acute or post-acute stro
 
 **Usages:**
 
-* Derived from this Profile: [Anticoagulant Reversal MedicationAdministration Profile](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md), [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medication-administration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
-* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* Derived from this Perfil: [Anticoagulant Reversal MedicationAdministration Profile](StructureDefinition-anticoagulant-reversal-medication-administration-profile.md), [Insulin on Hyperglycemia MedicationAdministration Profile](StructureDefinition-insulin-on-hyperglycemia-medication-administration-profile.md), [Nimodipine MedicationAdministration Profile](StructureDefinition-nimodipine-medication-administration-profile.md) and [Paracetamol on Fever MedicationAdministration Profile](StructureDefinition-paracetamol-on-fever-medication-administration-profile.md)
+* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-medication-administration-profile.json)
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-medication-ad
   "title" : "Stroke MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

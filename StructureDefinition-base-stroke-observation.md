@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/base-stroke-observation | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:BaseStrokeObservation |
+| Active as of 2026-10-14 | *Computable Name*:BaseStrokeObservation |
 
  
 Base profile for RES-Q stroke observations. It requires final status, patient, encounter and observation code so derived profiles share a consistent registry context. 
@@ -19,7 +19,7 @@ Provides a common observation scaffold for stroke scores, process metrics, labor
 
 **Usages:**
 
-* Derived from this Profile: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md)... Show 11 more, [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md), [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md), [Systolic Blood Pressure Highest Value Observation Profile](StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.md), [Hyperglycemia Observation Profile](StructureDefinition-hyperglycemia-observation-profile.md), [No Anticoagulant Discharge Reason Observation Profile](StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.md), [Patient Ventilated Observation Profile](StructureDefinition-patient-ventilated-observation-profile.md), [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md), [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md), [TIA Clinical Symptoms Observation Profile](StructureDefinition-tia-clinical-symptoms-observation-profile.md), [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
+* Derived from this Perfil: [Analytics Observation Profile](StructureDefinition-analitics-observation-profile.md), [Appointment Management Observation Profile](StructureDefinition-appointment-management-observation-profile.md), [Fever Observation Profile](StructureDefinition-fever-observation-profile.md), [Functional Score Observation Profile](StructureDefinition-functional-score-observation-profile.md)... Show 11 more, [Glucose >= 10 Observation Profile](StructureDefinition-glucose-ge10-observation-profile.md), [Highest Hyperglycemia Value Observation Profile](StructureDefinition-highest-hyperglycemia-value-observation-profile.md), [Systolic Blood Pressure Highest Value Observation Profile](StructureDefinition-highest-systolic-blood-pressure-value-observation-profile.md), [Hyperglycemia Observation Profile](StructureDefinition-hyperglycemia-observation-profile.md), [No Anticoagulant Discharge Reason Observation Profile](StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.md), [Patient Ventilated Observation Profile](StructureDefinition-patient-ventilated-observation-profile.md), [Specific Finding Observation Profile](StructureDefinition-specific-finding-observation-profile.md), [Three-Month Contact Mode Observation Profile](StructureDefinition-three-month-contact-mode-observation-profile.md), [TIA Clinical Symptoms Observation Profile](StructureDefinition-tia-clinical-symptoms-observation-profile.md), [Timing Metric Observation Profile](StructureDefinition-timing-metric-observation-profile.md) and [Vital Sign Observation Profile](StructureDefinition-vital-sign-observation-profile.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-base-stroke-observation.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-base-stroke-observat
   "title" : "Base Stroke Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

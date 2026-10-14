@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| Active as of 2026-10-14 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -19,8 +19,8 @@ Represents the principal clinical diagnosis around which the registry episode is
 
 **Usages:**
 
-* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) and [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md)
-* Examples for this Profile: [Condition/ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md)
+* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) and [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md)
+* Examples for this Perfil: [Condition/ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-diagnosis-condition-profile.json)
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -118,13 +118,6 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "severity" : "warning",
         "human" : "If wake-up stroke is true, onsetDateTime should be populated with the last-known-well or sleep timestamp.",
         "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext').value.ofType(boolean) != true or onset.exists()",
-        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
-      },
-      {
-        "key" : "tia-should-have-evidence",
-        "severity" : "warning",
-        "human" : "If the diagnosis is transient ischemic attack, diagnostic evidence should preferably reference the observed symptoms.",
-        "expression" : "code.coding.where(system = 'http://snomed.info/sct' and code = '266257000').exists().not() or evidence.exists()",
         "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
@@ -278,7 +271,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
     {
       "id" : "Condition.evidence",
       "path" : "Condition.evidence",
-      "short" : "Diagnostic evidence supporting the stroke diagnosis",
+      "short" : "Diagnostic evidence supporting the stroke diagnosis when available in the source system",
       "mustSupport" : true
     }]
   }

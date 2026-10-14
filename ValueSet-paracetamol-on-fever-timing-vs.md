@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/paracetamol-on-fever-timing-vs | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:ParacetamolOnFeverTimingVS |
+| Active as of 2026-10-14 | *Computable Name*:ParacetamolOnFeverTimingVS |
 
  
 Allowed coded values for ParacetamolOnFeverTiming 
@@ -51,7 +51,7 @@ Allowed coded values for ParacetamolOnFeverTiming
   "title" : "ParacetamolOnFeverTiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

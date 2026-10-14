@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/prior-medication-statement-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:PriorMedicationStatementProfile |
+| Active as of 2026-10-14 | *Computable Name*:PriorMedicationStatementProfile |
 
  
 MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry. 
@@ -19,7 +19,7 @@ Represents relevant pre-stroke medications and adherence as patient-reported or 
 
 **Usages:**
 
-* Refer to this Profile: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-prior-medication-statement-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
   "title" : "Prior MedicationStatement Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

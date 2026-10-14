@@ -6,7 +6,7 @@
 
 ## Example Condition: ExampleStrokeDiagnosis
 
-Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
+Perfil: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnosis-condition-profile.md)
 
 **Wake-up stroke**: false
 
@@ -20,7 +20,7 @@ Profile: [Stroke Diagnosis Condition Profile](StructureDefinition-stroke-diagnos
 
 **subject**: [Anonymous Patient (no stated gender), DoB Unknown ( patient-001)](Patient-ExampleRESQPatient.md)
 
-**encounter**: [Encounter: extension = ->Organization Example Healthcare Organization,false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
+**encounter**: [Encounter: extension = ->Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001),false,true; status = completed](Encounter-ExampleStrokeEncounter.md)
 
 
 

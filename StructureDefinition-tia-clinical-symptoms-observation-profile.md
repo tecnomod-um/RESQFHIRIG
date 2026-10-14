@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/tia-clinical-symptoms-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-09-23 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
+| Active as of 2026-10-14 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
 
  
 Observation profile for TIA clinical symptoms and their recorded values. 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* This Perfil is not used by any profiles in this Specification
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-tia-clinical-symptoms-observation-profile.json)
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-tia-clinical-symptom
   "title" : "TIA Clinical Symptoms Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-23T10:52:57+00:00",
+  "date" : "2026-10-14T14:44:50+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
