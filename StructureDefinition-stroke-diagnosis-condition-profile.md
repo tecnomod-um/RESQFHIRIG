@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:StrokeDiagnosisConditionProfile |
+| Active as of 2026-10-15 | *Computable Name*:StrokeDiagnosisConditionProfile |
 
  
 Condition profile for the index stroke diagnosis. It captures stroke type, onset timing, body site, diagnostic evidence and stroke-specific classification extensions such as ischemic etiology, hemorrhagic bleeding reason and wake-up stroke status. 
@@ -19,7 +19,7 @@ Represents the principal clinical diagnosis around which the registry episode is
 
 **Usages:**
 
-* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md) and [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md)
+* Refer to this Perfil: [Stroke Reperfusion Procedure Profile](StructureDefinition-stroke-mechanical-procedure-profile.md)
 * Examples for this Perfil: [Condition/ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-diagnosis-condition-profile.json)
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
   "title" : "Stroke Diagnosis Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -111,13 +111,6 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
         "severity" : "error",
         "human" : "Hemorrhagic bleeding reason extension should only be present when the diagnosis code is hemorrhagic stroke or subarachnoid hemorrhage.",
         "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/hemorrhagic-stroke-bleeding-reason-ext').exists().not() or code.coding.where(system = 'http://snomed.info/sct' and (code = '274100004' or code = '21454007')).exists()",
-        "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
-      },
-      {
-        "key" : "wakeup-stroke-true-should-have-onset",
-        "severity" : "warning",
-        "human" : "If wake-up stroke is true, onsetDateTime should be populated with the last-known-well or sleep timestamp.",
-        "expression" : "extension.where(url = 'http://qualityregistry.org/StructureDefinition/wakeup-stroke-ext').value.ofType(boolean) != true or onset.exists()",
         "source" : "http://qualityregistry.org/StructureDefinition/stroke-diagnosis-condition-profile"
       },
       {
@@ -262,7 +255,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-diagnosis-con
     {
       "id" : "Condition.onset[x]",
       "path" : "Condition.onset[x]",
-      "short" : "Stroke onset or last-known-well date/time",
+      "short" : "Stroke onset or last-known-well date/time when available in the source system",
       "type" : [{
         "code" : "dateTime"
       }],

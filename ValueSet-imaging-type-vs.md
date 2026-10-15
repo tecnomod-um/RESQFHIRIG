@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/imaging-type-vs | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:ImagingTypeVS |
+| Active as of 2026-10-15 | *Computable Name*:ImagingTypeVS |
 
  
 Allowed coded values for ImagingType 
@@ -53,7 +53,7 @@ Allowed coded values for ImagingType
   "title" : "ImagingType ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

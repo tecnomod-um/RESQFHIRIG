@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
+| Active as of 2026-10-15 | *Computable Name*:RESQStrokeDischargeSectionCodeVS |
 
  
 Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition. 
@@ -51,7 +51,7 @@ Allowed section codes for the RESQ Stroke Discharge Patient Summary Composition.
   "title" : "RESQ Stroke Discharge Section Code ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

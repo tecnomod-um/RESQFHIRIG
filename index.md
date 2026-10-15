@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.1.0 |
-| Draft as of 2026-10-14 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-10-15 | *Computable Name*:RESQStrokeIG |
 
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
@@ -85,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

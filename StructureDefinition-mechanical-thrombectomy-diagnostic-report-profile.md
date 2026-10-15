@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/mechanical-thrombectomy-diagnostic-report-profile | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
+| Active as of 2026-10-15 | *Computable Name*:MechanicalThrombectomyDiagnosticReportProfile |
 
  
 DiagnosticReport profile for thrombectomy outcome, especially mTICI reperfusion results. 
@@ -19,7 +19,7 @@ Collects procedure outcome observations after mechanical thrombectomy.
 
 **Usages:**
 
-* Refer to this Perfil: [RESQ Stroke Discharge Patient Summary Composition](StructureDefinition-resq-stroke-discharge-composition.md)
+* This Perfil is not used by any profiles in this Specification
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-mechanical-thrombect
   "title" : "Mechanical Thrombectomy DiagnosticReport Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

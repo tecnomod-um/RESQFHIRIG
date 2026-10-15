@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-registry-organization-profile | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:StrokeRegistryOrganizationProfile |
+| Active as of 2026-10-15 | *Computable Name*:StrokeRegistryOrganizationProfile |
 
  
 Organization profile for hospitals or registry participants contributing RES-Q stroke data. The profile requires an active organization, a display name and a registry-scoped identifier. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-registry-orga
   "title" : "Stroke Registry Organization Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs | *Version*:1.1.0 |
-| Active as of 2026-10-14 | *Computable Name*:StrokeArrivalModeCS |
+| Active as of 2026-10-15 | *Computable Name*:StrokeArrivalModeCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/stroke-arrival-mode-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "StrokeArrivalModeCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T14:44:50+00:00",
+  "date" : "2026-10-15T10:29:33+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
