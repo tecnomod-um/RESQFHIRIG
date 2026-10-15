@@ -141,7 +141,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[admissionEvaluation].title = "Admission Evaluation"
 * section[admissionEvaluation].code = LOINC#67851-6 "Admission evaluation note"
-* section[admissionEvaluation].entry only Reference(StrokeDiagnosisConditionProfile or StrokeRiskFactorConditionProfile or FunctionalScoreObservationProfile or VitalSignObservationProfile or TimingMetricObservationProfile or RESQLocationProfile or HospitalizedLocationProfile)
+* section[admissionEvaluation].entry only Reference(Condition or Observation or Location)
 * section[admissionEvaluation] ^short = "Optional initial clinical status, location and assessment at admission"
 * section[admissionEvaluation] ^mapping[0].identity = "EHDSDischargeReport"
 * section[admissionEvaluation] ^mapping[0].map = "body.admissionEvaluation"
@@ -153,7 +153,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[patientHistory].title = "Relevant Patient History"
 * section[patientHistory].code = LOINC#11329-0 "History of general health narrative"
-* section[patientHistory].entry only Reference(PriorMedicationStatementProfile or StrokeRiskFactorConditionProfile or StrokeDiagnosisConditionProfile or PostStrokeComplicationConditionProfile)
+* section[patientHistory].entry only Reference(Condition or MedicationStatement)
 * section[patientHistory] ^short = "Optional relevant pre-stroke history, prior medication use and former RES-Q problem list content"
 * section[patientHistory] ^mapping[0].identity = "EHDSDischargeReport"
 * section[patientHistory] ^mapping[0].map = "body.patientHistory"
@@ -183,21 +183,21 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[hospitalCourse].section[diagnosticSummary].title = "Diagnostic Summary"
 * section[hospitalCourse].section[diagnosticSummary].code = LOINC#11535-2 "Hospital discharge diagnosis note"
-* section[hospitalCourse].section[diagnosticSummary].entry only Reference(StrokeDiagnosisConditionProfile or StrokeRiskFactorConditionProfile or PostStrokeComplicationConditionProfile or SpecificFindingObservationProfile or StrokeImagingDiagnosticReportProfile or MechanicalThrombectomyDiagnosticReportProfile)
+* section[hospitalCourse].section[diagnosticSummary].entry only Reference(Condition or Observation DiagnosticReport)
 * section[hospitalCourse].section[diagnosticSummary] ^short = "Required final diagnosis and supporting diagnostic findings"
 * section[hospitalCourse].section[diagnosticSummary] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[diagnosticSummary] ^mapping[0].map = "body.courseOfEncounter.diagnosticSummary"
 
 * section[hospitalCourse].section[significantProcedures].title = "Significant Procedures"
 * section[hospitalCourse].section[significantProcedures].code = LOINC#10185-7 "Hospital discharge procedure note"
-* section[hospitalCourse].section[significantProcedures].entry only Reference(StrokeImagingProcedureProfile or StrokeCarotidImagingProcedureProfile or StrokeCarotidEndarterectomyProcedureProfile or StrokeMechanicalProcedureProfile or StrokeSwallowProcedureProfile or StrokeVTEProcedureProfile or StrokeTreatmentProcedureProfile)
+* section[hospitalCourse].section[significantProcedures].entry only Reference(Procedure)
 * section[hospitalCourse].section[significantProcedures] ^short = "Required clinically significant procedures performed or considered"
 * section[hospitalCourse].section[significantProcedures] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[significantProcedures] ^mapping[0].map = "body.courseOfEncounter.procedures"
 
 * section[hospitalCourse].section[treatmentTimings].title = "Treatment Timings"
 * section[hospitalCourse].section[treatmentTimings].code = StrokeDischargeSummarySectionCS#treatment-timings "Treatment Timings"
-* section[hospitalCourse].section[treatmentTimings].entry only Reference(TimingMetricObservationProfile)
+* section[hospitalCourse].section[treatmentTimings].entry only Reference(Observation)
 * section[hospitalCourse].section[treatmentTimings] ^short = "Optional stroke-specific RES-Q timing metrics D2N, D2G and D2D"
 * section[hospitalCourse].section[treatmentTimings] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[treatmentTimings] ^mapping[0].map = "body.courseOfEncounter"
@@ -211,14 +211,14 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[hospitalCourse].section[pharmacotherapy].title = "Pharmacotherapy During Encounter"
 * section[hospitalCourse].section[pharmacotherapy].code = LOINC#87232-5 "Medication administration brief"
-* section[hospitalCourse].section[pharmacotherapy].entry only Reference(StrokeMedicationAdministrationProfile or ParacetamolOnFeverMedicationAdministrationProfile or InsulinOnHyperglycemiaMedicationAdministrationProfile or NimodipineMedicationAdministrationProfile or AnticoagulantReversalMedicationAdministrationProfile)
+* section[hospitalCourse].section[pharmacotherapy].entry only Reference(MedicationAdministration)
 * section[hospitalCourse].section[pharmacotherapy] ^short = "Optional medication administrations during acute or post-acute stroke care"
 * section[hospitalCourse].section[pharmacotherapy] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[pharmacotherapy] ^mapping[0].map = "body.courseOfEncounter.pharmacotherapy"
 
 * section[hospitalCourse].section[significantResults].title = "Significant Test Results"
 * section[hospitalCourse].section[significantResults].code = LOINC#30954-2 "Relevant diagnostic tests and laboratory data note"
-* section[hospitalCourse].section[significantResults].entry only Reference(SpecificFindingObservationProfile or AnaliticsObservationProfile or FeverObservationProfile or HyperglycemiaObservationProfile or GlucoseGE10ObservationProfile or HighestHyperglycemiaValueObservationProfile or SystolicBloodPressureHighestValueObservationProfile or StrokeImagingDiagnosticReportProfile or MechanicalThrombectomyDiagnosticReportProfile)
+* section[hospitalCourse].section[significantResults].entry only Reference(Observation or DiagnosticReport)
 * section[hospitalCourse].section[significantResults] ^short = "Required relevant diagnostic, imaging and laboratory results"
 * section[hospitalCourse].section[significantResults] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[significantResults] ^mapping[0].map = "body.courseOfEncounter.testResults[x]"
@@ -248,7 +248,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[dischargeDetails].section[vitalSigns].title = "Vital Signs at Discharge"
 * section[dischargeDetails].section[vitalSigns].code = LOINC#8716-3 "Vital signs note"
-* section[dischargeDetails].section[vitalSigns].entry only Reference(VitalSignObservationProfile or SystolicBloodPressureHighestValueObservationProfile)
+* section[dischargeDetails].section[vitalSigns].entry only Reference(Observation)
 * section[dischargeDetails].section[vitalSigns] ^short = "Required vital signs relevant to discharge status"
 * section[dischargeDetails].section[vitalSigns] ^mapping[0].identity = "EHDSDischargeReport"
 * section[dischargeDetails].section[vitalSigns] ^mapping[0].map = "body.dischargeDetails.objectiveFindings"
@@ -269,7 +269,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[dischargeDetails].section[functionalStatus].title = "Functional Status at Discharge"
 * section[dischargeDetails].section[functionalStatus].code = LOINC#47420-5 "Functional status assessment note"
-* section[dischargeDetails].section[functionalStatus].entry only Reference(FunctionalScoreObservationProfile or GlasgowComaScoreObservationProfile or GlasgowComaScaleObservationProfile or PatientVentilatedObservationProfile or QuestionnaireResponse)
+* section[dischargeDetails].section[functionalStatus].entry only Reference(Observation or QuestionnaireResponse)
 * section[dischargeDetails].section[functionalStatus] ^short = "Required functional and neurological status at discharge"
 * section[dischargeDetails].section[functionalStatus] ^mapping[0].identity = "EHDSDischargeReport"
 * section[dischargeDetails].section[functionalStatus] ^mapping[0].map = "body.dischargeDetails.functionalStatus[x]"
@@ -281,7 +281,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[medicationSummary].title = "Medication Summary at Discharge"
 * section[medicationSummary].code = LOINC#75311-1 "Discharge medications note"
-* section[medicationSummary].entry only Reference(DischargeMedicationRequestProfile or NoAnticoagulantDischargeReasonObservationProfile)
+* section[medicationSummary].entry only Reference(MedicationRequest or Observation)
 * section[medicationSummary] ^short = "Required medication orders or omission reasons at discharge"
 * section[medicationSummary] ^mapping[0].identity = "EHDSDischargeReport"
 * section[medicationSummary] ^mapping[0].map = "body.medicationSummary"
@@ -293,7 +293,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[planOfCare].title = "Plan of Care and Follow-up"
 * section[planOfCare].code = LOINC#18776-5 "Plan of care note"
-* section[planOfCare].entry only Reference(FollowUpAppointmentProfile or ThreeMonthCommunicationProfile or AppointmentManagementObservationProfile or ThreeMonthContactModeObservationProfile or StrokeTreatmentProcedureProfile or CarePlan or ServiceRequest)
+* section[planOfCare].entry only Reference(Appointment or Communication or Observation or Procedure or CarePlan or ServiceRequest)
 * section[planOfCare] ^short = "Required follow-up plan, scheduled contact and continuing care recommendations"
 * section[planOfCare] ^mapping[0].identity = "EHDSDischargeReport"
 * section[planOfCare] ^mapping[0].map = "body.carePlan"

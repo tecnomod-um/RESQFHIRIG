@@ -14,7 +14,7 @@ Description: "Condition profile for the index stroke diagnosis. It captures stro
 * insert RESQEncounterContext
 * obeys ischemic-etiology-only-for-ischemic-stroke
 * obeys hemorrhagic-bleeding-reason-only-for-hemorrhagic-stroke
-* obeys wakeup-stroke-true-should-have-onset
+// * obeys wakeup-stroke-true-should-have-onset
 * obeys mimic-diagnosis-should-not-have-stroke-specific-extensions
 
 * category 1..* MS
@@ -42,7 +42,7 @@ Description: "Condition profile for the index stroke diagnosis. It captures stro
 
 * onset[x] 0..1 MS
 * onset[x] only dateTime
-* onset[x] ^short = "Stroke onset or last-known-well date/time"
+* onset[x] ^short = "Stroke onset or last-known-well date/time when available in the source system"
 
 * extension contains IschemicStrokeEtiologyExt named ischemicStrokeEtiology 0..1 MS
   and HemorrhagicStrokeBleedingReasonExt named hemorrhagicStrokeBleedingReason 0..* MS
