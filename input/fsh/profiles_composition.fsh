@@ -183,7 +183,7 @@ Description: "Composition profile for the RESQ Stroke Discharge Patient Summary 
 
 * section[hospitalCourse].section[diagnosticSummary].title = "Diagnostic Summary"
 * section[hospitalCourse].section[diagnosticSummary].code = LOINC#11535-2 "Hospital discharge diagnosis note"
-* section[hospitalCourse].section[diagnosticSummary].entry only Reference(Condition or Observation DiagnosticReport)
+* section[hospitalCourse].section[diagnosticSummary].entry only Reference(Condition or Observation or DiagnosticReport)
 * section[hospitalCourse].section[diagnosticSummary] ^short = "Required final diagnosis and supporting diagnostic findings"
 * section[hospitalCourse].section[diagnosticSummary] ^mapping[0].identity = "EHDSDischargeReport"
 * section[hospitalCourse].section[diagnosticSummary] ^mapping[0].map = "body.courseOfEncounter.diagnosticSummary"
