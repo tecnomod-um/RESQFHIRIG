@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/stroke-etiology-other-vs | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:StrokeEtiologyOtherVS |
+| Active as of 2026-10-19 | *Computable Name*:StrokeEtiologyOtherVS |
 
  
 Allowed coded values for StrokeEtiologyOther 
@@ -51,7 +51,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "StrokeEtiologyOther ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

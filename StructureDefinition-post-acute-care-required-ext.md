@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/post-acute-care-required-ext | *Version*:1.1.0 |
-| Draft as of 2026-10-15 | *Computable Name*:PostAcuteCareRequiredExt |
+| Draft as of 2026-10-19 | *Computable Name*:PostAcuteCareRequiredExt |
 
 Boolean indicator used by Procedure builders to mark post-acute-care relevance. Semantically equivalent to required-post-acute-care-ext but kept because both URLs exist in the codebase.
 
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-post-acute-care-requ
   "name" : "PostAcuteCareRequiredExt",
   "title" : "Post-acute care required",
   "status" : "draft",
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

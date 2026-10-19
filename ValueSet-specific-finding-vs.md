@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/specific-finding-vs | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:SpecificFindingVS |
+| Active as of 2026-10-19 | *Computable Name*:SpecificFindingVS |
 
  
 Allowed coded values for specific stroke-related findings. 
@@ -52,7 +52,7 @@ Allowed coded values for specific stroke-related findings.
   "title" : "SpecificFinding ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

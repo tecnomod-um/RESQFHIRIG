@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/tia-clinical-symptoms-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
+| Active as of 2026-10-19 | *Computable Name*:TIAClinicalSymptomsObservationProfile |
 
  
 Observation profile for TIA clinical symptoms and their recorded values. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-tia-clinical-symptom
   "title" : "TIA Clinical Symptoms Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

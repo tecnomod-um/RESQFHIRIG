@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/specific-finding-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:SpecificFindingObservationProfile |
+| Active as of 2026-10-19 | *Computable Name*:SpecificFindingObservationProfile |
 
  
 Observation profile for specific stroke-related clinical, imaging and procedural findings including mTICI, bleeding volume, carotid stenosis, artery occlusion, atrial fibrillation/flutter and post-treatment findings. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-specific-finding-obs
   "title" : "Specific Finding Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/ems-prenotification-ext | *Version*:1.1.0 |
-| Draft as of 2026-10-15 | *Computable Name*:EmsPrenotificationExt |
+| Draft as of 2026-10-19 | *Computable Name*:EmsPrenotificationExt |
 
 Indicates whether emergency medical services prenotified the receiving hospital before arrival.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-ems-prenotification-
   "name" : "EmsPrenotificationExt",
   "title" : "EMS prenotification",
   "status" : "draft",
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

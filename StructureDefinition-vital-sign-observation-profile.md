@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/vital-sign-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:VitalSignObservationProfile |
+| Active as of 2026-10-19 | *Computable Name*:VitalSignObservationProfile |
 
  
 Observation profile for vital signs in the acute stroke pathway, especially blood pressure components. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-vital-sign-observati
   "title" : "Vital Sign Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

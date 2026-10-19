@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/discharge-medication-vs | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:DischargeMedicationVS |
+| Active as of 2026-10-19 | *Computable Name*:DischargeMedicationVS |
 
  
 Allowed coded values for medications prescribed or recommended at discharge. 
@@ -51,7 +51,7 @@ Allowed coded values for medications prescribed or recommended at discharge.
   "title" : "DischargeMedication ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

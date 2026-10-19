@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/resq-location-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:RESQLocationProfile |
+| Active as of 2026-10-19 | *Computable Name*:RESQLocationProfile |
 
  
 Generic coded location profile used by registry builders when the important information is the type of location or service rather than a fully described physical site. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-location-profil
   "title" : "RESQ Location Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/functional-score-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:FunctionalScoreObservationProfile |
+| Active as of 2026-10-19 | *Computable Name*:FunctionalScoreObservationProfile |
 
  
 Observation profile for functional or severity scores such as mRS, NIHSS, ASPECTS, Hunt-Hess, ABCD2, CHA2DS2-VASc and THRIVE. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-functional-score-obs
   "title" : "Functional Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

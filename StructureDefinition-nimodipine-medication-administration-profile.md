@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/nimodipine-medication-administration-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:NimodipineMedicationAdministrationProfile |
+| Active as of 2026-10-19 | *Computable Name*:NimodipineMedicationAdministrationProfile |
 
  
 MedicationAdministration profile for nimodipine in the subarachnoid hemorrhage pathway. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-nimodipine-medicatio
   "title" : "Nimodipine MedicationAdministration Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

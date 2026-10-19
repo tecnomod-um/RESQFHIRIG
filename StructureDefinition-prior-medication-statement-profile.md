@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/prior-medication-statement-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:PriorMedicationStatementProfile |
+| Active as of 2026-10-19 | *Computable Name*:PriorMedicationStatementProfile |
 
  
 MedicationStatement profile for medication taken before stroke onset, including adherence state when captured by the registry. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-prior-medication-sta
   "title" : "Prior MedicationStatement Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

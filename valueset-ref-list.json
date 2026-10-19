@@ -103,9 +103,9 @@
     "uses" : {
     },
     "StructureDefinition-analitics-observation-profile.html" : "Analytics Observation Profile",
+    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile",
     "StructureDefinition-fever-observation-profile.html" : "Fever Observation Profile",
-    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile",
-    "StructureDefinition-glucose-ge10-observation-profile.html" : "Glucose >= 10 Observation Profile"
+    "StructureDefinition-hyperglycemia-observation-profile.html" : "Hyperglycemia Observation Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/anticoagulant-reversal-vs",
@@ -131,8 +131,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context",
-    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context"
+    "StructureDefinition-observation-timing-context-ext.html" : "Observation timing context",
+    "StructureDefinition-procedure-timing-context-ext.html" : "Procedure timing context"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/atrial-fibrillation-or-flutter-vs",
@@ -169,8 +169,8 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile",
-    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile"
+    "StructureDefinition-resq-body-structure-profile.html" : "RESQ BodyStructure Profile",
+    "StructureDefinition-stroke-diagnosis-condition-profile.html" : "Stroke Diagnosis Condition Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/bool-vs",
@@ -341,9 +341,9 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile",
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
+    "StructureDefinition-stroke-imaging-diagnostic-report-profile.html" : "Stroke Imaging DiagnosticReport Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/in-hospital-vs",
@@ -433,8 +433,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile",
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
+    "StructureDefinition-prior-medication-statement-profile.html" : "Prior MedicationStatement Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/mimics-diagnosis-vs",
@@ -494,8 +494,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile",
-    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile"
+    "StructureDefinition-no-anticoagulant-discharge-reason-observation-profile.html" : "No Anticoagulant Discharge Reason Observation Profile",
+    "StructureDefinition-stroke-medication-administration-profile.html" : "Stroke MedicationAdministration Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/occupational-therapy-vs",
@@ -539,9 +539,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
+    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
     "StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.html" : "Mechanical Thrombectomy DiagnosticReport Profile",
-    "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile"
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/post-acute-care-vs",
@@ -609,12 +609,12 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
-    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile",
     "StructureDefinition-stroke-swallow-procedure-profile.html" : "Stroke Swallowing Screening Procedure Profile",
+    "StructureDefinition-stroke-treatment-procedure-profile.html" : "Stroke Treatment Procedure Profile",
     "StructureDefinition-stroke-carotid-endarterectomy-procedure-profile.html" : "Stroke Carotid Endarterectomy Procedure Profile",
+    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile",
     "StructureDefinition-stroke-carotid-imaging-procedure-profile.html" : "Stroke Carotid Imaging Procedure Profile",
-    "StructureDefinition-stroke-imaging-procedure-profile.html" : "Stroke Imaging Procedure Profile"
+    "StructureDefinition-stroke-mechanical-procedure-profile.html" : "Stroke Reperfusion Procedure Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/procedure-timing-context-vs",
@@ -858,8 +858,8 @@
     "http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile",
-    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile"
+    "StructureDefinition-three-month-contact-mode-observation-profile.html" : "Three-Month Contact Mode Observation Profile",
+    "StructureDefinition-three-month-communication-profile.html" : "Three-Month Contact Communication Profile"
   },
   {
     "url" : "http://qualityregistry.org/ValueSet/thrombectomy-complications-vs",
@@ -955,8 +955,8 @@
     "sources" : ["2.16.840.1.113883.1.11.17660"],
     "uses" : {
     },
-    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile",
-    "StructureDefinition-follow-up-appointment-profile.html" : "Three-Month Follow-up Appointment Profile"
+    "StructureDefinition-follow-up-appointment-profile.html" : "Three-Month Follow-up Appointment Profile",
+    "StructureDefinition-resq-location-profile.html" : "RESQ Location Profile"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",

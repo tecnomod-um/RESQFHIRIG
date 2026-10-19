@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/three-month-communication-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:ThreeMonthCommunicationProfile |
+| Active as of 2026-10-19 | *Computable Name*:ThreeMonthCommunicationProfile |
 
  
 Communication profile for recording contact with the patient or caregiver at approximately three months after stroke. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-three-month-communic
   "title" : "Three-Month Contact Communication Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

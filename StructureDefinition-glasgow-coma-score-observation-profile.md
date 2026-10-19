@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/glasgow-coma-score-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-15 | *Computable Name*:GlasgowComaScoreObservationProfile |
+| Active as of 2026-10-19 | *Computable Name*:GlasgowComaScoreObservationProfile |
 
  
 Specialized functional score profile for Glasgow Coma Score values captured by the registry. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-glasgow-coma-score-o
   "title" : "Glasgow Coma Score Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-15T10:29:33+00:00",
+  "date" : "2026-10-19T07:01:38+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
