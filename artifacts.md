@@ -222,12 +222,14 @@ These define new code systems used by systems conforming to this implementation 
 
 These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
 
-| |
-| :--- |
-| [ExampleDoorToNeedle](Observation-ExampleDoorToNeedle.md) |
-| [ExampleRESQPatient](Patient-ExampleRESQPatient.md) |
-| [ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md) |
-| [ExampleStrokeEncounter](Encounter-ExampleStrokeEncounter.md) |
-| [OrganizationExample](Organization-OrganizationExample.md) |
-| [Stroke Hospital Discharge Summary](Composition-ExampleRESQStrokeDischargeComposition.md) |
+| | |
+| :--- | :--- |
+| [ExampleDoorToNeedle](Observation-ExampleDoorToNeedle.md) |  |
+| [ExampleRESQPatient](Patient-ExampleRESQPatient.md) |  |
+| [ExampleStrokeDiagnosis](Condition-ExampleStrokeDiagnosis.md) |  |
+| [ExampleStrokeEncounter](Encounter-ExampleStrokeEncounter.md) |  |
+| [No smoking reported within the last 10 years](Condition-ExampleSmokingLast10YearsFalse.md) | RISK_SMOKER_LAST_10_YEARS = false: no smoking during the 10 years before the index stroke episode, represented by the same risk factor code with inactive clinicalStatus. This does not classify lifetime smoking status. |
+| [OrganizationExample](Organization-OrganizationExample.md) |  |
+| [Smoking reported within the last 10 years](Condition-ExampleSmokingLast10YearsTrue.md) | RISK_SMOKER_LAST_10_YEARS = true: the patient smoked at some time during the 10 years before the index stroke episode. This does not specify current or former smoking status. |
+| [Stroke Hospital Discharge Summary](Composition-ExampleRESQStrokeDischargeComposition.md) |  |
 

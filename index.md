@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.1.0 |
-| Draft as of 2026-10-19 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-10-28 | *Computable Name*:RESQStrokeIG |
 
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
@@ -85,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -111,7 +111,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r5",
-    "version" : "7.4.0"
+    "version" : "7.5.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r5",
@@ -1487,6 +1487,23 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Condition-ExampleSmokingLast10YearsFalse.html"
+      }],
+      "reference" : {
+        "reference" : "Condition/ExampleSmokingLast10YearsFalse"
+      },
+      "name" : "No smoking reported within the last 10 years",
+      "description" : "RISK_SMOKER_LAST_10_YEARS = false: no smoking during the 10 years before the index stroke episode, represented by the same risk factor code with inactive clinicalStatus. This does not classify lifetime smoking status.",
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       },
       {
@@ -2075,6 +2092,23 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       "name" : "Sex ValueSet",
       "description" : "Allowed coded values for Sex",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Condition-ExampleSmokingLast10YearsTrue.html"
+      }],
+      "reference" : {
+        "reference" : "Condition/ExampleSmokingLast10YearsTrue"
+      },
+      "name" : "Smoking reported within the last 10 years",
+      "description" : "RISK_SMOKER_LAST_10_YEARS = true: the patient smoked at some time during the 10 years before the index stroke episode. This does not specify current or former smoking status.",
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"]
     },
     {
       "extension" : [{

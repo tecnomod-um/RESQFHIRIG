@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/discharge-department-service-ext | *Version*:1.1.0 |
-| Draft as of 2026-10-19 | *Computable Name*:DischargeDepartmentServiceExt |
+| Draft as of 2026-10-28 | *Computable Name*:DischargeDepartmentServiceExt |
 
 Department, unit or service receiving the patient at discharge.
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-discharge-department
   "name" : "DischargeDepartmentServiceExt",
   "title" : "Discharge department or service",
   "status" : "draft",
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

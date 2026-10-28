@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/CodeSystem/tenecteplase-brand-cs | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:TenecteplaseBrandCS |
+| Active as of 2026-10-28 | *Computable Name*:TenecteplaseBrandCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/tenecteplase-brand-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "TenecteplaseBrandCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

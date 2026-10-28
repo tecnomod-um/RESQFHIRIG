@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/three-month-contact-mode-vs | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:ThreeMonthContactModeVS |
+| Active as of 2026-10-28 | *Computable Name*:ThreeMonthContactModeVS |
 
  
 Allowed coded values for ThreeMonthContactMode 
@@ -52,7 +52,7 @@ Allowed coded values for ThreeMonthContactMode
   "title" : "ThreeMonthContactMode ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

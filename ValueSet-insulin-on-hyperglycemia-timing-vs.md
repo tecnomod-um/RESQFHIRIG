@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/insulin-on-hyperglycemia-timing-vs | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:InsulinOnHyperglycemiaTimingVS |
+| Active as of 2026-10-28 | *Computable Name*:InsulinOnHyperglycemiaTimingVS |
 
  
 Allowed coded values for InsulinOnHyperglycemiaTiming 
@@ -51,7 +51,7 @@ Allowed coded values for InsulinOnHyperglycemiaTiming
   "title" : "InsulinOnHyperglycemiaTiming ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

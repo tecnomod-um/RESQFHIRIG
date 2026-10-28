@@ -3,14 +3,14 @@
 ## Pages
 
 * [Home](index.md)
-* [Profiles](profiles.md)
-* [Discharge Patient Summary](discharge-patient-summary.md)
-* [Terminology](terminology.md)
 * [Extensions](extensions.md)
-* [Artifacts Summary](artifacts.md)
-* [Downloads](downloads.md)
 * [Modeling Decisions](modeling-decisions.md)
+* [Artifacts Summary](artifacts.md)
+* [Terminology](terminology.md)
+* [Downloads](downloads.md)
 * [Resource Map](resource-map.md)
+* [Discharge Patient Summary](discharge-patient-summary.md)
+* [Profiles](profiles.md)
 
 ## Resources
 
@@ -216,6 +216,8 @@
 ### Examples
 
 * [Stroke Hospital Discharge Summary (Composition)](Composition-ExampleRESQStrokeDischargeComposition.md)
+* [ExampleSmokingLast10YearsFalse (Condition)](Condition-ExampleSmokingLast10YearsFalse.md)
+* [ExampleSmokingLast10YearsTrue (Condition)](Condition-ExampleSmokingLast10YearsTrue.md)
 * [ExampleStrokeDiagnosis (Condition)](Condition-ExampleStrokeDiagnosis.md)
 * [ExampleStrokeEncounter (Encounter)](Encounter-ExampleStrokeEncounter.md)
 * [ExampleDoorToNeedle (Observation)](Observation-ExampleDoorToNeedle.md)

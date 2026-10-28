@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/discharge-destination-vs | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:DischargeDestinationVS |
+| Active as of 2026-10-28 | *Computable Name*:DischargeDestinationVS |
 
  
 Allowed coded values for DischargeDestination 
@@ -51,7 +51,7 @@ Allowed coded values for DischargeDestination
   "title" : "DischargeDestination ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

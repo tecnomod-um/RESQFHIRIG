@@ -10,7 +10,7 @@
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -36,7 +36,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r5",
-    "version" : "7.4.0"
+    "version" : "7.5.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r5",
@@ -1072,6 +1072,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/ExampleSmokingLast10YearsFalse"
+      },
+      "name" : "No smoking reported within the last 10 years",
+      "description" : "RISK_SMOKER_LAST_10_YEARS = false: no smoking during the 10 years before the index stroke episode, represented by the same risk factor code with inactive clinicalStatus. This does not classify lifetime smoking status.",
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1512,6 +1525,19 @@
       "name" : "Sex ValueSet",
       "description" : "Allowed coded values for Sex",
       "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/ExampleSmokingLast10YearsTrue"
+      },
+      "name" : "Smoking reported within the last 10 years",
+      "description" : "RISK_SMOKER_LAST_10_YEARS = true: the patient smoked at some time during the 10 years before the index stroke episode. This does not specify current or former smoking status.",
+      "isExample" : true,
+      "profile" : ["http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"]
     },
     {
       "extension" : [{

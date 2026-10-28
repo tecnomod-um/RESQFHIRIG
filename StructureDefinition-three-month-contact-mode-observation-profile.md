@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/three-month-contact-mode-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:ThreeMonthContactModeObservationProfile |
+| Active as of 2026-10-28 | *Computable Name*:ThreeMonthContactModeObservationProfile |
 
  
 Observation profile for the modality used to obtain three-month follow-up information. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-three-month-contact-
   "title" : "Three-Month Contact Mode Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

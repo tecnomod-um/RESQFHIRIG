@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "06ebb640-ed18-4c0d-9e88-93493171874a",
+  "id" : "d95ce0c9-6499-44aa-b49c-46b0eb44e0e6",
   "meta" : {
-    "lastUpdated" : "2026-10-19T07:01:38.287+00:00"
+    "lastUpdated" : "2026-10-28T15:45:11.671+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "AdherenceCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:020fd81b-515e-4026-b7d1-e8a17c58d004",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:b3d6b139-b287-4ced-91a9-6113a1fa6ad2",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -73,7 +73,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NCCS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NCCS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NCCS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-GIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;GIM&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;GIM&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-unknown\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-unknown\">unknown</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NCCS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NCCS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NCCS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-GIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;GIM&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;GIM&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-unknown\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-unknown\">unknown</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/admission-department-vs",
       "version" : "1.1.0",
@@ -81,7 +81,7 @@
       "title" : "AdmissionDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -90,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ca0dee38-c929-4e45-977e-e64bcfb16839",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:afb75f19-f077-4637-b4ba-ae39f797aaf1",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -159,7 +159,7 @@
       "title" : "AdmissionPathway ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -168,8 +168,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:45c31a41-0df8-4660-b0ac-156b07bdcdc4",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:20cc6708-be17-44ed-8203-dee36b6e088b",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -237,7 +237,7 @@
       "title" : "AnaliticsCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -246,8 +246,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2adffcfa-f1b3-475d-8ade-69681b3c187d",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:da48b128-bfcd-497b-a6d3-7635452873d0",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -355,7 +355,7 @@
       "title" : "AnticoagulantReversal ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -364,8 +364,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9b21d7e2-27dc-45d4-9fdf-a4f584410416",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:2869efe5-3c1a-4491-bdc0-448e8a1c04c8",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -457,7 +457,7 @@
       "title" : "AssessmentContext ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -466,8 +466,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:54b6e619-d9b2-4c05-bae5-a0ff5956070a",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:e36da036-58cd-46b7-bc2d-501413b55c52",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -575,7 +575,7 @@
       "title" : "AtrialFibrillationOrFlutter ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -584,8 +584,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9cfcc3a0-3356-4675-bf58-6cfefc598a53",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:a34034bf-4b72-4e39-a252-f65799a4ab90",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -649,7 +649,7 @@
       "title" : "BleedingReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -658,8 +658,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c190e068-3539-405c-8170-0351456a1bd9",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:c502e5e6-9f68-4015-bafb-c5e16413481d",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -751,7 +751,7 @@
       "title" : "BodySites ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -760,8 +760,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:301e3fa5-0586-439d-8fac-18c94800d0be",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:dea7c004-8d43-4e6d-bacf-4f5d58276ad8",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -877,7 +877,7 @@
       "title" : "CarotidEndarterectomyTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -886,8 +886,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f5a83db8-bd9f-4748-bfe9-bf2c79f098ae",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:891f2fe1-defc-4b05-b72f-c23d56a2bb94",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -939,7 +939,7 @@
       "title" : "CarotidStenosisLevel ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -948,8 +948,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b5cc7b33-56d3-499a-9ed2-cc4c38b7d940",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:6d1ea91a-fa16-4f2d-b1ca-1a6eb88ceb56",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1005,7 +1005,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td/><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;active&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td/><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;inactive&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td/><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;remission&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-unknown\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-unknown\">unknown</a></td><td/><td>The authoring/source system does not know which of the status values currently applies for this condition. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td/><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;active&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td/><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;inactive&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td/><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;remission&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-unknown\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-condition-clinical.html#condition-clinical-unknown\">unknown</a></td><td/><td>The authoring/source system does not know which of the status values currently applies for this condition. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;/&gt;&lt;version value=&quot;3.0.0&quot;/&gt;&lt;code value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/clinical-status-codes-vs",
       "version" : "1.1.0",
@@ -1013,7 +1013,7 @@
       "title" : "ClinicalStatusCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1022,8 +1022,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:07a289a8-3e58-4322-9f5d-e00429405f77",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:3ce230a4-453d-4376-98d2-a259eac2898f",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1079,7 +1079,7 @@
       "title" : "DischargeDestination ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1088,8 +1088,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ec98c1d5-82bf-4ebf-a98a-ff5b14364970",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:0f8bc1d6-e5c1-4b8c-8eb1-bc05e882606d",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1165,7 +1165,7 @@
       "title" : "DischargeFacilityDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1174,8 +1174,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d43a80a-ea89-48e0-b54c-26712fbd0793",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:f640dc1b-6037-4aa4-8841-3ca275750d0b",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1231,7 +1231,7 @@
       "title" : "DischargeFacilityType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1240,8 +1240,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6b348afc-d4b0-4d95-bb0a-c6f23e00935e",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:f438ac14-e78f-4182-9050-918131699917",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1309,7 +1309,7 @@
       "title" : "DischargeMedication ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1318,8 +1318,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:babbb60b-cfff-481b-9d6f-6fe8e21542be",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:6e08a92d-33d2-4b07-bba0-12b91d8a3ac2",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -1399,7 +1399,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-OF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;OF&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;OF&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-OF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;OF&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;OF&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/first-contact-place-vs",
       "version" : "1.1.0",
@@ -1407,7 +1407,7 @@
       "title" : "FirstContactPlace ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1416,8 +1416,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ca52267d-a5c3-43f2-ba3f-9ba3fcfee2d9",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:35c681de-3b38-4f59-90e0-aaa6f2dce841",
+        "timestamp" : "2026-10-28T15:46:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1477,7 +1477,7 @@
       "title" : "FunctionalScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1486,8 +1486,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:eabcadf5-2b31-4af9-bf41-533e98ea8327",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:a4e64fa8-a3ea-46d5-8c92-6e83bcb9b63f",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -1583,7 +1583,7 @@
       "title" : "GCSScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1592,8 +1592,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4779412e-cb73-400b-88c7-0aa7b5d6f4e6",
-        "timestamp" : "2026-10-19T07:02:45+00:00",
+        "identifier" : "urn:uuid:3453b2ba-128f-4031-8e41-e424daa753cf",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1653,7 +1653,7 @@
       "title" : "GlasgowComaScale ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1662,8 +1662,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aee3f116-328f-4093-8608-091b2f593fd0",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:c1159265-2238-4680-a081-f1cc16d23032",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -1771,7 +1771,7 @@
       "title" : "HemorrhagicTransformationType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1780,8 +1780,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3336b316-e13c-4e72-961f-f105af8c845f",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:25508f64-bb7e-4621-9d38-b1ff393674bc",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1837,7 +1837,7 @@
       "title" : "HospitalizedIn ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1846,8 +1846,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:381bcc92-4b2a-4784-8950-04ed99385054",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:29f56ba4-8ce2-4a86-8f19-c11a0f99dfea",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1903,7 +1903,7 @@
       "title" : "ImagingType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1912,8 +1912,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9321cd41-3156-4790-a8e7-767c952f23fa",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:67aaaeb2-862e-44cd-a457-743882fc22dc",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -1993,7 +1993,7 @@
       "title" : "INRmode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2002,8 +2002,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:73aa9653-2f50-4ed4-9724-c31d6d066168",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:07250e1f-3c6b-4a13-9148-995cd69a5e7c",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2063,7 +2063,7 @@
       "title" : "InsulinOnHyperglycemiaTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2072,8 +2072,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5f6ebef2-0f6f-47b3-8330-064d7b15fefe",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:89a70e55-cdef-4454-97db-fad3c5222d11",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -2113,7 +2113,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/ivt-application-department-vs",
       "version" : "1.1.0",
@@ -2121,7 +2121,7 @@
       "title" : "IvtApplicationDepartment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2130,8 +2130,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:99913ffb-3176-4df7-a921-e7d96f58a7c1",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:5b17b24d-87d1-4818-bfb5-6fe614cd953c",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2191,7 +2191,7 @@
       "title" : "IvtDrug ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2200,8 +2200,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f7f0449f-da22-4778-903a-cff3c2c2c883",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:475f9b45-0da8-4cc2-9631-958986a84baa",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2269,7 +2269,7 @@
       "title" : "Laterality ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2278,8 +2278,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5ac3a3a4-c649-4f58-8b12-1aa0e948e750",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:65233c4d-ceba-41ab-bf64-47de38accbdc",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -2388,7 +2388,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-OF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;OF&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;OF&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NCCS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NCCS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NCCS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-GIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;GIM&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;GIM&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion performed internally based on:</p><ul><li><a href=\"CodeSystem-location-cs.html\">codesystem LocationCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/location-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html\">codesystem RoleCode v4.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ER\">ER</a></td><td/><td><div><p>The section of a health care facility for providing rapid treatment to victims of sudden illness or trauma.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ER&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ER&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-OF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-OF\">OF</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;OF&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;OF&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-HRAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HRAD\">HRAD</a></td><td/><td><div><p><strong>Description:</strong> A location that plays the role of delivering services which may include the branch of medicine that uses ionizing and non-ionizing radiation to diagnose and treat diseases. The radiology unit may be further divided into subspecialties such as Imaging, Cardiovascular, Thoracic, and Ultrasound.</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;HRAD&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;HRAD&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NCCS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCCS\">NCCS</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NCCS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NCCS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-ICU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ICU\">ICU</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;ICU&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;ICU&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-NS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NS\">NS</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;NS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;NS&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-RoleCode-GIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GIM\">GIM</a></td><td/><td><div/></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;GIM&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;&lt;version value=&quot;4.0.0&quot;/&gt;&lt;code value=&quot;GIM&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/location-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/location-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-location-cs.html#location-cs-other\">other</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/location-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/location-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
       "version" : "1.1.0",
@@ -2396,7 +2396,7 @@
       "title" : "Locations ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2405,8 +2405,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:34740eca-6868-4609-9e9a-f19fd9af8f0b",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:cdafd75c-cbe0-4893-944b-6281efdbd4dc",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -2482,7 +2482,7 @@
       "title" : "ManagementAppointment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2491,8 +2491,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4971e78d-0841-404e-ba83-949bb3e70d70",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:6c9ee9ef-de57-4a8a-9b99-3872b4129e76",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2548,7 +2548,7 @@
       "title" : "Medications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2557,8 +2557,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0aef55a5-998c-42e9-8c1e-926d8f9330e3",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:2ae2abec-592c-42fd-a0ab-d3ff89ae1ef0",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -2734,7 +2734,7 @@
       "title" : "MimicsDiagnosis ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2743,8 +2743,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9b8996d1-757b-43cd-9b87-b9d64e6ff3fa",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:c90ec6d3-2cbc-48bf-9707-6037a32c111e",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2820,7 +2820,7 @@
       "title" : "MRsScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2829,8 +2829,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:43d64799-c495-4074-873c-74dbbd002199",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:5f9f39b4-bba0-4e0f-926b-e4c2edf2d9be",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2898,7 +2898,7 @@
       "title" : "MTiciScore ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2907,8 +2907,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:af43f327-2252-4522-a73d-607f280fed47",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:1aa973ab-6230-4e62-816b-0e3a191b53f7",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2976,7 +2976,7 @@
       "title" : "Nimodipinetiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2985,8 +2985,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7503dff9-6d08-40e0-bd02-5c50bd85f27c",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:e4bc74a9-0986-411b-8b02-00e9a0bc94ba",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3050,7 +3050,7 @@
       "title" : "NotMedicationReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3059,8 +3059,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f64af887-78bd-4359-93dd-57eaef75962a",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:a727a679-35ee-432d-bc0f-eed48254918c",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -3180,7 +3180,7 @@
       "title" : "OccupationalTherapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3189,8 +3189,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f574a494-6b7b-45c1-8c1e-9a210af0faa3",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:34aaddc8-5870-4184-a6b5-b6eee2550ee1",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3250,7 +3250,7 @@
       "title" : "ParacetamolOnFeverTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3259,8 +3259,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9e878654-841d-4df9-b8a6-668b6bb5ac2f",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:340334f3-a13d-4dc9-8347-72b63f9623d9",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3308,7 +3308,7 @@
       "title" : "ParacetamolOnFever ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3317,8 +3317,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d60d924-174c-45dd-b3b4-5a92ceed02ea",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:ad50e817-1a10-4f13-8078-de6b6a150890",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3382,7 +3382,7 @@
       "title" : "PerforationProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3391,8 +3391,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fea9c492-697a-4026-b1d9-4dc38c55e3b2",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:390969e8-71b6-4404-80a8-63edc2aa6617",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3456,7 +3456,7 @@
       "title" : "PostAcuteCare ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3465,8 +3465,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:173582d9-9518-4142-a21f-660265e884b9",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:55e3103c-f050-48e2-b3ea-ec8c14f56b6f",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3534,7 +3534,7 @@
       "title" : "PostNeurosurgeryImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3543,8 +3543,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7b8904b6-7113-4615-b190-fce36d1bbe8d",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:51301ce1-9588-4a99-a2c2-d8242f5f06b6",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3608,7 +3608,7 @@
       "title" : "PostRecanalizationImaging ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3617,8 +3617,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9700bbc9-3cbd-4239-b5c8-19184b963429",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:9a06f4b0-eda0-40c8-af4a-69238749e9b4",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3682,7 +3682,7 @@
       "title" : "PostStrokeComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3691,8 +3691,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:55abdb15-bed4-4962-972f-85fd5814aaf5",
-        "timestamp" : "2026-10-19T07:02:46+00:00",
+        "identifier" : "urn:uuid:ae7ae1b9-d119-4ab2-89d6-1c306cd89585",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -3780,7 +3780,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3789,8 +3789,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0f31fa78-609b-4e0c-8dc4-d672bcb784cf",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:d511a3c4-ebd2-499f-ae6e-d58704297dae",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3858,7 +3858,7 @@
       "title" : "ProcedureNotDoneReason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -3867,8 +3867,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:647d9595-3b42-4e0f-935e-314a9ba17343",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:4343cd65-1a23-4ae2-9b93-6f984ce8e900",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 30,
         "offset" : 0,
         "parameter" : [{
@@ -4044,7 +4044,7 @@
       "title" : "Procedure Timing Context ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4053,8 +4053,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f13ce039-3143-4079-b6df-b9e4a212c318",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:836d771b-c223-4681-9725-1c0d42b99c96",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4094,7 +4094,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-18842-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/18842-5/\">18842-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;18842-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;18842-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-18842-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/18842-5/\">18842-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;18842-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;18842-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-document-type-vs",
       "version" : "1.1.0",
@@ -4102,7 +4102,7 @@
       "title" : "RESQ Stroke Discharge Document Type ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4111,8 +4111,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4bf2b057-944d-4f7a-b835-9ccdd4dc1c23",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:c5a5c50f-d336-405a-84d4-e343d2e6cc14",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -4141,7 +4141,7 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://loinc.org|2.82"
+          "valueUri" : "http://loinc.org|2.83"
         }],
         "contains" : [{
           "system" : "http://loinc.org",
@@ -4156,7 +4156,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>Loinc v2.82<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.82\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"CodeSystem-stroke-discharge-summary-section-cs.html\">codesystem StrokeDischargeSummarySectionCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 20 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-75310-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/75310-3/\">75310-3</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;75310-3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;75310-3&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-48765-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/48765-2/\">48765-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;48765-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;48765-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-46240-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/46240-8/\">46240-8</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;46240-8&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;46240-8&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-67851-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;67851-6&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;67851-6&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-11329-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;11329-0&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;11329-0&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8648-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;8648-8&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;8648-8&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-11535-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/11535-2/\">11535-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;11535-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;11535-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-10185-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/10185-7/\">10185-7</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;10185-7&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;10185-7&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-87232-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/87232-5/\">87232-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;87232-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;87232-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-30954-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/30954-2/\">30954-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;30954-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;30954-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8650-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;8650-4&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;8650-4&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8716-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8716-3/\">8716-3</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;8716-3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;8716-3&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-29545-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/29545-1/\">29545-1</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;29545-1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;29545-1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-47420-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;47420-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;47420-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-75311-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/75311-1/\">75311-1</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;75311-1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;75311-1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18776-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.82&quot;, &quot;code&quot;: &quot;18776-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.82&quot;/&gt;&lt;code value=&quot;18776-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs-treatment-timings\"> </a><code>http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-discharge-summary-section-cs.html#stroke-discharge-summary-section-cs-treatment-timings\">treatment-timings</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;treatment-timings&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;treatment-timings&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1184586001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1184586001\">1184586001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1184586001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;1184586001&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-248326004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/248326004\">248326004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;248326004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;248326004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-866144008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/866144008\">866144008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;866144008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;866144008&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li><a href=\"CodeSystem-stroke-discharge-summary-section-cs.html\">codesystem StrokeDischargeSummarySectionCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 20 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-75310-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/75310-3/\">75310-3</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;75310-3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;75310-3&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-48765-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/48765-2/\">48765-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;48765-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;48765-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-46240-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/46240-8/\">46240-8</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;46240-8&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;46240-8&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-67851-6\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/67851-6/\">67851-6</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;67851-6&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;67851-6&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-11329-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/11329-0/\">11329-0</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;11329-0&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;11329-0&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8648-8\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8648-8/\">8648-8</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;8648-8&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;8648-8&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-11535-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/11535-2/\">11535-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;11535-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;11535-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-10185-7\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/10185-7/\">10185-7</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;10185-7&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;10185-7&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-87232-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/87232-5/\">87232-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;87232-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;87232-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-30954-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/30954-2/\">30954-2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;30954-2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;30954-2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8650-4\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8650-4/\">8650-4</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;8650-4&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;8650-4&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-8716-3\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/8716-3/\">8716-3</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;8716-3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;8716-3&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-29545-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/29545-1/\">29545-1</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;29545-1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;29545-1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-47420-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/47420-5/\">47420-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;47420-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;47420-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-75311-1\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/75311-1/\">75311-1</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;75311-1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;75311-1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-18776-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/18776-5/\">18776-5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;18776-5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;18776-5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs-treatment-timings\"> </a><code>http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-stroke-discharge-summary-section-cs.html#stroke-discharge-summary-section-cs-treatment-timings\">treatment-timings</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;treatment-timings&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/stroke-discharge-summary-section-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;treatment-timings&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1184586001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1184586001\">1184586001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;1184586001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;1184586001&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-248326004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/248326004\">248326004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;248326004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;248326004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-866144008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/866144008\">866144008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;866144008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;866144008&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/resq-stroke-discharge-section-code-vs",
       "version" : "1.1.0",
@@ -4164,7 +4164,7 @@
       "title" : "RESQ Stroke Discharge Section Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4173,8 +4173,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:40c5c4af-5e5d-4585-82be-2c0df7d76bdf",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:7b4ae5a7-0f8e-4bd0-a71b-6e9cee822f07",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 20,
         "offset" : 0,
         "parameter" : [{
@@ -4203,7 +4203,7 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://loinc.org|2.82"
+          "valueUri" : "http://loinc.org|2.83"
         },
         {
           "name" : "used-codesystem",
@@ -4306,7 +4306,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"CodeSystem-risk-factor-cs.html\">codesystem RiskFactorCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/risk-factor-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 18 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-49436004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/49436004\">49436004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;49436004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;49436004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-84114007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/84114007\">84114007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;84114007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;84114007&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-53741008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/53741008\">53741008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;53741008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;53741008&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-840539006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/840539006\">840539006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;840539006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;840539006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73211009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73211009\">73211009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;73211009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;73211009&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-165816005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/165816005\">165816005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;165816005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;165816005&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-55822004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/55822004\">55822004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;55822004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;55822004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-38341003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/38341003\">38341003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;38341003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;38341003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-230706003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/230706003\">230706003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230706003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;230706003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-266257000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/266257000\">266257000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;266257000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;266257000&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-230690007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/230690007\">230690007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230690007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;230690007&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-77176002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/77176002\">77176002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;77176002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;77176002&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-8392000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/8392000\">8392000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;8392000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;8392000&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-8517006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/8517006\">8517006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;8517006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;8517006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429098002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429098002\">429098002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;429098002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;429098002&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-66590003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/66590003\">66590003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;66590003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;66590003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73430006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73430006\">73430006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;73430006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;73430006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/risk-factor-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/risk-factor-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-risk-factor-cs.html#risk-factor-cs-other\">other</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"CodeSystem-risk-factor-cs.html\">codesystem RiskFactorCs CodeSystem v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://qualityregistry.org/CodeSystem/risk-factor-cs|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Feb 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><p>This value set contains 19 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (es)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-49436004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/49436004\">49436004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;49436004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;49436004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-84114007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/84114007\">84114007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;84114007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;84114007&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-53741008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/53741008\">53741008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;53741008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;53741008&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-840539006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/840539006\">840539006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;840539006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;840539006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73211009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73211009\">73211009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;73211009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;73211009&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-165816005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/165816005\">165816005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;165816005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;165816005&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-55822004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/55822004\">55822004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;55822004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;55822004&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-38341003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/38341003\">38341003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;38341003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;38341003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-230706003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/230706003\">230706003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230706003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;230706003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-266257000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/266257000\">266257000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;266257000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;266257000&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-230690007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/230690007\">230690007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;230690007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;230690007&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-77176002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/77176002\">77176002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;77176002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;77176002&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-8392000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/8392000\">8392000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;8392000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;8392000&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-8517006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/8517006\">8517006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;8517006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;8517006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429098002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429098002\">429098002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;429098002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;429098002&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-66590003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/66590003\">66590003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;66590003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;66590003&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73430006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73430006\">73430006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;73430006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;/&gt;&lt;code value=&quot;73430006&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/risk-factor-cs-other\"> </a><code>http://qualityregistry.org/CodeSystem/risk-factor-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-risk-factor-cs.html#risk-factor-cs-other\">other</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://qualityregistry.org/CodeSystem/risk-factor-cs-smoking-last-10-years\"> </a><code>http://qualityregistry.org/CodeSystem/risk-factor-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-risk-factor-cs.html#risk-factor-cs-smoking-last-10-years\">smoking-last-10-years</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;smoking-last-10-years&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://qualityregistry.org/CodeSystem/risk-factor-cs&quot;/&gt;&lt;version value=&quot;1.1.0&quot;/&gt;&lt;code value=&quot;smoking-last-10-years&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://qualityregistry.org/ValueSet/risk-factor-vs",
       "version" : "1.1.0",
@@ -4314,7 +4314,7 @@
       "title" : "RiskFactor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4323,9 +4323,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:73a9f52e-f63d-48d9-9c89-d2b408fcec68",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
-        "total" : 18,
+        "identifier" : "urn:uuid:b06412ed-233b-4def-89f2-97dbcec69b0c",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
+        "total" : 19,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -4430,6 +4430,10 @@
         {
           "system" : "http://qualityregistry.org/CodeSystem/risk-factor-cs",
           "code" : "other"
+        },
+        {
+          "system" : "http://qualityregistry.org/CodeSystem/risk-factor-cs",
+          "code" : "smoking-last-10-years"
         }]
       }
     }
@@ -4448,7 +4452,7 @@
       "title" : "ScreeningPerformer ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4457,8 +4461,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:64d7cddf-5edf-403c-9fcb-1b8202bbc53c",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:5c3ff9fb-cb21-401d-b5e6-30fd891dd970",
+        "timestamp" : "2026-10-28T15:46:26+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -4522,7 +4526,7 @@
       "title" : "Sex ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4531,8 +4535,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8f0486b3-8fd4-47c9-882f-fc436794458c",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:de04010d-d1fd-4611-a975-8ea3329505b0",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4592,7 +4596,7 @@
       "title" : "Specific Finding Value ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4601,8 +4605,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ea24cb7-57cc-4c08-8ed8-72c267eab525",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:3b38ea62-b1a7-4027-91fb-100f3eabbd40",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 19,
         "offset" : 0,
         "parameter" : [{
@@ -4750,7 +4754,7 @@
       "title" : "SpecificFinding ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4759,8 +4763,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9d0c78e3-8a74-4ae6-9b31-3e5d9d91cffe",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:c7f6546e-11c9-4a59-92eb-3747fc5ce5a0",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -4888,7 +4892,7 @@
       "title" : "StrokeCircumstance ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4897,8 +4901,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f3288906-b705-4495-b1b1-bb2329ded6ea",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:1f3d79d7-9b17-4229-acc8-3b7fcf28d81e",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4946,7 +4950,7 @@
       "title" : "Stroke Diagnosis Code ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -4955,8 +4959,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1e7996da-5280-478e-9118-166a3e6b0fdf",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:b050346c-861c-4c21-bd2b-479f7f4b48b7",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -5068,7 +5072,7 @@
       "title" : "StrokeEtiologyOther ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5077,8 +5081,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:793207c5-0d7c-491d-ac31-c001a7df851e",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:164f133b-8d88-4baf-a109-71507b0454ac",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -5190,7 +5194,7 @@
       "title" : "StrokeEtiology ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5199,8 +5203,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d68d70b7-6b23-4d28-afd8-7843b8d7c163",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:792ccdb4-91d1-4158-9bf6-cb6354464c64",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -5292,7 +5296,7 @@
       "title" : "PostStrokeProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5301,8 +5305,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:64424db2-ed30-491d-a032-a4170ad218b6",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:5cab15ca-9893-44ab-a127-52b4dd041c53",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -5426,7 +5430,7 @@
       "title" : "StrokeTreatment ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5435,8 +5439,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:33b6f0e7-f7af-4e63-9195-c9101c9b8617",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:af3ee6a2-1251-45b3-975f-a7c12f7f98c0",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -5532,7 +5536,7 @@
       "title" : "StrokeType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5541,8 +5545,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:22d522a4-2e77-4013-9bb7-be42c473ad3f",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:d2c76583-9297-4696-bad7-f5d9987a7bdd",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -5618,7 +5622,7 @@
       "title" : "SwallowingScreeningDone ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5627,8 +5631,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d4d804be-bce8-439b-8cc8-367cfa05fbfa",
-        "timestamp" : "2026-10-19T07:02:47+00:00",
+        "identifier" : "urn:uuid:26022b9a-3ed5-413d-9289-6935e682e6bc",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5688,7 +5692,7 @@
       "title" : "SwallowingScreeningTiming ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5697,8 +5701,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:92c6f0e6-bcc7-4fee-8e96-787badce319e",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:87a8d7be-d63f-4b28-a0f6-8351138bfbce",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5770,7 +5774,7 @@
       "title" : "SwallowingScreeningType ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5779,8 +5783,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:989c325b-8dea-4115-b060-e1aaaa9a04a3",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:1b2b7a29-0953-44b0-a679-e8860d13f128",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5852,7 +5856,7 @@
       "title" : "TenecteplaseBrand ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5861,8 +5865,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0d19407e-15ae-485e-8b8c-02677a18b384",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:2b64a156-00af-4507-8ffc-6ccf703f0bb8",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -5938,7 +5942,7 @@
       "title" : "ThreeMonthContactMode ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -5947,8 +5951,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9a7b914b-d2cf-4b2f-96e2-06c7f6149e80",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:c6aeaba9-aa21-433f-924e-d78cc5df1030",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -6024,7 +6028,7 @@
       "title" : "ThrombectomyComplications ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6033,8 +6037,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3ce1e5d2-2990-4749-afb1-a6c8a0f4fa50",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:8811e122-6fe3-4565-b0f4-b05f07e57ae4",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -6106,7 +6110,7 @@
       "title" : "TiaClinicalSymptoms ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6115,8 +6119,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:732e1a37-8dbe-4b7e-9062-369117a44b6b",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:4b63aab5-572c-4267-abec-45ccd360b7ca",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6180,7 +6184,7 @@
       "title" : "TiaSymptomDuration ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6189,8 +6193,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e082f8e3-44d5-43ac-bb6a-5851b0f93a7c",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:5c7d89ae-b633-4b44-9d3f-ae12bd993d43",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6242,7 +6246,7 @@
       "title" : "TimingMetricCodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6251,8 +6255,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:005a1e5b-f745-424a-9c3c-de896579f6d6",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:4433aeed-a214-41e7-8948-255354c3e965",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 28,
         "offset" : 0,
         "parameter" : [{
@@ -6404,7 +6408,7 @@
       "title" : "VitalSigns ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6413,8 +6417,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ff02ed68-4d7d-427b-befa-40db961456c5",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:3f7a52da-ed25-43e4-83d2-06e7b927e0d2",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -6482,7 +6486,7 @@
       "title" : "VteProcedures ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-19T07:01:38+00:00",
+      "date" : "2026-10-28T15:45:11+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -6491,8 +6495,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6cf74e87-8f27-4a0c-845a-d4cae60feea9",
-        "timestamp" : "2026-10-19T07:02:48+00:00",
+        "identifier" : "urn:uuid:69f55ab2-8d5b-4f9a-ae06-b16195f60051",
+        "timestamp" : "2026-10-28T15:46:27+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{

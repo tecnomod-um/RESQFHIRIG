@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/appointment-management-observation-profile | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:AppointmentManagementObservationProfile |
+| Active as of 2026-10-28 | *Computable Name*:AppointmentManagementObservationProfile |
 
  
 Observation profile for recording whether a three-month follow-up appointment was scheduled or attended. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-appointment-manageme
   "title" : "Appointment Management Observation Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

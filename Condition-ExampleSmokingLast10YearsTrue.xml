@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="ExampleSmokingLast10YearsTrue"/>
+  <meta>
+    <profile value="http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition ExampleSmokingLast10YearsTrue</b></p><a name="ExampleSmokingLast10YearsTrue"> </a><a name="hcExampleSmokingLast10YearsTrue"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Perfil: <a href="StructureDefinition-stroke-risk-factor-condition-profile.html">Stroke Risk Factor Condition Profile</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>code</b>: <span title="Codes:{http://qualityregistry.org/CodeSystem/risk-factor-cs smoking-last-10-years}">Smoking within the last 10 years</span></p><p><b>subject</b>: <a href="Patient-ExampleRESQPatient.html">Anonymous Patient (no stated gender), DoB Unknown ( patient-001)</a></p><p><b>encounter</b>: <a href="Encounter-ExampleStrokeEncounter.html">Encounter: extension = -&gt;Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001),false,true; status = completed</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://qualityregistry.org/CodeSystem/risk-factor-cs"/>
+      <code value="smoking-last-10-years"/>
+      <display value="Smoking within the last 10 years"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExampleRESQPatient"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/ExampleStrokeEncounter"/>
+  </encounter>
+</Condition>

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile | *Version*:1.1.0 |
-| Active as of 2026-10-19 | *Computable Name*:StrokeRiskFactorConditionProfile |
+| Active as of 2026-10-28 | *Computable Name*:StrokeRiskFactorConditionProfile |
 
  
 Condition profile for pre-existing or episode-relevant risk factors captured in the RES-Q registry. 
@@ -19,7 +19,7 @@ Represents comorbidities and clinical risk factors used in stroke quality measur
 
 **Usages:**
 
-* This Perfil is not used by any profiles in this Specification
+* Examples for this Perfil: [Condition/ExampleSmokingLast10YearsFalse](Condition-ExampleSmokingLast10YearsFalse.md) and [Condition/ExampleSmokingLast10YearsTrue](Condition-ExampleSmokingLast10YearsTrue.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/RESQFHIRIG|current/StructureDefinition/StructureDefinition-stroke-risk-factor-condition-profile.json)
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-risk-factor-c
   "title" : "Stroke Risk Factor Condition Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-19T07:01:38+00:00",
+  "date" : "2026-10-28T15:45:11+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

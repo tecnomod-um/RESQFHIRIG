@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qualityregistry.org/Condition/ExampleSmokingLast10YearsFalse> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleSmokingLast10YearsFalse"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile"^^xsd:anyURI ;
+       fhir:link <http://qualityregistry.org/StructureDefinition/stroke-risk-factor-condition-profile>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition ExampleSmokingLast10YearsFalse</b></p><a name=\"ExampleSmokingLast10YearsFalse\"> </a><a name=\"hcExampleSmokingLast10YearsFalse\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-stroke-risk-factor-condition-profile.html\">Stroke Risk Factor Condition Profile</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical inactive}\">Inactive</span></p><p><b>code</b>: <span title=\"Codes:{http://qualityregistry.org/CodeSystem/risk-factor-cs smoking-last-10-years}\">Smoking within the last 10 years</span></p><p><b>subject</b>: <a href=\"Patient-ExampleRESQPatient.html\">Anonymous Patient (no stated gender), DoB Unknown ( patient-001)</a></p><p><b>encounter</b>: <a href=\"Encounter-ExampleStrokeEncounter.html\">Encounter: extension = -&gt;Example Healthcare Organization (https://stroke.qualityregistry.org#organization-001),false,true; status = completed</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "inactive" ] ;
+       fhir:display [ fhir:v "Inactive" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://qualityregistry.org/CodeSystem/risk-factor-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "smoking-last-10-years" ] ;
+       fhir:display [ fhir:v "Smoking within the last 10 years" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://qualityregistry.org/Patient/ExampleRESQPatient> ;
+     fhir:reference [ fhir:v "Patient/ExampleRESQPatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://qualityregistry.org/Encounter/ExampleStrokeEncounter> ;
+     fhir:reference [ fhir:v "Encounter/ExampleStrokeEncounter" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
