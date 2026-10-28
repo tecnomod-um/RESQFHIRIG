@@ -354,6 +354,7 @@ Description: "Local RESQ stroke registry CodeSystem generated from enum_models.p
 * ^experimental = false
 * ^caseSensitive = false
 * #other "Other"
+* #smoking-last-10-years "Smoking within the last 10 years"
 
 CodeSystem: DischargeMedicationCS
 Id: discharge-medication-cs
@@ -1368,6 +1369,7 @@ Description: "Allowed coded values for RiskFactor"
 * include SCT#55822004 "Hyperlipidemia (disorder)"
 * include SCT#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * include RiskFactorCS#other "Other"
+* include RiskFactorCS#smoking-last-10-years "Smoking within the last 10 years"
 * include SCT#230706003 "Hemorrhagic cerebral infarction (disorder)"
 * include SCT#266257000 "Transient ischemic attack (disorder)"
 * include SCT#230690007 "Cerebrovascular accident (disorder)"

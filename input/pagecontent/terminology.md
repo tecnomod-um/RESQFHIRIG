@@ -23,4 +23,30 @@ External standards are reused when they fit the data element:
 - UCUM for units such as minutes, millimeters of mercury and mmol/L.
 - HL7 terminology CodeSystems for base FHIR status and category concepts.
 
+## Smoking Within the Last 10 Years
+
+`RISK_SMOKER_LAST_10_YEARS` records whether the patient smoked at any time during the
+10 years before the index stroke episode. Use the local RES-Q concept
+`http://qualityregistry.org/CodeSystem/risk-factor-cs#smoking-last-10-years`
+("Smoking within the last 10 years"), included in
+[RiskFactorVS](ValueSet-risk-factor-vs.html), with the
+[StrokeRiskFactorConditionProfile](StructureDefinition-stroke-risk-factor-condition-profile.html).
+
+This concept does not classify the patient specifically as a current smoker,
+former smoker or non-smoker. SNOMED CT `77176002 |Smoker|` remains in the ValueSet
+for existing uses, but does not represent this registry variable.
+
+Both boolean values use the same Condition code. The registry value is represented
+by `clinicalStatus` from `http://terminology.hl7.org/CodeSystem/condition-clinical`:
+
+| Registry value | Condition clinicalStatus | Example |
+| --- | --- | --- |
+| `true` | `active` | [Smoking reported within the last 10 years](Condition-ExampleSmokingLast10YearsTrue.html) |
+| `false` | `inactive` | [No smoking reported within the last 10 years](Condition-ExampleSmokingLast10YearsFalse.html) |
+
+The FSH terminology was originally imported from `enum_models.py`. This repository
+does not contain that source or a terminology generator; its build compiles
+`input/fsh/terminology_generated.fsh` directly with SUSHI. Any future import from
+the external enumeration source must preserve this concept and its ValueSet inclusion.
+
 See [Artifacts](artifacts.html) for the full generated list of CodeSystems and ValueSets.
