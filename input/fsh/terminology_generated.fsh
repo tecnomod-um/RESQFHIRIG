@@ -71,6 +71,8 @@ Description: "Local RESQ stroke registry CodeSystem generated from enum_models.p
 * #other-anticoagulant "Other Anticoagulant"
 * #other-antiplatelet "Other Antiplatelet"
 * #staphylokinase "Staphylokinase"
+* #doac "Direct oral anticoagulant"
+
 
 CodeSystem: HemorrhagicTransformationTypeCS
 Id: hemorrhagic-transformation-type-cs
