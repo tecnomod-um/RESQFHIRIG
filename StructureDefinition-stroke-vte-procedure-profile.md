@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-stroke-vte-procedure
   "title" : "Stroke VTE Prophylaxis Procedure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:12+00:00",
+  "date" : "2026-11-05T10:11:29+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
