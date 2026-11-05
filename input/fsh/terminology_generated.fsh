@@ -379,6 +379,18 @@ Description: "Local RESQ stroke registry CodeSystem generated from enum_models.p
 * #contraception "Contraception"
 * #other "Other"
 
+CodeSystem: DischargeMedicationStatusCS
+Id: discharge-medication-status-cs
+Title: "DischargeMedicationStatusCs CodeSystem"
+Description: "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs."
+* ^url = "http://qualityregistry.org/CodeSystem/discharge-medication-status-cs"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = false
+* #medication-prescribed-at-discharge "Medication Prescribed at Discharge"
+* #medication-class "Medication class queried at Discharge"
+
+
 CodeSystem: InsulinHyperglycemiaTimeCS
 Id: insulin-hyperglycemia-time-cs
 Title: "InsulinHyperglycemiaTimeCs CodeSystem"
@@ -817,6 +829,15 @@ Description: "Allowed coded values for Medications"
 * include SCT#372912004 "Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action (substance)"
 * include MedicationCS#other "Other Medication"
 
+ValueSet: MedicationStatusVS
+Id: medication-status-vs
+Title: "MedicationStatus ValueSet"
+Description: "Allowed coded values for MedicationStatus"
+* ^url = "http://qualityregistry.org/ValueSet/medication-status-vs"
+* ^status = #active
+* ^experimental = false
+* include DischargeMedicationStatusCS#medication-prescribed-at-discharge "Medication Prescribed at Discharge"
+* include DischargeMedicationStatusCS#medication-class "Medication class queried at Discharge"
 
 ValueSet: IvtApplicationDepartmentVS
 Id: ivt-application-department-vs
