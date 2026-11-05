@@ -7,7 +7,7 @@
 
 The IG exposes registry enumerations as computable FHIR terminology. Local CodeSystems preserve the values generated from `enum_models.py`; ValueSets provide the bindings used by profiles and extensions.
 
-## Main Terminology Groups
+### Main Terminology Groups
 
 | | |
 | :--- | :--- |
@@ -19,7 +19,7 @@ The IG exposes registry enumerations as computable FHIR terminology. Local CodeS
 | Medication | [Medications ValueSet](ValueSet-medications-vs.md),[DischargeMedication ValueSet](ValueSet-discharge-medication-vs.md),[NotMedicationReason ValueSet](ValueSet-not-medication-reason-vs.md),[AdherenceCodes ValueSet](ValueSet-adherence-codes-vs.md) |
 | Anatomy and measurements | [BodySites ValueSet](ValueSet-body-sites-vs.md),[Laterality ValueSet](ValueSet-laterality-vs.md),[UnitofMeasurement ValueSet](ValueSet-unitof-measurement-vs.md) |
 
-## Binding Approach
+### Binding Approach
 
 Required bindings are used where the registry transformation expects a controlled and closed set of codes for correct interpretation. Extensible bindings are used where the registry list is preferred but interoperable implementations may need additional external codes.
 
@@ -30,7 +30,7 @@ External standards are reused when they fit the data element:
 * UCUM for units such as minutes, millimeters of mercury and mmol/L.
 * HL7 terminology CodeSystems for base FHIR status and category concepts.
 
-## Smoking Within the Last 10 Years
+### Smoking Within the Last 10 Years
 
 `RISK_SMOKER_LAST_10_YEARS` records whether the patient smoked at any time during the 10 years before the index stroke episode. Use the local RES-Q concept `http://qualityregistry.org/CodeSystem/risk-factor-cs#smoking-last-10-years` ("Smoking within the last 10 years"), included in [RiskFactorVS](ValueSet-risk-factor-vs.md), with the [StrokeRiskFactorConditionProfile](StructureDefinition-stroke-risk-factor-condition-profile.md).
 

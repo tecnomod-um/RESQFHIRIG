@@ -13,7 +13,7 @@ The current RESQ2FHIR implementation aligns this document structure with the Xt-
 
 That logical model refines the eHealth Network Hospital Discharge Report content in the EHDS context. This IG does not claim to publish the normative final EU FHIR discharge profile; it aligns the RES-Q discharge document with the evolving European logical model while keeping the registry's stroke-specific clinical resources intact.
 
-## Document Role
+### Document Role
 
 | | |
 | :--- | :--- |
@@ -29,7 +29,7 @@ That logical model refines the eHealth Network Hospital Discharge Report content
 | `version` | Fixed to`1`. |
 | `text` | Contains the generated narrative for the Composition. |
 
-## Section Hierarchy
+### Section Hierarchy
 
 RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children under Hospital Course and 4 children under Discharge Details.
 
@@ -46,7 +46,7 @@ RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children unde
 | Plan of Care and Follow-up | LOINC`18776-5` | Yes | `body.carePlan` | Follow-up and continuing-care recommendations. |
 | Clinical Synthesis | SNOMED CT`866144008` | No | `body.clinicalSynthesis` | Deterministic narrative only; no`section.entry`is required. |
 
-### Hospital Course Children
+#### Hospital Course Children
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,7 +57,7 @@ RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children unde
 | Pharmacotherapy During Encounter | LOINC`87232-5` | No | `body.courseOfEncounter.pharmacotherapy` | Medication administrations during the encounter. |
 | Significant Test Results | LOINC`30954-2` | Yes | `body.courseOfEncounter.testResults[x]` | Diagnostic, imaging and laboratory results. |
 
-### Discharge Details Children
+#### Discharge Details Children
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
@@ -66,7 +66,7 @@ RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children unde
 | Physical Examination at Discharge | LOINC`29545-1` | Yes | `body.dischargeDetails.objectiveFindings` | Uses`emptyReason = notasked`when RES-Q has no physical examination data. |
 | Functional Status at Discharge | LOINC`47420-5` | Yes | `body.dischargeDetails.functionalStatus[x]` | Discharge NIHSS, mRS and related functional status entries. |
 
-## Empty Sections
+### Empty Sections
 
 Required EHDS sections remain present even when RES-Q did not collect matching data. In those cases RESQ2FHIR uses `section.emptyReason`.
 
@@ -74,7 +74,7 @@ Required EHDS sections remain present even when RES-Q did not collect matching d
 
 Optional sections are omitted when they have no content. Hospital Course and Discharge Details may be valid with nested `section.section` content and no direct entries. Clinical Synthesis may be valid with generated narrative only.
 
-## Stroke-Specific Content
+### Stroke-Specific Content
 
 Most sections use standard LOINC or SNOMED CT headings from the EHDS-aligned model. The stroke-specific RES-Q section is Treatment Timings, coded with the local section code `treatment-timings`.
 
@@ -88,13 +88,13 @@ RESQ2FHIR selects timing observations for this section by exact timing metric co
 
 Derived indicators such as `D2N<=45` are not selected into Treatment Timings.
 
-## Clinical Synthesis
+### Clinical Synthesis
 
 Clinical Synthesis is generated deterministically from FHIR resources that have already been modeled. It does not use an LLM and does not invent facts outside the generated resource graph.
 
 Depending on available resources, the narrative may include age, sex, diagnosis, admission NIHSS, relevant history, treatments, discharge NIHSS, discharge mRS, discharge medication and disposition.
 
-## Document Bundle
+### Document Bundle
 
 RESQ2FHIR builds a FHIR R5 `Bundle` with `type = document`. The `Composition` is always the first `Bundle.entry`. The Bundle then includes resources referenced by `Composition.section.entry`, plus the Patient, Encounter and Organization context resources when present.
 

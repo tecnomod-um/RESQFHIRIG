@@ -12,18 +12,6 @@
     "ValueSet-adherence-codes-vs.html" : "AdherenceCodes ValueSet"
   },
   {
-    "url" : "http://loinc.org",
-    "version" : "2.83",
-    "status" : "active",
-    "name" : "LOINC",
-    "title" : null,
-    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
-    "uses" : {
-    },
-    "ValueSet-resq-stroke-discharge-section-code-vs.html" : "RESQ Stroke Discharge Section Code ValueSet",
-    "ValueSet-resq-stroke-discharge-document-type-vs.html" : "RESQ Stroke Discharge Document Type ValueSet"
-  },
-  {
     "url" : "http://qualityregistry.org/CodeSystem/analytics-codes-cs",
     "version" : "1.1.0",
     "status" : "active",
@@ -55,8 +43,8 @@
     "uses" : {
     },
     "ValueSet-post-neurosurgery-imaging-vs.html" : "PostNeurosurgeryImaging ValueSet",
-    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet",
-    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet"
+    "ValueSet-post-recanalization-imaging-vs.html" : "PostRecanalizationImaging ValueSet",
+    "ValueSet-imaging-type-vs.html" : "ImagingType ValueSet"
   },
   {
     "url" : "http://qualityregistry.org/CodeSystem/carotid-endarterectomy-timing-cs",
@@ -155,10 +143,10 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/location-cs.",
     "uses" : {
     },
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-locations-vs.html" : "Locations ValueSet",
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
   },
   {
     "url" : "http://qualityregistry.org/CodeSystem/management-appointment-cs",
@@ -181,8 +169,8 @@
     "uses" : {
     },
     "ValueSet-anticoagulant-reversal-vs.html" : "AnticoagulantReversal ValueSet",
-    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet",
-    "ValueSet-medications-vs.html" : "Medications ValueSet"
+    "ValueSet-medications-vs.html" : "Medications ValueSet",
+    "ValueSet-ivt-drug-vs.html" : "IvtDrug ValueSet"
   },
   {
     "url" : "http://qualityregistry.org/CodeSystem/mrs-score-cs",
@@ -261,8 +249,8 @@
     "uses" : {
     },
     "ValueSet-post-acute-care-vs.html" : "PostAcuteCare ValueSet",
-    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet",
-    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet"
+    "ValueSet-swallowing-screening-timing-vs.html" : "SwallowingScreeningTiming ValueSet",
+    "ValueSet-procedure-timing-context-vs.html" : "Procedure Timing Context ValueSet"
   },
   {
     "url" : "http://qualityregistry.org/CodeSystem/risk-factor-cs",
@@ -483,8 +471,8 @@
     "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/timing-cs.",
     "uses" : {
     },
-    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet",
-    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet"
+    "ValueSet-paracetamol-on-fever-timing-vs.html" : "ParacetamolOnFeverTiming ValueSet",
+    "ValueSet-nimodipinetiming-vs.html" : "Nimodipinetiming ValueSet"
   },
   {
     "url" : "http://qualityregistry.org/CodeSystem/timing-metric-codes-cs",
@@ -590,9 +578,9 @@
     "uses" : {
     },
     "http://terminology.hl7.org/7.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
-    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
-    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet",
+    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet",
     "ValueSet-locations-vs.html" : "Locations ValueSet",
-    "ValueSet-ivt-application-department-vs.html" : "IvtApplicationDepartment ValueSet"
+    "ValueSet-admission-department-vs.html" : "AdmissionDepartment ValueSet",
+    "ValueSet-first-contact-place-vs.html" : "FirstContactPlace ValueSet"
   }]
 }

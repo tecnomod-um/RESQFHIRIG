@@ -357,12 +357,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#main-terminology-groups" id="markdown-toc-main-terminology-groups">Main Terminology Groups</a></li>
+  <li><a href="#binding-approach" id="markdown-toc-binding-approach">Binding Approach</a></li>
+  <li><a href="#smoking-within-the-last-10-years" id="markdown-toc-smoking-within-the-last-10-years">Smoking Within the Last 10 Years</a></li>
+</ul>
+
 </div>
 <p>The IG exposes registry enumerations as computable FHIR terminology. Local CodeSystems preserve the values generated from <code class="language-plaintext highlighter-rouge">enum_models.py</code>; ValueSets provide the bindings used by profiles and extensions.</p>
 
-<h2 id="main-terminology-groups">Main Terminology Groups</h2>
+<h3 id="main-terminology-groups">Main Terminology Groups</h3>
 
 <table>
   <thead>
@@ -403,7 +408,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="binding-approach">Binding Approach</h2>
+<h3 id="binding-approach">Binding Approach</h3>
 
 <p>Required bindings are used where the registry transformation expects a controlled and closed set of codes for correct interpretation. Extensible bindings are used where the registry list is preferred but interoperable implementations may need additional external codes.</p>
 
@@ -416,7 +421,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>HL7 terminology CodeSystems for base FHIR status and category concepts.</li>
 </ul>
 
-<h2 id="smoking-within-the-last-10-years">Smoking Within the Last 10 Years</h2>
+<h3 id="smoking-within-the-last-10-years">Smoking Within the Last 10 Years</h3>
 
 <p><code class="language-plaintext highlighter-rouge">RISK_SMOKER_LAST_10_YEARS</code> records whether the patient smoked at any time during the
 10 years before the index stroke episode. Use the local RES-Q concept
@@ -480,7 +485,7 @@ the external enumeration source must preserve this concept and its ValueSet incl
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Oct 28, 2026 15:45+0000">2026-10-28</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Nov 5, 2026 10:11+0000">2026-11-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

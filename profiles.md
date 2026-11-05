@@ -7,13 +7,13 @@
 
 Profiles are grouped below by FHIR resource type. Each link opens the generated StructureDefinition page with the formal constraints, bindings, snapshots and downloadable JSON/XML/TTL representations.
 
-## Clinical Documents
+### Clinical Documents
 
 | | |
 | :--- | :--- |
 | `Composition` | [RESQ Stroke Discharge Patient Summary](StructureDefinition-resq-stroke-discharge-composition.md) |
 
-## Administrative Resources
+### Administrative Resources
 
 | | |
 | :--- | :--- |
@@ -26,7 +26,7 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | `Appointment` | [Three-Month Follow-up Appointment](StructureDefinition-follow-up-appointment-profile.md) |
 | `Communication` | [Three-Month Contact Communication](StructureDefinition-three-month-communication-profile.md) |
 
-## Conditions
+### Conditions
 
 | | |
 | :--- | :--- |
@@ -34,7 +34,7 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | [Stroke Risk Factor Condition](StructureDefinition-stroke-risk-factor-condition-profile.md) | Represents comorbidities and risk factors relevant to stroke quality measurement. |
 | [Post-Stroke Complication Condition](StructureDefinition-post-stroke-complication-condition-profile.md) | Records complications occurring after the index stroke. |
 
-## Observations
+### Observations
 
 | | |
 | :--- | :--- |
@@ -55,7 +55,7 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | [Three-Month Contact Mode Observation](StructureDefinition-three-month-contact-mode-observation-profile.md) | Contact mode used for follow-up outcome capture. |
 | [Appointment Management Observation](StructureDefinition-appointment-management-observation-profile.md) | Scheduled or attended follow-up appointment management status. |
 
-## Procedures
+### Procedures
 
 | | |
 | :--- | :--- |
@@ -67,13 +67,13 @@ Profiles are grouped below by FHIR resource type. Each link opens the generated 
 | [Stroke VTE Prophylaxis Procedure](StructureDefinition-stroke-vte-procedure-profile.md) | VTE prophylaxis in the stroke pathway. |
 | [Stroke Treatment Procedure](StructureDefinition-stroke-treatment-procedure-profile.md) | Broader treatment and rehabilitation procedures. |
 
-## Reports
+### Reports
 
 | | |
 | :--- | :--- |
 | `DiagnosticReport` | [Stroke Imaging DiagnosticReport](StructureDefinition-stroke-imaging-diagnostic-report-profile.md),[Mechanical Thrombectomy DiagnosticReport](StructureDefinition-mechanical-thrombectomy-diagnostic-report-profile.md) |
 
-## Medications
+### Medications
 
 | | |
 | :--- | :--- |

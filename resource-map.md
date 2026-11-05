@@ -27,7 +27,7 @@ The RES-Q IG models one registry case as a connected set of FHIR resources. The 
 | `Appointment` | Three-month follow-up appointment | [Follow-up Appointment](StructureDefinition-follow-up-appointment-profile.md) |
 | `Communication` | Three-month contact modality and communication status | [Three-Month Communication](StructureDefinition-three-month-communication-profile.md) |
 
-## How to Navigate
+### How to Navigate
 
 Use [Discharge Patient Summary](discharge-patient-summary.md) when you need the document-level Composition. Use [Profiles](profiles.md) when you know the FHIR resource type. Use [Modeling Decisions](modeling-decisions.md) when you need to understand why a registry field was placed in a given resource. Use [Terminology](terminology.md) when a profile binds an element to a generated ValueSet.
 

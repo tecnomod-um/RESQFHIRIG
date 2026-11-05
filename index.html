@@ -372,7 +372,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2026-10-28
+            as of 2026-11-05
           
         
       </td>
@@ -396,15 +396,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#start-here" id="markdown-toc-start-here">Start here</a></li>
+  <li><a href="#scope" id="markdown-toc-scope">Scope</a></li>
+  <li><a href="#resource-graph" id="markdown-toc-resource-graph">Resource graph</a></li>
+  <li><a href="#modeling-conventions" id="markdown-toc-modeling-conventions">Modeling conventions</a></li>
+  <li><a href="#known-normalization-notes" id="markdown-toc-known-normalization-notes">Known normalization notes</a></li>
+</ul>
+
 </div>
 <p>This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.</p>
 
 <div class="resq-hero">
   <div>
     <p class="resq-kicker">FHIR R5 implementation guide</p>
-    <h2>Stroke registry data, organized as navigable FHIR resources</h2>
+    <h3>Stroke registry data, organized as navigable FHIR resources</h3>
     <p>The model turns one stroke episode into a connected resource graph: a patient and encounter anchor the record, while diagnoses, observations, procedures, medications, reports and follow-up resources describe the clinical pathway.</p>
   </div>
   <div class="resq-stat-grid">
@@ -415,7 +422,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </div>
 </div>
 
-<h2 id="start-here">Start here</h2>
+<h3 id="start-here">Start here</h3>
 
 <div class="resq-card-grid">
   <a class="resq-card" href="resource-map.html">
@@ -440,11 +447,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </a>
 </div>
 
-<h2 id="scope">Scope</h2>
+<h3 id="scope">Scope</h3>
 
 <p>The IG covers the complete transaction bundle produced by <code class="language-plaintext highlighter-rouge">transform_to_fhir</code>: <code class="language-plaintext highlighter-rouge">Composition</code>, <code class="language-plaintext highlighter-rouge">Organization</code>, <code class="language-plaintext highlighter-rouge">Patient</code>, <code class="language-plaintext highlighter-rouge">Encounter</code>, <code class="language-plaintext highlighter-rouge">Location</code>, <code class="language-plaintext highlighter-rouge">Condition</code>, <code class="language-plaintext highlighter-rouge">Observation</code>, <code class="language-plaintext highlighter-rouge">Procedure</code>, <code class="language-plaintext highlighter-rouge">DiagnosticReport</code>, <code class="language-plaintext highlighter-rouge">BodyStructure</code>, <code class="language-plaintext highlighter-rouge">Medication</code>, <code class="language-plaintext highlighter-rouge">MedicationStatement</code>, <code class="language-plaintext highlighter-rouge">MedicationRequest</code>, <code class="language-plaintext highlighter-rouge">MedicationAdministration</code>, <code class="language-plaintext highlighter-rouge">PractitionerRole</code>, <code class="language-plaintext highlighter-rouge">Appointment</code> and <code class="language-plaintext highlighter-rouge">Communication</code>.</p>
 
-<h2 id="resource-graph">Resource graph</h2>
+<h3 id="resource-graph">Resource graph</h3>
 
 <pre><code class="language-mermaid">flowchart LR
   Comp["Discharge Patient Summary Composition"] --&gt; Pat
@@ -466,7 +473,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   Body["BodyStructure"] --&gt; Obs
 </code></pre>
 
-<h2 id="modeling-conventions">Modeling conventions</h2>
+<h3 id="modeling-conventions">Modeling conventions</h3>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">Patient</code> is intentionally minimal and privacy-preserving. It carries the registry identifier and a SNOMED-coded sex/gender extension; age is represented as an <code class="language-plaintext highlighter-rouge">Observation</code> because the source pipeline creates it as a measurable registry datum.</li>
@@ -477,7 +484,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Medication resources are separated by meaning: prior medication use is <code class="language-plaintext highlighter-rouge">MedicationStatement</code>, discharge prescriptions are <code class="language-plaintext highlighter-rouge">MedicationRequest</code>, and administered acute treatment is <code class="language-plaintext highlighter-rouge">MedicationAdministration</code>.</li>
 </ul>
 
-<h2 id="known-normalization-notes">Known normalization notes</h2>
+<h3 id="known-normalization-notes">Known normalization notes</h3>
 
 <p>The Python builders include both <code class="language-plaintext highlighter-rouge">required-post-acute-care-ext</code> and <code class="language-plaintext highlighter-rouge">post-acute-care-required-ext</code>. Both are preserved as separate extension URLs because both appear in the implementation. The MedicationAdministration builders also contain a typo URL <code class="language-plaintext highlighter-rouge">http://tecnomod-um-org/StructureDefinition/assessment-timing-ext</code>; the IG normalizes this to <code class="language-plaintext highlighter-rouge">http://qualityregistry.org/StructureDefinition/assessment-timing-ext</code>.</p>
 
@@ -500,7 +507,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Oct 28, 2026 15:45+0000">2026-10-28</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Nov 5, 2026 10:11+0000">2026-11-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -360,11 +360,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#document-role" id="markdown-toc-document-role">Document Role</a></li>
-  <li><a href="#section-hierarchy" id="markdown-toc-section-hierarchy">Section Hierarchy</a>    <ul>
-      <li><a href="#hospital-course-children" id="markdown-toc-hospital-course-children">Hospital Course Children</a></li>
-      <li><a href="#discharge-details-children" id="markdown-toc-discharge-details-children">Discharge Details Children</a></li>
-    </ul>
-  </li>
+  <li><a href="#section-hierarchy" id="markdown-toc-section-hierarchy">Section Hierarchy</a></li>
   <li><a href="#empty-sections" id="markdown-toc-empty-sections">Empty Sections</a></li>
   <li><a href="#stroke-specific-content" id="markdown-toc-stroke-specific-content">Stroke-Specific Content</a></li>
   <li><a href="#clinical-synthesis" id="markdown-toc-clinical-synthesis">Clinical Synthesis</a></li>
@@ -380,7 +376,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>That logical model refines the eHealth Network Hospital Discharge Report content in the EHDS context. This IG does not claim to publish the normative final EU FHIR discharge profile; it aligns the RES-Q discharge document with the evolving European logical model while keeping the registry's stroke-specific clinical resources intact.</p>
 
-<h2 id="document-role">Document Role</h2>
+<h3 id="document-role">Document Role</h3>
 
 <table>
   <thead>
@@ -437,7 +433,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="section-hierarchy">Section Hierarchy</h2>
+<h3 id="section-hierarchy">Section Hierarchy</h3>
 
 <p>RESQ2FHIR currently emits 20 section concepts: 10 root sections, 6 children under Hospital Course and 4 children under Discharge Details.</p>
 
@@ -525,7 +521,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="hospital-course-children">Hospital Course Children</h3>
+<h4 id="hospital-course-children">Hospital Course Children</h4>
 
 <table>
   <thead>
@@ -583,7 +579,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="discharge-details-children">Discharge Details Children</h3>
+<h4 id="discharge-details-children">Discharge Details Children</h4>
 
 <table>
   <thead>
@@ -627,7 +623,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="empty-sections">Empty Sections</h2>
+<h3 id="empty-sections">Empty Sections</h3>
 
 <p>Required EHDS sections remain present even when RES-Q did not collect matching data. In those cases RESQ2FHIR uses <code class="language-plaintext highlighter-rouge">section.emptyReason</code>.</p>
 
@@ -635,7 +631,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Optional sections are omitted when they have no content. Hospital Course and Discharge Details may be valid with nested <code class="language-plaintext highlighter-rouge">section.section</code> content and no direct entries. Clinical Synthesis may be valid with generated narrative only.</p>
 
-<h2 id="stroke-specific-content">Stroke-Specific Content</h2>
+<h3 id="stroke-specific-content">Stroke-Specific Content</h3>
 
 <p>Most sections use standard LOINC or SNOMED CT headings from the EHDS-aligned model. The stroke-specific RES-Q section is Treatment Timings, coded with the local section code <code class="language-plaintext highlighter-rouge">treatment-timings</code>.</p>
 
@@ -666,13 +662,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Derived indicators such as <code class="language-plaintext highlighter-rouge">D2N&lt;=45</code> are not selected into Treatment Timings.</p>
 
-<h2 id="clinical-synthesis">Clinical Synthesis</h2>
+<h3 id="clinical-synthesis">Clinical Synthesis</h3>
 
 <p>Clinical Synthesis is generated deterministically from FHIR resources that have already been modeled. It does not use an LLM and does not invent facts outside the generated resource graph.</p>
 
 <p>Depending on available resources, the narrative may include age, sex, diagnosis, admission NIHSS, relevant history, treatments, discharge NIHSS, discharge mRS, discharge medication and disposition.</p>
 
-<h2 id="document-bundle">Document Bundle</h2>
+<h3 id="document-bundle">Document Bundle</h3>
 
 <p>RESQ2FHIR builds a FHIR R5 <code class="language-plaintext highlighter-rouge">Bundle</code> with <code class="language-plaintext highlighter-rouge">type = document</code>. The <code class="language-plaintext highlighter-rouge">Composition</code> is always the first <code class="language-plaintext highlighter-rouge">Bundle.entry</code>. The Bundle then includes resources referenced by <code class="language-plaintext highlighter-rouge">Composition.section.entry</code>, plus the Patient, Encounter and Organization context resources when present.</p>
 
@@ -697,7 +693,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Oct 28, 2026 15:45+0000">2026-10-28</span>
+          IG &#169; 2026 <a style="color:var(--footer-hyperlink-text-color)" href="http://qualityregistry.org">Tecnomod / Universidad de Murcia</a>.  Package RESQFHIRIG#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Nov 5, 2026 10:11+0000">2026-11-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

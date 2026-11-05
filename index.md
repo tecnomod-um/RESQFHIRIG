@@ -8,13 +8,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ImplementationGuide/RESQFHIRIG | *Version*:1.1.0 |
-| Draft as of 2026-10-28 | *Computable Name*:RESQStrokeIG |
+| Draft as of 2026-11-05 | *Computable Name*:RESQStrokeIG |
 
 This guide describes how RES-Q stroke registry data is represented in HL7 FHIR R5. It is designed for implementers who need to create, validate, inspect or consume the FHIR resources produced from the registry transformation pipeline.
 
 FHIR R5 implementation guide
 
-## Stroke registry data, organized as navigable FHIR resources
+### Stroke registry data, organized as navigable FHIR resources
 
 The model turns one stroke episode into a connected resource graph: a patient and encounter anchor the record, while diagnoses, observations, procedures, medications, reports and follow-up resources describe the clinical pathway.
 
@@ -23,7 +23,7 @@ The model turns one stroke episode into a connected resource graph: a patient an
 [**121**Terminology artifacts](terminology.md)
 [**17**FHIR resource types](resource-map.md)
 
-## Start here
+### Start here
 
 [ **Resource map** See every FHIR resource type used in the IG and how the resources connect across a stroke episode. ](resource-map.md)
 [ **Discharge patient summary** Review the Composition profile that organizes one stroke admission into document sections. ](discharge-patient-summary.md)
@@ -31,11 +31,11 @@ The model turns one stroke episode into a connected resource graph: a patient an
 [ **Profiles by resource** Jump directly to the StructureDefinition pages for each profile. ](profiles.md)
 [ **Terminology** Review the local CodeSystems and ValueSets generated from the registry enumeration model. ](terminology.md)
 
-## Scope
+### Scope
 
 The IG covers the complete transaction bundle produced by `transform_to_fhir`: `Composition`, `Organization`, `Patient`, `Encounter`, `Location`, `Condition`, `Observation`, `Procedure`, `DiagnosticReport`, `BodyStructure`, `Medication`, `MedicationStatement`, `MedicationRequest`, `MedicationAdministration`, `PractitionerRole`, `Appointment` and `Communication`.
 
-## Resource graph
+### Resource graph
 
 ```
 flowchart LR
@@ -59,7 +59,7 @@ flowchart LR
 
 ```
 
-## Modeling conventions
+### Modeling conventions
 
 * `Patient` is intentionally minimal and privacy-preserving. It carries the registry identifier and a SNOMED-coded sex/gender extension; age is represented as an `Observation` because the source pipeline creates it as a measurable registry datum.
 * `Encounter` is the clinical anchor for the index stroke episode. It carries admission source, discharge disposition, first-hospital flag, post-acute-care flag and EMS prenotification.
@@ -68,7 +68,7 @@ flowchart LR
 * `Procedure` is used for actions performed or considered in care delivery: imaging, reperfusion, swallowing screening, VTE prophylaxis, carotid endarterectomy and other stroke treatments.
 * Medication resources are separated by meaning: prior medication use is `MedicationStatement`, discharge prescriptions are `MedicationRequest`, and administered acute treatment is `MedicationAdministration`.
 
-## Known normalization notes
+### Known normalization notes
 
 The Python builders include both `required-post-acute-care-ext` and `post-acute-care-required-ext`. Both are preserved as separate extension URLs because both appear in the implementation. The MedicationAdministration builders also contain a typo URL `http://tecnomod-um-org/StructureDefinition/assessment-timing-ext`; the IG normalizes this to `http://qualityregistry.org/StructureDefinition/assessment-timing-ext`.
 
@@ -85,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-10-28T15:45:11+00:00",
+  "date" : "2026-11-05T10:11:12+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
