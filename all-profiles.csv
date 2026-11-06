@@ -6259,7 +6259,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:diagnosticSummary","Composition.section.section","diagnosticSummary","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required final diagnosis and supporting diagnostic findings","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:diagnosticSummary.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6314,7 +6314,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:significantProcedures","Composition.section.section","significantProcedures","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required clinically significant procedures performed or considered","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:significantProcedures.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6369,7 +6369,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:treatmentTimings","Composition.section.section","treatmentTimings","","",0,1,"Y","","","BackboneElement {[]} {[]}
 ","Optional stroke-specific RES-Q timing metrics D2N, D2G and D2D","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:treatmentTimings.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6424,7 +6424,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:medicalDevices","Composition.section.section","medicalDevices","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required EHDS medical devices section; represented as not asked when RES-Q has no device data","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:medicalDevices.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6485,7 +6485,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:pharmacotherapy","Composition.section.section","pharmacotherapy","","",0,1,"Y","","","BackboneElement {[]} {[]}
 ","Optional medication administrations during acute or post-acute stroke care","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:pharmacotherapy.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6540,7 +6540,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:significantResults","Composition.section.section","significantResults","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required relevant diagnostic, imaging and laboratory results","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:hospitalCourse.section:significantResults.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6696,7 +6696,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:vitalSigns","Composition.section.section","vitalSigns","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required vital signs relevant to discharge status","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:vitalSigns.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6751,7 +6751,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:anthropometry","Composition.section.section","anthropometry","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required anthropometric measurements section; represented as not asked when RES-Q has no anthropometry data","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:anthropometry.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6812,7 +6812,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:physicalExamination","Composition.section.section","physicalExamination","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required physical examination section; represented as not asked when RES-Q has no physical examination data","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:physicalExamination.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""
@@ -6873,7 +6873,7 @@ cmp-2","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 "
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:functionalStatus","Composition.section.section","functionalStatus","","",1,1,"Y","","","BackboneElement {[]} {[]}
 ","Required functional and neurological status at discharge","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}"
 "resq-stroke-discharge-composition","Composition.section:dischargeDetails.section:functionalStatus.id","Composition.section.section.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
 ",""

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/screening-performer-vs | *Version*:1.1.0 |
-| Active as of 2026-11-05 | *Computable Name*:ScreeningPerformerVS |
+| Active as of 2026-11-06 | *Computable Name*:ScreeningPerformerVS |
 
  
 Allowed coded values for ScreeningPerformer 
@@ -51,7 +51,7 @@ Allowed coded values for ScreeningPerformer
   "title" : "ScreeningPerformer ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:29+00:00",
+  "date" : "2026-11-06T09:38:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/bool-vs | *Version*:1.1.0 |
-| Active as of 2026-11-05 | *Computable Name*:BoolVS |
+| Active as of 2026-11-06 | *Computable Name*:BoolVS |
 
  
 Allowed coded values for Bool 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "Bool ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:29+00:00",
+  "date" : "2026-11-06T09:38:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

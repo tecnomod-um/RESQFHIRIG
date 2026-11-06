@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/ValueSet/body-sites-vs | *Version*:1.1.0 |
-| Active as of 2026-11-05 | *Computable Name*:BodySitesVS |
+| Active as of 2026-11-06 | *Computable Name*:BodySitesVS |
 
  
 Allowed coded values for BodySites 
@@ -52,7 +52,7 @@ Allowed coded values for BodySites
   "title" : "BodySites ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:29+00:00",
+  "date" : "2026-11-06T09:38:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

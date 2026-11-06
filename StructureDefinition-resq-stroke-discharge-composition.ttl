@@ -21,7 +21,7 @@
   fhir:title [ fhir:v "RESQ Stroke Discharge Patient Summary Composition"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-11-05T10:11:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-11-06T09:38:16+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -6773,6 +6773,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -7350,6 +7368,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -7921,6 +7957,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -8490,6 +8544,24 @@
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
          ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
@@ -9070,6 +9142,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -9640,6 +9730,24 @@
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
          ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
@@ -11329,6 +11437,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -11899,6 +12025,24 @@
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
          ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
@@ -12479,6 +12623,24 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
@@ -13057,6 +13219,24 @@
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section must contain at least one of text, entries, or sub-sections" ] ;
+         fhir:expression [ fhir:v "text.exists() or entry.exists() or section.exists()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+         ]
+       ] [
+         fhir:key [ fhir:v "cmp-2" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "A section can only have an emptyReason if it is empty" ] ;
+         fhir:expression [ fhir:v "emptyReason.empty() or entry.empty()" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
          ]
        ] ) ;
        fhir:mustSupport [ fhir:v true ] ;

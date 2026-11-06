@@ -324,7 +324,7 @@
   <title value="RESQ Stroke Discharge Patient Summary Composition"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-11-05T10:11:29+00:00"/>
+  <date value="2026-11-06T09:38:16+00:00"/>
   <publisher value="Tecnomod / Universidad de Murcia"/>
   <contact>
     <name value="Tecnomod / Universidad de Murcia"/>
@@ -6277,6 +6277,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -6778,6 +6792,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -7277,6 +7305,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -7775,6 +7817,20 @@
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
@@ -8282,6 +8338,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -8780,6 +8850,20 @@
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
@@ -10253,6 +10337,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -10751,6 +10849,20 @@
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
@@ -11258,6 +11370,20 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -11763,6 +11889,20 @@
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-1"/>
+        <severity value="error"/>
+        <human value="A section must contain at least one of text, entries, or sub-sections"/>
+        <expression value="text.exists() or entry.exists() or section.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      </constraint>
+      <constraint>
+        <key value="cmp-2"/>
+        <severity value="error"/>
+        <human value="A section can only have an emptyReason if it is empty"/>
+        <expression value="emptyReason.empty() or entry.empty()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Composition"/>
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>

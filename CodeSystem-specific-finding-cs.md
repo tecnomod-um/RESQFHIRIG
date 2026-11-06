@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://qualityregistry.org/CodeSystem/specific-finding-cs | *Version*:1.1.0 |
-| Active as of 2026-11-05 | *Computable Name*:SpecificFindingCS |
+| Active as of 2026-11-06 | *Computable Name*:SpecificFindingCS |
 
  
 Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/specific-finding-cs. 
@@ -32,7 +32,7 @@ Local RESQ stroke registry CodeSystem generated from enum_models.py for system h
   "title" : "SpecificFindingCs CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:29+00:00",
+  "date" : "2026-11-06T09:38:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

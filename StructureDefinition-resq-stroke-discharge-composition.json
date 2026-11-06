@@ -11,7 +11,7 @@
   "title" : "RESQ Stroke Discharge Patient Summary Composition",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-05T10:11:29+00:00",
+  "date" : "2026-11-06T09:38:16+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -6157,6 +6157,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -6675,6 +6689,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -7191,6 +7219,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -7707,6 +7749,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -8230,6 +8286,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -8746,6 +8816,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -10268,6 +10352,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -10784,6 +10882,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -11307,6 +11419,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -11830,6 +11956,20 @@
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "cmp-1",
+        "severity" : "error",
+        "human" : "A section must contain at least one of text, entries, or sub-sections",
+        "expression" : "text.exists() or entry.exists() or section.exists()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
+      },
+      {
+        "key" : "cmp-2",
+        "severity" : "error",
+        "human" : "A section can only have an emptyReason if it is empty",
+        "expression" : "emptyReason.empty() or entry.empty()",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Composition"
       }],
       "mustSupport" : true,
       "isModifier" : false,
