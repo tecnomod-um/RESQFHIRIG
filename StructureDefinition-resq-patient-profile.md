@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-patient-profile
   "title" : "RESQ Patient Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-06T09:38:16+00:00",
+  "date" : "2026-11-06T09:43:35+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",

@@ -123,6 +123,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [MRsScore ValueSet](ValueSet-mrs-score-vs.md) | Allowed coded values for MRsScore |
 | [MTiciScore ValueSet](ValueSet-mtici-score-vs.md) | Allowed coded values for MTiciScore |
 | [ManagementAppointment ValueSet](ValueSet-management-appointment-vs.md) | Allowed coded values for ManagementAppointment |
+| [MedicationStatus ValueSet](ValueSet-medication-status-vs.md) | Allowed coded values for MedicationStatus |
 | [Medications ValueSet](ValueSet-medications-vs.md) | Allowed coded values for Medications |
 | [MimicsDiagnosis ValueSet](ValueSet-mimics-diagnosis-vs.md) | Allowed coded values for MimicsDiagnosis |
 | [Nimodipinetiming ValueSet](ValueSet-nimodipinetiming-vs.md) | Allowed coded values for Nimodipinetiming |
@@ -177,6 +178,7 @@ These define new code systems used by systems conforming to this implementation 
 | [CarotidEndarterectomyTimingCs CodeSystem](CodeSystem-carotid-endarterectomy-timing-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/carotid-endarterectomy-timing-cs. |
 | [DischargeDeptCs CodeSystem](CodeSystem-discharge-dept-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-dept-cs. |
 | [DischargeMedicationCs CodeSystem](CodeSystem-discharge-medication-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-cs. |
+| [DischargeMedicationStatusCs CodeSystem](CodeSystem-discharge-medication-status-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs. |
 | [FirstContactPlaceCs CodeSystem](CodeSystem-first-contact-place-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/first-contact-place-cs. |
 | [FunctionalScoreCs CodeSystem](CodeSystem-functional-score-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/functional-score-cs. |
 | [HemorrhagicStrokeBleedingReasonCs CodeSystem](CodeSystem-hemorrhagic-stroke-bleeding-reason-cs.md) | Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/hemorrhagic-stroke-bleeding-reason-cs. |

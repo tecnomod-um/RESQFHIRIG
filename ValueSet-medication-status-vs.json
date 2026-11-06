@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medication-status-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medication-status-vs</b></p><a name=\"medication-status-vs\"> </a><a name=\"hcmedication-status-vs\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-discharge-medication-status-cs.html\"><code>http://qualityregistry.org/CodeSystem/discharge-medication-status-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> versión &#x1F4E6;1.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-discharge-medication-status-cs.html#discharge-medication-status-cs-medication-prescribed-at-discharge\">medication-prescribed-at-discharge</a></td><td>Medication Prescribed at Discharge</td></tr><tr><td><a href=\"CodeSystem-discharge-medication-status-cs.html#discharge-medication-status-cs-medication-class\">medication-class</a></td><td>Medication class queried at Discharge</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://qualityregistry.org/ValueSet/medication-status-vs",
+  "version" : "1.1.0",
+  "name" : "MedicationStatusVS",
+  "title" : "MedicationStatus ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-06T09:43:35+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://qualityregistry.org"
+    }]
+  }],
+  "description" : "Allowed coded values for MedicationStatus",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://qualityregistry.org/CodeSystem/discharge-medication-status-cs",
+      "concept" : [{
+        "code" : "medication-prescribed-at-discharge",
+        "display" : "Medication Prescribed at Discharge"
+      },
+      {
+        "code" : "medication-class",
+        "display" : "Medication class queried at Discharge"
+      }]
+    }]
+  }
+}

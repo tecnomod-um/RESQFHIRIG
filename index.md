@@ -85,7 +85,7 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
   "name" : "RESQStrokeIG",
   "title" : "RESQ Stroke Registry Implementation Guide",
   "status" : "draft",
-  "date" : "2026-11-06T09:38:16+00:00",
+  "date" : "2026-11-06T09:43:35+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
@@ -618,6 +618,22 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "DischargeMedicationCs CodeSystem",
       "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-cs.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-discharge-medication-status-cs.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/discharge-medication-status-cs"
+      },
+      "name" : "DischargeMedicationStatusCs CodeSystem",
+      "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs.",
       "isExample" : false
     },
     {
@@ -1338,6 +1354,22 @@ The Python builders include both `required-post-acute-care-ext` and `post-acute-
       },
       "name" : "Medications ValueSet",
       "description" : "Allowed coded values for Medications",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-medication-status-vs.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medication-status-vs"
+      },
+      "name" : "MedicationStatus ValueSet",
+      "description" : "Allowed coded values for MedicationStatus",
       "isExample" : false
     },
     {

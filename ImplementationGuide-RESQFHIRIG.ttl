@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "RESQStrokeIG"] ; # 
   fhir:title [ fhir:v "RESQ Stroke Registry Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-11-06T09:38:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-11-06T09:43:35+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Tecnomod / Universidad de Murcia"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Tecnomod / Universidad de Murcia" ] ;
@@ -532,6 +532,21 @@
        ] ;
        fhir:name [ fhir:v "DischargeMedicationCs CodeSystem" ] ;
        fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-cs." ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://qualityregistry.org/CodeSystem/discharge-medication-status-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/discharge-medication-status-cs" ]
+       ] ;
+       fhir:name [ fhir:v "DischargeMedicationStatusCs CodeSystem" ] ;
+       fhir:description [ fhir:v "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs." ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [
@@ -1219,6 +1234,21 @@
        ] ;
        fhir:name [ fhir:v "Medications ValueSet" ] ;
        fhir:description [ fhir:v "Allowed coded values for Medications" ] ;
+       fhir:isExample [ fhir:v false ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://qualityregistry.org/ValueSet/medication-status-vs> ;
+         fhir:reference [ fhir:v "ValueSet/medication-status-vs" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationStatus ValueSet" ] ;
+       fhir:description [ fhir:v "Allowed coded values for MedicationStatus" ] ;
        fhir:isExample [ fhir:v false ]
      ] [
        fhir:extension ( [

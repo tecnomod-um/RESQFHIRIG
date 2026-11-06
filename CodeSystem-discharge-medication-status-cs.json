@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "discharge-medication-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem discharge-medication-status-cs</b></p><a name=\"discharge-medication-status-cs\"> </a><a name=\"hcdischarge-medication-status-cs\"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/discharge-medication-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">medication-prescribed-at-discharge<a name=\"discharge-medication-status-cs-medication-prescribed-at-discharge\"> </a></td><td>Medication Prescribed at Discharge</td></tr><tr><td style=\"white-space:nowrap\">medication-class<a name=\"discharge-medication-status-cs-medication-class\"> </a></td><td>Medication class queried at Discharge</td></tr></table></div>"
+  },
+  "url" : "http://qualityregistry.org/CodeSystem/discharge-medication-status-cs",
+  "version" : "1.1.0",
+  "name" : "DischargeMedicationStatusCS",
+  "title" : "DischargeMedicationStatusCs CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-06T09:43:35+00:00",
+  "publisher" : "Tecnomod / Universidad de Murcia",
+  "contact" : [{
+    "name" : "Tecnomod / Universidad de Murcia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://qualityregistry.org"
+    }]
+  }],
+  "description" : "Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "medication-prescribed-at-discharge",
+    "display" : "Medication Prescribed at Discharge"
+  },
+  {
+    "code" : "medication-class",
+    "display" : "Medication class queried at Discharge"
+  }]
+}

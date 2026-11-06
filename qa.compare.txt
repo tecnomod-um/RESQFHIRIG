@@ -1,16 +1,17 @@
 RESQStrokeIG : Validation Results
 =========================================
 
-err = 54, warn = 1605, info = 789, broken links = 5
+err = 54, warn = 1619, info = 793, broken links = 5
 $--
 Generated $--. FHIR version $-- for RESQFHIRIG#$-- (canonical = http://qualityregistry.org)
- Build Errors : 7 / 1337 / 0
+ Build Errors : 7 / 1349 / 0
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-analytics-codes-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-assessment-context-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-brain-imaging-type-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-carotid-endarterectomy-timing-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-discharge-dept-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-discharge-medication-cs : 0 / 1 / 3
+ /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-discharge-medication-status-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-first-contact-place-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-functional-score-cs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/CodeSystem-hemorrhagic-stroke-bleeding-reason-cs : 0 / 1 / 3
@@ -154,6 +155,7 @@ Generated $--. FHIR version $-- for RESQFHIRIG#$-- (canonical = http://qualityre
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-laterality-vs : 0 / 2 / 19
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-locations-vs : 2 / 1 / 10
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-management-appointment-vs : 0 / 1 / 3
+ /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-medication-status-vs : 0 / 1 / 3
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-medications-vs : 0 / 1 / 27
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-mimics-diagnosis-vs : 0 / 1 / 8
  /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-mrs-score-vs : 0 / 1 / 3
@@ -243,6 +245,12 @@ WARNING: CodeSystem-discharge-medication-cs.html#/html/body/div/div/div/p/a at L
 WARNING: CodeSystem-discharge-medication-cs.json.html#/html/body/div/div/div/p/a at Line 525, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-discharge-medication-cs.ttl.html#/html/body/div/div/div/p/a at Line 515, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-discharge-medication-cs.xml.html#/html/body/div/div/div/p/a at Line 516, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs-testing.html#/html/body/div/div/div/p/a at Line 441, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs.change.history.html#/html/body/div/div/div/p/a at Line 410, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs.html#/html/body/div/div/div/p/a at Line 473, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs.json.html#/html/body/div/div/div/p/a at Line 485, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs.ttl.html#/html/body/div/div/div/p/a at Line 485, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-discharge-medication-status-cs.xml.html#/html/body/div/div/div/p/a at Line 477, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-first-contact-place-cs-testing.html#/html/body/div/div/div/p/a at Line 441, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-first-contact-place-cs.change.history.html#/html/body/div/div/div/p/a at Line 410, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: CodeSystem-first-contact-place-cs.html#/html/body/div/div/div/p/a at Line 473, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
@@ -1264,6 +1272,12 @@ WARNING: ValueSet-management-appointment-vs.html#/html/body/div/div/div/p/a at L
 WARNING: ValueSet-management-appointment-vs.json.html#/html/body/div/div/div/p/a at Line 497, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-management-appointment-vs.ttl.html#/html/body/div/div/div/p/a at Line 493, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-management-appointment-vs.xml.html#/html/body/div/div/div/p/a at Line 486, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs-testing.html#/html/body/div/div/div/p/a at Line 441, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs.change.history.html#/html/body/div/div/div/p/a at Line 410, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs.html#/html/body/div/div/div/p/a at Line 508, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs.json.html#/html/body/div/div/div/p/a at Line 489, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs.ttl.html#/html/body/div/div/div/p/a at Line 487, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-medication-status-vs.xml.html#/html/body/div/div/div/p/a at Line 478, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-medications-vs-testing.html#/html/body/div/div/div/p/a at Line 441, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-medications-vs.change.history.html#/html/body/div/div/div/p/a at Line 410, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-medications-vs.html#/html/body/div/div/div/p/a at Line 561, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
@@ -1522,7 +1536,7 @@ WARNING: ValueSet-vte-procedures-vs.html#/html/body/div/div/div/p/a at Line 528,
 WARNING: ValueSet-vte-procedures-vs.json.html#/html/body/div/div/div/p/a at Line 522, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vte-procedures-vs.ttl.html#/html/body/div/div/div/p/a at Line 511, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-vte-procedures-vs.xml.html#/html/body/div/div/div/p/a at Line 514, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
-WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 2127, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 2145, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: discharge-patient-summary.html#/html/body/div/div/div/p/a at Line 696, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 WARNING: downloads.html#/html/body/div/div/div/p/a at Line 423, column 27: The link 'http://qualityregistry.org' for "Tecnomod / Universidad de Murcia" is a canonical link and is therefore unsafe with regard to versions
 ERROR: /home/runner/work/RESQFHIRIG/RESQFHIRIG/output/downloads.html: The html source references validator.pack which is deprecated. Change the IG to describe the use of the package system instead
@@ -1580,6 +1594,12 @@ WARNING: Resource: The resource CodeSystem/discharge-dept-cs should have an OID 
 INFORMATION: CodeSystem/discharge-medication-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: CodeSystem/discharge-medication-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
 WARNING: Resource: The resource CodeSystem/discharge-medication-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-discharge-medication-status-cs.json ==
+INFORMATION: CodeSystem/discharge-medication-status-cs: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: CodeSystem/discharge-medication-status-cs: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/discharge-medication-status-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/CodeSystem-first-contact-place-cs.json ==
@@ -2784,6 +2804,12 @@ ERROR: /home/runner/work/RESQFHIRIG/RESQFHIRIG/fsh-generated/resources/ValueSet-
 INFORMATION: ValueSet/management-appointment-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 INFORMATION: ValueSet/management-appointment-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
 WARNING: Resource: The resource ValueSet/management-appointment-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-medication-status-vs.json ==
+INFORMATION: ValueSet/medication-status-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/medication-status-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'es-ES'. The display is 'Spain' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/medication-status-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-medications-vs.json ==

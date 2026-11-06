@@ -292,6 +292,15 @@
     "systems" : ["http://qualityregistry.org/CodeSystem/management-appointment-cs"]
   },
   {
+    "url" : "http://qualityregistry.org/ValueSet/medication-status-vs",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "MedicationStatusVS",
+    "title" : "MedicationStatus ValueSet",
+    "description" : "Allowed coded values for MedicationStatus",
+    "systems" : ["http://qualityregistry.org/CodeSystem/discharge-medication-status-cs"]
+  },
+  {
     "url" : "http://qualityregistry.org/ValueSet/medications-vs",
     "version" : "1.1.0",
     "status" : "active",

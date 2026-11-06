@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="discharge-medication-status-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem discharge-medication-status-cs</b></p><a name="discharge-medication-status-cs"> </a><a name="hcdischarge-medication-status-cs"> </a><p>This case-insensitive code system <code>http://qualityregistry.org/CodeSystem/discharge-medication-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">medication-prescribed-at-discharge<a name="discharge-medication-status-cs-medication-prescribed-at-discharge"> </a></td><td>Medication Prescribed at Discharge</td></tr><tr><td style="white-space:nowrap">medication-class<a name="discharge-medication-status-cs-medication-class"> </a></td><td>Medication class queried at Discharge</td></tr></table></div>
+  </text>
+  <url value="http://qualityregistry.org/CodeSystem/discharge-medication-status-cs"/>
+  <version value="1.1.0"/>
+  <name value="DischargeMedicationStatusCS"/>
+  <title value="DischargeMedicationStatusCs CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-11-06T09:43:35+00:00"/>
+  <publisher value="Tecnomod / Universidad de Murcia"/>
+  <contact>
+    <name value="Tecnomod / Universidad de Murcia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://qualityregistry.org"/>
+    </telecom>
+  </contact>
+  <description value="Local RESQ stroke registry CodeSystem generated from enum_models.py for system http://qualityregistry.org/CodeSystem/discharge-medication-status-cs."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="medication-prescribed-at-discharge"/>
+    <display value="Medication Prescribed at Discharge"/>
+  </concept>
+  <concept>
+    <code value="medication-class"/>
+    <display value="Medication class queried at Discharge"/>
+  </concept>
+</CodeSystem>
