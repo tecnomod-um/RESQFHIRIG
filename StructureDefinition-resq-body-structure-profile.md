@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-resq-body-structure-
   "title" : "RESQ BodyStructure Profile",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-06T09:43:35+00:00",
+  "date" : "2026-11-06T09:50:34+00:00",
   "publisher" : "Tecnomod / Universidad de Murcia",
   "contact" : [{
     "name" : "Tecnomod / Universidad de Murcia",
